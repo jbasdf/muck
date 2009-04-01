@@ -1,0 +1,55 @@
+default: &DEFAULT
+
+  # Sent in emails to users
+  application_name: 'muck'
+
+  # Email charset
+  mail_charset: 'utf-8'
+
+  automatically_activate: false
+  send_welcome: true
+  allow_anonymous_commenting: false
+  automatically_login_after_account_create: true
+  
+  # if you use recaptcha you will need to also provide a public and private
+  # key available from http://recaptcha.net.
+  use_recaptcha: true
+  recaptcha_pub_key: GET_A_RECAPTCHA_KEY(TODO)
+  recaptcha_priv_key: GET_A_RECAPTCHA_KEY(TODO)
+  
+  growl: true 
+  
+  support_email: 'support@muckthis.com.com'
+  customer_service_number: '1-800-'
+  
+production:
+  <<: *DEFAULT
+
+  # Sent in emails to users
+  application_url: 'www.muckthis.com'
+
+  # Source address for user emails
+  email_from: 'support@muckthis.com'
+
+staging:
+  <<: *DEFAULT
+
+  # Sent in emails to users
+  application_url: 'staging.muckthis.com'
+    
+development:
+  <<: *DEFAULT
+
+  application_url: 'localhost:3000'
+  
+test:
+  <<: *DEFAULT
+
+  # controls account activation and automatic login
+  automatically_activate: false
+  automatically_login_after_account_create: false
+  
+  # turn off for testing
+  use_recaptcha: false
+  
+  application_url: 'localhost:3000'

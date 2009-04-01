@@ -1,0 +1,17 @@
+en:
+  contact: 
+    contact_us: 'Contact Us'
+    name: 'Your name:'
+    name_help: 'Please provide us with your name.'
+    phone: 'Your phone number:'
+    phone_help: 'Your phone number is optional but will help us contact you if necessary.'
+    email: 'Your email:'
+    email_help: 'Please provide us with your email so that we can contact you if necessary.'
+    subject: 'Subject:'
+    subject_help: 'A simple statement indicating the nature of your feedback.'
+    question: 'Your message/question:'
+    question_help: 'Please include any comments you would like us to hear.'
+    contact_response_subject: 'Thanks for your inquiry from {{application_name}}!'
+  general:
+    thank_you_contact: 'Thank you for your message.  A member of our team will respond to you shortly.'
+    send: 'Send'

@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  	<head>
+  		<title><%= @page_title || GlobalConfig.application_name %></title>
+  		<meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
+  		<meta http-equiv="imagetoolbar" content="no" />
+  		<meta name="distribution" content="all" />
+  		<meta name="robots" content="all" />	
+  		<meta name="resource-type" content="document" />
+  		<meta name="MSSmartTagsPreventParsing" content="true" />
+  		<%= stylesheet_link_tag 'reset' %>
+  		<%= stylesheet_link_tag 'styles' %>
+  		<%= javascript_include_tag "jquery/jquery.js" %>
+      <%= javascript_include_tag "jquery/jquery-ui.js" %>
+      <%= javascript_include_tag "jquery/jrails.js" %>
+      <%= javascript_include_tag "jquery/jquery.jgrowl.js" %>
+      <%= javascript_include_tag "jquery/jquery.tips.js" %>
+      <%= javascript_include_tag "application.js" %>
+      <%= javascript_tag %[const AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
+      <%= yield :head -%>
+  	</head>
+  	<body>
+  	  <div id="wrapper">
+  	    <div id="header">
+
+        </div>
+        <div id="content-wrapper">
+          <div id="content">
+  		      <%= yield :layout %>
+  		    </div>
+  		  </div>
+  		</div>
+  		<script type="text/javascript" language="JavaScript">
+      jQuery(document).ready(function(){
+        <%= yield :ready %>
+      });
+      </script>  
+  	</body>
+  </html>

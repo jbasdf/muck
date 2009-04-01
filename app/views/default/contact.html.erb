@@ -1,0 +1,43 @@
+<div id="contact">
+
+	<h2><%= I18n.t('contact.contact_us') %></h2>
+
+	<form action="/contact/" method="post">
+	
+	  <div class="row clear">
+	    <label for="form_name"><%= I18n.t('contact.name') %></label>
+	    <div class="formHelp"><%= I18n.t('contact.name_help') %></div>
+	    <input type="text" id="form_name" name="name" />
+	  </div>
+
+	  <div class="row clear">
+	    <label for="form_phone"><%= I18n.t('contact.phone') %></label>
+			<div class="formHelp"><%= I18n.t('contact.phone_help') %></div>
+	    <input type="text" id="form_phone" name="phone" />
+	  </div>
+
+	  <div class="row clear">
+	    <label for="form_email"><%= I18n.t('contact.email') %></label>
+			<div class="formHelp"><%= I18n.t('contact.email_help') %></div>
+	    <input type="text" id="form_email" name="email" />
+	  </div>
+
+	  <div class="row clear">
+	    <label for="form_message"><%= I18n.t('contact.subject') %></label>
+			<div class="formHelp"><%= I18n.t('contact.subject_help') %></div>
+	    <input type="text" id="form_email" name="email" />
+	  </div>
+	
+	  <div class="row clear">
+	    <label for="form_message"><%= I18n.t('contact.question') %></label>
+	    <div class="formHelp"><%= I18n.t('contact.question_help') %></div>
+			<textarea id="form_message" name="message"></textarea>
+	  </div>
+
+	  <input type="submit" value="<%= I18n.t('general.send') %>" class="button"/>
+  
+	  <div class="clear"></div>
+
+	</form>
+		
+</div>

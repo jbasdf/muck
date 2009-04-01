@@ -1,0 +1,62 @@
+//jQuery.noConflict();
+
+jQuery(document).ajaxSend(function(event, request, settings) {
+  if (typeof(AUTH_TOKEN) == "undefined") return;
+  settings.data = settings.data || "";
+  settings.data += (settings.data ? "&" : "") + "authenticity_token=" + encodeURIComponent(AUTH_TOKEN);
+});
+
+function setup_submit_delete(){
+	jQuery(".submit-delete").click(function() {
+		if(!confirm("Are you sure?")){
+			return false;
+		}
+		jQuery(this).parents('.delete-container').fadeOut();
+		var form = jQuery(this).parents('form');
+		jQuery.post(form.attr('action') + '.js', form.serialize(),
+		  function(data){
+				jQuery.jGrowl.info(data);
+		  });			
+		return false;
+	});
+}
+
+function show_hide_obj (ary_objs_to_show, ary_objs_to_hide)
+{
+ 	for (i=0;i<ary_objs_to_show.length;i++) {
+ 		if (obj_to_show = document.getElementById(ary_objs_to_show[i])) obj_to_show.style.display="";
+ 		if (tab = document.getElementById('anchor'+ary_objs_to_show[i])) tab.className = 'curTab';
+ 	}
+ 	for (i=0;i<ary_objs_to_hide.length;i++) {
+ 		if (obj_to_hide = document.getElementById(ary_objs_to_hide[i])) obj_to_hide.style.display="none";
+ 		if (tab = document.getElementById('anchor'+ary_objs_to_hide[i])) tab.className = '';
+ 	}
+}
+
+jQuery.jGrowl.defaults.position = 'center';
+
+jQuery.jGrowl.info = function(msg){
+	jQuery.jGrowl(msg, {sticky:true});
+}
+
+jQuery.jGrowl.warn = function(msg){
+	jQuery.jGrowl(msg);	
+}
+
+jQuery.jGrowl.error = function(msg){
+	jQuery.jGrowl(msg, {sticky:true,header:"Please correct the following errors:"});	
+}
+
+jQuery(document).ready(function() {
+	jQuery("#global-login").focus(function() {
+		jQuery("#global-login").val("");
+	});
+	
+	jQuery("#global-password").focus(function() {
+		jQuery("#global-password").val("");
+	});
+	
+	jQuery("#quick-login-submit").click(function() {
+		jQuery("#quick-login").submit();
+	});	
+});

@@ -1,0 +1,9 @@
+[submodule "vendor/plugins/muck_engine"]
+	path = vendor/plugins/muck_engine
+	url = git://github.com/jbasdf/muck_engine.git
+[submodule "vendor/plugins/muck_users_engine"]
+	path = vendor/plugins/muck_users_engine
+	url = git://github.com/jbasdf/muck_users_engine.git
+[submodule "vendor/plugins/cms_lite"]
+	path = vendor/plugins/cms_lite
+	url = git://github.com/jbasdf/cms_lite.git
