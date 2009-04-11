@@ -1,6 +1,7 @@
 class DefaultController < ApplicationController
 
   def index
+    @activities = nil #current_user.activities.paginate(:page => @page, :per_page => @per_page)
     respond_to do |format|
       format.html { render }
     end

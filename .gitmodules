@@ -7,3 +7,6 @@
 [submodule "vendor/plugins/cms_lite"]
 	path = vendor/plugins/cms_lite
 	url = git://github.com/jbasdf/cms_lite.git
+[submodule "vendor/plugins/muck_activity_engine"]
+	path = vendor/plugins/muck_activity_engine
+	url = git://github.com/jbasdf/muck_activity_engine.git
