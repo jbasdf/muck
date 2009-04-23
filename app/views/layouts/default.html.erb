@@ -8,8 +8,10 @@
   		<meta name="robots" content="all" />	
   		<meta name="resource-type" content="document" />
   		<meta name="MSSmartTagsPreventParsing" content="true" />
-  		<%= stylesheet_link_tag 'reset' %>
-  		<%= stylesheet_link_tag 'styles' %>
+      <%= stylesheet_link_tag 'blueprint/screen.css' %>
+      <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
+      <!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+      <%= stylesheet_link_tag 'styles' %>
   		<%= javascript_include_tag "jquery/jquery.js" %>
       <%= javascript_include_tag "jquery/jquery-ui.js" %>
       <%= javascript_include_tag "jquery/jrails.js" %>

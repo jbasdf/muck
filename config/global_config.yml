@@ -13,7 +13,7 @@ default: &DEFAULT
   
   # if you use recaptcha you will need to also provide a public and private
   # key available from http://recaptcha.net.
-  use_recaptcha: true
+  use_recaptcha: false
   recaptcha_pub_key: GET_A_RECAPTCHA_KEY(TODO)
   recaptcha_priv_key: GET_A_RECAPTCHA_KEY(TODO)
   

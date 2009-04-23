@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   
-  acts_as_authenticated_user
+  acts_as_authentic
+  acts_as_muck_user
   acts_as_tagger
   
   has_permalink :login, :url_key

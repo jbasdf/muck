@@ -5,11 +5,9 @@ class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   
-  filter_parameter_logging :password, :password_confirmation
   rescue_from ActiveRecord::RecordNotFound, :with => :record_not_found
    
   before_filter :set_body_class
-  before_filter :login_from_cookie
   
   protected
 
