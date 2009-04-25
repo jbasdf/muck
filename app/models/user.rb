@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   acts_as_muck_user
   acts_as_tagger
   
-  has_permalink :login, :url_key
+  has_friendly_id :login
 
   def short_name
     self.first_name || login
@@ -16,10 +16,6 @@ class User < ActiveRecord::Base
     else
       ((self.first_name || '') + ' ' + (self.last_name || '')).strip
     end
-  end
-
-  def to_param
-    self.url_key
   end
 
   def display_name

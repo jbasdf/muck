@@ -1,18 +1,17 @@
-#register{width:500px;margin:40px auto;}
-
 /* forms */
-input{margin:0 10px 5px 0;padding:4px;color:#231f20;font-size:1.3em;color:#231f20;}
+input{margin:0 10px 5px 0;padding:4px;font-size:1.3em;}
 input[type="text"],input[type="password"]{border:1px solid #8f8685;}
 input[type="checkbox"]{border:none;margin-bottom:0px;}
 input[type="radio"]{border:none;}
-textarea{font-size:1.4em;margin:0 10px 0 0;padding:4px;border:1px solid #8f8685;color:#231f20;width:500px;}
-label{font-size:1.5em;font-weight:bold;color:#807574;margin:0 10px 5px 0;padding:0px;display:block;}
+textarea{font-size:1.4em;margin:0 10px 0 0;padding:4px;border:1px solid #8f8685;}
+label{font-size:1.5em;font-weight:bold;margin:0 10px 5px 0;padding:0px;display:block;}
 form em{color:#b61e12;font-style:normal;font-size:90%;}
 form hr{border:1px solid #e3e0c3;height:1px;margin:15px 0;}
-fieldset span.var{margin:2px 5px 5px 18px;display:block;font-style:normal;font-weight:normal;color:#4A3F3B;}
+fieldset span.var{margin:2px 5px 5px 18px;display:block;}
 fieldset{border:none;margin:0;padding:0;}
 form fieldset{margin:0 0 2px;padding:0px;}
 form fieldset input[type="text"],form fieldset input[type="password"]{width:500px;}
+.common-form{width:500px;margin:40px auto;}
 .form-item{float:left;}
 
 /* tips */
