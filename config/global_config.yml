@@ -4,6 +4,7 @@ default: &DEFAULT
   application_name: 'muck'
   from_email: 'support@muckthis.com'
   support_email: 'support@muckthis.com'
+  admin_email: 'admin@muckthis.com'
   customer_service_number: '1-800-'
 
   # Email charset
@@ -19,7 +20,7 @@ default: &DEFAULT
   recaptcha_pub_key: GET_A_RECAPTCHA_KEY(TODO)
   recaptcha_priv_key: GET_A_RECAPTCHA_KEY(TODO)
   
-  growl: true
+  growl: false
   
 production:
   <<: *DEFAULT
