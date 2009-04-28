@@ -22,6 +22,9 @@ default: &DEFAULT
   
   growl: false
   
+  # application configuration
+  let_users_delete_their_account: false  # turn on/off ability for users to delete their own account
+  
 production:
   <<: *DEFAULT
 

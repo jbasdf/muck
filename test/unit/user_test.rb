@@ -86,7 +86,7 @@ class UserTest < ActiveSupport::TestCase
 
   should "be in the admin role" do
     admin = users(:admin)
-    assert admin.is_admin?
+    assert admin.admin?
   end
   
 #  should "Fail to create a new user because they didn't agree to terms of service" do
