@@ -13,8 +13,10 @@ form fieldset{margin:0 0 2px;padding:0px;}
 form fieldset input[type="text"],form fieldset input[type="password"]{width:500px;}
 .common-form{width:500px;margin:40px auto;}
 .form-item{float:left;}
+.common-content{width:500px;margin:40px auto;font-size:1.2em;color:#555;}
 
 /* tips */
+.availability{color:#b61e12;}
 .hidden-tips{display:none;}
 .required-tip{color:#555555;font-size:1.2em;margin:0pt;font-weight:bolder;height:0px;}
 #tip_close_left,#tip_close_right{font-size:1.1em;}
@@ -53,15 +55,10 @@ div.jGrowl div.jGrowl-notification div.header{font-weight:bold;font-size:1.6em;}
 div.jGrowl div.jGrowl-notification div.close{float:right;font-weight:bold;font-size:2em;cursor:pointer;color:#555;}
 div.jGrowl div.jGrowl-notification div.close:hover{color:#ccc;}
 div.jGrowl div.jGrowl-closer{height:15px;padding-top:4px;padding-bottom:4px;cursor:pointer;font-size:11px;font-weight:bold;text-align:center;}
-/* Errors -- removed in favor of jgrowl
-.inline-message p{background:#e3e3e3;border:1px solid #b2b2b2;padding:7px 5px;font-weight:bolder;color:#B61E12;margin:5px;}
-.message p,#flashMessage{padding:7px 5px;margin:8px 0;font-size:1.5em;font-weight:bolder;}
-.message-box{padding:7px;margin:0;font-size:1.2em;color:#555;}
-.help-box{background:#e3e3e3;border:1px solid #b2b2b2;margin-left:10px;}
+/* Errors */
+.help-box{font-size:1.2em;color:#555;}
 .fieldWithErrors input{border:solid 2px #B61E12;}
 #errorExplanation{padding:7px;padding-bottom:12px;margin-bottom:20px;}
-#errorExplanation h2{text-align:left;font-weight:bold;padding:5px 5px 5px 15px;font-size:16px;margin:-7px;background-color:#B61E12;color:#fff;}
+#errorExplanation h2{text-align:left;font-weight:bold;padding:5px 5px 5px 15px;font-size:16px;background-color:#B61E12;color:#fff;}
 #errorExplanation p{color:#333;margin-bottom:0;padding:5px;}
-#errorExplanation ul li{font-size:12px;list-style:square;}
-.notice{padding:5px;margin-bottom:5px;clear:both;border:2px solid red;background:#f0f0f0;font-size:12px;}
-*/
+#errorExplanation ul li{list-style:square;}
