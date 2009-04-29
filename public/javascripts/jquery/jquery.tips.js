@@ -9,76 +9,55 @@ jQuery(document).ready(function() {
 			help_id = jQuery('#' + this.id).siblings('#tip-id').html();
 		}		
 		var tip_text = jQuery('#' + help_id + "-help").html();
-		var tip_title = jQuery('#' + help_id + "-help-title").html();		
-		var width = 400;
-		show_tip(control_id, tip_title, tip_text, width);
+		var tip_title = jQuery('#' + help_id + "-help-title").html();
+		var tip_position = jQuery('#' + help_id + "-help-position").html();
+		if (!tip_position) { tip_position = 'right'; }
+		show_tip(control_id, tip_title, tip_text, tip_position);
 		jQuery("#" + help_id + "-container").addClass("active");
 	});
-	
+
 	jQuery(".tip-field").blur(function() {
 		jQuery('#tip').remove();
 	});
-	
-	jQuery(".required-value").blur(function() {
-		if (jQuery(this).val().length == 0) {
-			jQuery('#' + this.id + '_required').show();
-		} else {
-			jQuery('#' + this.id + '_required').hide();
-			jQuery('#' + this.id + '-label-required').hide();
-		}
-	});
-
-	jQuery(".delete-container").click(function() {
-		jQuery(this).parent().remove();
-  });
-
 });
 
-function show_tip(object_id,title,tip_text,width){
-	if(title == false || title == null)title="&nbsp;";	
-	var de = document.documentElement;
-	var w = self.innerWidth || (de&&de.clientWidth) || document.body.clientWidth;
-	var hasArea = w - getAbsoluteLeft(object_id);
-	var clickElementy = getAbsoluteTop(object_id) - 3; //set y position
+function show_tip(object_id,title,tip_text,position) {
+	if(title == false || title == null)title="&nbsp;";
+	var elem = jQuery('#' + object_id);
+	var elemPos = elem.offset();
+	var elemWidth = elem.outerWidth();
+	var elemHeight = elem.outerHeight();
+	// default is bottom
+	var position_class = 'bottom-tip';
+	var tip_header = '';
+	var posX = elemPos.left;
+	var posY = elemPos.top + elemHeight;
 	
-	if(hasArea>((width*1)+75)){
-		$("body").append("<div id='tip' style='width:"+width*1+"px'><div id='tip_arrow_left'></div><div id='tip_close_left'>"+title+"</div><div id='tip_copy'><div class='tip_loader'>"+tip_text+"<div></div></div>");//right side
-		var arrowOffset = getElementWidth(object_id) + 11;
-		var clickElementx = getAbsoluteLeft(object_id) + arrowOffset; //set x position
-	}else{
-		$("body").append("<div id='tip' style='width:"+width*1+"px'><div id='tip_arrow_right' style='left:"+((width*1)+1)+"px'></div><div id='tip_close_right'>"+title+"</div><div id='tip_copy'><div class='tip_loader'>"+tip_text+"<div></div></div>");//left side
-		var clickElementx = getAbsoluteLeft(object_id) - ((width*1) + 15); //set x position
+	if (position == 'right'){
+		posX = elemPos.left + elemWidth;
+		posY = elemPos.top;
+		position_class = 'right-tip';
+	} else if (position == 'left') {
+		position_class = 'left-tip';
+	} else if (position == 'top') {
+		position_class = 'top-tip';
 	}
+
+	var tip_header = '<div id="tip-header"></div>';
+	var tip_content = '<div id="tip-title">' + title + '</div><div id="tip-main"><div class="tip-content">' + tip_text + '</div></div>';
+	var combined = tip_header + tip_content;
+	if (position == 'top') { combined = tip_content + tip_header; }
+	jQuery("body").append('<div id="tip" class="' + position_class + '">' + combined + '</div>');
+	var tool_tip = jQuery('#tip');
 	
-	$('#tip').css({left: clickElementx+"px", top: clickElementy+"px"});
-	$('#tip').show();
-}
-
-function getElementWidth(objectId) {
-	x = document.getElementById(objectId);
-	return x.offsetWidth;
-}
-
-function getAbsoluteLeft(objectId) {
-	// Get an object left position from the upper left viewport corner
-	o = document.getElementById(objectId)
-	oLeft = o.offsetLeft            // Get left position from the parent object
-	while(o.offsetParent!=null) {   // Parse the parent hierarchy up to the document element
-		oParent = o.offsetParent    // Get parent object reference
-		oLeft += oParent.offsetLeft // Add parent left position
-		o = oParent
+	if (position == 'left') {
+		posX = elemPos.left - (tool_tip.outerWidth() + parseInt(tool_tip.css('margin-right')));
+		posY = elemPos.top;
+	} else if (position == 'top') {
+		posX = elemPos.left;
+		posY = elemPos.top - (tool_tip.outerHeight() + parseInt(tool_tip.css('margin-bottom')));
 	}
-	return oLeft
-}
-
-function getAbsoluteTop(objectId) {
-	// Get an object top position from the upper left viewport corner
-	o = document.getElementById(objectId)
-	oTop = o.offsetTop            // Get top position from the parent object
-	while(o.offsetParent!=null) { // Parse the parent hierarchy up to the document element
-		oParent = o.offsetParent  // Get parent object reference
-		oTop += oParent.offsetTop // Add parent top position
-		o = oParent
-	}
-	return oTop
+			
+	tool_tip.css({left: posX + "px", top: posY + "px"});
+	tool_tip.show();
 }

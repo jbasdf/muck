@@ -19,15 +19,22 @@ form fieldset input[type="text"],form fieldset input[type="password"]{width:500p
 .availability{color:#b61e12;}
 .hidden-tips{display:none;}
 .required-tip{color:#555555;font-size:1.2em;margin:0pt;font-weight:bolder;height:0px;}
-#tip_close_left,#tip_close_right{font-size:1.1em;}
-#tip_copy p,#tip_copy ul{font-size:1.3em;}
-#tip_arrow_left{background-image:url(/images/arrow_left.gif);background-repeat:no-repeat;background-position:left top;position:absolute;z-index:101;left:-12px;height:23px;width:10px;top:-3px;}
-#tip_arrow_right{background-image:url(/images/arrow_right.gif);background-repeat:no-repeat;background-position:left top;position:absolute;z-index:101;height:23px;width:11px;top:-2px;}
-#tip{position:absolute;z-index:100;border:2px solid #CCCCCC;background-color:#fff;}
-#tip_copy{padding:10px 10px 10px 10px;color:#333333;}
-.tip_loader{width:100%;}
-#tip_close_left{background-color:#CCCCCC;text-align:left;padding-left:8px;padding-bottom:5px;padding-top:2px;font-weight:bold;}
-#tip_close_right{background-color:#CCCCCC;text-align:left;padding-left:8px;padding-bottom:5px;padding-top:2px;font-weight:bold;}
+#tip{position:absolute;z-index:100;border:2px solid #CCCCCC;background-color:#fff;width:400px;}
+#tip-title{font-size:1.1em;background-color:#CCCCCC;text-align:left;padding:2px 0px 5px 8px;font-weight:bold;}
+#tip-main{padding:10px;color:#333333;}
+#tip-main p,#tip-main ul{font-size:1.3em;}
+#tip-main p{margin:3px 0;}
+#tip-header{position:absolute;z-index:101;background-repeat:no-repeat;}
+.tip-content{width:100%;}
+.top-tip{margin:0px 0px 12px 0px;}
+.top-tip #tip-header{background-image:url(/images/arrow_down.gif);height:10px;width:23px;}
+.left-tip{margin-right:12px;}
+.left-tip #tip-header{background-image:url(/images/arrow_right.gif);height:23px;width:11px;top:-2px;left:12px;background-position:right top;width:100%;}
+.bottom-tip{margin:12px 0px 0px 0px;}
+.bottom-tip #tip-header{background-image:url(/images/arrow_up.gif);left:0px;height:10px;width:23px;top:-12px;}
+.right-tip{margin:1px 0px 0px 12px;}
+.right-tip #tip-header{background-image:url(/images/arrow_left.gif);left:-12px;height:23px;width:10px;top:-3px;}
+.bottom-tip #tip-header, .right-tip #tip-header{background-position:left top;}
 #tip_copy p{margin:3px 0;}
 
 /*jGrowl*/
