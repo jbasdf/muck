@@ -17,13 +17,17 @@ jQuery(document).ready(function() {
 	});
 
 	jQuery(".tip-field").blur(function() {
-		jQuery('#tip').remove();
+		jQuery('#' + this.id + '-tip').hide(1);
 	});
 });
 
 function show_tip(object_id,title,tip_text,position) {
 	if(title == false || title == null)title="&nbsp;";
+	var tip_id = object_id + '-tip';
 	var elem = jQuery('#' + object_id);
+	if(elem[0].type == 'checkbox') {
+		elem = elem.siblings("label");
+	}
 	var elemPos = elem.offset();
 	var elemWidth = elem.outerWidth();
 	var elemHeight = elem.outerHeight();
@@ -47,8 +51,8 @@ function show_tip(object_id,title,tip_text,position) {
 	var tip_content = '<div id="tip-title">' + title + '</div><div id="tip-main"><div class="tip-content">' + tip_text + '</div></div>';
 	var combined = tip_header + tip_content;
 	if (position == 'top') { combined = tip_content + tip_header; }
-	jQuery("body").append('<div id="tip" class="' + position_class + '">' + combined + '</div>');
-	var tool_tip = jQuery('#tip');
+	jQuery("body").append('<div id="' + tip_id + '" class="tip ' + position_class + '">' + combined + '</div>');
+	var tool_tip = jQuery('#' + tip_id);
 	
 	if (position == 'left') {
 		posX = elemPos.left - (tool_tip.outerWidth() + parseInt(tool_tip.css('margin-right')));
