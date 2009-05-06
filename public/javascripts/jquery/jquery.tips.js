@@ -24,6 +24,7 @@ jQuery(document).ready(function() {
 function show_tip(object_id,title,tip_text,position) {
 	if(title == false || title == null)title="&nbsp;";
 	var tip_id = object_id + '-tip';
+	jQuery('#' + tip_id).remove();
 	var elem = jQuery('#' + object_id);
 	if(elem[0].type == 'checkbox') {
 		elem = elem.siblings("label");
