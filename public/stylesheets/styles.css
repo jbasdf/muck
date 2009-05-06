@@ -19,7 +19,7 @@ form fieldset input[type="text"],form fieldset input[type="password"]{width:500p
 .availability{color:#b61e12;}
 .hidden-tips{display:none;}
 .required-tip{color:#555555;font-size:1.2em;margin:0pt;font-weight:bolder;height:0px;}
-#tip{position:absolute;z-index:100;border:2px solid #CCCCCC;background-color:#fff;width:400px;}
+.tip{position:absolute;z-index:100;border:2px solid #CCCCCC;background-color:#fff;width:400px;}
 #tip-title{font-size:1.1em;background-color:#CCCCCC;text-align:left;padding:2px 0px 5px 8px;font-weight:bold;}
 #tip-main{padding:10px;color:#333333;}
 #tip-main p,#tip-main ul{font-size:1.3em;}
@@ -35,7 +35,6 @@ form fieldset input[type="text"],form fieldset input[type="password"]{width:500p
 .right-tip{margin:1px 0px 0px 12px;}
 .right-tip #tip-header{background-image:url(/images/arrow_left.gif);left:-12px;height:23px;width:10px;top:-3px;}
 .bottom-tip #tip-header, .right-tip #tip-header{background-position:left top;}
-#tip_copy p{margin:3px 0;}
 
 /*jGrowl*/
 div.jGrowl{padding:10px;z-index:9999;}

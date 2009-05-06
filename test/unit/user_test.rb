@@ -25,15 +25,6 @@ class UserTest < ActiveSupport::TestCase
     should_allow_values_for :login, 'testguy', 'test-guy'
     
   end
-  
-  should "Create a new user and a feed item" do
-    assert_difference 'User.count' do
-      assert_difference 'FeedItem.count' do
-        user = Factory(:user)
-        assert !user.new_record?, "#{user.errors.full_messages.to_sentence}"
-      end
-    end
-  end
 
   should "have full name" do
     assert_difference 'User.count' do

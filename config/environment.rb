@@ -20,7 +20,7 @@ Rails::Initializer.run do |config|
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com'
-  config.gem "authlogic"
+  config.gem "authlogic", :version => ">=2.0.11"
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.0.5"
   
   # Only load the plugins named here, in the order given (default is alphabetical).
