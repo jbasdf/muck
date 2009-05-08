@@ -1,0 +1,1 @@
+<javascript> перевірка </javascript>
