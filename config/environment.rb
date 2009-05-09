@@ -23,7 +23,6 @@ Rails::Initializer.run do |config|
   config.gem "authlogic", :version => ">=2.0.11"
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.0.5"
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
-#  config.gem 'jbasdf-cms_lite', :lib => 'cms_lite', :source => 'http://gems.github.com'
   config.gem 'cms-lite', :lib => 'cms_lite'
 
   
