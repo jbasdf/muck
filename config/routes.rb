@@ -8,7 +8,6 @@ ActionController::Routing::Routes.draw do |map|
   map.sitemap '/sitemap', :controller => 'default', :action => 'sitemap'
   map.ping '/ping', :controller => 'default', :action => 'ping'
   
-  # Install the default routes as the lowest priority.
-  map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+#  map.public_user_path '/profiles/:id', :controller => 'profiles', :action => 'show'
+  
 end  

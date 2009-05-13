@@ -1,0 +1,15 @@
+<% content_for :head do  -%>
+	<%# TODO get rss working = auto_discovery_link_tag :rss, formatted_profile_url(current_user, :rss), :title=>"#{current_user.login}'s recent activity" %>
+	<%#= auto_discovery_link_tag :rss, formatted_user_blogs_url(current_user, :rss), :title=>"#{current_user.login}'s Blogs" %>
+	<%#= auto_discovery_link_tag :rss, formatted_user_photos_url(current_user, :rss), :title=>"#{current_user.login}'s Photos" %>
+<% end -%>
+
+<div class="span-15 prepend-1 colborder">
+  <%= status_update(@user) %>
+  <%= activity_feed_for(@user) %>
+</div>
+
+<div class="span-7 last">
+ 
+</div>
+

@@ -5,23 +5,17 @@ class User < ActiveRecord::Base
   end
   acts_as_muck_user
   acts_as_tagger
-  
+  has_activities
   has_friendly_id :login
-
-  def short_name
-    self.first_name || login
+  
+  def after_create
+    content = I18n.t('muck.activities.joined_status', :name => self.full_name, :application_name => GlobalConfig.application_name)
+    add_activity(self, self, self, 'status_update', '', content)
   end
   
-  def full_name
-    if self.first_name.blank? && self.last_name.blank?
-      self.login rescue 'Deleted user'
-    else
-      ((self.first_name || '') + ' ' + (self.last_name || '')).strip
-    end
-  end
-
-  def display_name
-    h(self.login)
+  # This is only a place holder.  Override this method to feed activities to the appropriate places
+  def feed_to
+    [self]
   end
   
 end
