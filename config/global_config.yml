@@ -20,7 +20,10 @@ default: &DEFAULT
   recaptcha_pub_key: GET_A_RECAPTCHA_KEY(TODO)
   recaptcha_priv_key: GET_A_RECAPTCHA_KEY(TODO)
   
-  growl: false
+  # jgrowl related settings
+  growl_enabled: true
+  growl_flash_messages: false
+  growl_ar_errors: false
   
   # application configuration
   let_users_delete_their_account: false  # turn on/off ability for users to delete their own account
