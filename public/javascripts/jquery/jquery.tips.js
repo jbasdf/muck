@@ -52,6 +52,7 @@ function show_tip(object_id,title,tip_text,position) {
 	var tip_content = '<div id="tip-title">' + title + '</div><div id="tip-main"><div class="tip-content">' + tip_text + '</div></div>';
 	var combined = tip_header + tip_content;
 	if (position == 'top') { combined = tip_content + tip_header; }
+	jQuery('#' + tip_id).remove(); // remove the old one
 	jQuery("body").append('<div id="' + tip_id + '" class="tip ' + position_class + '">' + combined + '</div>');
 	var tool_tip = jQuery('#' + tip_id);
 	

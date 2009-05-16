@@ -80,8 +80,8 @@
       <h3 class="section-bar">Methods</h3>
 
       <div class="name-list">
-      <a href="#M000003">acts_as_activity_source</a>&nbsp;&nbsp;
-      <a href="#M000002">has_activities</a>&nbsp;&nbsp;
+      <a href="#M000002">acts_as_activity_source</a>&nbsp;&nbsp;
+      <a href="#M000001">has_activities</a>&nbsp;&nbsp;
       </div>
     </div>
 
@@ -111,64 +111,64 @@
     <div id="methods">
       <h3 class="section-bar">Public Instance methods</h3>
 
-      <div id="method-M000003" class="method-detail">
-        <a name="M000003"></a>
+      <div id="method-M000002" class="method-detail">
+        <a name="M000002"></a>
 
         <div class="method-heading">
-          <a href="#M000003" class="method-signature">
+          <a href="#M000002" class="method-signature">
           <span class="method-name">acts_as_activity_source</span><span class="method-args">()</span>
           </a>
         </div>
       
         <div class="method-description">
           <p>
-<tt><a href="ActMethods.html#M000003">acts_as_activity_source</a></tt>
+<tt><a href="ActMethods.html#M000002">acts_as_activity_source</a></tt>
 gives the class it is called on a method called <tt>add_activity</tt> that
 can add activities into a feed.
 </p>
           <p><a class="source-toggle" href="#"
-            onclick="toggleCode('M000003-source');return false;">[Source]</a></p>
-          <div class="method-source-code" id="M000003-source">
+            onclick="toggleCode('M000002-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000002-source">
 <pre>
-    <span class="ruby-comment cmt"># File vendor/plugins/muck_activity_engine/lib/muck_activity_engine.rb, line 23</span>
-23:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">acts_as_activity_source</span>
-24:       <span class="ruby-keyword kw">unless</span> <span class="ruby-identifier">included_modules</span>.<span class="ruby-identifier">include?</span> <span class="ruby-constant">InstanceMethods</span>
-25:         <span class="ruby-identifier">include</span> <span class="ruby-constant">InstanceMethods</span>
-26:       <span class="ruby-keyword kw">end</span>
-27:     <span class="ruby-keyword kw">end</span>
+    <span class="ruby-comment cmt"># File vendor/plugins/muck_activity_engine/lib/muck_activity_engine.rb, line 26</span>
+26:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">acts_as_activity_source</span>
+27:       <span class="ruby-keyword kw">unless</span> <span class="ruby-identifier">included_modules</span>.<span class="ruby-identifier">include?</span> <span class="ruby-constant">InstanceMethods</span>
+28:         <span class="ruby-identifier">include</span> <span class="ruby-constant">InstanceMethods</span>
+29:       <span class="ruby-keyword kw">end</span>
+30:     <span class="ruby-keyword kw">end</span>
 </pre>
           </div>
         </div>
       </div>
 
-      <div id="method-M000002" class="method-detail">
-        <a name="M000002"></a>
+      <div id="method-M000001" class="method-detail">
+        <a name="M000001"></a>
 
         <div class="method-heading">
-          <a href="#M000002" class="method-signature">
+          <a href="#M000001" class="method-signature">
           <span class="method-name">has_activities</span><span class="method-args">()</span>
           </a>
         </div>
       
         <div class="method-description">
           <p>
-<tt><a href="ActMethods.html#M000002">has_activities</a></tt> gives the
+<tt><a href="ActMethods.html#M000001">has_activities</a></tt> gives the
 class it is called on an activity feed and a method called
 <tt>add_activity</tt> that can add activities into a feed. Retrieve
 activity feed items via object.activities. ie @user.activities.
 </p>
           <p><a class="source-toggle" href="#"
-            onclick="toggleCode('M000002-source');return false;">[Source]</a></p>
-          <div class="method-source-code" id="M000002-source">
+            onclick="toggleCode('M000001-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000001-source">
 <pre>
-    <span class="ruby-comment cmt"># File vendor/plugins/muck_activity_engine/lib/muck_activity_engine.rb, line 13</span>
-13:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">has_activities</span>
-14:       <span class="ruby-keyword kw">unless</span> <span class="ruby-identifier">included_modules</span>.<span class="ruby-identifier">include?</span> <span class="ruby-constant">InstanceMethods</span>
-15:         <span class="ruby-identifier">has_many</span> <span class="ruby-identifier">:activity_feeds</span>, <span class="ruby-identifier">:as</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">:ownable</span>
-16:         <span class="ruby-identifier">has_many</span> <span class="ruby-identifier">:activities</span>, <span class="ruby-identifier">:through</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">:activity_feeds</span>, <span class="ruby-identifier">:order</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value str">'created_at desc'</span>
-17:         <span class="ruby-identifier">include</span> <span class="ruby-constant">InstanceMethods</span>
-18:       <span class="ruby-keyword kw">end</span>
-19:     <span class="ruby-keyword kw">end</span>
+    <span class="ruby-comment cmt"># File vendor/plugins/muck_activity_engine/lib/muck_activity_engine.rb, line 16</span>
+16:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">has_activities</span>
+17:       <span class="ruby-keyword kw">unless</span> <span class="ruby-identifier">included_modules</span>.<span class="ruby-identifier">include?</span> <span class="ruby-constant">InstanceMethods</span>
+18:         <span class="ruby-identifier">has_many</span> <span class="ruby-identifier">:activity_feeds</span>, <span class="ruby-identifier">:as</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">:ownable</span>
+19:         <span class="ruby-identifier">has_many</span> <span class="ruby-identifier">:activities</span>, <span class="ruby-identifier">:through</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">:activity_feeds</span>, <span class="ruby-identifier">:order</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value str">'created_at desc'</span>
+20:         <span class="ruby-identifier">include</span> <span class="ruby-constant">InstanceMethods</span>
+21:       <span class="ruby-keyword kw">end</span>
+22:     <span class="ruby-keyword kw">end</span>
 </pre>
           </div>
         </div>

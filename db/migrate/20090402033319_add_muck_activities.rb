@@ -10,7 +10,8 @@ class AddMuckActivities < ActiveRecord::Migration
       t.string   :source_type
       t.text     :content
       t.string   :title
-      t.boolean  :status_update, :default => false
+      t.boolean  :is_status_update, :default => false
+      t.boolean  :is_public, :default => true
       t.timestamps
     end
 

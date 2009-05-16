@@ -1,4 +1,4 @@
-class Test::Unit::TestCase
+class ActiveSupport::TestCase
   # Example:
   # context "a GET to index logged in as admin" do
   # setup do

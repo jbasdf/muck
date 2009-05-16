@@ -80,8 +80,8 @@
       <h3 class="section-bar">Methods</h3>
 
       <div class="name-list">
-      <a href="#M000004">add_activity</a>&nbsp;&nbsp;
-      <a href="#M000005">status</a>&nbsp;&nbsp;
+      <a href="#M000003">add_activity</a>&nbsp;&nbsp;
+      <a href="#M000004">status</a>&nbsp;&nbsp;
       </div>
     </div>
 
@@ -103,18 +103,18 @@
     <div id="methods">
       <h3 class="section-bar">Public Instance methods</h3>
 
-      <div id="method-M000004" class="method-detail">
-        <a name="M000004"></a>
+      <div id="method-M000003" class="method-detail">
+        <a name="M000003"></a>
 
         <div class="method-heading">
-          <a href="#M000004" class="method-signature">
+          <a href="#M000003" class="method-signature">
           <span class="method-name">add_activity</span><span class="method-args">(feed_to, source, item, template, title = '', content = '', check_method = nil)</span>
           </a>
         </div>
       
         <div class="method-description">
           <p>
-<tt><a href="InstanceMethods.html#M000004">add_activity</a></tt> adds an
+<tt><a href="InstanceMethods.html#M000003">add_activity</a></tt> adds an
 activity to all activites feeds that belong to the objects found in
 feed_to.
 </p>
@@ -155,51 +155,51 @@ feed.
 </li>
 </ul>
           <p><a class="source-toggle" href="#"
-            onclick="toggleCode('M000004-source');return false;">[Source]</a></p>
-          <div class="method-source-code" id="M000004-source">
+            onclick="toggleCode('M000003-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000003-source">
 <pre>
-    <span class="ruby-comment cmt"># File vendor/plugins/muck_activity_engine/lib/muck_activity_engine.rb, line 46</span>
-46:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">add_activity</span>(<span class="ruby-identifier">feed_to</span>, <span class="ruby-identifier">source</span>, <span class="ruby-identifier">item</span>, <span class="ruby-identifier">template</span>, <span class="ruby-identifier">title</span> = <span class="ruby-value str">''</span>, <span class="ruby-identifier">content</span> = <span class="ruby-value str">''</span>, <span class="ruby-identifier">check_method</span> = <span class="ruby-keyword kw">nil</span>)
-47:       <span class="ruby-identifier">feed_to</span> = [<span class="ruby-identifier">feed_to</span>] <span class="ruby-keyword kw">unless</span> <span class="ruby-identifier">feed_to</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Array</span>)
-48:       <span class="ruby-identifier">activity</span> = <span class="ruby-constant">Activity</span>.<span class="ruby-identifier">create</span>(<span class="ruby-identifier">:item</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">item</span>, <span class="ruby-identifier">:source</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">source</span>, <span class="ruby-identifier">:template</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">template</span>, <span class="ruby-identifier">:title</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">title</span>, <span class="ruby-identifier">:content</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">content</span>)
-49:       <span class="ruby-identifier">feed_to</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">ft</span><span class="ruby-operator">|</span>
-50:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">check_method</span>
-51:           <span class="ruby-identifier">ft</span>.<span class="ruby-identifier">activities</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">activity</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">ft</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">check_method</span>)
-52:         <span class="ruby-keyword kw">else</span>
-53:           <span class="ruby-identifier">ft</span>.<span class="ruby-identifier">activities</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">activity</span>
-54:         <span class="ruby-keyword kw">end</span>
-55:       <span class="ruby-keyword kw">end</span>
-56:     <span class="ruby-keyword kw">end</span>
+    <span class="ruby-comment cmt"># File vendor/plugins/muck_activity_engine/lib/muck_activity_engine.rb, line 49</span>
+49:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">add_activity</span>(<span class="ruby-identifier">feed_to</span>, <span class="ruby-identifier">source</span>, <span class="ruby-identifier">item</span>, <span class="ruby-identifier">template</span>, <span class="ruby-identifier">title</span> = <span class="ruby-value str">''</span>, <span class="ruby-identifier">content</span> = <span class="ruby-value str">''</span>, <span class="ruby-identifier">check_method</span> = <span class="ruby-keyword kw">nil</span>)
+50:       <span class="ruby-identifier">feed_to</span> = [<span class="ruby-identifier">feed_to</span>] <span class="ruby-keyword kw">unless</span> <span class="ruby-identifier">feed_to</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Array</span>)
+51:       <span class="ruby-identifier">activity</span> = <span class="ruby-constant">Activity</span>.<span class="ruby-identifier">create</span>(<span class="ruby-identifier">:item</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">item</span>, <span class="ruby-identifier">:source</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">source</span>, <span class="ruby-identifier">:template</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">template</span>, <span class="ruby-identifier">:title</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">title</span>, <span class="ruby-identifier">:content</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">content</span>)
+52:       <span class="ruby-identifier">feed_to</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">ft</span><span class="ruby-operator">|</span>
+53:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">check_method</span>
+54:           <span class="ruby-identifier">ft</span>.<span class="ruby-identifier">activities</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">activity</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">ft</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">check_method</span>)
+55:         <span class="ruby-keyword kw">else</span>
+56:           <span class="ruby-identifier">ft</span>.<span class="ruby-identifier">activities</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">activity</span>
+57:         <span class="ruby-keyword kw">end</span>
+58:       <span class="ruby-keyword kw">end</span>
+59:     <span class="ruby-keyword kw">end</span>
 </pre>
           </div>
         </div>
       </div>
 
-      <div id="method-M000005" class="method-detail">
-        <a name="M000005"></a>
+      <div id="method-M000004" class="method-detail">
+        <a name="M000004"></a>
 
         <div class="method-heading">
-          <a href="#M000005" class="method-signature">
+          <a href="#M000004" class="method-signature">
           <span class="method-name">status</span><span class="method-args">()</span>
           </a>
         </div>
       
         <div class="method-description">
           <p>
-<tt><a href="InstanceMethods.html#M000005">status</a></tt> returns the
+<tt><a href="InstanceMethods.html#M000004">status</a></tt> returns the
 first activity item from the user&#8216;s activity feed that is a <a
-href="InstanceMethods.html#M000005">status</a> update. Used for displaying
-the last <a href="InstanceMethods.html#M000005">status</a> update the user
+href="InstanceMethods.html#M000004">status</a> update. Used for displaying
+the last <a href="InstanceMethods.html#M000004">status</a> update the user
 made
 </p>
           <p><a class="source-toggle" href="#"
-            onclick="toggleCode('M000005-source');return false;">[Source]</a></p>
-          <div class="method-source-code" id="M000005-source">
+            onclick="toggleCode('M000004-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000004-source">
 <pre>
-    <span class="ruby-comment cmt"># File vendor/plugins/muck_activity_engine/lib/muck_activity_engine.rb, line 60</span>
-60:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">status</span>
-61:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">activities</span>.<span class="ruby-identifier">find</span>(<span class="ruby-identifier">:first</span>, <span class="ruby-identifier">:conditions</span> =<span class="ruby-operator">&gt;</span> [<span class="ruby-value str">'status_update = true'</span>], <span class="ruby-identifier">:order</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value str">'created_at DESC'</span>)
-62:     <span class="ruby-keyword kw">end</span>
+    <span class="ruby-comment cmt"># File vendor/plugins/muck_activity_engine/lib/muck_activity_engine.rb, line 63</span>
+63:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">status</span>
+64:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">activities</span>.<span class="ruby-identifier">find</span>(<span class="ruby-identifier">:first</span>, <span class="ruby-identifier">:conditions</span> =<span class="ruby-operator">&gt;</span> [<span class="ruby-value str">'status_update = true'</span>], <span class="ruby-identifier">:order</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value str">'created_at DESC'</span>)
+65:     <span class="ruby-keyword kw">end</span>
 </pre>
           </div>
         </div>
