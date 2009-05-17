@@ -1,0 +1,19 @@
+<% content_for :head do  -%>
+
+<% end -%>
+
+<div id="uploads">
+	 
+	<h1><%= _("My Photos") %></h1>
+	
+	<div class="clear">
+		<%= render :partial => 'shared/uploads_menu', :locals => {:current_page => :shared} -%>
+	</div>
+	
+	<div class="activity_box">
+	<% @images.each do |img| -%>
+		<%= link_to image_tag(img.data.url(:thumb)), user_upload_path(@user, img) -%>
+	<% end -%>
+	</div>
+	<%= will_paginate @images, :previous_label => _('&laquo; Previous'), :next_label => _('Next &raquo;') %>
+</div>

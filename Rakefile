@@ -11,3 +11,6 @@ require 'tasks/rails'
 
 require 'cms_lite'
 require 'cms_lite/tasks'
+
+require 'uploader'
+require 'uploader/tasks'

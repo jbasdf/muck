@@ -40,6 +40,9 @@ class User < ActiveRecord::Base
   has_activities
   has_friendly_id :login
   
+  # Files - documents, photos, etc
+  has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy
+  
   def after_create
     content = I18n.t('muck.activities.joined_status', :name => self.full_name, :application_name => GlobalConfig.application_name)
     add_activity(self, self, self, 'status_update', '', content)

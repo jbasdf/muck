@@ -1,0 +1,5 @@
+<tr id="<%= upload_row.dom_id %>" class="<%= cycle('odd', 'even') %>" <%=style-%> >
+	<td><div class="file-icon"><%= icon_for upload_row -%></div></td>
+	<td><a href="<%=upload_row.data.url%>"><%= truncate(sanitize(upload_row.data_file_name), 100) %></a></td>
+	<td><%= upload_row.created_at.to_s(:long) -%></td>
+</tr>
