@@ -8,17 +8,20 @@ jQuery(document).ajaxSend(function(event, request, settings) {
 
 function setup_submit_delete(){
 	jQuery(".submit-delete").click(function() {
-		if(!confirm("Are you sure?")){
-			return false;
-		}
-		jQuery(this).parents('.delete-container').fadeOut();
-		var form = jQuery(this).parents('form');
-		jQuery.post(form.attr('action') + '.js', form.serialize(),
-		  function(data){
-				jQuery.jGrowl.info(data);
-		  });			
-		return false;
-	});
+		// if(!confirm("Are you sure?")){
+		// 	return false;
+		// }
+    jQuery(this).parents('.delete-container').fadeOut();
+    var form = jQuery(this).parents('form');
+    jQuery.post(form.attr('action') + '.json', form.serialize(),
+      function(data){
+        var json = eval('(' + data + ')');
+        if(!json.success){
+          jQuery.jGrowl.info(json.message);
+        }
+      });
+    return false;
+  });
 }
 
 function show_hide_obj (ary_objs_to_show, ary_objs_to_hide)

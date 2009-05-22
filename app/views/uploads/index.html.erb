@@ -13,9 +13,6 @@
 		
 		<div class="activity_box">
 			<h2>Files</h2>
-			<div id="async-messages">
-      	<span id="delete-messages"></span>
-      </div>
       <table class="clear">
       	<thead>
       		<tr>
@@ -25,28 +22,9 @@
       		</tr>
       	</thead>			
       	<tbody id="upload-list" >
-      		<%= render :partial => 'uploads/upload_row', :collection => @uploads, :locals => {:style => '', :parent => @  parent} -%>
+      		<%= render :partial => 'uploads/upload_row', :collection => @uploads, :locals => {:style => '', :parent => @parent} -%>
       	</tbody>
       </table>
-      <%= will_paginate @uploads, :previous_label => '&laquo; Previous', :next_label => 'Next &raquo;' %>
-
-      <script type="text/javascript">
-      jQuery(document).ready(function() {
-
-      	jQuery(".submit-delete").click(function() {
-      		jQuery("#delete-messages").fadeOut();
-      		jQuery(this).parents('tr').fadeOut();
-      		var form = jQuery(this).parents('form');
-      		jQuery.post(form.attr('action') + '.js', form.serialize(),
-      		  function(data){
-      				jQuery("#delete-messages").html(data);
-      				jQuery("#delete-messages").addClass('notice');
-      				jQuery("#delete-messages").fadeIn();
-      		  });			
-      		return false;
-      	});	
-      });
-      </script>
 			<div class="clear">
 	  		<%= will_paginate @uploads, :previous_label => '&laquo; Previous', :next_label => 'Next &raquo;' %>
 			</div>
@@ -57,9 +35,21 @@
 	
 	<div class="right" id="column_r">
 		<div id="upload-files" class="activity_box">
-			<h2>Upload Files</h2>
+			<h2><%= t('uploader.upload_files') %></h2>
 			<%= upload_form(@parent) %>
 		</div>
 	</div>
 	
 </div>
+
+<% content_for :javascript do  -%>
+
+  setup_submit_delete();
+
+  function upload_completed_callback(data){
+    //var json = eval('(' + data + ')');
+    //json.upload.icon
+    jQuery('#upload-list').prepend(data);
+    setup_submit_delete();
+  }
+<% end -%>

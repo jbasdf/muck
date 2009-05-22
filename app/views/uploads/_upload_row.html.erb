@@ -1,5 +1,20 @@
-<tr id="<%= upload_row.dom_id %>" class="<%= cycle('odd', 'even') %>" <%=style-%> >
-	<td><div class="file-icon"><%= icon_for upload_row -%></div></td>
-	<td><a href="<%=upload_row.data.url%>"><%= truncate(sanitize(upload_row.data_file_name), 100) %></a></td>
+<tr id="<%= upload_row.dom_id %>" class="delete-container <%= cycle('odd', 'even') %>" <%=style-%> >
+	<td><div class="file-icon"><%= image_tag upload_row.icon -%></div></td>
+	<td><a href="<%=upload_row.file.url%>"><%= truncate(sanitize(upload_row.file_name), 100) %></a></td>
 	<td><%= upload_row.created_at.to_s(:long) -%></td>
+	<td>
+		<% if parent.can_edit?(current_user) -%>
+			<% form_for(:upload, :url => upload_path(upload_row.id), :html => { :class => "delete-form", :method => :delete} ) do |f| -%>
+				<%= image_submit_tag '/images/icons/delete.png', {:id => 'submit-comment', :title => t('general.delete_file'), :class => 'submit-delete', :width => '12', :height => '12', :alt => t('general.delete_file') } %>
+			<% end -%>
+			<% if !style.empty? -%>
+			<script type="text/javascript" language="JavaScript">
+				jQuery("#<%= upload_row.dom_id %>").fadeIn("slow");
+			</script>
+			<% end -%>
+		<% end -%>
+	</td>
 </tr>
+
+
+

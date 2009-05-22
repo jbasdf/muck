@@ -9,8 +9,7 @@ ActionController::Routing::Routes.draw do |map|
   map.ping '/ping', :controller => 'default', :action => 'ping'
   
   map.resources :users
-  map.resources :uploads, :collection => { :photos => :get }
-  
+  map.resources :uploads, :collection => { :photos => :get, :swfupload => :post }
 #  map.public_user_path '/profiles/:id', :controller => 'profiles', :action => 'show'
   
 end  

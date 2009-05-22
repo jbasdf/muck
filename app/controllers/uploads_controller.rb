@@ -26,5 +26,31 @@ class UploadsController < Uploader::UploadsController
       format.js { render :json => basic_uploads_json(@files) }
     end
   end
+
+  protected
+  
+    def get_upload_text(upload)
+      render_to_string( :partial => 'uploads/upload_row', :object => upload, :locals => { :style => 'style="display:none;"', :parent => @parent } )
+    end
+    
+    def get_redirect
+      @parent
+    end
+
+    def has_permission_to_upload(user, upload_parent)
+      upload_parent.can_edit?(user)
+    end
+  
+    def permission_denied
+      message = t("uploader.permission_denied")
+      respond_to do |format|
+        format.html do
+          flash[:notice] = message
+          redirect_to get_redirect
+        end
+        format.js { render :text => message }
+        format.json { render :json => { :success => false, :message => message } }
+      end
+    end
   
 end

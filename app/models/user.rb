@@ -40,8 +40,7 @@ class User < ActiveRecord::Base
   has_activities
   has_friendly_id :login
   
-  # Files - documents, photos, etc
-  has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy
+  has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   
   def after_create
     content = I18n.t('muck.activities.joined_status', :name => self.full_name, :application_name => GlobalConfig.application_name)
@@ -51,6 +50,10 @@ class User < ActiveRecord::Base
   # This is only a place holder.  Override this method to feed activities to the appropriate places
   def feed_to
     [self]
+  end
+  
+  def can_upload?(check_user)
+    true
   end
   
 end

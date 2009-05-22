@@ -15,3 +15,4 @@ en:
   general:
     thank_you_contact: 'Thank you for your message.  A member of our team will respond to you shortly.'
     send: 'Send'
+    delete_file: "Delete File"
