@@ -1,0 +1,33 @@
+development:
+  adapter: mysql
+  database: muck_development
+  username: root
+  password:
+  host: localhost
+  encoding: utf8
+
+test:
+  adapter: mysql
+  database: muck_test
+  username: root
+  password:
+  host: localhost
+  encoding: utf8
+
+staging:
+  adapter: mysql
+  database: muck_staging
+  username: muck
+  password: 
+  host: localhost
+  encoding: utf8
+  socket: /var/lib/mysql/mysql.sock
+
+production:
+  adapter: mysql
+  database: muck_production
+  username: muck
+  password: 
+  host: localhost
+  encoding: utf8
+  socket: /var/lib/mysql/mysql.sock
