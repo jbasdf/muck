@@ -1,69 +1,46 @@
 class Recommender::EntriesController < ApplicationController
-  def initialize
-    @no_index = true
-  end
   
+  # GET /recommendations
+  # GET /recommendations.xml
   def index
-    @tags = Entry.tag_counts_on('tags', :order => 'count desc', :limit => 200)
-  end
-  
-  def tags tags
-    @documents = Entry.tagged_with(tags, :on => 'tags')
-  end
+    @details = params[:details] == "true"
 
-  # GET /documents
-  # GET /documents.xml
-  def index2
-    @limit = params[:limit] ? params[:limit].to_i : 10
+    @referrer = request.env['HTTP_REFERER']
+    @uri = params[:u] || @referrer
+    
+    if params[:educommons]
+      @uri = @uri[%r=http://.*?/.*?/[^/]+=] || @uri
+      params[:title] = true
+      params[:more_link] = true
+    end
+
+    Entry.track_time_on_page(session, @uri)
+    @document = Entry.recommender_entry(@uri)
+    I18n.locale = @document.language[0..1] if !@document.nil?
+
+    @limit = params[:limit] ? params[:limit].to_i : 5
     @limit = 25 if @limit > 25
-    @offset = params[:offset] ? params[:offset].to_i : 0
-    @documents = Entry.find(:all, :limit => @limit, :offset => @offset)
-
+    
     respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @documents }
+      format.html {
+        @languages = Language.find(:all, :order => "name")
+        order = params[:order] || "mixed"
+        redirect_to "/documents/" + @document.id.to_s + "?limit=" + @limit.to_s + "&order=" + order + "&details=" + @details.to_s if !@document.nil?
+        render(:template => '/recommendations/document_not_found.html.erb', :layout => false) if @document.nil?
+      } 
+      format.xml  { 
+        render(:template => '/recommendations/index.xml.builder', :layout => false) 
+      }
+      format.pjs {
+        if @document.nil?
+          render_text ""
+        else
+          @host = "http://" + URI.parse(@uri).host
+          render(:template => 'recommendations/index.pjs.erb', :layout => false)  
+        end
+      }
+      format.rss { render(:template => 'recommendations/index.rss.builder', :layout => false)  }
     end
   end
   
-  def frames
-    render(:template => 'documents/frames.html', :layout => false)
-  end
-
-  # GET /documents/1
-  # GET /documents/1.xml
-  def show
-    @languages = Language.find(:all, :order => "name")
-    @page_title = "Related Resources"
-    @document = Entry.find(params[:id], :include => :feed)
-    if @document.nil?
-      render_text "Unable to find the specified document"
-      return
-    end
-    @document_title = @document.title + " (" + @document.feed.short_title + ")"
-    I18n.locale = @document.language[0..1]
-    @limit = params[:limit] ? params[:limit].to_i : 20
-    @limit = 40 if @limit > 40
-
-    respond_to do |format|
-      format.html { 
-      if params[:details] == 'true'
-        render :template => "documents/details", :layout => "default"
-      else
-        render :template => "documents/show", :layout => "default"
-      end
-      }# show.html.erb
-      format.xml  { render :xml => @document }
-    end
-  end
-  
-  def track_clicks
-    user_agent = request.env['HTTP_USER_AGENT']
-    redirect_to Entry.track_click(session, params[:id], request.env['HTTP_REFERER'], params[:target], request.env['HTTP_X_FORWARDED_FOR'], user_agent) if !/Googlebot/.match(user_agent) 
-  end
-  
-  def collections
-    @feeds = Feed.find(:all, :order => "harvested_from_title, title")
-    @languages = Language.find(:all, :order => "name")
-    render :template => "documents/collections", :layout => "default"
-  end
 end
