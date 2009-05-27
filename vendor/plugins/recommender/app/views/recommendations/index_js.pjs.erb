@@ -1,0 +1,35 @@
+<% if @recs.size > 0 %>
+function avg(aRecs){dSum = 0; for(nRec = 0; nRec < aRecs.length; nRec++) {dSum += aRecs[nRec].relevance;} return dSum/aRecs.length;}
+function std(aRecs,dAvg){dSum = 0; for(nRec = 0; nRec < aRecs.length; nRec++) {dSum += Math.pow((aRecs[nRec].relevance-dAvg),2);} return Math.sqrt(dSum/aRecs.length);}
+function calcThreshold(aRecs){var average = avg(aRecs);var standard_deviation = std(aRecs, average); return average + standard_deviation;}
+function sortByClicks(r1,r2){return r2.clicks-r1.clicks;}
+function randomize(aRecs){var i = aRecs.length;if (i == 0) return aRecs;while (--i){var j = Math.floor(Math.random()*(i+1));var ti = aRecs[i];var tj=aRecs[j];aRecs[i]= tj;aRecs[j]=ti;} return aRecs;}
+function sortRecs(aRecs)
+{
+	var relevance_threshold = calcThreshold(aRecs);
+	var nClickThreshold = 10;
+	var aPopular = new Array();
+	var aRelevant = new Array();
+	var aLoosers = new Array();
+	for(nRec = 0; nRec < aRecs.length; nRec++) {
+		r = aRecs[nRec];
+		if (r.clicks > nClickThreshold) aPopular.push(r);
+		else if (r.relevance > relevance_threshold) aRelevant.push(r);
+		else aLoosers.push(r);
+	}
+	return aPopular.sort(sortByClicks).concat(randomize(aRelevant),randomize(aLoosers));
+}
+var aRecommendations = [
+<% @recs.each do |r| -%>
+{"id":<%= r.id %>, "clicks":<%= r.clicks %>, "relevance":<%= r.relevance %>, "uri":"<%= r.uri %>", "title":"<%= r.title.gsub(/"/, '&#34;').gsub(/'/, "&#39;") %>", "source":"(<%= r.source %>)"},
+<% end -%>]; 
+document.write('<div class="oer_recommender_container"><div class="oer_recommender_title">Related Resources</div><div class="oer_recommender_list">');
+var aSortedRecs = sortRecs(aRecommendations);
+for(nRec = 0; nRec < aSortedRecs.length; nRec++) 
+{
+	r = aSortedRecs[nRec];
+	document.write('<p class="oer_recommender_item"><a href="http://www.oerrecommender.org/r?id=' + r.id + "&u=" + r.uri + '" title="' + r.source + ' ' + r.title + '">' + r.title + '</a></p>');
+}
+document.write('</div></div>');	
+<% end %>
+<%= @recs_json %>

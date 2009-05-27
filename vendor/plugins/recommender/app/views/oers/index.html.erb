@@ -1,0 +1,17 @@
+<div id="finder" align="center">
+<!--
+	<div id="search-controls">
+		<% form_tag(:controller => 'search', :action => 'results') do %>
+		  <%= text_field_tag(:form_terms, @terms.nil? ? t(:search) : @terms, :id => 'search-box') %>
+		  <br/>
+		  <input type="radio" name="scope" value="all" />All
+		  <input type="radio" name="scope" value="ocws" />Courses
+		  <input type="hidden" name="locale" value="<%= session[:locale] %>">
+		<% end %>
+	</div>
+-->
+	<fieldset id="tag-cloud" class="clear">
+		<legend style="font-size:12px; color:#555;">browse resources using tags</legend>
+		<%= render :partial => 'tags' %>
+	</fieldset>
+</div>

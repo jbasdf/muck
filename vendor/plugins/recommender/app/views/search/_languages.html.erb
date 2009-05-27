@@ -1,0 +1,6 @@
+<select id="locale" name="locale" <%= (@auto_switch.nil? ? "" : "onchange=\"document.location='/?locale='+document.getElementById('locale').value\"")%>>
+<% @languages.each do |language|%>	
+<option value="<%= language.code %>"<%= language.code == session[:locale] ? " selected" : "" %>><%= language.name %></option>
+<% end %>
+</select>
+

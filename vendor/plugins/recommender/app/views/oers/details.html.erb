@@ -1,0 +1,39 @@
+<h1>OER Recommender - Related Resources - Details</h1>
+
+<% if flash[:notice] %><p style="color: green"><%= flash[:notice] %></p><% end %>
+
+<h2><%= link_to @document_title, @document.permalink %> <%= link_to "(xml)", "/recommendations.xml?u=" + @document.permalink, :class=> "catalog_link" %></h2>
+
+<table border="1" cellpadding="3px">
+<tr>
+<th>Related Resource</th>
+<th>Relevance</th>
+<th>Clicks</th>
+<th>Avg Time<br/>(seconds)</th>
+</tr>
+<% @document.ranked_recommendations(@limit, params[:order] || "mixed").each do |r| %>
+<tr>
+<td><%= link_to r["title"] + " (" + r["collection"] + ")", "/r?id=" + r["id"].to_s %></td>
+<td class="centered"><%= round(r["relevance"]) %></td>
+<td class="centered"><%= r["clicks"] %></td>
+<td class="centered"><%= r["avg_time_on_target"] %></td>
+</tr>
+<% end%>
+</table>
+
+<p>Recommendations are ordered as follows:</p>
+<ol>
+	<li><em>Popular items</em> ordered by number of clicks.</li>
+	<li><em>Highly relevant</em> items, ordered randomly.</li>
+	<li><em>Other relevant</em> items, ordered randomly.</li>
+</ol>
+
+<p>Definitions:</p>
+<ul>
+	<li><em>Popular items</em> - items that have been clicked on at least 1.5 standard deviations more than the average number of times.</li>
+	<li><em>Highly relevant</em> - items with a relevance score at least one standard deviation higher than the average relevance score.</li>
+	<li><em>Other relevant</em> - the rest of the relevant items.</li>
+</ul>
+
+</body>
+</html>

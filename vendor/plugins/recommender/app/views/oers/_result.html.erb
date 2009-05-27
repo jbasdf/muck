@@ -1,0 +1,10 @@
+<% link = result.direct_link.nil? ? result.uri : result.direct_link %>
+<% recommender_link = "/r?id=" + result.id.to_s %>
+<p> 
+  <%= link_to result.title + " (" + result.collection + ")", recommender_link + "&target=direct_link", :class => "title_link", :rel => "nofollow" %>
+  <span class='published_at'>(<%= result.published_at.strftime("%d %b %Y") %>)</span>
+  <span class='relevance_score'><%= t(:relevance)%>: <%= round(result.relevance) %></span>
+  <% if !result.direct_link.nil? %> - <%= link_to t(:metadata), recommender_link + "&target=metadata", :class => "catalog_link" %><% end %>
+  <% if result.description.length > 0 %><br/><span class="description"><%= truncate_words(result.description) %></span><% end %>
+  <br/><span class="uri"><%= link %></span> - <%= link_to t(:related_resources), "/documents/" + result.dest_entry_id.to_s, :class => "related_resources_link", :rel => "nofollow" %>
+</p>

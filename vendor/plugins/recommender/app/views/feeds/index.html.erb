@@ -1,0 +1,95 @@
+<h1>OER Recommender - Registered Collections</h1>
+
+<div style="font-size:80%">
+	
+	<p>
+		<a href="/feeds/new">Register a New Collection</a> |
+		<a href="/logout">Logout</a>
+	</p>
+<table border="1" cellpadding="6px;">
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Actions</th>
+    <th>Description</th>
+    <th>Harvest interval (hrs)</th>
+    <th>Harvested at</th>
+    <th>Failed harvests</th>
+    <th>Status</th>
+    <th>URI</th>
+  </tr>
+  
+<% for feed in @feeds %>
+  <tr>
+    <td><%= feed.id.to_s %></td>
+    <td><%= link_to feed.title, "/feeds/" + feed.id.to_s + "/entries" %> <%= link_to "[go]", feed.display_uri, :style => "color:red" %></td>
+    <td>
+    <%= link_to 'Edit', edit_feed_path(feed) %>
+<%
+=begin %>	
+    <% if feed.status >= 0 %>
+    <%= link_to 'Ban', ban_feed_path(feed), :confirm => 'Are you sure?', :method => :post %>
+    <% else %>
+    <%= link_to 'Unban', unban_feed_path(feed), :confirm => 'Are you sure?', :method => :post %>
+    <% end %>
+    <%= link_to 'Harvest', harvest_now_feed_path(feed), :method => :post %>
+    <%= link_to 'Delete', feed_path(feed), :method => :delete %>
+<%
+=end %>	
+    </td>
+    <td><%=h feed.description %></td>
+    <td><%=h feed.refresh_interval_hours %></td>
+    <td><%=h feed.last_harvested_at %></td>
+    <td><%=h feed.failed_requests %></td>
+    <td><%=h feed.error_message ? "Failed last request:" + feed.error_message : feed.status >= 0 ? "Ok" : "Banned" %></td>
+    <td><%=h feed.uri %></td>
+  </tr>
+<% end %>
+
+</table>
+
+<% if @banned_feeds.size > 0 %>
+
+<h1>Banned Feeds</h1>
+
+<table>
+  <tr>
+    <th width="200px;">Title</th>
+    <th>Description</th>
+    <th>Refresh interval</th>
+    <th>Harvested at</th>
+    <th>Failed harvests</th>
+    <th>Email</th>
+    <th>Status</th>
+    <th>Actions</th>
+  </tr>
+  
+<% for feed in @banned_feeds %>
+  <tr>
+    <td><%= link_to feed.title, "/feeds/" + feed.id.to_s + "/entries" %> <%= link_to "[go]", feed.display_uri, :style => "color:red" %></td>
+    <td>
+    <%= link_to 'Edit', edit_feed_path(feed) %>
+<%
+=begin %>	
+    <% if feed.status >= 0 %>
+    <%= link_to 'Ban', ban_feed_path(feed), :confirm => 'Are you sure?', :method => :post %>
+    <% else %>
+    <%= link_to 'Unban', unban_feed_path(feed), :confirm => 'Are you sure?', :method => :post %>
+    <% end %>
+    <%= link_to 'Harvest', harvest_now_feed_path(feed), :method => :post %>
+    <%= link_to 'Delete', feed_path(feed), :method => :delete %>
+<%
+=end %>	
+    </td>
+    <td><%=h feed.description %></td>
+    <td><%=h feed.harvest_interval %></td>
+    <td><%=h feed.last_harvested_at %></td>
+    <td><%=h feed.failed_requests %></td>
+    <td><%=h feed.error_message ? "Failed last request:" + feed.error_message : feed.status >= 0 ? "Ok" : "Banned" %></td>
+    <td><%=h feed.uri %></td>
+  </tr>
+<% end %>
+
+</table>
+</div>
+<% end %>
