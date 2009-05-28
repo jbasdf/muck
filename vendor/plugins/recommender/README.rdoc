@@ -4,10 +4,10 @@ The recommender adds the ability to aggregate, search and analyze data from many
 
 Installation
 ===========
-Recommender requires the acts-as-taggable-on gem.  Install it with:
+Install gem dependencies:
 
   sudo gem install mbleigh-acts-as-taggable-on
-
+  sudo gem install mislav-will_paginate
 
 Example
 =======
