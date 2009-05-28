@@ -1,0 +1,16 @@
+Recommender
+===========
+The recommender adds the ability to aggregate, search and analyze data from many different web sources.
+
+Installation
+===========
+Recommender requires the acts-as-taggable-on gem.  Install it with:
+
+  sudo gem install mbleigh-acts-as-taggable-on
+
+
+Example
+=======
+
+
+Copyright (c) 2009 Justin Ball and Joel Duffin, released under the MIT license
