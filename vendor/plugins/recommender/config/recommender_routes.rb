@@ -10,12 +10,11 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :entries, :controller => 'recommender/entries'
   map.connect 'r', :controller => 'recommender/entries', :action => 'track_clicks'
   map.connect 'entries/tags/*tags', :controller => 'recommender/entries', :action => 'tagged'
+  map.connect 'collections', :controller => 'entries', :action => 'collections'
 
   map.resources :recommendations, :controller => 'recommender/recommendations'
 
   # redirect (and hit tracking)
-  
-#  map.connect 'collections', :controller => 'oers', :action => 'collections'
 
   # search
   map.connect 'search/relations.:format/*terms', :controller => 'search', :action => 'relations'

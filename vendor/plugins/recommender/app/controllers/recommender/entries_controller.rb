@@ -6,6 +6,9 @@ class Recommender::EntriesController < ApplicationController
   
   def index
     @tags = Entry.tag_counts_on('tags', :order => 'count desc', :limit => 200)
+    respond_to do |format|
+      format.html { render :template => 'entries/index' }
+    end
   end
   
   def tags tags
@@ -25,7 +28,7 @@ class Recommender::EntriesController < ApplicationController
       format.xml  { render :xml => @documents }
     end
   end
-  
+
   def frames
     render(:template => 'documents/frames.html', :layout => false)
   end

@@ -12,5 +12,5 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :uploads, :collection => { :photos => :get, :swfupload => :post }
 #  map.public_user_path '/profiles/:id', :controller => 'profiles', :action => 'show'
   
-  map.resources :oers
+  map.resources :oers, :controller => 'recommender/entries'
 end
