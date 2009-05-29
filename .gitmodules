@@ -10,3 +10,6 @@
 [submodule "vendor/plugins/muck_activity_engine"]
 	path = vendor/plugins/muck_activity_engine
 	url = git://github.com/jbasdf/muck_activity_engine.git
+[submodule "vendor/plugins/acts_as_solr"]
+	path = vendor/plugins/acts_as_solr
+	url = git@github.com:oxtralite/acts_as_solr.git
