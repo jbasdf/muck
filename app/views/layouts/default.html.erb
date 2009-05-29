@@ -11,7 +11,7 @@
       <%= stylesheet_link_tag 'blueprint/screen.css' %>
       <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
       <!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->  		
-  		<%= stylesheet_link_tag %W{ reset styles }, :cache => true %>
+  		<%= stylesheet_link_tag %W{ reset styles folksemantic }, :cache => true %>
       <%= javascript_include_tag %w{
                   jquery/jquery.js
                   jquery/jquery-ui.js
@@ -23,10 +23,8 @@
       <%= yield :head -%>
   	</head>
   	<body>
-  	  <div id="wrapper">
-  	    <div id="header">
-
-        </div>
+  	  <div id="wrapper" class="container">
+  	    <%= render :partial => 'layouts/global/header' %>
         <div id="content-wrapper">
           <div id="content">
   		      <%= yield :layout %>

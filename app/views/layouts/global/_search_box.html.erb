@@ -1,0 +1,7 @@
+<div id="search-controls">
+  <% form_tag(:controller => '/search', :action => 'results') do -%>
+    <%= text_field_tag(:form_terms, @terms.nil? ? t('folksemantic.search') : @terms, :id => 'search-box') %>
+    <%= submit_tag(t('folksemantic.search_button'), :class => "input-button") %>
+    <div style="width:230px;text-align:right;margin-top:3px;"><%= link_to t('muck.users.sign_up'), signup_path %> | <%= link_to t('muck.users.sign_in'), login_path %> <img src="/images/folksemantic/flags/flag_en.png" style="vertical-align:middle"/></div>
+  <% end -%>
+</div>
