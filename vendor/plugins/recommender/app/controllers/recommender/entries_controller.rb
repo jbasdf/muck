@@ -12,39 +12,19 @@ class Recommender::EntriesController < ApplicationController
   end
   
   def tags tags
-    @documents = Entry.tagged_with(tags, :on => 'tags')
+    @entries = Entry.tagged_with(tags, :on => 'tags')
   end
 
-  # GET /documents
-  # GET /documents.xml
-  def index2
-    @limit = params[:limit] ? params[:limit].to_i : 10
-    @limit = 25 if @limit > 25
-    @offset = params[:offset] ? params[:offset].to_i : 0
-    @documents = Entry.find(:all, :limit => @limit, :offset => @offset)
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @documents }
-    end
-  end
-
-  def frames
-    render(:template => 'documents/frames.html', :layout => false)
-  end
-
-  # GET /documents/1
-  # GET /documents/1.xml
   def show
     @languages = Language.find(:all, :order => "name")
     @page_title = "Related Resources"
-    @document = Entry.find(params[:id], :include => :feed)
-    if @document.nil?
+    @entry = Entry.find(params[:id], :include => :feed)
+    if @entry.nil?
       render_text "Unable to find the specified document"
       return
     end
-    @document_title = @document.title + " (" + @document.feed.short_title + ")"
-    I18n.locale = @document.language[0..1]
+    @entry_title = @entry.title + " (" + @entry.feed.short_title + ")"
+    I18n.locale = @entry.language[0..1]
     @limit = params[:limit] ? params[:limit].to_i : 20
     @limit = 40 if @limit > 40
 
@@ -56,7 +36,7 @@ class Recommender::EntriesController < ApplicationController
         render :template => "documents/show", :layout => "default"
       end
       }# show.html.erb
-      format.xml  { render :xml => @document }
+      format.xml  { render :xml => @entry }
     end
   end
   
