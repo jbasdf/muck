@@ -17,7 +17,8 @@ class Upload < ActiveRecord::Base
                       :convert_options => {
                          :all => '-quality 80'
                        }
-                    }
+                    },
+                    :s3_path => ':id_partition/:style/:basename.:extension'
 
   # has_many :comments, :as => :commentable, :dependent => :destroy, :order => 'created_at ASC'
   # has_many :shared_uploads, :dependent => :destroy
