@@ -25,6 +25,7 @@ Rails::Initializer.run do |config|
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
   config.gem 'cms-lite', :lib => 'cms_lite'
   config.gem 'uploader'
+  config.gem 'disguise'
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip'
   
   # Only load the plugins named here, in the order given (default is alphabetical).

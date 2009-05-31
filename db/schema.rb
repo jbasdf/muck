@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090517040220) do
+ActiveRecord::Schema.define(:version => 20090530170040) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -364,6 +364,10 @@ ActiveRecord::Schema.define(:version => 20090517040220) do
   add_index "tags", ["frequency"], :name => "index_tags_on_frequency"
   add_index "tags", ["root"], :name => "index_tags_on_root"
   add_index "tags", ["stem"], :name => "index_tags_on_stem"
+
+  create_table "themes", :force => true do |t|
+    t.string "current"
+  end
 
   create_table "uploads", :force => true do |t|
     t.integer  "creator_id"

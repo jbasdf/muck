@@ -14,3 +14,5 @@ require 'cms_lite/tasks'
 
 require 'uploader'
 require 'uploader/tasks'
+
+require 'disguise/tasks'
