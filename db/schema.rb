@@ -53,7 +53,6 @@ ActiveRecord::Schema.define(:version => 20090530170040) do
     t.string   "name"
     t.string   "title"
     t.text     "description"
-    t.text     "top_tags"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -163,7 +162,6 @@ ActiveRecord::Schema.define(:version => 20090530170040) do
     t.string   "short_title",                :limit => 100
     t.text     "description"
     t.string   "tag_filter",                 :limit => 1000
-    t.text     "top_tags"
     t.integer  "priority",                                   :default => 10
     t.integer  "status",                                     :default => 1
     t.datetime "last_requested_at"
@@ -250,21 +248,6 @@ ActiveRecord::Schema.define(:version => 20090530170040) do
     t.string "metadata_prefix"
     t.string "title",           :limit => 1000
     t.string "short_title",     :limit => 100
-  end
-
-  create_table "open_id_authentication_associations", :force => true do |t|
-    t.integer "issued"
-    t.integer "lifetime"
-    t.string  "handle"
-    t.string  "assoc_type"
-    t.binary  "server_url"
-    t.binary  "secret"
-  end
-
-  create_table "open_id_authentication_nonces", :force => true do |t|
-    t.integer "timestamp",  :null => false
-    t.string  "server_url"
-    t.string  "salt",       :null => false
   end
 
   create_table "permissions", :force => true do |t|
