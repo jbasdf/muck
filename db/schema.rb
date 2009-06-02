@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090530170040) do
+ActiveRecord::Schema.define(:version => 20090602191243) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -53,6 +53,7 @@ ActiveRecord::Schema.define(:version => 20090530170040) do
     t.string   "name"
     t.string   "title"
     t.text     "description"
+    t.text     "top_tags"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -132,6 +133,14 @@ ActiveRecord::Schema.define(:version => 20090530170040) do
   add_index "entries_subjects", ["entry_id"], :name => "index_entries_subjects_on_entry_id"
   add_index "entries_subjects", ["subject_id"], :name => "index_entries_subjects_on_subject_id"
 
+  create_table "entries_tags", :id => false, :force => true do |t|
+    t.integer "entry_id", :null => false
+    t.integer "tag_id"
+  end
+
+  add_index "entries_tags", ["entry_id"], :name => "index_entries_tags_on_entry_id"
+  add_index "entries_tags", ["tag_id"], :name => "index_entries_tags_on_tag_id"
+
   create_table "entries_users", :force => true do |t|
     t.integer  "entry_id",                           :null => false
     t.integer  "user_id",         :default => 0
@@ -162,6 +171,7 @@ ActiveRecord::Schema.define(:version => 20090530170040) do
     t.string   "short_title",                :limit => 100
     t.text     "description"
     t.string   "tag_filter",                 :limit => 1000
+    t.text     "top_tags"
     t.integer  "priority",                                   :default => 10
     t.integer  "status",                                     :default => 1
     t.datetime "last_requested_at"

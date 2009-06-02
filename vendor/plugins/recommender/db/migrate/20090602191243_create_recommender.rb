@@ -89,6 +89,14 @@ class CreateRecommender < ActiveRecord::Migration
 
     add_index "entries_subjects", ["entry_id"]
     add_index "entries_subjects", ["subject_id"]
+    
+    create_table "entries_tags", :id => false, :force => true do |t|
+	  t.integer "entry_id", :null => false
+	  t.integer "tag_id"
+    end
+
+    add_index "entries_tags", ["entry_id"]
+    add_index "entries_tags", ["tag_id"]
 
     create_table "entries_users", :force => true do |t|
       t.integer  "entry_id",                           :null => false
@@ -297,6 +305,7 @@ class CreateRecommender < ActiveRecord::Migration
     drop_table :services
     drop_table :subjects
     drop_table :watched_pages
+    drop_table :entries_tags
 
     remove_column :tags, :stem
     remove_column :tags, :frequency
