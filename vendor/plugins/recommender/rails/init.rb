@@ -16,5 +16,9 @@ end
 
 I18n.load_path += Dir[ File.join(RAILS_ROOT, 'vendor', 'plugins', 'recommender', 'locales', '*.{rb,yml}') ]
 
+ENV['APP_AVAILABLE_LOCALES'] = "^en|es|fr|nl|ja|de|ru|zh"
+ENV['APP_DEFAULT_LOCALE'] = 'en'
+ENV['SOLR_DATA_DIR'] = '../solr'
+
 require 'recommender'
 require 'recommender/initialize_routes'
