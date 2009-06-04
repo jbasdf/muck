@@ -63,7 +63,7 @@ class CreateRecommender < ActiveRecord::Migration
       t.datetime "harvested_at"
       t.string   "oai_identifier",          :limit => 2083
       t.boolean  "recommender_processed",                   :default => false
-      t.string   "language"
+      t.integer  "language_id"
       t.string   "direct_link",             :limit => 2083
       t.datetime "indexed_at",                              :default => '1971-01-01 01:01:01', :null => false
       t.datetime "relevance_calculated_at",                 :default => '1971-01-01 01:01:01', :null => false
@@ -75,7 +75,7 @@ class CreateRecommender < ActiveRecord::Migration
     add_index "entries", ["direct_link"]
     add_index "entries", ["feed_id"]
     add_index "entries", ["indexed_at"]
-    add_index "entries", ["language"]
+    add_index "entries", ["language_id"]
     add_index "entries", ["oai_identifier"]
     add_index "entries", ["permalink"]
     add_index "entries", ["published_at"]
@@ -146,7 +146,7 @@ class CreateRecommender < ActiveRecord::Migration
       t.string   "harvested_from_title",       :limit => 1000
       t.string   "harvested_from_short_title", :limit => 100
       t.integer  "entries_count"
-      t.string   "default_language"
+      t.integer  "default_language_id"
     end
 
     add_index "feeds", ["service_id"]
@@ -277,6 +277,17 @@ class CreateRecommender < ActiveRecord::Migration
     add_index "tags", ["frequency"]
     add_index "tags", ["root"]
 
+    # add a flag to the languages table to flag languages we support
+    add_column :languages, :muck_raker_supported, :boolean, :default => false
+    add_index "languages", ["muck_raker_supported"]
+    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'en'"
+    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'es'"
+    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'zh'"
+    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'fr'"
+    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'jp'"
+    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'ru'"
+    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'de'"
+    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'nl'"
   end
 
   def self.down

@@ -106,7 +106,7 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
     t.datetime "harvested_at"
     t.string   "oai_identifier",          :limit => 2083
     t.boolean  "recommender_processed",                   :default => false
-    t.string   "language"
+    t.integer  "language_id"
     t.string   "direct_link",             :limit => 2083
     t.datetime "indexed_at",                              :default => '1971-01-01 01:01:01', :null => false
     t.datetime "relevance_calculated_at",                 :default => '1971-01-01 01:01:01', :null => false
@@ -118,7 +118,7 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
   add_index "entries", ["direct_link"], :name => "index_entries_on_direct_link"
   add_index "entries", ["feed_id"], :name => "index_entries_on_feed_id"
   add_index "entries", ["indexed_at"], :name => "index_entries_on_indexed_at"
-  add_index "entries", ["language"], :name => "index_entries_on_language"
+  add_index "entries", ["language_id"], :name => "index_entries_on_language_id"
   add_index "entries", ["oai_identifier"], :name => "index_entries_on_oai_identifier"
   add_index "entries", ["permalink"], :name => "index_entries_on_permalink"
   add_index "entries", ["published_at"], :name => "index_entries_on_published_at"
@@ -189,11 +189,24 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
     t.string   "harvested_from_title",       :limit => 1000
     t.string   "harvested_from_short_title", :limit => 100
     t.integer  "entries_count"
-    t.string   "default_language"
+    t.integer  "default_language_id"
   end
 
   add_index "feeds", ["service_id"], :name => "index_feeds_on_service_id"
   add_index "feeds", ["uri"], :name => "index_feeds_on_uri"
+
+  create_table "languages", :force => true do |t|
+    t.string  "name"
+    t.string  "english_name"
+    t.string  "locale"
+    t.integer "is_default",           :default => 0
+    t.boolean "supported",            :default => false
+    t.boolean "muck_raker_supported", :default => false
+  end
+
+  add_index "languages", ["locale"], :name => "index_languages_on_locale"
+  add_index "languages", ["muck_raker_supported"], :name => "index_languages_on_muck_raker_supported"
+  add_index "languages", ["name"], :name => "index_languages_on_name"
 
   create_table "micro_concerts", :force => true do |t|
     t.integer "micro_event_id"

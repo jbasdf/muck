@@ -9,5 +9,14 @@ namespace :recommender do
         Fixtures.new(OaiEndpoint.connection,"oai_endpoints",OaiEndpoint,File.join(RAILS_ROOT, 'vendor', 'plugins', 'recommender', 'db', 'bootstrap',"oai_endpoints")).insert_fixtures
     end
   end
+
+  namespace :db do
+    desc "Flags the languages that the recommender supports"
+    task :populate => :environment do
+      ['en', 'es', 'zh-CN', 'fr', 'ja', 'de', 'ru', 'nl'].each{|l|
+        Language.first(:one, :conditions => "locale = '#{l}'").update_attribute(:muck_raker_supported, true)
+      }
+    end
+  end
 end
 
