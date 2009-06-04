@@ -146,7 +146,7 @@ class CreateRecommender < ActiveRecord::Migration
       t.string   "harvested_from_title",       :limit => 1000
       t.string   "harvested_from_short_title", :limit => 100
       t.integer  "entries_count"
-      t.integer  "default_language_id"
+      t.integer  "default_language_id" :default => 0
     end
 
     add_index "feeds", ["service_id"]
@@ -280,14 +280,6 @@ class CreateRecommender < ActiveRecord::Migration
     # add a flag to the languages table to flag languages we support
     add_column :languages, :muck_raker_supported, :boolean, :default => false
     add_index "languages", ["muck_raker_supported"]
-    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'en'"
-    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'es'"
-    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'zh'"
-    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'fr'"
-    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'jp'"
-    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'ru'"
-    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'de'"
-    execute "UPDATE languages SET muck_raker_supported = true WHERE locale = 'nl'"
   end
 
   def self.down
