@@ -146,7 +146,7 @@ class CreateRecommender < ActiveRecord::Migration
       t.string   "harvested_from_title",       :limit => 1000
       t.string   "harvested_from_short_title", :limit => 100
       t.integer  "entries_count"
-      t.integer  "default_language_id" :default => 0
+      t.integer  "default_language_id", :default => 0
     end
 
     add_index "feeds", ["service_id"]

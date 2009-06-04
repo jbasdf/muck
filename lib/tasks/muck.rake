@@ -50,4 +50,9 @@ namespace :muck do
     system "rake recommender:sync"
   end
   
+  namespace :dev do
+    task :gitpull do
+      
+    end
+  end
 end
