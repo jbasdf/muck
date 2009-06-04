@@ -189,7 +189,7 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
     t.string   "harvested_from_title",       :limit => 1000
     t.string   "harvested_from_short_title", :limit => 100
     t.integer  "entries_count"
-    t.integer  "default_language_id"
+    t.integer  "default_language_id",                        :default => 0
   end
 
   add_index "feeds", ["service_id"], :name => "index_feeds_on_service_id"
@@ -199,8 +199,8 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
     t.string  "name"
     t.string  "english_name"
     t.string  "locale"
+    t.boolean "supported",            :default => true
     t.integer "is_default",           :default => 0
-    t.boolean "supported",            :default => false
     t.boolean "muck_raker_supported", :default => false
   end
 
