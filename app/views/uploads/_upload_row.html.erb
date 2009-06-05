@@ -5,7 +5,7 @@
 	<td>
 		<% if parent.can_edit?(current_user) -%>
 			<% form_for(:upload, :url => upload_path(upload_row.id), :html => { :class => "delete-form", :method => :delete} ) do |f| -%>
-				<%= image_submit_tag '/images/icons/delete.png', {:id => 'submit-comment', :title => t('general.delete_file'), :class => 'submit-delete', :width => '12', :height => '12', :alt => t('general.delete_file') } %>
+				<%= image_submit_tag '/images/icons/delete.png', {:title => t('general.delete_file'), :class => 'submit-delete', :width => '12', :height => '12', :alt => t('general.delete_file') } %>
 			<% end -%>
 			<% if !style.empty? -%>
 			<script type="text/javascript" language="JavaScript">

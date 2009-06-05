@@ -14,6 +14,7 @@ form fieldset input[type="text"],form fieldset input[type="password"]{width:500p
 .common-form{width:500px;margin:40px auto;}
 .form-item{float:left;}
 .common-content{width:500px;margin:40px auto;font-size:1.2em;color:#555;}
+.button-link {background-color:transparent;border-top-width: 0px;border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;}
 
 /*images*/
 .icon{width:50px;height:50px;}

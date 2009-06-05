@@ -1,1 +1,1 @@
-Folksemantic is an aggregation and recommendation service for OER Resources
+Folksemantic is an aggregation and recommendation service for NSDL, OCW and other similar OER Resources
