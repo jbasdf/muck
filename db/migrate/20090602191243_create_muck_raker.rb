@@ -1,4 +1,4 @@
-class CreateRecommender < ActiveRecord::Migration
+class CreateMuckRaker < ActiveRecord::Migration
 
   def self.up
 
