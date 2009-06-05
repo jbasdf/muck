@@ -12,7 +12,7 @@ namespace :muck do
     system "rake muck:base:sync"
     system "rake muck:users:sync"
     system "rake muck:activity:sync"
-    system "rake recommender:sync"
+    system "rake muck:raker:sync"
     
     puts 'droping databases'
     system "rake db:drop:all"
@@ -25,8 +25,8 @@ namespace :muck do
 
     puts 'populating'
     system "rake muck:db:populate"
-    system "rake recommender:db:bootstrap"
-    system "rake recommender:db:populate"
+    system "rake muck:raker:db:bootstrap"
+    system "rake muck:raker:db:populate"
     
     puts 'setting up admin account'
     system "rake muck:users:create_admin"
@@ -47,7 +47,7 @@ namespace :muck do
     system "rake muck:base:sync"
     system "rake muck:users:sync"
     system "rake muck:activity:sync"
-    system "rake recommender:sync"
+    system "rake muck:raker:sync"
   end
   
   namespace :dev do
