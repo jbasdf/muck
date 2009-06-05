@@ -1,0 +1,1 @@
+JQUERY_VAR = 'jQuery'
