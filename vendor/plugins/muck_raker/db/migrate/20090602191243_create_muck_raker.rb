@@ -279,6 +279,7 @@ class CreateMuckRaker < ActiveRecord::Migration
 
     # add a flag to the languages table to flag languages we support
     add_column :languages, :muck_raker_supported, :boolean, :default => false
+    add_column :languages, :indexed_records, :integer, :default => 0
     add_index "languages", ["muck_raker_supported"]
   end
 
@@ -314,6 +315,9 @@ class CreateMuckRaker < ActiveRecord::Migration
     remove_column :tags, :frequency
     remove_column :tags, :root
     remove_column :tags, :stem_frequency
+
+    remove_column :languages, :muck_raker_supported
+    remove_column :languages, :indexed_records
   end
 
 end
