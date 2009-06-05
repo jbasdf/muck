@@ -7,7 +7,7 @@ namespace :muck do
           ActiveRecord::Base.establish_connection(RAILS_ENV.to_sym)
     
           # import the bootstrap db entries
-          Fixtures.new(OaiEndpoint.connection,"oai_endpoints",OaiEndpoint,File.join(RAILS_ROOT, 'vendor', 'plugins', 'recommender', 'db', 'bootstrap',"oai_endpoints")).insert_fixtures
+          Fixtures.new(OaiEndpoint.connection,"oai_endpoints",OaiEndpoint,File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'db', 'bootstrap',"oai_endpoints")).insert_fixtures
       end
     end
   end
