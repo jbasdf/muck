@@ -24,3 +24,9 @@
 .cloud7{font-size:39px;}
 .cloud8{font-size:43px;}
 .cloud9{font-size:47px;}
+#status-update-field{border:solid 1px #ccc;padding:10px 7px;background-color:#eee;}
+#status-update-button input{padding:0;}
+.activity-delete{}
+.status-update-dim{}
+.status-update-lit{}
+
