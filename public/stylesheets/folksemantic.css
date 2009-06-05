@@ -1,4 +1,6 @@
 /* home page */
+#take-tour{float:left;margin-top:21px;margin-left:45px;background:navy;width:150px;padding:6px;font-size:20px;font-weight:bold;color:white;text-align:center;}
+#user-login{width:230px;text-align:right;margin-top:3px;}
 #advertisements{margin:10px auto;width:756px;}
 #advertisements h2{margin-top:6px;font-weight:bold;}
 .advert {width:200px;height:190px;padding:15px;border:dashed 1px gray;line-height:30px;margin:10px;text-align:center;}

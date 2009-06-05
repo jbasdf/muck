@@ -34,8 +34,6 @@ namespace :muck do
     puts 'setting up test db'
     system "rake db:test:prepare"
 
-    #puts 'annotating models'
-    #system "annotate"
   end
 
 

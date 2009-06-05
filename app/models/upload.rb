@@ -1,3 +1,29 @@
+# == Schema Information
+#
+# Table name: uploads
+#
+#  id                  :integer(4)      not null, primary key
+#  creator_id          :integer(4)
+#  name                :string(255)
+#  caption             :string(1000)
+#  description         :text
+#  is_public           :boolean(1)      default(TRUE)
+#  uploadable_id       :integer(4)
+#  uploadable_type     :string(255)
+#  width               :string(255)
+#  height              :string(255)
+#  local_file_name     :string(255)
+#  local_content_type  :string(255)
+#  local_file_size     :integer(4)
+#  local_updated_at    :datetime
+#  remote_file_name    :string(255)
+#  remote_content_type :string(255)
+#  remote_file_size    :integer(4)
+#  remote_updated_at   :datetime
+#  created_at          :datetime
+#  updated_at          :datetime
+#
+
 class Upload < ActiveRecord::Base
   
   acts_as_uploader  :enable_s3 => false,

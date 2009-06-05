@@ -202,8 +202,10 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
     t.boolean "supported",            :default => true
     t.integer "is_default",           :default => 0
     t.boolean "muck_raker_supported", :default => false
+    t.integer "indexed_records",      :default => 0
   end
 
+  add_index "languages", ["indexed_records"], :name => "index_languages_on_indexed_records"
   add_index "languages", ["locale"], :name => "index_languages_on_locale"
   add_index "languages", ["muck_raker_supported"], :name => "index_languages_on_muck_raker_supported"
   add_index "languages", ["name"], :name => "index_languages_on_name"

@@ -23,10 +23,10 @@ Rails::Initializer.run do |config|
   config.gem "authlogic", :version => ">=2.0.13"
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.0.5"
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
-  config.gem 'cms-lite', :lib => 'cms_lite'
-  config.gem 'uploader'
-  config.gem 'disguise'
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip'
+  config.gem 'cms-lite', :lib => 'cms_lite'
+  config.gem 'disguise'
+  config.gem 'uploader'
   
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
