@@ -1,8 +1,0 @@
-.activity-news, .activity-photo, .activity-event, .activity-upload, .activity-comment, .activity-post{margin:0px 0px 0px 25px;display:block;}
-.activity-upload img{float:left;margin:2px 5px 0px 0px;}
-.activity-status-update small{color:#555;}
-.activity-post small{color:#555;}
-#status-update table td{vertical-align:top;padding:4px;}
-#status-update-field input{width:350px;padding:2px;font-size:14px;}
-.status-update-dim input{color:#555;}
-.status-update-lit input{color:#000;}

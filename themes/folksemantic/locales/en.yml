@@ -1,0 +1,41 @@
+en:
+  folksemantic:
+    no_tags: No tags available yet
+    title: Folksemantic
+    collections: Collections
+    demo: Demo
+    tag_line: making open education work
+    developers: Developers
+    search_button: Go
+    collections_long: Indexed Collections
+    developers_long: Information for Developers
+    powered_by: powered by
+    no_hits: No hits. Please try a different search or choose a different language.
+    previous: Previous
+    next: Next
+    results: Results
+    of: of
+    for: for
+    relevance: relevance
+    metadata: Metadata
+    related_resources: Related resources
+    rss: RSS 
+    xml: XML 
+    atom: Atom 
+    rdf: RDF 
+    related_resources_title: Related Resources
+    calculated: calculated
+    details: Details
+    gm_title: Related Resources
+    gm_more_prompt: More Related Resources
+    direct_link: '[direct link]'
+    register_link: Sign Up!
+    register_description: 'Sign up to receive personalized <span class="highlight">recommendations</span>, participate in <span class="highlight">groups</span>, and easily <span class="highlight">publish to blogs</span>.'
+    widgets_link: Get Widgets!
+    widgets_description: Get widgets to help users <span class="highlight">find</span> resources and <span class="highlight">discover resources related</span> to ones on your website.
+    tour: Take a Tour!
+    tour_description: Watch a <span class="highlight">video introduction</span> of Folksemantic.
+    search: search
+    search_link: Find Resources!
+    search_description: Find learning resources by <span class="highlight">searching</span> and <span class="highlight">browsing</span> over <span class="highlight">110,000</span> open educational resources.
+    welcome_user: "Welcome {{user}}"

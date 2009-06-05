@@ -43,12 +43,8 @@
 </div>
 
 <% content_for :javascript do  -%>
-
   setup_submit_delete();
-
   function upload_completed_callback(data){
-    //var json = eval('(' + data + ')');
-    //json.upload.icon
     jQuery('#upload-list').prepend(data);
     setup_submit_delete();
   }

@@ -22,6 +22,17 @@ function setup_submit_delete(){
       });
     return false;
   });
+	jQuery(".submit-delete-js").click(function() {
+		// if(!confirm("Are you sure?")){
+		// 	return false;
+		// }
+    jQuery(this).parents('.delete-container').fadeOut();
+    var form = jQuery(this).parents('form');
+    jQuery.post(form.attr('action') + '.js', form.serialize(),
+      function(data){
+      });
+    return false;
+  });
 }
 
 function show_hide_obj (ary_objs_to_show, ary_objs_to_hide)

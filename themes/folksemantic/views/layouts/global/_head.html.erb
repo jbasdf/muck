@@ -5,10 +5,9 @@
 <meta name="robots" content="all" />	
 <meta name="resource-type" content="document" />
 <meta name="MSSmartTagsPreventParsing" content="true" />
-<%= stylesheet_link_tag 'blueprint/screen.css' %>
 <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
 <!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->  		
-<%= stylesheet_link_tag %W{ reset styles folksemantic }, :cache => true %>
+<%= stylesheet_link_tag %W{ reset blueprint/screen.css styles folksemantic }, :cache => true %>
 <%= javascript_include_tag %w{
             jquery/jquery.js
             jquery/jquery-ui.js
@@ -18,4 +17,4 @@
             application.js }, :cache => 'all_js_cached' %>
 <%= javascript_tag %[const AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
 <%= yield :head -%>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/images/folksemantic/favicon.ico" type="image/x-icon">

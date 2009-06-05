@@ -34,8 +34,6 @@ namespace :muck do
     puts 'setting up test db'
     Rake::Task[ "db:test:prepare" ].execute
 
-    #puts 'annotating models'
-    #system "annotate"
   end
   
   task :reset_db => :environment do
