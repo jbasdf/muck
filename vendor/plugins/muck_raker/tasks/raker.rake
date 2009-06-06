@@ -5,6 +5,7 @@ namespace :muck do
     namespace :db do
       desc "Flags the languages that the recommender supports"
       task :populate => :environment do
+        require 'active_record/fixtures'
         ['en', 'es', 'zh-CN', 'fr', 'ja', 'de', 'ru', 'nl'].each{|l|
           r = Language.first(:one, :conditions => "locale = '#{l}'")
           if r
@@ -14,6 +15,9 @@ namespace :muck do
             break
           end
         }
+        # set up the defined services
+        ActiveRecord::Base.establish_connection(RAILS_ENV.to_sym)
+        Fixtures.new(Service.connection,"services",Service,File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'db', 'bootstrap', 'services')).insert_fixtures
       end
     end
 

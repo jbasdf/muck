@@ -1,4 +1,4 @@
-# This file is auto-generated from the current state of the database. Instead of editing this file,
+# This file is auto-generated from the current state of the database. Instead of editing this file, 
 # please use the migrations feature of Active Record to incrementally modify your database, and
 # then regenerate this schema definition.
 #
@@ -197,6 +197,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
     t.string   "harvested_from_short_title", :limit => 100
     t.integer  "entries_count"
     t.integer  "default_language_id",                        :default => 0
+    t.boolean  "ocw",                                        :default => false
   end
 
   add_index "feeds", ["service_id"], :name => "index_feeds_on_service_id"
@@ -212,7 +213,6 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
     t.integer "indexed_records",      :default => 0
   end
 
-  add_index "languages", ["indexed_records"], :name => "index_languages_on_indexed_records"
   add_index "languages", ["locale"], :name => "index_languages_on_locale"
   add_index "languages", ["muck_raker_supported"], :name => "index_languages_on_muck_raker_supported"
   add_index "languages", ["name"], :name => "index_languages_on_name"
@@ -254,8 +254,8 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
   add_index "micro_event_people", ["micro_event_id"], :name => "index_micro_event_people_on_micro_event_id"
 
   create_table "micro_events", :force => true do |t|
-    t.integer  "entry_id",    :null => false
-    t.string   "name",        :null => false
+    t.integer  "entry_id",                    :null => false
+    t.string   "name",        :default => "", :null => false
     t.text     "description"
     t.string   "price"
     t.text     "image"
@@ -265,7 +265,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
     t.string   "state"
     t.string   "postcode"
     t.string   "country"
-    t.datetime "begins",      :null => false
+    t.datetime "begins",                      :null => false
     t.datetime "ends"
     t.text     "tags"
     t.string   "duration"
@@ -322,17 +322,17 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
   end
 
   create_table "services", :force => true do |t|
-    t.string  "uri",               :limit => 2083, :default => "",    :null => false
-    t.string  "title",             :limit => 1000, :default => "",    :null => false
-    t.string  "api_uri",           :limit => 2083, :default => "",    :null => false
-    t.string  "uri_template",      :limit => 2083, :default => "",    :null => false
-    t.string  "icon",              :limit => 2083
+    t.string  "uri",               :limit => 2083, :default => ""
+    t.string  "title",             :limit => 1000, :default => ""
+    t.string  "api_uri",           :limit => 2083, :default => ""
+    t.string  "uri_template",      :limit => 2083, :default => ""
+    t.string  "icon",              :limit => 2083, :default => "rss.gif"
     t.integer "sequence"
     t.boolean "requires_password",                 :default => false
   end
 
   create_table "sessions", :force => true do |t|
-    t.string   "session_id", :null => false
+    t.string   "session_id", :default => "", :null => false
     t.text     "data"
     t.datetime "created_at"
     t.datetime "updated_at"
