@@ -38,7 +38,7 @@ class ApplicationController < ActionController::Base
 
   private
   def choose_layout
-    if [ 'admin' ].include? action_name
+    if params[:controller].index('admin') == 0
       'admin'
     else
       'default'
