@@ -5,13 +5,13 @@ class Recommender::EntriesController < ApplicationController
   end
   
   def index
-    @tags = Entry.tag_counts_on('tags', :order => 'count desc', :limit => 200)
+    @tags = Tag.find(:all, :select => 'name, frequency AS count', :conditions => 'root = true', :order => 'frequency desc', :limit => 200)
     respond_to do |format|
       format.html { render :template => 'entries/index' }
     end
   end
   
-  def tags tags
+  def browse_by_tags tags
     @entries = Entry.tagged_with(tags, :on => 'tags')
   end
 

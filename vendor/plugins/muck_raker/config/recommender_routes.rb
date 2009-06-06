@@ -9,7 +9,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :entries, :controller => 'recommender/entries'
   map.connect 'r', :controller => 'recommender/entries', :action => 'track_clicks'
-  map.connect 'entries/tags/*tags', :controller => 'recommender/entries', :action => 'tagged'
+  map.connect 'entries/tags/*tags', :controller => 'recommender/entries', :action => 'browse_by_tags'
   map.connect 'collections', :controller => 'entries', :action => 'collections'
 
   map.resources :recommendations, :controller => 'recommender/recommendations'
