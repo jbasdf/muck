@@ -107,17 +107,10 @@ class UserTest < ActiveSupport::TestCase
     assert !user.valid?
   end
 
-  should "be in the admin role" do
-    admin = users(:admin)
-    assert admin.admin?
+  should "let itself view" do
+    user = Factory(:user)
+    assert user.can_view?(user)
   end
-  
-#  should "Fail to create a new user because they didn't agree to terms of service" do
-#    assert_no_difference 'User.count' do
-#      user = Factory.build(:user, :terms_of_service => false)
-#      assert user.new_record?, "#{user.errors.full_messages.to_sentence}"
-#    end
-#  end
 
   should "initialize activation code upon creation" do
     user = Factory(:user)
@@ -161,143 +154,8 @@ class UserTest < ActiveSupport::TestCase
     assert_equal users(:quentin), User.authenticate('quentin', 'new password')
   end
 
-  should "not rehash password" do
-    user = users(:quentin)
-    hashed_password = user.crypted_password
-    user.update_attributes(:login => 'quentin2')
-    assert_equal hashed_password, user.crypted_password
-  end
-
-  should "authenticate user" do
-    assert_equal users(:quentin), User.authenticate('quentin', 'test')
-  end
-
-  should "set remember token" do
-    users(:quentin).remember_me
-    assert_not_nil users(:quentin).remember_token
-    assert_not_nil users(:quentin).remember_token_expires_at
-  end
-
-  should "unset remember token" do
-    users(:quentin).remember_me
-    assert_not_nil users(:quentin).remember_token
-    users(:quentin).forget_me
-    assert_nil users(:quentin).remember_token
-  end
-
-  should "remember me for one week" do
-    before = 1.week.from_now.utc
-    users(:quentin).remember_me_for 1.week
-    after = 1.week.from_now.utc
-    assert_not_nil users(:quentin).remember_token
-    assert_not_nil users(:quentin).remember_token_expires_at
-    assert users(:quentin).remember_token_expires_at.between?(before, after)
-  end
-
-  should "remember me until one week" do
-    time = 1.week.from_now.utc
-    users(:quentin).remember_me_until time
-    assert_not_nil users(:quentin).remember_token
-    assert_not_nil users(:quentin).remember_token_expires_at
-    assert_equal users(:quentin).remember_token_expires_at, time
-  end
-
-  should "remember me default two weeks" do
-    before = 2.weeks.from_now.utc
-    users(:quentin).remember_me
-    after = 2.weeks.from_now.utc
-    assert_not_nil users(:quentin).remember_token
-    assert_not_nil users(:quentin).remember_token_expires_at
-    assert users(:quentin).remember_token_expires_at.between?(before, after)
-  end
-
-  # test friendships
-  context 'users(:quentin)' do
-    should 'be friends with users(:aaron)' do
-      assert users(:quentin).friend_of?( users(:aaron) )
-      assert users(:aaron).friend_of?( users(:quentin) )
-    end
-
-    should 'be following users(:follower_guy)' do
-      assert users(:quentin).following?( users(:follower_guy) )
-      assert users(:follower_guy).followed_by?( users(:quentin) )
-    end
-  end
-
-  should "get a list of other users to share activity feed with" do
-    share_with = users(:quentin).feed_to
-    assert share_with.include?(users(:quentin))
-    assert share_with.include?(users(:aaron))
-  end
-  
-  should "get rss links for blog" do
-    u = Factory.build(:user)
-    u.blog = "http://www.justinball.com"
-  end
-
-  #    should "prefix with http" do
-  #        p = users(:quentin)
-  #        assert p.website.nil?
-  #        assert p.website = 'example.com'
-  #        assert p.save
-  #        assert_equal 'http://example.com', p.reload.website
-  #    end
-  #
-  #    should "prefix with http4" do
-  #        p = users(:quentin)
-  #        assert p.website.nil?
-  #        assert p.website = ''
-  #        assert p.save
-  #        assert_equal '', p.reload.website
-  #    end
-  #
-  #    should "prefix with http2" do
-  #        p = users(:quentin)
-  #        assert p.blog.nil?
-  #        assert p.blog = 'example.com'
-  #        assert p.save
-  #        assert_equal 'http://example.com', p.reload.blog
-  #    end
-  #
-  #    should "prefix with friend_guy" do
-  #        p = users(:quentin)
-  #        assert p.flickr.nil?
-  #        assert p.flickr = 'example.com'
-  #        assert p.save
-  #        assert_equal 'http://example.com', p.reload.flickr
-  #    end
-
-  should "have wall with aaron" do
-    assert users(:quentin).has_wall_with(users(:aaron))
-  end
-
-  should "not have wall with friend_guy" do
-    assert !users(:quentin).has_wall_with(users(:friend_guy))
-  end
-
   def test_associations
     _test_associations
-  end
-
-  protected
-
-  def call_methods(user)
-    
-    user.friendships
-    user.follower_friends
-    user.following_friends
-
-    user.friends
-    user.followers
-    user.followings
-
-    user.friendships_initiated_by_me
-    user.friendships_not_initiated_by_me
-    user.occurances_as_friend
-    
-    user.pledge_requests
-    user.active?
-    
   end
   
 end

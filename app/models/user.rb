@@ -59,7 +59,8 @@ class User < ActiveRecord::Base
   def can_view?(check_object)
     if check_object.is_a?(User)
       self == check_object || check_object.admin?
+    else
+      false
     end
-    false
   end
 end
