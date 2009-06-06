@@ -62,6 +62,17 @@ namespace :muck do
     #system "annotate"
   end
 
+  desc "populates the database with all required values"
+  task :setup_db do
+    puts 'populating db with locale info'
+    Rake::Task[ "muck:db:populate" ].execute
+    Rake::Task[ "muck:raker:db:populate" ].execute
+    Rake::Task[ "muck:raker:db:bootstrap" ].execute
+    
+    puts 'setting up admin account'
+    Rake::Task[ "muck:users:create_admin" ].execute
+  end
+  
   task :sync do
     puts 'syncronizing engines and gems'
     Rake::Task[ "cms_lite:setup" ].execute
