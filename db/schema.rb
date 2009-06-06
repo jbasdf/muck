@@ -205,7 +205,6 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
     t.integer "indexed_records",      :default => 0
   end
 
-  add_index "languages", ["indexed_records"], :name => "index_languages_on_indexed_records"
   add_index "languages", ["locale"], :name => "index_languages_on_locale"
   add_index "languages", ["muck_raker_supported"], :name => "index_languages_on_muck_raker_supported"
   add_index "languages", ["name"], :name => "index_languages_on_name"
@@ -247,8 +246,8 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
   add_index "micro_event_people", ["micro_event_id"], :name => "index_micro_event_people_on_micro_event_id"
 
   create_table "micro_events", :force => true do |t|
-    t.integer  "entry_id",    :null => false
-    t.string   "name",        :null => false
+    t.integer  "entry_id",                    :null => false
+    t.string   "name",        :default => "", :null => false
     t.text     "description"
     t.string   "price"
     t.text     "image"
@@ -258,7 +257,7 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
     t.string   "state"
     t.string   "postcode"
     t.string   "country"
-    t.datetime "begins",      :null => false
+    t.datetime "begins",                      :null => false
     t.datetime "ends"
     t.text     "tags"
     t.string   "duration"
@@ -325,7 +324,7 @@ ActiveRecord::Schema.define(:version => 20090602191243) do
   end
 
   create_table "sessions", :force => true do |t|
-    t.string   "session_id", :null => false
+    t.string   "session_id", :default => "", :null => false
     t.text     "data"
     t.datetime "created_at"
     t.datetime "updated_at"

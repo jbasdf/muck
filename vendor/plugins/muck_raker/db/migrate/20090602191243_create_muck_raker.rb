@@ -1,4 +1,4 @@
-class CreateRecommender < ActiveRecord::Migration
+class CreateMuckRaker < ActiveRecord::Migration
 
   def self.up
 
@@ -146,7 +146,7 @@ class CreateRecommender < ActiveRecord::Migration
       t.string   "harvested_from_title",       :limit => 1000
       t.string   "harvested_from_short_title", :limit => 100
       t.integer  "entries_count"
-      t.integer  "default_language_id"
+      t.integer  "default_language_id", :default => 0
     end
 
     add_index "feeds", ["service_id"]
@@ -278,7 +278,8 @@ class CreateRecommender < ActiveRecord::Migration
     add_index "tags", ["root"]
 
     # add a flag to the languages table to flag languages we support
-    add_column :languages, :muck_raker_supported, :boolean
+    add_column :languages, :muck_raker_supported, :boolean, :default => false
+    add_column :languages, :indexed_records, :integer, :default => 0
     add_index "languages", ["muck_raker_supported"]
   end
 
@@ -314,6 +315,9 @@ class CreateRecommender < ActiveRecord::Migration
     remove_column :tags, :frequency
     remove_column :tags, :root
     remove_column :tags, :stem_frequency
+
+    remove_column :languages, :muck_raker_supported
+    remove_column :languages, :indexed_records
   end
 
 end

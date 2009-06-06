@@ -1,4 +1,4 @@
-class CreateRecommender < ActiveRecord::Migration
+class CreateMuckRaker < ActiveRecord::Migration
 
   def self.up
 
@@ -279,9 +279,8 @@ class CreateRecommender < ActiveRecord::Migration
 
     # add a flag to the languages table to flag languages we support
     add_column :languages, :muck_raker_supported, :boolean, :default => false
-    add_column :languages, :indexed_records, :integer, :default => false
+    add_column :languages, :indexed_records, :integer, :default => 0
     add_index "languages", ["muck_raker_supported"]
-    add_index "languages", ["indexed_records"]
   end
 
   def self.down

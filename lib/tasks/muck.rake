@@ -6,46 +6,71 @@ namespace :muck do
   task :reset do
     
     puts 'syncronizing engines'
-    system "rake cms_lite:setup"
-    system "rake disguise:setup"
-    system "rake uploader:sync"
-    system "rake muck:base:sync"
-    system "rake muck:users:sync"
-    system "rake muck:activity:sync"
-    system "rake recommender:sync"
+    Rake::Task[ "cms_lite:setup" ].execute
+    Rake::Task[ "disguise:setup" ].execute
+    Rake::Task[ "uploader:sync" ].execute
+    Rake::Task[ "muck:base:sync" ].execute
+    Rake::Task[ "muck:users:sync" ].execute
+    Rake::Task[ "muck:activity:sync" ].execute
+    Rake::Task[ "muck:raker:sync" ].execute
     
     puts 'droping databases'
-    system "rake db:drop:all"
+    Rake::Task[ "db:drop:all" ].execute
 
     puts 'creating databases'
-    system "rake db:create:all"
+    Rake::Task[ "db:create:all" ].execute
 
     puts 'migrating'
-    system "rake db:migrate"
+    Rake::Task[ "db:migrate" ].execute
 
     puts 'populating'
-    system "rake muck:db:populate"
-    system "rake recommender:db:bootstrap"
-    system "rake recommender:db:populate"
+    Rake::Task[ "muck:db:populate" ].execute
+    Rake::Task[ "muck:raker:db:bootstrap" ].execute
+    Rake::Task[ "muck:raker:db:populate" ].execute
     
     puts 'setting up admin account'
-    system "rake muck:users:create_admin"
+    Rake::Task[ "muck:users:create_admin" ].execute
     
     puts 'setting up test db'
-    system "rake db:test:prepare"
+    Rake::Task[ "db:test:prepare" ].execute
 
   end
+  
+  task :reset_db => :environment do
+    
+    puts 'droping databases'
+    Rake::Task[ "db:drop" ].execute
 
+    puts 'creating databases'
+    Rake::Task[ "db:create" ].execute
+
+    puts 'migrating'
+    Rake::Task[ "db:migrate" ].execute
+
+    puts 'populating db with locale info'
+    Rake::Task[ "muck:db:populate" ].execute
+    Rake::Task[ "muck:raker:db:bootstrap" ].execute
+    Rake::Task[ "muck:raker:db:populate" ].execute
+    
+    puts 'setting up admin account'
+    Rake::Task[ "muck:users:create_admin" ].execute
+    
+    puts 'setting up test db'
+    Rake::Task[ "db:test:prepare" ].execute
+
+    #puts 'annotating models'
+    #system "annotate"
+  end
 
   task :sync do
     puts 'syncronizing engines and gems'
-    system "rake cms_lite:setup"
-    system "rake disguise:setup"
-    system "rake uploader:sync"
-    system "rake muck:base:sync"
-    system "rake muck:users:sync"
-    system "rake muck:activity:sync"
-    system "rake recommender:sync"
+    Rake::Task[ "cms_lite:setup" ].execute
+    Rake::Task[ "disguise:setup" ].execute
+    Rake::Task[ "uploader:sync" ].execute
+    Rake::Task[ "muck:base:sync" ].execute
+    Rake::Task[ "muck:users:sync" ].execute
+    Rake::Task[ "muck:activity:sync" ].execute
+    Rake::Task[ "muck:raker:sync" ].execute
   end
   
   namespace :dev do
