@@ -10,7 +10,7 @@
 		<meta name="MSSmartTagsPreventParsing" content="true" />
     <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
     <!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
-		<%= stylesheet_link_tag %W{ reset 'blueprint/screen.css' styles admin }, :cache => true %>
+		<%= stylesheet_link_tag %W{ reset blueprint/screen.css styles admin }, :cache => true %>
     <%= javascript_include_tag %w{
                 jquery/jquery.js
                 jquery/jquery-ui.js
@@ -21,20 +21,25 @@
     <%= javascript_tag %[const AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
     <%= yield :head -%>
 	</head>
-	<body>
+	<body>		
 	  <div id="wrapper" class="container">
-	    <div id="main-navigation">
-				<ul>
-					<li class="first"><%= link_to t('muck.admin.users'), admin_users_path %></li>
-					<li><%= link_to t('muck.admin.permissions'), admin_roles_path %></li>
-					<li><%= link_to t('muck.admin.themes'), edit_admin_theme_path %></li>
-				</ul>
-				<div id="log-out" class="right">
-					<a href="http://<%= GlobalConfig.application_url %>/home"><%= t('muck.admin.Home') %></a>
-					<%= link_to t('muck.admin.my_dashboard'), user_path(current_user) %>
-					<%= link_to t('muck.users.sign_out'), logout_path %>
-				</div>
-			</div>
+	    <div id="header" class="span-24 last">
+	    </div>
+	    <hr />
+      <div id="subheader" class="span-24 last">
+        <div id="main-navigation">
+  				<ul>
+  					<li class="first"><%= link_to t('muck.admin.users'), admin_users_path %></li>
+  					<li><%= link_to t('muck.admin.permissions'), admin_roles_path %></li>
+  					<li><%= link_to t('muck.admin.themes'), edit_admin_theme_path %></li>
+  				</ul>
+  				<div id="log-out" class="right">
+  					<a href="http://<%= GlobalConfig.application_url %>/home"><%= t('muck.admin.home') %></a>
+  					<%= link_to t('muck.admin.my_dashboard'), user_path(current_user) %>
+  					<%= link_to t('muck.users.sign_out'), logout_path %>
+  				</div>
+  			</div>
+  		</div>
       <div id="content-wrapper">
         <div id="content">
 		      <%= yield :layout %>
