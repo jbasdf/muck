@@ -49,14 +49,14 @@ namespace :muck do
 
     puts 'populating db with locale info'
     Rake::Task[ "muck:db:populate" ].execute
-    Rake::Task[ "muck:raker:db:bootstrap" ].execute
     Rake::Task[ "muck:raker:db:populate" ].execute
+    Rake::Task[ "muck:raker:db:bootstrap" ].execute
     
     puts 'setting up admin account'
     Rake::Task[ "muck:users:create_admin" ].execute
     
-    puts 'setting up test db'
-    Rake::Task[ "db:test:prepare" ].execute
+#    puts 'setting up test db'
+#    Rake::Task[ "db:test:prepare" ].execute
 
     #puts 'annotating models'
     #system "annotate"

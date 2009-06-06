@@ -91,8 +91,8 @@ class CreateMuckRaker < ActiveRecord::Migration
     add_index "entries_subjects", ["subject_id"]
     
     create_table "entries_tags", :id => false, :force => true do |t|
-	  t.integer "entry_id", :null => false
-	  t.integer "tag_id"
+    t.integer "entry_id", :null => false
+    t.integer "tag_id"
     end
 
     add_index "entries_tags", ["entry_id"]
@@ -147,6 +147,7 @@ class CreateMuckRaker < ActiveRecord::Migration
       t.string   "harvested_from_short_title", :limit => 100
       t.integer  "entries_count"
       t.integer  "default_language_id", :default => 0
+      t.boolean  "ocw", :default => false
     end
 
     add_index "feeds", ["service_id"]
@@ -244,11 +245,11 @@ class CreateMuckRaker < ActiveRecord::Migration
     add_index "recommendations", ["entry_id"]
 
     create_table "services", :force => true do |t|
-      t.string  "uri",               :limit => 2083, :default => "",    :null => false
-      t.string  "title",             :limit => 1000, :default => "",    :null => false
-      t.string  "api_uri",           :limit => 2083, :default => "",    :null => false
-      t.string  "uri_template",      :limit => 2083, :default => "",    :null => false
-      t.string  "icon",              :limit => 2083
+      t.string  "uri",               :limit => 2083, :default => ""
+      t.string  "title",             :limit => 1000, :default => ""
+      t.string  "api_uri",           :limit => 2083, :default => ""
+      t.string  "uri_template",      :limit => 2083, :default => ""
+      t.string  "icon",              :limit => 2083, :default => 'rss.gif'
       t.integer "sequence"
       t.boolean "requires_password",                 :default => false
     end
@@ -315,9 +316,6 @@ class CreateMuckRaker < ActiveRecord::Migration
     remove_column :tags, :frequency
     remove_column :tags, :root
     remove_column :tags, :stem_frequency
-
-    remove_column :languages, :muck_raker_supported
-    remove_column :languages, :indexed_records
   end
 
 end
