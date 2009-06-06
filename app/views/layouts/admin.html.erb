@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title><%= (@page_title || GlobalConfig.application_name) + " Admin" -%></title>
+		<meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="distribution" content="all" />
+		<meta name="robots" content="all" />
+		<meta name="resource-type" content="document" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+    <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
+    <!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+		<%= stylesheet_link_tag %W{ reset 'blueprint/screen.css' styles admin }, :cache => true %>
+    <%= javascript_include_tag %w{
+                jquery/jquery.js
+                jquery/jquery-ui.js
+                jquery/jrails.js
+                jquery/jquery.jgrowl.js
+                jquery/jquery.tips.js
+                application.js }, :cache => 'all_js_cached' %>
+    <%= javascript_tag %[const AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
+    <%= yield :head -%>
+	</head>
+	<body>
+	  <div id="wrapper" class="container">
+	    <div id="main-navigation">
+				<ul>
+					<li class="first"><%= link_to t('muck.admin.users'), admin_users_path %></li>
+					<li><%= link_to t('muck.admin.permissions'), admin_roles_path %></li>
+					<li><%= link_to t('muck.admin.themes'), edit_admin_theme_path %></li>
+				</ul>
+				<div id="log-out" class="right">
+					<a href="http://<%= GlobalConfig.application_url %>/home"><%= t('muck.admin.Home') %></a>
+					<%= link_to t('muck.admin.my_dashboard'), user_path(current_user) %>
+					<%= link_to t('muck.users.sign_out'), logout_path %>
+				</div>
+			</div>
+      <div id="content-wrapper">
+        <div id="content">
+		      <%= yield :layout %>
+		    </div>
+		  </div>
+		</div>
+		<script type="text/javascript" language="JavaScript">
+      <%= yield :javascript %>
+    </script>
+	</body>
+</html>

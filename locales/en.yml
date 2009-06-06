@@ -1,2 +1,8 @@
 en:
   muck:
+    admin:
+      home: Home
+      users: Users
+      permissions: Permissions
+      themes: Themes
+      my_dashboard: My Dashboard

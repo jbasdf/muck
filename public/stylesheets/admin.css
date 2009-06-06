@@ -1,0 +1,11 @@
+/* main-navigation */
+#main-navigation{float:left;display:inline;width:100%;margin:0 0 1px 0;}
+#main-navigation ul{float:left;margin:4px 0;padding:2px;display:inline;}
+#main-navigation ul li{float:left;padding:0 4px 0 10px;list-style:none;font-weight:bold;}
+#main-navigation ul li a{float:left;text-decoration:none;font-weight:bold;}
+#main-navigation ul li a:hover{text-decoration:underline;}
+#log-out{margin:4px 10px 0 0;}
+#log-out a{color:#E9EFD5;font-weight:bold;margin-left:10px;}
+/* themes */
+#current-theme{clear:both;float:left;width:100%;}
+.theme-block{width:250px;height:300px;float:left;clear:none;margin:10px;}

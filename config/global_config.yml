@@ -30,6 +30,9 @@ default: &DEFAULT
   enable_live_activity_updates: true # Turns on polling inside the user's activity feed so they constantly get updates from the site
   live_activity_update_interval: 5
   
+  #theme configuration
+  use_domain_for_themes: true
+
 production:
   <<: *DEFAULT
 

@@ -73,9 +73,4 @@ namespace :muck do
     Rake::Task[ "muck:raker:sync" ].execute
   end
   
-  namespace :dev do
-    task :gitpull do
-      
-    end
-  end
 end
