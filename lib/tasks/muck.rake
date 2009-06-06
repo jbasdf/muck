@@ -63,7 +63,7 @@ namespace :muck do
   end
 
   desc "populates the database with all required values"
-  task :setup_db do
+  task :setup_db => :environment do
     puts 'populating db with locale info'
     Rake::Task[ "muck:db:populate" ].execute
     Rake::Task[ "muck:raker:db:populate" ].execute
