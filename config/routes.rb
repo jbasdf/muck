@@ -15,6 +15,7 @@ ActionController::Routing::Routes.draw do |map|
   # admin
   map.namespace :admin do |a|
     a.resource :theme
+    a.resources :domain_themes
   end
   
   map.resources :oers, :controller => 'recommender/entries'

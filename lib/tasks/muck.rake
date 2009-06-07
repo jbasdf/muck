@@ -76,6 +76,7 @@ namespace :muck do
   task :sync do
     puts 'syncronizing engines and gems'
     Rake::Task[ "cms_lite:setup" ].execute
+    Rake::Task[ "disguise:sync" ].execute
     Rake::Task[ "disguise:setup" ].execute
     Rake::Task[ "uploader:sync" ].execute
     Rake::Task[ "muck:base:sync" ].execute

@@ -43,12 +43,18 @@
   		</div>
   		<hr />
       <div id="content-wrapper">
-        <div id="content" class="span-18">
-		      <%= yield :layout %>
-		    </div>
-		    <div id="sidebar" class="span-5">
-		      <%= yield :sidebar %>
-		    </div>
+        <% if sidebar = yield(:sidebar) -%>
+          <div id="content" class="span-18">
+  		      <%= yield :layout %>
+  		    </div>
+  		    <div id="sidebar" class="span-5">
+  		      <%= sidebar %>
+  		    </div>
+  		  <% else -%>
+  		    <div id="content">
+  		      <%= yield :layout %>
+  		    </div>
+		    <% end -%>
 		  </div>
 		</div>
 		<script type="text/javascript" language="JavaScript">
