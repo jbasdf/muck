@@ -35,7 +35,7 @@
   			</div>
 				<div id="account-navigation" class="span-6 last navigation">
 				  <ul>
-					  <li class="first"><a href="http://<%= GlobalConfig.application_url %>/home"><%= t('muck.admin.home') %></a></li>
+					  <li class="first"><a href="/"><%= t('muck.admin.home') %></a></li>
 					  <li><%= link_to t('muck.admin.my_dashboard'), user_path(current_user) %></li>
 					  <li><%= link_to t('muck.users.sign_out_title'), logout_path %></li>
 					</ul>
