@@ -25,24 +25,29 @@
 	  <div id="wrapper" class="container">
 	    <div id="header" class="span-24 last">
 	    </div>
-	    <hr />
       <div id="subheader" class="span-24 last">
-        <div id="main-navigation">
+        <div id="main-navigation" class="span-18 first navigation">
   				<ul>
   					<li class="first"><%= link_to t('muck.admin.users'), admin_users_path %></li>
   					<li><%= link_to t('muck.admin.permissions'), admin_roles_path %></li>
   					<li><%= link_to t('muck.admin.themes'), edit_admin_theme_path %></li>
   				</ul>
-  				<div id="log-out" class="right">
-  					<a href="http://<%= GlobalConfig.application_url %>/home"><%= t('muck.admin.home') %></a>
-  					<%= link_to t('muck.admin.my_dashboard'), user_path(current_user) %>
-  					<%= link_to t('muck.users.sign_out'), logout_path %>
-  				</div>
   			</div>
+				<div id="account-navigation" class="span-6 last navigation">
+				  <ul>
+					  <li class="first"><a href="http://<%= GlobalConfig.application_url %>/home"><%= t('muck.admin.home') %></a></li>
+					  <li><%= link_to t('muck.admin.my_dashboard'), user_path(current_user) %></li>
+					  <li><%= link_to t('muck.users.sign_out_title'), logout_path %></li>
+					</ul>
+				</div>
   		</div>
+  		<hr />
       <div id="content-wrapper">
-        <div id="content">
+        <div id="content" class="span-18">
 		      <%= yield :layout %>
+		    </div>
+		    <div id="sidebar" class="span-5">
+		      <%= yield :sidebar %>
 		    </div>
 		  </div>
 		</div>
