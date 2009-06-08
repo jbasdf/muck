@@ -11,7 +11,7 @@
 #logo {float:left; width:222px; text-align:right;}
 #search-controls {float:right;width:240px; margin-right:20px;margin-top:20px;}
 #search-box {text-align:center;color:gray;width:165px;}
-#tag-cloud {margin-top:20px;line-height:30px; text-align:justify;}
+#tag-cloud {margin-top:20px;line-height:30px;}
 #tag-cloud a{padding:6px;text-decoration:none;}
 #tag-cloud a:visited{text-decoration:none;}
 #tag-cloud a:hover{text-decoration:underline;}
