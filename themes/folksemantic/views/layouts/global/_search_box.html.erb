@@ -1,7 +1,7 @@
 <div id="search-controls">
-  <% form_tag(:controller => '/search', :action => 'results') do -%>
-    <%= text_field_tag(:form_terms, @terms.nil? ? t('folksemantic.search') : @terms, :id => 'search-box') %>
-    <%= submit_tag(t('folksemantic.search_button'), :class => "input-button") %>
+  <% form_tag({:controller => 'recommender/entries', :action => 'search'}, {:method => :get}) do -%>
+    <%= text_field_tag(:q, @terms.nil? ? t('folksemantic.search') : @terms, :id => 'search-box') %>
+    <input class="input-button" type="submit" value="<%= t('folksemantic.search_button') %>"/>
     <div id="user-login">
       <% if logged_in? -%>
         <%= link_to t('folksemantic.welcome_user', :user => current_user.login), current_user %>
