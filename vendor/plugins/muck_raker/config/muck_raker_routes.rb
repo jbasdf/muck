@@ -10,6 +10,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :entries, :controller => 'recommender/entries'
   map.connect 'r', :controller => 'recommender/entries', :action => 'track_clicks'
   map.connect 'entries/tags/*tags', :controller => 'recommender/entries', :action => 'browse_by_tags'
+  map.connect 'entries/search/*terms', :controller => 'recommender/entries', :action => 'search'
   map.connect 'collections', :controller => 'entries', :action => 'collections'
 
   map.resources :recommendations, :controller => 'recommender/recommendations'

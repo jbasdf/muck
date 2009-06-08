@@ -5,7 +5,7 @@ module MuckRakerHelper
     
     atags = tags.sort_by(&:name)
     atags.each do |tag|
-      index = ((tag.count / max_count) * (classes.size - 1)).round
+      index = ((tag.count.to_f / max_count) * (classes.size - 1)).round
       yield tag,  classes[index]
     end
   end

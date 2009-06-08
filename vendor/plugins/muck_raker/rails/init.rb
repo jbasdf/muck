@@ -14,13 +14,13 @@ else
   end
 end
 
-I18n.load_path += Dir[ File.join(RAILS_ROOT, 'vendor', 'plugins', 'recommender', 'locales', '*.{rb,yml}') ]
+I18n.load_path += Dir[ File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'locales', '*.{rb,yml}') ]
 
 ENV['APP_AVAILABLE_LOCALES'] = "^en|es|fr|nl|ja|de|ru|zh"
 ENV['APP_DEFAULT_LOCALE'] = 'en'
 
-require 'recommender'
-require 'recommender/initialize_routes'
+require 'muck_raker'
+require 'muck_raker/initialize_routes'
 
 config.to_prepare do
   ApplicationController.helper(MuckRakerHelper)
