@@ -1,10 +1,10 @@
 default: &DEFAULT
 
   # Sent in emails to users
-  application_name: 'muck'
-  from_email: 'support@muckthis.com'
-  support_email: 'support@muckthis.com'
-  admin_email: 'admin@muckthis.com'
+  application_name: 'Folksemantic'
+  from_email: 'support@folksemantic.com'
+  support_email: 'support@folksemantic.com'
+  admin_email: 'admin@folksemantic.com'
   customer_service_number: '1-800-'
 
   # Email charset
@@ -37,13 +37,13 @@ production:
   <<: *DEFAULT
 
   # Sent in emails to users
-  application_url: 'www.muckthis.com'
+  application_url: 'www.folksemantic.com'
 
 staging:
   <<: *DEFAULT
 
   # Sent in emails to users
-  application_url: 'staging.muckthis.com'
+  application_url: 'staging.folksemantic.com'
     
 development:
   <<: *DEFAULT
