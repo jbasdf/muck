@@ -94,7 +94,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
 
   create_table "domain_themes", :force => true do |t|
     t.string "uri"
-    t.string "name"
+    t.string "theme"
   end
 
   add_index "domain_themes", ["uri"], :name => "index_domain_themes_on_uri"
@@ -254,8 +254,8 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
   add_index "micro_event_people", ["micro_event_id"], :name => "index_micro_event_people_on_micro_event_id"
 
   create_table "micro_events", :force => true do |t|
-    t.integer  "entry_id",    :null => false
-    t.string   "name",        :null => false
+    t.integer  "entry_id",                    :null => false
+    t.string   "name",        :default => "", :null => false
     t.text     "description"
     t.string   "price"
     t.text     "image"
@@ -265,7 +265,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
     t.string   "state"
     t.string   "postcode"
     t.string   "country"
-    t.datetime "begins",      :null => false
+    t.datetime "begins",                      :null => false
     t.datetime "ends"
     t.text     "tags"
     t.string   "duration"
@@ -332,7 +332,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
   end
 
   create_table "sessions", :force => true do |t|
-    t.string   "session_id", :null => false
+    t.string   "session_id", :default => "", :null => false
     t.text     "data"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -381,7 +381,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
   add_index "tags", ["stem"], :name => "index_tags_on_stem"
 
   create_table "themes", :force => true do |t|
-    t.string "name"
+    t.string "current"
   end
 
   create_table "uploads", :force => true do |t|
