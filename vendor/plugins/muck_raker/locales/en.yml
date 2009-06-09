@@ -18,8 +18,8 @@ en:
         of: of
         for: for
         relevance: relevance
-        metadata: Metadata
-        related_resources: Related resources
+        metadata: metadata
+        related_resources: related
         rss: RSS 
         xml: XML 
         atom: Atom 
