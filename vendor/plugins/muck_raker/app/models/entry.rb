@@ -13,6 +13,7 @@ class Entry < ActiveRecord::Base
       Subject.find_by_sql('select count(*) AS count, subjects.name
         from entries_subjects
         inner join subjects on entries_subjects.subject_id = subjects.id
+        inner join entries on entries_subjects.entry_id = entries.id and entries.language_id = 38
         group by subject_id
         order by count desc
         limit 100')

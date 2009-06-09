@@ -30,8 +30,8 @@ class Recommender::EntriesController < ApplicationController
   end
   
   def _search
-    @offset = params[:offset] || 0
-    @limit = params[:limit] || 10
+    @offset = (params[:offset] || 0).to_i
+    @limit = (params[:limit] || 10).to_i
     @term_list = URI.escape(@search) if !@search.nil?
     if !@search.nil?
       results = Entry.search(@search, 'en', @limit, @offset)

@@ -1,16 +1,16 @@
 <div id="finder">
-<div class="left" style="width:480px; margin-left:20px; margin-top:10px;">
 
 <% if !@results.nil? && !@results.empty? %>
 
-<p><%= t('muck.raker.results') %> <b><%= @offset %> - <%= (@offset + @limit) < @hit_count ? (@offset + @limit) : @hit_count %></b> <%= t('muck.raker.of') %> <b><%= @hit_count %></b> <%= t('muck.raker.for') %> <b><%= @terms %></b></p>
+<p id="results-description"><%= t('muck.raker.results') %> <b><%= (@offset+1) %> - <%= (@offset + @limit) < @hit_count ? (@offset + @limit) : @hit_count %></b> <%= t('muck.raker.of') %> <b><%= @hit_count %></b> <%= t('muck.raker.for') %> <b><%= URI.unescape(@term_list) %></b></p>
+
 <div id="results">
 <%= render(:partial => 'entries/result', :collection => @results) %>
 </div>
 
 <div>
-<b><%= (link_to(t('muck.raker.previous'), {:action => :browse_by_tags, :tags => URI.unescape(@term_list), :locale => @language, :limit => @limit, :offset => @offset - @limit}, :rel => "nofollow") + "&nbsp;&nbsp;") if @offset > 0 %>
-<%= (link_to(t('muck.raker.next'), {:action => :browse_by_tags, :tags => URI.unescape(@term_list),  :locale => @language,:limit => @limit, :offset => @offset + @limit}, :rel => "nofollow") if @results.size >= @limit )%>
+<b><%= (link_to(t('muck.raker.previous'), {:action => :browse_by_tags, :tags => @term_list, :locale => @language, :limit => @limit, :offset => @offset - @limit}, :rel => "nofollow") + "&nbsp;&nbsp;") if @offset > 0 %>
+<%= (link_to(t('muck.raker.next'), {:action => :browse_by_tags, :tags => @term_list,  :locale => @language,:limit => @limit, :offset => @offset + @limit}, :rel => "nofollow") if @results.size >= @limit )%>
 </b>
 </div>           
 
