@@ -16,6 +16,6 @@
             jquery/jquery.jgrowl.js
             jquery/jquery.tips.js
             application.js }, :cache => 'all_js_cached' %>
-<%= javascript_tag %[const AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
+<%= javascript_tag %[var AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
 <%= yield :head -%>
 <link rel="shortcut icon" href="/images/folksemantic/favicon.ico" type="image/x-icon">
