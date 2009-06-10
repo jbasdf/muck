@@ -1,5 +1,5 @@
 
-module Recommender
+module MuckRaker
 end
 
 Mime::Type.register "application/rdf+xml", :rdf

@@ -5,17 +5,42 @@ class Recommender::EntriesController < ApplicationController
   end
   
   def index
-    @tags = Entry.tag_counts_on('tags', :order => 'count desc', :limit => 200)
+    @tags = Entry.top_tags unless fragment_exist?({:controller => 'entries', :action => 'index'})
     respond_to do |format|
       format.html { render :template => 'entries/index' }
     end
   end
   
-  def tags tags
-    @entries = Entry.tagged_with(tags, :on => 'tags')
+  def browse_by_tags
+    @browse_tags = params[:tags]
+    @top_tags = Entry.top_tags(@browse_tags)
+    @search = @browse_tags.join(' ') if (!@browse_tags.nil? && !@browse_tags.empty?)
+    _search
+    respond_to do |format|
+      format.html { render :template => 'entries/browse_by_tags' }
+    end
+  end
+  
+  def show
+    @search = params[:q]
+    _search
+    respond_to do |format|
+      format.html { render :template => 'entries/search' }
+    end
+  end
+  
+  def _search
+    @offset = (params[:offset] || 0).to_i
+    @limit = (params[:limit] || 10).to_i
+    @term_list = URI.escape(@search) if !@search.nil?
+    if !@search.nil?
+      results = Entry.search(@search, 'en', @limit, @offset)
+      @results = results.results
+      @hit_count = results.total
+    end
   end
 
-  def show
+  def show_old
     @languages = Language.find(:all, :order => "name")
     @page_title = "Related Resources"
     @entry = Entry.find(params[:id], :include => :feed)

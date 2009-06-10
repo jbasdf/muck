@@ -1,0 +1,33 @@
+<div id="finder">
+<div class="left">
+
+	<fieldset style="margin-top:20px;">
+		<legend style="font-size:12px; color:#555;">click more tags to narrow results</legend>
+	<div style="margin-top:3px;margin-left:10px;font-size:12px;">
+	<input type="radio" name="scope" value="all" checked style="vertical-align:center"/>All
+	<input type="radio" name="scope" value="ocws" style="vertical-align:center"/>Courses<br/>
+	</div>
+		<img src="/images/tag_cloud2.jpg" align="center" width="200px;" />
+	</fieldset>
+
+</div>
+<div class="left" style="width:480px; margin-left:20px; margin-top:10px;">
+
+<% if @results.length > 0 %>
+
+<p><%= t('muck.raker.results') %> <b><%= (@offset+1) %> - <%= (@offset + @limit) < @hit_count ? (@offset + @limit) : @hit_count %></b> <%= t('muck.raker.of') %> <b><%= @hit_count %></b> <%= t('muck.raker.for') %> <b><%= @terms %></b></p>
+<div id="results">
+<%= render(:partial => 'entries/result', :collection => @results) %>
+</div>
+
+<div>
+<b><%= (link_to(t('muck.raker.previous'), {:action => :browse_by_tags, :tags => URI.unescape(@term_list), :locale => @language, :limit => @limit, :offset => @offset - @limit}, :rel => "nofollow") + "&nbsp;&nbsp;") if @offset > 0 %>
+<%= (link_to(t('muck.raker.next'), {:action => :browse_by_tags, :tags => URI.unescape(@term_list),  :locale => @language,:limit => @limit, :offset => @offset + @limit}, :rel => "nofollow") if @results.size >= @limit )%>
+</b>
+</div>           
+
+<% else %>
+<p><%= t(:no_hits) %></p>
+<% end %>
+
+</div>

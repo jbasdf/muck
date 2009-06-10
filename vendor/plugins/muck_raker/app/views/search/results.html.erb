@@ -8,7 +8,7 @@
 
 <hr class="divider"/>
 
-<p><%= t(:results) %> <b><%= @offset %> - <%= (@offset + @limit) < @hit_count ? (@offset + @limit) : @hit_count %></b> <%= t(:of) %> <b><%= @hit_count %></b> <%= t(:for) %> <b><%= @terms %></b></p>
+<p id='results-description'><%= t(:results) %> <b><%= @offset %> - <%= (@offset + @limit) < @hit_count ? (@offset + @limit) : @hit_count %></b> <%= t(:of) %> <b><%= @hit_count %></b> <%= t(:for) %> <b><%= @terms %></b></p>
 
 <div id="results">
 <%= render(:partial => "result", :collection => @results) %>
