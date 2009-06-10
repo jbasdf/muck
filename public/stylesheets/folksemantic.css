@@ -7,7 +7,7 @@ a:hover{color:#003B67;}
 .left {float:left;}
 h1{font-size:27px;font-weight:bold;padding-top:20px;padding-bottom:10px;}
 /* header */
-#header{width:750px; margin:10px auto;}
+#header{width:750px; margin:8px auto;border-top:solid 1px white;}
 #logo {float:left; width:261px;}
 #tag-line {font-size:12px;color:#003B67;margin-top:-32px;margin-left:69px;}
 #take-tour{border:solid 1px #003B67;float:left;margin-top:8px;margin-left:40px;background:#66B022;width:150px;padding:6px;font-size:20px;font-weight:bold;color:white;text-align:center;}
@@ -17,11 +17,13 @@ h1{font-size:27px;font-weight:bold;padding-top:20px;padding-bottom:10px;}
 #search-box{text-align:center;color:gray;width:165px;}
 #user-login{width:230px;text-align:right;margin-top:0px;}
 /* footer */
-#footer{text-align:center;padding-top:10px;padding-bottom:10px;margin-top:0px;margin-bottom:10px;font-size:90%;background-color:#EAF4FF;width:680px;margin-left:auto;margin-right:auto;}
+#footer{text-align:center;padding-top:6px;padding-bottom:6px;margin:20px auto;font-size:90%;background-color:#EAF4FF;width:680px;}
+#footer a{text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
 /* home page */
 #advertisements{width:786px;}
 #advertisements h2{margin-top:6px;font-weight:bold;font-size:24px;}
-.advert {width:210px;height:190px;padding:15px;border:dashed 1px gray;line-height:30px;margin:10px;text-align:center;cursor:hand;}
+.advert {width:210px;height:190px;padding:15px;border:dashed 1px gray;line-height:30px;margin:10px 10px 20px;text-align:center;cursor:hand;}
 .advert .highlight {font-size:150%;font-weight:bold;background:none;}
 /* entries tag browsing */
 fieldset{border:solid 1px #CCC;margin:0px;padding:10px;}
