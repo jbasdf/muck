@@ -57,12 +57,10 @@ class CreateMuckRaker < ActiveRecord::Migration
       t.text     "description"
       t.text     "content"
       t.boolean  "unique_content",                          :default => false
-      t.text     "tag_list"
       t.datetime "published_at",                                                               :null => false
       t.datetime "entry_updated_at"
       t.datetime "harvested_at"
       t.string   "oai_identifier",          :limit => 2083
-      t.boolean  "recommender_processed",                   :default => false
       t.integer  "language_id"
       t.string   "direct_link",             :limit => 2083
       t.datetime "indexed_at",                              :default => '1971-01-01 01:01:01', :null => false
@@ -79,24 +77,7 @@ class CreateMuckRaker < ActiveRecord::Migration
     add_index "entries", ["oai_identifier"]
     add_index "entries", ["permalink"]
     add_index "entries", ["published_at"]
-    add_index "entries", ["recommender_processed"]
     add_index "entries", ["relevance_calculated_at"]
-
-    create_table "entries_subjects", :id => false, :force => true do |t|
-      t.integer "entry_id",   :null => false
-      t.integer "subject_id"
-    end
-
-    add_index "entries_subjects", ["entry_id"]
-    add_index "entries_subjects", ["subject_id"]
-    
-    create_table "entries_tags", :id => false, :force => true do |t|
-	  t.integer "entry_id", :null => false
-	  t.integer "tag_id"
-    end
-
-    add_index "entries_tags", ["entry_id"]
-    add_index "entries_tags", ["tag_id"]
 
     create_table "entries_users", :force => true do |t|
       t.integer  "entry_id",                           :null => false
@@ -254,10 +235,6 @@ class CreateMuckRaker < ActiveRecord::Migration
       t.boolean "requires_password",                 :default => false
     end
 
-    create_table "subjects", :force => true do |t|
-      t.text "name"
-    end
-
     create_table "watched_pages", :force => true do |t|
       t.integer  "entry_id"
       t.datetime "harvested_at"
@@ -269,14 +246,8 @@ class CreateMuckRaker < ActiveRecord::Migration
     add_index "watched_pages", ["entry_id"]
 
     # modify the tags table
-    add_column :tags, :stem, :string
     add_column :tags, :frequency, :integer
-    add_column :tags, :root, :boolean
-    add_column :tags, :stem_frequency, :integer
-
-    add_index "tags", ["stem"]
     add_index "tags", ["frequency"]
-    add_index "tags", ["root"]
 
     # add a flag to the languages table to flag languages we support
     add_column :languages, :muck_raker_supported, :boolean, :default => false
@@ -292,7 +263,6 @@ class CreateMuckRaker < ActiveRecord::Migration
     drop_table :attentions
     drop_table :clicks
     drop_table :entries
-    drop_table :entries_subjects
     drop_table :entries_users
     drop_table :entry_images
     drop_table :feeds
@@ -308,14 +278,9 @@ class CreateMuckRaker < ActiveRecord::Migration
     drop_table :queries
     drop_table :recommendations
     drop_table :services
-    drop_table :subjects
     drop_table :watched_pages
-    drop_table :entries_tags
 
-    remove_column :tags, :stem
     remove_column :tags, :frequency
-    remove_column :tags, :root
-    remove_column :tags, :stem_frequency
   end
 
 end
