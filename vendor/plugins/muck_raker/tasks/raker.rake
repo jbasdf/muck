@@ -27,13 +27,21 @@ namespace :muck do
     end
     
     desc "Start the recommender daemon process"
-    task :start => :environment do
+    task :recommend => :environment do
       Dir.chdir(File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'raker', 'lib')) do
         jars = Dir['*.jar'].join(';')
         exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars};. edu.usu.cosl.recommenderd.Recommender"  
       end
     end
     
+    desc "Start the harvester daemon process"
+    task :harvest => :environment do
+      Dir.chdir(File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'raker', 'lib')) do
+        jars = Dir['*.jar'].join(';')
+        exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars};. edu.usu.cosl.aggregatord.Harvester"  
+      end
+    end
+ 
     desc "Stop the recommender daemon process"
     task :stop do
       system "java"
