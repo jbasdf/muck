@@ -28,17 +28,20 @@ namespace :muck do
     
     desc "Start the recommender daemon process"
     task :recommend => :environment do
+      separator = ':'
       Dir.chdir(File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'raker', 'lib')) do
-        jars = Dir['*.jar'].join(';')
-        exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars};. edu.usu.cosl.recommenderd.Recommender"  
+        jars = Dir['*.jar'].join(separator)
+        exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars}#{separator}. edu.usu.cosl.recommenderd.Recommender"  
       end
     end
     
     desc "Start the harvester daemon process"
     task :harvest => :environment do
+      separator = ':'
       Dir.chdir(File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'raker', 'lib')) do
-        jars = Dir['*.jar'].join(';')
-        exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars};. edu.usu.cosl.aggregatord.Harvester"  
+        jars = Dir['*.jar'].join(separator)
+        puts jars
+        exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars}#{separator}. edu.usu.cosl.aggregatord.Harvester"  
       end
     end
  

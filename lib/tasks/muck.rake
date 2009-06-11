@@ -3,7 +3,7 @@ require 'fileutils'
 namespace :muck do
   
   desc "Completely reset and repopulate the database and annotate models. THIS WILL DELETE ALL YOUR DATA"
-  task :reset do
+  task :reset => :environment do
     
     puts 'syncronizing engines'
     Rake::Task[ "cms_lite:setup" ].execute
@@ -15,10 +15,10 @@ namespace :muck do
     Rake::Task[ "muck:raker:sync" ].execute
     
     puts 'droping databases'
-    Rake::Task[ "db:drop:all" ].execute
+    Rake::Task[ "db:drop" ].execute
 
     puts 'creating databases'
-    Rake::Task[ "db:create:all" ].execute
+    Rake::Task[ "db:create" ].execute
 
     puts 'migrating'
     Rake::Task[ "db:migrate" ].execute

@@ -21,7 +21,6 @@ staging:
   password: 
   host: localhost
   encoding: utf8
-  socket: /var/lib/mysql/mysql.sock
 
 production:
   adapter: mysql
@@ -30,4 +29,3 @@ production:
   password: 
   host: localhost
   encoding: utf8
-  socket: /var/lib/mysql/mysql.sock

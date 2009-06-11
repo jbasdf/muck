@@ -83,7 +83,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
   add_index "clicks", ["user_agent"], :name => "index_clicks_on_user_agent"
   add_index "clicks", ["when"], :name => "index_clicks_on_when"
 
-  create_table "cloud_cache", :id => false, :force => true do |t|
+  create_table "cloud_caches", :id => false, :force => true do |t|
     t.integer "language_id",                 :default => 0,  :null => false
     t.string  "filter",                      :default => "", :null => false
     t.string  "tag_list",    :limit => 2500
@@ -251,8 +251,8 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
   add_index "micro_event_people", ["micro_event_id"], :name => "index_micro_event_people_on_micro_event_id"
 
   create_table "micro_events", :force => true do |t|
-    t.integer  "entry_id",                    :null => false
-    t.string   "name",        :default => "", :null => false
+    t.integer  "entry_id",    :null => false
+    t.string   "name",        :null => false
     t.text     "description"
     t.string   "price"
     t.text     "image"
@@ -262,7 +262,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
     t.string   "state"
     t.string   "postcode"
     t.string   "country"
-    t.datetime "begins",                      :null => false
+    t.datetime "begins",      :null => false
     t.datetime "ends"
     t.text     "tags"
     t.string   "duration"
@@ -329,7 +329,7 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
   end
 
   create_table "sessions", :force => true do |t|
-    t.string   "session_id", :default => "", :null => false
+    t.string   "session_id", :null => false
     t.text     "data"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -2,7 +2,7 @@
 
    <!-- the first argument is the ConnectionFactory -->
    <object class="org.apache.commons.dbcp.DriverManagerConnectionFactory">
-      <string value="jdbc:mysql://localhost/muck?user=root"/>
+      <string value="jdbc:mysql://localhost/muck_development?user=root"/>
       <object class="java.util.Properties" null="true"/>
    </object>
 
