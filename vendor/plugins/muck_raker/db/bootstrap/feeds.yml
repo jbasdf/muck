@@ -382,7 +382,7 @@ feed_35:
     harvested_from_display_uri: http://open.byu.edu/
     harvested_from_title: BYU McKay School of Education Open Learning
     harvested_from_short_title: BYU MSE Open Learning
-    ocw: false 
+    ocw: true 
 feed_36:
     title: The OpenLearn LearningSpace RSS Feed
     short_title: OpenLearn
@@ -393,7 +393,7 @@ feed_36:
     harvested_from_display_uri: http://openlearn.open.ac.uk/
     harvested_from_title: Open University
     harvested_from_short_title: OU
-    ocw: false 
+    ocw: true 
 feed_37:
     title: OpenOCW
     short_title: OpenOCW
@@ -415,7 +415,7 @@ feed_38:
     harvested_from_display_uri: http://oyc.yale.edu/
     harvested_from_title: Open Yale
     harvested_from_short_title: Open Yale
-    ocw: false 
+    ocw: true 
 feed_39:
     title: "Offener eLearning-Blog: E-Learning und E-Books kostenlos"
     short_title: Open E-learning
@@ -998,7 +998,7 @@ feed_91:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_92:
     title: Department of Army
     short_title: Department of Army
@@ -1042,7 +1042,7 @@ feed_95:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_96:
     title: DLESE Community Service Center (SERC)
     short_title: SERC
@@ -1713,7 +1713,7 @@ feed_156:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_157:
     title: Journey North
     short_title: Journey North
@@ -1999,7 +1999,7 @@ feed_182:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_183:
     title: MIT Visualizing Cultures
     short_title: MIT
@@ -2549,7 +2549,7 @@ feed_232:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_233:
     title: Oberlin College
     short_title: Oberlin College
@@ -3319,7 +3319,7 @@ feed_302:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_303:
     title: UC Berkeley
     short_title: UC
@@ -3341,7 +3341,7 @@ feed_304:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_305:
     title: UMass Boston OpenCourseWare
     short_title: UMass Boston OpenCourseWare
@@ -3352,7 +3352,7 @@ feed_305:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_306:
     title: Understanding Evolution
     short_title: Understanding Evolution
@@ -4012,7 +4012,7 @@ feed_365:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_366:
     title: U.S. Securities and Exchange Commission
     short_title: U.S. Securities and Exchange Commission
@@ -4034,7 +4034,7 @@ feed_367:
     harvested_from_display_uri: http://www.oercommons.org
     harvested_from_title: OER Commons - Open Educational Resources
     harvested_from_short_title: OERC
-    ocw: false 
+    ocw: true 
 feed_368:
     title: Virginia Center for Digital History
     short_title: Virginia Center for Digital History
