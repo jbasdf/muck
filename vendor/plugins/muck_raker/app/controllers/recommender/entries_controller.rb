@@ -5,7 +5,7 @@ class Recommender::EntriesController < ApplicationController
   end
   
   def index
-    @tags = Entry.top_tags unless fragment_exist?({:controller => 'entries', :action => 'index'})
+    @tags = CloudCache.language_tags('en') unless fragment_exist?({:controller => 'entries', :action => 'index'})
     respond_to do |format|
       format.html { render :template => 'entries/index' }
     end
