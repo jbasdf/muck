@@ -5,6 +5,7 @@ a:visited{color:#003B67;}
 a:hover{color:#003B67;}
 .left {float:left;}
 h1{font-size:27px;font-weight:bold;padding-top:20px;padding-bottom:10px;}
+.container{min-width:950px;width:90%;margin:0 auto;overflow:hidden;}
 /* header */
 #header{width:750px; margin:8px auto;border-top:solid 1px white;}
 #logo {float:left; width:261px;}
