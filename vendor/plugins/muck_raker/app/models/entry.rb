@@ -8,17 +8,7 @@ class Entry < ActiveRecord::Base
   acts_as_solr({:if => false, :fields => [{:feed_id => :integer}]}, {:type_field => :type_s})
 
   def self.top_tags(tags = nil)
-    if tags.nil?
-#      Tag.find(:all, :select => 'name, frequency AS count', :conditions => 'root = true', :order => 'frequency desc', :limit => 200) if tags.nil
-      Subject.find_by_sql('select count(*) AS count, subjects.name
-        from entries_subjects
-        inner join subjects on entries_subjects.subject_id = subjects.id
-        inner join entries on entries_subjects.entry_id = entries.id and entries.language_id = 38
-        group by subject_id
-        order by count desc
-        limit 100')
-    else
-    end
+    
   end
   
   def self.search(search_terms, language = "en", limit = 10, offset = 0)

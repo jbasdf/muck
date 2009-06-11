@@ -2,6 +2,6 @@
   <%= t('folksemantic.no_tags') %>
 <% else -%>
   <% tag_cloud tags, %w(cloud1 cloud2 cloud3 cloud4 cloud5 cloud6) do |tag, css_class| %>
-      <%= link_to tag.name, { :action => :browse_by_tags, :tags => tag.name }, :class => css_class %>
+      <%= link_to tag, { :action => :browse_by_tags, :tags => tag }, :class => css_class %>
   <% end %>
 <% end -%>

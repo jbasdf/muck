@@ -1,13 +1,7 @@
 module MuckRakerHelper
 
-  def tag_cloud(tags, classes)
-    max_count = tags.first.count.to_f
-    
-    atags = tags.sort_by(&:name)
-    atags.each do |tag|
-      index = ((tag.count.to_f / max_count) * (classes.size - 1)).round
-      yield tag,  classes[index]
-    end
+  def tag_cloud(tag_list, classes)
+    tag_list.split(',').each_slice(2){|tag,index| yield tag, classes[index.to_i]}
   end
   
   def round(flt)
