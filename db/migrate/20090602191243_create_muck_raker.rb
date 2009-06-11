@@ -280,6 +280,9 @@ class CreateMuckRaker < ActiveRecord::Migration
     drop_table :attentions
     drop_table :clicks
     drop_table :entries
+    drop_table :subjects
+    drop_table :entries_subjects
+    drop_table :cloud_cache
     drop_table :entries_users
     drop_table :entry_images
     drop_table :feeds
@@ -296,8 +299,6 @@ class CreateMuckRaker < ActiveRecord::Migration
     drop_table :recommendations
     drop_table :services
     drop_table :watched_pages
-
-    remove_column :tags, :frequency
   end
 
 end
