@@ -30,7 +30,6 @@ function setup_submit_delete(){
     var form = jQuery(this).parents('form');
     jQuery.post(form.attr('action') + '.js', form.serialize(),
       function(data){
-				eval(data);
       });
     return false;
   });

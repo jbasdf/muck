@@ -27,9 +27,9 @@ Rails::Initializer.run do |config|
   config.gem 'cms-lite', :lib => 'cms_lite', :version => ">=0.3.3"
   config.gem 'disguise', :version => ">=0.3.0"
   config.gem 'uploader', :version => ">=0.1.15"
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.1'
-  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.1.1'
-  config.gem 'muck-activity', :lib => 'muck_activity', :version => '>=0.1.1'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.2'
+  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.1.2'
+  config.gem 'muck-activity', :lib => 'muck_activity', :version => '>=0.1.2'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named

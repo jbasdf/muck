@@ -18,4 +18,5 @@ require 'uploader/tasks'
 require 'disguise/tasks'
 
 require 'muck_engine/tasks'
-require 'muck-users/tasks'
+require 'muck_users/tasks'
+require 'muck_activity/tasks'
