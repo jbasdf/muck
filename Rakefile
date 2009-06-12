@@ -19,3 +19,6 @@ require 'disguise/tasks'
 
 require 'muck-engine'
 require 'muck-engine/tasks'
+
+require 'muck-users'
+require 'muck-uses/tasks'
