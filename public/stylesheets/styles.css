@@ -12,6 +12,7 @@ fieldset{border:none;margin:0;padding:0;}
 form fieldset{margin:0 0 2px;padding:0px;}
 form fieldset input[type="text"],form fieldset input[type="password"]{width:500px;}
 .common-form{width:500px;margin:40px auto;}
+.common-form h1{font-size:1.8em;}
 .form-item{float:left;}
 .common-content{width:500px;margin:40px auto;font-size:1.2em;color:#555;}
 .button-link {background-color:transparent;border-top-width: 0px;border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;}

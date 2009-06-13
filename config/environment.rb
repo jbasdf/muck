@@ -29,7 +29,7 @@ Rails::Initializer.run do |config|
   config.gem 'uploader', :version => ">=0.1.15"
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.2'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.1.2'
-  config.gem 'muck-activity', :lib => 'muck_activity', :version => '>=0.1.2'
+  config.gem 'muck-activity', :lib => 'muck_activity', :version => '>=0.1.3'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named

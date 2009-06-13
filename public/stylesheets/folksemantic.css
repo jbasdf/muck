@@ -1,27 +1,26 @@
 /* global */
-body{font-family:"Helvetica Neue",Helvetica,sans-serif;font-size:14px;}
 a{color:#003B67;}
 a:visited{color:#003B67;}
 a:hover{color:#003B67;}
-.left {float:left;}
-h1{font-size:27px;font-weight:bold;padding-top:20px;padding-bottom:10px;}
-.container{min-width:950px;width:90%;margin:0 auto;overflow:hidden;}
+.container{min-width:950px;width:90%;margin:2px auto;}
+div.two-border {padding:0 4px;margin:0 5px;border-right:1px solid #eee;border-left:1px solid #eee;}
+div.two-colborder {padding:0 24px;margin:0 25px;border-right:1px solid #eee;border-left:1px solid #eee;}
 /* header */
-#header{width:750px; margin:8px auto;border-top:solid 1px white;}
-#logo {float:left; width:261px;}
-#tag-line {font-size:12px;color:#003B67;margin-top:-32px;margin-left:69px;}
-#take-tour{border:solid 1px #003B67;float:left;margin-top:8px;margin-left:40px;background:#66B022;width:150px;padding:6px;font-size:20px;font-weight:bold;color:white;text-align:center;}
-#search-controls {float:right;width:240px;margin-top:2px;text-align:right;line-height:1;}
+#header{width:100%;height:64px;margin:10px 5px;}
+#tag-line {font-size:1em;color:#003B67;margin-top:-32px;margin-left:69px;}
+#take-tour{text-align:center;padding:13px 0;}
+#take-tour a{font-size:1.6em;font-weight:bold;color:white;border:solid 1px #003B67;background:#66B022;width:140px;padding:10px 16px;text-decoration:none;}
+#search-controls {margin:2px 0;text-align:right;}
 #search-controls input[type='text']{margin:6px 2px 0px 2px;}
 #search-controls input[type='submit']{padding:2px;margin:2px 8px 3px 2px;}
-#search-box{text-align:center;color:gray;width:165px;}
-#user-login{width:230px;text-align:right;margin-top:0px;}
+#search-box{text-align:center;color:gray;}
+#user-login{text-align:right;margin-right:15px}
 /* footer */
-#footer{text-align:center;padding-top:6px;padding-bottom:6px;margin:20px auto;font-size:90%;background-color:#EAF4FF;width:680px;}
+#footer{text-align:center;padding-top:6px;padding-bottom:6px;margin:20px auto;font-size:90%;background-color:#EAF4FF;width:100%;}
 #footer a{text-decoration:none;}
 #footer a:hover{text-decoration:underline;}
 /* home page */
-#advertisements{width:786px;}
+#advertisements{width:786px;margin:0 auto;}
 #advertisements h2{margin-top:6px;font-weight:bold;font-size:24px;}
 .advert {width:210px;height:190px;padding:15px;border:dashed 1px gray;line-height:30px;margin:10px 10px 20px;text-align:center;cursor:hand;}
 .advert .highlight {font-size:150%;font-weight:bold;background:none;}
@@ -40,12 +39,6 @@ fieldset{border:solid 1px #CCC;margin:0px;padding:10px;}
 .cloud7{font-size:39px;}
 .cloud8{font-size:43px;}
 .cloud9{font-size:47px;}
-/* dashboard */
-#status-update-field{border:solid 1px #ccc;padding:10px 7px;background-color:#eee;}
-#status-update-button input{padding:0;}
-.activity-delete{}
-.status-update-dim{}
-.status-update-lit{}
 /* content pages */
 #content-page{width:600px;margin:0px auto;font-size:18px;}
 #content-page p{margin:0 0 .5em;}
@@ -53,3 +46,22 @@ fieldset{border:solid 1px #CCC;margin:0px;padding:10px;}
 #finder{margin:0 26px; padding-top:12px;line-height:1.3em;}
 #results p{margin: 0 0 .8em;width:600px;}
 #results-description{border-top:solid 1px #888;text-align:right;background-color:#EAF4FF;margin-bottom:1em;}
+/* activity feed */
+#status-update-field{border:solid 1px #ccc;padding:10px 7px;background-color:#eee;}
+#status-update-button input{padding:0;}
+.status-update-dim{}
+.status-update-lit{}
+ul#activity-filter{list-style:none;}
+ul#activity-filter li{border-bottom:solid 1px #ccc;}
+ul#activity-filter li a{text-decoration:none;}
+ul#activity-filter li a:hover;{text-decoration:underline;}
+.activity{clear:both;}
+#activity-feed{margin:15px 0 0 0;}
+#activity-feed-content .activity{border-bottom:solid 1px #eee;margin:8px 0 4px 0;}
+#activity-feed-content .activity-time{font-size:1em;font-color:#eee;clear:left;}
+#activity-icon, .actor-icon{width:50px;float:left;margin:0 10px 10px 0;}
+#activity-feed-content .actor, #current-status-name{font-weight:bolder;font-size:1.3em;}
+.activity-time, .status-time{color:#777777;font-size:.9em;}
+p#current-status-text, .activity-content p{margin:0;}
+form.activity-delete {position:relative;display:inline;}
+form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:absolute;right:-20px;bottom:0px;}

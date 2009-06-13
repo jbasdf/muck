@@ -1,7 +1,9 @@
 class CloudCache < ActiveRecord::Base
   
   def self.language_tags language
-    CloudCache.find_by_sql("SELECT tag_list FROM cloud_caches WHERE language_id = 38 AND filter = 'all'").first.tag_list
+    english_id = 38
+    results = CloudCache.find(:all, :conditions => ["language_id = ? AND filter = 'all'", english_id])
+    results.empty? ? '' : results[0].tag_list
   end
   
 end

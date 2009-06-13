@@ -4,12 +4,23 @@
 	<%#= auto_discovery_link_tag :rss, formatted_user_photos_url(current_user, :rss), :title=>"#{current_user.login}'s Photos" %>
 <% end -%>
 
-<div class="span-15 prepend-1 colborder">
+<div class="span-3 column">
+  <%= activity_filter(@user) %>
+</div>
+
+<div class="span-15 two-colborder column">
+  <%= current_status(@user) %>
   <%= status_update(@user) %>
   <%= activity_feed_for(@user) %>
 </div>
 
-<div class="span-7 last">
- <%= link_to 'Uploads', uploads_path(make_parent_params(@user)) %>
+<div class="span-4 last column">
+  <div id="recommended" class="box">
+    <h4>Recommended Resources</h4>
+  </div>
+  <hr class="space" />
+  <div id="uploads" class="box">
+    <h4>File Uploads</h4>
+    <%= link_to 'Uploads', uploads_path(make_parent_params(@user)) %>
+  </div>
 </div>
-

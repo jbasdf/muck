@@ -1,11 +1,8 @@
-<div id="header">
-  <div>
-    <div id="logo">
-      <a href="/"><img border="0" src="/images/folksemantic/logo_folksemantic.jpg" alt="Folksemantic" title="Folksemantic" /></a>
-      <div id="tag-line"><%= t('folksemantic.tag_line') %></div>
-    </div>
-    <a href='/tour'><div id="take-tour"><%= t('folksemantic.tour') %></div></a>
-    <%= render :partial => 'layouts/global/search_box' %>
+<div id="header" class="container">
+  <div id="logo" class="span-8 column">
+    <a href="/"><img src="/images/folksemantic/logo_folksemantic.jpg" alt="Folksemantic" title="Folksemantic" /></a>
+    <div id="tag-line"><%= t('folksemantic.tag_line') %></div>
   </div>
-  <div class="clear"></div>
+  <div id="take-tour" class="span-8 column"><a href='/tour'><%= t('folksemantic.tour') %></a></div>
+  <%= render :partial => 'layouts/global/search_box' %>
 </div>
