@@ -61,13 +61,15 @@ body > div.jGrowl.bottom-right{right:0px;bottom:0px;}
 body > div.jGrowl.center{top:0px;width:50%;left:25%;}
 /** Cross Browser Styling **/
 div.center div.jGrowl-notification,div.center div.jGrowl-closer{margin-left:auto;margin-right:auto;}
-div.jGrowl div.jGrowl-notification,div.jGrowl div.jGrowl-closer{background-color:#FCFAE1;color:#000;opacity:.95;filter:alpha(opacity = 95);zoom:1;width:550px;padding:10px;margin-top:5px;margin-bottom:5px;
-	font-size:1.5em;text-align:left;display:none;-moz-border-radius:5px;-webkit-border-radius:5px;border:solid 3px #555;}
+div.jGrowl div.jGrowl-notification,div.jGrowl div.jGrowl-closer{background-color:#F0F7F9;color:#000;opacity:.95;filter:alpha(opacity = 95);zoom:1;width:550px;padding:10px;margin-top:5px;margin-bottom:5px;font-size:1.5em;text-align:left;display:none;-moz-border-radius:5px;-webkit-border-radius:5px;border:solid 3px #555;}
 div.jGrowl div.jGrowl-notification{min-height:40px;}
 div.jGrowl div.jGrowl-notification div.header{font-weight:bold;font-size:1.6em;}
 div.jGrowl div.jGrowl-notification div.close{float:right;font-weight:bold;font-size:2em;cursor:pointer;color:#555;}
 div.jGrowl div.jGrowl-notification div.close:hover{color:#ccc;}
 div.jGrowl div.jGrowl-closer{height:15px;padding-top:4px;padding-bottom:4px;cursor:pointer;font-size:11px;font-weight:bold;text-align:center;}
+div.jGrowl div.jGrowl-notification .notice, div.jGrowl div.jGrowl-notification .error, div.jGrowl div.jGrowl-notification .success{background:none;border:none;}
+div.jGrowl div.jGrowl-notification h2{text-align:left;font-weight:bold;padding:5px 5px 5px 15px;font-size:1.1em;}
+
 /* Errors */
 .help-box{font-size:1.2em;color:#555;}
 .fieldWithErrors input{border:solid 2px #B61E12;}

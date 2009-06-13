@@ -21,14 +21,12 @@ default: &DEFAULT
   recaptcha_priv_key: GET_A_RECAPTCHA_KEY(TODO)
   
   # jgrowl related settings
-  growl_enabled: true
-  growl_flash_messages: false
-  growl_ar_errors: false
+  growl_enabled: false
   
   # application configuration
   let_users_delete_their_account: false  # turn on/off ability for users to delete their own account
   enable_live_activity_updates: true # Turns on polling inside the user's activity feed so they constantly get updates from the site
-  live_activity_update_interval: 5
+  live_activity_update_interval: 60 # time between updates to live activity feed in seconds
   
   #theme configuration
   use_domain_for_themes: true

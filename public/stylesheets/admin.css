@@ -9,5 +9,4 @@
 
 /* themes */
 #current-theme{clear:both;float:left;width:100%;}
-.theme-block{width:250px;float:left;clear:none;margin:10px;}
-.theme-block input[type="text"]{width:240px;padding:0px;}
+.theme-block{width:250px;height:300px;float:left;clear:none;margin:10px;}

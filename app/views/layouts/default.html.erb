@@ -17,6 +17,7 @@
                   jquery/jrails.js
                   jquery/jquery.jgrowl.js
                   jquery/jquery.tips.js
+                  muck.js
                   application.js }, :cache => 'all_js_cached' %>
       <%= javascript_tag %[const AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
       <%= yield :head -%>

@@ -2,7 +2,7 @@
 <meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="distribution" content="all" />
-<meta name="robots" content="all" />	
+<meta name="robots" content="all" />
 <meta name="resource-type" content="document" />
 <meta name="MSSmartTagsPreventParsing" content="true" />
 <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
@@ -15,6 +15,7 @@
             jquery/jrails.js
             jquery/jquery.jgrowl.js
             jquery/jquery.tips.js
+            muck.js
             application.js }, :cache => 'all_js_cached' %>
 <%= javascript_tag %[var AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
 <%= yield :head -%>
