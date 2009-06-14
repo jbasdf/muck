@@ -24,12 +24,14 @@ Rails::Initializer.run do |config|
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.0.5"
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
+  config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set'
   config.gem 'cms-lite', :lib => 'cms_lite', :version => ">=0.3.3"
   config.gem 'disguise', :version => ">=0.3.0"
   config.gem 'uploader', :version => ">=0.1.15"
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.5'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.1.3'
   config.gem 'muck-activity', :lib => 'muck_activity', :version => '>=0.1.4'
+  config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.0'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named

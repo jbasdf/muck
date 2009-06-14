@@ -25,8 +25,11 @@ default: &DEFAULT
   
   # application configuration
   let_users_delete_their_account: false  # turn on/off ability for users to delete their own account
+  
+  # activity configuration
   enable_live_activity_updates: true # Turns on polling inside the user's activity feed so they constantly get updates from the site
   live_activity_update_interval: 60 # time between updates to live activity feed in seconds
+  enable_activity_comments: true
   
   #theme configuration
   use_domain_for_themes: true

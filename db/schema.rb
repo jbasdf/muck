@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090606153236) do
+ActiveRecord::Schema.define(:version => 20090613173314) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -88,6 +88,23 @@ ActiveRecord::Schema.define(:version => 20090606153236) do
     t.string  "filter",                      :default => "", :null => false
     t.string  "tag_list",    :limit => 2500
   end
+
+  create_table "comments", :force => true do |t|
+    t.integer  "commentable_id",                 :default => 0
+    t.string   "commentable_type", :limit => 15, :default => ""
+    t.text     "body"
+    t.integer  "user_id",                        :default => 0,     :null => false
+    t.integer  "parent_id"
+    t.integer  "lft"
+    t.integer  "rgt"
+    t.integer  "is_denied",                      :default => 0,     :null => false
+    t.boolean  "is_reviewed",                    :default => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "comments", ["commentable_id", "commentable_type"], :name => "index_comments_on_commentable_id_and_commentable_type"
+  add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
 
   create_table "countries", :force => true do |t|
     t.string  "name",         :limit => 128, :default => "",   :null => false

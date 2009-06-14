@@ -55,9 +55,9 @@ ul#activity-filter{list-style:none;}
 ul#activity-filter li{border-bottom:solid 1px #ccc;}
 ul#activity-filter li a{text-decoration:none;}
 ul#activity-filter li a:hover;{text-decoration:underline;}
-.activity{clear:both;}
+.activity{clear:both;display:block;}
 #activity-feed{margin:15px 0 0 0;}
-#activity-feed-content .activity{border-bottom:solid 1px #eee;margin:8px 0 4px 0;}
+#activity-feed-content .activity{margin:8px 0 4px 0;}
 #activity-feed-content .activity-time{font-size:1em;font-color:#eee;clear:left;}
 #activity-icon, .actor-icon{width:50px;float:left;margin:0 10px 10px 0;}
 #activity-feed-content .actor, #current-status-name{font-weight:bolder;font-size:1.3em;}
@@ -65,3 +65,11 @@ ul#activity-filter li a:hover;{text-decoration:underline;}
 p#current-status-text, .activity-content p{margin:0;}
 form.activity-delete {position:relative;display:inline;}
 form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:absolute;right:-20px;bottom:0px;}
+/* comments under activity feed */
+.activity-comment{border:1px solid #ccc;margin:2px 50px 2px 60px;padding:.5em;background-color:#eee;}
+.activity-comment .actor-icon{width:40px;}
+.activity-comment .actor-icon img{width:40px;height:40px;}
+.activity-comment textarea.max{width:85%;height:30px;}
+.activity-comment textarea.min{height:15px;width:50%;}
+.activity-comment p{margin:0;}
+.activity-comment .actor a{font-size:.8em;}
