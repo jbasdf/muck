@@ -25,6 +25,7 @@ Rails::Initializer.run do |config|
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
   config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set'
+  config.gem "jbasdf-acts_as_solr", :lib => 'acts_as_solr', :version => ">=0.4.0"
   config.gem 'cms-lite', :lib => 'cms_lite', :version => ">=0.3.3"
   config.gem 'disguise', :version => ">=0.3.0"
   config.gem 'uploader', :version => ">=0.1.15"

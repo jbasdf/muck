@@ -35,15 +35,20 @@ function apply_comment_methods(){
 
 function setup_comment_submit(){
 	jQuery(".comment-submit").click(function() {
-    hide_comment_boxes();
-		
-    var form = jQuery(this).parents('form');
-    jQuery.post(form.attr('action') + '.json', form.serialize(),
+    jQuery(this).siblings('textarea').hide();
+		jQuery(this).parent().append('<p class="comment-loading"><img src="/images/spinner.gif" alt="loading..." /> ' + ADD_COMMENT_MESSAGE + '</p>');
+		var form = jQuery(this).parents('form');
+    jQuery.post(form.attr('action'), form.serialize() + '&format=json',
       function(data){
         var json = eval('(' + data + ')');
         if(!json.success){
           jQuery.jGrowl.info(json.message);
-        }
+        } else {
+					jQuery('.activity-comment').get(0).clone(true);
+					jQuery('.comment-loading').remove();
+					jQuery('.activity-has-comments').find('textarea').show();
+					hide_comment_boxes();
+				}
       });
     return false;
   });
