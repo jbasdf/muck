@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
 });
 
 function apply_comment_methods(){
-	
+	setup_comment_submit();
 	hide_comment_boxes();
 	jQuery('.activity-no-comments').hide();
 	
@@ -31,6 +31,22 @@ function apply_comment_methods(){
 		});
 		return false;
 	});
+}
+
+function setup_comment_submit(){
+	jQuery(".comment-submit").click(function() {
+    hide_comment_boxes();
+		
+    var form = jQuery(this).parents('form');
+    jQuery.post(form.attr('action') + '.json', form.serialize(),
+      function(data){
+        var json = eval('(' + data + ')');
+        if(!json.success){
+          jQuery.jGrowl.info(json.message);
+        }
+      });
+    return false;
+  });
 }
 
 function hide_comment_boxes(){
