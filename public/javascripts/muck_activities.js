@@ -5,6 +5,7 @@ jQuery(document).ready(function() {
 function apply_comment_methods(){
 	setup_comment_submit();
 	hide_comment_boxes();
+	apply_comment_delete();
 	jQuery('.activity-no-comments').hide();
 	
 	jQuery('.activity-has-comments').find('textarea').click(function(){
@@ -47,7 +48,7 @@ function setup_comment_submit(){
 					jQuery('.activity-comment').get(0).clone(true);
 					jQuery('.comment-loading').remove();
 					jQuery('.activity-has-comments').find('textarea').show();
-					hide_comment_boxes();
+					apply_comment_methods();
 				}
       });
     return false;
@@ -83,4 +84,15 @@ function get_latest_activity_id(){
 
 function update_feed(request){
   jQuery('#activity-feed-content').prepend(request);
+}
+
+function apply_comment_delete(){
+	jQuery('.activity-comment').hover(
+     function () {
+       jQuery(this).addClass('.hover');
+     }, 
+     function () {
+       jQuery(this).removeClass('.hover');
+     }
+   );
 }
