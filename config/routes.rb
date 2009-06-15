@@ -10,7 +10,7 @@ ActionController::Routing::Routes.draw do |map|
   
   map.resources :users, :has_many => :uploads
   map.resources :uploads, :collection => { :photos => :get, :swfupload => :post }
-#  map.public_user_path '/profiles/:id', :controller => 'profiles', :action => 'show'
+  map.public_user_path '/profiles/:id', :controller => 'profiles', :action => 'show'
 
   # admin
   map.namespace :admin do |a|
