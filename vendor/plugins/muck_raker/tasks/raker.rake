@@ -27,21 +27,29 @@ namespace :muck do
     end
     
     desc "Start the recommender daemon process"
-    task :recommend => :environment do
-      separator = ':'
+    task :start => :environment do
+      separator = (RUBY_PLATFORM =~ /(win|w)32$/ ? ';' : ':')
       Dir.chdir(File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'raker', 'lib')) do
         jars = Dir['*.jar'].join(separator)
         exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars}#{separator}. edu.usu.cosl.recommenderd.Recommender"  
       end
     end
     
-    desc "Start the harvester daemon process"
+    desc "Harvest without recommending"
     task :harvest => :environment do
-      separator = ':'
+      separator = (RUBY_PLATFORM =~ /(win|w)32$/ ? ';' : ':')
       Dir.chdir(File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'raker', 'lib')) do
         jars = Dir['*.jar'].join(separator)
-        puts jars
         exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars}#{separator}. edu.usu.cosl.aggregatord.Harvester"  
+      end
+    end
+ 
+    desc "Recommend without harvesting"
+    task :recommend => :environment do
+      separator = (RUBY_PLATFORM =~ /(win|w)32$/ ? ';' : ':')
+      Dir.chdir(File.join(RAILS_ROOT, 'vendor', 'plugins', 'muck_raker', 'raker', 'lib')) do
+        jars = Dir['*.jar'].join(separator)
+        exec "java -Dsolr.solr.home=\"#{SOLR_HOME_PATH}\" -Dsolr.data.dir=\"#{SOLR_DATA_PATH}\" -classpath #{jars}#{separator}. edu.usu.cosl.recommenderd.Recommender skip_harvest"  
       end
     end
  
