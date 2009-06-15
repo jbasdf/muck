@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
 function apply_comment_methods(){
 	setup_comment_submit();
 	hide_comment_boxes();
-	apply_comment_delete();
+	apply_comment_hover();
 	jQuery('.activity-no-comments').hide();
 	
 	jQuery('.activity-has-comments').find('textarea').click(function(){
@@ -86,13 +86,8 @@ function update_feed(request){
   jQuery('#activity-feed-content').prepend(request);
 }
 
-function apply_comment_delete(){
+function apply_comment_hover(){
 	jQuery('.activity-comment').hover(
-     function () {
-       jQuery(this).addClass('.hover');
-     }, 
-     function () {
-       jQuery(this).removeClass('.hover');
-     }
-   );
+     function () { jQuery(this).addClass('comment-hover'); }, 
+     function () { jQuery(this).removeClass('comment-hover'); } );
 }

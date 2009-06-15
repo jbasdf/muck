@@ -73,4 +73,4 @@ form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:ab
 .activity-comment textarea.min{height:15px;width:50%;}
 .activity-comment p{margin:0;}
 .activity-comment .actor a{font-size:.8em;}
-.activity-comment .hover{background-color:#444;}
+.activity .comment-hover .delete{display:block;}
