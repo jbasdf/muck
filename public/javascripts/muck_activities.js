@@ -6,6 +6,7 @@ function apply_comment_methods(){
 	setup_comment_submit();
 	hide_comment_boxes();
 	apply_comment_hover();
+	apply_activity_hover();
 	jQuery('.activity-no-comments').hide();
 	
 	jQuery('.activity-has-comments').find('textarea').click(function(){
@@ -36,7 +37,9 @@ function apply_comment_methods(){
 
 function setup_comment_submit(){
 	jQuery(".comment-submit").click(function() {
-    jQuery(this).siblings('textarea').hide();
+    jQuery(this).hide();
+		jQuery(this).parents('.comment-form-wrapper').siblings('.actor-icon').hide();
+		jQuery(this).siblings('textarea').hide();
 		jQuery(this).parent().append('<p class="comment-loading"><img src="/images/spinner.gif" alt="loading..." /> ' + ADD_COMMENT_MESSAGE + '</p>');
 		var form = jQuery(this).parents('form');
     jQuery.post(form.attr('action'), form.serialize() + '&format=json',
@@ -45,10 +48,14 @@ function setup_comment_submit(){
         if(!json.success){
           jQuery.jGrowl.info(json.message);
         } else {
-					jQuery('.activity-comment').get(0).clone(true);
-					jQuery('.comment-loading').remove();
-					jQuery('.activity-has-comments').find('textarea').show();
-					apply_comment_methods();
+					jQuery.get("/activities/" + json.parent_id + "/comment_html.json", { comment_id: json.comment.comment.id },
+					  function(data){
+					    var json = eval('(' + data + ')');
+							jQuery('.comment-loading').remove();
+							jQuery('.activity-has-comments').find('textarea').show();
+							jQuery('#comment_activity_' + json.id).before(json.html);
+							apply_comment_methods();
+					  });
 				}
       });
     return false;
@@ -84,6 +91,12 @@ function get_latest_activity_id(){
 
 function update_feed(request){
   jQuery('#activity-feed-content').prepend(request);
+}
+
+function apply_activity_hover(){
+	jQuery('.activity-content').hover(
+     function () { jQuery(this).addClass('activity-hover'); }, 
+     function () { jQuery(this).removeClass('activity-hover'); } );
 }
 
 function apply_comment_hover(){

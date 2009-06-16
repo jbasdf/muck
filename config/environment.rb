@@ -24,7 +24,7 @@ Rails::Initializer.run do |config|
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.0.5"
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
-  config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set'
+  config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set', :source => "http://gems.github.com"
   config.gem 'cms-lite', :lib => 'cms_lite', :version => ">=0.3.3"
   config.gem 'disguise', :version => ">=0.3.0"
   config.gem 'uploader', :version => ">=0.1.15"
