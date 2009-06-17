@@ -19,6 +19,7 @@ function apply_comment_methods(){
 		}
 	});
 	
+	jQuery(".make-comment").unbind();
 	jQuery('.make-comment').click(function(){
 		var id = this.id.replace('make_comment_activity_', '');
 		var comment_box = jQuery('#comment_activity_' + id);
@@ -36,6 +37,7 @@ function apply_comment_methods(){
 }
 
 function setup_comment_submit(){
+	jQuery(".comment-submit").unbind();
 	jQuery(".comment-submit").click(function() {
     jQuery(this).hide();
 		jQuery(this).parents('.comment-form-wrapper').siblings('.actor-icon').hide();
@@ -48,14 +50,14 @@ function setup_comment_submit(){
         if(!json.success){
           jQuery.jGrowl.info(json.message);
         } else {
-					jQuery.get("/activities/" + json.parent_id + "/comment_html.json", { comment_id: json.comment.comment.id },
-					  function(data){
-					    var json = eval('(' + data + ')');
-							jQuery('.comment-loading').remove();
-							jQuery('.activity-has-comments').find('textarea').show();
-							jQuery('#comment_activity_' + json.id).before(json.html);
-							apply_comment_methods();
-					  });
+					jQuery('.comment-loading').remove();
+					jQuery('.activity-has-comments').find('textarea').show();
+					var comment_box = jQuery('#comment_activity_' + json.parent_id);
+					comment_box.before(json.html);
+					comment_box.removeClass('activity-no-comments');
+					comment_box.addClass('activity-has-comments');
+					comment_box.find('textarea').show();
+					apply_comment_methods();
 				}
       });
     return false;
