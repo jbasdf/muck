@@ -50,7 +50,11 @@ namespace :muck do
 
     puts 'populating db with locale info'
     Rake::Task[ "muck:db:populate" ].execute
+    
+    puts 'flagging the languages muck raker supports and adding services it supports'
     Rake::Task[ "muck:raker:db:populate" ].execute
+
+    puts 'adding some oai endpoints and feeds to the db'
     Rake::Task[ "muck:raker:db:bootstrap" ].execute
     
     puts 'setting up admin account'
