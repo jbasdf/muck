@@ -21,3 +21,4 @@ conftest
 content/
 REVISION
 deploy.rb
+config/global_config.yml
