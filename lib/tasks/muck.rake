@@ -93,4 +93,11 @@ namespace :muck do
     Rake::Task[ "muck:profiles:sync" ].execute
   end
   
+  task :import_attention => :environment do
+    require 'active_record/fixtures'
+    ActiveRecord::Base.establish_connection(RAILS_ENV.to_sym)
+    yml = File.join(RAILS_ROOT, 'db', 'bootstrap', 'attention')
+    Fixtures.new(Attention.connection,"attention",Attention,yml).insert_fixtures
+  end
+  
 end
