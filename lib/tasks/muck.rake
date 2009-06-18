@@ -11,9 +11,10 @@ namespace :muck do
     Rake::Task[ "uploader:sync" ].execute
     Rake::Task[ "muck:base:sync" ].execute
     Rake::Task[ "muck:users:sync" ].execute
-    Rake::Task[ "muck:activity:sync" ].execute
+    Rake::Task[ "muck:activities:sync" ].execute
     Rake::Task[ "muck:raker:sync" ].execute
     Rake::Task[ "muck:comments:sync" ].execute
+    Rake::Task[ "muck:profiles:sync" ].execute
 
     puts 'droping databases'
     Rake::Task[ "db:drop" ].execute
@@ -86,9 +87,10 @@ namespace :muck do
     Rake::Task[ "uploader:sync" ].execute
     Rake::Task[ "muck:base:sync" ].execute
     Rake::Task[ "muck:users:sync" ].execute
-    Rake::Task[ "muck:activity:sync" ].execute
+    Rake::Task[ "muck:activities:sync" ].execute
     Rake::Task[ "muck:raker:sync" ].execute
     Rake::Task[ "muck:comments:sync" ].execute
+    Rake::Task[ "muck:profiles:sync" ].execute
   end
   
 end

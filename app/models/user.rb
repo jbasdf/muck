@@ -36,6 +36,7 @@ class User < ActiveRecord::Base
     c.crypto_provider = Authlogic::CryptoProviders::BCrypt
   end
   acts_as_muck_user
+  has_muck_profile
   acts_as_tagger
   has_activities
   has_friendly_id :login

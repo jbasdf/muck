@@ -268,8 +268,8 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
   add_index "micro_event_people", ["micro_event_id"], :name => "index_micro_event_people_on_micro_event_id"
 
   create_table "micro_events", :force => true do |t|
-    t.integer  "entry_id",                    :null => false
-    t.string   "name",        :default => "", :null => false
+    t.integer  "entry_id",    :null => false
+    t.string   "name",        :null => false
     t.text     "description"
     t.string   "price"
     t.text     "image"
@@ -279,7 +279,7 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
     t.string   "state"
     t.string   "postcode"
     t.string   "country"
-    t.datetime "begins",                      :null => false
+    t.datetime "begins",      :null => false
     t.datetime "ends"
     t.text     "tags"
     t.string   "duration"
@@ -311,6 +311,17 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
     t.integer "rank"
     t.float   "relevance"
   end
+
+  create_table "profiles", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "profiles", ["user_id"], :name => "index_profiles_on_user_id"
 
   create_table "queries", :force => true do |t|
     t.text    "name"
@@ -346,7 +357,7 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
   end
 
   create_table "sessions", :force => true do |t|
-    t.string   "session_id", :default => "", :null => false
+    t.string   "session_id", :null => false
     t.text     "data"
     t.datetime "created_at"
     t.datetime "updated_at"
