@@ -1,3 +1,3 @@
 HoptoadNotifier.configure do |config|
-  config.api_key = 'GET A HOPTOAD KEY(TODO)'
-end  
+  config.api_key = GlobalConfig.hoptoad_key
+end

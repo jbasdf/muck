@@ -1,7 +1,13 @@
 require File.dirname(__FILE__) + '/helper'
 
-class NotifierTest < ActiveSupport::TestCase
+class NotifierTest < Test::Unit::TestCase
   context "Sending a notice" do
+    should "not fail without rails environment" do
+      assert_nothing_raised do
+        HoptoadNotifier.environment_info
+      end
+    end
+
     context "with an exception" do
       setup do
         @sender    = HoptoadNotifier::Sender.new
@@ -16,6 +22,7 @@ class NotifierTest < ActiveSupport::TestCase
         HoptoadNotifier.instance_variable_set("@backtrace_filters", [])
         HoptoadNotifier::Sender.expects(:new).returns(@sender)
         @sender.stubs(:public_environment?).returns(true)
+        HoptoadNotifier.stubs(:environment_info)
       end
 
       context "when using an HTTP Proxy" do

@@ -18,12 +18,27 @@ module HoptoadNotifier
 
   IGNORE_USER_AGENT_DEFAULT = []
 
+  VERSION = "1.2.2"
+  LOG_PREFIX = "** [Hoptoad] "
+
   class << self
     attr_accessor :host, :port, :secure, :api_key, :http_open_timeout, :http_read_timeout,
-                  :proxy_host, :proxy_port, :proxy_user, :proxy_pass
+                  :proxy_host, :proxy_port, :proxy_user, :proxy_pass, :output
 
     def backtrace_filters
       @backtrace_filters ||= []
+    end
+
+    def ignore_by_filters
+      @ignore_by_filters ||= []
+    end
+
+    # Takes a block and adds it to the list of ignore filters.  When the filters
+    # run, the block will be handed the exception.  If the block yields a value
+    # equivalent to "true," the exception will be ignored, otherwise it will be
+    # processed by hoptoad.
+    def ignore_by_filter &block
+      self.ignore_by_filters << block
     end
 
     # Takes a block and adds it to the list of backtrace filters. When the filters
@@ -90,6 +105,36 @@ module HoptoadNotifier
       @environment_filters ||= %w()
     end
 
+    def report_ready
+      write_verbose_log("Notifier #{VERSION} ready to catch errors")
+    end
+
+    def report_environment_info
+      write_verbose_log("Environment Info: #{environment_info}")
+    end
+
+    def report_response_body(response)
+      write_verbose_log("Response from Hoptoad: \n#{response}")
+    end
+
+    def environment_info
+      info = "[Ruby: #{RUBY_VERSION}]"
+      info << " [Rails: #{::Rails::VERSION::STRING}] [RailsEnv: #{RAILS_ENV}]" if defined?(Rails)
+    end
+
+    def write_verbose_log(message)
+      logger.info LOG_PREFIX + message if logger
+    end
+
+    # Checking for the logger in hopes we can get rid of the ugly syntax someday
+    def logger
+      if defined?(Rails.logger)
+        Rails.logger
+      elsif defined?(RAILS_DEFAULT_LOGGER)
+        RAILS_DEFAULT_LOGGER
+      end
+    end
+
     # Call this method to modify defaults in your initializers.
     #
     # HoptoadNotifier.configure do |config|
@@ -104,6 +149,7 @@ module HoptoadNotifier
       if defined?(ActionController::Base) && !ActionController::Base.include?(HoptoadNotifier::Catcher)
         ActionController::Base.send(:include, HoptoadNotifier::Catcher)
       end
+      report_ready
     end
 
     def protocol #:nodoc:
@@ -191,8 +237,6 @@ module HoptoadNotifier
       end
     end
 
-    alias_method :inform_hoptoad, :notify_hoptoad
-
     # Returns the default logger or a logger that prints to STDOUT. Necessary for manual
     # notifications outside of controllers.
     def logger
@@ -209,11 +253,13 @@ module HoptoadNotifier
 
     def ignore?(exception) #:nodoc:
       ignore_these = HoptoadNotifier.ignore.flatten
-      ignore_these.include?(exception.class) || ignore_these.include?(exception.class.name)
+      ignore_these.include?(exception.class) || ignore_these.include?(exception.class.name) || HoptoadNotifier.ignore_by_filters.find {|filter| filter.call(exception_to_data(exception))}
     end
 
     def ignore_user_agent? #:nodoc:
-      HoptoadNotifier.ignore_user_agent.flatten.any? { |ua| ua === request.user_agent }
+      # Rails 1.2.6 doesn't have request.user_agent, so check for it here
+      user_agent = request.respond_to?(:user_agent) ? request.user_agent : request.env["HTTP_USER_AGENT"]
+      HoptoadNotifier.ignore_user_agent.flatten.any? { |ua| ua === user_agent }
     end
 
     def exception_to_data exception #:nodoc:
@@ -237,7 +283,9 @@ module HoptoadNotifier
       if self.respond_to? :session
         data[:session] = {
           :key         => session.instance_variable_get("@session_id"),
-          :data        => session.instance_variable_get("@data")
+          :data        => session.respond_to?(:to_hash) ?
+                            session.to_hash :
+                            session.instance_variable_get("@data")
         }
       end
 
@@ -266,6 +314,12 @@ module HoptoadNotifier
       clean_non_serializable_data(notice)
     end
 
+    def log(level, message, response = nil)
+      logger.send level, LOG_PREFIX + message if logger
+      HoptoadNotifier.report_environment_info
+      HoptoadNotifier.report_response_body(response.body) if response && response.respond_to?(:body)
+    end
+
     def send_to_hoptoad data #:nodoc:
       headers = {
         'Content-type' => 'application/x-yaml',
@@ -273,29 +327,28 @@ module HoptoadNotifier
       }
 
       url = HoptoadNotifier.url
-
       http = Net::HTTP::Proxy(HoptoadNotifier.proxy_host,
                               HoptoadNotifier.proxy_port,
                               HoptoadNotifier.proxy_user,
                               HoptoadNotifier.proxy_pass).new(url.host, url.port)
 
       http.use_ssl = true
-        http.read_timeout = HoptoadNotifier.http_read_timeout
-        http.open_timeout = HoptoadNotifier.http_open_timeout
+      http.read_timeout = HoptoadNotifier.http_read_timeout
+      http.open_timeout = HoptoadNotifier.http_open_timeout
       http.use_ssl = !!HoptoadNotifier.secure 
 
       response = begin
                    http.post(url.path, stringify_keys(data).to_yaml, headers)
                  rescue TimeoutError => e
-                   logger.error "Timeout while contacting the Hoptoad server." if logger
+                   log :error, "Timeout while contacting the Hoptoad server."
                    nil
                  end
 
       case response
       when Net::HTTPSuccess then
-        logger.info "Hoptoad Success: #{response.class}" if logger
+        log :info, "Success: #{response.class}", response
       else
-        logger.error "Hoptoad Failure: #{response.class}\n#{response.body if response.respond_to? :body}" if logger
+        log :error, "Failure: #{response.class}", response
       end
     end
 
@@ -329,19 +382,17 @@ module HoptoadNotifier
       end
     end
 
-    def clean_non_serializable_data(notice) #:nodoc:
-      notice.select{|k,v| serializable?(v) }.inject({}) do |h, pair|
-        h[pair.first] = pair.last.is_a?(Hash) ? clean_non_serializable_data(pair.last) : pair.last
-        h
+    def clean_non_serializable_data(data) #:nodoc:
+      case data
+      when Hash
+        data.inject({}) do |result, (key, value)|
+          result.update(key => clean_non_serializable_data(value))
+        end
+      when Fixnum, Array, String, Bignum
+        data
+      else
+        data.to_s
       end
-    end
-
-    def serializable?(value) #:nodoc:
-      value.is_a?(Fixnum) || 
-      value.is_a?(Array)  || 
-      value.is_a?(String) || 
-      value.is_a?(Hash)   || 
-      value.is_a?(Bignum)
     end
 
     def stringify_keys(hash) #:nodoc:
