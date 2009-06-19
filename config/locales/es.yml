@@ -1,0 +1,26 @@
+--- 
+es: 
+  contact: 
+    contact_response_subject: "Gracias por su consulta de {{application_name}}!"
+    contact_us: Contáctenos
+    email: "Su email:"
+    email_help: "Por favor nos proporcione su dirección de correo electrónico para que podamos contactar con usted si es necesario."
+    name: "Su nombre:"
+    name_help: "Por favor nos proporcione su nombre."
+    phone: "Su número de teléfono:"
+    phone_help: "Su número de teléfono es opcional, pero nos ayudará en contacto con usted si es necesario."
+    question: "Tu mensaje / pregunta:"
+    question_help: "Por favor, incluya cualquier comentario que nos gustaría escuchar."
+    subject: "Asunto:"
+    subject_help: "Una simple declaración indicando la naturaleza de sus comentarios."
+  general: 
+    delete_file: "Borrar archivo"
+    send: Enviar
+    thank_you_contact: "Gracias por su mensaje. Un miembro de nuestro equipo te responderá en breve."
+  muck: 
+    admin: 
+      home: Inicio
+      my_dashboard: "Mi Escritorio"
+      permissions: Permisos
+      themes: Temas
+      users: Usuarios

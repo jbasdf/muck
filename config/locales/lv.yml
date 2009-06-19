@@ -1,0 +1,26 @@
+--- 
+lv: 
+  contact: 
+    contact_response_subject: "Paldies par izmeklēšanas no {{application_name}}!"
+    contact_us: "Contact Us"
+    email: "Jūsu e-pasts:"
+    email_help: "Lūdzu, sniedziet mums savu e-pasta adresi, lai mēs varētu ar jums sazināties, ja nepieciešams."
+    name: "Jūsu vārds:"
+    name_help: "Lūdzu, sniedziet mums savu vārdu."
+    phone: "Telefons:"
+    phone_help: "Jūsu tālruņa numurs ir pēc izvēles, bet palīdzēs mums ar Jums sazināties, ja nepieciešams."
+    question: "Jūsu ziņa / jautājums:"
+    question_help: "Lūdzu ietvert jebkādus komentārus vēlaties, lai mēs dzirdēt."
+    subject: "Subject:"
+    subject_help: "Vienkāršs apgalvojums, kas norāda veidu, jūsu atsauksmi."
+  general: 
+    delete_file: "Dzēst File"
+    send: Sūtīt
+    thank_you_contact: "Paldies par ziņu. Loceklis, mūsu komanda atbildēt ar jums drīz."
+  muck: 
+    admin: 
+      home: Mājas
+      my_dashboard: "Mani Dashboard"
+      permissions: Atļaujas
+      themes: Tēmas
+      users: Lietotāji

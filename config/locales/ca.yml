@@ -1,0 +1,26 @@
+--- 
+ca: 
+  contact: 
+    contact_response_subject: "Gràcies per la vostra consulta d&#39;{{application_name}}!"
+    contact_us: "Contacti&#39;ns"
+    email: "El seu email:"
+    email_help: "Si us plau ens proporcioni la seva adreça de correu electrònic perquè puguem contactar amb vostè si és necessari."
+    name: "El seu nom:"
+    name_help: "Si us plau ens proporcioni el seu nom."
+    phone: "El seu número de telèfon:"
+    phone_help: "El seu número de telèfon és opcional, però ens ajudarà en contacte amb vostè si és necessari."
+    question: "El teu missatge / pregunta:"
+    question_help: "Si us plau, inclogui qualsevol comentari que ens agradaria escoltar."
+    subject: "Assumpte:"
+    subject_help: "Una simple declaració indicant la naturalesa dels seus informes."
+  general: 
+    delete_file: "Esborrar arxiu"
+    send: Enviar
+    thank_you_contact: "Gràcies pel seu missatge. Un membre del nostre equip et respondrà en breu."
+  muck: 
+    admin: 
+      home: Inici
+      my_dashboard: "Meva Escriptori"
+      permissions: Permisos
+      themes: Temes
+      users: Usuaris

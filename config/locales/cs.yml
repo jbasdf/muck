@@ -1,0 +1,26 @@
+--- 
+cs: 
+  contact: 
+    contact_response_subject: "Děkujeme za váš dotaz z {{application_name}}!"
+    contact_us: "Kontaktujte nás"
+    email: "Váš email:"
+    email_help: "Poskytněte nám prosím Váš e-mail tak, že vás můžeme kontaktovat v případě potřeby."
+    name: "Vaše jméno:"
+    name_help: "Pokud nám poskytnete své jméno."
+    phone: "Vaše telefonní číslo:"
+    phone_help: "Vaše telefonní číslo je nepovinné, ale pomůže nám to s vámi v případě potřeby."
+    question: "Váš vzkaz / dotaz:"
+    question_help: "Prosím obsahovat žádné připomínky chcete nás slyšet."
+    subject: "Předmět:"
+    subject_help: "Jednoduchý uvádějící povahu svůj názor."
+  general: 
+    delete_file: "Delete File"
+    send: Poslat
+    thank_you_contact: "Děkujeme Vám za Vaši zprávu. Každý člen našeho týmu bude reagovat na vás v brzké době."
+  muck: 
+    admin: 
+      home: Domů
+      my_dashboard: "My Dashboard"
+      permissions: Oprávnění
+      themes: Témata
+      users: Uživatelé

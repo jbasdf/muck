@@ -1,0 +1,26 @@
+--- 
+vi: 
+  contact: 
+    contact_response_subject: "Cám ơn bạn đã tìm hiểu từ {{application_name}}!"
+    contact_us: "Liên hệ với chúng tôi"
+    email: "Email của bạn:"
+    email_help: "Xin vui lòng cung cấp cho chúng tôi email của bạn để chúng tôi có thể liên lạc với bạn nếu cần thiết."
+    name: "Tên của bạn:"
+    name_help: "Xin vui lòng cung cấp cho chúng tôi tên của bạn."
+    phone: "Số điện thoại của bạn:"
+    phone_help: "Số điện thoại của bạn là tùy chọn, nhưng sẽ giúp chúng tôi liên lạc với bạn nếu cần thiết."
+    question: "Tin nhắn của bạn / câu hỏi:"
+    question_help: "Xin vui lòng bao gồm bất cứ bình luận nào bạn muốn chúng tôi nghe."
+    subject: "Tiêu đề:"
+    subject_help: "Một tuyên bố đơn giản chỉ tính chất của thông tin phản hồi của bạn."
+  general: 
+    delete_file: "Xoá tệp"
+    send: Gửi
+    thank_you_contact: "Cảm ơn bạn đã cho tin nhắn của bạn. Một thành viên của nhóm chúng tôi sẽ trả lời cho bạn trong thời gian ngắn."
+  muck: 
+    admin: 
+      home: "Gia đình"
+      my_dashboard: "Bảng điều khiển của tôi"
+      permissions: Quyền
+      themes: "Chủ đề"
+      users: "Người sử dụng"

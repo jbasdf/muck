@@ -1,0 +1,26 @@
+--- 
+da: 
+  contact: 
+    contact_response_subject: "Tak for din forespørgsel fra {{application_name}}!"
+    contact_us: "Kontakt os"
+    email: "Din email:"
+    email_help: "Giv os din e-mail, så vi kan kontakte dig, hvis det er nødvendigt."
+    name: "Dit navn"
+    name_help: "Giv os dit navn."
+    phone: "Dit telefonnummer:"
+    phone_help: "Dit telefonnummer er valgfrit men vil hjælpe os kontakte dig, hvis det er nødvendigt."
+    question: "Dit indlæg / spørgsmål:"
+    question_help: "Vedlæg eventuelle kommentarer, du vil have os til at høre."
+    subject: "Emne:"
+    subject_help: "En simpel angivelse af arten af din feedback."
+  general: 
+    delete_file: "Slet File"
+    send: Sende
+    thank_you_contact: "Tak for din besked. Et medlem af vores team vil svare dig snarest."
+  muck: 
+    admin: 
+      home: Hjem
+      my_dashboard: "Min Dashboard"
+      permissions: Tilladelser
+      themes: Temaer
+      users: Brugere

@@ -1,0 +1,26 @@
+--- 
+tl: 
+  contact: 
+    contact_response_subject: "Salamat sa iyong pagtatanong mula sa {{application_name}}!"
+    contact_us: "Makipag-ugnay sa Amin"
+    email: "Ang iyong email:"
+    email_help: "Mangyaring ibigay sa amin ang inyong email sa gayon ay maaari kaming makipag-ugnayan sa iyo kung kinakailangan."
+    name: "Ang iyong pangalan:"
+    name_help: "Mangyari lamang na magbigay sa amin ng iyong pangalan."
+    phone: "Ang iyong numero ng telepono:"
+    phone_help: "Ang iyong numero ng telepono ay opsyonal ngunit ito ay makakatulong sa amin na makipag-ugnayan sa iyo kung kinakailangan."
+    question: "Ang iyong mensahe / katanungan:"
+    question_help: "Mangyaring isama ang anumang mga puna na nais mo sa amin na marinig."
+    subject: "Paksa:"
+    subject_help: "Ang isang simpleng pahayag na nagpapahiwatig ng uri ng iyong feedback."
+  general: 
+    delete_file: "Tanggalin File"
+    send: Ipadala
+    thank_you_contact: "Salamat sa iyo para sa iyong mensahe. Ang isang miyembro ng aming team ay tumugon sa inyo maya-maya lamang."
+  muck: 
+    admin: 
+      home: Bagay
+      my_dashboard: "Aking Dashboard"
+      permissions: Pahintulot
+      themes: "Mga tema"
+      users: Gumagamit

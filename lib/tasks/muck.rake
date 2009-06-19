@@ -2,6 +2,14 @@ require 'fileutils'
 
 namespace :muck do
   
+  desc 'Translate muck and all themes from English into all languages supported by Google'
+  task :translate do
+    file = File.join(File.dirname(__FILE__), '..', '..', 'config', 'locales', 'en.yml')
+    system("babelphish -o -y #{file}")
+    
+    
+  end
+  
   desc "Completely reset and repopulate the database and annotate models. THIS WILL DELETE ALL YOUR DATA"
   task :reset => :environment do
     

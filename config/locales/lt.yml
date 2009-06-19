@@ -1,0 +1,26 @@
+--- 
+lt: 
+  contact: 
+    contact_response_subject: "Ačiū už klausimą iš {{application_name}}!"
+    contact_us: Kontaktai
+    email: "Jūsų elektroninio pašto adresas:"
+    email_help: "Pateikite mums savo elektroninio pašto adresą, kad galėtume su jumis susisiekti, jei reikia."
+    name: "Jūsų vardas:"
+    name_help: "Prašome nurodyti savo vardą."
+    phone: "Jūsų telefono numeris:"
+    phone_help: "Jūsų telefono numeris yra neprivalomas, bet leis mums susisiekti su Jumis, jei reikia."
+    question: "Jūsų pranešimas / klausimas:"
+    question_help: "Prašome pateikti bet kokias pastabas norite išgirsti."
+    subject: "Tema:"
+    subject_help: "Paprasta nurodantis pobūdį jūsų atsiliepimus."
+  general: 
+    delete_file: "Ištrinti failą"
+    send: Siųsti
+    thank_you_contact: "Dėkojame už pranešimą. Narys mūsų komandai bus atsakyti jums netrukus."
+  muck: 
+    admin: 
+      home: Namai
+      my_dashboard: "Mano Įrankinė"
+      permissions: Leidimai
+      themes: Temos
+      users: Vartotojai
