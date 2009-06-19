@@ -1,0 +1,26 @@
+--- 
+zh-TW: 
+  contact: 
+    contact_response_subject: "感謝您詢問從{{application_name}}!"
+    contact_us: 聯繫我們
+    email: 您的電子郵件：
+    email_help: 請向我們提供您的電子郵件，以便我們能夠與您聯繫，如果必要的。
+    name: 您的姓名：
+    name_help: 請向我們提供您的姓名。
+    phone: 您的電話號碼：
+    phone_help: 您的電話號碼是可選的，但將有助於我們與您聯繫，如果必要的。
+    question: 您的留言/問題：
+    question_help: 請包含任何評論您希望我們聽到。
+    subject: 主題：
+    subject_help: 一個簡單的聲明，說明的性質，您的反饋。
+  general: 
+    delete_file: 刪除文件
+    send: 發送
+    thank_you_contact: 感謝您的來信。我們的小組成員將在近期內與您聯絡。
+  muck: 
+    admin: 
+      home: 家
+      my_dashboard: 我的控制台
+      permissions: 權限
+      themes: 主題
+      users: 用戶

@@ -1,0 +1,26 @@
+--- 
+sv: 
+  contact: 
+    contact_response_subject: "Tack för din förfrågan från {{application_name}}!"
+    contact_us: "Kontakta oss"
+    email: "Din e-post:"
+    email_help: "Vänligen förse oss med din e-postadress så att vi kan kontakta dig vid behov."
+    name: "Ditt namn:"
+    name_help: "Vänligen förse oss med ditt namn."
+    phone: "Ditt telefonnummer:"
+    phone_help: "Ditt telefonnummer är frivilligt, men kommer att hjälpa oss att kontakta dig vid behov."
+    question: "Ditt meddelande / fråga:"
+    question_help: "Ta gärna med kommentarer du vill att vi ska höra."
+    subject: "Ämne:"
+    subject_help: "En enkel uppgift som anger vilken typ av dina kommentarer."
+  general: 
+    delete_file: "Radera Arkiv"
+    send: Skicka
+    thank_you_contact: "Tack för ditt meddelande. En medlem i vårt team kommer att svara dig inom kort."
+  muck: 
+    admin: 
+      home: Hemma
+      my_dashboard: "My Dashboard"
+      permissions: Behörigheter
+      themes: Teman
+      users: Användare

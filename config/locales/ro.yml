@@ -1,0 +1,26 @@
+--- 
+ro: 
+  contact: 
+    contact_response_subject: "Vă mulţumim pentru anchetă de la {{application_name}}!"
+    contact_us: Contactati-ne
+    email: "Adresa dvs. email:"
+    email_help: "Vă rugăm să ne oferiţi dvs. de email, aşa încât să vă putem contacta daca este necesar."
+    name: "Numele dvs.:"
+    name_help: "Vă rugăm să ne furnizaţi numele dumneavoastră."
+    phone: "Numărul dvs. de telefon:"
+    phone_help: "Numărul dvs. de telefon este opţională, dar ne va ajuta să vă contacteze dacă este necesar."
+    question: "Mesajul dvs. / întrebare:"
+    question_help: "Vă rugăm să includeţi orice comentarii pe care doriţi să ne audă."
+    subject: "Subiect:"
+    subject_help: "O simplă declaraţie indicând natura de feedback-ul dumneavoastră."
+  general: 
+    delete_file: "Ştergere fişiere"
+    send: Trimite
+    thank_you_contact: "Vă mulţumim pentru mesaj. Un membru al echipei noastre vă va răspunde la scurt timp."
+  muck: 
+    admin: 
+      home: Acasă
+      my_dashboard: "Tabloul de bord meu"
+      permissions: Permisiuni
+      themes: Teme
+      users: Utilizatorii

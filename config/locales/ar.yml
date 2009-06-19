@@ -1,0 +1,26 @@
+--- 
+ar: 
+  contact: 
+    contact_response_subject: "شكرا لتعليقك من {{application_name}}!"
+    contact_us: "اتصل بنا"
+    email: "بريدك الالكتروني :"
+    email_help: "يرجى تزويدنا بريدك الالكتروني حتى نتمكن من الاتصال بكم إذا لزم الأمر."
+    name: "اسمك :"
+    name_help: "يرجى تزويدنا باسمك."
+    phone: "رقم هاتفك :"
+    phone_help: "رقم هاتفك اختياري لكنه سيساعدنا على الاتصال بكم إذا لزم الأمر."
+    question: "رسالتك / السؤال :"
+    question_help: "يرجى إدراج أية تعليقات تريد لنا أن نسمع هذا."
+    subject: "الموضوع :"
+    subject_help: "وقال بيان بسيط يبين طبيعة مشاركتك."
+  general: 
+    delete_file: "حذف الملفات"
+    send: يرسل
+    thank_you_contact: "أشكرك على رسالتك. وقال عضو في فريق عملنا ، وسوف نرد عليك قريبا."
+  muck: 
+    admin: 
+      home: منزل
+      my_dashboard: "بلدي لوحة التحكم الرئيسية"
+      permissions: أذونات
+      themes: المواضيع
+      users: المستخدمين

@@ -1,0 +1,26 @@
+--- 
+iw: 
+  contact: 
+    contact_response_subject: "תודה על שאלתך מאת {{application_name}}!"
+    contact_us: "צור קשר"
+    email: "הדוא&quot;ל שלך:"
+    email_help: "אנא ספק לנו את כתובת הדוא&quot;ל שלך כדי שנוכל ליצור איתכם קשר במידת הצורך."
+    name: "השם שלך:"
+    name_help: "אנא ספק לנו את שמך."
+    phone: "מספר הטלפון שלך:"
+    phone_help: "מספר הטלפון שלך הוא אופציונלי, אך יסייע לנו עמך קשר אם יהיה צורך."
+    question: "את ההודעה / שאלה:"
+    question_help: "נא לכלול הערות אתה רוצה לשמוע אותנו."
+    subject: "נושא:"
+    subject_help: "הצהרה פשוטה המציין את מהות המשוב שלך."
+  general: 
+    delete_file: "מחיקת קבצים"
+    send: לשלוח
+    thank_you_contact: "אנו מודים לך על ההודעה. אחד מאנשי הצוות נגיב לך בקרוב."
+  muck: 
+    admin: 
+      home: בית
+      my_dashboard: "לוח המחוונים שלי"
+      permissions: הרשאות
+      themes: "ערכות נושא"
+      users: משתמשים

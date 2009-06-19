@@ -1,0 +1,26 @@
+--- 
+sl: 
+  contact: 
+    contact_response_subject: "Hvala za vašo poizvedbo iz {{application_name}}!"
+    contact_us: "Contact Us"
+    email: "Vaš email:"
+    email_help: "Prosimo, posredujte nam svoj e-naslov, tako da vas lahko kontaktiramo, če je potrebno."
+    name: "Vaše ime:"
+    name_help: "Prosimo, posredujte nam vaše ime."
+    phone: "Vaša telefonska številka:"
+    phone_help: "Vaša telefonska številka je neobvezno, vendar nam bodo pomagali v stik z vami, če je potrebno."
+    question: "Vaše sporočilo / vprašanje:"
+    question_help: "Prosimo, vključite vse pripombe, ki jo želite poslušati."
+    subject: "Zadeva:"
+    subject_help: "A preprosto izjavo, ki označuje naravo vaše povratne informacije."
+  general: 
+    delete_file: "Brisanje datotek"
+    send: Poslati
+    thank_you_contact: "Hvala za vaše sporočilo. Član naše ekipe, da vam bomo odgovorili v kratkem."
+  muck: 
+    admin: 
+      home: Domov
+      my_dashboard: "Moja tabla"
+      permissions: Dovoljenja
+      themes: Teme
+      users: Uporabniki

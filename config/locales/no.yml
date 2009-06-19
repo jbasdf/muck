@@ -1,0 +1,27 @@
+--- 
+? "no"
+: 
+  contact: 
+    contact_response_subject: "Takk for din henvendelse fra {{application_name}}!"
+    contact_us: "Kontakt oss"
+    email: "Din e-post:"
+    email_help: "Oppgi din e-post slik at vi kan kontakte deg om nødvendig."
+    name: "Ditt navn:"
+    name_help: "Oppgi ditt navn."
+    phone: "Ditt telefonnummer:"
+    phone_help: "Telefonnummer er valgfritt, men vil hjelpe oss å kontakte deg om nødvendig."
+    question: "Din beskjed / spørsmål:"
+    question_help: "Ta med eventuelle kommentarer du vil at vi skal høre."
+    subject: "Emne:"
+    subject_help: "En enkel uttalelse indikerer natur tilbakemelding."
+  general: 
+    delete_file: "Slett filer"
+    send: Sende
+    thank_you_contact: "Takk for meldingen. Et medlem av teamet vårt vil svare deg snart."
+  muck: 
+    admin: 
+      home: Hjem
+      my_dashboard: "Min Dashboard"
+      permissions: Tillatelser
+      themes: Temaer
+      users: Brukere

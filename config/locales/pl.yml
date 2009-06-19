@@ -1,0 +1,26 @@
+--- 
+pl: 
+  contact: 
+    contact_response_subject: "Dziękujemy za pytanie z {{application_name}}!"
+    contact_us: "Kontakt z nami"
+    email: "Twój e-mail:"
+    email_help: "Podaj nam swój adres e-mail, abyśmy mogli się z Tobą skontaktować w razie potrzeby."
+    name: "Imię i nazwisko:"
+    name_help: "Prosimy o podanie swojego imienia i nazwiska."
+    phone: "Twój numer telefonu:"
+    phone_help: "Twój numer telefonu nie jest obowiązkowe, ale pomogą nam skontaktować się z tobą w razie potrzeby."
+    question: "Wiadomość / pytanie:"
+    question_help: "Należy podać wszelkie uwagi chcieliby nas usłyszeć."
+    subject: "Temat:"
+    subject_help: "Prosty deklarację określającą charakter opinii."
+  general: 
+    delete_file: "Usuwanie plików"
+    send: Wysłać
+    thank_you_contact: "Dziękujemy za wiadomość. Jeden z członków naszego zespołu będzie można odpowiedzieć na krótko."
+  muck: 
+    admin: 
+      home: Dom
+      my_dashboard: "Mój Panel"
+      permissions: Uprawnienia
+      themes: Tematy
+      users: Użytkownicy
