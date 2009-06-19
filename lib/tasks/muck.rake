@@ -166,6 +166,9 @@ namespace :muck do
   desc "Release muck gems"
   task :release do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    # release_gem("#{projects_path}", "cms_lite")
+    # release_gem("#{projects_path}", "disguise")
+    # release_gem("#{projects_path}", "uploader")
     release_gem("#{projects_path}", "muck_engine")
     release_gem("#{projects_path}", "muck_users")
     release_gem("#{projects_path}", "muck_comments")
@@ -191,7 +194,7 @@ namespace :muck do
     #write_new_gem_version("#{projects_path}", "muck_friends")
   end
     
-  desc "commit gems"
+  desc "commit gems after a release"
   task :commit do
     message = "Released new gem"
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
@@ -235,12 +238,11 @@ namespace :muck do
   end
   
   def git_commit(path, message)
+    puts "*** pushing and commiting #{path} ***"
     repo = Git.open("#{path}")
-    if repo.add('.').blank?
-      puts 'nothing to commit'
-    else      
-      repo.commit(message)
-    end
+    puts repo.commit(message) rescue 'nothing to commit'
+    puts repo.pull
+    puts repo.push
   end
   
   # execute commands in a different directory
