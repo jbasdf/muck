@@ -1,3 +1,5 @@
+require 'rake'
+require 'git'
 require 'fileutils'
 
 namespace :muck do
@@ -6,7 +8,14 @@ namespace :muck do
   task :translate do
     file = File.join(File.dirname(__FILE__), '..', '..', 'config', 'locales', 'en.yml')
     system("babelphish -o -y #{file}")
-    
+    # translate themes as well
+    theme_path = File.join(File.dirname(__FILE__), '..', '..', 'themes')
+    Dir.glob("#{theme_path}/*").each do |next_file|
+      if File.directory?(next_file)
+        file = File.join(next_file, 'locales', 'en.yml')
+        system("babelphish -o -y #{file}")
+      end
+    end
     
   end
   
@@ -112,6 +121,131 @@ namespace :muck do
     Rake::Task[ "muck:raker:sync" ].execute
     Rake::Task[ "muck:comments:sync" ].execute
     Rake::Task[ "muck:profiles:sync" ].execute
+  end
+  
+  desc "Translate all muck related projects and gems"
+  task :translate do
+    projects_path = File.join(File.dirname(__FILE__), '..')
+    
+    puts 'translating cms lite'
+    system("babelphish -o -y #{projects_path}/cms_lite/locales/en.yml")
+    
+    puts 'translating disguise'
+    system("babelphish -o -y #{projects_path}/disguise/locales/en.yml")
+    
+    puts 'translating uploader'
+    system("babelphish -o -y #{projects_path}/uploader/locales/en.yml")
+    
+    puts 'translating muck'
+    system("babelphish -o -y #{projects_path}/muck/config/locales/en.yml")
+
+    puts 'translating muck engine'
+    system("babelphish -o -y #{projects_path}/muck_engine/locales/en.yml")
+    
+    puts 'translating muck users'
+    system("babelphish -o -y #{projects_path}/muck_users/locales/en.yml")
+    
+    puts 'translating muck comments'
+    system("babelphish -o -y #{projects_path}/muck_comments/locales/en.yml")
+    
+    puts 'translating muck profiles'
+    system("babelphish -o -y #{projects_path}/muck_profiles/locales/en.yml")
+    
+    puts 'translating muck raker'
+    system("babelphish -o -y #{projects_path}/muck_raker/locales/en.yml")
+    
+    puts 'translating muck activities'
+    system("babelphish -o -y #{projects_path}/muck_activities/locales/en.yml")
+    
+    puts 'translating muck friends'
+    system("babelphish -o -y #{projects_path}/muck_friends/locales/en.yml")
+    
+    puts 'finished translations'
+  end
+
+  desc "Release muck gems"
+  task :release do
+    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    release_gem("#{projects_path}", "muck_engine")
+    release_gem("#{projects_path}", "muck_users")
+    release_gem("#{projects_path}", "muck_comments")
+    release_gem("#{projects_path}", "muck_profiles")
+    release_gem("#{projects_path}", "muck_raker")
+    release_gem("#{projects_path}", "muck_activities")
+#    release_gem("#{projects_path}", "muck_friends")
+  end
+  
+  desc "Write muck gem versions into muck"
+  task :versions do
+    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    write_new_gem_version("#{projects_path}", "cms_lite")
+    write_new_gem_version("#{projects_path}", "disguise")
+    write_new_gem_version("#{projects_path}", "uploader")        
+    #write_new_gem_version("#{projects_path}", "acts_as_solr") # need to figure out version for this
+    write_new_gem_version("#{projects_path}", "muck_engine")
+    write_new_gem_version("#{projects_path}", "muck_users")
+    write_new_gem_version("#{projects_path}", "muck_comments")
+    write_new_gem_version("#{projects_path}", "muck_profiles")
+    write_new_gem_version("#{projects_path}", "muck_raker")
+    write_new_gem_version("#{projects_path}", "muck_activities")
+    #write_new_gem_version("#{projects_path}", "muck_friends")
+  end
+    
+  desc "commit gems"
+  task :commit do
+    message = "Released new gem"
+    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    git_commit("#{projects_path}/muck_engine", message)
+    git_commit("#{projects_path}/muck_users", message)
+    git_commit("#{projects_path}/muck_comments", message)
+    git_commit("#{projects_path}/muck_profiles", message)
+    git_commit("#{projects_path}/muck_raker", message)
+#    git_commit("#{projects_path}/acts_as_solr", message)
+    git_commit("#{projects_path}/muck_activities", message)
+    #git_commit("#{projects_path}/muck_friends", message)
+  end
+  
+  def release_gem(path, gem_name)
+    gem_path = File.join(path, gem_name)
+    puts "releasing #{gem_name}"
+    inside gem_path do
+      if File.exists?('pkg/*')
+        puts "attempting to delete files from pkg.  Results #{system("rm pkg/*")}"
+      end
+      puts system("rake version:bump:patch")
+      system("rake gemspec")
+      puts system("rake rubyforge:release")
+    end
+    write_new_gem_version(path, gem_name)
+  end
+
+  def write_new_gem_version(path, gem_name)
+    muck_path = File.join(path, 'muck')
+    gem_path = File.join(path, gem_name)
+    env_file = File.join(muck_path, 'config', 'environment.rb')
+    version = IO.read(File.join(gem_path, 'VERSION')).strip
+    environment = IO.read(env_file)
+    search = Regexp.new('\:lib\s+=>\s+\'' + gem_name + '\',\s+\:version\s+=>\s+[\'\"][ <>=~]*\d+\.\d+\.\d+[\'\"]')
+    if environment.gsub!(search, ":lib => '#{gem_name}', :version => '>=#{version}'").nil?
+      search = Regexp.new('config.gem\s+\'' + gem_name + '\',\s+\:version\s+=>\s+[\'\"][ <>=~]*\d+\.\d+\.\d+[\'\"]')
+      environment.gsub!(search, "config.gem '#{gem_name}', :version => '>=#{version}'")
+    end
+    
+    File.open(env_file, 'w') { |f| f.write(environment) }
+  end
+  
+  def git_commit(path, message)
+    repo = Git.open("#{path}")
+    if repo.add('.').blank?
+      puts 'nothing to commit'
+    else      
+      repo.commit(message)
+    end
+  end
+  
+  # execute commands in a different directory
+  def inside(dir, &block)
+    FileUtils.cd(dir) { block.arity == 1 ? yield(dir) : yield }
   end
   
 end
