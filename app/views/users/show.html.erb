@@ -16,6 +16,10 @@
 
 <div class="span-5 last column">
   <div id="recommended" class="box">
+    <%= link_to t('muck.profiles.edit_profile'), edit_user_profile_path(@user) if @profile.can_edit?(current_user) %>
+  </div>
+  <hr class="space" />
+  <div id="recommended" class="box">
     <h4>Recommended Resources</h4>
   </div>
   <hr class="space" />
