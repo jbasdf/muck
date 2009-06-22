@@ -40,3 +40,6 @@ en:
     search_link: Find Resources!
     search_description: Find learning resources by <span class="highlight">searching</span> and <span class="highlight">browsing</span> over <span class="highlight">110,000</span> open educational resources
     welcome_user: "Welcome {{user}}"
+    tag_cloud_legend: browse resources using tags
+    all_resources: All
+    just_ocws: Courses
