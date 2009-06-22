@@ -4,15 +4,11 @@
       <%= render :partial => 'layouts/global/head' %>
   	</head>
   	<body>
-  	  <%= render :partial => 'layouts/global/header' %>
-  	  <div id="wrapper" class="container">
-  	    <div id="content-wrapper">
-          <div id="content">
-  		      <%= yield :layout %>
-  		    </div>
-  		  </div>
-  		</div>
-  		<%= render :partial => 'layouts/global/footer' %>
+  	    <div class="container">
+            <%= render :partial => 'layouts/global/header' %>
+            <%= yield :layout %>
+      		<%= render :partial => 'layouts/global/footer' %>
+        </div>
   		<script type="text/javascript" language="JavaScript">
         <%= yield :javascript %>
       </script>  
