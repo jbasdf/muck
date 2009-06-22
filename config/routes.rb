@@ -19,5 +19,7 @@ ActionController::Routing::Routes.draw do |map|
     a.resources :domain_themes
   end
   
+  # muck raker specific stuff
   map.resources :oers, :controller => 'recommender/entries'
+  map.connect 'oers/tags/*tags', :controller => 'recommender/entries', :action => 'browse_by_tags'
 end
