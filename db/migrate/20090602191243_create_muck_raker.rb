@@ -273,6 +273,9 @@ class CreateMuckRaker < ActiveRecord::Migration
   end
 
   def self.down
+    remove_column :languages, :muck_raker_supported
+    remove_column :languages, :indexed_records
+    
     drop_table :action_types
     drop_table :aggregation_feeds
     drop_table :aggregation_top_tags
