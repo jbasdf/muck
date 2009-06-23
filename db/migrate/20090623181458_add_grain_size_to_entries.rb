@@ -1,4 +1,4 @@
-class AddContentTypeToEntries < ActiveRecord::Migration
+class AddGrainSizeToEntries < ActiveRecord::Migration
   def self.up
     add_column :feeds, :default_grain_size, :string, :default => "unknown"
     execute "UPDATE feeds SET default_grain_size = 'course' WHERE ocw = true" 
