@@ -8,9 +8,15 @@ class ApplicationController < ActionController::Base
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   
   rescue_from ActiveRecord::RecordNotFound, :with => :record_not_found
-  
+
+  before_filter :set_locale
+
   protected
 
+  def set_locale
+    discover_locale
+  end
+  
   # only require ssl if we are in production
   def ssl_required?
     return ENV['SSL'] == 'on' ? true : false if defined? ENV['SSL']
