@@ -2,7 +2,7 @@
 a{color:#003B67;}
 a:visited{color:#003B67;}
 a:hover{color:#003B67;}
-.container{min-width:710px;max-width:1050px;width:90%;margin:2px auto;}
+.container{min-width:720px;max-width:1050px;width:90%;margin:2px auto;}
 div.two-border {padding:0 4px;margin:0 5px;border-right:1px solid #eee;border-left:1px solid #eee;}
 div.two-colborder {padding:0 24px;margin:0 25px;border-right:1px solid #eee;border-left:1px solid #eee;}
 .left{float:left;}
