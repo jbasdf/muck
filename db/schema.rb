@@ -379,7 +379,7 @@ ActiveRecord::Schema.define(:version => 20090623193525) do
   create_table "tag_clouds", :force => true do |t|
     t.integer "language_id"
     t.string  "filter"
-    t.string  "tag_list",    :limit => 2500
+    t.string  "tag_list",    :limit => 5000
     t.string  "grain_size",                  :default => "all"
   end
 
