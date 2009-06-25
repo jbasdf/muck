@@ -7,6 +7,7 @@
     calculated: beregnet
     collections: Samlinger
     collections_long: "Indekserte samlinger"
+    credits: "Utviklet av Tatemai ved <a href=\"http://cosl.usu.edu\">Center for Open og bærekraftig Læring</a> med finansiering fra <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Detaljer
     developers: Utviklere

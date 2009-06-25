@@ -6,6 +6,7 @@ ca:
     calculated: calculat
     collections: "Col leccions"
     collections_long: "Col leccions indexades"
+    credits: "Desenvolupat per Tatemai al <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> amb finançament de la <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Detalls
     developers: Desenvolupadors
