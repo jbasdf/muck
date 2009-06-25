@@ -1,0 +1,45 @@
+--- 
+ro: 
+  folksemantic: 
+    all_resources: Toţi
+    atom: Atom
+    calculated: calculat
+    collections: Colecţii
+    collections_long: "Colecţii indexate"
+    demo: Demo
+    details: Detalii
+    developers: Developers
+    developers_long: "Informaţii pentru dezvoltatori"
+    direct_link: "[direct link]"
+    for: pentru
+    gm_more_prompt: "Mai mult Resurse asociate"
+    gm_title: "Resurse asociate"
+    just_ocws: Cursuri
+    metadata: Metadata
+    next: Următorul
+    no_hits: "Nu hit-uri. Vă rugăm să încercaţi o altă căutare sau alegeţi o altă limbă."
+    no_tags: "Nu sunt etichete disponibile încă"
+    of: al
+    powered_by: "powered by"
+    previous: Înapoi
+    rdf: RDF
+    register_description: "Inscrie-te pentru a primi <span class=\"highlight\">recomandări</span> personalizate, să participe în <span class=\"highlight\">grupuri,</span> şi uşor <span class=\"highlight\">de a publica blog-uri</span>"
+    register_link: Înscrie-te!
+    related_resources: "Resurse asociate"
+    related_resources_title: "Resurse asociate"
+    relevance: relevanţă
+    results: Rezultate
+    rss: RSS
+    search: căuta
+    search_button: Merge
+    search_description: "Găsiţi resurse de învăţare şi de <span class=\"highlight\">navigare</span> prin <span class=\"highlight\">căutarea</span> de peste <span class=\"highlight\">110,000</span> de resurse educaţionale deschise"
+    search_link: "Găsiţi Resurse!"
+    tag_cloud_legend: "Cautare resurse utilizând tag-uri"
+    tag_line: "abilitarea deschis educaţie"
+    title: Folksemantic
+    tour: "Faceţi un tur!"
+    tour_description: "Vizionaţi un material <span class=\"highlight\">video introducerea</span> Folksemantic"
+    welcome_user: "Bine ati venit {{user}}"
+    widgets_description: "Ia fleacuri, pentru a ajuta utilizatorii să <span class=\"highlight\">găsească</span> resurse şi de a <span class=\"highlight\">descoperi resurse legate</span> de cele de pe site-ul dvs."
+    widgets_link: "Get Widgets!"
+    xml: XML

@@ -1,0 +1,45 @@
+--- 
+zh-TW: 
+  folksemantic: 
+    all_resources: 全部
+    atom: 原子
+    calculated: 計算
+    collections: 集合
+    collections_long: 收錄館藏
+    demo: 演示
+    details: 詳情
+    developers: 開發商
+    developers_long: 信息開發
+    direct_link: "[直接鏈接]"
+    for: 為了
+    gm_more_prompt: 更多相關資源
+    gm_title: 相關資源
+    just_ocws: 課程
+    metadata: 元數據
+    next: 下一個
+    no_hits: 無安打。請嘗試不同的搜索或選擇不同的語言。
+    no_tags: 目前還沒有任何標籤
+    of: 的
+    powered_by: 本站由
+    previous: 前
+    rdf: 盧旺達國防軍
+    register_description: "註冊並獲得個性化的<span class=\"highlight\">建議</span> ，參與<span class=\"highlight\">群體</span> ，並輕鬆地<span class=\"highlight\">發布到博客</span>"
+    register_link: 註冊！
+    related_resources: 相關資源
+    related_resources_title: 相關資源
+    relevance: 相關
+    results: 結果
+    rss: 的RSS
+    search: 搜索
+    search_button: 離去
+    search_description: "尋找學習資源的<span class=\"highlight\">搜索</span>與<span class=\"highlight\">瀏覽</span>超過<span class=\"highlight\">110,000</span>開放教育資源"
+    search_link: 尋找資源！
+    tag_cloud_legend: 使用標籤瀏覽資源
+    tag_line: 增強開放教育
+    title: Folksemantic
+    tour: 瀏覽一下！
+    tour_description: "看<span class=\"highlight\">錄像採用</span> Folksemantic"
+    welcome_user: "歡迎{{user}}"
+    widgets_description: "獲取工具，以幫助用戶<span class=\"highlight\">找到</span>的資源和<span class=\"highlight\">發現有關</span>的<span class=\"highlight\">資源</span>的在您的網站"
+    widgets_link: 獲取組件！
+    xml: XML的
