@@ -1,0 +1,45 @@
+--- 
+sk: 
+  folksemantic: 
+    all_resources: Všetko
+    atom: Atom
+    calculated: vypočítané
+    collections: Zbierky
+    collections_long: "Indexovaná Zbierky"
+    demo: Demo
+    details: Detaily
+    developers: Vývojári
+    developers_long: "Informácie pre vývojárov"
+    direct_link: "[priamy odkaz]"
+    for: pre
+    gm_more_prompt: "Viac Súvisiace zdroje"
+    gm_title: "Súvisiace zdroje informácií"
+    just_ocws: Kurzy
+    metadata: Metaúdaje
+    next: Příští
+    no_hits: "Nie hitov. Skúste prosím iné vyhľadávanie, alebo zvoliť iný jazyk."
+    no_tags: "Zatiaľ k dispozícii žiadne záznamy"
+    of: z
+    powered_by: "powered by"
+    previous: Predchádzajúci
+    rdf: RDF
+    register_description: "Zaregistrujte sa k odberu personalizované <span class=\"highlight\">odporúčanie,</span> účasť v <span class=\"highlight\">skupinách,</span> a jednoducho <span class=\"highlight\">publikovať na blogy</span>"
+    register_link: "Zaregistruj sa!"
+    related_resources: "Súvisiace zdroje"
+    related_resources_title: "Súvisiace zdroje informácií"
+    relevance: relevance
+    results: Výsledky
+    rss: RSS
+    search: hľadať
+    search_button: Choď
+    search_description: "Nájsť učenia zdrojov <span class=\"highlight\">vyhľadávanie</span> a <span class=\"highlight\">prezeranie</span> cez <span class=\"highlight\">110.000</span> otvorených vzdelávacích zdrojov"
+    search_link: "Nájsť zdroje!"
+    tag_cloud_legend: "prechádzať zdrojov pomocou tagov"
+    tag_line: "splnomocnení otvorené vzdelávanie"
+    title: Folksemantic
+    tour: "Urobte si výlet!"
+    tour_description: "Pozrite sa na <span class=\"highlight\">video zavedenie</span> Folksemantic"
+    welcome_user: "Vitajte {{user}}"
+    widgets_description: "Získajte widgety pomáhať používateľom <span class=\"highlight\">nájsť</span> zdroje a <span class=\"highlight\">objavte zdroje súvisiace</span> s tými na vašich webových stránkach"
+    widgets_link: "Získajte Widget!"
+    xml: XML

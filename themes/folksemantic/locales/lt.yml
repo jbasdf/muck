@@ -1,0 +1,45 @@
+--- 
+lt: 
+  folksemantic: 
+    all_resources: Visi
+    atom: Atom
+    calculated: apskaičiuotas
+    collections: Kolekcijos
+    collections_long: "Indeksas Kolekcijos"
+    demo: Demo
+    details: Duomenys
+    developers: Programavimas
+    developers_long: "Informacija kūrėjams"
+    direct_link: "[Direct link]"
+    for: dėl
+    gm_more_prompt: "Daugiau informacijos Susiję šaltiniai ir ištekliai:"
+    gm_title: "Susiję šaltiniai ir ištekliai:"
+    just_ocws: Kursai
+    metadata: Metaduomenys
+    next: Kitas
+    no_hits: "Nr hitai. Prašome bandyti kitą paiešką arba pasirinkti kitą kalbą."
+    no_tags: "Nr žymės turima dar"
+    of: iš
+    powered_by: "powered by"
+    previous: Ankstesnis
+    rdf: KRB
+    register_description: "Registruotis gauti asmeninį <span class=\"highlight\">rekomendacijas,</span> dalyvauti <span class=\"highlight\">grupės</span> ir lengvai <span class=\"highlight\">publikuoti dienoraščiai</span>"
+    register_link: Registruotis!
+    related_resources: "Related resources"
+    related_resources_title: "Susiję šaltiniai ir ištekliai:"
+    relevance: tinkamumas
+    results: Rezultatai
+    rss: RSS
+    search: ieškoti
+    search_button: Eiti
+    search_description: "Rasti mokymosi išteklių <span class=\"highlight\">paieškos</span> ir <span class=\"highlight\">naršymo</span> virš <span class=\"highlight\">110.000</span> atviri švietimo išteklius"
+    search_link: "Rasti ištekliai!"
+    tag_cloud_legend: "peržiūrėti išteklius naudojant žymės"
+    tag_line: "suteikiančio atvirą švietimo"
+    title: Folksemantic
+    tour: "Take a Tour!"
+    tour_description: "Žiūrėti <span class=\"highlight\">vaizdo įvedimo</span> Folksemantic"
+    welcome_user: "Sveiki {{user}}"
+    widgets_description: "Gauti raštai padėti vartotojams <span class=\"highlight\">rasti</span> išteklių ir <span class=\"highlight\">atrasti ištekliai, susiję</span> su jų į savo svetainę"
+    widgets_link: "Get Widgets!"
+    xml: XML

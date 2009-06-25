@@ -1,0 +1,45 @@
+--- 
+it: 
+  folksemantic: 
+    all_resources: Tutto
+    atom: Atom
+    calculated: calcolato
+    collections: Collezioni
+    collections_long: "Indicizzato Collezioni"
+    demo: Demo
+    details: Dettagli
+    developers: Sviluppatori
+    developers_long: "Informazioni per gli sviluppatori"
+    direct_link: "[link diretto]"
+    for: per
+    gm_more_prompt: "Altre Risorse correlate"
+    gm_title: "Risorse correlate"
+    just_ocws: Corsi
+    metadata: Metadati
+    next: Successivo
+    no_hits: "N. hits. Si prega di provare con un altro di ricerca o scegliere una lingua diversa."
+    no_tags: "Nessun tag disponibile ancora"
+    of: di
+    powered_by: "powered by"
+    previous: Precedente
+    rdf: RDF
+    register_description: "Iscriviti per ricevere <span class=\"highlight\">consigli</span> personalizzati, partecipare a <span class=\"highlight\">gruppi,</span> e <span class=\"highlight\">di pubblicare</span> facilmente <span class=\"highlight\">i blog</span>"
+    register_link: Registrati!
+    related_resources: "Risorse correlate"
+    related_resources_title: "Risorse correlate"
+    relevance: pertinenza
+    results: Risultati
+    rss: RSS
+    search: ricerca
+    search_button: Andare
+    search_description: "Trova le risorse di apprendimento tramite la <span class=\"highlight\">ricerca</span> e la <span class=\"highlight\">navigazione</span> oltre <span class=\"highlight\">110.000</span> risorse educative aperte"
+    search_link: "Trova Risorse!"
+    tag_cloud_legend: "navigare utilizzando risorse tag"
+    tag_line: "aprire l&#39;istruzione che abilita"
+    title: Folksemantic
+    tour: "Seguite il tour!"
+    tour_description: "Guarda un <span class=\"highlight\">video</span> di <span class=\"highlight\">introduzione</span> di Folksemantic"
+    welcome_user: "Benvenuti {{user}}"
+    widgets_description: "Get widget per aiutare gli utenti a <span class=\"highlight\">trovare</span> risorse e <span class=\"highlight\">scoprire le risorse relative</span> a quelle sul tuo sito web"
+    widgets_link: "Get Widget!"
+    xml: XML

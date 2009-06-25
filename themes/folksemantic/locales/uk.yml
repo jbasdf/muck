@@ -1,0 +1,45 @@
+--- 
+uk: 
+  folksemantic: 
+    all_resources: Всі
+    atom: Atom
+    calculated: розраховуватися
+    collections: Колекції
+    collections_long: "Проіндексовані Колекції"
+    demo: Демо
+    details: Подробиці
+    developers: Разработчикам
+    developers_long: "Інформація для розробників"
+    direct_link: "[Пряме посилання]"
+    for: для
+    gm_more_prompt: "Подробнее Інші ресурси"
+    gm_title: "Інші ресурси"
+    just_ocws: Курси
+    metadata: Метадані
+    next: Наступне
+    no_hits: "Ні хітів. Спробуйте інший пошук або виберіть іншу мову."
+    no_tags: "Немає тегів доступні ще"
+    of: з
+    powered_by: компанією
+    previous: Попередня
+    rdf: RDF
+    register_description: "Підпишіться на отримання персональної <span class=\"highlight\">рекомендацій,</span> участь у <span class=\"highlight\">групах,</span> і легко <span class=\"highlight\">публікувати в блогах</span>"
+    register_link: Зареєструйся!
+    related_resources: "Інші ресурси"
+    related_resources_title: "Інші ресурси"
+    relevance: актуальність
+    results: Результати
+    rss: RSS
+    search: пошук
+    search_button: Йти
+    search_description: "Пошук навчальних матеріалів за допомогою функції <span class=\"highlight\">пошуку</span> та <span class=\"highlight\">перегляду</span> більше <span class=\"highlight\">110,000</span> відкритих освітніх ресурсів"
+    search_link: "Знайти джерела!"
+    tag_cloud_legend: "переглядати ресурси, використовуючи теги"
+    tag_line: "розширення можливостей відкритої освіти"
+    title: Folksemantic
+    tour: "Здійсніть тур!"
+    tour_description: "Дивитися <span class=\"highlight\">відео введення</span> Folksemantic"
+    welcome_user: "Ласкаво просимо {{user}}"
+    widgets_description: "Отримати віджети, щоб допомогти користувачам <span class=\"highlight\">знайти</span> ресурси і <span class=\"highlight\">відкривати ресурси,</span> пов&#39;язані з них на ваш сайт"
+    widgets_link: "Отримати Widgets!"
+    xml: XML

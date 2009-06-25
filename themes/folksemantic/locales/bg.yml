@@ -1,0 +1,45 @@
+--- 
+bg: 
+  folksemantic: 
+    all_resources: Всички
+    atom: Atom
+    calculated: изчислени
+    collections: Колекции
+    collections_long: "Индексирани Сборници"
+    demo: Демонстрация
+    details: Подробности
+    developers: Разработчици
+    developers_long: "Информация за разработчици"
+    direct_link: "[директен линк]"
+    for: за
+    gm_more_prompt: "Още Сродни ресурси"
+    gm_title: "Сродни ресурси"
+    just_ocws: Курсове
+    metadata: Метаданните
+    next: Следващ
+    no_hits: "Не хитове. Моля опитайте по-различно търсене или изберете друг език."
+    no_tags: "Не тагове разположение още"
+    of: на
+    powered_by: "захранва от"
+    previous: Назад
+    rdf: RDF
+    register_description: "Регистрация за получаване персонални <span class=\"highlight\">препоръки,</span> да участват в <span class=\"highlight\">групи,</span> както и лесно <span class=\"highlight\">публикуване на блогове</span>"
+    register_link: "Sign Up!"
+    related_resources: "Сродни ресурси"
+    related_resources_title: "Сродни ресурси"
+    relevance: Значението
+    results: Резултати
+    rss: RSS
+    search: търся
+    search_button: Отивам
+    search_description: "Търсене на учебни ресурси чрез <span class=\"highlight\">търсене и</span> разглеждане над 110000 отворени образователни ресурси"
+    search_link: "Намери ресурси!"
+    tag_cloud_legend: "Търсете ресурси чрез етикети"
+    tag_line: "овластяване отворено образование"
+    title: Folksemantic
+    tour: "Вземи си обиколка!"
+    tour_description: "Гледайте <span class=\"highlight\">видео въвеждането</span> на Folksemantic"
+    welcome_user: "Добре дошли {{user}}"
+    widgets_description: "Махни джунджурии да помогне на потребителите <span class=\"highlight\">да намират</span> средства <span class=\"highlight\">и</span> открийте <span class=\"highlight\">ресурси, свързани</span> с тези на вашия сайт"
+    widgets_link: "Махни Widgets!"
+    xml: XML

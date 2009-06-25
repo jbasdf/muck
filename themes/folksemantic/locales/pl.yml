@@ -1,0 +1,45 @@
+--- 
+pl: 
+  folksemantic: 
+    all_resources: Wszyscy
+    atom: Atom
+    calculated: obliczone
+    collections: Kolekcje
+    collections_long: "Indeksowana Kolekcje"
+    demo: Demo
+    details: Szczegóły
+    developers: Programiści
+    developers_long: "Informacje dla deweloperów"
+    direct_link: "[Direct link]"
+    for: dla
+    gm_more_prompt: "Więcej Zasoby pokrewne"
+    gm_title: "Zasoby pokrewne"
+    just_ocws: Kursy
+    metadata: Metadane
+    next: Następny
+    no_hits: "Nr trafień. Spróbuj innej wyszukiwania lub wybierz inny język."
+    no_tags: "Brak tagów jeszcze dostępne"
+    of: z
+    powered_by: "powered by"
+    previous: Poprzednia
+    rdf: RDF
+    register_description: "Zapisz się na indywidualną <span class=\"highlight\">zaleceń,</span> udział w <span class=\"highlight\">grupach</span> i łatwo <span class=\"highlight\">publikować blogi</span>"
+    register_link: "Zarejestruj się!"
+    related_resources: "Podobne środki"
+    related_resources_title: "Zasoby pokrewne"
+    relevance: znaczenie
+    results: Wyniki
+    rss: RSS
+    search: szukać
+    search_button: Iść
+    search_description: "Znajdź nauki poprzez <span class=\"highlight\">wyszukiwanie</span> i <span class=\"highlight\">przeglądanie</span> ponad <span class=\"highlight\">110.000</span> otwartych zasobów edukacyjnych"
+    search_link: "Znajdź Zasoby!"
+    tag_cloud_legend: "przeglądania zasobów za pomocą tagów"
+    tag_line: "uprawniającej otwartej edukacji"
+    title: Folksemantic
+    tour: "Rozejrzyj się!"
+    tour_description: "Obejrzyj <span class=\"highlight\">wideo wprowadzenia</span> Folksemantic"
+    welcome_user: "Witamy {{user}}"
+    widgets_description: "Pobierz widgety ułatwiające użytkownikom <span class=\"highlight\">znaleźć</span> i <span class=\"highlight\">odkryć</span> zasoby <span class=\"highlight\">zasoby związane</span> z nich na swojej stronie internetowej"
+    widgets_link: "Pobierz gadżety!"
+    xml: XML
