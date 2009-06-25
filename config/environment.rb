@@ -30,8 +30,8 @@ Rails::Initializer.run do |config|
   config.gem 'uploader', :version => '>=0.1.16'
   config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.3.3'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => ">=0.4.1"
-  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.6' 
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.9'
+  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.7' 
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.10'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.1.8'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.12'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.4'

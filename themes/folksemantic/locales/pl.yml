@@ -6,6 +6,7 @@ pl:
     calculated: obliczone
     collections: Kolekcje
     collections_long: "Indeksowana Kolekcje"
+    credits: "Opracowane przez Tatemai w <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> z finansowania z <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Szczegóły
     developers: Programiści
