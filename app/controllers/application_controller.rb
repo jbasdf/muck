@@ -19,6 +19,7 @@ class ApplicationController < ActionController::Base
   
   # only require ssl if we are in production
   def ssl_required?
+    return false unless GlobalConfig.enable_ssl
     return ENV['SSL'] == 'on' ? true : false if defined? ENV['SSL']
     return false if local_request?
     return false if RAILS_ENV == 'test'

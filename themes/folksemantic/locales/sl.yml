@@ -6,6 +6,7 @@ sl:
     calculated: izračuna
     collections: Zbirke
     collections_long: "Indeksno Zbirke"
+    credits: "Developed by Tatemai na <a href=\"http://cosl.usu.edu\">Center za odprto učenje in trajnostnega</a> financiranja od <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Podrobnosti
     developers: Razvijalci

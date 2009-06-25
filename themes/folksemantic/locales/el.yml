@@ -6,6 +6,7 @@ el:
     calculated: υπολογίζονται
     collections: Συλλογές
     collections_long: "Τιμαριθμοποιημένος Συλλογές"
+    credits: "Αναπτύχθηκε από Tatemai στο <a href=\"http://cosl.usu.edu\">Κέντρο για την Ανοικτή και Αειφόρος Μάθηση</a> με χρηματοδότηση από το <a href=\"http://nsf.gov/\">Εθνικό Ίδρυμα Επιστημών</a>"
     demo: Demo
     details: Λεπτομέρειες
     developers: Developers

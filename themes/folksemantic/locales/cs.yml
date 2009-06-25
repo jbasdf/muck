@@ -6,6 +6,7 @@ cs:
     calculated: vypočtené
     collections: Sbírky
     collections_long: "Indexovaná Sbírky"
+    credits: "Developed by Tatemai na <a href=\"http://cosl.usu.edu\">Centrum otevřeného a trvalého učení</a> s financováním z <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Detaily
     developers: Vývojáři

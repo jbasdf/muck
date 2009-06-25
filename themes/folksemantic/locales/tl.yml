@@ -6,6 +6,7 @@ tl:
     calculated: kinakalkula
     collections: Koleksyon
     collections_long: "Index koleksyon"
+    credits: "Binuo ng Tatemai sa <a href=\"http://cosl.usu.edu\">Center para sa Buksan at Sustainable Learning</a> na may pondo mula sa <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: "Mga detalye"
     developers: "Mga Developer"
