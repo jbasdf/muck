@@ -51,7 +51,7 @@ class User < ActiveRecord::Base
   
   # List of users to whom activities will be fed.
   def feed_to
-    [self] + self.friends
+    [self] # + self.friends
   end
   
   def can_upload?(check_user)
