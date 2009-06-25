@@ -35,11 +35,12 @@ class User < ActiveRecord::Base
   acts_as_authentic do |c|
     c.crypto_provider = Authlogic::CryptoProviders::BCrypt
   end
+  has_friendly_id :login
   acts_as_muck_user
   has_muck_profile
-  acts_as_tagger
   has_activities
-  has_friendly_id :login
+  acts_as_muck_friend
+  acts_as_tagger
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   
@@ -48,9 +49,9 @@ class User < ActiveRecord::Base
     add_activity(self, self, self, 'status_update', '', content)
   end
   
-  # This is only a place holder.  Override this method to feed activities to the appropriate places
+  # List of users to whom activities will be fed.
   def feed_to
-    [self]
+    [self] + self.friends
   end
   
   def can_upload?(check_user)
