@@ -1,0 +1,45 @@
+--- 
+sl: 
+  folksemantic: 
+    all_resources: Vse
+    atom: Atom
+    calculated: izračuna
+    collections: Zbirke
+    collections_long: "Indeksno Zbirke"
+    demo: Demo
+    details: Podrobnosti
+    developers: Razvijalci
+    developers_long: "Informacije za razvijalce"
+    direct_link: "[neposredna povezava]"
+    for: za
+    gm_more_prompt: "Več Sorodni viri"
+    gm_title: "Sorodni viri"
+    just_ocws: Tečaji
+    metadata: Metadata
+    next: Naslednji
+    no_hits: "Ni zadetkov. Poskusite z drugačnim iskanjem ali izberete drug jezik."
+    no_tags: "Št oznake na voljo še"
+    of: od
+    powered_by: "powered by"
+    previous: Prejšnje
+    rdf: RDF
+    register_description: "Prijavite se za prejemanje prilagojenih <span class=\"highlight\">priporočil,</span> sodelovanje v <span class=\"highlight\">skupinah,</span> in enostavno <span class=\"highlight\">objavite na blogih</span>"
+    register_link: "Sign Up!"
+    related_resources: "Sorodni viri"
+    related_resources_title: "Sorodni viri"
+    relevance: relevance
+    results: Rezultati
+    rss: RSS
+    search: iskati
+    search_button: Iti
+    search_description: "Poišči učnih virov z <span class=\"highlight\">iskanjem</span> in <span class=\"highlight\">brskanjem</span> preko <span class=\"highlight\">110.000</span> odprtih izobraževalnih virov,"
+    search_link: "Poišči vire!"
+    tag_cloud_legend: "brskajte sredstev z uporabo oznak"
+    tag_line: "o pooblastitvi odprto izobraževanje"
+    title: Folksemantic
+    tour: "Take a Tour!"
+    tour_description: "Oglejte si <span class=\"highlight\">video uvedbo</span> Folksemantic"
+    welcome_user: "Dobrodošli {{user}}"
+    widgets_description: "Get toinono pomaga uporabnikom <span class=\"highlight\">najti</span> sredstva in <span class=\"highlight\">odkrijte vire, povezane</span> s tistimi, na vaši spletni strani"
+    widgets_link: "Get Pripomočki!"
+    xml: XML

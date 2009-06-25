@@ -1,0 +1,45 @@
+--- 
+el: 
+  folksemantic: 
+    all_resources: Όλα
+    atom: Atom
+    calculated: υπολογίζονται
+    collections: Συλλογές
+    collections_long: "Τιμαριθμοποιημένος Συλλογές"
+    demo: Demo
+    details: Λεπτομέρειες
+    developers: Developers
+    developers_long: "Πληροφορίες για προγραμματιστές"
+    direct_link: "[άμεση σχέση]"
+    for: για
+    gm_more_prompt: "Περισσότερα Σχετικοί πόροι"
+    gm_title: "Σχετικοί πόροι"
+    just_ocws: Μαθήματα
+    metadata: Μεταδεδομένα
+    next: Επόμενος
+    no_hits: "Δεν hits. Δοκιμάστε μια διαφορετική αναζήτηση ή επιλέξτε μια διαφορετική γλώσσα."
+    no_tags: "Δεν διατίθενται ακόμη ετικέτες"
+    of: από
+    powered_by: "powered by"
+    previous: Προηγούμενη
+    rdf: ΚΠΤ
+    register_description: "Εγγραφείτε για να λάβετε εξατομικευμένες <span class=\"highlight\">συστάσεις,</span> συμμετέχουν σε <span class=\"highlight\">ομάδες,</span> και εύκολα <span class=\"highlight\">να δημοσιεύουν blogs</span>"
+    register_link: Εγγραφείτε!
+    related_resources: "Σχετικοί πόροι"
+    related_resources_title: "Σχετικοί πόροι"
+    relevance: ενδιαφέρον
+    results: Αποτελέσματα
+    rss: RSS
+    search: αναζήτηση
+    search_button: Πάω
+    search_description: "Βρείτε μάθηση μέσα από <span class=\"highlight\">την αναζήτηση</span> και <span class=\"highlight\">περιήγηση</span> πάνω από <span class=\"highlight\">110.000</span> ανοικτή εκπαιδευτικών πόρων"
+    search_link: "Βρείτε Πόρων!"
+    tag_cloud_legend: "περιηγηθείτε πόρους χρησιμοποιώντας tags"
+    tag_line: "εξουσιοδοτήσεως ανοικτή εκπαίδευση"
+    title: Folksemantic
+    tour: "Take a Tour!"
+    tour_description: "Παρακολουθήστε ένα <span class=\"highlight\">βίντεο εισαγωγή</span> Folksemantic"
+    welcome_user: "Καλώς ήρθατε {{user}}"
+    widgets_description: "Λάβετε widgets για να βοηθήσει τους χρήστες να <span class=\"highlight\">βρουν</span> πόρους και να <span class=\"highlight\">ανακαλύψουν πόρους</span> που <span class=\"highlight\">σχετίζονται</span> με αυτές στην ιστοσελίδα σας"
+    widgets_link: "Get Widgets!"
+    xml: XML

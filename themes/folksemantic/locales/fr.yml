@@ -1,0 +1,45 @@
+--- 
+fr: 
+  folksemantic: 
+    all_resources: Tous
+    atom: Atom
+    calculated: calculés
+    collections: Collections
+    collections_long: "Collections indexées"
+    demo: Demo
+    details: Détails
+    developers: Développeurs
+    developers_long: "Informations pour les développeurs"
+    direct_link: "[lien direct]"
+    for: pour
+    gm_more_prompt: "Plus Ressources connexes"
+    gm_title: "Ressources connexes"
+    just_ocws: Cours
+    metadata: Metadata
+    next: Suivant
+    no_hits: "Pas de visites. S&#39;il vous plaît essayer une autre recherche ou choisissez une autre langue."
+    no_tags: "Pas de tags encore disponible"
+    of: de
+    powered_by: "powered by"
+    previous: Précédent
+    rdf: RDF
+    register_description: "Inscrivez-vous pour recevoir <span class=\"highlight\">des recommandations</span> personnalisées, de participer à des <span class=\"highlight\">groupes,</span> et de <span class=\"highlight\">publier</span> facilement <span class=\"highlight\">des blogs</span>"
+    register_link: Inscrivez-vous!
+    related_resources: "Ressources connexes"
+    related_resources_title: "Ressources connexes"
+    relevance: pertinence
+    results: Résultats
+    rss: RSS
+    search: recherche
+    search_button: Aller
+    search_description: "Trouver des ressources d&#39;apprentissage par <span class=\"highlight\">la recherche</span> et la <span class=\"highlight\">navigation</span> plus de 110000 ressources éducatives ouvertes"
+    search_link: "Trouver des ressources!"
+    tag_cloud_legend: "Trouver des ressources en utilisant les balises"
+    tag_line: "habilitant l&#39;éducation ouverte"
+    title: Folksemantic
+    tour: "Suivez le guide!"
+    tour_description: "Regarder une <span class=\"highlight\">vidéo d&#39;introduction</span> Folksemantic"
+    welcome_user: "Bienvenue {{user}}"
+    widgets_description: "Télécharger des widgets pour aider les utilisateurs à <span class=\"highlight\">trouver des</span> ressources et de <span class=\"highlight\">découvrir les ressources liées</span> à celles sur votre site"
+    widgets_link: "Get Widgets!"
+    xml: XML

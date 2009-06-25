@@ -1,0 +1,46 @@
+--- 
+? "no"
+: 
+  folksemantic: 
+    all_resources: Alle
+    atom: Atom
+    calculated: beregnet
+    collections: Samlinger
+    collections_long: "Indekserte samlinger"
+    demo: Demo
+    details: Detaljer
+    developers: Utviklere
+    developers_long: "Informasjon for utviklere"
+    direct_link: "[direct link]"
+    for: for
+    gm_more_prompt: "Mer Beslektede ressurser"
+    gm_title: "Beslektede ressurser"
+    just_ocws: Kurs
+    metadata: Metadata
+    next: Neste
+    no_hits: "Ingen treff. Prøv et annet søk, eller velg et annet språk."
+    no_tags: "Ingen tags tilgjengelig ennå"
+    of: av
+    powered_by: "powered by"
+    previous: Forrige
+    rdf: RDF
+    register_description: "Registrer deg for å motta personlige <span class=\"highlight\">anbefalinger,</span> delta i <span class=\"highlight\">grupper,</span> og enkelt <span class=\"highlight\">publisere blogger</span>"
+    register_link: "Registrer deg!"
+    related_resources: "Beslektede ressurser"
+    related_resources_title: "Beslektede ressurser"
+    relevance: relevans
+    results: Resultater
+    rss: RSS
+    search: søke
+    search_button: Dra
+    search_description: "Finn læring ressurser ved å <span class=\"highlight\">søke</span> og <span class=\"highlight\">surfe</span> over <span class=\"highlight\">110.000</span> åpne pedagogiske ressurser"
+    search_link: "Finn ressurser!"
+    tag_cloud_legend: "bla ved hjelp av koder"
+    tag_line: "Styrke åpne utdanning"
+    title: Folksemantic
+    tour: "Ta en tur!"
+    tour_description: "Se en <span class=\"highlight\">video innføring</span> av Folksemantic"
+    welcome_user: "Velkommen {{user}}"
+    widgets_description: "Få ting til å hjelpe brukere med å <span class=\"highlight\">finne</span> ressurser og <span class=\"highlight\">finne ressurser knyttet</span> til seg på nettstedet"
+    widgets_link: "Get Widgets!"
+    xml: XML

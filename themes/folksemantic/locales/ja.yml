@@ -1,0 +1,45 @@
+--- 
+ja: 
+  folksemantic: 
+    all_resources: すべての
+    atom: 原子
+    calculated: 計算
+    collections: コレクション
+    collections_long: インデックスのコレクション
+    demo: デモ
+    details: 詳細
+    developers: 開発者
+    developers_long: 開発者向けの情報
+    direct_link: "[直リンク]"
+    for: 〜のために
+    gm_more_prompt: 他の関連リソース
+    gm_title: 関連リソース
+    just_ocws: コース
+    metadata: メタデータ
+    next: 次の
+    no_hits: 無安打。別のキーワードで検索してくださいか、別の言語を選択してください。
+    no_tags: いいえ、まだ利用可能なタグ
+    of: の
+    powered_by: を搭載
+    previous: 前
+    rdf: のRDF
+    register_description: "署名して、グループに参加し、個別の<span class=\"highlight\">提言</span>を簡単に<span class=\"highlight\">ブログに公開</span>"
+    register_link: サインアップ！
+    related_resources: 関連リソース
+    related_resources_title: 関連リソース
+    relevance: 関連性
+    results: 結果
+    rss: RSSフィード
+    search: 探す
+    search_button: 行く
+    search_description: "検索することで、学習のリソース<span class=\"highlight\">を検索する</span>と<span class=\"highlight\">110,000</span>オープン教育リソースを参照"
+    search_link: リソースを検索！
+    tag_cloud_legend: リソースのタグを使用して閲覧
+    tag_line: オープン教育の権限委譲
+    title: Folksemantic
+    tour: ツアー！
+    tour_description: "腕時計の<span class=\"highlight\">ビデオ</span>を<span class=\"highlight\">紹介</span> Folksemantic"
+    welcome_user: "ようこそ{{user}}"
+    widgets_description: "ウィジェットを入手し、ユーザーのリソース<span class=\"highlight\">を</span>見つけ、 <span class=\"highlight\">お客様のウェブサイト</span>上の<span class=\"highlight\">リソース</span>に関連する<span class=\"highlight\">もの</span>を発見するために"
+    widgets_link: ウィジェットを入手！
+    xml: XMLの

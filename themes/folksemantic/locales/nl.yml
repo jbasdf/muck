@@ -1,0 +1,45 @@
+--- 
+nl: 
+  folksemantic: 
+    all_resources: Alle
+    atom: Atom
+    calculated: berekend
+    collections: Collecties
+    collections_long: "Geïndexeerd Collecties"
+    demo: Demo
+    details: Details
+    developers: Ontwikkelaars
+    developers_long: "Informatie voor ontwikkelaars"
+    direct_link: "[directe link]"
+    for: voor
+    gm_more_prompt: "Meer Verwante bronnen"
+    gm_title: "Verwante bronnen"
+    just_ocws: Cursussen
+    metadata: Metadata
+    next: Volgende
+    no_hits: "Geen treffers. Probeer een andere zoekopdracht of kies een andere taal."
+    no_tags: "Geen tags beschikbaar"
+    of: van
+    powered_by: "powered by"
+    previous: Vorige
+    rdf: DTO
+    register_description: "Meld u nu aan voor gepersonaliseerde <span class=\"highlight\">aanbevelingen,</span> deelnemen in <span class=\"highlight\">groepen,</span> en gemakkelijk te <span class=\"highlight\">publiceren op blogs</span>"
+    register_link: "Sign Up!"
+    related_resources: "Related resources"
+    related_resources_title: "Verwante bronnen"
+    relevance: relevantie
+    results: Resultaten
+    rss: RSS
+    search: zoeken
+    search_button: Gaan
+    search_description: "Zoek leermiddelen door te <span class=\"highlight\">zoeken</span> en <span class=\"highlight\">surfen</span> meer dan <span class=\"highlight\">110.000</span> open leermiddelen"
+    search_link: "Vind Resources!"
+    tag_cloud_legend: "bladeren middelen met behulp van tags"
+    tag_line: "Empowering open onderwijs"
+    title: Folksemantic
+    tour: "Take a Tour!"
+    tour_description: "Bekijk een <span class=\"highlight\">video-introductie</span> van Folksemantic"
+    welcome_user: "Welkom {{user}}"
+    widgets_description: "Get widgets te helpen gebruikers bij het <span class=\"highlight\">vinden van</span> middelen en <span class=\"highlight\">ontdek</span> welke <span class=\"highlight\">middelen</span> in <span class=\"highlight\">verband</span> met de op uw website"
+    widgets_link: "Get Widgets!"
+    xml: XML
