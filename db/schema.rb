@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090613173314) do
+ActiveRecord::Schema.define(:version => 20090623181458) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -83,12 +83,6 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
   add_index "clicks", ["user_agent"], :name => "index_clicks_on_user_agent"
   add_index "clicks", ["when"], :name => "index_clicks_on_when"
 
-  create_table "cloud_caches", :id => false, :force => true do |t|
-    t.integer "language_id",                 :default => 0,  :null => false
-    t.string  "filter",                      :default => "", :null => false
-    t.string  "tag_list",    :limit => 2500
-  end
-
   create_table "comments", :force => true do |t|
     t.integer  "commentable_id",                 :default => 0
     t.string   "commentable_type", :limit => 15, :default => ""
@@ -141,10 +135,12 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
     t.text     "popular"
     t.text     "relevant"
     t.text     "other"
+    t.string   "grain_size",                              :default => "unknown"
   end
 
   add_index "entries", ["direct_link"], :name => "index_entries_on_direct_link"
   add_index "entries", ["feed_id"], :name => "index_entries_on_feed_id"
+  add_index "entries", ["grain_size"], :name => "index_entries_on_grain_size"
   add_index "entries", ["indexed_at"], :name => "index_entries_on_indexed_at"
   add_index "entries", ["language_id"], :name => "index_entries_on_language_id"
   add_index "entries", ["oai_identifier"], :name => "index_entries_on_oai_identifier"
@@ -200,7 +196,7 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
     t.integer  "harvest_interval",                           :default => 86400
     t.integer  "failed_requests",                            :default => 0
     t.text     "error_message"
-    t.integer  "service_id",                                 :default => 0,     :null => false
+    t.integer  "service_id",                                 :default => 0,         :null => false
     t.string   "login"
     t.string   "password"
     t.datetime "created_at"
@@ -211,7 +207,7 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
     t.string   "harvested_from_short_title", :limit => 100
     t.integer  "entries_count"
     t.integer  "default_language_id",                        :default => 0
-    t.boolean  "ocw",                                        :default => false
+    t.string   "default_grain_size",                         :default => "unknown"
   end
 
   add_index "feeds", ["service_id"], :name => "index_feeds_on_service_id"
@@ -379,6 +375,14 @@ ActiveRecord::Schema.define(:version => 20090613173314) do
   create_table "subjects", :force => true do |t|
     t.string "name"
   end
+
+  create_table "tag_clouds", :force => true do |t|
+    t.integer "language_id"
+    t.string  "filter"
+    t.string  "tag_list",    :limit => 2500
+  end
+
+  add_index "tag_clouds", ["language_id", "filter"], :name => "index_tag_clouds_on_language_id_and_filter", :unique => true
 
   create_table "taggings", :force => true do |t|
     t.integer  "tag_id"
