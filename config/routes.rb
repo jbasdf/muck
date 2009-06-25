@@ -1,3 +1,5 @@
+ROUTES_PROTOCOL = GlobalConfig.enable_ssl ? (ENV["RAILS_ENV"] =~ /(development|test)/ ? "http" : "https") : 'http'
+
 ActionController::Routing::Routes.draw do |map|
 
   map.home '', :controller => 'default', :action => 'index'

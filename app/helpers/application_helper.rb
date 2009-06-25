@@ -5,4 +5,8 @@ module ApplicationHelper
     mail_to email, nil, :encode => 'javascript'
   end
   
+  def get_protocol
+    ROUTES_PROTOCOL
+  end
+  
 end
