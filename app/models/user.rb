@@ -39,7 +39,7 @@ class User < ActiveRecord::Base
   acts_as_muck_user
   has_muck_profile
   has_activities
-  acts_as_muck_friend
+  #acts_as_muck_friend
   acts_as_tagger
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
