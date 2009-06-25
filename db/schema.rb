@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090623181458) do
+ActiveRecord::Schema.define(:version => 20090623193525) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -380,9 +380,10 @@ ActiveRecord::Schema.define(:version => 20090623181458) do
     t.integer "language_id"
     t.string  "filter"
     t.string  "tag_list",    :limit => 2500
+    t.string  "grain_size",                  :default => "all"
   end
 
-  add_index "tag_clouds", ["language_id", "filter"], :name => "index_tag_clouds_on_language_id_and_filter", :unique => true
+  add_index "tag_clouds", ["grain_size", "language_id", "filter"], :name => "index_tag_clouds_on_grain_size_and_language_id_and_filter", :unique => true
 
   create_table "taggings", :force => true do |t|
     t.integer  "tag_id"

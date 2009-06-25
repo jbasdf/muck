@@ -1,0 +1,45 @@
+--- 
+iw: 
+  folksemantic: 
+    all_resources: הכל
+    atom: האטום
+    calculated: מחושב
+    collections: אוספים
+    collections_long: "באינדקס אוספים"
+    demo: הדגמה
+    details: פרטים
+    developers: מפתחים
+    developers_long: "מידע עבור מפתחים"
+    direct_link: "[קישור ישיר]"
+    for: עבור
+    gm_more_prompt: "עוד נושאים קשורים"
+    gm_title: "נושאים קשורים"
+    just_ocws: קורסים
+    metadata: Metadata
+    next: הבא
+    no_hits: "לא יגיע. אנא נסה חיפוש אחר, או לבחור שפה אחרת."
+    no_tags: "תגי עדיין לא זמין"
+    of: של
+    powered_by: "Powered by"
+    previous: קודם
+    rdf: RDF
+    register_description: "הרשם כדי לקבל <span class=\"highlight\">המלצות</span> מותאמות אישית, להשתתף <span class=\"highlight\">בקבוצות,</span> ובקלות <span class=\"highlight\">כדי לפרסם בלוגים</span>"
+    register_link: "הירשם עכשיו!"
+    related_resources: "נושאים קשורים"
+    related_resources_title: "נושאים קשורים"
+    relevance: הרלוונטיות
+    results: תוצאות
+    rss: RSS
+    search: חיפוש
+    search_button: "לעבור אל"
+    search_description: "מצא משאבי למידה באמצעות <span class=\"highlight\">חיפוש והגלישה</span> מעל <span class=\"highlight\">110,000</span> לפתוח משאבים חינוכיים"
+    search_link: "מצא משאבים!"
+    tag_cloud_legend: "עיון משאבים תוך שימוש בתגים"
+    tag_line: "העצמת חינוך פתוח"
+    title: Folksemantic
+    tour: "בוא לביקור!"
+    tour_description: "צפה <span class=\"highlight\">בסרטון המבוא</span> של Folksemantic"
+    welcome_user: "ברוכים הבאים {{user}}"
+    widgets_description: "קבל יישומונים לעזור למשתמשים <span class=\"highlight\">למצוא</span> משאבים <span class=\"highlight\">משאבים קשורים</span> כדי <span class=\"highlight\">לגלות</span> אלו באתר האינטרנט שלך"
+    widgets_link: "קבל יישומונים!"
+    xml: XML

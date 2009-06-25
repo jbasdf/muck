@@ -1,0 +1,45 @@
+--- 
+ar: 
+  folksemantic: 
+    all_resources: الكل
+    atom: ذرة
+    calculated: حسبت
+    collections: المجموعات
+    collections_long: "فهرسة المجموعات"
+    demo: التجريبي
+    details: التفاصيل
+    developers: المطورين
+    developers_long: "معلومات للمطورين"
+    direct_link: "[صلة مباشرة]"
+    for: لأجل
+    gm_more_prompt: "مزيد من موارد ذات الصلة"
+    gm_title: "موارد ذات الصلة"
+    just_ocws: الدورات
+    metadata: الفوقية
+    next: التالي
+    no_hits: "لا يضرب. الرجاء تجربة بحث أخر ، أو اختر لغة مختلفة."
+    no_tags: "ولم تتوفر حتى الآن علامات"
+    of: من
+    powered_by: بواسطة
+    previous: السابق
+    rdf: "قوات الدفاع الرواندية"
+    register_description: "وقع لتلقي <span class=\"highlight\">توصيات</span> شخصية ، والمشاركة في <span class=\"highlight\">مجموعات</span> ، <span class=\"highlight\">ونشرها</span> بسهولة <span class=\"highlight\">على بلوق</span>"
+    register_link: "مستخدم جديد!"
+    related_resources: "الموارد ذات الصلة"
+    related_resources_title: "موارد ذات الصلة"
+    relevance: صلة
+    results: النتائج
+    rss: RSS
+    search: بحث
+    search_button: يذهب
+    search_description: "العثور على موارد التعلم عن طريق <span class=\"highlight\">البحث وتصفح</span> أكثر من <span class=\"highlight\">110،000</span> الموارد التعليمية المفتوحة"
+    search_link: "العثور على الموارد!"
+    tag_cloud_legend: "تصفح موارد باستخدام العلامات"
+    tag_line: "تمكين التعليم المفتوح"
+    title: Folksemantic
+    tour: "قم بجولة!"
+    tour_description: "مشاهدة شريط <span class=\"highlight\">فيديو عرض</span> Folksemantic"
+    welcome_user: "نرحب {{user}}"
+    widgets_description: "الحصول على الحاجيات لمساعدة المستخدمين على <span class=\"highlight\">إيجاد</span> الموارد <span class=\"highlight\">واكتشاف الموارد المتصلة</span> منها على موقع الويب الخاص بك"
+    widgets_link: "الحصول على القطع!"
+    xml: XML

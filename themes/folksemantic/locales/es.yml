@@ -1,0 +1,45 @@
+--- 
+es: 
+  folksemantic: 
+    all_resources: Todo
+    atom: Atom
+    calculated: calculado
+    collections: Colecciones
+    collections_long: "Colecciones indexadas"
+    demo: Demo
+    details: Detalles
+    developers: Desarrolladores
+    developers_long: "Información para desarrolladores"
+    direct_link: "[enlace directo]"
+    for: para
+    gm_more_prompt: "Más Recursos relacionados"
+    gm_title: "Recursos relacionados"
+    just_ocws: Cursos
+    metadata: Metadatos
+    next: Siguiente
+    no_hits: "N º de visitas. Por favor, intente una búsqueda diferente o elija un idioma diferente."
+    no_tags: "Etiquetas no disponible aún"
+    of: de
+    powered_by: "Powered by"
+    previous: Anterior
+    rdf: RDF
+    register_description: "Suscríbase para recibir <span class=\"highlight\">recomendaciones</span> personalizadas, participar en <span class=\"highlight\">grupos,</span> y <span class=\"highlight\">publicar</span> fácilmente <span class=\"highlight\">a los blogs</span>"
+    register_link: Regístrate!
+    related_resources: "Recursos relacionados"
+    related_resources_title: "Recursos relacionados"
+    relevance: pertinencia
+    results: Resultados
+    rss: RSS
+    search: búsqueda
+    search_button: Ir
+    search_description: "Encontrar recursos de aprendizaje mediante la <span class=\"highlight\">búsqueda</span> y <span class=\"highlight\">exploración</span> más de <span class=\"highlight\">110.000</span> recursos educativos abiertos"
+    search_link: "Encuentra Recursos!"
+    tag_cloud_legend: "buscar recursos mediante etiquetas"
+    tag_line: "la potenciación de la educación abierta"
+    title: Folksemantic
+    tour: "Date una vuelta!"
+    tour_description: "Mira un <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">introducción</span> Folksemantic"
+    welcome_user: "Bienvenido {{user}}"
+    widgets_description: "Obtener artilugios para ayudar a los usuarios <span class=\"highlight\">descubrir</span> y <span class=\"highlight\">encontrar</span> recursos <span class=\"highlight\">relacionados</span> con los <span class=\"highlight\">recursos</span> en su sitio web"
+    widgets_link: "Obtener Widgets!"
+    xml: XML

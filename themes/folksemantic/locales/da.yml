@@ -1,0 +1,45 @@
+--- 
+da: 
+  folksemantic: 
+    all_resources: Alle
+    atom: Atom
+    calculated: beregnes
+    collections: Samlinger
+    collections_long: "Indekseret Samlinger"
+    demo: Demo
+    details: Detaljer
+    developers: Udviklere
+    developers_long: "Oplysninger til udviklere"
+    direct_link: "[direkte link]"
+    for: for
+    gm_more_prompt: "Mere Relaterede ressourcer"
+    gm_title: "Relaterede ressourcer"
+    just_ocws: Kurser
+    metadata: Metadata
+    next: Næste
+    no_hits: "Ingen hits. Prøv en anden søgning eller vælge et andet sprog."
+    no_tags: "Nr. tags foreligger endnu"
+    of: af
+    powered_by: "powered by"
+    previous: Forrige
+    rdf: RDF
+    register_description: "Tilmeld dig til at modtage personlige <span class=\"highlight\">anbefalinger,</span> deltage i <span class=\"highlight\">grupper,</span> og nemt at <span class=\"highlight\">publicere til blogs</span>"
+    register_link: "Tilmeld dig!"
+    related_resources: "Relaterede ressourcer"
+    related_resources_title: "Relaterede ressourcer"
+    relevance: relevant
+    results: Resultater
+    rss: RSS
+    search: søgning
+    search_button: Start
+    search_description: "Find læring ressourcer ved <span class=\"highlight\">at søge og</span> surfe over <span class=\"highlight\">110.000</span> åben uddannelsesmæssige ressourcer"
+    search_link: "Find ressourcer!"
+    tag_cloud_legend: "gennemse ressourcer ved hjælp af tags"
+    tag_line: "bemyndigelse åben uddannelse"
+    title: Folksemantic
+    tour: "Tag en tur!"
+    tour_description: "Se en <span class=\"highlight\">video indførelsen</span> af Folksemantic"
+    welcome_user: "Velkommen {{user}}"
+    widgets_description: "Få widgets at hjælpe brugerne med at <span class=\"highlight\">finde</span> ressourcer og <span class=\"highlight\">opdage ressourcer i forbindelse</span> med dem på din hjemmeside"
+    widgets_link: "Få Widgets!"
+    xml: XML
