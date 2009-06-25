@@ -27,7 +27,7 @@ Rails::Initializer.run do |config|
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
   config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set', :source => "http://gems.github.com"
   config.gem 'disguise', :version => '>=0.3.0'
-  config.gem 'uploader', :version => '>=0.1.15'
+  config.gem 'uploader', :version => '>=0.1.16'
   config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.3.3'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => ">=0.4.1"
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.4' 
@@ -36,6 +36,7 @@ Rails::Initializer.run do |config|
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.11'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.3'
   config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.1'
+  config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.0'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
