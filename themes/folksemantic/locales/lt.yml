@@ -6,6 +6,7 @@ lt:
     calculated: apskaičiuotas
     collections: Kolekcijos
     collections_long: "Indeksas Kolekcijos"
+    credits: "Developed by Tatemai į <a href=\"http://cosl.usu.edu\">centro atidarymas ir subalansuotos mokymosi</a> finansavimą iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a>"
     demo: Demo
     details: Duomenys
     developers: Programavimas

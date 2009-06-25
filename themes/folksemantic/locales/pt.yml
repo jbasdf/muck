@@ -6,6 +6,7 @@ pt:
     calculated: calculada
     collections: Coleções
     collections_long: "Indexed Colecções"
+    credits: "Desenvolvido por Tatemai no <a href=\"http://cosl.usu.edu\">Centro de Aprendizagem Aberta e Sustentável</a> com o financiamento do <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Detalhes
     developers: Desenvolvedores
