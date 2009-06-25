@@ -9,7 +9,7 @@
         <% else -%>
           <%= link_to t('muck.users.sign_up'), signup_path %> | <%= link_to t('muck.users.sign_in'), login_path %> 
         <% end -%>
-        &nbsp;<img src="/images/folksemantic/flags/flag_en.png" style="vertical-align:middle;padding:left:6px;"/>
+        &nbsp;<img src="/images/folksemantic/flags/flag_<%= I18n.locale.to_s %>.png" style="vertical-align:middle;padding:left:6px;"/>
       </div>
     <% end -%>
   </div>
