@@ -26,11 +26,12 @@ Rails::Initializer.run do |config|
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
   config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set', :source => "http://gems.github.com"
+  config.gem "openrain-action_mailer_tls", :source => "http://gems.github.com" # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
   config.gem 'disguise', :version => '>=0.3.0'
   config.gem 'uploader', :version => '>=0.1.16'
   config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.3.3'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => ">=0.4.1"
-  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.7' 
+  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.7'
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.11'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.1.8'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.12'
