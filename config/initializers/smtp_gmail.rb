@@ -1,6 +1,6 @@
 require "smtp_tls" # Remove this line if using Ruby 1.8.7
 
-unless Rails.env.test?
+unless Rails.env.test? # we don't want tests attempting to send out email
   ActionMailer::Base.smtp_settings = {
     :address => "smtp.gmail.com",
     :port => 587,
