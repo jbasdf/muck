@@ -1,6 +1,5 @@
 en:
   folksemantic:
-    no_tags: No tags available yet
     title: Folksemantic
     collections: Collections
     demo: Demo
@@ -40,7 +39,6 @@ en:
     search_link: Find Resources!
     search_description: Find learning resources by <span class="highlight">searching</span> and <span class="highlight">browsing</span> over <span class="highlight">110,000</span> open educational resources
     welcome_user: "Welcome {{user}}"
-    tag_cloud_legend: browse resources using tags
     all_resources: All
     just_ocws: Courses
     credits: Developed by <a href="http://www.tatemai.com">Tatemai</a> at the <a href="http://cosl.usu.edu">Center for Open and Sustainable Learning</a> with funding from the <a href="http://nsf.gov/">National Science Foundation</a>
