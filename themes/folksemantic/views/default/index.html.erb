@@ -14,9 +14,9 @@ function undim(id){$(id).style.background='#FFF';}
       	</div>
   	  </div>
     </span>
-    <span style="cursor:pointer;" onclick="javascript:window.open('<%= oers_url %>','_self');return false;" onmouseover="dim('advert-search');" onmouseout="undim('advert-search');">
+    <span style="cursor:pointer;" onclick="javascript:window.open('<%= resources_url %>','_self');return false;" onmouseover="dim('advert-search');" onmouseout="undim('advert-search');">
       <div id="advert-search" class="advert column">
-      	<h2><%= link_to t('folksemantic.search_link'), oers_url %></h2>
+      	<h2><%= link_to t('folksemantic.search_link'), resources_url %></h2>
       	<div class="description">
       		<%= t('folksemantic.search_description') %>
       	</div>

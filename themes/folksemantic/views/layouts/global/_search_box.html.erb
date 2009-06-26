@@ -1,7 +1,7 @@
 <div class="span-8 column">
   <div id="search-controls">
     <% form_tag({:controller => 'recommender/entries', :action => 'search'}, {:method => :get}) do -%>
-      <%= text_field_tag(:q, @term_list.nil? ? t('folksemantic.search') : URI.unescape(@term_list), :id => 'search-box', :onclick => 'insearch(this)', :onblur => 'outsearch(this)') %>
+      <%= text_field_tag(:q, (@term_list.nil? || !@tag_filter.nil?) ? t('folksemantic.search') : URI.unescape(@term_list), :id => 'search-box', :onclick => 'insearch(this)', :onblur => 'outsearch(this)') %>
       <input class="input-button" type="submit" value="<%= t('folksemantic.search_button') %>"/>
       <div id="user-login">
         <% if logged_in? -%>
