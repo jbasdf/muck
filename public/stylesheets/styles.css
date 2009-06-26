@@ -23,7 +23,7 @@ form fieldset input[type="text"],form fieldset input[type="password"]{width:500p
 .medium{width:300px;height:300px;}
 
 /* tips */
-.availability{color:#b61e12;}
+.availability{color:#b61e12;position:absolute;}
 .hidden-tips{display:none;}
 .required-tip{color:#555555;font-size:1.2em;margin:0pt;font-weight:bolder;height:0px;}
 .tip{position:absolute;z-index:100;border:2px solid #CCCCCC;background-color:#fff;width:400px;}
