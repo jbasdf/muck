@@ -17,7 +17,7 @@
 <div class="span-5 last column">
   <div id="controls" class="box">
     <ul>
-      <li><%= link_to t('folksemantic.search_link'), oers_url %></li>
+      <li><%= link_to t('folksemantic.search_link'), resources_url %></li>
       <li><%= link_to t('uploader.upload_files'), uploads_path(make_parent_params(@user)) %></li>
       <li><a href="/widgets"><%= t('folksemantic.widgets_link') %></a></li>
       <li><%= link_to t('muck.profiles.edit_profile'), edit_user_profile_path(@user) if @user.profile.can_edit?(current_user) %></li>
