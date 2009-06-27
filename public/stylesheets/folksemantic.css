@@ -49,7 +49,10 @@ fieldset{border:solid 1px #CCC;margin:0px;padding:10px;}
 #finder{margin:0 26px; padding-top:12px;line-height:1.3em;}
 #results p{margin: 0 0 .8em;}
 #results-description{border-top:solid 1px #888;background-color:#EAF4FF;margin-bottom:1em;}
-#results-description input[type="radio"]{margin:4px;vertical-align:middle;} 
+#results-description input[type="radio"]{margin:4px;vertical-align:middle;}
+.results-nav{margin:12px;text-align:center;}
+.results-nav a{margin:0px 3px;}
+.results-nav .current{margin:0px 3px;font-weight:bold;color:#A90A07;}
 /* activity feed */
 #status-update-field{border:solid 1px #ccc;padding:10px 7px;background-color:#eee;}
 #status-update-button input{padding:0;}
