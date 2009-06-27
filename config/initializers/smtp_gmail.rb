@@ -1,6 +1,7 @@
 require "smtp_tls" # Remove this line if using Ruby 1.8.7
 
-unless Rails.env.test?
+unless Rails.env.test? # we don't want tests attempting to send out email
+  ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
     :address => "smtp.gmail.com",
     :port => 587,
@@ -12,4 +13,7 @@ unless Rails.env.test?
   }
 end
 
+ActionMailer::Base.default_url_options[:host] = GlobalConfig.application_url
+
+# test:
 # UserMailer.deliver_welcome_notification(User.find(2))
