@@ -14,10 +14,12 @@ h1{font-size:20px;font-weight:bold;}
 #take-tour{text-align:center;padding:13px 0;}
 #take-tour a{font-size:1.6em;font-weight:bold;color:white;border:solid 1px #003B67;background:#66B022;width:140px;padding:10px 16px;text-decoration:none;}
 #search-controls {margin:2px 0;text-align:right;}
-#search-controls input[type='text']{margin:6px 2px 0px 2px;}
+#search-controls input[type='text']{margin:6px 2px 0px 2px;width:180px;}
 #search-controls input[type='submit']{padding:2px;margin:2px 8px 3px 2px;}
 #search-box{text-align:center;color:gray;}
 #user-login{text-align:right;margin-right:15px}
+#current-locale-flag{vertical-align:middle;}
+#user-login select{margin:0;}
 /* footer */
 #footer{text-align:center;padding-top:6px;padding-bottom:6px;margin:20px auto;font-size:90%;background-color:#EAF4FF;width:100%;}
 #footer a{text-decoration:none;}
@@ -49,7 +51,7 @@ fieldset{border:solid 1px #CCC;margin:0px;padding:10px;}
 #finder{margin:0 26px; padding-top:12px;line-height:1.3em;}
 #results p{margin: 0 0 .8em;}
 #results-description{border-top:solid 1px #888;background-color:#EAF4FF;margin-bottom:1em;}
-#results-description input[type="radio"]{margin:4px;vertical-align:middle;}
+#results-description span{padding-right:6px;}
 .results-nav{margin:12px;text-align:center;}
 .results-nav a{margin:0px 3px;}
 .results-nav .current{margin:0px 3px;font-weight:bold;color:#A90A07;}
