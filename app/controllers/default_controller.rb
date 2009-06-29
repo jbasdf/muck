@@ -12,12 +12,15 @@ class DefaultController < ApplicationController
   end
 
   def contact
-    return unless request.post?
-    body = []
-    params.each_pair { |k,v| body << "#{k}: #{v}"  }
-    HomeMailer.deliver_mail(:subject => t("contact.contact_response_subject", :application_name => GlobalConfig.application_name), :body=>body.join("\n"))
-    flash[:notice] = I18n.t('general.thank_you_contact')
-    redirect_to contact_url    
+    if request.post?
+      send_form_email(params, t('muck.contact_request'))
+      flash[:notice] = t('muck.contact_thanks') 
+      redirect_to contact_url
+    else
+      respond_to do |format|
+        format.html { render }
+      end
+    end
   end
 
   def sitemap

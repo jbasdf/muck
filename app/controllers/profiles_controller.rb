@@ -17,16 +17,16 @@ class ProfilesController < Muck::ProfilesController
 
   # show a given user's public profile information
   def show
-    @user = User.find(params[:user_id])
+    @user = User.find(params[:id])
     @profile = @user.profile
-    @title = @user.display_name
+    @page_title = @user.display_name
     respond_to do |format|
       format.html { render :template => 'profiles/show' }
     end
   end
 
   def edit
-    @title = t('muck.profiles.edit_profile')
+    @page_title = t('muck.profiles.edit_profile')
     @user = User.find(params[:user_id])
     @profile = @user.profile
     respond_to do |format|
@@ -35,7 +35,7 @@ class ProfilesController < Muck::ProfilesController
   end
   
   def update
-    @title = t('muck.profiles.edit_profile')
+    @page_title = t('muck.profiles.edit_profile')
     @user = User.find(params[:user_id])
     @profile = @user.profile
     @profile.update_attributes!(params[:profile])
