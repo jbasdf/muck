@@ -1,15 +1,25 @@
 default: &DEFAULT
 
-  # Sent in emails to users
-  application_name: 'Folksemantic'
-  from_email: 'support@folksemantic.com'
-  support_email: 'support@folksemantic.com'
-  admin_email: 'admin@folksemantic.com'
-  customer_service_number: '1-800-'
+  # All fields that need to be changed are marked with 'TODO'
 
+  application_name: 'TODO My application name'  # Common name for your application.  i.e. Muck, My App, Billy Bob, etc
+    
+  # Sent in emails to users
+  from_email: 'support@TODO.com'                # Emails will come from this address i.e. noreply@example.com, support@example.com, system@example.com, etc
+  from_email_name: 'TODO Name'                  # This will show up as the name on emails.  i.e. support@example.com <Example> 
+  support_email: 'support@TODO.com'             # Support email for your application.  This is used for contact us etc.
+  admin_email: 'admin@folksemantic.com'         # Admin email for your application
+  customer_service_number: '1-800-'
+  
   # Email charset
   mail_charset: 'utf-8'
 
+  # Email server configuration
+  email_user_name: 'system@folksemantic.com'
+  email_password: 'engine005'
+  base_domain: 'folksemantic.com'
+
+  # sign up options
   automatically_activate: true
   automatically_login_after_account_create: true
   send_welcome: true
@@ -34,7 +44,11 @@ default: &DEFAULT
   #theme configuration
   use_domain_for_themes: true
 
-  hoptoad_key: 'GET_A_HOPTOAD_KEY'
+  # ssl
+  enable_ssl: false
+
+  # keys
+  hoptoad_key: '689a8e04f4737fcc097e01a371c1a5ea'
   
 production:
   <<: *DEFAULT

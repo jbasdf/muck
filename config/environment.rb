@@ -20,8 +20,8 @@ Rails::Initializer.run do |config|
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com'
-  config.gem "authlogic", :version => ">=2.0.13"
-  config.gem "binarylogic-searchlogic", :lib => 'searchlogic', :source  => 'http://gems.github.com', :version => '~> 2.0.0'
+  config.gem "binarylogic-authlogic", :lib => 'authlogic', :source  => 'http://gems.github.com', :version => ">=2.1.0"
+  config.gem "binarylogic-searchlogic", :lib => 'searchlogic', :source  => 'http://gems.github.com', :version => '~> 2.1.1'
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.0.5"
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
@@ -31,9 +31,9 @@ Rails::Initializer.run do |config|
   config.gem 'uploader', :version => '>=0.1.16'
   config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.3.3'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => ">=0.4.1"
-  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.8'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.12'
-  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.1.11'
+  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.10'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.14'
+  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.1.12'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.12'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.4'
   config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.2'
