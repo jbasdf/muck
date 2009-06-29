@@ -17,6 +17,8 @@ en:
     send: 'Send'
     delete_file: "Delete File"
   muck:
+    contact_request: "Contact Request"
+    contact_thanks: "Thanks for contacting us.  We've recieved your email and will be in touch soon."
     admin:
       home: Home
       users: Users

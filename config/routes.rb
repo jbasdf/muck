@@ -12,8 +12,9 @@ ActionController::Routing::Routes.draw do |map|
   
   map.resources :users, :has_many => :uploads, :has_one => :profile
   map.resources :uploads, :collection => { :photos => :get, :swfupload => :post }
-  map.resource :profile
-  map.public_user_path '/profiles/:id', :controller => 'profiles', :action => 'show'
+  map.resources :profiles
+  map.public_user '/profiles/:id', :controller => 'profiles', :action => 'show'
+  #map.logout_complete '/login', :controller => 'user_sessions', :action => 'new'
   
   # admin
   map.namespace :admin do |a|
