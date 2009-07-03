@@ -1,0 +1,82 @@
+default: &DEFAULT
+
+  # All fields that need to be changed are marked with 'TODO'
+
+  application_name: 'TODO My application name'  # Common name for your application.  i.e. Muck, My App, Billy Bob, etc
+    
+  # Sent in emails to users
+  from_email: 'support@TODO.com'           # Emails will come from this address i.e. noreply@example.com, support@example.com, system@example.com, etc
+  from_email_name: 'TODO Name'             # This will show up as the name on emails.  i.e. support@example.com <Example> 
+  support_email: 'support@TODO.com'        # Support email for your application.  This is used for contact us etc.
+  admin_email: 'admin@example.com'         # Admin email for your application
+  customer_service_number: '1-800-'
+  
+  # Email charset
+  mail_charset: 'utf-8'
+
+  # Email server configuration
+  # These settings are used in smtp_gmail.rb.  You can sign up for a free Google Apps account here: http://www.google.com/apps/intl/en/group/index.html
+  # If you wish to use a different email server change the settings in smtp_gmail.rb
+  email_user_name: 'system@TODO.com'      # Username to sign into a gmail account
+  email_password: 'TODO_secret_password'  # Password for your gmail account
+  base_domain: 'TODO.com'                 # Domain name for your application without any subdomain or other settings.
+
+  # sign up options
+  automatically_activate: true                    # Automatically activate a user after signup.  If this is false the user will need to click on a link or answer a captcha to activate their account.
+  automatically_login_after_account_create: true  # Automatically log the user into the site after sign up.  Works if automatically_activate is true or if you use a captcha.
+  send_welcome: true
+    
+  # if you use recaptcha you will need to also provide a public and private
+  # key available from http://recaptcha.net.
+  use_recaptcha: false                            # Captcha is a popular way to keep bots out of your site.  Get a key at http://recaptcha.net before turning use_recaptcha to true.
+  recaptcha_pub_key: GET_A_RECAPTCHA_KEY(TODO)
+  recaptcha_priv_key: GET_A_RECAPTCHA_KEY(TODO)
+  
+  # jgrowl related settings
+  growl_enabled: false                            # Use jgrowl messages instead of inline messages.  This will popup flash and error messages using jgrowl
+  
+  # application configuration
+  let_users_delete_their_account: false           # turn on/off ability for users to delete their own account
+  
+  # activity configuration
+  enable_live_activity_updates: true              # Turns on polling inside the user's activity feed so they constantly get updates from the site
+  live_activity_update_interval: 60               # Time between updates to live activity feed in seconds.  Setting this number to low can put quite a bit of strain on your site.
+  enable_activity_comments: true
+  
+  #theme configuration
+  use_domain_for_themes: false                    # Setting for the disguise plugin.  Themes can be set in the admin UI or determined at run time by the domain name.
+
+  # ssl
+  enable_ssl: false                               # Turn on ssl if you have a certificate in place
+
+  # keys
+  hoptoad_key: 'TODO get a hoptoad key'           # Get a Hoptoad key here: http://hoptoadapp.com/welcome
+  
+production:
+  <<: *DEFAULT
+
+  # Sent in emails to users
+  application_url: 'www.example.com'              # Application url
+
+staging:
+  <<: *DEFAULT
+
+  # Sent in emails to users
+  application_url: 'staging.example.com'
+    
+development:
+  <<: *DEFAULT
+
+  application_url: 'localhost:3000'
+  
+test:
+  <<: *DEFAULT
+
+  # controls account activation and automatic login
+  automatically_activate: false
+  automatically_login_after_account_create: false
+  
+  # turn off for testing
+  use_recaptcha: false
+  
+  application_url: 'localhost:3000'
