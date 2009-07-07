@@ -191,7 +191,7 @@ namespace :muck do
     write_new_gem_version("#{projects_path}", "muck_profiles")
     write_new_gem_version("#{projects_path}", "muck_raker")
     write_new_gem_version("#{projects_path}", "muck_activities")
-    write_new_gem_version("#{projects_path}", "muck_friends")
+    #write_new_gem_version("#{projects_path}", "muck_friends")
   end
     
   desc "commit gems after a release"
