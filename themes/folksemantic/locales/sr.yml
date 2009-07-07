@@ -3,10 +3,11 @@ sr:
   folksemantic: 
     all_resources: Све
     atom: Атом
+    browse_resources: "Броусе Ресоурцес"
     calculated: израчунати
     collections: Збирке
     collections_long: "Индексиране Збирке"
-    credits: "Девелопед бы Татемаи на <a href=\"http://cosl.usu.edu\">Центар за учење на отвореном и одрживи</a> финансирањем из <a href=\"http://nsf.gov/\">Натионал Сциенце Фоундатион</a>"
+    credits: "Развијен од стране <a href=\"http://cosl.usu.edu\">Центра за учење и одрживи Опен</a> финансирањем из <a href=\"http://nsf.gov/\">Натионал Сциенце Фоундатион</a>"
     demo: Демо
     details: Детаљи
     developers: Девелоперс
@@ -19,7 +20,6 @@ sr:
     metadata: Метаподатке
     next: Даље
     no_hits: "Нема погодака. Покушајте другу претрагу или изаберите други језик."
-    no_tags: "Но тагс ыет аваилабле"
     of: од
     powered_by: "поуеред бы"
     previous: Назад
@@ -35,11 +35,13 @@ sr:
     search_button: Ићи
     search_description: "Пронађи леарнинг ресурсе <span class=\"highlight\">претрагом</span> и <span class=\"highlight\">претраживања</span> преко <span class=\"highlight\">110.000</span> отворених образовни ресурси"
     search_link: "Финд Ресоурцес!"
-    tag_cloud_legend: "Броусе ресурсе помоћу ознака"
     tag_line: "Оснаживање отворен образовање"
     title: Фолксемантиц
     tour: "Идите у обилазак!"
     tour_description: "Уатцх <span class=\"highlight\">видео увођење</span> Фолксемантиц"
+    view_account: "Прикажи Ваш кориснички рачун"
+    welcome: "Добродошли на Фолксемантиц."
+    welcome_message: "Ми активно радимо на ОЦУФиндер и интегришу у ОЕРРецоммендер једном месту како би вам помогао у проналажењу најинтересантнијих и релевантних образовних ресурса."
     welcome_user: "Добродошли {{user}}"
     widgets_description: "Гет уидгетс помоћи корисницима <span class=\"highlight\">пронаћи</span> ресурсе и <span class=\"highlight\">откријте ресурса везаних</span> за оне на вашој веб локацији"
     widgets_link: "Гет Гаџети!"

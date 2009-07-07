@@ -3,10 +3,11 @@ cs:
   folksemantic: 
     all_resources: Vše
     atom: Atom
+    browse_resources: "Lidé Zdroje"
     calculated: vypočtené
     collections: Sbírky
     collections_long: "Indexovaná Sbírky"
-    credits: "Developed by Tatemai na <a href=\"http://cosl.usu.edu\">Centrum otevřeného a trvalého učení</a> s financováním z <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Developed by se <a href=\"http://cosl.usu.edu\">Centrum otevřeného a trvalého učení</a> s financováním z <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Detaily
     developers: Vývojáři
@@ -19,7 +20,6 @@ cs:
     metadata: Metadata
     next: Příští
     no_hits: "Ne hitů. Zkuste prosím jiné vyhledávání, nebo zvolit jiný jazyk."
-    no_tags: "Zatím k dispozici žádné záznamy"
     of: z
     powered_by: "powered by"
     previous: Předchozí
@@ -35,11 +35,13 @@ cs:
     search_button: Jít
     search_description: "Najít učení zdrojů <span class=\"highlight\">vyhledávání</span> a <span class=\"highlight\">prohlížení</span> přes <span class=\"highlight\">110.000</span> otevřených vzdělávacích zdrojů"
     search_link: "Najít zdroje!"
-    tag_cloud_legend: "procházet zdrojů pomocí tagů"
     tag_line: "zmocňovacím otevřené vzdělávání"
     title: Folksemantic
     tour: "Udělejte si výlet!"
     tour_description: "Podívejte se na <span class=\"highlight\">video zavedení</span> Folksemantic"
+    view_account: "Zobrazit Váš účet"
+    welcome: "Vítejte na Folksemantic."
+    welcome_message: "Jsme aktivně pracuje na integraci OCWFinder a OERRecommender do jednoho místa, která vám pomůže k nejzajímavějším a příslušných vzdělávacích zdrojů."
     welcome_user: "Vítejte {{user}}"
     widgets_description: "Získejte widgety pomáhat uživatelům <span class=\"highlight\">najít</span> zdroje a <span class=\"highlight\">objevte zdroje související</span> s těmi na vašich webových stránkách"
     widgets_link: "Získejte Widgety!"

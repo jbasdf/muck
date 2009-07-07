@@ -1,0 +1,48 @@
+--- 
+gl: 
+  folksemantic: 
+    all_resources: Todo
+    atom: Atom
+    browse_resources: Medios
+    calculated: calcular
+    collections: Colección
+    collections_long: "Indexed coleccións"
+    credits: "Desenvolvido polo <a href=\"http://cosl.usu.edu\">Centro de aprendizaxe aberto e sostible</a> con financiación do <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    demo: Demo
+    details: Detalles
+    developers: Creadores
+    developers_long: "Información para desenvolvedores"
+    direct_link: "[enlace directo]"
+    for: a
+    gm_more_prompt: "Máis Recursos relacionados"
+    gm_title: "Recursos relacionados"
+    just_ocws: Cursos
+    metadata: Metadatos
+    next: Seguinte
+    no_hits: "Non hits. Probe unha búsqueda distinta ou escolle un idioma diferente."
+    of: de
+    powered_by: "powered by"
+    previous: Anterior
+    rdf: RDF
+    register_description: "Rexístrese para recibir <span class=\"highlight\">recomendacións</span> personalizadas, participar en <span class=\"highlight\">grupos,</span> e de fácil <span class=\"highlight\">publicar en blogs</span>"
+    register_link: Rexístrese!
+    related_resources: "Recursos relacionados"
+    related_resources_title: "Recursos relacionados"
+    relevance: pertinência
+    results: Resultados
+    rss: RSS
+    search: buscar
+    search_button: Ir
+    search_description: "Atopar recursos pedagóxicos <span class=\"highlight\">buscar</span> e <span class=\"highlight\">navegar</span> por máis de <span class=\"highlight\">110.000</span> recursos educativos abertos"
+    search_link: "Atopar Recursos!"
+    tag_line: "empowering educación aberta"
+    title: Folksemantic
+    tour: "Fai unha visita!"
+    tour_description: "Assist a un <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">introdución</span> Folksemantic"
+    view_account: "Ver túa Conta"
+    welcome: "Benvido a Folksemantic."
+    welcome_message: "Estamos traballando activamente para integrar OCWFinder e OERRecommender nun sitio web para axudar a atopar os máis interesantes e relevantes recursos educativos."
+    welcome_user: "Benvido {{user}}"
+    widgets_description: "Recibir widgets recursos para axudar aos usuarios a <span class=\"highlight\">buscar</span> e <span class=\"highlight\">descubrir recursos relacionados</span> con aquelas no seu sitio"
+    widgets_link: "Get Widgets!"
+    xml: XML

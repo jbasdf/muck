@@ -24,3 +24,5 @@ ro:
       permissions: Permisiuni
       themes: Teme
       users: Utilizatorii
+    contact_request: "Contact Cerere de"
+    contact_thanks: "Vă mulţumim pentru a ne contacta. Am primit cererea dvs. de e-mail şi se va atinge în curând."

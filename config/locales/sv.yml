@@ -24,3 +24,5 @@ sv:
       permissions: Behörigheter
       themes: Teman
       users: Användare
+    contact_request: Kontaktbegäran
+    contact_thanks: "Tack för att du kontaktar oss. Vi har tagit emot din e-post och kommer att vara i kontakt snart."

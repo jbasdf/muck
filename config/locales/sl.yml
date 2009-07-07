@@ -24,3 +24,5 @@ sl:
       permissions: Dovoljenja
       themes: Teme
       users: Uporabniki
+    contact_request: "Kontakt Zahteva"
+    contact_thanks: "Hvala, ker nas kontaktirate. Prejeli smo vašo e-pošto in bo v kratkem stiku."

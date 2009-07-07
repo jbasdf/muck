@@ -3,10 +3,11 @@ sl:
   folksemantic: 
     all_resources: Vse
     atom: Atom
+    browse_resources: "Browse Resources"
     calculated: izračuna
     collections: Zbirke
     collections_long: "Indeksno Zbirke"
-    credits: "Developed by Tatemai na <a href=\"http://cosl.usu.edu\">Center za odprto učenje in trajnostnega</a> financiranja od <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Ki jih je razvil <a href=\"http://cosl.usu.edu\">Center za odprto učenje in trajnostnega</a> financiranja od <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Podrobnosti
     developers: Razvijalci
@@ -19,7 +20,6 @@ sl:
     metadata: Metadata
     next: Naslednji
     no_hits: "Ni zadetkov. Poskusite z drugačnim iskanjem ali izberete drug jezik."
-    no_tags: "Št oznake na voljo še"
     of: od
     powered_by: "powered by"
     previous: Prejšnje
@@ -35,11 +35,13 @@ sl:
     search_button: Iti
     search_description: "Poišči učnih virov z <span class=\"highlight\">iskanjem</span> in <span class=\"highlight\">brskanjem</span> preko <span class=\"highlight\">110.000</span> odprtih izobraževalnih virov,"
     search_link: "Poišči vire!"
-    tag_cloud_legend: "brskajte sredstev z uporabo oznak"
     tag_line: "o pooblastitvi odprto izobraževanje"
     title: Folksemantic
     tour: "Take a Tour!"
     tour_description: "Oglejte si <span class=\"highlight\">video uvedbo</span> Folksemantic"
+    view_account: "Prikaži Vaš Račun"
+    welcome: "Dobrodošli na Folksemantic."
+    welcome_message: "Mi smo si dejavno prizadevajo za vključitev OCWFinder in OERRecommender v eno stran, ki vam pomaga najti najbolj zanimive in pomembne izobraževalne vire."
     welcome_user: "Dobrodošli {{user}}"
     widgets_description: "Get toinono pomaga uporabnikom <span class=\"highlight\">najti</span> sredstva in <span class=\"highlight\">odkrijte vire, povezane</span> s tistimi, na vaši spletni strani"
     widgets_link: "Get Pripomočki!"

@@ -1,0 +1,48 @@
+--- 
+mt: 
+  folksemantic: 
+    all_resources: Kollha
+    atom: Atom
+    browse_resources: "Browse Riżorsi"
+    calculated: ikkalkulat
+    collections: Kollezzjonijiet
+    collections_long: "Indiċjati Kollezzjonijiet"
+    credits: "Żviluppati <a href=\"http://cosl.usu.edu\">mill-Center for Open Learning Sostenibbli u</a> mal-finanzjament <a href=\"http://nsf.gov/\">mill-National Science Foundation</a>"
+    demo: Demo
+    details: Details
+    developers: Developers
+    developers_long: "Informazzjoni għal Developers"
+    direct_link: "[rabta diretta]"
+    for: għal
+    gm_more_prompt: "More Related Riżorsi"
+    gm_title: "Riżorsi Relatati"
+    just_ocws: Korsijiet
+    metadata: Metadata
+    next: "Li jmiss"
+    no_hits: "Nru hits. Jekk joghgbok differenti tfittxija jew tagħżel lingwa differenti."
+    of: "ta &#39;"
+    powered_by: "powered by"
+    previous: Preċedenti
+    rdf: "&quot;RDF"
+    register_description: "Inkiteb biex tirċievi <span class=\"highlight\">rakkomandazzjonijiet</span> personalizzata, u tipparteċipa fi <span class=\"highlight\">gruppi,</span> u <span class=\"highlight\">li</span> faċilment <span class=\"highlight\">tippubblika blogs</span>"
+    register_link: "Sign Up!"
+    related_resources: "Related riżorsi"
+    related_resources_title: "Riżorsi Relatati"
+    relevance: rilevanza
+    results: Riżultati
+    rss: RSS
+    search: fittex
+    search_button: Mur
+    search_description: "Sib riżorsi ta &#39;tagħlim <span class=\"highlight\">mill-tiftix</span> u <span class=\"highlight\">browsing</span> over 110000 miftuħa riżorsi edukattivi"
+    search_link: "Sib Riżorsi!"
+    tag_line: "tirresponsabbilizza miftuħa edukazzjoni"
+    title: Folksemantic
+    tour: "Ħu Tour!"
+    tour_description: "Watch <span class=\"highlight\">video introduzzjoni</span> ta Folksemantic"
+    view_account: "View Your Account"
+    welcome: "Merħba għall Folksemantic."
+    welcome_message: "We&#39;re taħdem b&#39;mod attiv biex jintegraw OCWFinder u OERRecommender fis-sit wieħed li jgħinek issib l-aktar interessanti u rilevanti riżorsi edukattivi."
+    welcome_user: "Merħba {{user}}"
+    widgets_description: "Get widgets biex jgħinu lill-utenti <span class=\"highlight\">jsibu</span> riżorsi u <span class=\"highlight\">jiskopru riżorsi relatati ma</span> &#39;dawk fuq il-website tiegħek"
+    widgets_link: "Get Widgets!"
+    xml: XML

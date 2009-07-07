@@ -3,10 +3,11 @@ de:
   folksemantic: 
     all_resources: Alle
     atom: Atom
+    browse_resources: "Navigieren Resources"
     calculated: berechnet
     collections: Sammlungen
     collections_long: "Indexed Collections"
-    credits: "Developed by Tatemai am <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> mit Mitteln aus der <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Entwickelt von den <a href=\"http://cosl.usu.edu\">Center für die offene und nachhaltige Lernen</a> mit Mitteln des <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Details
     developers: Entwickler
@@ -19,7 +20,6 @@ de:
     metadata: Metadaten
     next: Nächster
     no_hits: "Keine Treffer. Bitte versuchen Sie eine andere Suche oder wählen Sie eine andere Sprache."
-    no_tags: "Keine Tags verfügbar"
     of: von
     powered_by: "powered by"
     previous: Zurück
@@ -35,11 +35,13 @@ de:
     search_button: Gehen
     search_description: "Finden Sie lernen durch <span class=\"highlight\">das Suchen</span> und <span class=\"highlight\">Surfen</span> über <span class=\"highlight\">110.000</span> Open Educational Resources"
     search_link: Ressourcen!
-    tag_cloud_legend: "Durchsuchen Sie Ressourcen mit Tags"
     tag_line: "Stärkung der offenen Bildungs -"
     title: Folksemantic
     tour: "Machen Sie eine Tour!"
     tour_description: "<span class=\"highlight\">Video Einführung</span> Folksemantic"
+    view_account: "Ihr Konto"
+    welcome: "Willkommen in Folksemantic."
+    welcome_message: "Wir sind aktiv zu integrieren OCWFinder und OERRecommender in einer Website zu helfen finden Sie die interessantesten und die entsprechenden pädagogischen Ressourcen."
     welcome_user: "Willkommen {{user}}"
     widgets_description: "Get Widgets, um Ressourcen zu <span class=\"highlight\">finden</span> und <span class=\"highlight\">entdecken Sie Ressourcen im Zusammenhang mit</span> der sich auf Ihrer Website"
     widgets_link: "Get Widgets!"

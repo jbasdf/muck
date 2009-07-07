@@ -1,0 +1,28 @@
+--- 
+fi: 
+  contact: 
+    contact_response_subject: "Kiitos tutkintavaliokunnan alkaen {{application_name}}!"
+    contact_us: "Ota yhteyttä"
+    email: "Sähköpostiosoitteesi:"
+    email_help: "Ole hyvä ja anna meille sähköpostiosoitteesi, jotta voimme ottaa sinuun yhteyttä tarvittaessa."
+    name: "Oma nimi:"
+    name_help: "Anna meille nimesi."
+    phone: "Puhelinnumerosi:"
+    phone_help: "Puhelinnumerosi on vapaaehtoista, mutta auttaa meitä yhteyttä sinuun tarvittaessa."
+    question: "Viestisi / kysymys:"
+    question_help: "Ilmoita mahdolliset huomautukset haluat kuulla."
+    subject: "Aihe:"
+    subject_help: "Pelkkä ilmoitus luonne palautteesi."
+  general: 
+    delete_file: "Poista tiedosto"
+    send: Lähettää
+    thank_you_contact: "Kiitos viestistäsi. Jäsenen tiimimme Vastaamme sinulle pian."
+  muck: 
+    admin: 
+      home: Koti
+      my_dashboard: "Oma Dashboard"
+      permissions: Oikeudet
+      themes: Teemat
+      users: Käyttäjät
+    contact_request: Yhteydenottopyyntö
+    contact_thanks: "Kiitos yhteydenotostasi. Olemme vastaanottaneet sähköpostiviestisi, ja se on kosketuksissa pian."

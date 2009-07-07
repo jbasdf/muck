@@ -3,10 +3,11 @@ iw:
   folksemantic: 
     all_resources: הכל
     atom: האטום
+    browse_resources: "עיון משאבים"
     calculated: מחושב
     collections: אוספים
     collections_long: "באינדקס אוספים"
-    credits: "פותח ע&quot;י Tatemai לעבר <a href=\"http://cosl.usu.edu\">מרכז הלמידה פתיחה Sustainable</a> במימון של <a href=\"http://nsf.gov/\">הקרן הלאומית למדע</a>"
+    credits: "פותחה ע&quot;י <a href=\"http://cosl.usu.edu\">מרכז הלמידה פתיחה Sustainable</a> במימון של <a href=\"http://nsf.gov/\">הקרן הלאומית למדע</a>"
     demo: הדגמה
     details: פרטים
     developers: מפתחים
@@ -19,7 +20,6 @@ iw:
     metadata: Metadata
     next: הבא
     no_hits: "לא יגיע. אנא נסה חיפוש אחר, או לבחור שפה אחרת."
-    no_tags: "תגי עדיין לא זמין"
     of: של
     powered_by: "Powered by"
     previous: קודם
@@ -35,11 +35,13 @@ iw:
     search_button: "לעבור אל"
     search_description: "מצא משאבי למידה באמצעות <span class=\"highlight\">חיפוש והגלישה</span> מעל <span class=\"highlight\">110,000</span> לפתוח משאבים חינוכיים"
     search_link: "מצא משאבים!"
-    tag_cloud_legend: "עיון משאבים תוך שימוש בתגים"
     tag_line: "העצמת חינוך פתוח"
     title: Folksemantic
     tour: "בוא לביקור!"
     tour_description: "צפה <span class=\"highlight\">בסרטון המבוא</span> של Folksemantic"
+    view_account: "הצג את חשבון"
+    welcome: "ברוכים הבאים Folksemantic."
+    welcome_message: "אנו פועלים באופן פעיל לשלב OCWFinder ו OERRecommender לתוך אתר אחד על מנת לעזור לך למצוא את הכי מעניין ורלוונטי משאבים חינוכיים."
     welcome_user: "ברוכים הבאים {{user}}"
     widgets_description: "קבל יישומונים לעזור למשתמשים <span class=\"highlight\">למצוא</span> משאבים <span class=\"highlight\">משאבים קשורים</span> כדי <span class=\"highlight\">לגלות</span> אלו באתר האינטרנט שלך"
     widgets_link: "קבל יישומונים!"

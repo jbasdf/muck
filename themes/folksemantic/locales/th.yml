@@ -1,0 +1,48 @@
+--- 
+th: 
+  folksemantic: 
+    all_resources: ทั้งหมด
+    atom: อะตอม
+    browse_resources: เบราส์ทรัพยากร
+    calculated: คำนวณ
+    collections: เก็บ
+    collections_long: การสร้างดัชนีเก็บ
+    credits: "การพัฒนาโดย <a href=\"http://cosl.usu.edu\">เปิดศูนย์การเรียนรู้และยั่งยืน</a> โดยการสนับสนุนเงินทุนจาก <a href=\"http://nsf.gov/\">มูลนิธิวิทยาศาสตร์แห่งชาติ</a>"
+    demo: สาธิต
+    details: รายละเอียด
+    developers: นักพัฒนา
+    developers_long: ข้อมูลสำหรับนักพัฒนา
+    direct_link: "[โดยตรงลิงค์]"
+    for: สำหรับ
+    gm_more_prompt: ข้อมูลที่เกี่ยวข้องเพิ่มเติม
+    gm_title: ข้อมูลที่เกี่ยวข้อง
+    just_ocws: หลักสูตร
+    metadata: เมตาดาต้า
+    next: ถัดไป
+    no_hits: "ไม่มีฮิต. โปรดลองการค้นหาที่แตกต่างกันหรือเลือกภาษาที่แตกต่าง."
+    of: ของ
+    powered_by: ขับเคลื่อนโดย
+    previous: ก่อนหน้า
+    rdf: RDF
+    register_description: "ลงทะเบียนเพื่อรับ <span class=\"highlight\">ข้อเสนอแนะ</span> ที่กำหนดค่าส่วนบุคคล, เข้าร่วมใน <span class=\"highlight\">กลุ่ม</span> และง่ายดาย <span class=\"highlight\">เผยแพร่ไปยังบล็อก</span>"
+    register_link: ลงทะเบียน!
+    related_resources: ข้อมูลที่เกี่ยวข้อง
+    related_resources_title: ข้อมูลที่เกี่ยวข้อง
+    relevance: ความเกี่ยวข้อง
+    results: ผลลัพธ์
+    rss: "ข้อมูล RSS"
+    search: ค้นหา
+    search_button: ไป
+    search_description: "ค้นหาทรัพยากรการเรียนรู้จากการ <span class=\"highlight\">ค้นหา</span> และเบราซ์ <span class=\"highlight\">ดู</span> มากกว่า <span class=\"highlight\">110,000</span> เปิดศึกษาทรัพยากร"
+    search_link: ค้นหาทรัพยากร!
+    tag_line: "empowering เปิดศึกษา"
+    title: Folksemantic
+    tour: ใช้เวลาทัวร์!
+    tour_description: "ชม <span class=\"highlight\">วิดีโอแนะนำ</span> Folksemantic"
+    view_account: ดูบัญชีของคุณ
+    welcome: "ยินดีต้อนรับสู่ Folksemantic."
+    welcome_message: "เรากำลังการทำงานเพื่อ OCWFinder และ OERRecommender เข้าหนึ่งเว็บไซต์จะช่วยให้ท่านค้นหาน่าสนใจที่สุดและมีความเกี่ยวข้องศึกษาทรัพยากร."
+    welcome_user: "ยินดีต้อนรับ {{user}}"
+    widgets_description: "รับเครื่องมือที่จะช่วยให้ผู้ใช้ <span class=\"highlight\">พบ</span> ทรัพยากรและ <span class=\"highlight\">พบทรัพยากรเกี่ยวกับ</span> ตัวในเว็บไซต์ของคุณ"
+    widgets_link: รับเครื่องมือ!
+    xml: "XML ที่"

@@ -3,10 +3,11 @@ it:
   folksemantic: 
     all_resources: Tutto
     atom: Atom
+    browse_resources: Risorse
     calculated: calcolato
     collections: Collezioni
     collections_long: "Indicizzato Collezioni"
-    credits: "Sviluppato da Tatemai presso il <a href=\"http://cosl.usu.edu\">Centro per l&#39;apprendimento aperto e sostenibile</a> con un finanziamento dalla <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Sviluppato dal <a href=\"http://cosl.usu.edu\">Centro per l&#39;apprendimento aperto e sostenibile</a> con un finanziamento dalla <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Dettagli
     developers: Sviluppatori
@@ -19,7 +20,6 @@ it:
     metadata: Metadati
     next: Successivo
     no_hits: "N. hits. Si prega di provare con un altro di ricerca o scegliere una lingua diversa."
-    no_tags: "Nessun tag disponibile ancora"
     of: di
     powered_by: "powered by"
     previous: Precedente
@@ -35,11 +35,13 @@ it:
     search_button: Andare
     search_description: "Trova le risorse di apprendimento tramite la <span class=\"highlight\">ricerca</span> e la <span class=\"highlight\">navigazione</span> oltre <span class=\"highlight\">110.000</span> risorse educative aperte"
     search_link: "Trova Risorse!"
-    tag_cloud_legend: "navigare utilizzando risorse tag"
     tag_line: "aprire l&#39;istruzione che abilita"
     title: Folksemantic
     tour: "Seguite il tour!"
     tour_description: "Guarda un <span class=\"highlight\">video</span> di <span class=\"highlight\">introduzione</span> di Folksemantic"
+    view_account: "Visualizza il tuo account"
+    welcome: "Benvenuti a Folksemantic."
+    welcome_message: "Siamo attivamente impegnati a integrare OCWFinder e OERRecommender in un sito che vi aiuterà a trovare le più interessanti e le risorse educative."
     welcome_user: "Benvenuti {{user}}"
     widgets_description: "Get widget per aiutare gli utenti a <span class=\"highlight\">trovare</span> risorse e <span class=\"highlight\">scoprire le risorse relative</span> a quelle sul tuo sito web"
     widgets_link: "Get Widget!"

@@ -7,7 +7,7 @@ lv:
     email_help: "Lūdzu, sniedziet mums savu e-pasta adresi, lai mēs varētu ar jums sazināties, ja nepieciešams."
     name: "Jūsu vārds:"
     name_help: "Lūdzu, sniedziet mums savu vārdu."
-    phone: "Telefons:"
+    phone: "Jūsu telefona numurs:"
     phone_help: "Jūsu tālruņa numurs ir pēc izvēles, bet palīdzēs mums ar Jums sazināties, ja nepieciešams."
     question: "Jūsu ziņa / jautājums:"
     question_help: "Lūdzu ietvert jebkādus komentārus vēlaties, lai mēs dzirdēt."
@@ -24,3 +24,5 @@ lv:
       permissions: Atļaujas
       themes: Tēmas
       users: Lietotāji
+    contact_request: "Kontakti Pieprasījums"
+    contact_thanks: "Paldies par sazināšanos ar mums. Mēs esam saņēmuši jūsu e-pasta adresi un būs touch drīz."

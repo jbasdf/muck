@@ -24,3 +24,5 @@ es:
       permissions: Permisos
       themes: Temas
       users: Usuarios
+    contact_request: "Solicitud de Contacto"
+    contact_thanks: "Gracias por contactar con nosotros. Hemos recibido su correo electrónico y se pondrá en contacto en breve."

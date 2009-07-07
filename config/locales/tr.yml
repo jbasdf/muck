@@ -1,0 +1,28 @@
+--- 
+tr: 
+  contact: 
+    contact_response_subject: "{{application_name}}! Kimden sorgunuz için teşekkür ederiz"
+    contact_us: "Bize Ulaşın"
+    email: "E-posta:"
+    email_help: "Lütfen bu e-posta ile gerekirse size ulaşabilirsiniz sağlayacaklar."
+    name: "İsminiz:"
+    name_help: "Lütfen adınızı bize veriniz."
+    phone: "Telefon numaranız:"
+    phone_help: "Telefon numaranızı, ancak isteğe bağlıdır gerekirse bize başvurun yardımcı olacaktır."
+    question: "Mesajınız / soru:"
+    question_help: "Lütfen duymak için bizim gibi herhangi bir yorum yer alıyor."
+    subject: "Konu:"
+    subject_help: "Basit bir açıklama geribildiriminiz niteliği gösterir."
+  general: 
+    delete_file: "Dosya Sil"
+    send: Göndermek
+    thank_you_contact: "İletiniz için teşekkür ederiz. Ekibimizin bir üyesi sizi kısa sürede yanıt vereceğiz."
+  muck: 
+    admin: 
+      home: Ev
+      my_dashboard: "My Dashboard"
+      permissions: İzinler
+      themes: Temalar
+      users: Kullanıcılar
+    contact_request: "İletişim İstek"
+    contact_thanks: "Bize ulaştığınız için teşekkür ederiz. Ve e-posta aldık temas yakında olacak."

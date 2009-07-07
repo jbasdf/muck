@@ -3,10 +3,11 @@ ru:
   folksemantic: 
     all_resources: Все
     atom: Atom
+    browse_resources: "Используй ресурсы"
     calculated: рассчитываться
     collections: Коллекции
     collections_long: "Проиндексированные Коллекции"
-    credits: "Разработано Tatemai в <a href=\"http://cosl.usu.edu\">Центре открыто и устойчивому обучения</a> при финансовой поддержке <a href=\"http://nsf.gov/\">Национального научного фонда</a>"
+    credits: "Разработано в <a href=\"http://cosl.usu.edu\">Центре открыто и устойчивому обучения</a> при финансовой поддержке <a href=\"http://nsf.gov/\">Национального научного фонда</a>"
     demo: Демо
     details: Подробности
     developers: Разработчикам
@@ -19,7 +20,6 @@ ru:
     metadata: Метаданные
     next: Следующий
     no_hits: "Нет хитов. Попробуйте другой поиск или выберите другой язык."
-    no_tags: "Нет тегов доступны еще"
     of: из
     powered_by: компанией
     previous: Предыдущая
@@ -35,11 +35,13 @@ ru:
     search_button: Идти
     search_description: "Поиск учебных материалов с помощью функции <span class=\"highlight\">поиска</span> и <span class=\"highlight\">просмотра</span> более <span class=\"highlight\">110,000</span> открытых образовательных ресурсов"
     search_link: "Найти источники!"
-    tag_cloud_legend: "просматривать ресурсы, используя тэги"
     tag_line: "расширение возможностей открытого образования"
     title: Folksemantic
     tour: "Совершите тур!"
     tour_description: "Смотреть <span class=\"highlight\">видео введение</span> Folksemantic"
+    view_account: "Посмотреть Ваш аккаунт"
+    welcome: "Добро пожаловать на Folksemantic."
+    welcome_message: "Мы активно работаем по интеграции OCWFinder и OERRecommender в одном месте, чтобы помочь вам найти наиболее интересные и актуальные образовательные ресурсы."
     welcome_user: "Добро пожаловать {{user}}"
     widgets_description: "Получить виджеты, чтобы помочь пользователям <span class=\"highlight\">найти</span> ресурсы и <span class=\"highlight\">открывать ресурсы, связанные</span> с них на ваш сайт"
     widgets_link: "Получить Widgets!"

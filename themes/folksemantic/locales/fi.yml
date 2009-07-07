@@ -1,0 +1,48 @@
+--- 
+fi: 
+  folksemantic: 
+    all_resources: Kaikki
+    atom: Atom
+    browse_resources: "Selaa Resurssit"
+    calculated: laskettu
+    collections: Kokoelmat
+    collections_long: "Indeksinä Kokoelmat"
+    credits: "Jota on kehitetty <a href=\"http://cosl.usu.edu\">Center for Open ja kestävän oppimisen</a> rahoituksen ja <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    demo: Demo
+    details: Tiedot
+    developers: Kehittäjät
+    developers_long: "Tietoja kehittäjille"
+    direct_link: "[suora yhteys]"
+    for: varten
+    gm_more_prompt: "Lisää Muita resursseja"
+    gm_title: "Muita resursseja"
+    just_ocws: Kurssit
+    metadata: Metatieto
+    next: Seuraava
+    no_hits: "Ei löytynyt. Kokeile eri hakusanalla, tai valitse toinen kieli."
+    of: ja
+    powered_by: "powered by"
+    previous: Edellinen
+    rdf: RDF
+    register_description: "Rekisteröidy saada henkilökohtaisia <span class=\"highlight\">suosituksia,</span> osallistua <span class=\"highlight\">ryhmien</span> ja helposti <span class=\"highlight\">julkaista blogeja</span>"
+    register_link: "Sign Up!"
+    related_resources: "Liittyvien resurssien"
+    related_resources_title: "Muita resursseja"
+    relevance: merkityksellisyys
+    results: Tulokset
+    rss: RSS
+    search: haku
+    search_button: Mennä
+    search_description: "Etsi oppimisresursseja <span class=\"highlight\">etsimällä</span> ja <span class=\"highlight\">selailemassa</span> yli 110000 avoin koulutusresurssit"
+    search_link: "Etsi Resurssit!"
+    tag_line: "valtuuttamisesta avoin koulutus"
+    title: Folksemantic
+    tour: "Take a Tour!"
+    tour_description: "Katso <span class=\"highlight\">video käyttöönotto</span> Folksemantic"
+    view_account: "Näytä Tili"
+    welcome: "Tervetuloa Folksemantic."
+    welcome_message: "Työskentelemme aktiivisesti integroimaan OCWFinder ja OERRecommender yhdeksi sivusto auttaa sinua löytämään mielenkiintoista ja asiaan koulutusresurssit."
+    welcome_user: "Tervetuloa {{user}}"
+    widgets_description: "Hanki widgets auttaa käyttäjiä <span class=\"highlight\">löytämään</span> voimavaroja ja <span class=\"highlight\">löytää resursseja liittyvät</span> niistä sivustossasi"
+    widgets_link: "Get Widgets!"
+    xml: XML

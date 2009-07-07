@@ -3,10 +3,11 @@ lt:
   folksemantic: 
     all_resources: Visi
     atom: Atom
+    browse_resources: Ištekliai
     calculated: apskaičiuotas
     collections: Kolekcijos
     collections_long: "Indeksas Kolekcijos"
-    credits: "Developed by Tatemai į <a href=\"http://cosl.usu.edu\">centro atidarymas ir subalansuotos mokymosi</a> finansavimą iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a>"
+    credits: "Parengė <a href=\"http://cosl.usu.edu\">centro atidarymas ir subalansuotos mokymosi</a> finansavimą iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a>"
     demo: Demo
     details: Duomenys
     developers: Programavimas
@@ -19,7 +20,6 @@ lt:
     metadata: Metaduomenys
     next: Kitas
     no_hits: "Nr hitai. Prašome bandyti kitą paiešką arba pasirinkti kitą kalbą."
-    no_tags: "Nr žymės turima dar"
     of: iš
     powered_by: "powered by"
     previous: Ankstesnis
@@ -35,11 +35,13 @@ lt:
     search_button: Eiti
     search_description: "Rasti mokymosi išteklių <span class=\"highlight\">paieškos</span> ir <span class=\"highlight\">naršymo</span> virš <span class=\"highlight\">110.000</span> atviri švietimo išteklius"
     search_link: "Rasti ištekliai!"
-    tag_cloud_legend: "peržiūrėti išteklius naudojant žymės"
     tag_line: "suteikiančio atvirą švietimo"
     title: Folksemantic
     tour: "Take a Tour!"
     tour_description: "Žiūrėti <span class=\"highlight\">vaizdo įvedimo</span> Folksemantic"
+    view_account: "Peržiūrėti Jūsų sąskaita"
+    welcome: "Sveiki atvykę į Folksemantic."
+    welcome_message: "Mes aktyviai dirbame, kad integruoti OCWFinder ir OERRecommender į vieną svetainę, kad padėtų jums rasti labiausiai įdomios ir aktualios švietimo išteklius."
     welcome_user: "Sveiki {{user}}"
     widgets_description: "Gauti raštai padėti vartotojams <span class=\"highlight\">rasti</span> išteklių ir <span class=\"highlight\">atrasti ištekliai, susiję</span> su jų į savo svetainę"
     widgets_link: "Get Widgets!"

@@ -1,0 +1,48 @@
+--- 
+sq: 
+  folksemantic: 
+    all_resources: "Të gjithë"
+    atom: Atom
+    browse_resources: "Browse Resources"
+    calculated: llogaritur
+    collections: Koleksioneve
+    collections_long: "Koleksioneve të indeksuara"
+    credits: "Developed by të <a href=\"http://cosl.usu.edu\">Hapur dhe Qendra për të Qëndrueshëm Mësoni</a> me financim nga <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    demo: Demo
+    details: Detaje
+    developers: Developers
+    developers_long: "Informacion për zhvilluesit"
+    direct_link: "[direkt link]"
+    for: për
+    gm_more_prompt: "More Related Resources"
+    gm_title: "Related Resources"
+    just_ocws: Kurset
+    metadata: Metadata
+    next: Tjetër
+    no_hits: "Jo hits. Ju lutem provoni një kërkim të ndryshme ose të zgjidhni një gjuhë të ndryshme."
+    of: i
+    powered_by: "powered by"
+    previous: "I mëparshëm"
+    rdf: RDF
+    register_description: "Regjistrohu për të marrë <span class=\"highlight\">rekomandime</span> të personalizuar, të marrin pjesë në <span class=\"highlight\">grupe,</span> dhe me lehtësi <span class=\"highlight\">të publikojë blogs</span>"
+    register_link: "Sign Up!"
+    related_resources: "Related burimeve"
+    related_resources_title: "Related Resources"
+    relevance: saktësisë
+    results: Rezultatet
+    rss: RSS
+    search: kërkimi
+    search_button: Shkoj
+    search_description: "Gjej të mësuarit e burimeve duke <span class=\"highlight\">kerkuar</span> dhe <span class=\"highlight\">shfletimit</span> rreth <span class=\"highlight\">110.000</span> hapur burimeve arsimore"
+    search_link: "Gjeni Resources!"
+    tag_line: "fuqizimin e arsimit të hapur"
+    title: Folksemantic
+    tour: "Merrni një Tour!"
+    tour_description: "Watch <span class=\"highlight\">video futjen</span> e një Folksemantic"
+    view_account: "View Llogaria juaj"
+    welcome: "Mirë se vini në Folksemantic."
+    welcome_message: "Ne po punojnë aktivisht për t&#39;i integruar OCWFinder dhe OERRecommender në një site për t&#39;ju ndihmuar të gjeni më interesante dhe të burimeve relevante arsimore."
+    welcome_user: "Welcome {{user}}"
+    widgets_description: "Get Widgets për të ndihmuar përdoruesit e burimeve dhe <span class=\"highlight\">të gjejnë burime të zbuloni</span> në <span class=\"highlight\">lidhje</span> me ato në faqen tuaj te internetit"
+    widgets_link: "Get Widgets!"
+    xml: XML

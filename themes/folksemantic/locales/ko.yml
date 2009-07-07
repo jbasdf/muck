@@ -3,10 +3,11 @@ ko:
   folksemantic: 
     all_resources: 모두
     atom: 아톰
+    browse_resources: "브라 우즈 리소스"
     calculated: 계산
     collections: 컬렉션
     collections_long: "색인생성된 컬렉션"
-    credits: "Tatemai하여 <a href=\"http://cosl.usu.edu\">학습 센터 오픈과 지속을</a> 위해 <a href=\"http://nsf.gov/\">국립 과학 재단의</a> 자금 지원으로 개발"
+    credits: "the <a href=\"http://cosl.usu.edu\">센터 오픈과 지속 가능한 학습을</a> 위해 <a href=\"http://nsf.gov/\">국립 과학 재단의</a> 자금 지원에 의해 개발"
     demo: 데모
     details: "세부 내용"
     developers: 개발자
@@ -19,7 +20,6 @@ ko:
     metadata: 메타
     next: 다음
     no_hits: "아니 안타. 제발 다른 검색을 시도하거나 다른 언어를 선택할 수있습니다."
-    no_tags: "태그를 아직 사용할 수 없음"
     of: 의
     powered_by: "에 의해 제공"
     previous: 이전
@@ -35,11 +35,13 @@ ko:
     search_button: 가다
     search_description: "학습 리소스를 검색하여 <span class=\"highlight\">찾기</span> 및 교육 자원을 통해 브라우징 <span class=\"highlight\">110,000</span> 열려"
     search_link: "찾기 리소스!"
-    tag_cloud_legend: "태그를 사용하여 탐색 자원"
     tag_line: "오픈 교육 능력"
     title: Folksemantic
     tour: 둘러보기!
     tour_description: "의 <span class=\"highlight\">도입</span> Folksemantic <span class=\"highlight\">동영상보기</span>"
+    view_account: 계정보기
+    welcome: "Folksemantic에 오신 것을 환영합니다."
+    welcome_message: "우리가 적극적으로 하나의 사이트로 가장 흥미로운 및 관련 교육 리소스를 찾을 수 있도록 OCWFinder와 통합하기 위해 최선을 다하고 OERRecommender."
     welcome_user: "{{user}}에 오신 것을 환영합니다"
     widgets_description: "! 사용자의 리소스를 찾을 <span class=\"highlight\">위젯과</span> 관련하여 <span class=\"highlight\">귀하의 웹사이트에 자원 것들을</span> 발견할 수 있도록"
     widgets_link: 위젯!

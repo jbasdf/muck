@@ -3,10 +3,11 @@ fr:
   folksemantic: 
     all_resources: Tous
     atom: Atom
+    browse_resources: "Trouver des ressources"
     calculated: calculés
     collections: Collections
     collections_long: "Collections indexées"
-    credits: "Développé par Tatemai au <a href=\"http://cosl.usu.edu\">Centre d&#39;apprentissage ouvert et durable</a> avec le financement de la <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Développé par le <a href=\"http://cosl.usu.edu\">Centre d&#39;apprentissage ouvert et durable</a> avec le financement de la <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Détails
     developers: Développeurs
@@ -19,7 +20,6 @@ fr:
     metadata: Metadata
     next: Suivant
     no_hits: "Pas de visites. S&#39;il vous plaît essayer une autre recherche ou choisissez une autre langue."
-    no_tags: "Pas de tags encore disponible"
     of: de
     powered_by: "powered by"
     previous: Précédent
@@ -35,11 +35,13 @@ fr:
     search_button: Aller
     search_description: "Trouver des ressources d&#39;apprentissage par <span class=\"highlight\">la recherche</span> et la <span class=\"highlight\">navigation</span> plus de 110000 ressources éducatives ouvertes"
     search_link: "Trouver des ressources!"
-    tag_cloud_legend: "Trouver des ressources en utilisant les balises"
     tag_line: "habilitant l&#39;éducation ouverte"
     title: Folksemantic
     tour: "Suivez le guide!"
     tour_description: "Regarder une <span class=\"highlight\">vidéo d&#39;introduction</span> Folksemantic"
+    view_account: "Consultez votre compte"
+    welcome: "Bienvenue à Folksemantic."
+    welcome_message: "Nous travaillons à intégrer OCWFinder et OERRecommender en un seul site pour vous aider à trouver les plus intéressantes et les ressources éducatives."
     welcome_user: "Bienvenue {{user}}"
     widgets_description: "Télécharger des widgets pour aider les utilisateurs à <span class=\"highlight\">trouver des</span> ressources et de <span class=\"highlight\">découvrir les ressources liées</span> à celles sur votre site"
     widgets_link: "Get Widgets!"

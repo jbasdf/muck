@@ -24,3 +24,5 @@ ko:
       permissions: 권한
       themes: 테마
       users: 사용자
+    contact_request: "문의 신청"
+    contact_thanks: "문의해 주셔서 감사합니다. 우리는 귀하의 이메일을받은 적이 터치에 곧 도착할 것입니다."

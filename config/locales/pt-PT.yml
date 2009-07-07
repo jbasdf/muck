@@ -1,0 +1,28 @@
+--- 
+pt-PT: 
+  contact: 
+    contact_response_subject: "Obrigado pela sua consulta de {{application_name}}!"
+    contact_us: "Fale Conosco"
+    email: "Seu e-mail:"
+    email_help: "Forneça-nos seu e-mail para que possamos contactá-lo se necessário."
+    name: "Seu nome:"
+    name_help: "Forneça-nos o seu nome."
+    phone: "Seu número de telefone:"
+    phone_help: "Seu número de telefone é opcional, mas vai nos ajudar a contactá-lo se necessário."
+    question: "Sua mensagem / pergunta:"
+    question_help: "Favor incluir quaisquer comentários que você gostaria de ouvir-nos."
+    subject: "Assunto:"
+    subject_help: "Uma simples declaração indicando a natureza do seu feedback."
+  general: 
+    delete_file: "Apagar Arquivo"
+    send: Enviar
+    thank_you_contact: "Obrigado por sua mensagem. Um membro da nossa equipa irá responder em breve."
+  muck: 
+    admin: 
+      home: Início
+      my_dashboard: "Meu painel"
+      permissions: Permissões
+      themes: Temas
+      users: Usuários
+    contact_request: "Pedido de Contacto"
+    contact_thanks: "Obrigado por nos contatar. Recebemos o seu e-mail e será em contato em breve."

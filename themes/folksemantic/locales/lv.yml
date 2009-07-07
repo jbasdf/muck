@@ -3,10 +3,11 @@ lv:
   folksemantic: 
     all_resources: Viss
     atom: Atom
+    browse_resources: "Pārlūkot Resources"
     calculated: aprēķina
     collections: Kolekcijas
     collections_long: "Indeksēts Kolekcijas"
-    credits: "Developed by Tatemai pie <a href=\"http://cosl.usu.edu\">Center for Open un ilgtspējīgas Mācības</a> ar finansējumu no <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Developed ar <a href=\"http://cosl.usu.edu\">Center for Open un ilgtspējīgas Mācības</a> ar finansējumu no <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Details
     developers: Izstrādātāji
@@ -19,7 +20,6 @@ lv:
     metadata: Metadata
     next: Nākamais
     no_hits: "Nr hits. Lūdzu, izmēģiniet citu meklēšanas vai izvēlieties citu valodu."
-    no_tags: "Nav tagu pieejami vēl"
     of: "no"
     powered_by: "powered by"
     previous: Iepriekšējais
@@ -35,11 +35,13 @@ lv:
     search_button: Iet
     search_description: "Atrast mācību resursu <span class=\"highlight\">meklēšanai</span> un <span class=\"highlight\">pārlūkošanas</span> vairāk nekā 110000 atvērtu izglītības resursu"
     search_link: "Atrast Resources!"
-    tag_cloud_legend: "pārlūkot resursiem, izmantojot tagus"
     tag_line: "pilnvarojošais atvērt izglītības"
     title: Folksemantic
     tour: "Take a Tour!"
     tour_description: "Noskatīties <span class=\"highlight\">video ieviešana</span> Folksemantic"
+    view_account: "View Your Account"
+    welcome: "Laipni lūgti Folksemantic."
+    welcome_message: "Mēs aktīvi strādājam, lai integrētu OCWFinder un OERRecommender vienā vietā, lai palīdzētu jums atrast vispiemērotāko interesanti un attiecīgo izglītības resursiem."
     welcome_user: "Welcome {{user}}"
     widgets_description: "Get preces, lai palīdzētu lietotājiem <span class=\"highlight\">atrast</span> resursu un <span class=\"highlight\">atrast resursus,</span> kas <span class=\"highlight\">saistīti</span> ar tiem, uz jūsu mājas lapā"
     widgets_link: "Get logrīki!"

@@ -1,0 +1,28 @@
+--- 
+sq: 
+  contact: 
+    contact_response_subject: "Thanks for your hetim nga {{application_name}}!"
+    contact_us: "Na kontaktoni"
+    email: "Your email:"
+    email_help: "Ju lutemi të na ofrojnë me email-it tuaj në mënyrë që ne mund të kontaktoni ju nëse është e nevojshme."
+    name: "Your name:"
+    name_help: "Ju lutemi të na ofrojnë me emrin tuaj."
+    phone: "Numri juaj i telefonit:"
+    phone_help: "Numër telefoni juaj është fakultative, por do te na ndihmojne te kontaktojme nëse është e nevojshme."
+    question: "Mesazhi juaj / pyetje:"
+    question_help: "Ju lutemi të përfshijë çdo koment që do të dëshironi që të na dëgjojnë."
+    subject: "Subject:"
+    subject_help: "Një deklaratë e thjeshtë duke treguar natyrën e tuaja."
+  general: 
+    delete_file: "Delete File"
+    send: Dërgoj
+    thank_you_contact: "Faleminderit për mesazhin tuaj. Një anëtar i ekipit tonë ju do të përgjigjet për të së shpejti."
+  muck: 
+    admin: 
+      home: Shtëpi
+      my_dashboard: "My Dashboard"
+      permissions: Lejet
+      themes: Temat
+      users: Përdorues
+    contact_request: "Kontakt Kërkesë"
+    contact_thanks: "Thanks for kontaktuar me ne. Ne e kemi marr e email-it tuaj dhe do të jetë në kontakt së shpejti."

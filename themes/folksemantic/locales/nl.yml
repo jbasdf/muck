@@ -3,10 +3,11 @@ nl:
   folksemantic: 
     all_resources: Alle
     atom: Atom
+    browse_resources: "Blader Middelen"
     calculated: berekend
     collections: Collecties
     collections_long: "Geïndexeerd Collecties"
-    credits: "Ontwikkeld door Tatemai op het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering uit de <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Ontwikkeld door het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering uit de <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Details
     developers: Ontwikkelaars
@@ -19,7 +20,6 @@ nl:
     metadata: Metadata
     next: Volgende
     no_hits: "Geen treffers. Probeer een andere zoekopdracht of kies een andere taal."
-    no_tags: "Geen tags beschikbaar"
     of: van
     powered_by: "powered by"
     previous: Vorige
@@ -35,11 +35,13 @@ nl:
     search_button: Gaan
     search_description: "Zoek leermiddelen door te <span class=\"highlight\">zoeken</span> en <span class=\"highlight\">surfen</span> meer dan <span class=\"highlight\">110.000</span> open leermiddelen"
     search_link: "Vind Resources!"
-    tag_cloud_legend: "bladeren middelen met behulp van tags"
     tag_line: "Empowering open onderwijs"
     title: Folksemantic
     tour: "Take a Tour!"
     tour_description: "Bekijk een <span class=\"highlight\">video-introductie</span> van Folksemantic"
+    view_account: "Bekijk Uw account"
+    welcome: "Welkom bij Folksemantic."
+    welcome_message: "We zijn druk bezig om OCWFinder en OERRecommender in een site om u te helpen bij de meest interessante en relevante educatieve middelen."
     welcome_user: "Welkom {{user}}"
     widgets_description: "Get widgets te helpen gebruikers bij het <span class=\"highlight\">vinden van</span> middelen en <span class=\"highlight\">ontdek</span> welke <span class=\"highlight\">middelen</span> in <span class=\"highlight\">verband</span> met de op uw website"
     widgets_link: "Get Widgets!"

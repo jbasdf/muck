@@ -1,5 +1,9 @@
 <div id="welcome" class="common-content">
   <%= output_errors('', {:class => 'help-box'}) %>
-  <%= t('folksemantic.welcome') %>
-  <%= link_to 'View Your Account', user_path(current_user) %>
+  <h3><%= t('folksemantic.welcome') %></h3>
+  <p><%= t('folksemantic.welcome_message') %></p> 
+  <ul>
+    <li><%= link_to t('folksemantic.view_account'), user_path(current_user) %></li>
+    <li><%= link_to t('folksemantic.browse_resources'), resources_path %></li>
+  </ul>
 </div>

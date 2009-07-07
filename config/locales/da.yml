@@ -5,7 +5,7 @@ da:
     contact_us: "Kontakt os"
     email: "Din email:"
     email_help: "Giv os din e-mail, så vi kan kontakte dig, hvis det er nødvendigt."
-    name: "Dit navn"
+    name: "Dit navn:"
     name_help: "Giv os dit navn."
     phone: "Dit telefonnummer:"
     phone_help: "Dit telefonnummer er valgfrit men vil hjælpe os kontakte dig, hvis det er nødvendigt."
@@ -14,7 +14,7 @@ da:
     subject: "Emne:"
     subject_help: "En simpel angivelse af arten af din feedback."
   general: 
-    delete_file: "Slet File"
+    delete_file: "Slet Fil"
     send: Sende
     thank_you_contact: "Tak for din besked. Et medlem af vores team vil svare dig snarest."
   muck: 
@@ -24,3 +24,5 @@ da:
       permissions: Tilladelser
       themes: Temaer
       users: Brugere
+    contact_request: "Kontakt Anmodning"
+    contact_thanks: "Tak for at kontakte os. Vi har modtaget din e-mail og vil blive kontaktet snarest."

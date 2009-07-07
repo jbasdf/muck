@@ -1,0 +1,28 @@
+--- 
+mt: 
+  contact: 
+    contact_response_subject: "Grazzi għall-inkjesta tiegħek mill {{application_name}}!"
+    contact_us: "Contact Us"
+    email: "Your email:"
+    email_help: "Jekk jogħġbok tawniex l-email tiegħek sabiex inkunu nistgħu tikkuntattjak jekk ikun meħtieġ."
+    name: "Your name:"
+    name_help: "Jekk jogħġbok tawniex l ismek."
+    phone: "Your phone number:"
+    phone_help: "Your numru tat-telefon mhijiex obbligatorja iżda se tgħinna tikkuntattjak jekk ikun meħtieġ."
+    question: "Il-messaġġ tiegħek / kwistjoni:"
+    question_help: "Jekk jogħġbok jinkludu kwalunkwe kummenti li tixtieq magħna biex tisma."
+    subject: "Suġġett:"
+    subject_help: "A sempliċi dikjarazzjoni li tindika n-natura tar-rispons tiegħek."
+  general: 
+    delete_file: "Ħassar File"
+    send: Ibgħat
+    thank_you_contact: "Grazzi għall-messaġġ tiegħek. A ta &#39;membru tat-tim tagħna se tirrispondi lilek dalwaqt."
+  muck: 
+    admin: 
+      home: Dar
+      my_dashboard: "My Dashboard"
+      permissions: Permessi
+      themes: Temi
+      users: Users
+    contact_request: "Kuntatt Talba"
+    contact_thanks: "Grazzi għall-ikkuntattjar us. Imxejna rċeviet email tiegħek u se jiġu f&#39;kuntatt dalwaqt."

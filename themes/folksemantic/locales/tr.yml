@@ -1,0 +1,48 @@
+--- 
+tr: 
+  folksemantic: 
+    all_resources: Hepsi
+    atom: Atom
+    browse_resources: Kaynaklar
+    calculated: hesaplanır
+    collections: Kolleksiyonlar
+    collections_long: "Indexed Kolleksiyonlar"
+    credits: "Olan <a href=\"http://cosl.usu.edu\">Merkezi Açık ve Sürdürülebilir Öğrenim</a> için <a href=\"http://nsf.gov/\">Ulusal Bilim Vakfı</a> fon ile Developed by"
+    demo: Demo
+    details: Ayrıntılar
+    developers: Geliştiriciler
+    developers_long: "Geliştiriciler için"
+    direct_link: "[Direct link]"
+    for: için
+    gm_more_prompt: "Diğer İlgili Kaynaklar"
+    gm_title: "İlgili Kaynaklar"
+    just_ocws: Dersler
+    metadata: Meta
+    next: Sonraki
+    no_hits: "Hayır vurur. Lütfen başka bir arama yapmayı deneyin veya farklı bir dil seçin."
+    of: onun
+    powered_by: "tarafından desteklenmektedir"
+    previous: Önceki
+    rdf: RDF
+    register_description: "Kayıt olun, gruplar katılmak ve kişiselleştirilmiş <span class=\"highlight\">öneriler</span> almak için kolayca <span class=\"highlight\">bloglarda yayınlamak</span>"
+    register_link: "Sign Up!"
+    related_resources: "İlgili kaynaklar"
+    related_resources_title: "İlgili Kaynaklar"
+    relevance: alaka
+    results: Sonuçlar
+    rss: RSS
+    search: aramak
+    search_button: Gitmek
+    search_description: "Arayarak öğrenme kaynakları <span class=\"highlight\">bulun</span> ve <span class=\"highlight\">110.000</span> açık öğretim kaynaklar üzerinde tarama"
+    search_link: "Bul Kaynakları!"
+    tag_line: "açık öğretim Yetki"
+    title: Folksemantic
+    tour: "Tura Katılın!"
+    tour_description: "Ve İzle <span class=\"highlight\">Video giriş</span> Folksemantic"
+    view_account: "Kullanıcı Hesabı"
+    welcome: "Hoşgeldiniz Folksemantic için."
+    welcome_message: "Biz aktif bir site, en ilginç ve ilgili eğitim kaynakları bulmalarına yardımcı olmak için OCWFinder ve OERRecommender bütünleştirmek için çalışıyoruz."
+    welcome_user: "Hoşgeldiniz {{user}}"
+    widgets_description: "Aletler alın kullanıcılar kaynakları bulmak <span class=\"highlight\">ve web sitenizde kaynakları olanlarla</span> ilgili bulmalarına yardımcı olmak için"
+    widgets_link: "Widgets alın!"
+    xml: XML

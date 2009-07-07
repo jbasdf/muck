@@ -3,10 +3,11 @@ ro:
   folksemantic: 
     all_resources: Toţi
     atom: Atom
+    browse_resources: "Cautare resurse"
     calculated: calculat
     collections: Colecţii
     collections_long: "Colecţii indexate"
-    credits: "Dezvoltat de Tatemai la <a href=\"http://cosl.usu.edu\">Centrul pentru Invatamant Deschis şi durabilă,</a> cu finanţare de la <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Dezvoltat de către <a href=\"http://cosl.usu.edu\">Centrul pentru Invatamant Deschis şi durabilă,</a> cu finanţare de la <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Detalii
     developers: Developers
@@ -19,7 +20,6 @@ ro:
     metadata: Metadata
     next: Următorul
     no_hits: "Nu hit-uri. Vă rugăm să încercaţi o altă căutare sau alegeţi o altă limbă."
-    no_tags: "Nu sunt etichete disponibile încă"
     of: al
     powered_by: "powered by"
     previous: Înapoi
@@ -35,11 +35,13 @@ ro:
     search_button: Merge
     search_description: "Găsiţi resurse de învăţare şi de <span class=\"highlight\">navigare</span> prin <span class=\"highlight\">căutarea</span> de peste <span class=\"highlight\">110,000</span> de resurse educaţionale deschise"
     search_link: "Găsiţi Resurse!"
-    tag_cloud_legend: "Cautare resurse utilizând tag-uri"
     tag_line: "abilitarea deschis educaţie"
     title: Folksemantic
     tour: "Faceţi un tur!"
     tour_description: "Vizionaţi un material <span class=\"highlight\">video introducerea</span> Folksemantic"
+    view_account: "Vizualizaţi-vă contul"
+    welcome: "Bine ati venit la Folksemantic."
+    welcome_message: "Suntem activ de lucru pentru a integra OCWFinder şi OERRecommender într-un singur site-ul pentru a vă ajuta să găsiţi cele mai interesante si relevante resurse educaţionale."
     welcome_user: "Bine ati venit {{user}}"
     widgets_description: "Ia fleacuri, pentru a ajuta utilizatorii să <span class=\"highlight\">găsească</span> resurse şi de a <span class=\"highlight\">descoperi resurse legate</span> de cele de pe site-ul dvs."
     widgets_link: "Get Widgets!"

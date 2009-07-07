@@ -3,10 +3,11 @@ uk:
   folksemantic: 
     all_resources: Всі
     atom: Atom
+    browse_resources: "Використовуй ресурси"
     calculated: розраховуватися
     collections: Колекції
     collections_long: "Проіндексовані Колекції"
-    credits: "Розроблено Tatemai в <a href=\"http://cosl.usu.edu\">Центрі відкрито і сталого навчання</a> за фінансової підтримки <a href=\"http://nsf.gov/\">Національного наукового фонду</a>"
+    credits: "Розроблено в <a href=\"http://cosl.usu.edu\">Центрі відкрито і сталого навчання</a> за фінансової підтримки <a href=\"http://nsf.gov/\">Національного наукового фонду</a>"
     demo: Демо
     details: Подробиці
     developers: Разработчикам
@@ -19,7 +20,6 @@ uk:
     metadata: Метадані
     next: Наступне
     no_hits: "Ні хітів. Спробуйте інший пошук або виберіть іншу мову."
-    no_tags: "Немає тегів доступні ще"
     of: з
     powered_by: компанією
     previous: Попередня
@@ -35,11 +35,13 @@ uk:
     search_button: Йти
     search_description: "Пошук навчальних матеріалів за допомогою функції <span class=\"highlight\">пошуку</span> та <span class=\"highlight\">перегляду</span> більше <span class=\"highlight\">110,000</span> відкритих освітніх ресурсів"
     search_link: "Знайти джерела!"
-    tag_cloud_legend: "переглядати ресурси, використовуючи теги"
     tag_line: "розширення можливостей відкритої освіти"
     title: Folksemantic
     tour: "Здійсніть тур!"
     tour_description: "Дивитися <span class=\"highlight\">відео введення</span> Folksemantic"
+    view_account: "Переглянути Ваш акаунт"
+    welcome: "Ласкаво просимо на Folksemantic."
+    welcome_message: "Ми активно працюємо з інтеграції OCWFinder і OERRecommender в одному місці, щоб допомогти вам знайти найбільш цікаві та актуальні освітні ресурси."
     welcome_user: "Ласкаво просимо {{user}}"
     widgets_description: "Отримати віджети, щоб допомогти користувачам <span class=\"highlight\">знайти</span> ресурси і <span class=\"highlight\">відкривати ресурси,</span> пов&#39;язані з них на ваш сайт"
     widgets_link: "Отримати Widgets!"

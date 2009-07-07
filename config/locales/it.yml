@@ -24,3 +24,5 @@ it:
       permissions: Autorizzazioni
       themes: Temi
       users: Utenti
+    contact_request: "Richiesta Contatto"
+    contact_thanks: "Grazie per averci contattato. Abbiamo ricevuto la tua e-mail e sarà in contatto al più presto."

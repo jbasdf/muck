@@ -3,10 +3,11 @@ da:
   folksemantic: 
     all_resources: Alle
     atom: Atom
+    browse_resources: "Browse Ressourcer"
     calculated: beregnes
     collections: Samlinger
     collections_long: "Indekseret Samlinger"
-    credits: "Udviklet af Tatemai på <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med støtte fra <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    credits: "Udviklet af <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med støtte fra <a href=\"http://nsf.gov/\">National Science Foundation</a>"
     demo: Demo
     details: Detaljer
     developers: Udviklere
@@ -19,7 +20,6 @@ da:
     metadata: Metadata
     next: Næste
     no_hits: "Ingen hits. Prøv en anden søgning eller vælge et andet sprog."
-    no_tags: "Nr. tags foreligger endnu"
     of: af
     powered_by: "powered by"
     previous: Forrige
@@ -35,11 +35,13 @@ da:
     search_button: Start
     search_description: "Find læring ressourcer ved <span class=\"highlight\">at søge og</span> surfe over <span class=\"highlight\">110.000</span> åben uddannelsesmæssige ressourcer"
     search_link: "Find ressourcer!"
-    tag_cloud_legend: "gennemse ressourcer ved hjælp af tags"
     tag_line: "bemyndigelse åben uddannelse"
     title: Folksemantic
     tour: "Tag en tur!"
     tour_description: "Se en <span class=\"highlight\">video indførelsen</span> af Folksemantic"
+    view_account: "Vis din konto"
+    welcome: "Velkommen til Folksemantic."
+    welcome_message: "Vi arbejder aktivt for at integrere OCWFinder og OERRecommender til et websted for at hjælpe dig med at finde de mest interessante og relevante uddannelsesmæssige ressourcer."
     welcome_user: "Velkommen {{user}}"
     widgets_description: "Få widgets at hjælpe brugerne med at <span class=\"highlight\">finde</span> ressourcer og <span class=\"highlight\">opdage ressourcer i forbindelse</span> med dem på din hjemmeside"
     widgets_link: "Få Widgets!"

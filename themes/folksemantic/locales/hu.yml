@@ -1,0 +1,48 @@
+--- 
+hu: 
+  folksemantic: 
+    all_resources: Mind
+    atom: Atom
+    browse_resources: "Tallózás Resources"
+    calculated: kiszámított
+    collections: Gyűjtemények
+    collections_long: "Indexálva gyűjtemények"
+    credits: "Fejlesztette a <a href=\"http://cosl.usu.edu\">Center for Open Learning és fenntartható</a> finanszírozással a <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    demo: Demo
+    details: Részletek
+    developers: Fejlesztőknek
+    developers_long: "Információ fejlesztők számára"
+    direct_link: "[Direct link]"
+    for: miatt
+    gm_more_prompt: "Tovább Kapcsolódó anyagok"
+    gm_title: "Kapcsolódó anyagok"
+    just_ocws: Tanfolyamok
+    metadata: Metaadatok
+    next: Következő
+    no_hits: "Nincs találat. Próbálkozzon másik kereséssel, vagy válasszon másik nyelvet."
+    of: "-től"
+    powered_by: "powered by"
+    previous: Előző
+    rdf: RDF
+    register_description: "Jelentkezzen be, hogy személyre szóló <span class=\"highlight\">ajánlásokat, a</span> fórumokon, és könnyedén <span class=\"highlight\">közzéteheti a blogok</span>"
+    register_link: "Sign Up!"
+    related_resources: "Kapcsolódó anyagok"
+    related_resources_title: "Kapcsolódó anyagok"
+    relevance: vonatkozású
+    results: Eredmények
+    rss: RSS
+    search: keres
+    search_button: Jár
+    search_description: "Find tanulási erőforrások <span class=\"highlight\">felkutatása</span> és <span class=\"highlight\">a böngészés</span> alatt <span class=\"highlight\">110.000</span> nyílt oktatási források"
+    search_link: "Find Resources!"
+    tag_line: "felhatalmazására nyílt oktatás"
+    title: Folksemantic
+    tour: Betekintés!
+    tour_description: "Nézd a <span class=\"highlight\">videót bevezetése</span> Folksemantic"
+    view_account: "View Saját"
+    welcome: "Üdvözöljük a Folksemantic."
+    welcome_message: "Mi aktívan dolgozik, hogy integrálja OCWFinder és OERRecommender be egy oldalon, hogy segítsen megtalálni a leginkább érdekes és fontos oktatási források."
+    welcome_user: "Üdvözöljük {{user}}"
+    widgets_description: "Get kütyü, hogy segítsen a felhasználóknak forrásokat <span class=\"highlight\">találni,</span> és <span class=\"highlight\">fedezze fel a forrásokat</span> is a weboldaladon"
+    widgets_link: "Get Widgets!"
+    xml: XML

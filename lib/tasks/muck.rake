@@ -124,7 +124,7 @@ namespace :muck do
   end
   
   desc "Translate all muck related projects and gems"
-  task :translate do
+  task :translate_all do
     projects_path = File.join(File.dirname(__FILE__), '..')
     
     puts 'translating cms lite'

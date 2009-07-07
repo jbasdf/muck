@@ -1,0 +1,28 @@
+--- 
+gl: 
+  contact: 
+    contact_response_subject: "Grazas pola súa consulta de {{application_name}}!"
+    contact_us: "Fale connosco"
+    email: "O seu e-mail:"
+    email_help: "Forneza connosco seu correo electrónico para que poidamos contacto-lo se é necesario."
+    name: "O seu nome:"
+    name_help: "Forneza-nos o seu nome."
+    phone: "Seu número de teléfono:"
+    phone_help: "Seu número de teléfono é opcional, pero vai axudarnos a contacto-lo se é necesario."
+    question: "A súa mensaxe / pregunta:"
+    question_help: "Favor incluir os comentarios que lle gustaría escoitar connosco."
+    subject: "Asunto:"
+    subject_help: "Unha simple declaración indicando a natureza do seu feedback."
+  general: 
+    delete_file: "Borrar Arquivo"
+    send: Enviar
+    thank_you_contact: "Grazas pola súa mensaxe. Un membro da nosa equipa debería responder en breve."
+  muck: 
+    admin: 
+      home: Fogar
+      my_dashboard: "Meu panel"
+      permissions: Permisos
+      themes: Temas
+      users: Usuarios
+    contact_request: "Proposta de Contacto"
+    contact_thanks: "Grazas por nos contacto. Recibimos o seu correo e será en contacto en breve."

@@ -3,10 +3,11 @@ el:
   folksemantic: 
     all_resources: Όλα
     atom: Atom
+    browse_resources: "Φυλλομέτρηση Πόρων"
     calculated: υπολογίζονται
     collections: Συλλογές
     collections_long: "Τιμαριθμοποιημένος Συλλογές"
-    credits: "Αναπτύχθηκε από Tatemai στο <a href=\"http://cosl.usu.edu\">Κέντρο για την Ανοικτή και Αειφόρος Μάθηση</a> με χρηματοδότηση από το <a href=\"http://nsf.gov/\">Εθνικό Ίδρυμα Επιστημών</a>"
+    credits: "Αναπτύχθηκε από το <a href=\"http://cosl.usu.edu\">Κέντρο για την Ανοικτή και Αειφόρος Μάθηση</a> με χρηματοδότηση από το <a href=\"http://nsf.gov/\">Εθνικό Ίδρυμα Επιστημών</a>"
     demo: Demo
     details: Λεπτομέρειες
     developers: Developers
@@ -19,7 +20,6 @@ el:
     metadata: Μεταδεδομένα
     next: Επόμενος
     no_hits: "Δεν hits. Δοκιμάστε μια διαφορετική αναζήτηση ή επιλέξτε μια διαφορετική γλώσσα."
-    no_tags: "Δεν διατίθενται ακόμη ετικέτες"
     of: από
     powered_by: "powered by"
     previous: Προηγούμενη
@@ -35,11 +35,13 @@ el:
     search_button: Πάω
     search_description: "Βρείτε μάθηση μέσα από <span class=\"highlight\">την αναζήτηση</span> και <span class=\"highlight\">περιήγηση</span> πάνω από <span class=\"highlight\">110.000</span> ανοικτή εκπαιδευτικών πόρων"
     search_link: "Βρείτε Πόρων!"
-    tag_cloud_legend: "περιηγηθείτε πόρους χρησιμοποιώντας tags"
     tag_line: "εξουσιοδοτήσεως ανοικτή εκπαίδευση"
     title: Folksemantic
     tour: "Take a Tour!"
     tour_description: "Παρακολουθήστε ένα <span class=\"highlight\">βίντεο εισαγωγή</span> Folksemantic"
+    view_account: "Δείτε τον λογαριασμό σας"
+    welcome: "Καλώς ήλθατε στο Folksemantic."
+    welcome_message: "Είμαστε ενεργά για την ενσωμάτωση OCWFinder και OERRecommender σε ένα site που θα σας βοηθήσουν να βρείτε τις πιο ενδιαφέρουσες και σχετικές εκπαιδευτικές πόρων."
     welcome_user: "Καλώς ήρθατε {{user}}"
     widgets_description: "Λάβετε widgets για να βοηθήσει τους χρήστες να <span class=\"highlight\">βρουν</span> πόρους και να <span class=\"highlight\">ανακαλύψουν πόρους</span> που <span class=\"highlight\">σχετίζονται</span> με αυτές στην ιστοσελίδα σας"
     widgets_link: "Get Widgets!"

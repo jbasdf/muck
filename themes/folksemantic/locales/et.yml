@@ -1,0 +1,48 @@
+--- 
+et: 
+  folksemantic: 
+    all_resources: Kõik
+    atom: Atom
+    browse_resources: "Browse Resources"
+    calculated: arvutatud
+    collections: Kogud
+    collections_long: "Indekseeritud Kogud"
+    credits: "Poolt välja töötatud <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> finantseerimisega on <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    demo: Demo
+    details: Detailid
+    developers: Arendajad
+    developers_long: "Teave arendajatele"
+    direct_link: "[Otsene link]"
+    for: jaoks
+    gm_more_prompt: "Vaata Seostuvad ressursid"
+    gm_title: "Seostuvad ressursid"
+    just_ocws: Kursused
+    metadata: Metaandmed
+    next: Järgmine
+    no_hits: "Nr tabamust. Proovige teistsugust otsingut või valige teine keel."
+    of: sellest
+    powered_by: "powered by"
+    previous: Eelmine
+    rdf: RDF
+    register_description: "Registreeru saada isikupärastatud <span class=\"highlight\">soovitusi</span> osalevad <span class=\"highlight\">rühmad</span> ja kergesti <span class=\"highlight\">avaldada blogid</span>"
+    register_link: "Sign Up!"
+    related_resources: "Seostuvad ressursid"
+    related_resources_title: "Seostuvad ressursid"
+    relevance: tähtsus
+    results: Tulemused
+    rss: RSS
+    search: otsima
+    search_button: Minema
+    search_description: "Leia õppematerjalid <span class=\"highlight\">otsides</span> ja <span class=\"highlight\">sirvimise</span> üle <span class=\"highlight\">110.000</span> avatud hariduses"
+    search_link: "Leidma vahendeid!"
+    tag_line: "volitades Avatud Hariduse"
+    title: Folksemantic
+    tour: "Take a Tour!"
+    tour_description: "Vaata <span class=\"highlight\">video kasutuselevõttu</span> Folksemantic"
+    view_account: "Vaadata oma konto"
+    welcome: "Tere tulemast Folksemantic."
+    welcome_message: "Me oleme aktiivselt integreerima OCWFinder ja OERRecommender ühte veebilehte, mis aitab leida kõige huvitava ja asjakohaseid harivaid vahendeid."
+    welcome_user: "Tere {{user}}"
+    widgets_description: "Get vekottimet aidata kasutajatel <span class=\"highlight\">leida</span> vahendeid ja <span class=\"highlight\">leida ressursid,</span> mis on <span class=\"highlight\">seotud</span> ka oma veebilehel"
+    widgets_link: "Get Vidinad!"
+    xml: XML

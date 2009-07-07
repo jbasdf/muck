@@ -3,10 +3,11 @@ zh-CN:
   folksemantic: 
     all_resources: 全部
     atom: 原子
+    browse_resources: 社区资源
     calculated: 计算
     collections: 集合
     collections_long: 收录馆藏
-    credits: "制定Tatemai在<a href=\"http://cosl.usu.edu\">中心的开放和可持续学习</a>资金由<a href=\"http://nsf.gov/\">国家科学基金会</a>"
+    credits: "所开发<a href=\"http://cosl.usu.edu\">中心的开放和可持续学习</a>资金由<a href=\"http://nsf.gov/\">国家科学基金会</a>"
     demo: 演示
     details: 详情
     developers: 开发商
@@ -19,7 +20,6 @@ zh-CN:
     metadata: 元数据
     next: 下一个
     no_hits: 无安打。请尝试不同的搜索或选择不同的语言。
-    no_tags: 目前还没有任何标签
     of: 的
     powered_by: 本站由
     previous: 前
@@ -35,11 +35,13 @@ zh-CN:
     search_button: 离去
     search_description: "寻找学习资源的<span class=\"highlight\">搜索</span>与<span class=\"highlight\">浏览</span>超过<span class=\"highlight\">110,000</span>开放教育资源"
     search_link: 寻找资源！
-    tag_cloud_legend: 使用标签浏览资源
     tag_line: 增强开放教育
     title: Folksemantic
     tour: 浏览一下！
     tour_description: "看<span class=\"highlight\">录像采用</span> Folksemantic"
+    view_account: 查看您的帐户
+    welcome: "欢迎Folksemantic 。"
+    welcome_message: 我们正在积极努力将OCWFinder和OERRecommender到一个网站，以协助您找出最有趣的和相关的教育资源。
     welcome_user: "欢迎{{user}}"
     widgets_description: "获取工具，以帮助用户<span class=\"highlight\">找到</span>的资源和<span class=\"highlight\">发现有关</span>的<span class=\"highlight\">资源</span>的在您的网站"
     widgets_link: 获取组件！

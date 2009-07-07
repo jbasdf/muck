@@ -3,10 +3,11 @@ ja:
   folksemantic: 
     all_resources: すべての
     atom: 原子
+    browse_resources: 閲覧リソース
     calculated: 計算
     collections: コレクション
     collections_long: インデックスのコレクション
-    credits: "Tatemaiして<a href=\"http://cosl.usu.edu\">センターを開き</a> 、 <a href=\"http://cosl.usu.edu\">持続可能な学習</a>のための<a href=\"http://nsf.gov/\">国立科学財団</a>からの資金援助で開発で"
+    credits: "は、 <a href=\"http://cosl.usu.edu\">センターを開き</a> 、 <a href=\"http://cosl.usu.edu\">持続可能な学習</a>のための<a href=\"http://nsf.gov/\">国立科学財団</a>から資金を得て開発"
     demo: デモ
     details: 詳細
     developers: 開発者
@@ -19,7 +20,6 @@ ja:
     metadata: メタデータ
     next: 次の
     no_hits: 無安打。別のキーワードで検索してくださいか、別の言語を選択してください。
-    no_tags: いいえ、まだ利用可能なタグ
     of: の
     powered_by: を搭載
     previous: 前
@@ -35,11 +35,13 @@ ja:
     search_button: 行く
     search_description: "検索することで、学習のリソース<span class=\"highlight\">を検索する</span>と<span class=\"highlight\">110,000</span>オープン教育リソースを参照"
     search_link: リソースを検索！
-    tag_cloud_legend: リソースのタグを使用して閲覧
     tag_line: オープン教育の権限委譲
     title: Folksemantic
     tour: ツアー！
     tour_description: "腕時計の<span class=\"highlight\">ビデオ</span>を<span class=\"highlight\">紹介</span> Folksemantic"
+    view_account: ビューは、アカウント
+    welcome: ようこそFolksemanticする。
+    welcome_message: 積極的に1つのサイトには、最も興味深く、関連性の高い教育資源を見つける手助けをOCWFinderとOERRecommender統合に取り組んでいる。
     welcome_user: "ようこそ{{user}}"
     widgets_description: "ウィジェットを入手し、ユーザーのリソース<span class=\"highlight\">を</span>見つけ、 <span class=\"highlight\">お客様のウェブサイト</span>上の<span class=\"highlight\">リソース</span>に関連する<span class=\"highlight\">もの</span>を発見するために"
     widgets_link: ウィジェットを入手！

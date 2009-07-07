@@ -3,10 +3,11 @@ ar:
   folksemantic: 
     all_resources: الكل
     atom: ذرة
+    browse_resources: "تصفح المصادر"
     calculated: حسبت
     collections: المجموعات
     collections_long: "فهرسة المجموعات"
-    credits: "Tatemai وضعها في <a href=\"http://cosl.usu.edu\">مركز التعليم المفتوح والمستدامة</a> ، وبتمويل من <a href=\"http://nsf.gov/\">المؤسسة الوطنية للعلوم</a>"
+    credits: "وضعته <a href=\"http://cosl.usu.edu\">في مركز التعليم المفتوح والمستدامة</a> ، وبتمويل من <a href=\"http://nsf.gov/\">المؤسسة الوطنية للعلوم</a>"
     demo: التجريبي
     details: التفاصيل
     developers: المطورين
@@ -19,7 +20,6 @@ ar:
     metadata: الفوقية
     next: التالي
     no_hits: "لا يضرب. الرجاء تجربة بحث أخر ، أو اختر لغة مختلفة."
-    no_tags: "ولم تتوفر حتى الآن علامات"
     of: من
     powered_by: بواسطة
     previous: السابق
@@ -35,11 +35,13 @@ ar:
     search_button: يذهب
     search_description: "العثور على موارد التعلم عن طريق <span class=\"highlight\">البحث وتصفح</span> أكثر من <span class=\"highlight\">110،000</span> الموارد التعليمية المفتوحة"
     search_link: "العثور على الموارد!"
-    tag_cloud_legend: "تصفح موارد باستخدام العلامات"
     tag_line: "تمكين التعليم المفتوح"
     title: Folksemantic
     tour: "قم بجولة!"
     tour_description: "مشاهدة شريط <span class=\"highlight\">فيديو عرض</span> Folksemantic"
+    view_account: "وبالنظر إلى حسابك"
+    welcome: "مرحبا بكم في Folksemantic."
+    welcome_message: "نحن تعمل بنشاط على إدماج OCWFinder وOERRecommender في موقع واحد لمساعدتك في الحصول على أهم ذات الصلة والموارد التعليمية."
     welcome_user: "نرحب {{user}}"
     widgets_description: "الحصول على الحاجيات لمساعدة المستخدمين على <span class=\"highlight\">إيجاد</span> الموارد <span class=\"highlight\">واكتشاف الموارد المتصلة</span> منها على موقع الويب الخاص بك"
     widgets_link: "الحصول على القطع!"

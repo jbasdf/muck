@@ -1,0 +1,48 @@
+--- 
+fa: 
+  folksemantic: 
+    all_resources: همه
+    atom: اتم
+    browse_resources: "مرور منابع"
+    calculated: محاسبه
+    collections: "مجموعه ها"
+    collections_long: "مجموعه نمایهشده"
+    credits: "توسعه یافته توسط این <a href=\"http://cosl.usu.edu\">مرکز را برای باز کردن و پایدار آموزش</a> با کمک مالی از <a href=\"http://nsf.gov/\">بنیاد ملی علوم</a>"
+    demo: "نسخه ی نمایشی"
+    details: جزئیات
+    developers: "توسعه دهندگان"
+    developers_long: "اطلاعات برای توسعه دهندگان"
+    direct_link: "[لینک مستقیم]"
+    for: برای
+    gm_more_prompt: "بیشتر منابع مرتبط"
+    gm_title: "منابع مرتبط"
+    just_ocws: دوره
+    metadata: فراداده
+    next: بعدی
+    no_hits: "هیچ بازدید. لطفا یک جستجو های مختلف و یا سعی کنید به زبان های مختلف را انتخاب کنید."
+    of: از
+    powered_by: "طراحی توسط"
+    previous: قبلی
+    rdf: RDF
+    register_description: "ثبت نام برای دریافت توصیه های <span class=\"highlight\">شخصی</span> ، مشارکت در <span class=\"highlight\">گروه</span> ، و به راحتی <span class=\"highlight\">به انتشار وبلاگ</span>"
+    register_link: "ثبت نام!"
+    related_resources: "منابع مرتبط"
+    related_resources_title: "منابع مرتبط"
+    relevance: ربط
+    results: نتایج
+    rss: "آر اس اس"
+    search: جستجو
+    search_button: برو
+    search_description: "یافتن منابع آموزشی با <span class=\"highlight\">جستجو در حال دیدن سایت</span> و باز کردن بیش از <span class=\"highlight\">110،000</span> منابع آموزشی"
+    search_link: "پیدا کردن منابع!"
+    tag_line: "تقویت آموزش و پرورش باز"
+    title: Folksemantic
+    tour: "نگاهی به تور!"
+    tour_description: "دیده بان یک <span class=\"highlight\">مقدمه</span> ویدیو از Folksemantic"
+    view_account: "مشاهده حساب شما"
+    welcome: "خوش آمدید به Folksemantic."
+    welcome_message: "ما به طور فعال در تلاش برای ادغام OCWFinder و OERRecommender را به یک سایت برای کمک به منابع جالب ترین و مناسب آموزشی را پیدا کنید."
+    welcome_user: "خوش آمدید {{user}}"
+    widgets_description: "دریافت widgets برای کمک به کاربران <span class=\"highlight\">پیدا کردن</span> منابع و <span class=\"highlight\">کشف منابع مربوط</span> به آنهایی را در سایت خود"
+    widgets_link: "Widgets کنید!"
+    xml: XML

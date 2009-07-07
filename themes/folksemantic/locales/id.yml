@@ -1,0 +1,48 @@
+--- 
+id: 
+  folksemantic: 
+    all_resources: Semua
+    atom: Atom
+    browse_resources: "People Resources"
+    calculated: dihitung
+    collections: Koleksi
+    collections_long: "Indexed Koleksi"
+    credits: "Dikembangkan oleh <a href=\"http://cosl.usu.edu\">Pusat Buka dan Pembangunan Belajar</a> dengan dana dari <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    demo: Demo
+    details: Detail
+    developers: Pengembang
+    developers_long: "Informasi untuk Pengembang"
+    direct_link: "[langsung]"
+    for: untuk
+    gm_more_prompt: "Lebih terkait Resources"
+    gm_title: "Related Resources"
+    just_ocws: Kursus
+    metadata: Metadata
+    next: Berikutnya
+    no_hits: "No hits. Coba pencarian atau memilih bahasa yang berbeda."
+    of: dari
+    powered_by: "powered by"
+    previous: Sebelumnya
+    rdf: RDF
+    register_description: "Mendaftar untuk menerima <span class=\"highlight\">rekomendasi</span> pribadi, berpartisipasi dalam <span class=\"highlight\">kelompok,</span> dan mudah <span class=\"highlight\">untuk mempublikasikan blog</span>"
+    register_link: Daftar!
+    related_resources: "Yang berhubungan dengan sumber daya"
+    related_resources_title: "Related Resources"
+    relevance: relevansi
+    results: Hasil
+    rss: RSS
+    search: mencari
+    search_button: Pergi
+    search_description: "Cari belajar dengan <span class=\"highlight\">mencari</span> dan <span class=\"highlight\">browsing</span> lebih dari <span class=\"highlight\">110.000</span> buka pendidikan"
+    search_link: "Menemukan Resources!"
+    tag_line: "buka pendidikan pemberdayaan"
+    title: Folksemantic
+    tour: "Take a Tour!"
+    tour_description: "Menyaksikan <span class=\"highlight\">video pengenalan</span> Folksemantic"
+    view_account: "Lihat Account Anda"
+    welcome: "Selamat datang ke Folksemantic."
+    welcome_message: "Kami bekerja secara aktif untuk mengintegrasikan OCWFinder dan OERRecommender menjadi satu situs untuk membantu Anda menemukan yang paling menarik dan relevan pendidikan."
+    welcome_user: "Selamat Datang {{user}}"
+    widgets_description: "Dapatkan widget untuk membantu pengguna <span class=\"highlight\">menemukan</span> sumber daya dan <span class=\"highlight\">sumber daya yang berkaitan dengan menemukan</span> orang di website Anda"
+    widgets_link: "Get Widget!"
+    xml: XML

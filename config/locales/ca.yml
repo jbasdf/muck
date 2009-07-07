@@ -20,7 +20,9 @@ ca:
   muck: 
     admin: 
       home: Inici
-      my_dashboard: "Meva Escriptori"
+      my_dashboard: "El meu Escriptori"
       permissions: Permisos
       themes: Temes
       users: Usuaris
+    contact_request: "Sol licitud de Contacte"
+    contact_thanks: "Gràcies per contactar amb nosaltres. Hem rebut el seu correu electrònic i es posarà en contacte en breu."

@@ -24,3 +24,5 @@ fr:
       permissions: Autorisations
       themes: Thèmes
       users: Utilisateurs
+    contact_request: "Demande de Contact"
+    contact_thanks: "Merci de nous contacter. Nous avons bien reçu votre e-mail et vous contacterons prochainement."

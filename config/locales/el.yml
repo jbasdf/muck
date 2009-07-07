@@ -24,3 +24,5 @@ el:
       permissions: Permissions
       themes: Θέματα
       users: Χρήστες
+    contact_request: "Αίτηση Επικοινωνία"
+    contact_thanks: "Ευχαριστούμε που επικοινωνήσατε μαζί μας. Λάβαμε το email σας και θα επικοινωνήσουμε σύντομα."

@@ -1,0 +1,28 @@
+--- 
+et: 
+  contact: 
+    contact_response_subject: "Täname kyselystäsi alates {{application_name}}!"
+    contact_us: Kontakt
+    email: "Sinu e-post:"
+    email_help: "Palun anna meile oma e-posti aadress, et saaksime Sinuga ühendust, kui vaja."
+    name: "Teie nimi:"
+    name_help: "Palun anna meile oma nimi."
+    phone: "Teie telefoninumber:"
+    phone_help: "Teie telefoninumber on kohustuslik, kuid aitab meil teiega, kui vaja."
+    question: "Teie teade / küsimus:"
+    question_help: "Palun sinna märkusi soovite kuulata."
+    subject: "Teema:"
+    subject_help: "Lihtne märge laadi tagasisidet."
+  general: 
+    delete_file: "Kustuta fail"
+    send: Saatma
+    thank_you_contact: "Täname sõnum. Liikme meeskond vastab Teile kiiresti."
+  muck: 
+    admin: 
+      home: Kodu
+      my_dashboard: "Minu Armatuurlaud"
+      permissions: Load
+      themes: Teemad
+      users: Kasutajad
+    contact_request: "Kontakt Hinnapäring"
+    contact_thanks: "Täname yhteydenotostasi. Saime Sinu e-posti ja võtab varsti."

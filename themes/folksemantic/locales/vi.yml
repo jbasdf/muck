@@ -3,10 +3,11 @@ vi:
   folksemantic: 
     all_resources: "Tất cả"
     atom: Atom
+    browse_resources: "Duyệt qua các tài nguyên"
     calculated: "tính toán"
     collections: "Bộ sưu tập"
     collections_long: "Bộ sưu tập đánh chỉ mục"
-    credits: "Phát triển bởi Tatemai tại <a href=\"http://cosl.usu.edu\">Trung tâm Học Mở và bền vững</a> với các nguồn tài trợ từ các <a href=\"http://nsf.gov/\">quốc gia Khoa học Foundation</a>"
+    credits: "Phát triển của <a href=\"http://cosl.usu.edu\">Trung tâm Học Mở và bền vững</a> với các nguồn tài trợ từ các <a href=\"http://nsf.gov/\">quốc gia Khoa học Foundation</a>"
     demo: Demo
     details: "Xem chi tiết"
     developers: "Người phát triển"
@@ -19,7 +20,6 @@ vi:
     metadata: "Siêu dữ liệu"
     next: "Tiếp theo"
     no_hits: "Không có lượt truy cập. Xin vui lòng thử một tìm kiếm khác hoặc chọn một ngôn ngữ khác nhau."
-    no_tags: "Không có thẻ nào được nêu ra có sẵn"
     of: của
     powered_by: "được hỗ trợ bởi"
     previous: "Trước đó"
@@ -35,11 +35,13 @@ vi:
     search_button: Đi
     search_description: "Tìm việc học của các nguồn lực <span class=\"highlight\">tìm kiếm</span> và <span class=\"highlight\">duyệt qua</span> hơn <span class=\"highlight\">110.000</span> giáo dục nguồn mở"
     search_link: "Tìm nguyên!"
-    tag_cloud_legend: "trình duyệt bằng cách sử dụng các nguồn lực thẻ"
     tag_line: "nâng cao vị thế nền giáo dục mở"
     title: Folksemantic
     tour: "Take a tour!"
     tour_description: "Xem <span class=\"highlight\">video giới thiệu</span> Folksemantic"
+    view_account: "Xem Tài khoản của bạn"
+    welcome: "Chào mừng bạn đến với Folksemantic."
+    welcome_message: "Chúng tôi đang tích cực làm việc để tích hợp OCWFinder và OERRecommender vào một trang web để giúp bạn tìm thấy những thú vị có liên quan giáo dục và nguồn lực."
     welcome_user: "Chào mừng các bạn {{user}}"
     widgets_description: "Nhận vật dụng để giúp người dùng <span class=\"highlight\">tìm kiếm</span> các nguồn lực <span class=\"highlight\">và</span> khám phá các <span class=\"highlight\">nguồn tài nguyên liên quan</span> đến những người thân trên trang web của bạn"
     widgets_link: "Nhận Widget!"
