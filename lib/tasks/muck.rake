@@ -240,6 +240,7 @@ namespace :muck do
   def git_commit(path, message)
     puts "*** pushing and commiting #{path} ***"
     repo = Git.open("#{path}")
+    puts repo.add('.')
     puts repo.commit(message) rescue 'nothing to commit'
     puts repo.pull
     puts repo.push
