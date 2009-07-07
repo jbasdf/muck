@@ -4,16 +4,20 @@
       <%= text_field_tag(:q, (@term_list.nil? || !@tag_filter.nil?) ? t('folksemantic.search') : URI.unescape(@term_list), :id => 'search-box', :onclick => 'insearch(this)', :onblur => 'outsearch(this)') %>
       <input class="input-button" type="submit" value="<%= t('folksemantic.search_button') %>"/>
       <div id="user-login">
+        <!--
         <select name="grain_size" <%= @refresh_results ? 'onchange="grainSize(this)"' : ''%>>
             <option value="unknown"><%= t('muck.raker.all_resources') %></option>
             <option value="course"><%= t('muck.raker.only_courses') %></option>
         </select>&nbsp;
+      -->
         <% if logged_in? -%>
           <%= link_to t('muck.users.sign_out_title'), logout_path %>
         <% else -%>
           <%= link_to t('muck.users.sign_up'), signup_path %> | <%= link_to t('muck.users.sign_in'), login_path %> 
         <% end -%>
+        <!--
         &nbsp;<img src="/images/folksemantic/flags/flag_<%= I18n.locale.to_s %>.png" id="current-locale-flag"/>
+      -->
       </div>
     <% end -%>
   </div>
