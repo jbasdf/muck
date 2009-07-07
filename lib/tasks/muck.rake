@@ -171,11 +171,11 @@ namespace :muck do
     # release_gem("#{projects_path}", "uploader")
     release_gem("#{projects_path}", "muck_engine")
     release_gem("#{projects_path}", "muck_users")
-    # release_gem("#{projects_path}", "muck_comments")
-    # release_gem("#{projects_path}", "muck_profiles")
+    release_gem("#{projects_path}", "muck_comments")
+    release_gem("#{projects_path}", "muck_profiles")
     release_gem("#{projects_path}", "muck_raker")
-#    release_gem("#{projects_path}", "muck_activities")
-#    release_gem("#{projects_path}", "muck_friends")
+    release_gem("#{projects_path}", "muck_activities")
+    release_gem("#{projects_path}", "muck_friends")
   end
   
   desc "Write muck gem versions into muck"
@@ -191,7 +191,7 @@ namespace :muck do
     write_new_gem_version("#{projects_path}", "muck_profiles")
     write_new_gem_version("#{projects_path}", "muck_raker")
     write_new_gem_version("#{projects_path}", "muck_activities")
-    #write_new_gem_version("#{projects_path}", "muck_friends")
+    write_new_gem_version("#{projects_path}", "muck_friends")
   end
     
   desc "commit gems after a release"
@@ -205,7 +205,7 @@ namespace :muck do
     git_commit("#{projects_path}/muck_raker", message)
 #    git_commit("#{projects_path}/acts_as_solr", message)
     git_commit("#{projects_path}/muck_activities", message)
-    #git_commit("#{projects_path}/muck_friends", message)
+    git_commit("#{projects_path}/muck_friends", message)
   end
   
   def release_gem(path, gem_name)
