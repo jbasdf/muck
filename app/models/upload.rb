@@ -51,7 +51,8 @@ class Upload < ActiveRecord::Base
   
   acts_as_taggable
   
-  named_scope :tagged_with, lambda {|tag_name| {:conditions => ["is_public = true AND tags.name = ?", tag_name], :include => :tags} }
+  named_scope :public, :conditions => "is_public = true"
+  named_scope :tagged_with, lambda {|tag_name| {:conditions => ["tags.name = ?", tag_name], :include => :tags} }
   
   # def after_create
     #  do add_activity

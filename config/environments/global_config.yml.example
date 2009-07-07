@@ -41,10 +41,13 @@ default: &DEFAULT
   # activity configuration
   enable_live_activity_updates: true              # Turns on polling inside the user's activity feed so they constantly get updates from the site
   live_activity_update_interval: 60               # Time between updates to live activity feed in seconds.  Setting this number to low can put quite a bit of strain on your site.
-  enable_activity_comments: true
+  enable_activity_comments: true                  # Turn on comments in the activity feed
   
   #theme configuration
   use_domain_for_themes: false                    # Setting for the disguise plugin.  Themes can be set in the admin UI or determined at run time by the domain name.
+
+  # Friend configuration
+  allow_following:  true   # If true then users can 'follow' each other.  If false then only friend requests will be used.
 
   # ssl
   enable_ssl: false                               # Turn on ssl if you have a certificate in place

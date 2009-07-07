@@ -39,7 +39,7 @@ class User < ActiveRecord::Base
   acts_as_muck_user
   has_muck_profile
   has_activities
-  #acts_as_muck_friend
+  acts_as_muck_friend
   acts_as_tagger
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
@@ -47,11 +47,6 @@ class User < ActiveRecord::Base
   def after_create
     content = I18n.t('muck.activities.joined_status', :name => self.full_name, :application_name => GlobalConfig.application_name)
     add_activity(self, self, self, 'status_update', '', content)
-  end
-  
-  # List of users to whom activities will be fed.
-  def feed_to
-    [self] # + self.friends
   end
   
   def can_upload?(check_user)
