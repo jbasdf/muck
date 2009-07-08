@@ -1,1 +1,0 @@
-<javascript>測試</javascript>

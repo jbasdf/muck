@@ -1,1 +1,0 @@
-<javascript> kiểm tra </javascript>
