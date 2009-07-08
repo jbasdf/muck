@@ -169,9 +169,9 @@ namespace :muck do
     # release_gem("#{projects_path}", "cms_lite")
     # release_gem("#{projects_path}", "disguise")
     # release_gem("#{projects_path}", "uploader")
-    release_gem("#{projects_path}", "muck_engine")
+    #release_gem("#{projects_path}", "muck_engine")
     release_gem("#{projects_path}", "muck_users")
-    release_gem("#{projects_path}", "muck_comments")
+    #release_gem("#{projects_path}", "muck_comments")
     release_gem("#{projects_path}", "muck_profiles")
     release_gem("#{projects_path}", "muck_raker")
     release_gem("#{projects_path}", "muck_activities")
@@ -198,9 +198,9 @@ namespace :muck do
   task :commit do
     message = "Released new gem"
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    git_commit("#{projects_path}/muck_engine", message)
+#    git_commit("#{projects_path}/muck_engine", message)
     git_commit("#{projects_path}/muck_users", message)
-    git_commit("#{projects_path}/muck_comments", message)
+ #   git_commit("#{projects_path}/muck_comments", message)
     git_commit("#{projects_path}/muck_profiles", message)
     git_commit("#{projects_path}/muck_raker", message)
 #    git_commit("#{projects_path}/acts_as_solr", message)

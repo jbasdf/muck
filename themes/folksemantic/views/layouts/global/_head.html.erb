@@ -20,3 +20,9 @@
 <%= javascript_tag %[var AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
 <%= yield :head -%>
 <link rel="shortcut icon" href="/images/folksemantic/favicon.ico" type="image/x-icon">
+
+
+<script type="text/javascript">
+var userflyHost = (("https:" == document.location.protocol) ? "https://secure.userfly.com" : "http://asset.userfly.com");
+document.write(unescape("%3Cscript src='" + userflyHost + "/users/28689/userfly.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
