@@ -94,3 +94,4 @@ form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:ab
 #registration h4{font-weight:bolder;}
 .availability{font-weight:bolder;}
 .right-tip #tip-header{background-image:url(/images/arrow_left.gif);left:-12px;height:23px;width:10px;top:-3px;}
+.centered{text-align:center;}
