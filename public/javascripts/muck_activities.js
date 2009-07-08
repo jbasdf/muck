@@ -83,7 +83,7 @@ function show_comment_box(obj){
 }
 
 function get_latest_activity_id(){
-  var activities = jQuery('#activity-feed-content').children('.activity-status-update');
+  var activities = jQuery('#activity-feed-content').children('.activity');
   if(activities.length > 0){
     return activities[0].id.replace('activity_', '');
   } else {
