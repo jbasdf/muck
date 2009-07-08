@@ -18,6 +18,8 @@ ca:
     send: Enviar
     thank_you_contact: "Gràcies pel seu missatge. Un membre del nostre equip et respondrà en breu."
   muck: 
+    activity_templates: 
+      welcome: Benvingut
     admin: 
       home: Inici
       my_dashboard: "El meu Escriptori"
@@ -26,3 +28,5 @@ ca:
       users: Usuaris
     contact_request: "Sol licitud de Contacte"
     contact_thanks: "Gràcies per contactar amb nosaltres. Hem rebut el seu correu electrònic i es posarà en contacte en breu."
+    user_greeting: "Hola {{user}},"
+    welcome_activity: "Benvingut a {{application_name}}."

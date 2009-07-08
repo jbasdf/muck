@@ -18,6 +18,8 @@ nl:
     send: Sturen
     thank_you_contact: "Dank u voor uw bericht. Een medewerker van ons team zal op korte termijn reageren."
   muck: 
+    activity_templates: 
+      welcome: Welkom
     admin: 
       home: Home
       my_dashboard: "Mijn dashboard"
@@ -26,3 +28,5 @@ nl:
       users: Gebruikers
     contact_request: "Contact Aanvraag"
     contact_thanks: "Bedankt dat u contact met ons op. We hebben uw e-mail en zal binnenkort contact met u opnemen."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Welkom bij {{application_name}}."

@@ -46,3 +46,5 @@ uk:
     widgets_description: "Отримати віджети, щоб допомогти користувачам <span class=\"highlight\">знайти</span> ресурси і <span class=\"highlight\">відкривати ресурси,</span> пов&#39;язані з них на ваш сайт"
     widgets_link: "Отримати Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Ласкаво просимо на {{application_name}}! Тут ви можете <a href='/resources'>безкоштовно відкрити освітніх ресурсів з усього світу.</a> Цікаве в <a href='/resources/search?q=lady+bugs'>леді помилки?</a> <a href='/resources/3909'>Як щодо навчання ресурсів з НАСА &quot;.</a>"

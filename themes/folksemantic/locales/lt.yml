@@ -46,3 +46,5 @@ lt:
     widgets_description: "Gauti raštai padėti vartotojams <span class=\"highlight\">rasti</span> išteklių ir <span class=\"highlight\">atrasti ištekliai, susiję</span> su jų į savo svetainę"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Sveiki atvykę į {{application_name}}! Čia galite <a href='/resources'>surasti laisvą švietimo išteklius iš viso pasaulio.</a> Įdomus <a href='/resources/search?q=lady+bugs'>panele klaidas?</a> <a href='/resources/3909'>Kaip apie mokymosi išteklių NASA?.</a>"

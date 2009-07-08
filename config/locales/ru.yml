@@ -18,6 +18,8 @@ ru:
     send: Отправлять
     thank_you_contact: "Спасибо за ваше сообщение. Один из членов нашей команды будет отвечать вам в ближайшее время."
   muck: 
+    activity_templates: 
+      welcome: "Добро пожаловать"
     admin: 
       home: Дом
       my_dashboard: "Моя панель инструментов"
@@ -26,3 +28,5 @@ ru:
       users: Пользователи
     contact_request: "Контакт Запрос"
     contact_thanks: "Благодарим за обращение к нам. Мы получили Ваше письмо и будет связаться в ближайшее время."
+    user_greeting: "Привет {{user}},"
+    welcome_activity: "Добро пожаловать на {{application_name}}."

@@ -18,6 +18,8 @@ tl:
     send: Ipadala
     thank_you_contact: "Salamat sa iyo para sa iyong mensahe. Ang isang miyembro ng aming team ay tumugon sa inyo maya-maya lamang."
   muck: 
+    activity_templates: 
+      welcome: "Maligayang pagdating"
     admin: 
       home: Bagay
       my_dashboard: "Aking Dashboard"
@@ -26,3 +28,5 @@ tl:
       users: Gumagamit
     contact_request: "Makipag-ugnayan sa Kahilingan"
     contact_thanks: "Salamat sa makipag-ugnayan sa amin. Natanggap namin ang iyong email at ang magiging in touch sa lalong madaling panahon."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Maligayang pagdating sa {{application_name}}."

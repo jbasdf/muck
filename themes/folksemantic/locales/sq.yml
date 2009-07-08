@@ -46,3 +46,5 @@ sq:
     widgets_description: "Get Widgets për të ndihmuar përdoruesit e burimeve dhe <span class=\"highlight\">të gjejnë burime të zbuloni</span> në <span class=\"highlight\">lidhje</span> me ato në faqen tuaj te internetit"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Mirë se vini në {{application_name}}! Këtu ju mund të <a href='/resources'>zbuloni falas arsimore burimeve nga e gjithë bota.</a> Interesting në <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Si rreth burimeve të të mësuarit nga NASA?.</a>"

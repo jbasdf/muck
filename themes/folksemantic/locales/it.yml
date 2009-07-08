@@ -34,7 +34,7 @@ it:
     search: ricerca
     search_button: Andare
     search_description: "Trova le risorse di apprendimento tramite la <span class=\"highlight\">ricerca</span> e la <span class=\"highlight\">navigazione</span> oltre <span class=\"highlight\">110.000</span> risorse educative aperte"
-    search_link: "Trova Risorse!"
+    search_link: "Risorse Trova!"
     tag_line: "aprire l&#39;istruzione che abilita"
     title: Folksemantic
     tour: "Seguite il tour!"
@@ -46,3 +46,5 @@ it:
     widgets_description: "Get widget per aiutare gli utenti a <span class=\"highlight\">trovare</span> risorse e <span class=\"highlight\">scoprire le risorse relative</span> a quelle sul tuo sito web"
     widgets_link: "Get Widget!"
     xml: XML
+  muck: 
+    welcome_activity: "Benvenuti a {{application_name}}! Qui potete <a href='/resources'>scoprire libera risorse educative provenienti da tutto il mondo.</a> Interessante in <a href='/resources/search?q=lady+bugs'>bug signora?</a> <a href='/resources/3909'>Cosa ne pensate di risorse per l&#39;apprendimento della NASA?.</a>"

@@ -18,6 +18,8 @@ fa:
     send: ارسال
     thank_you_contact: "با تشکر از ارسال پیام شما. یکی از اعضای تیم ما به شما در مدت کوتاهی پاسخ."
   muck: 
+    activity_templates: 
+      welcome: "خوش آمدید"
     admin: 
       home: "صفحه اصلی"
       my_dashboard: "داشبورد من"
@@ -26,3 +28,5 @@ fa:
       users: اعضا
     contact_request: "تماس با ما درخواست"
     contact_thanks: "تشکر برای تماس با ما. ایم دریافت ایمیل خود و در تماس خواهد شد به زودی."
+    user_greeting: "سلام {{user}}،"
+    welcome_activity: "خوش آمدید به {{application_name}}."

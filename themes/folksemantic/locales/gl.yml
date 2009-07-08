@@ -39,10 +39,12 @@ gl:
     title: Folksemantic
     tour: "Fai unha visita!"
     tour_description: "Assist a un <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">introdución</span> Folksemantic"
-    view_account: "Ver túa Conta"
+    view_account: "Ver a túa Conta"
     welcome: "Benvido a Folksemantic."
     welcome_message: "Estamos traballando activamente para integrar OCWFinder e OERRecommender nun sitio web para axudar a atopar os máis interesantes e relevantes recursos educativos."
     welcome_user: "Benvido {{user}}"
     widgets_description: "Recibir widgets recursos para axudar aos usuarios a <span class=\"highlight\">buscar</span> e <span class=\"highlight\">descubrir recursos relacionados</span> con aquelas no seu sitio"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Benvido a {{application_name}}! Aquí pode <a href='/resources'>descubrir libre recursos educacionais de todo o mundo.</a> Interesante no <a href='/resources/search?q=lady+bugs'>lady Bugs?</a> <a href='/resources/3909'>Como sobre recursos de aprendizaxe NASA?.</a>"

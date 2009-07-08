@@ -46,3 +46,5 @@ hu:
     widgets_description: "Get kütyü, hogy segítsen a felhasználóknak forrásokat <span class=\"highlight\">találni,</span> és <span class=\"highlight\">fedezze fel a forrásokat</span> is a weboldaladon"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Üdvözöljük a {{application_name}}! Itt lehet <a href='/resources'>felfedezni a szabad oktatási források a világ minden tájáról.</a> Érdekes a <a href='/resources/search?q=lady+bugs'>hölgy a hibákat?</a> <a href='/resources/3909'>Hogyan tanulást forrásokat NASA?.</a>"

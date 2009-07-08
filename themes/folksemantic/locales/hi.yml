@@ -15,7 +15,7 @@ hi:
     direct_link: "[सीधा लिंक]"
     for: "के लिए"
     gm_more_prompt: "अतिरिक्त संबंधित संसाधन"
-    gm_title: "सम्बन्धित संसाधन"
+    gm_title: "संबंधित संसाधन"
     just_ocws: पाठ्यक्रम
     metadata: Metadata
     next: अगला
@@ -27,9 +27,9 @@ hi:
     register_description: "साइन अप, समूह में शामिल है, और व्यक्तिगत <span class=\"highlight\">सिफारिशों को</span> प्राप्त करने के लिए आसानी से <span class=\"highlight\">ब्लॉग को प्रकाशित</span>"
     register_link: "साइन अप!"
     related_resources: "संबंधित संसाधन"
-    related_resources_title: "सम्बन्धित संसाधन"
+    related_resources_title: "संबंधित संसाधन"
     relevance: प्रासंगिकता
-    results: परिणामों
+    results: परिणाम
     rss: आरएसएस
     search: खोज
     search_button: जाना
@@ -46,3 +46,5 @@ hi:
     widgets_description: "विगेट्स प्राप्त उपयोगकर्ताओं संसाधन ढूँढ <span class=\"highlight\">और अपनी वेबसाइट</span> पर <span class=\"highlight\">अपने संसाधनों</span> से संबंधित खोजने में मदद करने के लिए"
     widgets_link: "Widgets जाओ!"
     xml: XML
+  muck: 
+    welcome_activity: "आपका स्वागत है {{application_name}}! करने के लिए यहाँ तुम इस <a href='/resources'>दुनिया के आसपास से मुक्त शैक्षिक संसाधनों की खोज कर सकते हैं.</a> नासा से महिला <a href='/resources/search?q=lady+bugs'>कीड़े में <a href='/resources/3909'>दिलचस्प?</a></a> <a href='/resources/3909'>कैसे के बारे में सीखने संसाधन?.</a>"

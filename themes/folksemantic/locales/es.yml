@@ -46,3 +46,5 @@ es:
     widgets_description: "Obtener artilugios para ayudar a los usuarios <span class=\"highlight\">descubrir</span> y <span class=\"highlight\">encontrar</span> recursos <span class=\"highlight\">relacionados</span> con los <span class=\"highlight\">recursos</span> en su sitio web"
     widgets_link: "Obtener Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Bienvenido a {{application_name}}! Aquí podrá <a href='/resources'>descubrir los recursos educativos libres de todo el mundo.</a> Interesante en <a href='/resources/search?q=lady+bugs'>dama errores?</a> <a href='/resources/3909'>¿Qué hay de los recursos de aprendizaje de la NASA?.</a>"

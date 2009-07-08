@@ -18,6 +18,8 @@ vi:
     send: Gửi
     thank_you_contact: "Cảm ơn bạn đã cho tin nhắn của bạn. Một thành viên của nhóm chúng tôi sẽ trả lời cho bạn trong thời gian ngắn."
   muck: 
+    activity_templates: 
+      welcome: "Chào mừng"
     admin: 
       home: "Gia đình"
       my_dashboard: "Bảng điều khiển của tôi"
@@ -26,3 +28,5 @@ vi:
       users: "Người sử dụng"
     contact_request: "Yêu cầu Liên hệ"
     contact_thanks: "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi đã nhận được email của bạn và sẽ được liên lạc sớm."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Chào mừng bạn đến với {{application_name}}."

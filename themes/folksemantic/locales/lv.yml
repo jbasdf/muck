@@ -46,3 +46,5 @@ lv:
     widgets_description: "Get preces, lai palīdzētu lietotājiem <span class=\"highlight\">atrast</span> resursu un <span class=\"highlight\">atrast resursus,</span> kas <span class=\"highlight\">saistīti</span> ar tiem, uz jūsu mājas lapā"
     widgets_link: "Get logrīki!"
     xml: XML
+  muck: 
+    welcome_activity: "Laipni lūgti {{application_name}}! Šeit var <a href='/resources'>atrast bezmaksas izglītības resursus no visas pasaules.</a> Interesanti, kas <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Kā par mācību resursiem no NASA?.</a>"

@@ -18,6 +18,8 @@ tr:
     send: Göndermek
     thank_you_contact: "İletiniz için teşekkür ederiz. Ekibimizin bir üyesi sizi kısa sürede yanıt vereceğiz."
   muck: 
+    activity_templates: 
+      welcome: "Hoş geldiniz"
     admin: 
       home: Ev
       my_dashboard: "My Dashboard"
@@ -26,3 +28,5 @@ tr:
       users: Kullanıcılar
     contact_request: "İletişim İstek"
     contact_thanks: "Bize ulaştığınız için teşekkür ederiz. Ve e-posta aldık temas yakında olacak."
+    user_greeting: "Merhaba {{user}},"
+    welcome_activity: "Hoşgeldiniz {{application_name}}."

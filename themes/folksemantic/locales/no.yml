@@ -47,3 +47,5 @@
     widgets_description: "Få ting til å hjelpe brukere med å <span class=\"highlight\">finne</span> ressurser og <span class=\"highlight\">finne ressurser knyttet</span> til seg på nettstedet"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>finne gratis pedagogiske ressurser fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>dame feil?</a> <a href='/resources/3909'>Hva med å lære ressurser fra NASA?.</a>"

@@ -18,6 +18,8 @@ ja:
     send: 送る
     thank_you_contact: あなたのメッセージをいただき、ありがとうございます。我々のチームのメンバーがすぐに対応いたします。
   muck: 
+    activity_templates: 
+      welcome: ようこそ
     admin: 
       home: 家
       my_dashboard: マイダッシュボード
@@ -26,3 +28,5 @@ ja:
       users: ユーザ
     contact_request: お問い合わせリクエスト
     contact_thanks: ご連絡いただきありがとうございます。また、お客様のメールを受信してすぐに連絡されます。
+    user_greeting: "こんにちは{{user}},"
+    welcome_activity: "ようこそ{{application_name}}."

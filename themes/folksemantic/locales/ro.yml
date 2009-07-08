@@ -46,3 +46,5 @@ ro:
     widgets_description: "Ia fleacuri, pentru a ajuta utilizatorii să <span class=\"highlight\">găsească</span> resurse şi de a <span class=\"highlight\">descoperi resurse legate</span> de cele de pe site-ul dvs."
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Bine ati venit la {{application_name}}! Aici puteti <a href='/resources'>descoperi gratuit resurse educaţionale din întreaga lume.</a> Interesant în <a href='/resources/search?q=lady+bugs'>doamnă de bug-uri?</a> <a href='/resources/3909'>Cum despre resurse de învăţare de la NASA?.</a>"

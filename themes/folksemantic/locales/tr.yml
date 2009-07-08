@@ -46,3 +46,5 @@ tr:
     widgets_description: "Aletler alın kullanıcılar kaynakları bulmak <span class=\"highlight\">ve web sitenizde kaynakları olanlarla</span> ilgili bulmalarına yardımcı olmak için"
     widgets_link: "Widgets alın!"
     xml: XML
+  muck: 
+    welcome_activity: "Hoşgeldiniz {{application_name}}! için Burada <a href='/resources'>dünyanın her yerinden ücretsiz eğitim kaynakları keşfetmek olabilir.</a> NASA gelen bayan <a href='/resources/search?q=lady+bugs'>hata içinde <a href='/resources/3909'>İlginç?</a></a> <a href='/resources/3909'>Nasıl öğrenme kaynakları?.</a>"

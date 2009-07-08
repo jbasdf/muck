@@ -18,6 +18,8 @@ hi:
     send: भेजना
     thank_you_contact: "अपने संदेश के लिए धन्यवाद. हमारी टीम के एक सदस्य को आप के लिए शीघ्र ही जवाब देंगे."
   muck: 
+    activity_templates: 
+      welcome: स्वागत
     admin: 
       home: घर
       my_dashboard: "मेरा डैशबोर्ड"
@@ -26,3 +28,5 @@ hi:
       users: Users
     contact_request: "संपर्क अनुरोध"
     contact_thanks: "हमसे संपर्क करने के लिए धन्यवाद. हम और अपना ईमेल मिला है संपर्क में जल्द ही हो जाएगा."
+    user_greeting: "हाय {{user}},"
+    welcome_activity: "स्वागत करने के लिए {{application_name}}."

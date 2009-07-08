@@ -18,6 +18,8 @@ sv:
     send: Skicka
     thank_you_contact: "Tack för ditt meddelande. En medlem i vårt team kommer att svara dig inom kort."
   muck: 
+    activity_templates: 
+      welcome: Välkommen
     admin: 
       home: Hemma
       my_dashboard: "My Dashboard"
@@ -26,3 +28,5 @@ sv:
       users: Användare
     contact_request: Kontaktbegäran
     contact_thanks: "Tack för att du kontaktar oss. Vi har tagit emot din e-post och kommer att vara i kontakt snart."
+    user_greeting: "Hej {{user}},"
+    welcome_activity: "Välkommen till {{application_name}}."

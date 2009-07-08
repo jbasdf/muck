@@ -46,3 +46,5 @@ cs:
     widgets_description: "Získejte widgety pomáhat uživatelům <span class=\"highlight\">najít</span> zdroje a <span class=\"highlight\">objevte zdroje související</span> s těmi na vašich webových stránkách"
     widgets_link: "Získejte Widgety!"
     xml: XML
+  muck: 
+    welcome_activity: "Vítejte na {{application_name}}! Zde si můžete <a href='/resources'>zdarma discover vzdělávacích zdrojů z celého světa.</a> Zajímavé v <a href='/resources/search?q=lady+bugs'>dámě chyby?</a> <a href='/resources/3909'>Jak o učení zdrojů z NASA?.</a>"

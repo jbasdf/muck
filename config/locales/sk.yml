@@ -18,6 +18,8 @@ sk:
     send: Poslať
     thank_you_contact: "Ďakujeme Vám za Vašu správu. Každý člen nášho tímu bude reagovať na vás v blízkej dobe."
   muck: 
+    activity_templates: 
+      welcome: Vitajte
     admin: 
       home: Domov
       my_dashboard: "My Dashboard"
@@ -26,3 +28,5 @@ sk:
       users: Užívatelia
     contact_request: "Kontakt Dopyt"
     contact_thanks: "Vďaka za nás kontaktovať. Dostali sme vašu e-mailovú adresu a budú v kontakte čoskoro."
+    user_greeting: "Ahoj {{user}},"
+    welcome_activity: "Vitajte na {{application_name}}."

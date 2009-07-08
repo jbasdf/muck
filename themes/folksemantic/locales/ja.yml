@@ -46,3 +46,5 @@ ja:
     widgets_description: "ウィジェットを入手し、ユーザーのリソース<span class=\"highlight\">を</span>見つけ、 <span class=\"highlight\">お客様のウェブサイト</span>上の<span class=\"highlight\">リソース</span>に関連する<span class=\"highlight\">もの</span>を発見するために"
     widgets_link: ウィジェットを入手！
     xml: XMLの
+  muck: 
+    welcome_activity: "{{application_name}}!へようこそここでは、 <a href='/resources'>世界中から無料の教育資源を発見することができます</a> 。 NASAからレディ<a href='/resources/search?q=lady+bugs'>バグの<a href='/resources/3909'>面白い</a></a> <a href='/resources/3909'>方法について学習資源</a> ？ 。"

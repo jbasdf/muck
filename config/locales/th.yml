@@ -18,6 +18,8 @@ th:
     send: ส่ง
     thank_you_contact: "ขอขอบคุณสำหรับข้อความของคุณ. สมาชิกของทีมงานเราจะตอบกลับในไม่ช้าคุณ."
   muck: 
+    activity_templates: 
+      welcome: ยินดีต้อนรับ
     admin: 
       home: บ้าน
       my_dashboard: แผงควบคุมของฉัน
@@ -26,3 +28,5 @@ th:
       users: ผู้ใช้
     contact_request: ติดต่อขอ
     contact_thanks: "ขอขอบคุณที่ติดต่อเรา. เราได้รับอีเมลของคุณและจะติดต่อเร็วๆนี้."
+    user_greeting: "สวัสดี {{user}},"
+    welcome_activity: "ยินดีต้อนรับสู่ {{application_name}}."

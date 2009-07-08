@@ -46,3 +46,5 @@ th:
     widgets_description: "รับเครื่องมือที่จะช่วยให้ผู้ใช้ <span class=\"highlight\">พบ</span> ทรัพยากรและ <span class=\"highlight\">พบทรัพยากรเกี่ยวกับ</span> ตัวในเว็บไซต์ของคุณ"
     widgets_link: รับเครื่องมือ!
     xml: "XML ที่"
+  muck: 
+    welcome_activity: "ยินดีต้อนรับสู่ {{application_name}}! ที่นี่คุณสามารถ <a href='/resources'>ค้นพบการศึกษาฟรีทรัพยากรจากทั่วโลก.</a> ที่น่าสนใจใน <a href='/resources/search?q=lady+bugs'>กุลสตรีโรคจิต?</a> <a href='/resources/3909'>วิธีการเรียนรู้เกี่ยวกับทรัพยากรจากนาซา?.</a>"

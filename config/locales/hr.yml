@@ -18,6 +18,8 @@ hr:
     send: Slati
     thank_you_contact: "Hvala ti za poruku. Član našeg tima će vam odgovoriti uskoro."
   muck: 
+    activity_templates: 
+      welcome: "Dobro došli"
     admin: 
       home: "Početna stranica"
       my_dashboard: "Moj Nadzorna ploča"
@@ -26,3 +28,5 @@ hr:
       users: Korisnici
     contact_request: "Kontakt Upit"
     contact_thanks: "Hvala što nas kontaktirate. Primili smo vašu e-mail, te će biti u kontaktu uskoro."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Dobrodošli na {{application_name}}."

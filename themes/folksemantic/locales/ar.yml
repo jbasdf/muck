@@ -46,3 +46,5 @@ ar:
     widgets_description: "الحصول على الحاجيات لمساعدة المستخدمين على <span class=\"highlight\">إيجاد</span> الموارد <span class=\"highlight\">واكتشاف الموارد المتصلة</span> منها على موقع الويب الخاص بك"
     widgets_link: "الحصول على القطع!"
     xml: XML
+  muck: 
+    welcome_activity: "مرحبا بكم في {{application_name}}! هنا يمكنك <a href='/resources'>اكتشاف موارد تعليمية خالية من جميع أنحاء العالم.</a> للاهتمام في <a href='/resources/search?q=lady+bugs'>سيدة البق؟</a> <a href='/resources/3909'>ماذا عن الموارد التعليمية من وكالة ناسا؟.</a>"

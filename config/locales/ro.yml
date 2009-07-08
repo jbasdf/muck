@@ -18,6 +18,8 @@ ro:
     send: Trimite
     thank_you_contact: "Vă mulţumim pentru mesaj. Un membru al echipei noastre vă va răspunde la scurt timp."
   muck: 
+    activity_templates: 
+      welcome: "Bun venit"
     admin: 
       home: Acasă
       my_dashboard: "Tabloul de bord meu"
@@ -26,3 +28,5 @@ ro:
       users: Utilizatorii
     contact_request: "Contact Cerere de"
     contact_thanks: "Vă mulţumim pentru a ne contacta. Am primit cererea dvs. de e-mail şi se va atinge în curând."
+    user_greeting: "Max {{user}},"
+    welcome_activity: "Bine ati venit la {{application_name}}."

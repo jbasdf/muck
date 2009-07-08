@@ -18,6 +18,8 @@ lt:
     send: Siųsti
     thank_you_contact: "Dėkojame už pranešimą. Narys mūsų komandai bus atsakyti jums netrukus."
   muck: 
+    activity_templates: 
+      welcome: "Sveiki atvykę"
     admin: 
       home: Namai
       my_dashboard: "Mano Įrankinė"
@@ -26,3 +28,5 @@ lt:
       users: Vartotojai
     contact_request: "Kontaktai Užklausa"
     contact_thanks: "Dėkojame už susisiekti su mumis. Mes gavome jūsų laišką ir bus susisiekti greičiau."
+    user_greeting: "Max {{user}},"
+    welcome_activity: "Sveiki atvykę į {{application_name}}."

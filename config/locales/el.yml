@@ -18,6 +18,8 @@ el:
     send: Αποστέλω
     thank_you_contact: "Σας ευχαριστούμε για το μήνυμά σας. Ένα μέλος της ομάδας μας θα σας απαντήσουμε πολύ σύντομα."
   muck: 
+    activity_templates: 
+      welcome: "Καλώς ορίσατε"
     admin: 
       home: Σπίτι
       my_dashboard: "Το ταμπλό"
@@ -26,3 +28,5 @@ el:
       users: Χρήστες
     contact_request: "Αίτηση Επικοινωνία"
     contact_thanks: "Ευχαριστούμε που επικοινωνήσατε μαζί μας. Λάβαμε το email σας και θα επικοινωνήσουμε σύντομα."
+    user_greeting: "Γεια {{user}},"
+    welcome_activity: "Καλώς ήλθατε στο {{application_name}}."

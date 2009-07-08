@@ -18,6 +18,8 @@ et:
     send: Saatma
     thank_you_contact: "Täname sõnum. Liikme meeskond vastab Teile kiiresti."
   muck: 
+    activity_templates: 
+      welcome: "Tere tulemast"
     admin: 
       home: Kodu
       my_dashboard: "Minu Armatuurlaud"
@@ -26,3 +28,5 @@ et:
       users: Kasutajad
     contact_request: "Kontakt Hinnapäring"
     contact_thanks: "Täname yhteydenotostasi. Saime Sinu e-posti ja võtab varsti."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Tere tulemast {{application_name}}."

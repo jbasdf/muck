@@ -18,6 +18,8 @@ ko:
     send: 보내기
     thank_you_contact: "귀하의 메시지를 보내주셔서 감사합니다. 우리 팀의 한 일원 당신에게 곧 답변해 드리겠습니다."
   muck: 
+    activity_templates: 
+      welcome: 환영
     admin: 
       home: 집
       my_dashboard: "내 대시보드"
@@ -26,3 +28,5 @@ ko:
       users: 사용자
     contact_request: "문의 신청"
     contact_thanks: "문의해 주셔서 감사합니다. 우리는 귀하의 이메일을받은 적이 터치에 곧 도착할 것입니다."
+    user_greeting: "안녕하세요 {{user}},"
+    welcome_activity: "{{application_name}}.에 오신 것을 환영합니다"

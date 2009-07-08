@@ -18,6 +18,8 @@ hu:
     send: Elküld
     thank_you_contact: "Thank you for your message. A csapat tagja válaszol neked hamarosan."
   muck: 
+    activity_templates: 
+      welcome: Üdvözlöm
     admin: 
       home: Otthon
       my_dashboard: "Saját Beállítópult"
@@ -26,3 +28,5 @@ hu:
       users: Felhasználók
     contact_request: "Kapcsolat Ajánlatkérés"
     contact_thanks: "Köszönjük, hogy kapcsolatba velünk. Megérkezett az e-mail és azt a kapcsolatot hamarosan."
+    user_greeting: "Szia {{user}},"
+    welcome_activity: "Üdvözöljük a {{application_name}}."

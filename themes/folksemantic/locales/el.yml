@@ -46,3 +46,5 @@ el:
     widgets_description: "Λάβετε widgets για να βοηθήσει τους χρήστες να <span class=\"highlight\">βρουν</span> πόρους και να <span class=\"highlight\">ανακαλύψουν πόρους</span> που <span class=\"highlight\">σχετίζονται</span> με αυτές στην ιστοσελίδα σας"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Καλώς ήλθατε στο {{application_name}}! Εδώ μπορείτε να <a href='/resources'>ανακαλύψετε δωρεάν εκπαιδευτικών πόρων από όλο τον κόσμο.</a> Ενδιαφέρουσες στην <a href='/resources/search?q=lady+bugs'>κυρία σφάλματα;</a> <a href='/resources/3909'>Τι λέτε για μάθηση μέσα από τη NASA;.</a>"

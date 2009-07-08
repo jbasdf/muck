@@ -46,3 +46,5 @@ fi:
     widgets_description: "Hanki widgets auttaa käyttäjiä <span class=\"highlight\">löytämään</span> voimavaroja ja <span class=\"highlight\">löytää resursseja liittyvät</span> niistä sivustossasi"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Tervetuloa {{application_name}}! Täällä voit <a href='/resources'>tutustua ilmaiseksi koulutusresurssit ympäri maailmaa.</a> Kiinnostavia <a href='/resources/search?q=lady+bugs'>draughts vikoja?</a> <a href='/resources/3909'>Entä oppimisresursseja NASA?.</a>"

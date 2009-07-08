@@ -18,6 +18,8 @@ iw:
     send: לשלוח
     thank_you_contact: "אנו מודים לך על ההודעה. אחד מאנשי הצוות נגיב לך בקרוב."
   muck: 
+    activity_templates: 
+      welcome: "ברוך הבא"
     admin: 
       home: בית
       my_dashboard: "לוח המחוונים שלי"
@@ -26,3 +28,5 @@ iw:
       users: משתמשים
     contact_request: "צור בקשה"
     contact_thanks: "תודה על יצירת קשר איתנו. קיבלנו את הדוא&quot;ל שלך יהיה על קשר בהקדם."
+    user_greeting: "היי {{user}},"
+    welcome_activity: "ברוכים הבאים {{application_name}}."

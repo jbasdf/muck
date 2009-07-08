@@ -46,3 +46,5 @@ ko:
     widgets_description: "! 사용자의 리소스를 찾을 <span class=\"highlight\">위젯과</span> 관련하여 <span class=\"highlight\">귀하의 웹사이트에 자원 것들을</span> 발견할 수 있도록"
     widgets_link: 위젯!
     xml: XML을
+  muck: 
+    welcome_activity: "{{application_name}}!에 오신 것을 환영합니다 여기서 여러분은 <a href='/resources'>세계 각국에서 무료 교육 자원을 발견할 수있습니다.</a> NASA에서 숙녀 <a href='/resources/search?q=lady+bugs'>버그에 <a href='/resources/3909'>흥미?</a></a> <a href='/resources/3909'>방법에 대한 자세한 내용은 리소스?.</a>"

@@ -46,3 +46,5 @@ id:
     widgets_description: "Dapatkan widget untuk membantu pengguna <span class=\"highlight\">menemukan</span> sumber daya dan <span class=\"highlight\">sumber daya yang berkaitan dengan menemukan</span> orang di website Anda"
     widgets_link: "Get Widget!"
     xml: XML
+  muck: 
+    welcome_activity: "Selamat datang ke {{application_name}}! Di sini Anda dapat <a href='/resources'>menemukan sumber daya pendidikan gratis dari seluruh dunia.</a> Menarik di <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Bagaimana belajar dari NASA?.</a>"

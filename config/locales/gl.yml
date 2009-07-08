@@ -18,6 +18,8 @@ gl:
     send: Enviar
     thank_you_contact: "Grazas pola súa mensaxe. Un membro da nosa equipa debería responder en breve."
   muck: 
+    activity_templates: 
+      welcome: Benvido
     admin: 
       home: Fogar
       my_dashboard: "Meu panel"
@@ -26,3 +28,5 @@ gl:
       users: Usuarios
     contact_request: "Proposta de Contacto"
     contact_thanks: "Grazas por nos contacto. Recibimos o seu correo e será en contacto en breve."
+    user_greeting: "Ola {{user}},"
+    welcome_activity: "Benvido a {{application_name}}."

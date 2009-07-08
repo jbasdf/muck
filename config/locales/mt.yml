@@ -18,6 +18,8 @@ mt:
     send: Ibgħat
     thank_you_contact: "Grazzi għall-messaġġ tiegħek. A ta &#39;membru tat-tim tagħna se tirrispondi lilek dalwaqt."
   muck: 
+    activity_templates: 
+      welcome: Merħba
     admin: 
       home: Dar
       my_dashboard: "My Dashboard"
@@ -26,3 +28,5 @@ mt:
       users: Users
     contact_request: "Kuntatt Talba"
     contact_thanks: "Grazzi għall-ikkuntattjar us. Imxejna rċeviet email tiegħek u se jiġu f&#39;kuntatt dalwaqt."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Merħba għall {{application_name}}."

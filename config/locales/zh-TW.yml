@@ -18,6 +18,8 @@ zh-TW:
     send: 發送
     thank_you_contact: 感謝您的來信。我們的小組成員將在近期內與您聯絡。
   muck: 
+    activity_templates: 
+      welcome: 歡迎
     admin: 
       home: 家
       my_dashboard: 我的控制台
@@ -26,3 +28,5 @@ zh-TW:
       users: 用戶
     contact_request: 聯繫索取
     contact_thanks: 感謝您與我們聯繫。我們已經收到您的電子郵件地址和聯繫將很快。
+    user_greeting: "您好{{user}},"
+    welcome_activity: "歡迎{{application_name}}."

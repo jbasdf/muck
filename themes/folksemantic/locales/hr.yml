@@ -46,3 +46,5 @@ hr:
     widgets_description: "Get widgets pomoći korisnicima <span class=\"highlight\">pronaći</span> resurse i <span class=\"highlight\">otkrijte resursa vezanih</span> za one na Vašoj web lokaciji"
     widgets_link: "Get Sprave!"
     xml: XML
+  muck: 
+    welcome_activity: "Dobrodošli na {{application_name}}! Ovdje možete <a href='/resources'>besplatno otkriju obrazovne resurse iz cijelog svijeta.</a> Zanimljive u <a href='/resources/search?q=lady+bugs'>damu bugovi?</a> <a href='/resources/3909'>Kako o učenju resurse iz NASA-e?.</a>"

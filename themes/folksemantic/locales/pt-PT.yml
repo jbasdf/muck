@@ -46,3 +46,5 @@ pt-PT:
     widgets_description: "Receba widgets recursos para ajudar os usuários a <span class=\"highlight\">encontrar</span> e <span class=\"highlight\">descobrir recursos relacionados</span> com aquelas em seu site"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Bem-vindo ao {{application_name}}! Aqui você pode <a href='/resources'>descobrir livre recursos educacionais de todo o mundo.</a> Interessante no <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Como sobre recursos de aprendizagem NASA?.</a>"

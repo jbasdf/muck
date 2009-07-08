@@ -46,3 +46,5 @@ pl:
     widgets_description: "Pobierz widgety ułatwiające użytkownikom <span class=\"highlight\">znaleźć</span> i <span class=\"highlight\">odkryć</span> zasoby <span class=\"highlight\">zasoby związane</span> z nich na swojej stronie internetowej"
     widgets_link: "Pobierz gadżety!"
     xml: XML
+  muck: 
+    welcome_activity: "Zapraszamy do {{application_name}}! Tutaj możesz <a href='/resources'>odkryć wolne zasoby edukacyjne z całego świata.</a> Ciekawe w <a href='/resources/search?q=lady+bugs'>lady bugów?</a> <a href='/resources/3909'>Jak na temat nauki z NASA?.</a>"

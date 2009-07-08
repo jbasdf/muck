@@ -18,6 +18,8 @@ da:
     send: Sende
     thank_you_contact: "Tak for din besked. Et medlem af vores team vil svare dig snarest."
   muck: 
+    activity_templates: 
+      welcome: Velkommen
     admin: 
       home: Hjem
       my_dashboard: "Min Dashboard"
@@ -26,3 +28,5 @@ da:
       users: Brugere
     contact_request: "Kontakt Anmodning"
     contact_thanks: "Tak for at kontakte os. Vi har modtaget din e-mail og vil blive kontaktet snarest."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Velkommen til {{application_name}}."

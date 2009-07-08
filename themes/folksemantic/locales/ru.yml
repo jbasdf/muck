@@ -46,3 +46,5 @@ ru:
     widgets_description: "Получить виджеты, чтобы помочь пользователям <span class=\"highlight\">найти</span> ресурсы и <span class=\"highlight\">открывать ресурсы, связанные</span> с них на ваш сайт"
     widgets_link: "Получить Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Добро пожаловать на {{application_name}}! Здесь вы можете <a href='/resources'>бесплатно открыть образовательных ресурсов со всего мира.</a> Интересное в <a href='/resources/search?q=lady+bugs'>леди ошибки?</a> <a href='/resources/3909'>Как насчет обучения ресурсов из НАСА?.</a>"

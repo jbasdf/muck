@@ -18,6 +18,8 @@ fi:
     send: Lähettää
     thank_you_contact: "Kiitos viestistäsi. Jäsenen tiimimme Vastaamme sinulle pian."
   muck: 
+    activity_templates: 
+      welcome: Tervetuloa
     admin: 
       home: Koti
       my_dashboard: "Oma Dashboard"
@@ -26,3 +28,5 @@ fi:
       users: Käyttäjät
     contact_request: Yhteydenottopyyntö
     contact_thanks: "Kiitos yhteydenotostasi. Olemme vastaanottaneet sähköpostiviestisi, ja se on kosketuksissa pian."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Tervetuloa {{application_name}}."

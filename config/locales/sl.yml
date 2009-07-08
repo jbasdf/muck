@@ -18,6 +18,8 @@ sl:
     send: Poslati
     thank_you_contact: "Hvala za vaše sporočilo. Član naše ekipe, da vam bomo odgovorili v kratkem."
   muck: 
+    activity_templates: 
+      welcome: Dobrodošli
     admin: 
       home: Domov
       my_dashboard: "Moja tabla"
@@ -26,3 +28,5 @@ sl:
       users: Uporabniki
     contact_request: "Kontakt Zahteva"
     contact_thanks: "Hvala, ker nas kontaktirate. Prejeli smo vašo e-pošto in bo v kratkem stiku."
+    user_greeting: "Zdravo {{user}},"
+    welcome_activity: "Dobrodošli na {{application_name}}."

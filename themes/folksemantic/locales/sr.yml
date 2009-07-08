@@ -46,3 +46,5 @@ sr:
     widgets_description: "Гет уидгетс помоћи корисницима <span class=\"highlight\">пронаћи</span> ресурсе и <span class=\"highlight\">откријте ресурса везаних</span> за оне на вашој веб локацији"
     widgets_link: "Гет Гаџети!"
     xml: КСМЛ
+  muck: 
+    welcome_activity: "Добродошли на {{application_name}}! Овде можете <a href='/resources'>бесплатно открију образовне ресурсе из целог света.</a> Занимљиве у <a href='/resources/search?q=lady+bugs'>даму бугова?</a> <a href='/resources/3909'>Како о учењу ресурсе из НАСА-е?.</a>"

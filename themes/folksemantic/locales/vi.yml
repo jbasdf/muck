@@ -46,3 +46,5 @@ vi:
     widgets_description: "Nhận vật dụng để giúp người dùng <span class=\"highlight\">tìm kiếm</span> các nguồn lực <span class=\"highlight\">và</span> khám phá các <span class=\"highlight\">nguồn tài nguyên liên quan</span> đến những người thân trên trang web của bạn"
     widgets_link: "Nhận Widget!"
     xml: XML
+  muck: 
+    welcome_activity: "Chào mừng bạn đến với {{application_name}}! Ở đây bạn có thể <a href='/resources'>khám phá giáo dục miễn phí các nguồn lực từ khắp nơi trên thế giới.</a> Thú vị trong <a href='/resources/search?q=lady+bugs'>lady lỗi?</a> <a href='/resources/3909'>Học như thế nào về các nguồn lực từ NASA?.</a>"

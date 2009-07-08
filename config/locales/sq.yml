@@ -18,6 +18,8 @@ sq:
     send: Dërgoj
     thank_you_contact: "Faleminderit për mesazhin tuaj. Një anëtar i ekipit tonë ju do të përgjigjet për të së shpejti."
   muck: 
+    activity_templates: 
+      welcome: Mirësevini
     admin: 
       home: Shtëpi
       my_dashboard: "My Dashboard"
@@ -26,3 +28,5 @@ sq:
       users: Përdorues
     contact_request: "Kontakt Kërkesë"
     contact_thanks: "Thanks for kontaktuar me ne. Ne e kemi marr e email-it tuaj dhe do të jetë në kontakt së shpejti."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Mirë se vini në {{application_name}}."

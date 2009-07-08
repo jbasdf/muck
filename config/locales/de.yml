@@ -18,6 +18,8 @@ de:
     send: Senden
     thank_you_contact: "Vielen Dank für Ihre Nachricht. Ein Mitglied unseres Teams wird sich in Kürze bei Ihnen."
   muck: 
+    activity_templates: 
+      welcome: Willkommen
     admin: 
       home: Heim
       my_dashboard: "My Dashboard"
@@ -26,3 +28,5 @@ de:
       users: Benutzer
     contact_request: "Kontakt Anfrage"
     contact_thanks: "Vielen Dank, dass Sie uns kontaktieren. Wir haben Ihre E-Mail und wird bald in Kontakt."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Willkommen in {{application_name}}."

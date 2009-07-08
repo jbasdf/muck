@@ -46,3 +46,5 @@ bg:
     widgets_description: "Махни джунджурии да помогне на потребителите <span class=\"highlight\">да намират</span> средства <span class=\"highlight\">и</span> открийте <span class=\"highlight\">ресурси, свързани</span> с тези на вашия сайт"
     widgets_link: "Махни Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Добре дошли в {{application_name}}! Тук може да се <a href='/resources'>открият свободни образователни ресурси от цял свят.</a> Интересно в <a href='/resources/search?q=lady+bugs'>дама буболечки?</a> <a href='/resources/3909'>Какво ще кажеш за учебни ресурси от НАСА?.</a>"

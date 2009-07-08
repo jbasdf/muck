@@ -27,3 +27,5 @@ en:
       permissions: Permissions
       themes: Themes
       my_dashboard: My Dashboard
+    activity_templates:
+      welcome: "Welcome"

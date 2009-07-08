@@ -46,3 +46,5 @@ sv:
     widgets_description: "Få prylar för att hjälpa användarna <span class=\"highlight\">att hitta</span> resurser och <span class=\"highlight\">hitta resurser som</span> är förknippade med dem på din webbplats"
     widgets_link: "Få Manicker!"
     xml: XML
+  muck: 
+    welcome_activity: "Välkommen till {{application_name}}! Här kan du <a href='/resources'>hitta gratis pedagogiska resurser från hela världen.</a> Intressant i <a href='/resources/search?q=lady+bugs'>dam fel?</a> <a href='/resources/3909'>Hur är inlärningsresurser från NASA?.</a>"

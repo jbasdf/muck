@@ -46,3 +46,5 @@ ca:
     widgets_description: "Obtenir artefactes per ajudar els usuaris <span class=\"highlight\">descobrir</span> i <span class=\"highlight\">trobar</span> recursos <span class=\"highlight\">relacionats</span> amb els <span class=\"highlight\">recursos</span> al seu lloc web"
     widgets_link: "Obtenir Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Benvingut a {{application_name}}! Aquí podreu <a href='/resources'>descobrir els recursos educatius lliures de tot el món.</a> Interessant en <a href='/resources/search?q=lady+bugs'>dama errors?</a> <a href='/resources/3909'>Què hi ha dels recursos d&#39;aprenentatge de la NASA?.</a>"

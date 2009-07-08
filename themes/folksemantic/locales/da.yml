@@ -46,3 +46,5 @@ da:
     widgets_description: "Få widgets at hjælpe brugerne med at <span class=\"highlight\">finde</span> ressourcer og <span class=\"highlight\">opdage ressourcer i forbindelse</span> med dem på din hjemmeside"
     widgets_link: "Få Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>opdage fri uddannelsesmæssige ressourcer fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>How about learning ressourcer fra NASA?.</a>"

@@ -18,6 +18,8 @@ lv:
     send: Sūtīt
     thank_you_contact: "Paldies par ziņu. Loceklis, mūsu komanda atbildēt ar jums drīz."
   muck: 
+    activity_templates: 
+      welcome: "Laipni lūdzam"
     admin: 
       home: Mājas
       my_dashboard: "Mani Dashboard"
@@ -26,3 +28,5 @@ lv:
       users: Lietotāji
     contact_request: "Kontakti Pieprasījums"
     contact_thanks: "Paldies par sazināšanos ar mums. Mēs esam saņēmuši jūsu e-pasta adresi un būs touch drīz."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Laipni lūgti {{application_name}}."

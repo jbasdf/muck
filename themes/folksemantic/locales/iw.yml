@@ -46,3 +46,5 @@ iw:
     widgets_description: "קבל יישומונים לעזור למשתמשים <span class=\"highlight\">למצוא</span> משאבים <span class=\"highlight\">משאבים קשורים</span> כדי <span class=\"highlight\">לגלות</span> אלו באתר האינטרנט שלך"
     widgets_link: "קבל יישומונים!"
     xml: XML
+  muck: 
+    welcome_activity: "ברוכים הבאים {{application_name}}! כאן אתה יכול <a href='/resources'>לגלות חופשי משאבים חינוכיים מכל רחבי העולם.</a> מעניין על <a href='/resources/search?q=lady+bugs'>באגים גברת?</a> <a href='/resources/3909'>מה לגבי משאבי למידה מ NASA?.</a>"

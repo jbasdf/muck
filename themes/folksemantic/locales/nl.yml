@@ -46,3 +46,5 @@ nl:
     widgets_description: "Get widgets te helpen gebruikers bij het <span class=\"highlight\">vinden van</span> middelen en <span class=\"highlight\">ontdek</span> welke <span class=\"highlight\">middelen</span> in <span class=\"highlight\">verband</span> met de op uw website"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Welkom bij {{application_name}}! Hier kunt u <a href='/resources'>ontdekken vrije educatieve middelen uit de hele wereld.</a> Interessant <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>Hoe leren over de middelen van de NASA?.</a>"

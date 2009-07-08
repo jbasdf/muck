@@ -46,3 +46,5 @@ sl:
     widgets_description: "Get toinono pomaga uporabnikom <span class=\"highlight\">najti</span> sredstva in <span class=\"highlight\">odkrijte vire, povezane</span> s tistimi, na vaši spletni strani"
     widgets_link: "Get Pripomočki!"
     xml: XML
+  muck: 
+    welcome_activity: "Dobrodošli na {{application_name}}! Tukaj lahko <a href='/resources'>odkrijete prosti izobraževalnih virov po vsem svetu.</a> Zanimiva <a href='/resources/search?q=lady+bugs'>gospa bugova?</a> <a href='/resources/3909'>Kaj učnih virov iz NASA?.</a>"

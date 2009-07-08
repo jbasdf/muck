@@ -18,6 +18,8 @@ uk:
     send: Відправляти
     thank_you_contact: "Спасибо за ваше повідомлення. Один з членів нашої команди буде відповідати вам найближчим часом."
   muck: 
+    activity_templates: 
+      welcome: "Ласкаво просимо"
     admin: 
       home: Будинок
       my_dashboard: "Моя панель інструментів"
@@ -26,3 +28,5 @@ uk:
       users: Користувачі
     contact_request: "Контакт Запит"
     contact_thanks: "Дякуємо за звернення до нас. Ми отримали Ваш лист і буде зв&#39;язатися найближчим часом."
+    user_greeting: "Привіт {{user}},"
+    welcome_activity: "Ласкаво просимо на {{application_name}}."

@@ -46,3 +46,5 @@ fa:
     widgets_description: "دریافت widgets برای کمک به کاربران <span class=\"highlight\">پیدا کردن</span> منابع و <span class=\"highlight\">کشف منابع مربوط</span> به آنهایی را در سایت خود"
     widgets_link: "Widgets کنید!"
     xml: XML
+  muck: 
+    welcome_activity: "خوش آمدید به {{application_name}}! در اینجا شما می توانید <a href='/resources'>از منابع آموزشی رایگان از سراسر جهان</a> کشف. جالب در <a href='/resources/search?q=lady+bugs'>اشکالات بانوی؟</a> <a href='/resources/3909'>چگونه در مورد منابع یادگیری از ناسا؟</a>"

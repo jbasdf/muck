@@ -46,3 +46,5 @@ zh-TW:
     widgets_description: "獲取工具，以幫助用戶<span class=\"highlight\">找到</span>的資源和<span class=\"highlight\">發現有關</span>的<span class=\"highlight\">資源</span>的在您的網站"
     widgets_link: 獲取組件！
     xml: XML的
+  muck: 
+    welcome_activity: "歡迎{{application_name}}!在這裡您可以<a href='/resources'>找到免費的教育資源來自世界各地</a> 。有趣的<a href='/resources/search?q=lady+bugs'>夫人錯誤</a> ？ <a href='/resources/3909'>如何從美國宇航局的學習資源</a> ？ 。"

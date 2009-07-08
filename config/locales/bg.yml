@@ -18,6 +18,8 @@ bg:
     send: Изпращам
     thank_you_contact: "Благодаря Ви за Вашето съобщение. Всеки член на нашия екип ще отговори на вас скоро."
   muck: 
+    activity_templates: 
+      welcome: "Добре дошли"
     admin: 
       home: Дом
       my_dashboard: "Моето Табло"
@@ -25,4 +27,6 @@ bg:
       themes: Палитри
       users: Потребители
     contact_request: "Искане за контакти"
-    contact_thanks: "Благодаря, че се свързахте с нас. Ние сме получили вашия имейл и ще се обадя веднага."
+    contact_thanks: "Благодаря, че се свързахте с нас. Сме получили вашия имейл и ще се обадя веднага."
+    user_greeting: "Здравей {{user}},"
+    welcome_activity: "Добре дошли в {{application_name}}."

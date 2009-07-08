@@ -46,3 +46,5 @@ et:
     widgets_description: "Get vekottimet aidata kasutajatel <span class=\"highlight\">leida</span> vahendeid ja <span class=\"highlight\">leida ressursid,</span> mis on <span class=\"highlight\">seotud</span> ka oma veebilehel"
     widgets_link: "Get Vidinad!"
     xml: XML
+  muck: 
+    welcome_activity: "Tere tulemast {{application_name}}! Siin saab <a href='/resources'>leida vaba haridusvõimalused üle maailma.</a> Huvitav <a href='/resources/search?q=lady+bugs'>daam Bugs?</a> <a href='/resources/3909'>Kuidas õppe vahendeid NASA?.</a>"

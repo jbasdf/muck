@@ -46,3 +46,5 @@ mt:
     widgets_description: "Get widgets biex jgħinu lill-utenti <span class=\"highlight\">jsibu</span> riżorsi u <span class=\"highlight\">jiskopru riżorsi relatati ma</span> &#39;dawk fuq il-website tiegħek"
     widgets_link: "Get Widgets!"
     xml: XML
+  muck: 
+    welcome_activity: "Merħba għall {{application_name}}! Hawnhekk tista <a href='/resources'>&#39;tiskopri ħielsa riżorsi edukattivi minn madwar id-dinja.</a> Interessanti <a href='/resources/search?q=lady+bugs'>mara bugs?</a> <a href='/resources/3909'>Kif dwar riżorsi ta &#39;tagħlim minn NASA?.</a>"
