@@ -44,9 +44,8 @@ class User < ActiveRecord::Base
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   
-  def after_create
-    content = I18n.t('muck.welcome_activity', :application_name => GlobalConfig.application_name)
-    add_activity(self, self, self, 'welcome', '', content)
+  def after_save
+    add_activity(self, self, self, 'welcome', '', '')
     content = I18n.t('muck.activities.joined_status', :name => self.full_name, :application_name => GlobalConfig.application_name)
     add_activity(self, self, self, 'status_update', '', content)
   end

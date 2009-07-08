@@ -1,6 +1,6 @@
 <div class="activity welcome_activity delete-container" id="<%= activity.dom_id %>">
   <div class="activity-content">
     <p><span class="actor"><%= t('muck.user_greeting', :user => link_to(activity.source.display_name, activity.source)) %></span></p>
-    <p><%= activity.content %></p>
+    <p><%= t('muck.welcome_activity', :application_name => GlobalConfig.application_name) %></p>
   </div>
 </div>

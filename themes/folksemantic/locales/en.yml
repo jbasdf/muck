@@ -47,5 +47,5 @@ en:
     view_account: "View Your Account"
     browse_resources: "Browse Resources"
   muck:
-    welcome_activity: "Welcome to {{application_name}}.  Here you can discover free educational resources from around the world.  Interesting in lady bugs?  How about a math course from NASA?  Search"
+    welcome_activity: "Welcome to {{application_name}}!  Here you can discover free educational resources from around the world.  Interesting in <a href='/resources/search?q=lady+bugs'>lady bugs</a>?  <a href='/resources/3909'>How about learning resources from NASA</a>?  <a href='/resources'>Discover educational materials from around the world</a>."
     
