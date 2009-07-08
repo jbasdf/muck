@@ -19,6 +19,8 @@ en:
   muck:
     contact_request: "Contact Request"
     contact_thanks: "Thanks for contacting us.  We've recieved your email and will be in touch soon."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Welcome to {{application_name}}."
     admin:
       home: Home
       users: Users

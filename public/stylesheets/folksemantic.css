@@ -76,6 +76,7 @@ p#current-status-text, .activity-content p{margin:0;}
 form.activity-delete {position:relative;display:inline;float:right;display:none;}
 form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:absolute;right:0px;bottom:0px;}
 .activity .activity-hover form.activity-delete{display:block;}
+.welcome_activity{font-size:14px;}
 /* comments under activity feed */
 .activity-comment{border:1px solid #ccc;margin:2px 50px 2px 60px;padding:.5em;background-color:#eee;}
 .activity-comment .actor-icon{width:40px;}

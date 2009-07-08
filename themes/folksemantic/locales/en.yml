@@ -46,4 +46,6 @@ en:
     welcome_message: "We're actively working to integrate OCWFinder and OERRecommender into one site to help you find the most interesting and relevant educational resources."
     view_account: "View Your Account"
     browse_resources: "Browse Resources"
+  muck:
+    welcome_activity: "Welcome to {{application_name}}.  Here you can discover free educational resources from around the world.  Interesting in lady bugs?  How about a math course from NASA?  Search"
     
