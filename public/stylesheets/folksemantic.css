@@ -65,6 +65,7 @@ ul#activity-filter{list-style:none;}
 ul#activity-filter li{border-bottom:solid 1px #ccc;}
 ul#activity-filter li a{text-decoration:none;}
 ul#activity-filter li a:hover;{text-decoration:underline;}
+ul#activity-filter li.current a{color:#5EAC18;}
 .activity{clear:both;display:block;}
 #activity-feed{margin:15px 0 0 0;}
 #activity-feed-content .activity{margin:8px 0 4px 0;}
