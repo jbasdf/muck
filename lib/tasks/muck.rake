@@ -66,6 +66,7 @@ namespace :muck do
     system('sudo gem install muck-activities')
     system('sudo gem install muck-comments')
     system('sudo gem install muck-profiles')
+    system('sudo gem install muck-friends')
   end
   
   task :reset_db => :environment do
@@ -121,6 +122,7 @@ namespace :muck do
     Rake::Task[ "muck:raker:sync" ].execute
     Rake::Task[ "muck:comments:sync" ].execute
     Rake::Task[ "muck:profiles:sync" ].execute
+    Rake::Task[ "muck:friends:sync" ].execute
   end
   
   desc "Translate all muck related projects and gems"
