@@ -1,10 +1,13 @@
 //jQuery.noConflict();
-
 jQuery(document).ajaxSend(function(event, request, settings) {
-  if (typeof(AUTH_TOKEN) == "undefined") return;
-	if (settings.type == "GET") return; // for details see: http://www.justinball.com/2009/07/08/jquery-ajax-get-in-firefox-post-in-internet-explorer/
+  request.setRequestHeader("Accept", "text/javascript");
+  request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+  if (settings.type.toUpperCase() == 'GET' || typeof(AUTH_TOKEN) == "undefined") return; // for details see: http://www.justinball.com/2009/07/08/jquery-ajax-get-in-firefox-post-in-internet-explorer/
+  // settings.data is a serialized string like "foo=bar&baz=boink" (or null)
   settings.data = settings.data || "";
-  settings.data += (settings.data ? "&" : "") + "authenticity_token=" + encodeURIComponent(AUTH_TOKEN);
+ 	if (typeof(AUTH_TOKEN) != "undefined")
+  	settings.data += (settings.data ? "&" : "") + "authenticity_token=" + encodeURIComponent(AUTH_TOKEN);
 });
 
 function setup_submit_delete(){
