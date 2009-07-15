@@ -28,12 +28,12 @@ Rails::Initializer.run do |config|
   config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set', :source => "http://gems.github.com"
   config.gem "openrain-action_mailer_tls", :lib => 'smtp_tls', :source => "http://gems.github.com" # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
   config.gem "friendly_id", :version => '>=2.1.3'
-  config.gem 'disguise', :version => '>=0.3.0'
-  config.gem 'uploader', :version => '>=0.1.16'
-  config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.3.3'
+  config.gem 'disguise', :version => '>=0.3.2'
+  config.gem 'uploader', :version => '>=0.1.17'
+  config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.4.0'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => ">=0.4.1"
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.13'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.16'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.17'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.2'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.15'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.5'

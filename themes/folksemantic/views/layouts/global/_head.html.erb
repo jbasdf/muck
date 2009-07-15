@@ -7,7 +7,7 @@
 <meta name="MSSmartTagsPreventParsing" content="true" />
 <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
 <!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->  		
-<%= stylesheet_link_tag %W{ reset blueprint/liquid_screen.css styles }, :cache => true %>
+<%= stylesheet_link_tag %W{ reset blueprint/liquid_screen.css jquery/jquery.fancybox.css styles }, :cache => true %>
 <%= stylesheet_link_tag 'folksemantic' %>
 <%= javascript_include_tag %w{
             jquery/jquery.js
@@ -15,6 +15,8 @@
             jquery/jrails.js
             jquery/jquery.jgrowl.js
             jquery/jquery.tips.js
+            jquery/jquery.easing.js
+            jquery/jquery.fancybox.js
             muck.js
             application.js }, :cache => 'all_js_cached' %>
 <%= javascript_tag %[var AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
