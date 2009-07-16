@@ -4,7 +4,7 @@
       <%= text_field_tag(:q, (@term_list.nil? || !@tag_filter.nil?) ? t('folksemantic.search') : URI.unescape(@term_list), :id => 'search-box', :onclick => 'insearch(this)', :onblur => 'outsearch(this)') %>
       <input class="input-button" type="submit" value="<%= t('folksemantic.search_button') %>"/>
       <div id="user-login">
-        <%= select_tag('grain_size', options_for_select([[t('muck.raker.all_resources'),'all'], [t('muck.raker.only_courses'),'course']], [@grain_size]), {:onchange => @refresh_results ? 'grainSize(this);' : ''}) %>
+        <%= select_tag('grain_size', options_for_select([[t('muck.raker.all_resources'),'all'], [t('muck.raker.only_courses'),'course']], [@grain_size])) %>
 		&nbsp;
         <% if logged_in? -%>
           <%= link_to t('muck.users.sign_out_title'), logout_path %>
@@ -19,16 +19,6 @@
   </div>
 </div>
 <% content_for :javascript do -%>
-<% if @refresh_results %>
-function replaceAndRefresh(k,v)
-{
-    var a = location.href;
-    var re = new RegExp("([?|&])" + k + "=.*?(&|$)","i");
-    if (a.match(re)) location.href = a.replace(re,'$1' + k + "=" + v + '$2');
-	else location.href = a + (a.indexOf('?') == -1 ? '?' : '&') + k + "=" + v;
-}
-  function grainSize(t){if(t.value=='course')replaceAndRefresh('grain_size','course');else replaceAndRefresh('grain_size','all');}
-<% end %>
   function insearch(t){if(t.value=='<%= t('folksemantic.search')%>')t.value='';t.style.color='black';}
   function outsearch(t){t.style.color='gray';if(t.value=='')t.value='<%= t('folksemantic.search')%>';}
 <% end -%>
