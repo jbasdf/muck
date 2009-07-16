@@ -56,6 +56,7 @@ namespace :muck do
   end
   
   task :install_gems do
+    system('sudo gem install cucumber')
     system('sudo gem install cms-lite')
     system('sudo gem install disguise')
     system('sudo gem install uploader')
