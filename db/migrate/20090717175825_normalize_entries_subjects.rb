@@ -4,6 +4,7 @@ class NormalizeEntriesSubjects < ActiveRecord::Migration
     remove_column :entries_subjects, :language_id 
     remove_column :entries_subjects, :grain_size 
     execute "delete from entries_subjects where entry_id IN (select entries.id from entries inner join feeds ON feeds.id = entries.feed_id where feeds.uri = 'http://ndr.nsdl.org/oai?verb=ListRecords&metadataPrefix=nsdl_dc&set=439869');"
+    execute "update feeds set last_harvested_at = '1969-01-01' where feeds.uri = 'http://ndr.nsdl.org/oai?verb=ListRecords&metadataPrefix=nsdl_dc&set=439869'"
   end
 
   def self.down
