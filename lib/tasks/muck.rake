@@ -174,10 +174,10 @@ namespace :muck do
     #release_gem("#{projects_path}", "muck_engine")
     release_gem("#{projects_path}", "muck_users")
     #release_gem("#{projects_path}", "muck_comments")
-    release_gem("#{projects_path}", "muck_profiles")
-    release_gem("#{projects_path}", "muck_raker")
-    release_gem("#{projects_path}", "muck_activities")
-    release_gem("#{projects_path}", "muck_friends")
+    #release_gem("#{projects_path}", "muck_profiles")
+    #release_gem("#{projects_path}", "muck_raker")
+    #release_gem("#{projects_path}", "muck_activities")
+    #release_gem("#{projects_path}", "muck_friends")
   end
   
   desc "Write muck gem versions into muck"
