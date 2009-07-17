@@ -22,4 +22,5 @@ ActionController::Routing::Routes.draw do |map|
     a.resources :domain_themes
   end
   
+  map.connect '/widgets', :controller => 'default', :action => 'widgets'
 end
