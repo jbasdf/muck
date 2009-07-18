@@ -237,8 +237,8 @@ if ((bNeeds == true && bNeedsRecord == true) || bNeeds == false) identifySquatPa
 // request the recommendations for this page
 if (squatParent != null)
 {
-//var sBaseUrl = 'http://www.folksemantic.com/';
-var sBaseUrl = 'http://localhost:3000/';
+var sBaseUrl = 'http://www.folksemantic.com/';
+//var sBaseUrl = 'http://localhost:3000/';
 var sServiceUrl = sBaseUrl + 'recommendations.xml?u=';
 var sShowDocUrl = sBaseUrl + 'resources/';
 
