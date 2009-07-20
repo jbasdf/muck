@@ -18,7 +18,6 @@ Makefile
 mkmf.log
 *.bundle
 conftest
-content/
 REVISION
 deploy.rb
 config/global_config.yml
