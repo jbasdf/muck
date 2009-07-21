@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090721043213) do
+ActiveRecord::Schema.define(:version => 20090721054927) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -196,7 +196,7 @@ ActiveRecord::Schema.define(:version => 20090721043213) do
     t.integer  "harvest_interval",                           :default => 86400
     t.integer  "failed_requests",                            :default => 0
     t.text     "error_message"
-    t.integer  "service_id",                                 :default => 0,         :null => false
+    t.integer  "service_id",                                 :default => 0
     t.string   "login"
     t.string   "password"
     t.datetime "created_at"

@@ -1,4 +1,4 @@
-class Test::Unit::TestCase
+module ShouldaFormMacros
   def self.should_have_form(opts)
     model = self.name.gsub(/ControllerTest$/, '').singularize.downcase
     model = model[model.rindex('::')+2..model.size] if model.include?('::')
@@ -24,5 +24,9 @@ class Test::Unit::TestCase
     else
       return "post", http_method
     end
-  end
+  end  
+end
+
+class ActiveSupport::TestCase
+  extend ShouldaFormMacros
 end
