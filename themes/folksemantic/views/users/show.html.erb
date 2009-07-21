@@ -26,6 +26,7 @@
       <li><%= link_to t('folksemantic.search_link'), resources_url %></li>
       <li><%= link_to t('uploader.upload_files'), uploads_path(make_parent_params(@user)) %></li>
       <li><a href="/widgets"><%= t('folksemantic.widgets_link') %></a></li>
+      <li><%= link_to t('folksemantic.contribute_repository'), new_extended_feeds_path, :class => 'iframe lightbox' %></li>
     </ul>
   </div>
   <!-- 
@@ -39,7 +40,9 @@
 jQuery(document).ready(function() {
     jQuery('a.lightbox').fancybox({
         'hideOnContentClick': true,
-        'overlayShow': true
+        'overlayShow': true,
+        'frameWidth': 700,
+        'frameHeight': 600
     });
 });
 <% end -%>
