@@ -1,15 +1,24 @@
+PASSWORD = "asdfasdf"
+
 def log_in_user(user, password)
   visit(login_url)
   fill_in("user_session_login", :with => user.login)
-  fill_in("user_session_password", :with => password)
+  fill_in("user_session_password", :with => PASSWORD)
   click_button("Sign In")
 end
 
 def log_in_with_login_and_role(login, role)
-  @user = Factory(:user, :login => login, :password => 'test')
+  @user = Factory(:user, :login => login, :password => PASSWORD, :password_confirmation => PASSWORD)
   @user.add_to_role(role)
-  log_in_user(@user, password)
+  log_in_user(@user, PASSWORD)
 end
+
+def log_in_with_role(role)
+  @user = Factory(:user, :password => PASSWORD, :password_confirmation => PASSWORD)
+  @user.add_to_role(role)
+  log_in_user(@user, PASSWORD)
+end
+
 
 Before do
   ActionMailer::Base.deliveries = []
@@ -18,24 +27,22 @@ end
 
 # Assumes password is 'asdfasdf'
 Given /I log in as "(.*)"/ do |login|
-  password = "asdfasdf"
   @user = User.find_by_login(login)
-  log_in_user(@user, password)
+  log_in_user(@user, PASSWORD)
 end
 
 Given /I log in as new user "(.*)" with password "(.*)"/ do |login, password|
-  @user = Factory(:user, :login => login, :password => password)
+  @user = Factory(:user, :login => login, :password => password, :password_confirmation => password)
   log_in_user(@user, password)
 end
 
 Given /I log in as new user/ do
-  password = 'asdfasdf'
-  @user = Factory(:user, :password => password)
-  log_in_user(@user, password)
+  @user = Factory(:user, :password => PASSWORD, :password_confirmation => PASSWORD)
+  log_in_user(@user, PASSWORD)
 end
 
-Given /^I log in as "(.*)" with role "(.*)"$/ do |login, role|
-  log_in_with_login_and_role(login, role)
+Given /^I log in with role "(.*)"$/ do |role|
+  log_in_with_role(role)
 end
 
 Given /^I am not logged in$/ do
