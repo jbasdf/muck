@@ -1,7 +1,7 @@
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.3' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
@@ -28,9 +28,9 @@ Rails::Initializer.run do |config|
   config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set', :source => "http://gems.github.com"
   config.gem "openrain-action_mailer_tls", :lib => 'smtp_tls', :source => "http://gems.github.com" # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
   config.gem "friendly_id", :version => '>=2.1.3'
-  config.gem 'disguise', :version => '>=0.3.2'
+  config.gem 'disguise', :version => '>=0.3.4'
   config.gem 'uploader', :version => '>=0.1.17'
-  config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.4.1'
+  config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.5.0'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => ">=0.4.1"
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.15'
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.19'
