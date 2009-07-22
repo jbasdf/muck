@@ -7,7 +7,19 @@ Scenario: Anonymous user tries to edit the theme
   When I go to "/admin/theme/edit"
   Then I should see the login
   
-Scenario: Administrator user tries to edit the theme
+Scenario: Administrator edits the theme
   Given I log in with role "administrator"
   When I go to "/admin/theme/edit"
   Then I should see "Set Theme"
+  
+Scenario: Administrator changes the theme
+  GivenScenario Administrator edits the theme
+  Given The current theme is "blue"
+  When I press "folksemantic"
+  Then I should see "Theme was successfully updated."
+
+Scenario: Administrator removes all themes
+  GivenScenario Administrator changes the theme
+  When I press "remove_all_themes"
+  Then I should see "All themes have been removed."
+  
