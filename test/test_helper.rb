@@ -36,6 +36,12 @@ class ActiveSupport::TestCase
   def ensure_flash(val)
     assert_contains flash.values, val, ", Flash: #{flash.inspect}"
   end
+  
+  # For Selenium
+  # setup do |session|
+  #   session.host! "localhost:3001"
+  # end
+    
 end
 
 # turn off solr for tests

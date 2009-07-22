@@ -37,11 +37,12 @@ config.gem 'term-ansicolor', :version => '>=1.0.3', :lib => 'term/ansicolor'
 config.gem 'cucumber', :version => '>=0.1.13', :lib => 'cucumber'
 config.gem 'polyglot', :version => '>=0.2.4'
 config.gem "rcov", :version => '>=0.8.1.2.0'
-config.gem "webrat", :version => '>=0.4.2'
+config.gem "webrat", :version => '>=0.4.4'
+
+# only required if you want to use selenium for testing
+config.gem 'selenium-client', :lib => 'selenium/client'
+config.gem 'bmabey-database_cleaner', :lib => 'database_cleaner', :source => 'http://gems.github.com'
 
 require 'factory_girl'
 require 'mocha'
 begin require 'redgreen'; rescue LoadError; end
-
-
-
