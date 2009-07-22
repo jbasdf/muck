@@ -18,6 +18,10 @@ Factory.sequence :description do |n|
   "This is the description: #{n}"
 end
 
+Factory.sequence :uri do |n|
+  "n#{n}.example.com"
+end
+
 Factory.define :state do |f|
   f.name { Factory.next(:name) }
   f.abbreviation { Factory.next(:abbr) }
