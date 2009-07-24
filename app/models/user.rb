@@ -39,6 +39,7 @@ class User < ActiveRecord::Base
   acts_as_muck_user
   has_muck_profile
   has_activities
+  has_feeds
   acts_as_muck_friend_user
   acts_as_tagger
   
