@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090721054927) do
+ActiveRecord::Schema.define(:version => 20090723050510) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -180,6 +180,17 @@ ActiveRecord::Schema.define(:version => 20090721054927) do
   end
 
   add_index "entry_images", ["entry_id"], :name => "index_entry_images_on_entry_id"
+
+  create_table "feed_parents", :force => true do |t|
+    t.integer  "feed_id"
+    t.integer  "ownable_id"
+    t.string   "ownable_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "feed_parents", ["feed_id"], :name => "index_feed_parents_on_feed_id"
+  add_index "feed_parents", ["ownable_id", "ownable_type"], :name => "index_feed_parents_on_ownable_id_and_ownable_type"
 
   create_table "feeds", :force => true do |t|
     t.string   "uri",                        :limit => 2083
