@@ -47,6 +47,7 @@ en:
     view_account: "View Your Account"
     browse_resources: "Browse Resources"
     contribute_repository: "Contribute OCW/OER Repository"
+    widgets_title: Folksemantic Widgets
   muck:
     welcome_activity: "Welcome to {{application_name}}!  Here you can <a href='/resources'>discover free educational resources from around the world</a>.  Interesting in <a href='/resources/search?q=lady+bugs'>lady bugs</a>?  <a href='/resources/3909'>How about learning resources from NASA</a>?."
     raker:
