@@ -39,7 +39,6 @@
 <h2>Firefox Extension Based Demo</h2>
 <p>By installing this Firefox extension you can easily check out the Folksemantic recommender in action on your website.</p>
 <h3>Installation Steps:</h3>
-<form action="/resources/search" method="get">
 <ol>
 <li>Run <a href="http://www.mozilla.com/en-US/firefox/">Firefox</a>.</li>
 <li>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey Firefox extension</a>.</li>
@@ -52,8 +51,44 @@ else document.write('<li>Install the OER Recommender Greasemonkey script. When r
 <li>Look for the "Related Resources" box on the right side of your web page.</li>
 <li>Follow one of the links to a related page.</li>
 </ol>
+</div>
+</div>
+
+<div class="widget-info block">
+
+<div class="features column span-9 colborder prepend-1">
+<h2>Collections Already Registered</h2>
+<p>The folksemantic index currently contains over 400 registered collections, 3,000 OpenCourseWares and 110,000 resources.</p>
+<h3>Collections:</h3>
+<ul>
+<li>Johns Hopkins Bloomberg School of Public Health OCW: Courses</li>
+<li>MERLOT - Multimedia Educational Resource for Learning and Online Teaching (3,000+ resources)</li>
+<li>MIT OpenCourseWare (2200+ courses)
+<li>NEEDS - National Engineering Education Digital Library System (10,000+ records)</li>    
+</ul>
+</div>
+<div class="features column span-12 prepend-1">
+<h2>Register Your Open Education Resources</h2>
+<p>When you register your open education resources, folksemantic will include them in recommendations and search results. This can help people find your resources.</p>
+<h3>Register Your Resources:</h3>
+<form action="/resources/search" method="get">
+<ol>
+<li><%= link_to 'Register your resources', new_extended_feeds_path, :class => 'iframe lightbox' %> by specifying an RSS feed, OAI endpoint, sitemap, or url mask.</li>
+<li>Once your resources have been approved, they will be added to the folksemantic index.</li>
+<li>If you want be notified of when your resources have been approved and be able to submit resources without approval, <a href="/signup">register as a folksemantic user</a>.</li>
+</ol>
 </form>
 </div>
 </div>
 
 </div>
+<% content_for :javascript do -%>
+jQuery(document).ready(function() {
+    jQuery('a.lightbox').fancybox({
+        'hideOnContentClick': true,
+        'overlayShow': true,
+        'frameWidth': 700,
+        'frameHeight': 600
+    });
+});
+<% end -%>
