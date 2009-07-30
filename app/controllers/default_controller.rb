@@ -34,4 +34,8 @@ class DefaultController < ApplicationController
     render :text => 'we are up'
   end
   
+  def widgets
+    @page_title = t('folksemantic.widgets_title')
+  end
+  
 end
