@@ -1,6 +1,6 @@
 rss:
     id: 1
-    title: rss
+    name: rss
     uri:
     api_uri:
     uri_template:
@@ -8,7 +8,7 @@ rss:
     sequence: 1
 oai:
     id: 2
-    title: OAI 
+    name: OAI
     uri: 
     api_uri: 
     uri_template: 
@@ -16,7 +16,7 @@ oai:
     sequence: 2
 twitter:
     id: 3 
-    title: Twitter
+    name: Twitter
     uri: "http://www.twitter.com"
     api_uri: 
     uri_template: 
@@ -24,7 +24,7 @@ twitter:
     sequence: 3
 youtube:
     id: 4 
-    title: You Tube 
+    name: You Tube
     uri: "http://www.youtube.com"
     api_uri: 
     uri_template: feed://www.youtube.com/rss/user/{username}/videos.rss
@@ -32,7 +32,7 @@ youtube:
     sequence: 4
 flickr:
     id: 5 
-    title: Flickr 
+    name: Flickr
     uri: "http://www.flickr.com"
     api_uri: 
     uri_template: "http://api.flickr.com/services/feeds/activity.gne?id={username}"
@@ -40,7 +40,7 @@ flickr:
     sequence: 5
 delicious:
     id: 6
-    title: del.icio.us 
+    name: del.icio.us
     uri: "http://del.icio.us/"
     api_uri: "https://api.del.icio.us/v1/"
     uri_template: 
@@ -48,7 +48,7 @@ delicious:
     sequence: 6
 digg:
     id: 7 
-    title: Digg 
+    name: Digg
     uri: "http://www.digg.com"
     api_uri: 
     uri_template: "http://digg.com/rss/{username}/index2.xml"
@@ -56,7 +56,7 @@ digg:
     sequence: 7
 43places:
     id: 8 
-    title: 43 Places
+    name: 43 Places
     uri: "http://www.43places.com"
     api_uri: 
     uri_template: "http://www.43places.com/rss/uber/author?username={username}"
@@ -64,7 +64,7 @@ digg:
     sequence: 8
 allconsuming:
     id: 9 
-    title: All Consuming 
+    name: All Consuming
     uri: "http://allconsuming.net/"
     api_uri: 
     uri_template: "http://allconsuming.net/person/{username}/rss"
@@ -73,7 +73,7 @@ allconsuming:
 clipmarks:
     id: 10 
     sequence: 10
-    title: Clipmarks
+    name: Clipmarks
     uri: "http://www.clipmarks.com"
     api_uri: 
     uri_template: "http://rss.clipmarks.com/clipper/{username}/"
@@ -81,7 +81,7 @@ clipmarks:
 lastfm:
     id: 11 
     sequence: 11
-    title: Last.fm
+    name: Last.fm
     uri: "http://www.last.fm"
     api_uri: 
     uri_template: "http://ws.audioscrobbler.com/1.0/user/{username}/recenttracks.rss"
@@ -89,7 +89,7 @@ lastfm:
 livejournal:
     id: 12 
     sequence: 12
-    title: LiveJournal
+    name: LiveJournal
     uri: "http://www.livejournal.com"
     api_uri: 
     uri_template: "http://{username}.livejournal.com"
@@ -97,7 +97,7 @@ livejournal:
 simpy:
     id: 13 
     sequence: 13
-    title: Simpy
+    name: Simpy
     uri: "http://www.simpy.com"
     api_uri: 
     uri_template: "http://www.simpy.com/rss/user/{username}/links/"
@@ -105,7 +105,7 @@ simpy:
 wordpress:
     id: 14 
     sequence: 14
-    title: Wordpress.com
+    name: Wordpress.com
     uri: "http://www.wordpress.com/"
     api_uri: 
     uri_template: "http://{username}.wordpress.com/"
@@ -113,7 +113,7 @@ wordpress:
 xanga:
     id: 15 
     sequence: 15
-    title: Xanga
+    name: Xanga
     uri: "http://www.xanga.com"
     api_uri: 
     uri_template: "http://www.xanga.com/{username}/rss"
@@ -121,7 +121,7 @@ xanga:
 citeulike:
     id: 16 
     sequence: 16
-    title: cite u like
+    name: cite u like
     uri: "http://www.citeulike.org"
     api_uri: 
     uri_template: "http://www.citeulike.org/rss/user/{username}"
@@ -129,35 +129,35 @@ citeulike:
 googlenews:
     id: 17 
     sequence: 17
-    title: Google News
+    name: Google News
     uri: "http://news.google.com/"
     icon: googlenews.gif
 googleblogsearch:
     id: 18 
     sequence: 18
-    title: Google Blog Search
+    name: Google Blog Search
     uri: "http://blogsearch.google.com/"
     icon: googleblogs.gif
 opml:
     id: 19 
     sequence: 19
-    title: OPML
+    name: OPML
     icon: opml.gif
 tag:
     id: 20 
     sequence: 20
-    title: Tag
+    name: Tag
     icon: tag.gif
 odeo:
     id: 21 
     sequence: 21
-    title: Odeo Podcasts
+    name: Odeo Podcasts
     uri: "http://www.odeo.com"
     icon: odeo.gif
 technorati:
     id: 22 
     sequence: 22
-    title: Technorati
+    name: Technorati
     uri: "http://www.technorati.com/"
     api_uri: 
     uri_template: "http://feeds.technorati.com/faves/{username}?format=rss"
@@ -165,7 +165,7 @@ technorati:
 merlot:
     id: 23 
     sequence: 23
-    title: Merlot
+    name: Merlot
     uri: "http://www.merlot.org/"
     api_uri: 
     uri_template: 

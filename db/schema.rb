@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090723050510) do
+ActiveRecord::Schema.define(:version => 20090730045848) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(:version => 20090723050510) do
     t.boolean  "is_public",        :default => true
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "comment_count",    :default => 0
   end
 
   add_index "activities", ["item_id", "item_type"], :name => "index_activities_on_item_id_and_item_type"
@@ -136,6 +137,7 @@ ActiveRecord::Schema.define(:version => 20090723050510) do
     t.text     "relevant"
     t.text     "other"
     t.string   "grain_size",                              :default => "unknown"
+    t.integer  "comment_count",                           :default => 0
   end
 
   add_index "entries", ["direct_link"], :name => "index_entries_on_direct_link"
@@ -220,6 +222,7 @@ ActiveRecord::Schema.define(:version => 20090723050510) do
     t.integer  "default_language_id",                        :default => 0
     t.string   "default_grain_size",                         :default => "unknown"
     t.integer  "contributor_id"
+    t.string   "etag"
   end
 
   add_index "feeds", ["service_id"], :name => "index_feeds_on_service_id"
