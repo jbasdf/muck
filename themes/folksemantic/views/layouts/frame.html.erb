@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="<%= I18n.locale %>" xml:lang="<%= I18n.locale %>">
+  <head>
+    <%= render :partial => 'layouts/global/head' %>
+    <style type="text/css">
+      html { scrollbar-shadow-color: #FFFFFF;scrollbar-highlight-color: #FFFFFF;scrollbar-face-color: #FFFFFF;scrollbar-3dlight-color: #FFFFFF;scrollbar-darkshadow-color: #FFFFFF;scrollbar-track-color: #FFFFFF;scrollbar-arrow-color: #FFFFFF;}
+    </style>
+  </head>
+  <body scroll="no" style="overflow: hidden">
+    <%= yield :layout %>
+    <script type="text/javascript" language="JavaScript">
+      <%= yield :javascript %>
+    </script>
+    <%= render :partial => 'layouts/global/google_analytics' %>
+  </body>
+</html>
