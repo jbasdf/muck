@@ -107,3 +107,44 @@ form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:ab
 .features ul{list-style-image: url(/images/icons/vote.png);padding-left:6px;}
 .features li{padding-bottom:6px;}
 .widget-info textarea{font-size:12px;}
+/* iFrame */
+.framed_content{height:100%;margin-bottom:-1px;width:100%;}
+#content_iframe{display:block;display:block;}
+#toolbar{height:30px;background:#EFF1E5;border-bottom:1px solid #999;}
+#toolbar .section{padding:5px 20px;}
+#toolbar #profile{float:left;}
+#toolbar #search{float:right;}
+#toolbar #search input{font-size:.8em;}
+#toolbar #tools{float:right;}
+#toolbar #tools a{margin-right:5px;padding-left:18px;font-weight:bolder;font-size:1em;color:#54493F;}
+#toolbar #tools a:hover{color:#999;}
+#toolbar #close{float:right;padding-right:5px;}
+#toolbar .section a{text-decoration:none;}
+a#close_frame{-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:transparent url('/images/icons/close.png') no-repeat scroll left top;display:block;height:19px;width:19px;}
+a#close_frame:hover{background-position:left bottom;}
+a#close_frame_text{display:none;}
+a#comment{background:transparent url('/images/icons/question.png') no-repeat scroll left top;}
+a#share{background:transparent url('/images/icons/add.png') no-repeat scroll left top;}
+#toolbar #search #search_go{display:none;}
+#toolbar #search #search_box{width:150px;height:21px;background:transparent url('/images/icons/search_box.png') no-repeat scroll left bottom;}
+#toolbar #search #search_box:hover{background:transparent url('/images/icons/search_box.png') no-repeat scroll left top;}
+#toolbar #search #search_box input {-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:transparent none repeat scroll 0 0;border:0 none;width:125px;}
+/* comments in frame */
+#comments_tool{width:25%;float:right;}
+#comments_container{overflow:auto;width:100%;}
+a#comments_tools_close{text-decoration:none;float:right;margin:5px;display:block;padding:0px 23px 1px 6px;color:#fff;font-weight:bold;background:transparent url('/images/icons/hide.png') no-repeat scroll left top;}
+a#comments_tools_close:hover{background:transparent url('/images/icons/hide.png') no-repeat scroll left bottom;}
+#comments_tools_close_wrapper{height:28px;}
+#comments_tool .comment_holder p{margin:0;}
+#comments_tool .comment_holder .commentor-icon{width:40px;float:left;margin:0 5px 0 0;}
+#comments_tool .comment_holder .commentor-icon img{width:40px;height:40px;}
+#comments_tool .comment_holder .commentor a{font-size:.8em;}
+#comments_tool .comment_holder .comment-time{color:#777777;font-size:.9em;}
+#comments_tool .comment-form-wrapper, #comments_tool .comment_holder{border:1px solid #ccc;margin:2px auto;padding:.5em;background-color:#eee;width:90%;}
+#comments_tool .comment-form-wrapper{height:116px;}
+#comments_tool .comment-form textarea{width:97%;height:75px;margin:5px auto;}
+#comments_tool .comment-form input{float:right;font-size:1em;}
+#comments_tool form.comment-delete {position:relative;display:inline;float:right;}
+#comments_tool form.comment-delete input{padding:0;margin:0;width:15px;height:15px;position:absolute;right:0px;top:0px;}
+#comments_tool form.comment-delete{display:none;}
+#comments_tool .comment-hover form.comment-delete{display:block;}
