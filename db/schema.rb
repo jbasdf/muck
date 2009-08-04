@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090730045848) do
+ActiveRecord::Schema.define(:version => 20090803185323) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -387,6 +387,17 @@ ActiveRecord::Schema.define(:version => 20090730045848) do
 
   add_index "sessions", ["session_id"], :name => "index_sessions_on_session_id"
   add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
+
+  create_table "shares", :force => true do |t|
+    t.string   "uri",          :limit => 2083, :default => "", :null => false
+    t.string   "title"
+    t.text     "message"
+    t.integer  "shared_by_id",                                 :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "shares", ["shared_by_id"], :name => "index_shares_on_shared_by_id"
 
   create_table "slugs", :force => true do |t|
     t.string   "name"

@@ -41,6 +41,7 @@ class User < ActiveRecord::Base
   has_activities
   has_feeds
   acts_as_muck_friend_user
+  acts_as_muck_sharer
   acts_as_tagger
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
