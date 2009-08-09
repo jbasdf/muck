@@ -117,7 +117,7 @@ namespace :muck do
     Rake::Task[ "disguise:sync" ].execute
     Rake::Task[ "disguise:setup" ].execute
     Rake::Task[ "uploader:sync" ].execute
-    Rake::Task[ "muck:base:sync" ].execute
+    Rake::Task[ "muck:engine:sync" ].execute
     Rake::Task[ "muck:users:sync" ].execute
     Rake::Task[ "muck:activities:sync" ].execute
     Rake::Task[ "muck:raker:sync" ].execute
@@ -126,6 +126,7 @@ namespace :muck do
     Rake::Task[ "muck:friends:sync" ].execute
     Rake::Task[ "muck:contents:sync" ].execute
     Rake::Task[ "muck:blogs:sync" ].execute
+    Rake::Task[ "muck:shares:sync" ].execute
   end
   
   desc "Translate all muck related projects and gems"

@@ -78,17 +78,3 @@ jQuery(document).ready(function() {
 		jQuery("#quick-login").submit();
 	});	
 });
-
-jQuery(document).ready(function() {
-   jQuery("#content_iframe").load(maximize_iframe_height);
-   jQuery(window).bind('resize', function() {
-     maximize_iframe_height();
-   });    
-});
-
-function maximize_iframe_height() {
-   var frame = jQuery("#content_iframe");
-   var frame_buffer = 5;
-   frame.height(jQuery(window).height() - (jQuery('#toolbar').height() + frame_buffer));
-}
-
