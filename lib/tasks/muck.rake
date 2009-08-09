@@ -56,7 +56,6 @@ namespace :muck do
   end
   
   task :install_gems do
-    system('sudo gem install cucumber')
     system('sudo gem install cms-lite')
     system('sudo gem install disguise')
     system('sudo gem install uploader')
@@ -68,6 +67,9 @@ namespace :muck do
     system('sudo gem install muck-comments')
     system('sudo gem install muck-profiles')
     system('sudo gem install muck-friends')
+    system('sudo gem install muck-contents')
+    system('sudo gem install muck-blogs')
+    system('sudo gem install muck-shares')
   end
   
   task :reset_db => :environment do
