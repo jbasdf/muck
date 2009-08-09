@@ -124,6 +124,8 @@ namespace :muck do
     Rake::Task[ "muck:comments:sync" ].execute
     Rake::Task[ "muck:profiles:sync" ].execute
     Rake::Task[ "muck:friends:sync" ].execute
+    Rake::Task[ "muck:contents:sync" ].execute
+    Rake::Task[ "muck:blogs:sync" ].execute
   end
   
   desc "Translate all muck related projects and gems"

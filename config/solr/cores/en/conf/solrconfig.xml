@@ -242,7 +242,7 @@
     -->
   <requestDispatcher handleSelect="true" >
     <!--Make sure your system has some authentication before enabling remote streaming!  -->
-    <requestParsers enableRemoteStreaming="true" multipartUploadLimitInKB="2048" />
+    <requestParsers enableRemoteStreaming="false" multipartUploadLimitInKB="2048" />
   </requestDispatcher>
   
       
@@ -263,13 +263,6 @@
        <str name="version">2.1</str>
         -->
      </lst>
-  </requestHandler>
-
-  <requestHandler name="mlt" class="solr.MoreLikeThisHandler">  
-      <lst name="defaults">  
-          <str name="mlt.fl">text</str>  
-          <int name="mlt.mindf">1</int>  
-      </lst>  
   </requestHandler>
 
   <!-- Note how you can register the same handler multiple times with
