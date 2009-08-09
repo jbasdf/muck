@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090804231857) do
+ActiveRecord::Schema.define(:version => 20090808165453) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -70,6 +70,16 @@ ActiveRecord::Schema.define(:version => 20090804231857) do
     t.float   "weight"
   end
 
+  create_table "blogs", :force => true do |t|
+    t.integer  "blogable_id",   :default => 0
+    t.string   "blogable_type", :default => ""
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "blogs", ["blogable_id", "blogable_type"], :name => "index_blogs_on_blogable_id_and_blogable_type"
+
   create_table "clicks", :force => true do |t|
     t.integer  "recommendation_id"
     t.datetime "when",                              :null => false
@@ -100,6 +110,49 @@ ActiveRecord::Schema.define(:version => 20090804231857) do
 
   add_index "comments", ["commentable_id", "commentable_type"], :name => "index_comments_on_commentable_id_and_commentable_type"
   add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
+
+  create_table "content_permissions", :force => true do |t|
+    t.integer  "content_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "content_permissions", ["content_id", "user_id"], :name => "index_content_permissions_on_content_id_and_user_id"
+
+  create_table "content_translations", :force => true do |t|
+    t.integer  "content_id"
+    t.string   "title"
+    t.text     "body"
+    t.string   "locale"
+    t.boolean  "user_edited", :default => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "content_translations", ["content_id"], :name => "index_content_translations_on_content_id"
+  add_index "content_translations", ["locale"], :name => "index_content_translations_on_locale"
+
+  create_table "contents", :force => true do |t|
+    t.integer  "creator_id"
+    t.string   "title"
+    t.text     "body"
+    t.string   "locale"
+    t.text     "body_raw"
+    t.integer  "contentable_id"
+    t.string   "contentable_type"
+    t.integer  "parent_id"
+    t.integer  "lft"
+    t.integer  "rgt"
+    t.boolean  "is_public"
+    t.string   "state"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "layout"
+  end
+
+  add_index "contents", ["creator_id"], :name => "index_contents_on_creator_id"
+  add_index "contents", ["parent_id"], :name => "index_contents_on_parent_id"
 
   create_table "countries", :force => true do |t|
     t.string  "name",         :limit => 128, :default => "",   :null => false
@@ -395,8 +448,8 @@ ActiveRecord::Schema.define(:version => 20090804231857) do
     t.integer  "shared_by_id",                                  :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "entry_id"
     t.integer  "comment_count",                 :default => 0
+    t.integer  "entry_id"
   end
 
   add_index "shares", ["shared_by_id"], :name => "index_shares_on_shared_by_id"
