@@ -182,15 +182,18 @@ namespace :muck do
     release_gem("#{projects_path}", "muck_raker")
     release_gem("#{projects_path}", "muck_activities")
     release_gem("#{projects_path}", "muck_friends")
+    release_gem("#{projects_path}", "muck_contents")
+    release_gem("#{projects_path}", "muck_blogs")
+    release_gem("#{projects_path}", "muck_shares")
   end
   
   desc "Write muck gem versions into muck"
   task :versions do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    #write_new_gem_version("#{projects_path}", "acts_as_solr") # TODO need to figure out version for this
     write_new_gem_version("#{projects_path}", "cms_lite")
     write_new_gem_version("#{projects_path}", "disguise")
     write_new_gem_version("#{projects_path}", "uploader")        
-    #write_new_gem_version("#{projects_path}", "acts_as_solr") # need to figure out version for this
     write_new_gem_version("#{projects_path}", "muck_engine")
     write_new_gem_version("#{projects_path}", "muck_users")
     write_new_gem_version("#{projects_path}", "muck_comments")
@@ -198,12 +201,16 @@ namespace :muck do
     write_new_gem_version("#{projects_path}", "muck_raker")
     write_new_gem_version("#{projects_path}", "muck_activities")
     write_new_gem_version("#{projects_path}", "muck_friends")
+    write_new_gem_version("#{projects_path}", "muck_contents")
+    write_new_gem_version("#{projects_path}", "muck_blogs")
+    write_new_gem_version("#{projects_path}", "muck_shares")
   end
     
   desc "commit gems after a release"
   task :commit do
     message = "Released new gem"
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+#   git_commit("#{projects_path}/acts_as_solr", message)
     git_commit("#{projects_path}/cms_lite", message)
     git_commit("#{projects_path}/disguise", message)
     git_commit("#{projects_path}/uploader", message)
@@ -212,9 +219,11 @@ namespace :muck do
     git_commit("#{projects_path}/muck_comments", message)
     git_commit("#{projects_path}/muck_profiles", message)
     git_commit("#{projects_path}/muck_raker", message)
-#    git_commit("#{projects_path}/acts_as_solr", message)
     git_commit("#{projects_path}/muck_activities", message)
     git_commit("#{projects_path}/muck_friends", message)
+    git_commit("#{projects_path}/muck_contents", message)
+    git_commit("#{projects_path}/muck_blogs", message)
+    git_commit("#{projects_path}/muck_shares", message)
   end
   
   def release_gem(path, gem_name)
