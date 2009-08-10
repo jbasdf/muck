@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090808165453) do
+ActiveRecord::Schema.define(:version => 20090808175401) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -149,6 +149,7 @@ ActiveRecord::Schema.define(:version => 20090808165453) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "layout"
+    t.integer  "comment_count",    :default => 0
   end
 
   add_index "contents", ["creator_id"], :name => "index_contents_on_creator_id"
@@ -465,6 +466,7 @@ ActiveRecord::Schema.define(:version => 20090808165453) do
   end
 
   add_index "slugs", ["name", "sluggable_type", "scope", "sequence"], :name => "index_slugs_on_name_and_sluggable_type_and_scope_and_sequence", :unique => true
+  add_index "slugs", ["scope"], :name => "index_slugs_on_scope"
   add_index "slugs", ["sluggable_id"], :name => "index_slugs_on_sluggable_id"
 
   create_table "states", :force => true do |t|

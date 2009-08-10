@@ -29,6 +29,7 @@ function setup_comment_submit(){
 					contents.hide();
 					jQuery('#comments_wrapper').append(contents);
 					contents.fadeIn("slow");
+					apply_frame_comment_hover();
 				}
       });
     return false;
