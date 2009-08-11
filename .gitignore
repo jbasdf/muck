@@ -22,3 +22,4 @@ REVISION
 deploy.rb
 config/global_config.yml
 solr_indexes
+config/newrelic.yml
