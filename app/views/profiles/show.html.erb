@@ -5,7 +5,10 @@
   <%= icon @user, :thumb %>
   <p><%= @user.full_name %></p>
   <p><%= link_to t('muck.profiles.edit_profile'), edit_user_profile_path(@user) if @profile.can_edit?(current_user) %></p>
-
+  
+  <p><%= friend_link(current_user, @user) %></p>
+  <%= mutual_friends(current_user, @user) %>
+  
 </div>
 
 <div class="span-16 column">

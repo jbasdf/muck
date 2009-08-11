@@ -64,4 +64,10 @@ class User < ActiveRecord::Base
       false
     end
   end
+  
+  # Determines which users can add content directly to the site via muck-contents.
+  def can_add_root_content?
+    admin?
+  end
+  
 end
