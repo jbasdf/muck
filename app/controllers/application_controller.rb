@@ -8,7 +8,9 @@ class ApplicationController < ActionController::Base
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   
   rescue_from ActiveRecord::RecordNotFound, :with => :record_not_found
-
+  
+  acts_as_muck_content_handler
+  
   before_filter :set_locale
   before_filter :setup_paging
   before_filter :set_will_paginate_string
