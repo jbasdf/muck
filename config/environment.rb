@@ -29,6 +29,8 @@ Rails::Initializer.run do |config|
   config.gem "openrain-action_mailer_tls", :lib => 'smtp_tls', :source => "http://gems.github.com" # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
   config.gem "friendly_id", :version => '>=2.1.3'
   config.gem "rgrove-sanitize", :lib => 'sanitize'
+  config.gem "newrelic_rpm"
+  
   config.gem 'babelphish', :version => '>=0.2.3'
   config.gem 'disguise', :version => '>=0.3.6'
   config.gem 'uploader', :version => '>=0.1.19'
