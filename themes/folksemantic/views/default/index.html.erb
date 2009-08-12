@@ -1,33 +1,85 @@
-<%= output_errors('', {:class => 'help-box'}) %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>folksemantic</title>
+        <meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
+        <meta http-equiv="imagetoolbar" content="no" />
+        <meta name="distribution" content="all" />
+        <meta name="robots" content="all" />
+        <meta name="resource-type" content="document" />
+        <meta name="MSSmartTagsPreventParsing" content="true" />
+		<link rel="shortcut icon" href="/images/folksemantic/favicon.ico" type="image/x-icon">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="/images/folksemantic/favicon.ico">
+		<style type="text/css">
+		    body {font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:75%;margin:0;}
+            img{border:0;}
+            input[type='text']{font-size:24px;text-align:center;padding:3px 2px 2px;height:32px;border:1px solid #8F8685;vertical-align:bottom;}
+			.folk-blue{color:#297FAA;}
+			.folk-green{color:#66AF24;}
+			.folk-gray{color:#838383;}
+			.fs0{font-size:14px;}
+			.fs1{font-size:14px;font-weight:bold;}
+			.fs2{font-size:20px;}
+			.fs3{font-size:50px;font-weight:bold;}
+			.fs4{font-size:40px;}
+			.fs5{font-size:30px;}
+			#signup-link{margin-top:14px;font-size:22px;font-weight:bold;}
+			#signup-link a{text-decoration:none;}
+			#signup-link a:hover{text-decoration:underline;}
+			#widgets-link{margin-top:10px;margin-left:40px;}
+			#widgets-link a{text-decoration:none;color:white;}
+			#widgets-link a:hover{text-decoration:underline;}
+			#footer{line-height:30px;}
+            #home-footer{text-align:center;}
+			#home-footer a{color:#838383;}
+		</style>
+    </head>
+    <body>
+        <div class="block" style="background-image:url('/images/folksemantic/home-bg.jpg');width:950px;height:808px;auto;background-repeat:no-repeat;margin:0 auto;">
 
-<script type="text/javascript">
-function $(id){return document.getElementById(id);}
-function dim(id){$(id).style.background='#DFEFFF';}
-function undim(id){$(id).style.background='#FFF';}
-</script>
-<div id="advertisements">
-    <span style="cursor:pointer;" onclick="javascript:window.open('<%= signup_path %>','_self');return false;" onmouseover="dim('advert-register');" onmouseout="undim('advert-register');">
-      <div id="advert-register" class="advert column">
-      	<h2><%= link_to t('folksemantic.register_link'), signup_path %></a></h2>
-      	<div class="description">
-      		<%= t('folksemantic.register_description') %>
-      	</div>
-  	  </div>
-    </span>
-    <span style="cursor:pointer;" onclick="javascript:window.open('<%= resources_url %>','_self');return false;" onmouseover="dim('advert-search');" onmouseout="undim('advert-search');">
-      <div id="advert-search" class="advert column">
-      	<h2><%= link_to t('folksemantic.search_link'), resources_url %></h2>
-      	<div class="description">
-      		<%= t('folksemantic.search_description') %>
-      	</div>
-  	  </div>
-    </span>
-    <span style="cursor:pointer;" onclick="javascript:window.open('/widgets','_self');return false;" onmouseover="dim('advert-widgets');" onmouseout="undim('advert-widgets');">
-      <div id="advert-widgets" class="advert column">
-      	<h2><a href="/widgets"><%= t('folksemantic.widgets_link') %></a></h2>
-      	<div class="description">
-      		<%= t('folksemantic.widgets_description') %>
-      	</div>
-	    </div>
-	  </span>
-</div>
+        <div style="float:left;position:relative;left:120px;top:325px;width:260px;">
+        	<div class="folk-blue fs1">WHY FOLKSEMANTIC?</div>
+			<div class="folk-green fs2" style="margin-top:12px;">COLLABORATE WITH</div>
+			<div class="folk-blue fs3" style="margin-top:0;line-height:50px;">PEOPLE</div>
+			<div class="folk-gray fs1" style="margin-top:6px;line-height:20px;">Sign up to meet people with whom you can find, share, remix, and develop learning resources</div>
+			<div id="signup-link">
+                <a href="/signup" class="folk-blue">
+                SIGN UP TODAY! 
+                <img src="/images/folksemantic/btn-blue-arrow.gif" style="vertical-align:top;margin-left:4px;"/>
+                </a>
+            </div>
+        </div>
+
+        <% form_tag({:controller => 'muck/entries', :action => 'search'}, {:method => :get}) do -%>
+        <div style="float:left;position:relative;left:220px;top:345px;width:400px;">
+        	<div class="folk-green fs2">BROWSE AND SEARCH OVER</div>
+			<div class="folk-blue fs3" style="line-height:50px;">110,000</div>
+			<div class="folk-green fs4" style="line-height:40px;"><b>FREE</b> ONLINE</div>
+			<div class="folk-green fs5" style="line-height:30px;">LEARNING RESOURCES    </div>
+			<div style="margin-top:10px;">
+                <input type="text" name="q" style="width:270px;">
+                <button type="submit" style="margin-left:6px;margin-bottom:2px;vertical-align:middle;background-image:url('/images/folksemantic/btn-search-full.gif');width:86px;height:33px;border:0;"></button>
+            </div>
+        </div>
+        <% end %>
+        
+        <div style="clear:both;float:left;position:relative;left:120px;top:380px;width:260px;">
+            <div class="folk-green fs1">RECENT COMMENTS</div>
+            <div class="folk-gray fs0" style="margin-top:6px;line-height:20px;">"That legos construction guide is awesome! I wonder if we could use it with the students in CS 102."</div>
+        </div>
+
+        <div style="float:left;position:relative;left:220px;top:380px;width:400px;">
+            <div class="folk-gray fs1">Want to link your web pages to related learning resources?</div>
+            <div id="widgets-link">
+                <a href="/widgets"><img src="/images/folksemantic/btn-blue-arrow2.gif" style="vertical-align:middle;"/><span class="fs1" style="background-color:#297FAA;padding:6px 10px;vertical-align:middle;">GET THE FOLKSEMANTIC WIDGETS</span></a>
+            </div>
+        </div>
+
+        <div id="home-footer" class="folk-gray" style="clear:both;top:460px;position:relative;">
+		    <%= render :partial => 'layouts/global/footer' %>
+        </div>
+		</div>
+        <%= render :partial => 'layouts/global/get_satisfaction' %>
+        <%= render :partial => 'layouts/global/google_analytics' %>
+    </body>
+</html>
