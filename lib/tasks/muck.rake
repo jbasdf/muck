@@ -70,6 +70,7 @@ namespace :muck do
     system('sudo gem install muck-contents')
     system('sudo gem install muck-blogs')
     system('sudo gem install muck-shares')
+    #system('sudo gem install muck-invites')
   end
   
   task :reset_db => :environment do

@@ -32,20 +32,20 @@ Rails::Initializer.run do |config|
   config.gem "newrelic_rpm"
   
   config.gem 'babelphish', :version => '>=0.2.3'
-  config.gem 'disguise', :version => '>=0.3.6'
-  config.gem 'uploader', :version => '>=0.1.19'
-  config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.5.2'
-  config.gem "muck-solr", :lib => 'acts_as_solr', :version => ">=0.4.1"
-  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.22'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.24'
-  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.6'
-  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.17'
-  config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.7'
-  config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.7'
-  config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.5'
-  config.gem 'muck-shares', :lib => 'muck_shares', :version => '>=0.1.1'
-  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.1.1'
-  config.gem 'muck-blogs', :lib => 'muck_blogs', :version => '>=0.1.1'
+  config.gem 'disguise', :version => '>=0.3.7'
+  config.gem 'uploader', :version => '>=0.1.20'
+  config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.5.3'
+  config.gem "muck-solr", :lib => 'acts_as_solr', :version => ">=0.4.2"
+  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.1.24'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.1.25'
+  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.7'
+  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.18'
+  config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.8'
+  config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.8'
+  config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.6'
+  config.gem 'muck-shares', :lib => 'muck_shares', :version => '>=0.1.2'
+  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.1.2'
+  config.gem 'muck-blogs', :lib => 'muck_blogs', :version => '>=0.1.2'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
