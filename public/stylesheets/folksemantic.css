@@ -12,6 +12,7 @@ h2{font-size:18px;font-weight:bold;color:#333;}
 h3{font-size:14px;font-weight:bold;color:#333;}
 .big-text{font-size:18px;}
 /* header */
+#logo{height:80px;}
 #header{width:100%;height:84px;margin:0;background-image:url('/images/folksemantic/bg-hdr.jpg');background-repeat:no-repeat;}
 #tag-line {font-size:1em;color:#003B67;margin-top:-32px;margin-left:69px;}
 #take-tour{text-align:center;padding:13px 0;}
@@ -110,7 +111,7 @@ form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:ab
 /* iFrame */
 .framed_content{height:100%;margin-bottom:-1px;width:100%;}
 #content_iframe{display:block;display:block;}
-#toolbar{height:30px;background:#EFF1E5;border-bottom:1px solid #999;}
+#toolbar{height:30px;border-bottom:1px solid #999;background-image:url('/images/folksemantic/bg-toolbar.gif');}
 #toolbar .section{padding:5px 20px;}
 #toolbar #profile{float:left;}
 #toolbar #search{float:right;}
