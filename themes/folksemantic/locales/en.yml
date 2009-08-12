@@ -1,6 +1,6 @@
 en:
   folksemantic:
-    title: Folksemantic
+    title: folksemantic
     collections: Collections
     demo: Demo
     tag_line: empowering open education
@@ -41,13 +41,27 @@ en:
     welcome_user: "Welcome {{user}}"
     all_resources: All
     just_ocws: Courses
-    credits: Developed by the <a href="http://cosl.usu.edu">Center for Open and Sustainable Learning</a> with funding from the <a href="http://nsf.gov/">National Science Foundation</a>
+    credits: Developed by the <a href="http://cosl.usu.edu">Center for Open and Sustainable Learning</a> with funding from the <a href="http://nsf.gov/">National Science Foundation</a> and the <a href="http://www.mellon.org/">Andrew W Mellon Foundation</a>
     welcome: Welcome to Folksemantic.
     welcome_message: "We're actively working to integrate OCWFinder and OERRecommender into one site to help you find the most interesting and relevant educational resources."
     view_account: "View Your Account"
     browse_resources: "Browse Resources"
     contribute_repository: "Contribute OCW/OER Repository"
     widgets_title: folksemantic widgets
+    home:
+      why: WHY FOLKSEMANTIC?
+      collaborate: COLLABORATE WITH
+      people: PEOPLE
+      signup_reasons: Sign up to meet people with whom you can find, share, remix, and develop learning resources
+      signup: SIGN UP TODAY!
+      browse_and_search: BROWSE AND SEARCH OVER
+      oers: <b>OPEN</b> ONLINE
+      resources: LEARNING RESOURCES
+      search: SEARCH
+      comments_heading: RECENT COMMENTS
+      example_comment: "That legos construction guide is awesome! I wonder if we could use it with the students in CS 102."
+      widgets_pitch: Want to link your web pages to related learning resources?
+      get_widgets: GET THE FOLKSEMANTIC WIDGETS
   muck:
     welcome_activity: "Welcome to {{application_name}}!  Here you can <a href='/resources'>discover free educational resources from around the world</a>.  Interesting in <a href='/resources/search?q=lady+bugs'>lady bugs</a>?  <a href='/resources/3909'>How about learning resources from NASA</a>?."
     raker:
