@@ -172,12 +172,25 @@ namespace :muck do
     puts 'finished translations'
   end
 
-  desc "Release muck gems"
-  task :release do
+  desc "Gets everything ready for a release. Translates gems, release gems, commits gems translates muck, writes versions into muck and then commits muck.  This takes a while"
+  task :prepare_release do
+    Rake::Task[ "muck:translate_all" ].execute
+    Rake::Task[ "muck:release_gems" ].execute
+    Rake::Task[ "muck:commit_gems" ].execute
+    Rake::Task[ "muck:translate" ].execute
+    Rake::Task[ "muck:versions" ].execute
+    # Commit and push muck
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    release_gem("#{projects_path}", "cms_lite")
-    release_gem("#{projects_path}", "disguise")
-    release_gem("#{projects_path}", "uploader")
+    git_commit("#{projects_path}/muck", "Updated gem versions")
+  end
+
+  desc "Release muck gems"
+  task :release_gems do
+    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    #release_gem("#{projects_path}", "acts_as_solr")
+    #release_gem("#{projects_path}", "cms_lite")
+    #release_gem("#{projects_path}", "disguise")
+    #release_gem("#{projects_path}", "uploader")
     release_gem("#{projects_path}", "muck_engine")
     release_gem("#{projects_path}", "muck_users")
     release_gem("#{projects_path}", "muck_comments")
@@ -190,11 +203,11 @@ namespace :muck do
     release_gem("#{projects_path}", "muck_shares")
     #release_gem("#{projects_path}", "muck_invites")
   end
-  
+
   desc "Write muck gem versions into muck"
   task :versions do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    #write_new_gem_version("#{projects_path}", "acts_as_solr") # TODO need to figure out version for this
+    write_new_gem_version("#{projects_path}", "acts_as_solr")
     write_new_gem_version("#{projects_path}", "cms_lite")
     write_new_gem_version("#{projects_path}", "disguise")
     write_new_gem_version("#{projects_path}", "uploader")        
@@ -212,10 +225,10 @@ namespace :muck do
   end
     
   desc "commit gems after a release"
-  task :commit do
+  task :commit_gems do
     message = "Released new gem"
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-#   git_commit("#{projects_path}/acts_as_solr", message)
+    git_commit("#{projects_path}/acts_as_solr", message)
     git_commit("#{projects_path}/cms_lite", message)
     git_commit("#{projects_path}/disguise", message)
     git_commit("#{projects_path}/uploader", message)
