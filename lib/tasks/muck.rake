@@ -187,6 +187,7 @@ namespace :muck do
     release_gem("#{projects_path}", "muck_contents")
     release_gem("#{projects_path}", "muck_blogs")
     release_gem("#{projects_path}", "muck_shares")
+    #release_gem("#{projects_path}", "muck_invites")
   end
   
   desc "Write muck gem versions into muck"
@@ -206,6 +207,7 @@ namespace :muck do
     write_new_gem_version("#{projects_path}", "muck_contents")
     write_new_gem_version("#{projects_path}", "muck_blogs")
     write_new_gem_version("#{projects_path}", "muck_shares")
+    #write_new_gem_version("#{projects_path}", "muck_invites")
   end
     
   desc "commit gems after a release"
@@ -226,6 +228,7 @@ namespace :muck do
     git_commit("#{projects_path}/muck_contents", message)
     git_commit("#{projects_path}/muck_blogs", message)
     git_commit("#{projects_path}/muck_shares", message)
+    #git_commit("#{projects_path}/muck_invites", message)
   end
   
   def release_gem(path, gem_name)
