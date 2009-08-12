@@ -31,7 +31,7 @@ Rails::Initializer.run do |config|
   config.gem "rgrove-sanitize", :lib => 'sanitize'
   config.gem "newrelic_rpm"
   
-  config.gem 'babelphish', :version => '>=0.2.3'
+  config.gem 'babelphish', :version => '>=0.2.4'
   config.gem 'disguise', :version => '>=0.3.7'
   config.gem 'uploader', :version => '>=0.1.20'
   config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.5.3'
