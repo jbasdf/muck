@@ -113,7 +113,7 @@ form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:ab
 #content_iframe{display:block;display:block;}
 #toolbar{height:30px;border-bottom:1px solid #999;background-image:url('/images/folksemantic/bg-toolbar.jpg');}
 #toolbar .section{padding:4px 20px;}
-#toolbar-logo {float:left;margin-left:30px;padding-top:2px;}
+#toolbar-logo {float:left;margin-left:30px;}
 #toolbar #search{float:right;padding:5px 0px;}
 #toolbar #search input{font-size:1em;}
 #toolbar #tools{float:right;}
