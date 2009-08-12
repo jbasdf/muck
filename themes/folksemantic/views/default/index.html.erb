@@ -1,33 +1,53 @@
-<%= output_errors('', {:class => 'help-box'}) %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title><%= GlobalConfig.application_name %></title>
+        <meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
+        <meta http-equiv="imagetoolbar" content="no" />
+        <meta name="distribution" content="all" />
+        <meta name="robots" content="all" />
+        <meta name="resource-type" content="document" />
+        <meta name="MSSmartTagsPreventParsing" content="true" />
+		<%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
+		<!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->  		
+		<%= stylesheet_link_tag %W{ reset blueprint/liquid_screen.css jquery/jquery.fancybox.css styles }, :cache => true %>
+		<%= stylesheet_link_tag 'folksemantic' %>
+		<link rel="shortcut icon" href="/images/folksemantic/favicon.ico" type="image/x-icon">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="/images/folksemantic/favicon.ico">
+		<style type="text/css">
+			.folk-blue{color:#297FAA;}
+			.folk-green{color:#66AF24;}
+			.folk-gray{color:#838383;}
+			.fs0{font-size:14px;font-weight:bold;}
+			.fs1{font-size:14px;font-weight:bold;}
+			.fs2{font-size:20px;}
+			.fs3{font-size:50px;font-weight:bold;}
+			.fs4{font-size:40px;}
+			.heavy{font-weight:bold;}
+		</style>
+    </head>
+    <body>
+        <div class="block" style="background-image:url('/images/folksemantic/home-bg.jpg');width:950px;height:808px;auto;background-repeat:no-repeat;margin:0 auto;">
 
-<script type="text/javascript">
-function $(id){return document.getElementById(id);}
-function dim(id){$(id).style.background='#DFEFFF';}
-function undim(id){$(id).style.background='#FFF';}
-</script>
-<div id="advertisements">
-    <span style="cursor:pointer;" onclick="javascript:window.open('<%= signup_path %>','_self');return false;" onmouseover="dim('advert-register');" onmouseout="undim('advert-register');">
-      <div id="advert-register" class="advert column">
-      	<h2><%= link_to t('folksemantic.register_link'), signup_path %></a></h2>
-      	<div class="description">
-      		<%= t('folksemantic.register_description') %>
-      	</div>
-  	  </div>
-    </span>
-    <span style="cursor:pointer;" onclick="javascript:window.open('<%= resources_url %>','_self');return false;" onmouseover="dim('advert-search');" onmouseout="undim('advert-search');">
-      <div id="advert-search" class="advert column">
-      	<h2><%= link_to t('folksemantic.search_link'), resources_url %></h2>
-      	<div class="description">
-      		<%= t('folksemantic.search_description') %>
-      	</div>
-  	  </div>
-    </span>
-    <span style="cursor:pointer;" onclick="javascript:window.open('/widgets','_self');return false;" onmouseover="dim('advert-widgets');" onmouseout="undim('advert-widgets');">
-      <div id="advert-widgets" class="advert column">
-      	<h2><a href="/widgets"><%= t('folksemantic.widgets_link') %></a></h2>
-      	<div class="description">
-      		<%= t('folksemantic.widgets_description') %>
-      	</div>
-	    </div>
-	  </span>
-</div>
+        <div style="float:left;position:relative;left:120px;top:325px;width:260px;">
+        	<div class="folk-blue fs1">WHY FOLKSEMANTIC?</div>
+			<div class="folk-green fs2" style="margin-top:6px;">COLLABORATE WITH</div>
+			<div class="folk-blue fs3" style="margin-top:0px;line-height:36px;">PEOPLE</div>
+			<div class="folk-gray fs0" style="margin-top:12px;">Sign up to meet people with whom you can find, use, adapt, and share learning resources.</div>
+			<div style="margin-top:10px;"><a href="/signup"><img src="/images/folksemantic/btn-sign-up.gif"/></a></div>
+        </div>
+		
+        <div style="float:left;position:relative;left:220px;top:345px;width:400px;">
+        	<div class="folk-green fs2">BROWSE AND SEARCH OVER</div>
+			<div class="folk-blue fs3" style="margin-top:0px;line-height:36px;">110,000</div>
+			<div class="folk-green fs4" style="margin-top:0px;"><b>FREE</b> ONLINE</div>
+			<div class="folk-green fs3" style="margin-top:12px;">LEARNING RESOURCES.</div>
+			<div style="margin-top:10px;"><button style="background-image:/images/folksemantic/btn-search-full.gif"></button></div>
+        </div>
+
+		</div>
+		<%= render :partial => 'layouts/global/footer' %>
+        <%= render :partial => 'layouts/global/get_satisfaction' %>
+        <%= render :partial => 'layouts/global/google_analytics' %>
+    </body>
+</html>

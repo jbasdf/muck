@@ -4,9 +4,8 @@ class DefaultController < ApplicationController
     if logged_in?
       redirect_to user_path(current_user.login)
     else
-      @activities = nil #current_user.activities.paginate(:page => @page, :per_page => @per_page)
       respond_to do |format|
-        format.html { render }
+        format.html { render :layout => false }
       end
     end
   end
