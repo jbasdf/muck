@@ -8,8 +8,6 @@
   <%= activity_filter(@user, 'welcome') %>
   <h2><%= t('muck.friends.following')%></h2>
   <%= followings(@user, 12, t('muck.friends.not_following_anyone'), 'friend_tiny_icon') %>
-  <h2><%= t('muck.friends.friends')%></h2>
-  <%= friends(@user, 12, t('muck.friends.no_friends'), 'friend_tiny_icon') %>
   <h2><%= t('muck.friends.followers')%></h2>
   <%= followers(@user, 12, t('muck.friends.no_followers'), 'friend_tiny_icon') %>
 </div>
