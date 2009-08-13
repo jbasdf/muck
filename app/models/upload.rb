@@ -23,6 +23,13 @@
 #  created_at          :datetime
 #  updated_at          :datetime
 #
+# Indexes
+#
+#  index_uploads_on_creator_id          (creator_id)
+#  index_uploads_on_uploadable_id       (uploadable_id)
+#  index_uploads_on_uploadable_type     (uploadable_type)
+#  index_uploads_on_local_content_type  (local_content_type)
+#
 
 class Upload < ActiveRecord::Base
   

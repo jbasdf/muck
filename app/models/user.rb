@@ -25,9 +25,15 @@
 #  activated_at        :datetime
 #  created_at          :datetime
 #  updated_at          :datetime
-#  photo_file_name     :string(255)
-#  photo_content_type  :string(255)
-#  photo_file_size     :integer(4)
+#
+# Indexes
+#
+#  index_users_on_login                (login)
+#  index_users_on_email                (email)
+#  index_users_on_persistence_token    (persistence_token)
+#  index_users_on_perishable_token     (perishable_token)
+#  index_users_on_single_access_token  (single_access_token)
+#  index_users_on_last_request_at      (last_request_at)
 #
 
 class User < ActiveRecord::Base
