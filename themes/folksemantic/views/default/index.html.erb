@@ -28,6 +28,7 @@
 			#home-right-panel{float:left;position:relative;left:220px;top:345px;width:400px;}
 			#home-comments{clear:both;float:left;position:relative;left:120px;top:380px;width:260px;}
 			#home-get-widgets{float:left;position:relative;left:220px;top:380px;width:400px;}
+			#search-button{margin-left:8px;color:#FFF;font-size:14px;font-weight:bold;background-color:#66AF24;height:34px;border:3px solid #DDD;}
 			#signup-link{margin-top:14px;font-size:22px;font-weight:bold;}
 			#signup-link a{text-decoration:none;}
 			#signup-link a:hover{text-decoration:underline;}
@@ -37,7 +38,6 @@
 			#footer{line-height:30px;}
             #home-footer{text-align:center;clear:both;top:460px;position:relative;}
 			#home-footer a{color:#838383;}
-			.home-search-button{color:#FFF;font-size:14px;font-weight:bold;vertical-align:middle;background-color:#66AF24;padding:1px;width:86px;height:33px;border:1px solid white;}
 			#get-widgets{background-color:#297FAA;padding:6px 10px;vertical-align:middle;}
 		</style>
     </head>
@@ -64,8 +64,8 @@
 			<div class="folk-green fs4" style="line-height:40px;"><%= t('folksemantic.home.oers') %></div>
 			<div class="folk-green fs5" style="line-height:30px;"><%= t('folksemantic.home.resources') %></div>
 			<div style="margin-top:10px;">
-                <input type="text" name="q" style="width:270px;" />
-                <span style="padding:8px 0 10px;border:2px solid #DDD;margin-left:6px;margin-bottom:2px;"><input type="submit" class="home-search-button" value="<%= t('folksemantic.home.search') %>" /></span>
+                <input type="text" name="q" style="width:270px;vertical-align:baseline;" />
+                <input type="submit" id="search-button" value="<%= t('folksemantic.home.search') %>" />
             </div>
         </div>
         <% end %>
