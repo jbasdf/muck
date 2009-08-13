@@ -23,6 +23,7 @@ form fieldset input[type="text"],form fieldset input[type="password"]{width:500p
 .button-link {background-color:transparent;border-top-width: 0px;border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;}
 
 /*images*/
+.tiny{width:24px;height:24px;}
 .icon{width:50px;height:50px;}
 .thumb{width:100px;height:100px;}
 .medium{width:300px;height:300px;}
