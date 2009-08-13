@@ -67,4 +67,9 @@ en:
     raker:
       add_extended_feed_title: "Contribute OCW/OER Repository"
       add_extended_feed_sub_title: ""
-    
+    users:
+      signup_header: Think you're smart?
+      signup_pitch: Folksemantic makes it easy to find, share, and use open educational resources so you can get smart.
+      dev_plans: We are actively developing it to extend <a href="http://ocwfinder.org">ocwfinder.org</a> and <a href="http://oerrecommender.org">oerrecommender.org</a>
+      signup: Sign up!
+      
