@@ -209,6 +209,10 @@ function identifySquatParent()
            }
         }    
     }
+}
+function blacklistedDomain()
+{
+    return (sUrlToGetRecsFor.indexOf('folksemantic') != -1);
 } 
         
 // get a hold of the body tag
@@ -226,10 +230,10 @@ var sUrlToGetRecsFor = null;
 
 var bodyTags = document.getElementsByTagName('body');
 var body = null;
-if (bodyTags && bodyTags.length > 0)
+sUrlToGetRecsFor = special_website_url(new String(window.location));
+if (bodyTags && bodyTags.length > 0 && !blacklistedDomain())
 {
 body = bodyTags[0];
-sUrlToGetRecsFor = special_website_url(new String(window.location));
 
 // figure out where to insert the squatter
 if ((bNeeds == true && bNeedsRecord == true) || bNeeds == false) identifySquatParent(); 
