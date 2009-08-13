@@ -66,4 +66,9 @@ et:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Aidata OCW / OER Repository"
+    users: 
+      dev_plans: "Me oleme aktiivselt arendada laiendada <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ja <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Sign up!"
+      signup_header: "Arvan, et sa oled tark?"
+      signup_pitch: "Folksemantic on lihtne leida, jagada ja kasutada avatud haridusvõimalused nii saad tark."
     welcome_activity: "Tere tulemast {{application_name}}! Siin saab <a href='/resources'>leida vaba haridusvõimalused üle maailma.</a> Huvitav <a href='/resources/search?q=lady+bugs'>daam Bugs?</a> <a href='/resources/3909'>Kuidas õppe vahendeid NASA?.</a>"

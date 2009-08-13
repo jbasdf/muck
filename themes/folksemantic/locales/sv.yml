@@ -66,4 +66,9 @@ sv:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Bidra OCW / Oer Förrådshantering"
+    users: 
+      dev_plans: "Vi är aktivt utveckla den för att förlänga <a href=\"http://ocwfinder.org\">ocwfinder.org</a> och <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Registrera dig!"
+      signup_header: "Tror du att du är smart?"
+      signup_pitch: "Folksemantic gör det lätt att hitta, dela och använda öppna utbildningsresurser så att du kan få smart."
     welcome_activity: "Välkommen till {{application_name}}! Här kan du <a href='/resources'>hitta gratis pedagogiska resurser från hela världen.</a> Intressant i <a href='/resources/search?q=lady+bugs'>dam fel?</a> <a href='/resources/3909'>Hur är inlärningsresurser från NASA?.</a>"

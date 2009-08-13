@@ -66,4 +66,9 @@ tl:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Kontribusyon OCW / OER repository"
+    users: 
+      dev_plans: "Kami ay aktibong pag-unlad na ito para i-extend <a href=\"http://ocwfinder.org\">ocwfinder.org</a> at <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Mag-sign up!"
+      signup_header: "Sa tingin mo matalino?"
+      signup_pitch: "Folksemantic ay madaling hanapin, i-share, at gamitin bukas pang-edukasyon na mapagkukunan upang maaari kang makakuha ng smart."
     welcome_activity: "Maligayang pagdating sa {{application_name}}! Dito maaari mong <a href='/resources'>tuklasin ang libreng edukasyon mula sa mga mapagkukunan sa buong mundo.</a> Kagiliw-giliw na sa <a href='/resources/search?q=lady+bugs'>babae bugs?</a> <a href='/resources/3909'>Paano ang tungkol sa pag-aaral mula sa mga mapagkukunan Nasa?.</a>"

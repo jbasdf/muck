@@ -66,4 +66,9 @@ pt-PT:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribuir OCW / RDO Repositório"
+    users: 
+      dev_plans: "Estamos a desenvolver activamente tendo em vista a prorrogação <a href=\"http://ocwfinder.org\">ocwfinder.org</a> e <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Inscreva-se!
+      signup_header: "Pense que você está esperto?"
+      signup_pitch: "Folksemantic torna fácil encontrar, partilhar e utilizar os recursos educativos abertos, para que você possa obter inteligente."
     welcome_activity: "Bem-vindo ao {{application_name}}! Aqui você pode <a href='/resources'>descobrir livre recursos educacionais de todo o mundo.</a> Interessante no <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Como sobre recursos de aprendizagem NASA?.</a>"

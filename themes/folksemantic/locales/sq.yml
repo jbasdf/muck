@@ -66,4 +66,9 @@ sq:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Jepni kontributin tuaj OCW / OER depo"
+    users: 
+      dev_plans: "Ne jemi aktivisht zhvillimin e ajo për të zgjatur <a href=\"http://ocwfinder.org\">ocwfinder.org</a> dhe <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Regjistrohu!
+      signup_header: "Mendoni ju jeni i zgjuar?"
+      signup_pitch: "Folksemantic e bën të lehtë të gjeni, share, dhe përdorimin e burimeve arsimore hapur kështu që ju mund të merrni smart."
     welcome_activity: "Mirë se vini në {{application_name}}! Këtu ju mund të <a href='/resources'>zbuloni falas arsimore burimeve nga e gjithë bota.</a> Interesting në <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Si rreth burimeve të të mësuarit nga NASA?.</a>"

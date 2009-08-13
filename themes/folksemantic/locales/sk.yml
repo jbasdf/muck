@@ -66,4 +66,9 @@ sk:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Prispieť OCW / OER Repository"
+    users: 
+      dev_plans: "Sme aktívne rozvíjať ju rozšíriť <a href=\"http://ocwfinder.org\">ocwfinder.org</a> a <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Zaregistrujte sa!"
+      signup_header: "Myslíš, že jsi chytrý?"
+      signup_pitch: "Folksemantic uľahčuje vyhľadávanie, zdieľanie a využívanie otvorených vzdelávacích zdrojov, takže môžete získať šikovný."
     welcome_activity: "Vitajte na {{application_name}}! Tu si môžete <a href='/resources'>zadarmo discover vzdelávacích zdrojov z celého sveta.</a> Zaujímavé v <a href='/resources/search?q=lady+bugs'>dámě chyby?</a> <a href='/resources/3909'>Ako o učenie zdrojov z NASA?.</a>"

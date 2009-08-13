@@ -66,4 +66,9 @@ id:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Kontribusi OCW / OER Repository"
+    users: 
+      dev_plans: "Kami secara aktif untuk mengembangkan memperpanjang <a href=\"http://ocwfinder.org\">ocwfinder.org</a> dan <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Daftar!
+      signup_header: "Think you&#39;re smart?"
+      signup_pitch: "Folksemantic memudahkan pencarian, berbagi, dan menggunakan sumber daya pendidikan buka sehingga Anda dapat pintar."
     welcome_activity: "Selamat datang ke {{application_name}}! Di sini Anda dapat <a href='/resources'>menemukan sumber daya pendidikan gratis dari seluruh dunia.</a> Menarik di <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Bagaimana belajar dari NASA?.</a>"

@@ -66,4 +66,9 @@ lt:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Prisidėti OCW / OER saugykla"
+    users: 
+      dev_plans: "Mes aktyviai vystome jį pratęsti <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ir <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Registruokis!
+      signup_header: "Think you&#39;re smart?"
+      signup_pitch: "Folksemantic leidžia lengvai surasti, dalytis ir naudoti atvirą švietimo išteklius, kad būtų galima gauti Smart."
     welcome_activity: "Sveiki atvykę į {{application_name}}! Čia galite <a href='/resources'>surasti laisvą švietimo išteklius iš viso pasaulio.</a> Įdomus <a href='/resources/search?q=lady+bugs'>panele klaidas?</a> <a href='/resources/3909'>Kaip apie mokymosi išteklių NASA?.</a>"

@@ -66,4 +66,9 @@ ko:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "기여 OCW / OER 저장소"
+    users: 
+      dev_plans: "우리가 적극적으로 그것을 ocwfinder.org <a href=\"http://ocwfinder.org\">연장을하고</a> <a href=\"http://oerrecommender.org\">oerrecommender.org</a> 개발하고있습니다"
+      signup: 가입하기!
+      signup_header: "당신이 똑똑하다고 생각 하겠지?"
+      signup_pitch: "Folksemantic 쉽게, 공유를 발견하고 스마트 얻을 수 있도록 열려 교육 자원을 사용합니다."
     welcome_activity: "{{application_name}}!에 오신 것을 환영합니다 여기서 여러분은 <a href='/resources'>세계 각국에서 무료 교육 자원을 발견할 수있습니다.</a> NASA에서 숙녀 <a href='/resources/search?q=lady+bugs'>버그에 <a href='/resources/3909'>흥미?</a></a> <a href='/resources/3909'>방법에 대한 자세한 내용은 리소스?.</a>"

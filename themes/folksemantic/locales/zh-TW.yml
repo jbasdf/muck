@@ -66,4 +66,9 @@ zh-TW:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "貢獻的OCW /開放教育資源庫"
+    users: 
+      dev_plans: "我們正在積極開發延長<a href=\"http://ocwfinder.org\">ocwfinder.org</a>和<a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: 立即註冊！
+      signup_header: 認為你是聰明？
+      signup_pitch: Folksemantic讓使用者更容易找到，共享和使用開放教育資源，讓您能夠更聰明。
     welcome_activity: "歡迎{{application_name}}!在這裡您可以<a href='/resources'>找到免費的教育資源來自世界各地</a> 。有趣的<a href='/resources/search?q=lady+bugs'>夫人錯誤</a> ？ <a href='/resources/3909'>如何從美國宇航局的學習資源</a> ？ 。"

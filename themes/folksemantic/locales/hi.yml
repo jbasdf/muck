@@ -66,4 +66,9 @@ hi:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "योगदान OCW / OER repository"
+    users: 
+      dev_plans: "हम सक्रिय रूप से यह ocwfinder.org का विस्तार <a href=\"http://ocwfinder.org\">करने के लिए</a> और <a href=\"http://oerrecommender.org\">oerrecommender.org</a> विकसित कर रहे हैं"
+      signup: "साइन अप!"
+      signup_header: "तुम चतुर हो लगता है?"
+      signup_pitch: "Folksemantic यह आसान, शेयर खोजने के लिए है और इसलिए आप स्मार्ट प्राप्त कर सकते हैं खुला शैक्षिक संसाधनों का उपयोग करता है."
     welcome_activity: "आपका स्वागत है {{application_name}}! करने के लिए यहाँ तुम इस <a href='/resources'>दुनिया के आसपास से मुक्त शैक्षिक संसाधनों की खोज कर सकते हैं.</a> नासा से महिला <a href='/resources/search?q=lady+bugs'>कीड़े में <a href='/resources/3909'>दिलचस्प?</a></a> <a href='/resources/3909'>कैसे के बारे में सीखने संसाधन?.</a>"

@@ -66,4 +66,9 @@ fr:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribuer OCW / OER Repository"
+    users: 
+      dev_plans: "Nous sommes activement en développement à étendre <a href=\"http://ocwfinder.org\">ocwfinder.org</a> et <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Inscrivez-vous!
+      signup_header: "Vous pensez que vous êtes intelligents?"
+      signup_pitch: "Folksemantic, il est facile de trouver, partager et utiliser les ressources éducatives ouvertes de sorte que vous pouvez obtenir à puce."
     welcome_activity: "Bienvenue à {{application_name}}! Ici, vous pouvez <a href='/resources'>découvrir gratuitement les ressources éducatives du monde entier.</a> Intéressant dans <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Comment les ressources sur l&#39;apprentissage de la NASA?.</a>"

@@ -66,4 +66,9 @@ lv:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Veicināt OCW / OER Repository"
+    users: 
+      dev_plans: "Mēs esam aktīvi attīstīt tā, lai paplašinātu <a href=\"http://ocwfinder.org\">ocwfinder.org</a> un <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Reģistrējieties!
+      signup_header: "Think you&#39;re smart?"
+      signup_pitch: "Folksemantic ļauj viegli atrast, dalīties un izmantot atvērtu izglītības resursu, lai jūs varētu saņemt smart."
     welcome_activity: "Laipni lūgti {{application_name}}! Šeit var <a href='/resources'>atrast bezmaksas izglītības resursus no visas pasaules.</a> Interesanti, kas <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Kā par mācību resursiem no NASA?.</a>"

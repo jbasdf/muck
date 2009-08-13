@@ -66,4 +66,9 @@ sr:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Придонети ОЦУ / ОЕР склади"
+    users: 
+      dev_plans: "Ми смо активно развија га проширити <a href=\"http://ocwfinder.org\">оцуфиндер.орг</a> и <a href=\"http://oerrecommender.org\">оеррецоммендер.орг</a>"
+      signup: "Пријави се!"
+      signup_header: "Мислити да сте паметни?"
+      signup_pitch: "Фолксемантиц олакшава проналажење, делити и користити отворене образовне ресурсе, па тако можете добити паметни."
     welcome_activity: "Добродошли на {{application_name}}! Овде можете <a href='/resources'>бесплатно открију образовне ресурсе из целог света.</a> Занимљиве у <a href='/resources/search?q=lady+bugs'>даму бугова?</a> <a href='/resources/3909'>Како о учењу ресурсе из НАСА-е?.</a>"

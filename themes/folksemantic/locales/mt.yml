@@ -66,4 +66,9 @@ mt:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Jikkontribwixxu OCW / OER Repository"
+    users: 
+      dev_plans: "Aħna attiv jiżviluppawh li testendi <a href=\"http://ocwfinder.org\">ocwfinder.org</a> u <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Sign up!"
+      signup_header: "Think int smart?"
+      signup_pitch: "Folksemantic jagħmilha faċli li ssib, jaqsmu bejniethom, u l-użu miftuħa riżorsi edukattivi sabiex inti tista &#39;tikseb smart."
     welcome_activity: "Merħba għall {{application_name}}! Hawnhekk tista <a href='/resources'>&#39;tiskopri ħielsa riżorsi edukattivi minn madwar id-dinja.</a> Interessanti <a href='/resources/search?q=lady+bugs'>mara bugs?</a> <a href='/resources/3909'>Kif dwar riżorsi ta &#39;tagħlim minn NASA?.</a>"

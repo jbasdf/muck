@@ -66,4 +66,9 @@ pl:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Wkład OCW / OER Repozytorium"
+    users: 
+      dev_plans: "Jesteśmy aktywnie rozwijać go rozszerzyć <a href=\"http://ocwfinder.org\">ocwfinder.org</a> i <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Zarejestruj się!"
+      signup_header: "Think you&#39;re smart?"
+      signup_pitch: "Folksemantic ułatwia znajdowanie, udostępnianie i wykorzystanie otwartych zasobów edukacyjnych, dzięki czemu można uzyskać inteligentne."
     welcome_activity: "Zapraszamy do {{application_name}}! Tutaj możesz <a href='/resources'>odkryć wolne zasoby edukacyjne z całego świata.</a> Ciekawe w <a href='/resources/search?q=lady+bugs'>lady bugów?</a> <a href='/resources/3909'>Jak na temat nauki z NASA?.</a>"

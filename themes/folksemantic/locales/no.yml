@@ -67,4 +67,9 @@
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Bidra OCW / OER Repository"
+    users: 
+      dev_plans: "Vi er aktivt med å utvikle den til å utvide <a href=\"http://ocwfinder.org\">ocwfinder.org</a> og <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Registrer deg!"
+      signup_header: "Tror du er smart?"
+      signup_pitch: "Folksemantic gjør det enkelt å finne, dele og bruke åpne pedagogiske ressurser slik at du kan komme smart."
     welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>finne gratis pedagogiske ressurser fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>dame feil?</a> <a href='/resources/3909'>Hva med å lære ressurser fra NASA?.</a>"

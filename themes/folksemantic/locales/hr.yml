@@ -66,4 +66,9 @@ hr:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Pridonijeti OCW / OER Spremište"
+    users: 
+      dev_plans: "Mi smo aktivno razvija ga proširiti <a href=\"http://ocwfinder.org\">ocwfinder.org</a> i <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Prijavi se!"
+      signup_header: "Misliti da ste pametni?"
+      signup_pitch: "Folksemantic olakšava pronalaženje, dijeliti i koristiti otvorene obrazovne resurse, pa tako možete dobiti pametni."
     welcome_activity: "Dobrodošli na {{application_name}}! Ovdje možete <a href='/resources'>besplatno otkriju obrazovne resurse iz cijelog svijeta.</a> Zanimljive u <a href='/resources/search?q=lady+bugs'>damu bugovi?</a> <a href='/resources/3909'>Kako o učenju resurse iz NASA-e?.</a>"

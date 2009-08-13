@@ -66,4 +66,9 @@ nl:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Meewerken OCW / OER Repository"
+    users: 
+      dev_plans: "Wij zijn actief de ontwikkeling van het uit te breiden <a href=\"http://ocwfinder.org\">ocwfinder.org</a> en <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Aanmelden!
+      signup_header: "Denk je slim?"
+      signup_pitch: "Folksemantic maakt het gemakkelijk te vinden, delen en gebruiken open educatieve middelen, zodat u kunt slim."
     welcome_activity: "Welkom bij {{application_name}}! Hier kunt u <a href='/resources'>ontdekken vrije educatieve middelen uit de hele wereld.</a> Interessant <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>Hoe leren over de middelen van de NASA?.</a>"

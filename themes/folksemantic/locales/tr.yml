@@ -66,4 +66,9 @@ tr:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Katkıda OCW / OER Havuzu"
+    users: 
+      dev_plans: "Şu anda bu ocwfinder.org genişletmek <a href=\"http://ocwfinder.org\">için</a> ve <a href=\"http://oerrecommender.org\">oerrecommender.org</a> geliştirirken"
+      signup: Kaydol!
+      signup_header: "Sen akıllı olduğunuzu düşünüyorsunuz?"
+      signup_pitch: "Folksemantic kolay, payı bulmak ve böylece akıllı alabilirsiniz açık eğitim kaynakları kullanır."
     welcome_activity: "Hoşgeldiniz {{application_name}}! için Burada <a href='/resources'>dünyanın her yerinden ücretsiz eğitim kaynakları keşfetmek olabilir.</a> NASA gelen bayan <a href='/resources/search?q=lady+bugs'>hata içinde <a href='/resources/3909'>İlginç?</a></a> <a href='/resources/3909'>Nasıl öğrenme kaynakları?.</a>"

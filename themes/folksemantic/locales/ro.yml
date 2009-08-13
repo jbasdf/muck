@@ -66,4 +66,9 @@ ro:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribuie OCW / OER repository"
+    users: 
+      dev_plans: "Suntem în curs de dezvoltare este activ pentru a extinde <a href=\"http://ocwfinder.org\">ocwfinder.org</a> şi <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Inscrie-te!
+      signup_header: "Gandeste-te ca esti destept?"
+      signup_pitch: "Folksemantic face mai uşor de găsit, şi altora, şi de a folosi resurse educaţionale deschise, astfel încât să puteţi lua de destept."
     welcome_activity: "Bine ati venit la {{application_name}}! Aici puteti <a href='/resources'>descoperi gratuit resurse educaţionale din întreaga lume.</a> Interesant în <a href='/resources/search?q=lady+bugs'>doamnă de bug-uri?</a> <a href='/resources/3909'>Cum despre resurse de învăţare de la NASA?.</a>"

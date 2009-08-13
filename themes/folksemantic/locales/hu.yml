@@ -66,4 +66,9 @@ hu:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribute OCW / OER Repository"
+    users: 
+      dev_plans: "Mi aktívan fejlődő, hogy kiterjessze <a href=\"http://ocwfinder.org\">ocwfinder.org</a> és <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Jelentkezzen be!"
+      signup_header: "Te okos?"
+      signup_pitch: "Folksemantic könnyen megtalálják, részvény, és nyílt oktatási források úgy kaphat okos."
     welcome_activity: "Üdvözöljük a {{application_name}}! Itt lehet <a href='/resources'>felfedezni a szabad oktatási források a világ minden tájáról.</a> Érdekes a <a href='/resources/search?q=lady+bugs'>hölgy a hibákat?</a> <a href='/resources/3909'>Hogyan tanulást forrásokat NASA?.</a>"
