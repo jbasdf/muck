@@ -22,15 +22,15 @@ hu:
       collaborate: Együttműködni
       comments_heading: "Friss hozzászólások"
       example_comment: "Ez legos építési útmutatót is awesome! Vajon mi lehetett használni a diákok a CS 102."
-      get_widgets: "Get the FOLKSEMANTIC kütyü"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER widget"
+      oers: "<b>OPEN</b> OKTATÁS"
       people: EMBEREK
-      resources: "LEARNING RESOURCES"
+      resources: "FORRÁSOK (OERS)"
       search: KERESÉS
       signup: "Regisztráljon még ma!"
-      signup_reasons: "Jelentkezzen be, hogy megfeleljen az emberek, akikkel együtt megtalálható, részvény, remix, valamint a tanulási források"
+      signup_reasons: "Jelentkezzen be, hogy megfeleljen az emberek, akikkel találkozhatunk megvitatja, remix, valamint a tanulási források"
       why: "MIÉRT FOLKSEMANTIC?"
-      widgets_pitch: "Szeretne link weboldalaiba kapcsolódó tanulási forrásokat?"
+      widgets_pitch: "Weekly OER ajánlások a weblapjára?"
     just_ocws: Tanfolyamok
     metadata: Metaadatok
     next: Következő

@@ -22,15 +22,15 @@ iw:
       collaborate: "פעולה עם"
       comments_heading: "הערות אחרונות"
       example_comment: "מדריך זה legos הבנייה is Awesome! אני תוהה אם אפשר להשתמש בה עם תלמידי CS 102."
-      get_widgets: "קבל את FOLKSEMANTIC יישומונים"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER יישומון"
+      oers: "<b>OPEN</b> השכלה"
       people: PEOPLE
-      resources: "משאבי למידה"
+      resources: "Resources (OERS)"
       search: חיפוש
       signup: "הירשם היום!"
-      signup_reasons: "הרשם לפגוש אנשים שאיתם אתה יכול למצוא, לשתף, remix, ופיתוח משאבי למידה"
+      signup_reasons: "הרשם לפגוש אנשים שאיתם אתה יכול למצוא, לדון, remix, ופיתוח משאבי למידה"
       why: "למה FOLKSEMANTIC?"
-      widgets_pitch: "רוצה לקשר את דפי אינטרנט הקשורים ל משאבי למידה?"
+      widgets_pitch: "רוצה לקבל המלצות OER עבור דפי האינטרנט שלך?"
     just_ocws: קורסים
     metadata: Metadata
     next: הבא

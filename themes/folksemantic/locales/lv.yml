@@ -22,15 +22,15 @@ lv:
       collaborate: "Sadarbojas ar"
       comments_heading: "Jaunākie komentāri"
       example_comment: "Tas legos būvniecības rokasgrāmatu ir awesome! Nez, ja mēs varētu izmantot to ar studentiem CS 102."
-      get_widgets: "IEGĀDĀJIES FOLKSEMANTIC logrīki"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER widget"
+      oers: "<b>OPEN</b> IZGLĪTĪBA"
       people: PEOPLE
-      resources: "LEARNING RESOURCES"
+      resources: "RESURSI (OERS)"
       search: MEKLĒT
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Reģistrējieties, lai apmierinātu cilvēku ar kuru var atrast, dalīties, remiksu, un attīstīt mācību resursu"
+      signup_reasons: "Reģistrējieties, lai apmierinātu cilvēku ar kuru var atrast, diskutēt, remiksu, un attīstīt mācību resursu"
       why: "KĀPĒC FOLKSEMANTIC?"
-      widgets_pitch: "Vēlaties saite Jūsu mājas lapas saistītiem mācību resursu?"
+      widgets_pitch: "Vēlaties saņemt OER ieteikumus jūsu mājas lapām?"
     just_ocws: Kursi
     metadata: Metadata
     next: Nākamais

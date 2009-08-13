@@ -22,15 +22,15 @@ hi:
       collaborate: "साथ सहयोग"
       comments_heading: "हाल की टिप्पणियाँ"
       example_comment: "यह legos निर्माण गाइड कमाल है! अगर हम सीएस 102 में छात्रों के साथ इसे इस्तेमाल कर सकते हैं मुझे आश्चर्य है."
-      get_widgets: "THE FOLKSEMANTIC widgets प्राप्त"
-      oers: "<b>खुले</b> ऑनलाइन"
+      get_widgets: "OER RECOMMENDER विजेट प्राप्त"
+      oers: "<b>खुले</b> शिक्षा"
       people: लोगों
-      resources: "शिक्षण संसाधन"
+      resources: "संसाधन (OERS)"
       search: खोज
       signup: "आज साइन अप!"
-      signup_reasons: "साइन अप लोगों जिसे तुम,,, remix शेयर प्राप्त कर सकते हैं और सीखने के संसाधनों का विकास के साथ मिलने के लिए"
+      signup_reasons: "साइन अप लोगों जिसे आप पा सकते हैं पर चर्चा, remix, और संसाधनों के विकास के साथ शिक्षा को पूरा करने के लिए"
       why: "क्यों FOLKSEMANTIC?"
-      widgets_pitch: "संबंधित करने के लिए संसाधनों को सीखने अपने वेब पेज को जोड़ने के लिए चाहते हैं?"
+      widgets_pitch: "अपने वेब पेज के लिए OER सिफारिशें प्राप्त करना चाहते हैं?"
     just_ocws: पाठ्यक्रम
     metadata: Metadata
     next: अगला

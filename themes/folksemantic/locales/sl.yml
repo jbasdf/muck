@@ -22,15 +22,15 @@ sl:
       collaborate: "Sodelujte z"
       comments_heading: "Nedavni komentarji"
       example_comment: "To legos gradnjo vodnik je noro! Zanima me če bi lahko jo uporabite s študenti v CS 102."
-      get_widgets: "Pridobite FOLKSEMANTIC toinono"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER widget"
+      oers: "<b>OPEN</b> EDUCATION"
       people: LJUDJE
-      resources: "UČNA SREDSTVA"
+      resources: "SREDSTVA (OERS)"
       search: ISKANJE
       signup: "Prijavite se še danes!"
-      signup_reasons: "Prijavite se za izpolnitev ljudi, s katerimi lahko ugotovijo, delež, remix, in razvoj učnih virov"
+      signup_reasons: "Prijavite se za izpolnitev ljudi, s katerimi lahko ugotovijo, razpravljajo, remix, in razvoj učnih virov"
       why: "ZAKAJ FOLKSEMANTIC?"
-      widgets_pitch: "Želite svoje spletne strani povezali z njimi povezane vire učenja?"
+      widgets_pitch: "Želite zaslužiti OER priporočila za vaše spletne strani?"
     just_ocws: Tečaji
     metadata: Metadata
     next: Naslednji

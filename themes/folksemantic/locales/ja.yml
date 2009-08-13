@@ -22,15 +22,15 @@ ja:
       collaborate: との連携
       comments_heading: 最近のコメント
       example_comment: "レゴは、建設ガイド素晴らしいです！ CS 102の場合、我々の学生とそれを使用できるかな。"
-      get_widgets: FOLKSEMANTICのウィジェットを入手
-      oers: ショップ<b>オープン</b>
+      get_widgets: OER推薦のウィジェットを入手
+      oers: <b>オープン</b>教育
       people: 人々
-      resources: 学習リソース
+      resources: "リソース（ OERS ）"
       search: 検索
       signup: 今すぐお申込み！
-      signup_reasons: サインアップの人々は誰を、リミックス共有リソースを見つけることができると学習の開発と会談し、
+      signup_reasons: サインアップの人々は誰を、見つけることができる議論、リミックス、学習資源の開発と会談し、
       why: FOLKSEMANTICなぜですか？
-      widgets_pitch: 関連するリソースの学習をお客様のウェブページのリンクをしたいですか？
+      widgets_pitch: あなたのWebページを得るための提言OERしてみませんか？
     just_ocws: コース
     metadata: メタデータ
     next: 次の

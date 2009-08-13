@@ -22,15 +22,15 @@ it:
       collaborate: "COLLABORARE CON"
       comments_heading: "Commenti recenti"
       example_comment: "Questa guida è la costruzione Legos awesome! Mi chiedo se siamo in grado di utilizzarlo con gli studenti nelle CS 102."
-      get_widgets: "GET THE FOLKSEMANTIC Widget"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER recommender Widget"
+      oers: "<b>OPEN</b> ISTRUZIONE"
       people: PERSONE
-      resources: "Risorse per l&#39;apprendimento"
+      resources: "RISORSE (OERS)"
       search: CERCA
       signup: "ISCRIVITI OGGI!"
-      signup_reasons: "Registrati per incontrare persone con le quali si possono trovare, condividere, remix, e sviluppare risorse di apprendimento"
+      signup_reasons: "Registrati per incontrare altre persone con cui si può trovare, discutere, remix, e sviluppare risorse di apprendimento"
       why: "FOLKSEMANTIC PERCHE &#39;?"
-      widgets_pitch: "Vuoi il tuo link a pagine web relative risorse per l&#39;apprendimento?"
+      widgets_pitch: "Vuoi ricevere OER consigli per le tue pagine web?"
     just_ocws: Corsi
     metadata: Metadati
     next: Successivo

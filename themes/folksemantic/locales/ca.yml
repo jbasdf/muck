@@ -22,15 +22,15 @@ ca:
       collaborate: "COL LABORA AMB"
       comments_heading: "COMENTARIS RECENTS"
       example_comment: "Llecs que guia la construcció és impressionant! Em pregunto si podem utilitzar amb els estudiants en CS 102."
-      get_widgets: "OBTENIR LA FOLKSEMANTIC widgets"
-      oers: "LINIA <b>OBERTA</b>"
+      get_widgets: "OBTENIR REA recomanació giny"
+      oers: "EDUCACIÓ <b>OBERTA</b>"
       people: PERSONES
-      resources: "RECURSOS D&#39;APRENENTATGE"
+      resources: "RECURSOS (OERs)"
       search: CERCAR
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Fes-ho per conèixer gent amb qui vostè pot trobar, compartir, barrejar, i desenvolupar recursos d&#39;aprenentatge"
+      signup_reasons: "Fes-ho per conèixer gent amb qui vostè pot trobar, analitzar, barrejar, i desenvolupar recursos d&#39;aprenentatge"
       why: "FOLKSEMANTIC PER QUÈ?"
-      widgets_pitch: "Voleu enllaçar les seves pàgines web relacionades als recursos d&#39;aprenentatge?"
+      widgets_pitch: "Vols REA recomanacions per les seves pàgines web?"
     just_ocws: Cursos
     metadata: Metadades
     next: Següent

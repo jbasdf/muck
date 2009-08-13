@@ -22,15 +22,15 @@ es:
       collaborate: "COLABORA CON"
       comments_heading: "COMENTARIOS RECIENTES"
       example_comment: "Legos que guía la construcción es impresionante! Me pregunto si podemos usarlo con los estudiantes en CS 102."
-      get_widgets: "OBTENER LA FOLKSEMANTIC WIDGETS"
-      oers: "LINEA <b>ABIERTA</b>"
+      get_widgets: "OBTENER REA recomendación widget"
+      oers: "EDUCACIÓN <b>ABIERTA</b>"
       people: PERSONAS
-      resources: "RECURSOS DE APRENDIZAJE"
+      resources: "RECURSOS (OERs)"
       search: BUSCAR
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Regístrese para conocer gente con quien usted puede encontrar, compartir, mezclar, y desarrollar recursos de aprendizaje"
+      signup_reasons: "Regístrese para conocer gente con quien usted puede encontrar, analizar, mezclar, y desarrollar recursos de aprendizaje"
       why: "FOLKSEMANTIC ¿POR QUÉ?"
-      widgets_pitch: "Desea enlazar sus páginas web relacionadas a los recursos de aprendizaje?"
+      widgets_pitch: "¿Quieres REA recomendaciones para sus páginas web?"
     just_ocws: Cursos
     metadata: Metadatos
     next: Siguiente

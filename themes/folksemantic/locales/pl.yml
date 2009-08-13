@@ -22,15 +22,15 @@ pl:
       collaborate: "Współpracujemy z"
       comments_heading: "Najnowsze komentarze"
       example_comment: "To Legos budowy przewodnik is awesome! Zastanawiam się, jeśli będziemy mogli korzystać ze studentami w CS 102."
-      get_widgets: "GET THE FOLKSEMANTIC Widżety"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER Polecane widget"
+      oers: "<b>OPEN</b> EDUKACJA"
       people: LUDZIE
-      resources: "LEARNING RESOURCES"
+      resources: "ZASOBY (OERS)"
       search: SZUKAJ
       signup: "Sign Up Today!"
-      signup_reasons: "Zapisz się do spełnienia ludzie, z którymi można znaleźć, akcje, remix, naukę i rozwój zasobów"
+      signup_reasons: "Zapisz się do spełnienia ludzie, z którymi można znaleźć, dyskutować, remix, naukę i rozwój zasobów"
       why: "DLACZEGO FOLKSEMANTIC?"
-      widgets_pitch: "Chcesz link do swoich stron internetowych związanych z nauki?"
+      widgets_pitch: "Chcesz dostać OER zaleceń dla swoich stron WWW?"
     just_ocws: Kursy
     metadata: Metadane
     next: Następny

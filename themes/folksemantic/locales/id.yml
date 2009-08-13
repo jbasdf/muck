@@ -22,15 +22,15 @@ id:
       collaborate: "Bekerjasama dengan"
       comments_heading: "Recent Comments"
       example_comment: "Legos bahwa konstruksi panduan is awesome! Saya heran jika kita dapat menggunakannya dengan siswa di CS 102."
-      get_widgets: "GET THE FOLKSEMANTIC Widgets"
-      oers: "<b>BUKA</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER Widget"
+      oers: "<b>BUKA</b> PENDIDIKAN"
       people: PEOPLE
-      resources: "SUMBER BELAJAR"
+      resources: "SUMBER (OERS)"
       search: CARI
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Mendaftar untuk bertemu dengan orang-orang dengan siapa Anda dapat menemukan, berbagi, remix, belajar dan mengembangkan sumber daya"
+      signup_reasons: "Mendaftar untuk bertemu dengan orang-orang dengan siapa Anda dapat menemukan, mendiskusikan, remix, belajar dan mengembangkan sumber daya"
       why: "MENGAPA FOLKSEMANTIC?"
-      widgets_pitch: "Ingin membuat link ke halaman web yang berhubungan dengan sumber belajar?"
+      widgets_pitch: "Ingin mendapatkan OER rekomendasi untuk halaman web Anda?"
     just_ocws: Kursus
     metadata: Metadata
     next: Berikutnya

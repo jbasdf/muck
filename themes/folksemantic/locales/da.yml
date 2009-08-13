@@ -22,15 +22,15 @@ da:
       collaborate: "Samarbejd med"
       comments_heading: "SENESTE KOMMENTARER"
       example_comment: "At legos opførelse vejledning er awesome! Jeg spekulerer på, om vi kunne bruge det med eleverne i CS 102."
-      get_widgets: "FÅ DET FOLKSEMANTIC widgets"
-      oers: "<b>ÅBEN</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER widget"
+      oers: "<b>Åben</b> uddannelse"
       people: MENNESKER
-      resources: Læringsressourcer
+      resources: "RESSOURCER (OERS)"
       search: SØG
       signup: "Tilmeld dig i dag!"
-      signup_reasons: "Tilmeld dig til at møde folk, som du kan finde, dele, remix, og udvikle læringsressourcer"
+      signup_reasons: "Tilmeld dig til at møde folk, som du kan finde, diskutere, remix, og udvikle læringsressourcer"
       why: "HVORFOR FOLKSEMANTIC?"
-      widgets_pitch: "Ønsker at knytte dine websider til relaterede læring ressourcer?"
+      widgets_pitch: "Ønsker at få OER anbefalinger til dine websider?"
     just_ocws: Kurser
     metadata: Metadata
     next: Næste

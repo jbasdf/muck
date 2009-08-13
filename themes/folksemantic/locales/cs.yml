@@ -22,15 +22,15 @@ cs:
       collaborate: "Spolupracujeme s"
       comments_heading: "POSLEDNÍ KOMENTÁŘE"
       example_comment: "To legos stavební návod je úžasné! Zajímalo by mě, jestli bychom mohli používat společně se studenty v CS 102."
-      get_widgets: "Get The FOLKSEMANTIC Widgety"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER widget"
+      oers: "<b>OPEN</b> VZDELÁVÁNÍ"
       people: LIDÉ
-      resources: "Výukové zdroje"
+      resources: "ZDROJŮ (OERS)"
       search: VYHLEDÁVÁNÍ
       signup: "Přihlaste se ještě dnes!"
-      signup_reasons: "Zaregistrujte se potkávat lidi, se kterými si můžete najít, sdílet, remix, a rozvíjet výukové zdroje"
+      signup_reasons: "Zaregistrujte se potkávat lidi, se kterými si můžete najít, diskutovat, remix, a rozvíjet výukové zdroje"
       why: "PROČ FOLKSEMANTIC?"
-      widgets_pitch: "Chceš odkaz na vaše webové stránky na související výukové zdroje?"
+      widgets_pitch: "Chcete se dostat OER doporučení pro vaše webové stránky?"
     just_ocws: Kurzy
     metadata: Metadata
     next: Příští

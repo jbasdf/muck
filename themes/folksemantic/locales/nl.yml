@@ -22,15 +22,15 @@ nl:
       collaborate: "Samenwerken met"
       comments_heading: "RECENTE REACTIES"
       example_comment: "Dat Legos bouw handleiding is awesome! Ik vraag me af of we kunnen gebruiken om met de studenten in CS 102."
-      get_widgets: "GET THE FOLKSEMANTIC Widgets"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER recommender Widget"
+      oers: "<b>OPEN</b> ONDERWIJS"
       people: MENSEN
-      resources: Leermiddelen
+      resources: "MIDDELEN (Oers)"
       search: ZOEKEN
       signup: "Schrijf je nu in!"
-      signup_reasons: "Aanmelden om mensen te ontmoeten met wie je kunt vinden, delen, remix, en de ontwikkeling van leermiddelen"
+      signup_reasons: "Aanmelden om mensen te ontmoeten met wie je kunt vinden, te bespreken, remix, en de ontwikkeling van leermiddelen"
       why: "WAAROM FOLKSEMANTIC?"
-      widgets_pitch: "Wilt koppelen uw webpagina&#39;s aan verbonden leermiddelen?"
+      widgets_pitch: "Wilt u OER aanbevelingen voor uw webpagina&#39;s?"
     just_ocws: Cursussen
     metadata: Metadata
     next: Volgende

@@ -22,15 +22,15 @@ tl:
       collaborate: "Makipagtulungan sa"
       comments_heading: "Kamakailan-lamang na Puna"
       example_comment: "Na legos konstruksiyon gabay ay awesome! I wonder kung kami ay maaaring gamitin ito sa mga mag-aaral sa CS 102."
-      get_widgets: "GET ANG FOLKSEMANTIC widgets"
-      oers: "<b>Buksan</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER Widget"
+      oers: "<b>Buksan</b> EDUKASYON"
       people: PEOPLE
-      resources: "Pag-aaral ng mga gamit-yaman"
+      resources: "Resources (OERS)"
       search: SEARCH
       signup: "Mag-sign Up ng TODAY!"
-      signup_reasons: "Mag-sign up upang matugunan ang mga tao sa kung sino ang puwede mong makita, i-share, remix, at nagkakaroon ng pag-aaral ng mga gamit-yaman"
+      signup_reasons: "Mag-sign up upang matugunan ang mga tao sa kung sino ang puwede mong makita, pag-usapan, remix, at nagkakaroon ng pag-aaral ng mga gamit-yaman"
       why: "BAKIT FOLKSEMANTIC?"
-      widgets_pitch: "Nais na mag-link sa iyong mga pahina ng web na may kaugnayan sa pag-aaral ng mga resources?"
+      widgets_pitch: "Gusto mong makakuha ng OER mga rekomendasyon para sa iyong mga web page?"
     just_ocws: "Mga sangay"
     metadata: Metadata
     next: Susunod

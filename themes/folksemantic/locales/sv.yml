@@ -22,15 +22,15 @@ sv:
       collaborate: "Samarbeta med"
       comments_heading: "SENASTE KOMMENTARER"
       example_comment: "Det legos konstruktion guide is awesome! Jag undrar om vi kunde använda den med eleverna i CS 102."
-      get_widgets: "FÅ FOLKSEMANTIC Manicker"
-      oers: "<b>ÖPPNA</b> ONLINE"
+      get_widgets: "GET Oer RECOMMENDER widget"
+      oers: "<b>OPEN</b> UTBILDNING"
       people: MÄNNISKOR
-      resources: Inlärningsresurser
+      resources: "MEDEL (OERS)"
       search: SÖK
       signup: "Registrera dig idag!"
-      signup_reasons: "Anmäl dig att möta människor som du kan hitta, dela, remix, och utveckla inlärningsresurser"
+      signup_reasons: "Anmäl dig att möta människor som du kan hitta, diskutera, remix, och utveckla inlärningsresurser"
       why: "VARFÖR FOLKSEMANTIC?"
-      widgets_pitch: "Vill du länka dina webbsidor till lärande resurser?"
+      widgets_pitch: "Vill du få Oer rekommendationer för dina webbsidor?"
     just_ocws: Kurser
     metadata: Statistikinfo
     next: Nästa

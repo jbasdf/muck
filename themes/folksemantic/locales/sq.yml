@@ -22,15 +22,15 @@ sq:
       collaborate: "Bashkëpunojnë me"
       comments_heading: "Komentet e fundit"
       example_comment: "Ky udhëzues është ndërtimi legos awesome! Pyes veten nëse ne mund ta përdorin atë me nxënësit në CS 102."
-      get_widgets: "JEPET FOLKSEMANTIC Widgets"
-      oers: "<b>HAPUR</b> ONLINE"
+      get_widgets: "MERRNI OER RECOMMENDER widget"
+      oers: "ARSIMI <b>E HAPUR</b>"
       people: NJERËZIT
-      resources: "BURIMET E MËSIMIT"
+      resources: "BURIMET (OERS)"
       search: KËRKO
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Regjistrohu për të takuar njerëz me të cilët ju mund të gjeni, share, remix, dhe zhvillimin e burimeve të të mësuarit"
+      signup_reasons: "Regjistrohu për të takuar njerëz me të cilët ju mund të gjeni, diskutuar, remix, dhe zhvillimin e burimeve të të mësuarit"
       why: "FOLKSEMANTIC PSE?"
-      widgets_pitch: "Dëshironi të Lidhje tuaj web faqe të lidhura me burimet e mësimit?"
+      widgets_pitch: "Dëshironi të merrni OER rekomandime për web faqet tuaja?"
     just_ocws: Kurset
     metadata: Metadata
     next: Tjetër

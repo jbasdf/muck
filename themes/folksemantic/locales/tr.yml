@@ -22,15 +22,15 @@ tr:
       collaborate: Işbirliği
       comments_heading: "SON YORUMLAR"
       example_comment: "Bu legos inşaat rehberi is awesome! Eğer CS 102 yılında öğrenciler ile kullanabilirsiniz ben merak ediyorum."
-      get_widgets: "THE FOLKSEMANTIC Widgets GET"
-      oers: "<b>AÇIK</b> ONLINE"
+      get_widgets: "OER RECOMMENDER widget&#39;ı almasını"
+      oers: "<b>AÇIK</b> ÖĞRETİM"
       people: EKİBİMİZ
-      resources: "ÖĞRENME KAYNAKLARI"
+      resources: "KAYNAKLARI (OERS)"
       search: ARAMA
       signup: "Bugün kaydolun!"
-      signup_reasons: "Kaydol kişiler size, Remix payı bulabilir ve kaynakları öğrenme geliştirilmesi ile bir araya gelecek"
+      signup_reasons: "Kaydol kişiler size bulabilirsiniz tartışmak, remix ve kaynakları öğrenme geliştirilmesi ile bir araya gelecek"
       why: "NEDEN FOLKSEMANTIC?"
-      widgets_pitch: "Ilgili kaynakları öğrenme web sayfalarına bağlantı ister misiniz?"
+      widgets_pitch: "Web sayfaları için OER öneriler almak ister misiniz?"
     just_ocws: Dersler
     metadata: Meta
     next: Sonraki

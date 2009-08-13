@@ -22,15 +22,15 @@ fi:
       collaborate: Yhteistyötä
       comments_heading: "Uusimmat kommentit"
       example_comment: "Tämä legos rakentamisen opas on mahtavaa! Ihmettelen, jos voisimme käyttää sitä opiskelijoiden CS 102."
-      get_widgets: "GET THE FOLKSEMANTIC Widgets"
-      oers: "<b>AVAA</b> ONLINE"
+      get_widgets: "GET OER Recommenderilta Widget"
+      oers: "<b>AVOIN</b> KOULUTUS"
       people: IHMISET
-      resources: "Learning Resources"
+      resources: "VARAT (OERS)"
       search: HAKU
       signup: "Rekisteröidy tänään!"
-      signup_reasons: "Rekisteröidy tavata ihmisiä, joiden kanssa voit löytää, jakaa, remix, ja kehittää oppimisresursseja"
+      signup_reasons: "Rekisteröidy tavata ihmisiä, joiden kanssa voit löytää, keskustelemaan, remix, ja kehittää oppimisresursseja"
       why: "MIKSI FOLKSEMANTIC?"
-      widgets_pitch: "Haluavat linkki web-sivuja, jotka liittyvät oppimisen voimavaroja?"
+      widgets_pitch: "Haluatko OER suositusten web-sivuilla?"
     just_ocws: Kurssit
     metadata: Metatieto
     next: Seuraava

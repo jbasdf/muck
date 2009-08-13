@@ -22,15 +22,15 @@ lt:
       collaborate: "Bendradarbiauti su"
       comments_heading: "Naujausi komentarai"
       example_comment: "Kad legos statybos vadovas is awesome! Įdomu, jei mes galime jį naudoti su studentais CS 102."
-      get_widgets: "GET THE FOLKSEMANTIC raštai"
-      oers: "<b>ATVIRAS</b> ONLINE"
+      get_widgets: "Gaukite OER Rekomenduokite Widget"
+      oers: "<b>ATVIRAS</b> ŠVIETIMO"
       people: ŽMONĖS
-      resources: "MOKYMOSI IŠTEKLIAI"
+      resources: "IŠTEKLIAI (OERS)"
       search: PAIEŠKA
       signup: "Registruotis dabar!"
-      signup_reasons: "Registruotis susipažinti su žmonėmis, su kuriais jūs galite surasti, dalytis, remix, ir sukurti mokymosi išteklių"
+      signup_reasons: "Registruotis susipažinti su žmonėmis, su kuriais jūs galite surasti, aptarti, remix, ir sukurti mokymosi išteklių"
       why: "KODĖL FOLKSEMANTIC?"
-      widgets_pitch: "Norite nuorodą savo interneto puslapių, susijusių mokymosi išteklių?"
+      widgets_pitch: "Norite gauti OER rekomendacijas savo puslapius?"
     just_ocws: Kursai
     metadata: Metaduomenys
     next: Kitas

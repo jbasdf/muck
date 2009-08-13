@@ -22,15 +22,15 @@ et:
       collaborate: Koostööd
       comments_heading: "Viimased kommentaarid"
       example_comment: "See Mangos ehitamise juhend on fantastiline! Ma ei tea, kui me võiksime seda kasutada koos õpilastega CS 102."
-      get_widgets: "GET THE FOLKSEMANTIC Vidinad"
-      oers: "<b>AVATUD</b> ONLINE"
+      get_widgets: "GET OER Soovitaja vekotin"
+      oers: "<b>Avatud Hariduse</b>"
       people: INIMESED
-      resources: Õppematerjalid
+      resources: "VAHENDID (OERS)"
       search: OTSI
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Logi sisse oma inimesi, kellega võib leida, jagada remix ja arendada õppematerjale"
+      signup_reasons: "Logi sisse oma inimesi, kellega saab leida, arutada, remix ja arendada õppematerjale"
       why: "MIKS FOLKSEMANTIC?"
-      widgets_pitch: "Tahad, et siduda oma veebilehekülgedele seotud õppematerjalidele?"
+      widgets_pitch: "Soovid saada OER soovitusi oma veebilehekülgi?"
     just_ocws: Kursused
     metadata: Metaandmed
     next: Järgmine

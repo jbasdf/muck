@@ -22,15 +22,15 @@ ro:
       collaborate: "Să colaboreze cu"
       comments_heading: "Comentarii recente"
       example_comment: "Acest ghid este legos construcţie minunat! Mă întreb dacă am putea să-l utilizaţi cu elevii, CS 102."
-      get_widgets: "Ia FOLKSEMANTIC Widgets"
-      oers: "<b>OPEN</b> ONLINE"
+      get_widgets: "GET OER RECOMMENDER widget"
+      oers: "<b>OPEN</b> EDUCAŢIE"
       people: OAMENI
-      resources: "LEARNING RESURSE"
+      resources: "Resurse (OERS)"
       search: CAUTARE
       signup: "Înscrieţi-vă astăzi!"
-      signup_reasons: "Înscrieţi-vă pentru a întâlni oameni cu care puteţi găsi, partaja, remix, si de a dezvolta resurse de învăţare"
+      signup_reasons: "Înscrieţi-vă pentru a întâlni oameni cu care puteţi găsi, discuta, remix, si de a dezvolta resurse de învăţare"
       why: "DE CE FOLKSEMANTIC?"
-      widgets_pitch: "Doriţi să vă legaţi la pagini web legate de resurse de învăţare?"
+      widgets_pitch: "Vrei sa te OER recomandări pentru paginile dvs. de web?"
     just_ocws: Cursuri
     metadata: Metadata
     next: Următorul
