@@ -367,9 +367,8 @@ namespace :muck do
   end
   
   def git_push(path)
-    puts "Pulling and pushing #{BLUE}#{File.basename(path)}#{INVERT}"
+    puts "Pushing #{BLUE}#{File.basename(path)}#{INVERT}"
     repo = Git.open("#{path}")
-    puts repo.pull
     puts repo.push
   end
   
