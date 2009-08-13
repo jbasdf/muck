@@ -20,7 +20,7 @@ end
 
 def should_notify_normally
   should "have inserted its methods into the controller" do
-    assert @controller.methods.include?("notify_hoptoad")
+    assert @controller.respond_to?(:notify_hoptoad)
   end
 
   should "prevent raises and send the error to hoptoad" do
@@ -122,6 +122,10 @@ end
 def should_auto_include_catcher
   should "auto-include for ApplicationController" do
     assert ApplicationController.include?(HoptoadNotifier::Catcher)
+  end
+  should 'hide hoptoad methods' do
+    assert @controller.class.hidden_actions.include?('notify_hoptoad'), "Catchers should hide the :notify_hoptoad method"
+    assert @controller.class.hidden_actions.include?('inform_hoptoad'), "Catchers should hide the :inform_hoptoad method"
   end
 end
 
