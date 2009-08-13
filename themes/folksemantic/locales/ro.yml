@@ -7,7 +7,8 @@ ro:
     calculated: calculat
     collections: Colecţii
     collections_long: "Colecţii indexate"
-    credits: "Dezvoltat de către <a href=\"http://cosl.usu.edu\">Centrul pentru Invatamant Deschis şi durabilă,</a> cu finanţare de la <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Contribuie OCW / OER repository"
+    credits: "Dezvoltat de către <a href=\"http://cosl.usu.edu\">Centrul pentru Invatamant Deschis şi durabilă,</a> cu finanţare din partea <a href=\"http://nsf.gov/\">Fundatiei Nationale de Stiinta</a> si <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detalii
     developers: Developers
@@ -16,6 +17,20 @@ ro:
     for: pentru
     gm_more_prompt: "Mai mult Resurse asociate"
     gm_title: "Resurse asociate"
+    home: 
+      browse_and_search: "Răsfoiţi şi căutare în"
+      collaborate: "Să colaboreze cu"
+      comments_heading: "Comentarii recente"
+      example_comment: "Acest ghid este legos construcţie minunat! Mă întreb dacă am putea să-l utilizaţi cu elevii, CS 102."
+      get_widgets: "Ia FOLKSEMANTIC Widgets"
+      oers: "<b>OPEN</b> ONLINE"
+      people: OAMENI
+      resources: "LEARNING RESURSE"
+      search: CAUTARE
+      signup: "Înscrieţi-vă astăzi!"
+      signup_reasons: "Înscrieţi-vă pentru a întâlni oameni cu care puteţi găsi, partaja, remix, si de a dezvolta resurse de învăţare"
+      why: "DE CE FOLKSEMANTIC?"
+      widgets_pitch: "Doriţi să vă legaţi la pagini web legate de resurse de învăţare?"
     just_ocws: Cursuri
     metadata: Metadata
     next: Următorul
@@ -36,7 +51,7 @@ ro:
     search_description: "Găsiţi resurse de învăţare şi de <span class=\"highlight\">navigare</span> prin <span class=\"highlight\">căutarea</span> de peste <span class=\"highlight\">110,000</span> de resurse educaţionale deschise"
     search_link: "Găsiţi Resurse!"
     tag_line: "abilitarea deschis educaţie"
-    title: Folksemantic
+    title: folksemantic
     tour: "Faceţi un tur!"
     tour_description: "Vizionaţi un material <span class=\"highlight\">video introducerea</span> Folksemantic"
     view_account: "Vizualizaţi-vă contul"
@@ -45,6 +60,10 @@ ro:
     welcome_user: "Bine ati venit {{user}}"
     widgets_description: "Ia fleacuri, pentru a ajuta utilizatorii să <span class=\"highlight\">găsească</span> resurse şi de a <span class=\"highlight\">descoperi resurse legate</span> de cele de pe site-ul dvs."
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Contribuie OCW / OER repository"
     welcome_activity: "Bine ati venit la {{application_name}}! Aici puteti <a href='/resources'>descoperi gratuit resurse educaţionale din întreaga lume.</a> Interesant în <a href='/resources/search?q=lady+bugs'>doamnă de bug-uri?</a> <a href='/resources/3909'>Cum despre resurse de învăţare de la NASA?.</a>"

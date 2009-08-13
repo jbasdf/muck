@@ -7,7 +7,8 @@ tr:
     calculated: hesaplanır
     collections: Kolleksiyonlar
     collections_long: "Indexed Kolleksiyonlar"
-    credits: "Olan <a href=\"http://cosl.usu.edu\">Merkezi Açık ve Sürdürülebilir Öğrenim</a> için <a href=\"http://nsf.gov/\">Ulusal Bilim Vakfı</a> fon ile Developed by"
+    contribute_repository: "Katkıda OCW / OER Havuzu"
+    credits: "Olan <a href=\"http://cosl.usu.edu\">Merkezi Açık ve Sürdürülebilir Öğrenim</a> için <a href=\"http://nsf.gov/\">Ulusal Bilim Vakfı</a> ve <a href=\"http://www.mellon.org/\">Andrew W Mellon Vakfı</a> fon ile Developed by"
     demo: Demo
     details: Ayrıntılar
     developers: Geliştiriciler
@@ -16,6 +17,20 @@ tr:
     for: için
     gm_more_prompt: "Diğer İlgili Kaynaklar"
     gm_title: "İlgili Kaynaklar"
+    home: 
+      browse_and_search: "İnsanlar ve arama"
+      collaborate: Işbirliği
+      comments_heading: "SON YORUMLAR"
+      example_comment: "Bu legos inşaat rehberi is awesome! Eğer CS 102 yılında öğrenciler ile kullanabilirsiniz ben merak ediyorum."
+      get_widgets: "THE FOLKSEMANTIC Widgets GET"
+      oers: "<b>AÇIK</b> ONLINE"
+      people: EKİBİMİZ
+      resources: "ÖĞRENME KAYNAKLARI"
+      search: ARAMA
+      signup: "Bugün kaydolun!"
+      signup_reasons: "Kaydol kişiler size, Remix payı bulabilir ve kaynakları öğrenme geliştirilmesi ile bir araya gelecek"
+      why: "NEDEN FOLKSEMANTIC?"
+      widgets_pitch: "Ilgili kaynakları öğrenme web sayfalarına bağlantı ister misiniz?"
     just_ocws: Dersler
     metadata: Meta
     next: Sonraki
@@ -36,7 +51,7 @@ tr:
     search_description: "Arayarak öğrenme kaynakları <span class=\"highlight\">bulun</span> ve <span class=\"highlight\">110.000</span> açık öğretim kaynaklar üzerinde tarama"
     search_link: "Bul Kaynakları!"
     tag_line: "açık öğretim Yetki"
-    title: Folksemantic
+    title: folksemantic
     tour: "Tura Katılın!"
     tour_description: "Ve İzle <span class=\"highlight\">Video giriş</span> Folksemantic"
     view_account: "Kullanıcı Hesabı"
@@ -45,6 +60,10 @@ tr:
     welcome_user: "Hoşgeldiniz {{user}}"
     widgets_description: "Aletler alın kullanıcılar kaynakları bulmak <span class=\"highlight\">ve web sitenizde kaynakları olanlarla</span> ilgili bulmalarına yardımcı olmak için"
     widgets_link: "Widgets alın!"
+    widgets_title: "folksemantic aletler"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Katkıda OCW / OER Havuzu"
     welcome_activity: "Hoşgeldiniz {{application_name}}! için Burada <a href='/resources'>dünyanın her yerinden ücretsiz eğitim kaynakları keşfetmek olabilir.</a> NASA gelen bayan <a href='/resources/search?q=lady+bugs'>hata içinde <a href='/resources/3909'>İlginç?</a></a> <a href='/resources/3909'>Nasıl öğrenme kaynakları?.</a>"

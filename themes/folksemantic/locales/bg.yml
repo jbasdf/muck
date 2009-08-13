@@ -7,7 +7,8 @@ bg:
     calculated: изчислени
     collections: Колекции
     collections_long: "Индексирани Сборници"
-    credits: "Разработена от <a href=\"http://cosl.usu.edu\">Центъра за Отворете и устойчиво обучение</a> с финансиране от <a href=\"http://nsf.gov/\">Националната научна фондация</a>"
+    contribute_repository: "Принос OCW / OER хранилището"
+    credits: "Разработена от <a href=\"http://cosl.usu.edu\">Центъра за Отворете и устойчиво обучение</a> с финансиране от <a href=\"http://nsf.gov/\">Националната научна фондация</a> и <a href=\"http://www.mellon.org/\">Андрю Мелън W фондация</a>"
     demo: Демонстрация
     details: Подробности
     developers: Разработчици
@@ -16,6 +17,20 @@ bg:
     for: за
     gm_more_prompt: "Още Сродни ресурси"
     gm_title: "Сродни ресурси"
+    home: 
+      browse_and_search: "Преглед и търсене НАД"
+      collaborate: "Сътрудничи с"
+      comments_heading: "ПОСЛЕДНИ КОМЕНТАРИ"
+      example_comment: "Това legos строителство водач е страхотно! Чудя се, ако бихме могли да го използвате с учениците в CS 102."
+      get_widgets: "GET THE FOLKSEMANTIC Widgets"
+      oers: "<b>НОВА</b> ОНЛАЙН"
+      people: ХОРА
+      resources: "ЦЕЛИЯ РЕСУРСИ"
+      search: ТЪРСЕНЕ
+      signup: "Регистрирайте се днес!"
+      signup_reasons: "Регистрация за да отговарят хората, с които можете да намерите, акции, ремикс, както и разработване на учебни ресурси"
+      why: "ЗАЩО FOLKSEMANTIC?"
+      widgets_pitch: "Искате ли да се свържат своите уеб страници, свързани с обучението ресурси?"
     just_ocws: Курсове
     metadata: Метаданните
     next: Следващ
@@ -36,7 +51,7 @@ bg:
     search_description: "Търсене на учебни ресурси чрез <span class=\"highlight\">търсене и</span> разглеждане над 110000 отворени образователни ресурси"
     search_link: "Намери ресурси!"
     tag_line: "овластяване отворено образование"
-    title: Folksemantic
+    title: folksemantic
     tour: "Вземи си обиколка!"
     tour_description: "Гледайте <span class=\"highlight\">видео въвеждането</span> на Folksemantic"
     view_account: "Преглед на профил"
@@ -45,6 +60,10 @@ bg:
     welcome_user: "Добре дошли {{user}}"
     widgets_description: "Махни джунджурии да помогне на потребителите <span class=\"highlight\">да намират</span> средства <span class=\"highlight\">и</span> открийте <span class=\"highlight\">ресурси, свързани</span> с тези на вашия сайт"
     widgets_link: "Махни Widgets!"
+    widgets_title: "folksemantic джунджурии"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Принос OCW / OER хранилището"
     welcome_activity: "Добре дошли в {{application_name}}! Тук може да се <a href='/resources'>открият свободни образователни ресурси от цял свят.</a> Интересно в <a href='/resources/search?q=lady+bugs'>дама буболечки?</a> <a href='/resources/3909'>Какво ще кажеш за учебни ресурси от НАСА?.</a>"

@@ -7,7 +7,8 @@ mt:
     calculated: ikkalkulat
     collections: Kollezzjonijiet
     collections_long: "Indiċjati Kollezzjonijiet"
-    credits: "Żviluppati <a href=\"http://cosl.usu.edu\">mill-Center for Open Learning Sostenibbli u</a> mal-finanzjament <a href=\"http://nsf.gov/\">mill-National Science Foundation</a>"
+    contribute_repository: "Jikkontribwixxu OCW / OER Repository"
+    credits: "Żviluppati <a href=\"http://cosl.usu.edu\">mill-Center for Open Learning Sostenibbli u</a> mal-finanzjament <a href=\"http://nsf.gov/\">mill-National Science Foundation</a> u <a href=\"http://www.mellon.org/\">l-Andrew W Mellon Fondazzjoni</a>"
     demo: Demo
     details: Details
     developers: Developers
@@ -16,6 +17,20 @@ mt:
     for: għal
     gm_more_prompt: "More Related Riżorsi"
     gm_title: "Riżorsi Relatati"
+    home: 
+      browse_and_search: "QALLEB U OVER FITTEX"
+      collaborate: "Tikkollabora ma"
+      comments_heading: "RIĊENTI KUMMENTI"
+      example_comment: "Li legos kostruzzjoni gwida hija tal-biża &#39;! Niddubita jekk nistgħu użu ma &#39;l-istudenti fl CS 102."
+      get_widgets: "IKOLLOK IL FOLKSEMANTIC WIDGETS"
+      oers: "<b>OPEN</b> ONLINE"
+      people: PEOPLE
+      resources: "TAGĦLIM RIŻORSI"
+      search: FITTEX
+      signup: "SIGN UP ILLUM!"
+      signup_reasons: "Inkiteb biex tiltaqa &#39;man-nies li magħhom inti tista&#39; ssib, jaqsmu bejniethom, Remix, u tiżviluppa riżorsi għat-tagħlim"
+      why: "GħALIEX FOLKSEMANTIC?"
+      widgets_pitch: "Trid web link tiegħek paġni relatati għal riżorsi ta &#39;tagħlim?"
     just_ocws: Korsijiet
     metadata: Metadata
     next: "Li jmiss"
@@ -36,7 +51,7 @@ mt:
     search_description: "Sib riżorsi ta &#39;tagħlim <span class=\"highlight\">mill-tiftix</span> u <span class=\"highlight\">browsing</span> over 110000 miftuħa riżorsi edukattivi"
     search_link: "Sib Riżorsi!"
     tag_line: "tirresponsabbilizza miftuħa edukazzjoni"
-    title: Folksemantic
+    title: folksemantic
     tour: "Ħu Tour!"
     tour_description: "Watch <span class=\"highlight\">video introduzzjoni</span> ta Folksemantic"
     view_account: "View Your Account"
@@ -45,6 +60,10 @@ mt:
     welcome_user: "Merħba {{user}}"
     widgets_description: "Get widgets biex jgħinu lill-utenti <span class=\"highlight\">jsibu</span> riżorsi u <span class=\"highlight\">jiskopru riżorsi relatati ma</span> &#39;dawk fuq il-website tiegħek"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Jikkontribwixxu OCW / OER Repository"
     welcome_activity: "Merħba għall {{application_name}}! Hawnhekk tista <a href='/resources'>&#39;tiskopri ħielsa riżorsi edukattivi minn madwar id-dinja.</a> Interessanti <a href='/resources/search?q=lady+bugs'>mara bugs?</a> <a href='/resources/3909'>Kif dwar riżorsi ta &#39;tagħlim minn NASA?.</a>"

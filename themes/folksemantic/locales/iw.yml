@@ -7,7 +7,8 @@ iw:
     calculated: מחושב
     collections: אוספים
     collections_long: "באינדקס אוספים"
-    credits: "פותחה ע&quot;י <a href=\"http://cosl.usu.edu\">מרכז הלמידה פתיחה Sustainable</a> במימון של <a href=\"http://nsf.gov/\">הקרן הלאומית למדע</a>"
+    contribute_repository: "תרום OCW / OER Repository"
+    credits: "פותחה ע&quot;י <a href=\"http://cosl.usu.edu\">מרכז הלמידה פתיחה Sustainable</a> במימון של <a href=\"http://nsf.gov/\">הקרן הלאומית למדע</a> של <a href=\"http://www.mellon.org/\">Andrew W Mellon קרן</a>"
     demo: הדגמה
     details: פרטים
     developers: מפתחים
@@ -16,6 +17,20 @@ iw:
     for: עבור
     gm_more_prompt: "עוד נושאים קשורים"
     gm_title: "נושאים קשורים"
+    home: 
+      browse_and_search: "עיון וחיפוש OVER"
+      collaborate: "פעולה עם"
+      comments_heading: "הערות אחרונות"
+      example_comment: "מדריך זה legos הבנייה is Awesome! אני תוהה אם אפשר להשתמש בה עם תלמידי CS 102."
+      get_widgets: "קבל את FOLKSEMANTIC יישומונים"
+      oers: "<b>OPEN</b> ONLINE"
+      people: PEOPLE
+      resources: "משאבי למידה"
+      search: חיפוש
+      signup: "הירשם היום!"
+      signup_reasons: "הרשם לפגוש אנשים שאיתם אתה יכול למצוא, לשתף, remix, ופיתוח משאבי למידה"
+      why: "למה FOLKSEMANTIC?"
+      widgets_pitch: "רוצה לקשר את דפי אינטרנט הקשורים ל משאבי למידה?"
     just_ocws: קורסים
     metadata: Metadata
     next: הבא
@@ -36,7 +51,7 @@ iw:
     search_description: "מצא משאבי למידה באמצעות <span class=\"highlight\">חיפוש והגלישה</span> מעל <span class=\"highlight\">110,000</span> לפתוח משאבים חינוכיים"
     search_link: "מצא משאבים!"
     tag_line: "העצמת חינוך פתוח"
-    title: Folksemantic
+    title: folksemantic
     tour: "בוא לביקור!"
     tour_description: "צפה <span class=\"highlight\">בסרטון המבוא</span> של Folksemantic"
     view_account: "הצג את חשבון"
@@ -45,6 +60,10 @@ iw:
     welcome_user: "ברוכים הבאים {{user}}"
     widgets_description: "קבל יישומונים לעזור למשתמשים <span class=\"highlight\">למצוא</span> משאבים <span class=\"highlight\">משאבים קשורים</span> כדי <span class=\"highlight\">לגלות</span> אלו באתר האינטרנט שלך"
     widgets_link: "קבל יישומונים!"
+    widgets_title: "folksemantic יישומונים"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "תרום OCW / OER Repository"
     welcome_activity: "ברוכים הבאים {{application_name}}! כאן אתה יכול <a href='/resources'>לגלות חופשי משאבים חינוכיים מכל רחבי העולם.</a> מעניין על <a href='/resources/search?q=lady+bugs'>באגים גברת?</a> <a href='/resources/3909'>מה לגבי משאבי למידה מ NASA?.</a>"

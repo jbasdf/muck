@@ -28,6 +28,6 @@
       themes: Temaer
       users: Brukere
     contact_request: "Kontakt Forespørsel"
-    contact_thanks: "Takk for at du kontakter oss. Vi har mottatt e-post og vil være i kontakt snart."
+    contact_thanks: "Takk for at du kontakter oss. Vi har mottatt din e-post og vil være i kontakt snart."
     user_greeting: "Hi {{user}},"
     welcome_activity: "Velkommen til {{application_name}}."

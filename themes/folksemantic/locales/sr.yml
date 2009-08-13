@@ -7,7 +7,8 @@ sr:
     calculated: израчунати
     collections: Збирке
     collections_long: "Индексиране Збирке"
-    credits: "Развијен од стране <a href=\"http://cosl.usu.edu\">Центра за учење и одрживи Опен</a> финансирањем из <a href=\"http://nsf.gov/\">Натионал Сциенце Фоундатион</a>"
+    contribute_repository: "Придонети ОЦУ / ОЕР склади"
+    credits: "Развијен од стране <a href=\"http://cosl.usu.edu\">Центра за учење и одрживи Опен</a> финансирањем из <a href=\"http://nsf.gov/\">Натионал Сциенце Фоундатион</a> и <a href=\"http://www.mellon.org/\">Андреу У Мелон Фоундатион</a>"
     demo: Демо
     details: Детаљи
     developers: Девелоперс
@@ -16,6 +17,20 @@ sr:
     for: за
     gm_more_prompt: "Више Сродни ресурси"
     gm_title: "Повезани ресурси"
+    home: 
+      browse_and_search: "Прегледање и претраживање"
+      collaborate: "Сарађујте са"
+      comments_heading: "Рецент Цомментс"
+      example_comment: "То је водич легос грађевина Ауесоме! Питам се, ако смо могли да користите га са 102 ученика у ЦС."
+      get_widgets: "Узмите ФОЛКСЕМАНТИЦ уидгетс"
+      oers: "<b>ОТВОРЕНО</b> онлине"
+      people: ЉУДИ
+      resources: "Леарнинг Ресоурцес"
+      search: Претраживање
+      signup: "Пријавите се још данас!"
+      signup_reasons: "Пријавите се у сусрет људи са којима можете пронаћи, делити, Ремикс, учити и развијати ресурси"
+      why: "ЗАШТО ФОЛКСЕМАНТИЦ?"
+      widgets_pitch: "Желите линк ваше уеб странице на сродне изворе учења?"
     just_ocws: Курсеви
     metadata: Метаподатке
     next: Даље
@@ -36,7 +51,7 @@ sr:
     search_description: "Пронађи леарнинг ресурсе <span class=\"highlight\">претрагом</span> и <span class=\"highlight\">претраживања</span> преко <span class=\"highlight\">110.000</span> отворених образовни ресурси"
     search_link: "Финд Ресоурцес!"
     tag_line: "Оснаживање отворен образовање"
-    title: Фолксемантиц
+    title: фолксемантиц
     tour: "Идите у обилазак!"
     tour_description: "Уатцх <span class=\"highlight\">видео увођење</span> Фолксемантиц"
     view_account: "Прикажи Ваш кориснички рачун"
@@ -45,6 +60,10 @@ sr:
     welcome_user: "Добродошли {{user}}"
     widgets_description: "Гет уидгетс помоћи корисницима <span class=\"highlight\">пронаћи</span> ресурсе и <span class=\"highlight\">откријте ресурса везаних</span> за оне на вашој веб локацији"
     widgets_link: "Гет Гаџети!"
+    widgets_title: "фолксемантиц уидгетс"
     xml: КСМЛ
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Придонети ОЦУ / ОЕР склади"
     welcome_activity: "Добродошли на {{application_name}}! Овде можете <a href='/resources'>бесплатно открију образовне ресурсе из целог света.</a> Занимљиве у <a href='/resources/search?q=lady+bugs'>даму бугова?</a> <a href='/resources/3909'>Како о учењу ресурсе из НАСА-е?.</a>"

@@ -7,7 +7,8 @@ hu:
     calculated: kiszámított
     collections: Gyűjtemények
     collections_long: "Indexálva gyűjtemények"
-    credits: "Fejlesztette a <a href=\"http://cosl.usu.edu\">Center for Open Learning és fenntartható</a> finanszírozással a <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Contribute OCW / OER Repository"
+    credits: "Által kifejlesztett <a href=\"http://cosl.usu.edu\">Központ nyitott és fenntartható tanulás</a> a finanszírozást a <a href=\"http://nsf.gov/\">Nemzeti Tudományos Alapítvány</a> és a <a href=\"http://www.mellon.org/\">Andrew W Mellon Alapítvány</a>"
     demo: Demo
     details: Részletek
     developers: Fejlesztőknek
@@ -16,6 +17,20 @@ hu:
     for: miatt
     gm_more_prompt: "Tovább Kapcsolódó anyagok"
     gm_title: "Kapcsolódó anyagok"
+    home: 
+      browse_and_search: "BROWSE és kereshet"
+      collaborate: Együttműködni
+      comments_heading: "Friss hozzászólások"
+      example_comment: "Ez legos építési útmutatót is awesome! Vajon mi lehetett használni a diákok a CS 102."
+      get_widgets: "Get the FOLKSEMANTIC kütyü"
+      oers: "<b>OPEN</b> ONLINE"
+      people: EMBEREK
+      resources: "LEARNING RESOURCES"
+      search: KERESÉS
+      signup: "Regisztráljon még ma!"
+      signup_reasons: "Jelentkezzen be, hogy megfeleljen az emberek, akikkel együtt megtalálható, részvény, remix, valamint a tanulási források"
+      why: "MIÉRT FOLKSEMANTIC?"
+      widgets_pitch: "Szeretne link weboldalaiba kapcsolódó tanulási forrásokat?"
     just_ocws: Tanfolyamok
     metadata: Metaadatok
     next: Következő
@@ -36,7 +51,7 @@ hu:
     search_description: "Find tanulási erőforrások <span class=\"highlight\">felkutatása</span> és <span class=\"highlight\">a böngészés</span> alatt <span class=\"highlight\">110.000</span> nyílt oktatási források"
     search_link: "Find Resources!"
     tag_line: "felhatalmazására nyílt oktatás"
-    title: Folksemantic
+    title: folksemantic
     tour: Betekintés!
     tour_description: "Nézd a <span class=\"highlight\">videót bevezetése</span> Folksemantic"
     view_account: "View Saját"
@@ -45,6 +60,10 @@ hu:
     welcome_user: "Üdvözöljük {{user}}"
     widgets_description: "Get kütyü, hogy segítsen a felhasználóknak forrásokat <span class=\"highlight\">találni,</span> és <span class=\"highlight\">fedezze fel a forrásokat</span> is a weboldaladon"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic kütyü"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Contribute OCW / OER Repository"
     welcome_activity: "Üdvözöljük a {{application_name}}! Itt lehet <a href='/resources'>felfedezni a szabad oktatási források a világ minden tájáról.</a> Érdekes a <a href='/resources/search?q=lady+bugs'>hölgy a hibákat?</a> <a href='/resources/3909'>Hogyan tanulást forrásokat NASA?.</a>"

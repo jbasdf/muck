@@ -7,7 +7,8 @@ pt-PT:
     calculated: calculada
     collections: Coleções
     collections_long: "Indexed Colecções"
-    credits: "Desenvolvido pelo <a href=\"http://cosl.usu.edu\">Centro de Aprendizagem Aberta e Sustentável</a> com o financiamento do <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Contribuir OCW / RDO Repositório"
+    credits: "Desenvolvido pelo <a href=\"http://cosl.usu.edu\">Centro de Aprendizagem Aberta e Sustentável</a> com o financiamento do <a href=\"http://nsf.gov/\">National Science Foundation</a> e da <a href=\"http://www.mellon.org/\">Andrew Mellon Foundation W</a>"
     demo: Demo
     details: Detalhes
     developers: Desenvolvedores
@@ -16,6 +17,20 @@ pt-PT:
     for: para
     gm_more_prompt: "Mais Recursos Relacionados"
     gm_title: "Recursos Relacionados"
+    home: 
+      browse_and_search: "Navegue e pesquise no"
+      collaborate: "Colaborar com"
+      comments_heading: "Comentários Recentes"
+      example_comment: "Esse guia legos construção é incrível! Gostaria de saber se poderia utilizá-lo com os alunos na SC 102."
+      get_widgets: "CHEGAR AO FOLKSEMANTIC Widgets"
+      oers: "<b>OPEN</b> ONLINE"
+      people: PESSOAS
+      resources: "Learning Resources"
+      search: BUSCA
+      signup: Inscreva-se!
+      signup_reasons: "Inscreva-se para conhecer pessoas com quem você pode encontrar, compartilhar, remix, e desenvolver recursos pedagógicos"
+      why: "FOLKSEMANTIC PORQUÊ?"
+      widgets_pitch: "Deseja vincular suas páginas web relacionadas com a aprendizagem dos recursos?"
     just_ocws: Cursos
     metadata: Metadados
     next: Próximo
@@ -36,7 +51,7 @@ pt-PT:
     search_description: "Encontre recursos pedagógicos <span class=\"highlight\">pesquisar</span> e <span class=\"highlight\">navegar</span> por mais de <span class=\"highlight\">110.000</span> recursos educativos abertos"
     search_link: "Encontrar Recursos!"
     tag_line: "empowering educação aberta"
-    title: Folksemantic
+    title: folksemantic
     tour: "Faça uma visita!"
     tour_description: "Assista a um <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">introdução</span> Folksemantic"
     view_account: "Ver sua Conta"
@@ -45,6 +60,10 @@ pt-PT:
     welcome_user: "Bem-vindo {{user}}"
     widgets_description: "Receba widgets recursos para ajudar os usuários a <span class=\"highlight\">encontrar</span> e <span class=\"highlight\">descobrir recursos relacionados</span> com aquelas em seu site"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Contribuir OCW / RDO Repositório"
     welcome_activity: "Bem-vindo ao {{application_name}}! Aqui você pode <a href='/resources'>descobrir livre recursos educacionais de todo o mundo.</a> Interessante no <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Como sobre recursos de aprendizagem NASA?.</a>"

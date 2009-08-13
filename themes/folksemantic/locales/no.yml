@@ -8,7 +8,8 @@
     calculated: beregnet
     collections: Samlinger
     collections_long: "Indekserte samlinger"
-    credits: "Utviklet av <a href=\"http://cosl.usu.edu\">Senter for Open og bærekraftig Læring</a> med finansiering fra <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Bidra OCW / OER Repository"
+    credits: "Utviklet av <a href=\"http://cosl.usu.edu\">Senter for Open og bærekraftig Læring</a> med finansiering fra <a href=\"http://nsf.gov/\">National Science Foundation</a> og <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detaljer
     developers: Utviklere
@@ -17,6 +18,20 @@
     for: for
     gm_more_prompt: "Mer Beslektede ressurser"
     gm_title: "Beslektede ressurser"
+    home: 
+      browse_and_search: "Bla gjennom og søk i"
+      collaborate: "Samarbeid med"
+      comments_heading: "Siste kommentarene"
+      example_comment: "Det legos bygging guide er kjempebra! Jeg undres om vi kunne bruke den med studentene i CS 102."
+      get_widgets: "SKAFF DEG FOLKSEMANTIC widgets"
+      oers: "<b>OPEN</b> ONLINE"
+      people: MENNESKENE
+      resources: "LÆRING RESSURSER"
+      search: SØK
+      signup: "Registrer deg i dag!"
+      signup_reasons: "Registrer deg for å møte mennesker som du kan finne, dele, remix, og utvikle lærings-ressurser"
+      why: "HVORFOR FOLKSEMANTIC?"
+      widgets_pitch: "Vil du lenke websidene til relaterte læring ressursene?"
     just_ocws: Kurs
     metadata: Metadata
     next: Neste
@@ -37,7 +52,7 @@
     search_description: "Finn læring ressurser ved å <span class=\"highlight\">søke</span> og <span class=\"highlight\">surfe</span> over <span class=\"highlight\">110.000</span> åpne pedagogiske ressurser"
     search_link: "Finn ressurser!"
     tag_line: "Styrke åpne utdanning"
-    title: Folksemantic
+    title: folksemantic
     tour: "Ta en tur!"
     tour_description: "Se en <span class=\"highlight\">video innføring</span> av Folksemantic"
     view_account: "Se kontobeskrivelsen"
@@ -46,6 +61,10 @@
     welcome_user: "Velkommen {{user}}"
     widgets_description: "Få ting til å hjelpe brukere med å <span class=\"highlight\">finne</span> ressurser og <span class=\"highlight\">finne ressurser knyttet</span> til seg på nettstedet"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Bidra OCW / OER Repository"
     welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>finne gratis pedagogiske ressurser fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>dame feil?</a> <a href='/resources/3909'>Hva med å lære ressurser fra NASA?.</a>"

@@ -7,7 +7,8 @@ sv:
     calculated: beräknat
     collections: Samlingar
     collections_long: "Indexerat Samlingar"
-    credits: "Utarbetats av <a href=\"http://cosl.usu.edu\">Centrum för öppen och hållbar lärande</a> med stöd från <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Bidra OCW / Oer Förrådshantering"
+    credits: "Utarbetats av <a href=\"http://cosl.usu.edu\">Centrum för öppen och hållbar lärande</a> med stöd från <a href=\"http://nsf.gov/\">National Science Foundation</a> och <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detaljer
     developers: Utvecklare
@@ -16,6 +17,20 @@ sv:
     for: för
     gm_more_prompt: "Mer Närliggande resurser"
     gm_title: "Närliggande resurser"
+    home: 
+      browse_and_search: "Bläddra och sök bland"
+      collaborate: "Samarbeta med"
+      comments_heading: "SENASTE KOMMENTARER"
+      example_comment: "Det legos konstruktion guide is awesome! Jag undrar om vi kunde använda den med eleverna i CS 102."
+      get_widgets: "FÅ FOLKSEMANTIC Manicker"
+      oers: "<b>ÖPPNA</b> ONLINE"
+      people: MÄNNISKOR
+      resources: Inlärningsresurser
+      search: SÖK
+      signup: "Registrera dig idag!"
+      signup_reasons: "Anmäl dig att möta människor som du kan hitta, dela, remix, och utveckla inlärningsresurser"
+      why: "VARFÖR FOLKSEMANTIC?"
+      widgets_pitch: "Vill du länka dina webbsidor till lärande resurser?"
     just_ocws: Kurser
     metadata: Statistikinfo
     next: Nästa
@@ -36,7 +51,7 @@ sv:
     search_description: "Hitta inlärningsresurser genom att <span class=\"highlight\">söka</span> och <span class=\"highlight\">surfa</span> över <span class=\"highlight\">110.000</span> öppna utbildningsresurser"
     search_link: "Hitta Resources!"
     tag_line: "ge öppen utbildning"
-    title: Folksemantic
+    title: folksemantic
     tour: "Ta en rundtur!"
     tour_description: "Titta på en <span class=\"highlight\">video av</span> Folksemantic"
     view_account: "Visa ditt konto"
@@ -45,6 +60,10 @@ sv:
     welcome_user: "Välkommen {{user}}"
     widgets_description: "Få prylar för att hjälpa användarna <span class=\"highlight\">att hitta</span> resurser och <span class=\"highlight\">hitta resurser som</span> är förknippade med dem på din webbplats"
     widgets_link: "Få Manicker!"
+    widgets_title: "folksemantic manicker"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Bidra OCW / Oer Förrådshantering"
     welcome_activity: "Välkommen till {{application_name}}! Här kan du <a href='/resources'>hitta gratis pedagogiska resurser från hela världen.</a> Intressant i <a href='/resources/search?q=lady+bugs'>dam fel?</a> <a href='/resources/3909'>Hur är inlärningsresurser från NASA?.</a>"

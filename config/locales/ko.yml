@@ -10,7 +10,7 @@ ko:
     phone: "귀하의 전화 번호 :"
     phone_help: "귀하의 전화 번호는 선택 사항입니다하지만 필요한 경우 연락처가 도움이 될 것입니다."
     question: "귀하의 메시지 / 질문 :"
-    question_help: "제발 어떤 의견을 듣고 우리와 같은 것이 포함됩니다."
+    question_help: "제발 당신이 어떤 의견을 듣고 우리와 같은 것이 포함됩니다."
     subject: "제목 :"
     subject_help: "간단한 성명 귀하의 의견의 성격을 나타냅니다."
   general: 

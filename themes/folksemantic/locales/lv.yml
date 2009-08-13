@@ -7,7 +7,8 @@ lv:
     calculated: aprēķina
     collections: Kolekcijas
     collections_long: "Indeksēts Kolekcijas"
-    credits: "Developed ar <a href=\"http://cosl.usu.edu\">Center for Open un ilgtspējīgas Mācības</a> ar finansējumu no <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Veicināt OCW / OER Repository"
+    credits: "Developed ar <a href=\"http://cosl.usu.edu\">Center for Open un ilgtspējīgas Mācības</a> ar finansējumu no <a href=\"http://nsf.gov/\">National Science Foundation</a> un <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Details
     developers: Izstrādātāji
@@ -16,6 +17,20 @@ lv:
     for: dēļ
     gm_more_prompt: "Vairāk Saistītie resursi"
     gm_title: "Saistītie resursi"
+    home: 
+      browse_and_search: "Pārlūkojiet un meklējiet"
+      collaborate: "Sadarbojas ar"
+      comments_heading: "Jaunākie komentāri"
+      example_comment: "Tas legos būvniecības rokasgrāmatu ir awesome! Nez, ja mēs varētu izmantot to ar studentiem CS 102."
+      get_widgets: "IEGĀDĀJIES FOLKSEMANTIC logrīki"
+      oers: "<b>OPEN</b> ONLINE"
+      people: PEOPLE
+      resources: "LEARNING RESOURCES"
+      search: MEKLĒT
+      signup: "SIGN UP TODAY!"
+      signup_reasons: "Reģistrējieties, lai apmierinātu cilvēku ar kuru var atrast, dalīties, remiksu, un attīstīt mācību resursu"
+      why: "KĀPĒC FOLKSEMANTIC?"
+      widgets_pitch: "Vēlaties saite Jūsu mājas lapas saistītiem mācību resursu?"
     just_ocws: Kursi
     metadata: Metadata
     next: Nākamais
@@ -36,7 +51,7 @@ lv:
     search_description: "Atrast mācību resursu <span class=\"highlight\">meklēšanai</span> un <span class=\"highlight\">pārlūkošanas</span> vairāk nekā 110000 atvērtu izglītības resursu"
     search_link: "Atrast Resources!"
     tag_line: "pilnvarojošais atvērt izglītības"
-    title: Folksemantic
+    title: folksemantic
     tour: "Take a Tour!"
     tour_description: "Noskatīties <span class=\"highlight\">video ieviešana</span> Folksemantic"
     view_account: "View Your Account"
@@ -45,6 +60,10 @@ lv:
     welcome_user: "Welcome {{user}}"
     widgets_description: "Get preces, lai palīdzētu lietotājiem <span class=\"highlight\">atrast</span> resursu un <span class=\"highlight\">atrast resursus,</span> kas <span class=\"highlight\">saistīti</span> ar tiem, uz jūsu mājas lapā"
     widgets_link: "Get logrīki!"
+    widgets_title: "folksemantic logrīki"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Veicināt OCW / OER Repository"
     welcome_activity: "Laipni lūgti {{application_name}}! Šeit var <a href='/resources'>atrast bezmaksas izglītības resursus no visas pasaules.</a> Interesanti, kas <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Kā par mācību resursiem no NASA?.</a>"

@@ -7,7 +7,8 @@ et:
     calculated: arvutatud
     collections: Kogud
     collections_long: "Indekseeritud Kogud"
-    credits: "Poolt välja töötatud <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> finantseerimisega on <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Aidata OCW / OER Repository"
+    credits: "Poolt välja töötatud <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> finantseerimisega on <a href=\"http://nsf.gov/\">National Science Foundation</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detailid
     developers: Arendajad
@@ -16,6 +17,20 @@ et:
     for: jaoks
     gm_more_prompt: "Vaata Seostuvad ressursid"
     gm_title: "Seostuvad ressursid"
+    home: 
+      browse_and_search: "Sirvi ja leidke OVER"
+      collaborate: Koostööd
+      comments_heading: "Viimased kommentaarid"
+      example_comment: "See Mangos ehitamise juhend on fantastiline! Ma ei tea, kui me võiksime seda kasutada koos õpilastega CS 102."
+      get_widgets: "GET THE FOLKSEMANTIC Vidinad"
+      oers: "<b>AVATUD</b> ONLINE"
+      people: INIMESED
+      resources: Õppematerjalid
+      search: OTSI
+      signup: "SIGN UP TODAY!"
+      signup_reasons: "Logi sisse oma inimesi, kellega võib leida, jagada remix ja arendada õppematerjale"
+      why: "MIKS FOLKSEMANTIC?"
+      widgets_pitch: "Tahad, et siduda oma veebilehekülgedele seotud õppematerjalidele?"
     just_ocws: Kursused
     metadata: Metaandmed
     next: Järgmine
@@ -34,9 +49,9 @@ et:
     search: otsima
     search_button: Minema
     search_description: "Leia õppematerjalid <span class=\"highlight\">otsides</span> ja <span class=\"highlight\">sirvimise</span> üle <span class=\"highlight\">110.000</span> avatud hariduses"
-    search_link: "Leidma vahendeid!"
+    search_link: "Leida vahendeid!"
     tag_line: "volitades Avatud Hariduse"
-    title: Folksemantic
+    title: folksemantic
     tour: "Take a Tour!"
     tour_description: "Vaata <span class=\"highlight\">video kasutuselevõttu</span> Folksemantic"
     view_account: "Vaadata oma konto"
@@ -45,6 +60,10 @@ et:
     welcome_user: "Tere {{user}}"
     widgets_description: "Get vekottimet aidata kasutajatel <span class=\"highlight\">leida</span> vahendeid ja <span class=\"highlight\">leida ressursid,</span> mis on <span class=\"highlight\">seotud</span> ka oma veebilehel"
     widgets_link: "Get Vidinad!"
+    widgets_title: "folksemantic vekottimet"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Aidata OCW / OER Repository"
     welcome_activity: "Tere tulemast {{application_name}}! Siin saab <a href='/resources'>leida vaba haridusvõimalused üle maailma.</a> Huvitav <a href='/resources/search?q=lady+bugs'>daam Bugs?</a> <a href='/resources/3909'>Kuidas õppe vahendeid NASA?.</a>"

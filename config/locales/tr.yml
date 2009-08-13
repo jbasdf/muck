@@ -8,7 +8,7 @@ tr:
     name: "İsminiz:"
     name_help: "Lütfen adınızı bize veriniz."
     phone: "Telefon numaranız:"
-    phone_help: "Telefon numaranızı, ancak isteğe bağlıdır gerekirse bize başvurun yardımcı olacaktır."
+    phone_help: "Telefon numaranızı fakat isteğe bağlı gerekirse sizinle iletişim bize yardımcı olacaktır."
     question: "Mesajınız / soru:"
     question_help: "Lütfen duymak için bizim gibi herhangi bir yorum yer alıyor."
     subject: "Konu:"

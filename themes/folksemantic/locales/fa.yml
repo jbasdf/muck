@@ -7,7 +7,8 @@ fa:
     calculated: محاسبه
     collections: "مجموعه ها"
     collections_long: "مجموعه نمایهشده"
-    credits: "توسعه یافته توسط این <a href=\"http://cosl.usu.edu\">مرکز را برای باز کردن و پایدار آموزش</a> با کمک مالی از <a href=\"http://nsf.gov/\">بنیاد ملی علوم</a>"
+    contribute_repository: "کمک OCW / OER تماما"
+    credits: "طراحی شده توسط <a href=\"http://cosl.usu.edu\">مرکز برای یادگیری باز و پایدار</a> با کمک مالی از <a href=\"http://nsf.gov/\">بنیاد ملی علوم</a> و <a href=\"http://www.mellon.org/\">اندرو ملون عرض دوره مقدماتی</a>"
     demo: "نسخه ی نمایشی"
     details: جزئیات
     developers: "توسعه دهندگان"
@@ -16,6 +17,20 @@ fa:
     for: برای
     gm_more_prompt: "بیشتر منابع مرتبط"
     gm_title: "منابع مرتبط"
+    home: 
+      browse_and_search: "مرور و جستجو بیش از"
+      collaborate: "همکاری با"
+      comments_heading: "نظرات اخیر"
+      example_comment: "که راهنمای ساخت و ساز legos است awesome! من تعجب می تواند در صورتی که ما آن را با دانش آموزان در CS 102 استفاده کنید."
+      get_widgets: "بدست آوردن WIDGETS FOLKSEMANTIC"
+      oers: "<b>گشاده</b> آنلاین"
+      people: مردم
+      resources: "منابع یادگیری"
+      search: جستجو
+      signup: "ثبت نام در امروز!"
+      signup_reasons: "ثبت نام برای دیدار مردم که با آنها می توانید پیدا کنید ، به اشتراک گذاری ، ریمیکس ، آموزش و توسعه منابع"
+      why: "چرا FOLKSEMANTIC؟"
+      widgets_pitch: "می خواهید به آن پیوند صفحات وب خود را به منابع مربوط به آموزش؟"
     just_ocws: دوره
     metadata: فراداده
     next: بعدی
@@ -36,7 +51,7 @@ fa:
     search_description: "یافتن منابع آموزشی با <span class=\"highlight\">جستجو در حال دیدن سایت</span> و باز کردن بیش از <span class=\"highlight\">110،000</span> منابع آموزشی"
     search_link: "پیدا کردن منابع!"
     tag_line: "تقویت آموزش و پرورش باز"
-    title: Folksemantic
+    title: folksemantic
     tour: "نگاهی به تور!"
     tour_description: "دیده بان یک <span class=\"highlight\">مقدمه</span> ویدیو از Folksemantic"
     view_account: "مشاهده حساب شما"
@@ -45,6 +60,10 @@ fa:
     welcome_user: "خوش آمدید {{user}}"
     widgets_description: "دریافت widgets برای کمک به کاربران <span class=\"highlight\">پیدا کردن</span> منابع و <span class=\"highlight\">کشف منابع مربوط</span> به آنهایی را در سایت خود"
     widgets_link: "Widgets کنید!"
+    widgets_title: "widgets folksemantic"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "کمک OCW / OER تماما"
     welcome_activity: "خوش آمدید به {{application_name}}! در اینجا شما می توانید <a href='/resources'>از منابع آموزشی رایگان از سراسر جهان</a> کشف. جالب در <a href='/resources/search?q=lady+bugs'>اشکالات بانوی؟</a> <a href='/resources/3909'>چگونه در مورد منابع یادگیری از ناسا؟</a>"

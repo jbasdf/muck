@@ -7,7 +7,8 @@ sq:
     calculated: llogaritur
     collections: Koleksioneve
     collections_long: "Koleksioneve të indeksuara"
-    credits: "Developed by të <a href=\"http://cosl.usu.edu\">Hapur dhe Qendra për të Qëndrueshëm Mësoni</a> me financim nga <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Jepni kontributin tuaj OCW / OER depo"
+    credits: "Developed by të <a href=\"http://cosl.usu.edu\">Hapur dhe Qendra për të Qëndrueshëm Mësoni</a> me financim nga <a href=\"http://nsf.gov/\">Fondacioni Kombëtar i Shkencës</a> dhe të <a href=\"http://www.mellon.org/\">Fondacionit Andrew</a> W. <a href=\"http://www.mellon.org/\">Mellon</a>"
     demo: Demo
     details: Detaje
     developers: Developers
@@ -16,6 +17,20 @@ sq:
     for: për
     gm_more_prompt: "More Related Resources"
     gm_title: "Related Resources"
+    home: 
+      browse_and_search: "Shfleto dhe KËRKO LART"
+      collaborate: "Bashkëpunojnë me"
+      comments_heading: "Komentet e fundit"
+      example_comment: "Ky udhëzues është ndërtimi legos awesome! Pyes veten nëse ne mund ta përdorin atë me nxënësit në CS 102."
+      get_widgets: "JEPET FOLKSEMANTIC Widgets"
+      oers: "<b>HAPUR</b> ONLINE"
+      people: NJERËZIT
+      resources: "BURIMET E MËSIMIT"
+      search: KËRKO
+      signup: "SIGN UP TODAY!"
+      signup_reasons: "Regjistrohu për të takuar njerëz me të cilët ju mund të gjeni, share, remix, dhe zhvillimin e burimeve të të mësuarit"
+      why: "FOLKSEMANTIC PSE?"
+      widgets_pitch: "Dëshironi të Lidhje tuaj web faqe të lidhura me burimet e mësimit?"
     just_ocws: Kurset
     metadata: Metadata
     next: Tjetër
@@ -36,7 +51,7 @@ sq:
     search_description: "Gjej të mësuarit e burimeve duke <span class=\"highlight\">kerkuar</span> dhe <span class=\"highlight\">shfletimit</span> rreth <span class=\"highlight\">110.000</span> hapur burimeve arsimore"
     search_link: "Gjeni Resources!"
     tag_line: "fuqizimin e arsimit të hapur"
-    title: Folksemantic
+    title: folksemantic
     tour: "Merrni një Tour!"
     tour_description: "Watch <span class=\"highlight\">video futjen</span> e një Folksemantic"
     view_account: "View Llogaria juaj"
@@ -45,6 +60,10 @@ sq:
     welcome_user: "Welcome {{user}}"
     widgets_description: "Get Widgets për të ndihmuar përdoruesit e burimeve dhe <span class=\"highlight\">të gjejnë burime të zbuloni</span> në <span class=\"highlight\">lidhje</span> me ato në faqen tuaj te internetit"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic Widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Jepni kontributin tuaj OCW / OER depo"
     welcome_activity: "Mirë se vini në {{application_name}}! Këtu ju mund të <a href='/resources'>zbuloni falas arsimore burimeve nga e gjithë bota.</a> Interesting në <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Si rreth burimeve të të mësuarit nga NASA?.</a>"

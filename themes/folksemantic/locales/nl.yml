@@ -7,7 +7,8 @@ nl:
     calculated: berekend
     collections: Collecties
     collections_long: "Geïndexeerd Collecties"
-    credits: "Ontwikkeld door het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering uit de <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Meewerken OCW / OER Repository"
+    credits: "Ontwikkeld door het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering uit de <a href=\"http://nsf.gov/\">National Science Foundation</a> en de <a href=\"http://www.mellon.org/\">W Andrew Mellon Foundation</a>"
     demo: Demo
     details: Details
     developers: Ontwikkelaars
@@ -16,6 +17,20 @@ nl:
     for: voor
     gm_more_prompt: "Meer Verwante bronnen"
     gm_title: "Verwante bronnen"
+    home: 
+      browse_and_search: "Bladeren en zoeken in"
+      collaborate: "Samenwerken met"
+      comments_heading: "RECENTE REACTIES"
+      example_comment: "Dat Legos bouw handleiding is awesome! Ik vraag me af of we kunnen gebruiken om met de studenten in CS 102."
+      get_widgets: "GET THE FOLKSEMANTIC Widgets"
+      oers: "<b>OPEN</b> ONLINE"
+      people: MENSEN
+      resources: Leermiddelen
+      search: ZOEKEN
+      signup: "Schrijf je nu in!"
+      signup_reasons: "Aanmelden om mensen te ontmoeten met wie je kunt vinden, delen, remix, en de ontwikkeling van leermiddelen"
+      why: "WAAROM FOLKSEMANTIC?"
+      widgets_pitch: "Wilt koppelen uw webpagina&#39;s aan verbonden leermiddelen?"
     just_ocws: Cursussen
     metadata: Metadata
     next: Volgende
@@ -36,7 +51,7 @@ nl:
     search_description: "Zoek leermiddelen door te <span class=\"highlight\">zoeken</span> en <span class=\"highlight\">surfen</span> meer dan <span class=\"highlight\">110.000</span> open leermiddelen"
     search_link: "Vind Resources!"
     tag_line: "Empowering open onderwijs"
-    title: Folksemantic
+    title: folksemantic
     tour: "Take a Tour!"
     tour_description: "Bekijk een <span class=\"highlight\">video-introductie</span> van Folksemantic"
     view_account: "Bekijk Uw account"
@@ -45,6 +60,10 @@ nl:
     welcome_user: "Welkom {{user}}"
     widgets_description: "Get widgets te helpen gebruikers bij het <span class=\"highlight\">vinden van</span> middelen en <span class=\"highlight\">ontdek</span> welke <span class=\"highlight\">middelen</span> in <span class=\"highlight\">verband</span> met de op uw website"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Meewerken OCW / OER Repository"
     welcome_activity: "Welkom bij {{application_name}}! Hier kunt u <a href='/resources'>ontdekken vrije educatieve middelen uit de hele wereld.</a> Interessant <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>Hoe leren over de middelen van de NASA?.</a>"

@@ -8,7 +8,7 @@ zh-TW:
     name: 您的姓名：
     name_help: 請向我們提供您的姓名。
     phone: 您的電話號碼：
-    phone_help: 您的電話號碼是可選的，但將有助於我們與您聯繫，如果必要的。
+    phone_help: 您的電話號碼是可選的，但將有助於我們與您聯繫，如果有必要。
     question: 您的留言/問題：
     question_help: 請包含任何評論您希望我們聽到。
     subject: 主題：

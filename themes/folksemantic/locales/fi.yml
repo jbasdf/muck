@@ -7,7 +7,8 @@ fi:
     calculated: laskettu
     collections: Kokoelmat
     collections_long: "Indeksinä Kokoelmat"
-    credits: "Jota on kehitetty <a href=\"http://cosl.usu.edu\">Center for Open ja kestävän oppimisen</a> rahoituksen ja <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Contribute OCW / OER Repository"
+    credits: "Jota on kehitetty <a href=\"http://cosl.usu.edu\">Center for Open ja kestävän oppimisen</a> rahoituksen ja <a href=\"http://nsf.gov/\">National Science Foundationin</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Tiedot
     developers: Kehittäjät
@@ -16,6 +17,20 @@ fi:
     for: varten
     gm_more_prompt: "Lisää Muita resursseja"
     gm_title: "Muita resursseja"
+    home: 
+      browse_and_search: "Selaa ja etsi OVER"
+      collaborate: Yhteistyötä
+      comments_heading: "Uusimmat kommentit"
+      example_comment: "Tämä legos rakentamisen opas on mahtavaa! Ihmettelen, jos voisimme käyttää sitä opiskelijoiden CS 102."
+      get_widgets: "GET THE FOLKSEMANTIC Widgets"
+      oers: "<b>AVAA</b> ONLINE"
+      people: IHMISET
+      resources: "Learning Resources"
+      search: HAKU
+      signup: "Rekisteröidy tänään!"
+      signup_reasons: "Rekisteröidy tavata ihmisiä, joiden kanssa voit löytää, jakaa, remix, ja kehittää oppimisresursseja"
+      why: "MIKSI FOLKSEMANTIC?"
+      widgets_pitch: "Haluavat linkki web-sivuja, jotka liittyvät oppimisen voimavaroja?"
     just_ocws: Kurssit
     metadata: Metatieto
     next: Seuraava
@@ -36,7 +51,7 @@ fi:
     search_description: "Etsi oppimisresursseja <span class=\"highlight\">etsimällä</span> ja <span class=\"highlight\">selailemassa</span> yli 110000 avoin koulutusresurssit"
     search_link: "Etsi Resurssit!"
     tag_line: "valtuuttamisesta avoin koulutus"
-    title: Folksemantic
+    title: folksemantic
     tour: "Take a Tour!"
     tour_description: "Katso <span class=\"highlight\">video käyttöönotto</span> Folksemantic"
     view_account: "Näytä Tili"
@@ -45,6 +60,10 @@ fi:
     welcome_user: "Tervetuloa {{user}}"
     widgets_description: "Hanki widgets auttaa käyttäjiä <span class=\"highlight\">löytämään</span> voimavaroja ja <span class=\"highlight\">löytää resursseja liittyvät</span> niistä sivustossasi"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Contribute OCW / OER Repository"
     welcome_activity: "Tervetuloa {{application_name}}! Täällä voit <a href='/resources'>tutustua ilmaiseksi koulutusresurssit ympäri maailmaa.</a> Kiinnostavia <a href='/resources/search?q=lady+bugs'>draughts vikoja?</a> <a href='/resources/3909'>Entä oppimisresursseja NASA?.</a>"

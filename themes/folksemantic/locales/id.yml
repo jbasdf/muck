@@ -6,8 +6,9 @@ id:
     browse_resources: "People Resources"
     calculated: dihitung
     collections: Koleksi
-    collections_long: "Indexed Koleksi"
-    credits: "Dikembangkan oleh <a href=\"http://cosl.usu.edu\">Pusat Buka dan Pembangunan Belajar</a> dengan dana dari <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    collections_long: "Indexed Collections"
+    contribute_repository: "Kontribusi OCW / OER Repository"
+    credits: "Dikembangkan oleh <a href=\"http://cosl.usu.edu\">Pusat Buka dan Pembangunan Belajar</a> dengan dana dari <a href=\"http://nsf.gov/\">National Science Foundation</a> dan <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detail
     developers: Pengembang
@@ -16,6 +17,20 @@ id:
     for: untuk
     gm_more_prompt: "Lebih terkait Resources"
     gm_title: "Related Resources"
+    home: 
+      browse_and_search: "BROWSE DAN CARI OVER"
+      collaborate: "Bekerjasama dengan"
+      comments_heading: "Recent Comments"
+      example_comment: "Legos bahwa konstruksi panduan is awesome! Saya heran jika kita dapat menggunakannya dengan siswa di CS 102."
+      get_widgets: "GET THE FOLKSEMANTIC Widgets"
+      oers: "<b>BUKA</b> ONLINE"
+      people: PEOPLE
+      resources: "SUMBER BELAJAR"
+      search: CARI
+      signup: "SIGN UP TODAY!"
+      signup_reasons: "Mendaftar untuk bertemu dengan orang-orang dengan siapa Anda dapat menemukan, berbagi, remix, belajar dan mengembangkan sumber daya"
+      why: "MENGAPA FOLKSEMANTIC?"
+      widgets_pitch: "Ingin membuat link ke halaman web yang berhubungan dengan sumber belajar?"
     just_ocws: Kursus
     metadata: Metadata
     next: Berikutnya
@@ -36,7 +51,7 @@ id:
     search_description: "Cari belajar dengan <span class=\"highlight\">mencari</span> dan <span class=\"highlight\">browsing</span> lebih dari <span class=\"highlight\">110.000</span> buka pendidikan"
     search_link: "Menemukan Resources!"
     tag_line: "buka pendidikan pemberdayaan"
-    title: Folksemantic
+    title: folksemantic
     tour: "Take a Tour!"
     tour_description: "Menyaksikan <span class=\"highlight\">video pengenalan</span> Folksemantic"
     view_account: "Lihat Account Anda"
@@ -45,6 +60,10 @@ id:
     welcome_user: "Selamat Datang {{user}}"
     widgets_description: "Dapatkan widget untuk membantu pengguna <span class=\"highlight\">menemukan</span> sumber daya dan <span class=\"highlight\">sumber daya yang berkaitan dengan menemukan</span> orang di website Anda"
     widgets_link: "Get Widget!"
+    widgets_title: "folksemantic widget"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Kontribusi OCW / OER Repository"
     welcome_activity: "Selamat datang ke {{application_name}}! Di sini Anda dapat <a href='/resources'>menemukan sumber daya pendidikan gratis dari seluruh dunia.</a> Menarik di <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Bagaimana belajar dari NASA?.</a>"

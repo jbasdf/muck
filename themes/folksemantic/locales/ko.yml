@@ -7,7 +7,8 @@ ko:
     calculated: 계산
     collections: 컬렉션
     collections_long: "색인생성된 컬렉션"
-    credits: "the <a href=\"http://cosl.usu.edu\">센터 오픈과 지속 가능한 학습을</a> 위해 <a href=\"http://nsf.gov/\">국립 과학 재단의</a> 자금 지원에 의해 개발"
+    contribute_repository: "기여 OCW / OER 저장소"
+    credits: "the <a href=\"http://cosl.usu.edu\">센터 오픈과 지속 학습을</a> 위해 <a href=\"http://nsf.gov/\">국립 과학 재단과</a> <a href=\"http://www.mellon.org/\">앤드류 승 멜론 재단에서</a> 기금에 의해 개발"
     demo: 데모
     details: "세부 내용"
     developers: 개발자
@@ -16,6 +17,20 @@ ko:
     for: "을 위해"
     gm_more_prompt: "기타 관련 리소스"
     gm_title: "관련 리소스"
+    home: 
+      browse_and_search: "찾아보기 및 검색 받아보"
+      collaborate: "공동 작업"
+      comments_heading: "최근 코멘트"
+      example_comment: "그 레고 건설 가이드 굉장 해요! 만약 우리 CS는 102에있는 학생들과 함께 그것을 이용할 수 있는지 궁금해했다."
+      get_widgets: "위젯은 FOLKSEMANTIC GET"
+      oers: "온라인 <b>오픈</b>"
+      people: 사람들
+      resources: "학습 자료"
+      search: 찾기
+      signup: "오늘 가입하십시오!"
+      signup_reasons: "가입 사람들이 누구를,,, 리믹스 공유를 찾을 수 있고 학습 자원 개발을 만날"
+      why: "왜 FOLKSEMANTIC?"
+      widgets_pitch: "관련 자원을 학습하여 웹 페이지의 링크를 원하십니까?"
     just_ocws: 코스
     metadata: 메타
     next: 다음
@@ -24,7 +39,7 @@ ko:
     powered_by: "에 의해 제공"
     previous: 이전
     rdf: RDF
-    register_description: "회원 가입, 그룹에 참여, 그리고 맞춤 <span class=\"highlight\">추천을받을</span> 쉽게 <span class=\"highlight\">블로그에 게시</span>"
+    register_description: "회원 가입, 그룹에 참여, 그리고 개인 <span class=\"highlight\">블로그에 게시</span> 쉽게 <span class=\"highlight\">추천을받을</span>"
     register_link: "지금 가입하십시오!"
     related_resources: "관련 리소스"
     related_resources_title: "관련 리소스"
@@ -36,15 +51,19 @@ ko:
     search_description: "학습 리소스를 검색하여 <span class=\"highlight\">찾기</span> 및 교육 자원을 통해 브라우징 <span class=\"highlight\">110,000</span> 열려"
     search_link: "찾기 리소스!"
     tag_line: "오픈 교육 능력"
-    title: Folksemantic
+    title: folksemantic
     tour: 둘러보기!
     tour_description: "의 <span class=\"highlight\">도입</span> Folksemantic <span class=\"highlight\">동영상보기</span>"
     view_account: 계정보기
     welcome: "Folksemantic에 오신 것을 환영합니다."
-    welcome_message: "우리가 적극적으로 하나의 사이트로 가장 흥미로운 및 관련 교육 리소스를 찾을 수 있도록 OCWFinder와 통합하기 위해 최선을 다하고 OERRecommender."
+    welcome_message: "우리가 적극적으로 하나의 사이트로 가장 흥미로운 및 관련 교육 리소스를 찾을 수 있도록 OCWFinder과 OERRecommender 통합 작업을 진행 중입니다."
     welcome_user: "{{user}}에 오신 것을 환영합니다"
-    widgets_description: "! 사용자의 리소스를 찾을 <span class=\"highlight\">위젯과</span> 관련하여 <span class=\"highlight\">귀하의 웹사이트에 자원 것들을</span> 발견할 수 있도록"
+    widgets_description: "위젯! 사용자 리소스를 찾을 <span class=\"highlight\">수와</span> 관련하여 <span class=\"highlight\">귀하의 웹사이트에 자원 것들을</span> 발견할 수 있도록"
     widgets_link: 위젯!
+    widgets_title: "folksemantic 위젯"
     xml: XML을
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "기여 OCW / OER 저장소"
     welcome_activity: "{{application_name}}!에 오신 것을 환영합니다 여기서 여러분은 <a href='/resources'>세계 각국에서 무료 교육 자원을 발견할 수있습니다.</a> NASA에서 숙녀 <a href='/resources/search?q=lady+bugs'>버그에 <a href='/resources/3909'>흥미?</a></a> <a href='/resources/3909'>방법에 대한 자세한 내용은 리소스?.</a>"

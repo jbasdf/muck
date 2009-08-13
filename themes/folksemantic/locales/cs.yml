@@ -7,7 +7,8 @@ cs:
     calculated: vypočtené
     collections: Sbírky
     collections_long: "Indexovaná Sbírky"
-    credits: "Developed by se <a href=\"http://cosl.usu.edu\">Centrum otevřeného a trvalého učení</a> s financováním z <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Přispět OCW / OER Repository"
+    credits: "Developed by se <a href=\"http://cosl.usu.edu\">Centrum otevřeného a trvalého učení</a> s financováním z <a href=\"http://nsf.gov/\">National Science Foundation</a> a <a href=\"http://www.mellon.org/\">Andrew Mellon Z nadace</a>"
     demo: Demo
     details: Detaily
     developers: Vývojáři
@@ -16,6 +17,20 @@ cs:
     for: pro
     gm_more_prompt: "Více Související zdroje"
     gm_title: "Související zdroje informací"
+    home: 
+      browse_and_search: "Projděte a hledejte"
+      collaborate: "Spolupracujeme s"
+      comments_heading: "POSLEDNÍ KOMENTÁŘE"
+      example_comment: "To legos stavební návod je úžasné! Zajímalo by mě, jestli bychom mohli používat společně se studenty v CS 102."
+      get_widgets: "Get The FOLKSEMANTIC Widgety"
+      oers: "<b>OPEN</b> ONLINE"
+      people: LIDÉ
+      resources: "Výukové zdroje"
+      search: VYHLEDÁVÁNÍ
+      signup: "Přihlaste se ještě dnes!"
+      signup_reasons: "Zaregistrujte se potkávat lidi, se kterými si můžete najít, sdílet, remix, a rozvíjet výukové zdroje"
+      why: "PROČ FOLKSEMANTIC?"
+      widgets_pitch: "Chceš odkaz na vaše webové stránky na související výukové zdroje?"
     just_ocws: Kurzy
     metadata: Metadata
     next: Příští
@@ -36,7 +51,7 @@ cs:
     search_description: "Najít učení zdrojů <span class=\"highlight\">vyhledávání</span> a <span class=\"highlight\">prohlížení</span> přes <span class=\"highlight\">110.000</span> otevřených vzdělávacích zdrojů"
     search_link: "Najít zdroje!"
     tag_line: "zmocňovacím otevřené vzdělávání"
-    title: Folksemantic
+    title: folksemantic
     tour: "Udělejte si výlet!"
     tour_description: "Podívejte se na <span class=\"highlight\">video zavedení</span> Folksemantic"
     view_account: "Zobrazit Váš účet"
@@ -45,6 +60,10 @@ cs:
     welcome_user: "Vítejte {{user}}"
     widgets_description: "Získejte widgety pomáhat uživatelům <span class=\"highlight\">najít</span> zdroje a <span class=\"highlight\">objevte zdroje související</span> s těmi na vašich webových stránkách"
     widgets_link: "Získejte Widgety!"
+    widgets_title: "folksemantic widgety"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Přispět OCW / OER Repository"
     welcome_activity: "Vítejte na {{application_name}}! Zde si můžete <a href='/resources'>zdarma discover vzdělávacích zdrojů z celého světa.</a> Zajímavé v <a href='/resources/search?q=lady+bugs'>dámě chyby?</a> <a href='/resources/3909'>Jak o učení zdrojů z NASA?.</a>"

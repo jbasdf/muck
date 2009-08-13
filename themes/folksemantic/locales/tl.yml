@@ -7,7 +7,8 @@ tl:
     calculated: kinakalkula
     collections: Koleksyon
     collections_long: "Index koleksyon"
-    credits: "Na binuo sa pamamagitan ng <a href=\"http://cosl.usu.edu\">Center para sa Buksan at Sustainable Learning</a> na may pondo mula sa <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Kontribusyon OCW / OER repository"
+    credits: "Na binuo sa pamamagitan ng <a href=\"http://cosl.usu.edu\">Center para sa Buksan at Sustainable Learning</a> na may pondo mula sa <a href=\"http://nsf.gov/\">National Science Foundation</a> at ang <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: "Mga detalye"
     developers: "Mga Developer"
@@ -16,6 +17,20 @@ tl:
     for: "para sa"
     gm_more_prompt: "Higit pang mga kaugnay na Resources"
     gm_title: "Related Resources"
+    home: 
+      browse_and_search: "BROWSE at maghanap sa"
+      collaborate: "Makipagtulungan sa"
+      comments_heading: "Kamakailan-lamang na Puna"
+      example_comment: "Na legos konstruksiyon gabay ay awesome! I wonder kung kami ay maaaring gamitin ito sa mga mag-aaral sa CS 102."
+      get_widgets: "GET ANG FOLKSEMANTIC widgets"
+      oers: "<b>Buksan</b> ONLINE"
+      people: PEOPLE
+      resources: "Pag-aaral ng mga gamit-yaman"
+      search: SEARCH
+      signup: "Mag-sign Up ng TODAY!"
+      signup_reasons: "Mag-sign up upang matugunan ang mga tao sa kung sino ang puwede mong makita, i-share, remix, at nagkakaroon ng pag-aaral ng mga gamit-yaman"
+      why: "BAKIT FOLKSEMANTIC?"
+      widgets_pitch: "Nais na mag-link sa iyong mga pahina ng web na may kaugnayan sa pag-aaral ng mga resources?"
     just_ocws: "Mga sangay"
     metadata: Metadata
     next: Susunod
@@ -36,7 +51,7 @@ tl:
     search_description: "Maghanap ng pag-aaral ng mga resources sa pamamagitan ng <span class=\"highlight\">paghahanap</span> at <span class=\"highlight\">pag-browse</span> sa <span class=\"highlight\">110,000</span> bukas pang-edukasyon na mapagkukunan"
     search_link: "Hanapin Resources!"
     tag_line: "empowering buksan ang pag-aaral"
-    title: Folksemantic
+    title: folksemantic
     tour: "Kumuha ng Tour!"
     tour_description: "Manood ng isang <span class=\"highlight\">video na pagpapakilala</span> ng Folksemantic"
     view_account: "Tingnan ang Iyong Account"
@@ -45,6 +60,10 @@ tl:
     welcome_user: "Maligayang pagdating {{user}}"
     widgets_description: "Kumuha ng mga widget sa matulungan ang mga user na <span class=\"highlight\">mahanap ang</span> mga gamit-yaman at <span class=\"highlight\">tuklasin ang mga gamit-yaman na</span> may kaugnayan sa mga sa iyong website"
     widgets_link: "Kumuha ng Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Kontribusyon OCW / OER repository"
     welcome_activity: "Maligayang pagdating sa {{application_name}}! Dito maaari mong <a href='/resources'>tuklasin ang libreng edukasyon mula sa mga mapagkukunan sa buong mundo.</a> Kagiliw-giliw na sa <a href='/resources/search?q=lady+bugs'>babae bugs?</a> <a href='/resources/3909'>Paano ang tungkol sa pag-aaral mula sa mga mapagkukunan Nasa?.</a>"

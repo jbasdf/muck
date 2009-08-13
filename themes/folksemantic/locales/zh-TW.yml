@@ -7,7 +7,8 @@ zh-TW:
     calculated: 計算
     collections: 集合
     collections_long: 收錄館藏
-    credits: "所開發<a href=\"http://cosl.usu.edu\">中心的開放和可持續學習</a>資金由<a href=\"http://nsf.gov/\">國家科學基金會</a>"
+    contribute_repository: "貢獻的OCW /開放教育資源庫"
+    credits: "所開發<a href=\"http://cosl.usu.edu\">中心的開放和可持續學習</a>資金由<a href=\"http://nsf.gov/\">國家科學基金會</a>和<a href=\"http://www.mellon.org/\">安德魯W梅隆基金會</a>"
     demo: 演示
     details: 詳情
     developers: 開發商
@@ -16,6 +17,20 @@ zh-TW:
     for: 為了
     gm_more_prompt: 更多相關資源
     gm_title: 相關資源
+    home: 
+      browse_and_search: 瀏覽並搜尋
+      collaborate: 協作
+      comments_heading: 最近的評論
+      example_comment: "這legos建設指南可怕！我想如果我們可以使用它的學生在CS 102 。"
+      get_widgets: 獲取FOLKSEMANTIC飾品
+      oers: <b>開放</b>在線
+      people: 人民食堂
+      resources: 學習資源
+      search: 搜尋
+      signup: 今天就申請吧！
+      signup_reasons: 註冊，以滿足人民的人，您可以找到，分享，混音，並制定學習資源
+      why: "為什麼FOLKSEMANTIC ？"
+      widgets_pitch: 要鏈接的網頁相關的學習資源？
     just_ocws: 課程
     metadata: 元數據
     next: 下一個
@@ -36,7 +51,7 @@ zh-TW:
     search_description: "尋找學習資源的<span class=\"highlight\">搜索</span>與<span class=\"highlight\">瀏覽</span>超過<span class=\"highlight\">110,000</span>開放教育資源"
     search_link: 尋找資源！
     tag_line: 增強開放教育
-    title: Folksemantic
+    title: folksemantic
     tour: 瀏覽一下！
     tour_description: "看<span class=\"highlight\">錄像採用</span> Folksemantic"
     view_account: 查看您的帳戶
@@ -45,6 +60,10 @@ zh-TW:
     welcome_user: "歡迎{{user}}"
     widgets_description: "獲取工具，以幫助用戶<span class=\"highlight\">找到</span>的資源和<span class=\"highlight\">發現有關</span>的<span class=\"highlight\">資源</span>的在您的網站"
     widgets_link: 獲取組件！
+    widgets_title: folksemantic工具
     xml: XML的
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "貢獻的OCW /開放教育資源庫"
     welcome_activity: "歡迎{{application_name}}!在這裡您可以<a href='/resources'>找到免費的教育資源來自世界各地</a> 。有趣的<a href='/resources/search?q=lady+bugs'>夫人錯誤</a> ？ <a href='/resources/3909'>如何從美國宇航局的學習資源</a> ？ 。"

@@ -7,7 +7,8 @@ ru:
     calculated: рассчитываться
     collections: Коллекции
     collections_long: "Проиндексированные Коллекции"
-    credits: "Разработано в <a href=\"http://cosl.usu.edu\">Центре открыто и устойчивому обучения</a> при финансовой поддержке <a href=\"http://nsf.gov/\">Национального научного фонда</a>"
+    contribute_repository: "Способствуй OCW / OER Репозиторий"
+    credits: "Разработано в <a href=\"http://cosl.usu.edu\">Центре открыто и устойчивому обучения</a> при финансовой поддержке <a href=\"http://nsf.gov/\">Национального научного фонда</a> и <a href=\"http://www.mellon.org/\">Эндрю Меллона фонд W</a>"
     demo: Демо
     details: Подробности
     developers: Разработчикам
@@ -16,6 +17,20 @@ ru:
     for: для
     gm_more_prompt: "Подробнее Связанные ресурсы"
     gm_title: "Связанные ресурсы"
+    home: 
+      browse_and_search: "Просмотра и поиска"
+      collaborate: "Сотрудничать с"
+      comments_heading: "Последние комментарии"
+      example_comment: "Это строительство legos руководство Awesome! Интересно, если бы мы могли использовать его с учащимися в CS 102."
+      get_widgets: "GET THE FOLKSEMANTIC Widgets"
+      oers: "<b>OPEN</b> ONLINE"
+      people: ЛЮДИ
+      resources: "Учебных ресурсов"
+      search: ПОИСК
+      signup: "Зарегистрируйтесь прямо сейчас!"
+      signup_reasons: "Зарегистрироваться для удовлетворения людей, с которыми вы можете найти, доля, ремиксов, а также разработка учебных ресурсов"
+      why: "ПОЧЕМУ FOLKSEMANTIC?"
+      widgets_pitch: "Вы хотите связать свою веб-страниц, связанных с учебными ресурсами?"
     just_ocws: Курсы
     metadata: Метаданные
     next: Следующий
@@ -36,7 +51,7 @@ ru:
     search_description: "Поиск учебных материалов с помощью функции <span class=\"highlight\">поиска</span> и <span class=\"highlight\">просмотра</span> более <span class=\"highlight\">110,000</span> открытых образовательных ресурсов"
     search_link: "Найти источники!"
     tag_line: "расширение возможностей открытого образования"
-    title: Folksemantic
+    title: folksemantic
     tour: "Совершите тур!"
     tour_description: "Смотреть <span class=\"highlight\">видео введение</span> Folksemantic"
     view_account: "Посмотреть Ваш аккаунт"
@@ -45,6 +60,10 @@ ru:
     welcome_user: "Добро пожаловать {{user}}"
     widgets_description: "Получить виджеты, чтобы помочь пользователям <span class=\"highlight\">найти</span> ресурсы и <span class=\"highlight\">открывать ресурсы, связанные</span> с них на ваш сайт"
     widgets_link: "Получить Widgets!"
+    widgets_title: "folksemantic виджеты"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Способствуй OCW / OER Репозиторий"
     welcome_activity: "Добро пожаловать на {{application_name}}! Здесь вы можете <a href='/resources'>бесплатно открыть образовательных ресурсов со всего мира.</a> Интересное в <a href='/resources/search?q=lady+bugs'>леди ошибки?</a> <a href='/resources/3909'>Как насчет обучения ресурсов из НАСА?.</a>"

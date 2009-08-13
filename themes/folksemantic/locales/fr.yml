@@ -3,11 +3,12 @@ fr:
   folksemantic: 
     all_resources: Tous
     atom: Atom
-    browse_resources: "Trouver des ressources"
+    browse_resources: "Consulter les ressources"
     calculated: calculés
     collections: Collections
     collections_long: "Collections indexées"
-    credits: "Développé par le <a href=\"http://cosl.usu.edu\">Centre d&#39;apprentissage ouvert et durable</a> avec le financement de la <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Contribuer OCW / OER Repository"
+    credits: "Développé par le <a href=\"http://cosl.usu.edu\">Centre d&#39;apprentissage ouvert et durable</a> avec le financement de la <a href=\"http://nsf.gov/\">National Science Foundation</a> et la <a href=\"http://www.mellon.org/\">Andrew</a> W. <a href=\"http://www.mellon.org/\">Mellon Foundation</a>"
     demo: Demo
     details: Détails
     developers: Développeurs
@@ -16,6 +17,20 @@ fr:
     for: pour
     gm_more_prompt: "Plus Ressources connexes"
     gm_title: "Ressources connexes"
+    home: 
+      browse_and_search: "BROWSE ET DE RECHERCHE SUR"
+      collaborate: "COLLABORER AVEC"
+      comments_heading: "RECENT COMMENTS"
+      example_comment: "Cette construction legos guide is awesome! Je me demande si nous pourrions l&#39;utiliser avec les étudiants dans CS 102."
+      get_widgets: "GET THE FOLKSEMANTIC WIDGETS"
+      oers: "<b>OUVERT</b> EN LIGNE"
+      people: PERSONNES
+      resources: "RESSOURCES D&#39;APPRENTISSAGE"
+      search: RECHERCHE
+      signup: "INSCRIVEZ-VOUS DÈS AUJOURD&#39;HUI!"
+      signup_reasons: "Inscrivez-vous pour rencontrer des gens avec qui vous pouvez trouver, partager, remixer, et de développer des ressources d&#39;apprentissage"
+      why: "FOLKSEMANTIC POURQUOI?"
+      widgets_pitch: "Vous voulez votre lien web vers des pages de ressources d&#39;apprentissage?"
     just_ocws: Cours
     metadata: Metadata
     next: Suivant
@@ -36,7 +51,7 @@ fr:
     search_description: "Trouver des ressources d&#39;apprentissage par <span class=\"highlight\">la recherche</span> et la <span class=\"highlight\">navigation</span> plus de 110000 ressources éducatives ouvertes"
     search_link: "Trouver des ressources!"
     tag_line: "habilitant l&#39;éducation ouverte"
-    title: Folksemantic
+    title: folksemantic
     tour: "Suivez le guide!"
     tour_description: "Regarder une <span class=\"highlight\">vidéo d&#39;introduction</span> Folksemantic"
     view_account: "Consultez votre compte"
@@ -45,6 +60,10 @@ fr:
     welcome_user: "Bienvenue {{user}}"
     widgets_description: "Télécharger des widgets pour aider les utilisateurs à <span class=\"highlight\">trouver des</span> ressources et de <span class=\"highlight\">découvrir les ressources liées</span> à celles sur votre site"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Contribuer OCW / OER Repository"
     welcome_activity: "Bienvenue à {{application_name}}! Ici, vous pouvez <a href='/resources'>découvrir gratuitement les ressources éducatives du monde entier.</a> Intéressant dans <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Comment les ressources sur l&#39;apprentissage de la NASA?.</a>"

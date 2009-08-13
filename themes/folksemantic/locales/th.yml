@@ -7,7 +7,8 @@ th:
     calculated: คำนวณ
     collections: เก็บ
     collections_long: การสร้างดัชนีเก็บ
-    credits: "การพัฒนาโดย <a href=\"http://cosl.usu.edu\">เปิดศูนย์การเรียนรู้และยั่งยืน</a> โดยการสนับสนุนเงินทุนจาก <a href=\"http://nsf.gov/\">มูลนิธิวิทยาศาสตร์แห่งชาติ</a>"
+    contribute_repository: "ข้อมูล OCW / OER Repository"
+    credits: "การพัฒนาโดย <a href=\"http://cosl.usu.edu\">เปิดศูนย์การเรียนรู้และยั่งยืน</a> โดยการสนับสนุนเงินทุนจาก <a href=\"http://nsf.gov/\">มูลนิธิวิทยาศาสตร์แห่งชาติ</a> และ <a href=\"http://www.mellon.org/\">ฟอร์ม W Andrew Mellon มูลนิธิ</a>"
     demo: สาธิต
     details: รายละเอียด
     developers: นักพัฒนา
@@ -16,6 +17,20 @@ th:
     for: สำหรับ
     gm_more_prompt: ข้อมูลที่เกี่ยวข้องเพิ่มเติม
     gm_title: ข้อมูลที่เกี่ยวข้อง
+    home: 
+      browse_and_search: เบราส์และค้นหา
+      collaborate: สมคบ
+      comments_heading: ข้อคิดเห็นล่าสุด
+      example_comment: "นั่นคือ legos ก่อสร้างคู่มือน่าหวาดเสียว! ฉันสงสัยว่าเราสามารถใช้กับนักเรียนใน CS 102."
+      get_widgets: "ได้รับ FOLKSEMANTIC เครื่องมือ"
+      oers: "<b>เปิด</b> ออนไลน์"
+      people: คน
+      resources: เรียนรู้ทรัพยากร
+      search: ค้นหา
+      signup: ลงชื่อสมัครเข้าใช้วันนี้!
+      signup_reasons: "ลงทะเบียนเพื่อให้ตรงกับคนที่คุณสามารถค้นหาแบ่งปัน, remix, การเรียนรู้และพัฒนาทรัพยากร"
+      why: "ทำไม FOLKSEMANTIC?"
+      widgets_pitch: ถ้าคุณต้องการเชื่อมโยงหน้าเว็บของคุณเพื่อเรียนรู้ที่เกี่ยวข้องกับทรัพยากร?
     just_ocws: หลักสูตร
     metadata: เมตาดาต้า
     next: ถัดไป
@@ -36,7 +51,7 @@ th:
     search_description: "ค้นหาทรัพยากรการเรียนรู้จากการ <span class=\"highlight\">ค้นหา</span> และเบราซ์ <span class=\"highlight\">ดู</span> มากกว่า <span class=\"highlight\">110,000</span> เปิดศึกษาทรัพยากร"
     search_link: ค้นหาทรัพยากร!
     tag_line: "empowering เปิดศึกษา"
-    title: Folksemantic
+    title: folksemantic
     tour: ใช้เวลาทัวร์!
     tour_description: "ชม <span class=\"highlight\">วิดีโอแนะนำ</span> Folksemantic"
     view_account: ดูบัญชีของคุณ
@@ -45,6 +60,10 @@ th:
     welcome_user: "ยินดีต้อนรับ {{user}}"
     widgets_description: "รับเครื่องมือที่จะช่วยให้ผู้ใช้ <span class=\"highlight\">พบ</span> ทรัพยากรและ <span class=\"highlight\">พบทรัพยากรเกี่ยวกับ</span> ตัวในเว็บไซต์ของคุณ"
     widgets_link: รับเครื่องมือ!
+    widgets_title: "folksemantic เครื่องมือ"
     xml: "XML ที่"
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "ข้อมูล OCW / OER Repository"
     welcome_activity: "ยินดีต้อนรับสู่ {{application_name}}! ที่นี่คุณสามารถ <a href='/resources'>ค้นพบการศึกษาฟรีทรัพยากรจากทั่วโลก.</a> ที่น่าสนใจใน <a href='/resources/search?q=lady+bugs'>กุลสตรีโรคจิต?</a> <a href='/resources/3909'>วิธีการเรียนรู้เกี่ยวกับทรัพยากรจากนาซา?.</a>"

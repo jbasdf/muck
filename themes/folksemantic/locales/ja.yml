@@ -7,7 +7,8 @@ ja:
     calculated: 計算
     collections: コレクション
     collections_long: インデックスのコレクション
-    credits: "は、 <a href=\"http://cosl.usu.edu\">センターを開き</a> 、 <a href=\"http://cosl.usu.edu\">持続可能な学習</a>のための<a href=\"http://nsf.gov/\">国立科学財団</a>から資金を得て開発"
+    contribute_repository: "貢献OCW / OERリポジトリ"
+    credits: "は、 <a href=\"http://cosl.usu.edu\">センターを開き</a> 、 <a href=\"http://cosl.usu.edu\">持続可能な学習</a>のための<a href=\"http://nsf.gov/\">全米科学財団</a>と<a href=\"http://www.mellon.org/\">水アンドリューメロン財団</a>から資金を得て開発"
     demo: デモ
     details: 詳細
     developers: 開発者
@@ -16,6 +17,20 @@ ja:
     for: 〜のために
     gm_more_prompt: 他の関連リソース
     gm_title: 関連リソース
+    home: 
+      browse_and_search: をブラウズし、検索以上
+      collaborate: との連携
+      comments_heading: 最近のコメント
+      example_comment: "レゴは、建設ガイド素晴らしいです！ CS 102の場合、我々の学生とそれを使用できるかな。"
+      get_widgets: FOLKSEMANTICのウィジェットを入手
+      oers: ショップ<b>オープン</b>
+      people: 人々
+      resources: 学習リソース
+      search: 検索
+      signup: 今すぐお申込み！
+      signup_reasons: サインアップの人々は誰を、リミックス共有リソースを見つけることができると学習の開発と会談し、
+      why: FOLKSEMANTICなぜですか？
+      widgets_pitch: 関連するリソースの学習をお客様のウェブページのリンクをしたいですか？
     just_ocws: コース
     metadata: メタデータ
     next: 次の
@@ -36,7 +51,7 @@ ja:
     search_description: "検索することで、学習のリソース<span class=\"highlight\">を検索する</span>と<span class=\"highlight\">110,000</span>オープン教育リソースを参照"
     search_link: リソースを検索！
     tag_line: オープン教育の権限委譲
-    title: Folksemantic
+    title: folksemantic
     tour: ツアー！
     tour_description: "腕時計の<span class=\"highlight\">ビデオ</span>を<span class=\"highlight\">紹介</span> Folksemantic"
     view_account: ビューは、アカウント
@@ -45,6 +60,10 @@ ja:
     welcome_user: "ようこそ{{user}}"
     widgets_description: "ウィジェットを入手し、ユーザーのリソース<span class=\"highlight\">を</span>見つけ、 <span class=\"highlight\">お客様のウェブサイト</span>上の<span class=\"highlight\">リソース</span>に関連する<span class=\"highlight\">もの</span>を発見するために"
     widgets_link: ウィジェットを入手！
+    widgets_title: folksemanticウィジェット
     xml: XMLの
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "貢献OCW / OERリポジトリ"
     welcome_activity: "{{application_name}}!へようこそここでは、 <a href='/resources'>世界中から無料の教育資源を発見することができます</a> 。 NASAからレディ<a href='/resources/search?q=lady+bugs'>バグの<a href='/resources/3909'>面白い</a></a> <a href='/resources/3909'>方法について学習資源</a> ？ 。"

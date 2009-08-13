@@ -7,7 +7,8 @@ da:
     calculated: beregnes
     collections: Samlinger
     collections_long: "Indekseret Samlinger"
-    credits: "Udviklet af <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med støtte fra <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Bidrage OCW / OER repository&#39;et"
+    credits: "Udviklet af <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med støtte fra <a href=\"http://nsf.gov/\">National Science Foundation</a> og <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detaljer
     developers: Udviklere
@@ -16,6 +17,20 @@ da:
     for: for
     gm_more_prompt: "Mere Relaterede ressourcer"
     gm_title: "Relaterede ressourcer"
+    home: 
+      browse_and_search: "Gennemse og søg i"
+      collaborate: "Samarbejd med"
+      comments_heading: "SENESTE KOMMENTARER"
+      example_comment: "At legos opførelse vejledning er awesome! Jeg spekulerer på, om vi kunne bruge det med eleverne i CS 102."
+      get_widgets: "FÅ DET FOLKSEMANTIC widgets"
+      oers: "<b>ÅBEN</b> ONLINE"
+      people: MENNESKER
+      resources: Læringsressourcer
+      search: SØG
+      signup: "Tilmeld dig i dag!"
+      signup_reasons: "Tilmeld dig til at møde folk, som du kan finde, dele, remix, og udvikle læringsressourcer"
+      why: "HVORFOR FOLKSEMANTIC?"
+      widgets_pitch: "Ønsker at knytte dine websider til relaterede læring ressourcer?"
     just_ocws: Kurser
     metadata: Metadata
     next: Næste
@@ -36,7 +51,7 @@ da:
     search_description: "Find læring ressourcer ved <span class=\"highlight\">at søge og</span> surfe over <span class=\"highlight\">110.000</span> åben uddannelsesmæssige ressourcer"
     search_link: "Find ressourcer!"
     tag_line: "bemyndigelse åben uddannelse"
-    title: Folksemantic
+    title: folksemantic
     tour: "Tag en tur!"
     tour_description: "Se en <span class=\"highlight\">video indførelsen</span> af Folksemantic"
     view_account: "Vis din konto"
@@ -45,6 +60,10 @@ da:
     welcome_user: "Velkommen {{user}}"
     widgets_description: "Få widgets at hjælpe brugerne med at <span class=\"highlight\">finde</span> ressourcer og <span class=\"highlight\">opdage ressourcer i forbindelse</span> med dem på din hjemmeside"
     widgets_link: "Få Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Bidrage OCW / OER repository&#39;et"
     welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>opdage fri uddannelsesmæssige ressourcer fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>How about learning ressourcer fra NASA?.</a>"

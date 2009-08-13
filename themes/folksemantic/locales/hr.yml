@@ -7,7 +7,8 @@ hr:
     calculated: izračunati
     collections: Zbirke
     collections_long: "Indeksiranim Zbirke"
-    credits: "Razvijen od strane <a href=\"http://cosl.usu.edu\">Centra za učenje i održivi Open</a> financiranjem iz <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Pridonijeti OCW / OER Spremište"
+    credits: "Razvijen od strane <a href=\"http://cosl.usu.edu\">Centra za učenje i održivi Open</a> financiranjem iz <a href=\"http://nsf.gov/\">National Science Foundation</a> i <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detalji
     developers: Developers
@@ -16,6 +17,20 @@ hr:
     for: za
     gm_more_prompt: "Više Povezani resursi"
     gm_title: "Povezani resursi"
+    home: 
+      browse_and_search: "Pregledavanje i pretraživanje"
+      collaborate: "Surađujte s"
+      comments_heading: "Recent Comments"
+      example_comment: "To je vodič legos građevina Awesome! Pitam se, ako smo mogli koristiti ga s 102 učenika u CS."
+      get_widgets: "Uzmite FOLKSEMANTIC widgets"
+      oers: "<b>OTVOREN</b> online"
+      people: LJUDI
+      resources: "LEARNING RESOURCES"
+      search: PRETRAŽIVANJE
+      signup: "Prijavite se još danas!"
+      signup_reasons: "Prijavite se u susret ljudi s kojima možete pronaći, dijeliti, Remix, učiti i razvijati resursi"
+      why: "ZAŠTO FOLKSEMANTIC?"
+      widgets_pitch: "Želite link vaše web stranice na srodne izvore učenja?"
     just_ocws: Tečajevi
     metadata: Metapodaci
     next: Dalje
@@ -36,7 +51,7 @@ hr:
     search_description: "Nađi learning resurse <span class=\"highlight\">pretraživanjem</span> i <span class=\"highlight\">pregledavanja</span> preko <span class=\"highlight\">110.000</span> otvorenih obrazovni resursi"
     search_link: "Find Resources!"
     tag_line: "Osnaživanje otvoren obrazovanje"
-    title: Folksemantic
+    title: folksemantic
     tour: "Krenite u obilazak!"
     tour_description: "Watch <span class=\"highlight\">video uvođenje</span> Folksemantic"
     view_account: "Prikaži Vaš korisnički račun"
@@ -45,6 +60,10 @@ hr:
     welcome_user: "Dobrodošli {{user}}"
     widgets_description: "Get widgets pomoći korisnicima <span class=\"highlight\">pronaći</span> resurse i <span class=\"highlight\">otkrijte resursa vezanih</span> za one na Vašoj web lokaciji"
     widgets_link: "Get Sprave!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Pridonijeti OCW / OER Spremište"
     welcome_activity: "Dobrodošli na {{application_name}}! Ovdje možete <a href='/resources'>besplatno otkriju obrazovne resurse iz cijelog svijeta.</a> Zanimljive u <a href='/resources/search?q=lady+bugs'>damu bugovi?</a> <a href='/resources/3909'>Kako o učenju resurse iz NASA-e?.</a>"

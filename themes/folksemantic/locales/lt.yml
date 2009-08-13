@@ -7,7 +7,8 @@ lt:
     calculated: apskaičiuotas
     collections: Kolekcijos
     collections_long: "Indeksas Kolekcijos"
-    credits: "Parengė <a href=\"http://cosl.usu.edu\">centro atidarymas ir subalansuotos mokymosi</a> finansavimą iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a>"
+    contribute_repository: "Prisidėti OCW / OER saugykla"
+    credits: "Parengė <a href=\"http://cosl.usu.edu\">centro atidarymas ir subalansuotos mokymosi</a> finansavimą iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a> ir <a href=\"http://www.mellon.org/\">Andrew V Melono fondas</a>"
     demo: Demo
     details: Duomenys
     developers: Programavimas
@@ -16,6 +17,20 @@ lt:
     for: dėl
     gm_more_prompt: "Daugiau informacijos Susiję šaltiniai ir ištekliai:"
     gm_title: "Susiję šaltiniai ir ištekliai:"
+    home: 
+      browse_and_search: "Naršyti ir ieškoti"
+      collaborate: "Bendradarbiauti su"
+      comments_heading: "Naujausi komentarai"
+      example_comment: "Kad legos statybos vadovas is awesome! Įdomu, jei mes galime jį naudoti su studentais CS 102."
+      get_widgets: "GET THE FOLKSEMANTIC raštai"
+      oers: "<b>ATVIRAS</b> ONLINE"
+      people: ŽMONĖS
+      resources: "MOKYMOSI IŠTEKLIAI"
+      search: PAIEŠKA
+      signup: "Registruotis dabar!"
+      signup_reasons: "Registruotis susipažinti su žmonėmis, su kuriais jūs galite surasti, dalytis, remix, ir sukurti mokymosi išteklių"
+      why: "KODĖL FOLKSEMANTIC?"
+      widgets_pitch: "Norite nuorodą savo interneto puslapių, susijusių mokymosi išteklių?"
     just_ocws: Kursai
     metadata: Metaduomenys
     next: Kitas
@@ -36,15 +51,19 @@ lt:
     search_description: "Rasti mokymosi išteklių <span class=\"highlight\">paieškos</span> ir <span class=\"highlight\">naršymo</span> virš <span class=\"highlight\">110.000</span> atviri švietimo išteklius"
     search_link: "Rasti ištekliai!"
     tag_line: "suteikiančio atvirą švietimo"
-    title: Folksemantic
+    title: folksemantic
     tour: "Take a Tour!"
-    tour_description: "Žiūrėti <span class=\"highlight\">vaizdo įvedimo</span> Folksemantic"
+    tour_description: "Žiūrėti <span class=\"highlight\">vaizdo įvedimas</span> Folksemantic"
     view_account: "Peržiūrėti Jūsų sąskaita"
     welcome: "Sveiki atvykę į Folksemantic."
     welcome_message: "Mes aktyviai dirbame, kad integruoti OCWFinder ir OERRecommender į vieną svetainę, kad padėtų jums rasti labiausiai įdomios ir aktualios švietimo išteklius."
     welcome_user: "Sveiki {{user}}"
     widgets_description: "Gauti raštai padėti vartotojams <span class=\"highlight\">rasti</span> išteklių ir <span class=\"highlight\">atrasti ištekliai, susiję</span> su jų į savo svetainę"
     widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic raštai"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Prisidėti OCW / OER saugykla"
     welcome_activity: "Sveiki atvykę į {{application_name}}! Čia galite <a href='/resources'>surasti laisvą švietimo išteklius iš viso pasaulio.</a> Įdomus <a href='/resources/search?q=lady+bugs'>panele klaidas?</a> <a href='/resources/3909'>Kaip apie mokymosi išteklių NASA?.</a>"

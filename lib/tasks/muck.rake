@@ -4,6 +4,11 @@ require 'fileutils'
 
 namespace :muck do
   
+  GREEN = "\033[0;32m"
+  RED = "\033[0;31m"
+  BLUE = "\033[0;34m"
+  INVERT = "\033[00m"
+  
   desc 'Translate muck and all themes from English into all languages supported by Google'
   task :translate do
     file = File.join(File.dirname(__FILE__), '..', '..', 'config', 'locales', 'en.yml')
@@ -56,6 +61,7 @@ namespace :muck do
   end
   
   task :install_gems do
+    system('sudo gem install babelphish')
     system('sudo gem install cms-lite')
     system('sudo gem install disguise')
     system('sudo gem install uploader')
@@ -134,8 +140,11 @@ namespace :muck do
   
   desc "Translate all muck related projects and gems"
   task :translate_all do
-    projects_path = File.join(File.dirname(__FILE__), '..')
-    
+    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+
+    puts 'translating muck'
+    system("babelphish -o -y #{projects_path}/muck/config/locales/en.yml")
+        
     puts 'translating cms lite'
     system("babelphish -o -y #{projects_path}/cms_lite/locales/en.yml")
     
@@ -144,9 +153,6 @@ namespace :muck do
     
     puts 'translating uploader'
     system("babelphish -o -y #{projects_path}/uploader/locales/en.yml")
-    
-    puts 'translating muck'
-    system("babelphish -o -y #{projects_path}/muck/config/locales/en.yml")
 
     puts 'translating muck engine'
     system("babelphish -o -y #{projects_path}/muck_engine/locales/en.yml")
@@ -168,22 +174,33 @@ namespace :muck do
     
     puts 'translating muck friends'
     system("babelphish -o -y #{projects_path}/muck_friends/locales/en.yml")
+
+    puts 'translating muck contents'
+    system("babelphish -o -y #{projects_path}/muck_contents/locales/en.yml")
     
+    puts 'translating muck blogs'
+    system("babelphish -o -y #{projects_path}/muck_blogs/locales/en.yml")
+
+    puts 'translating muck shares'
+    system("babelphish -o -y #{projects_path}/muck_shares/locales/en.yml")
+
+    puts 'translating muck invites'
+    system("babelphish -o -y #{projects_path}/muck_invites/locales/en.yml")
+
     puts 'finished translations'
   end
 
-  desc "Gets everything ready for a release. Translates gems, release gems, commits gems translates muck, writes versions into muck and then commits muck.  This takes a while"
+  desc "Gets everything ready for a release. Translates muck + gems, release gems, commits gems translates muck, writes versions into muck and then commits muck.  This takes a while"
   task :prepare_release do
-    Rake::Task[ "muck:translate_all" ].execute
+    #Rake::Task[ "muck:translate_all" ].execute
     Rake::Task[ "muck:release_gems" ].execute
     Rake::Task[ "muck:commit_gems" ].execute
-    Rake::Task[ "muck:translate" ].execute
     Rake::Task[ "muck:versions" ].execute
     # Commit and push muck
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     git_commit("#{projects_path}/muck", "Updated gem versions")
   end
-
+  
   desc "Release muck gems"
   task :release_gems do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
@@ -227,6 +244,7 @@ namespace :muck do
   desc "commit gems after a release"
   task :commit_gems do
     message = "Released new gem"
+    #message = "Updated translations"
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     git_commit("#{projects_path}/acts_as_solr", message)
     git_commit("#{projects_path}/cms_lite", message)
@@ -243,6 +261,67 @@ namespace :muck do
     git_commit("#{projects_path}/muck_blogs", message)
     git_commit("#{projects_path}/muck_shares", message)
     #git_commit("#{projects_path}/muck_invites", message)
+  end
+  
+  desc "Pull code for all the gems (use with caution)"
+  task :pull_gems do
+    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    git_pull("#{projects_path}/acts_as_solr")
+    git_pull("#{projects_path}/cms_lite")
+    git_pull("#{projects_path}/disguise")
+    git_pull("#{projects_path}/uploader")
+    git_pull("#{projects_path}/muck_engine")
+    git_pull("#{projects_path}/muck_users")
+    git_pull("#{projects_path}/muck_comments")
+    git_pull("#{projects_path}/muck_profiles")
+    git_pull("#{projects_path}/muck_raker")
+    git_pull("#{projects_path}/muck_activities")
+    git_pull("#{projects_path}/muck_friends")
+    git_pull("#{projects_path}/muck_contents")
+    git_pull("#{projects_path}/muck_blogs")
+    git_pull("#{projects_path}/muck_shares")
+    git_pull("#{projects_path}/muck_invites")
+  end
+  
+  desc "Push code for all the gems (use with caution)"
+  task :push_gems do
+    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    git_push("#{projects_path}/acts_as_solr")
+    git_push("#{projects_path}/cms_lite")
+    git_push("#{projects_path}/disguise")
+    git_push("#{projects_path}/uploader")
+    git_push("#{projects_path}/muck_engine")
+    git_push("#{projects_path}/muck_users")
+    git_push("#{projects_path}/muck_comments")
+    git_push("#{projects_path}/muck_profiles")
+    git_push("#{projects_path}/muck_raker")
+    git_push("#{projects_path}/muck_activities")
+    git_push("#{projects_path}/muck_friends")
+    git_push("#{projects_path}/muck_contents")
+    git_push("#{projects_path}/muck_blogs")
+    git_push("#{projects_path}/muck_shares")
+    git_push("#{projects_path}/muck_invites")
+  end
+  
+  desc "Gets status for all the muck gems"
+  task :status_gems do
+    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
+    git_status("#{projects_path}/babelphish")
+    git_status("#{projects_path}/acts_as_solr")
+    git_status("#{projects_path}/cms_lite")
+    git_status("#{projects_path}/disguise")
+    git_status("#{projects_path}/uploader")
+    git_status("#{projects_path}/muck_engine")
+    git_status("#{projects_path}/muck_users")
+    git_status("#{projects_path}/muck_comments")
+    git_status("#{projects_path}/muck_profiles")
+    git_status("#{projects_path}/muck_raker")
+    git_status("#{projects_path}/muck_activities")
+    git_status("#{projects_path}/muck_friends")
+    git_status("#{projects_path}/muck_contents")
+    git_status("#{projects_path}/muck_blogs")
+    git_status("#{projects_path}/muck_shares")
+    git_status("#{projects_path}/muck_invites")
   end
   
   def release_gem(path, gem_name)
@@ -275,12 +354,55 @@ namespace :muck do
   end
   
   def git_commit(path, message)
-    puts "*** pushing and commiting #{path} ***"
+    puts "Commiting #{BLUE}#{File.basename(path)}#{INVERT}"
     repo = Git.open("#{path}")
     puts repo.add('.')
     puts repo.commit(message) rescue 'nothing to commit'
+  end
+  
+  def git_push(path)
+    puts "Pulling and pushing #{BLUE}#{File.basename(path)}#{INVERT}"
+    repo = Git.open("#{path}")
     puts repo.pull
     puts repo.push
+  end
+  
+  def git_pull(path)
+    puts "Pulling code for #{BLUE}#{File.basename(path)}#{INVERT}"
+    repo = Git.open("#{path}")
+    puts repo.pull
+  end
+
+  def git_status(path)
+    repo = Git.open("#{path}")
+    status = repo.status
+    
+    changed = (status.changed.length > 0 ? RED : GREEN) + "#{status.changed.length}#{INVERT}"
+    untracked = (status.untracked.length > 0 ? RED : GREEN) + "#{status.untracked.length}#{INVERT}"
+    added = (status.added.length > 0 ? RED : GREEN) + "#{status.added.length}#{INVERT}"
+    deleted = (status.deleted.length > 0 ? RED : GREEN) + "#{status.deleted.length}#{INVERT}"
+    puts "#{BLUE}#{File.basename(path)}:#{INVERT}  Changed(#{changed}) Untracked(#{untracked}) Added(#{added}) Deleted(#{deleted})"
+    if status.changed.length > 0
+      status.changed.each do |file|
+        puts "    Changed: #{RED}#{file[1].path}#{INVERT}"
+      end
+    end
+    # if status.untracked.length > 0
+    #   status.untracked.each do |file|
+    #     puts "    Untracked: #{RED}#{file[1].path}#{INVERT}"
+    #   end
+    # end
+    # if status.added.length > 0
+    #   status.added.each do |file|
+    #     puts "    Added: #{RED}#{file[1].path}#{INVERT}"
+    #   end
+    # end
+    if status.deleted.length > 0
+      status.deleted.each do |file|
+        puts "    Deleted: #{RED}#{file[1].path}#{INVERT}"
+      end
+    end
+    puts ""
   end
   
   # execute commands in a different directory

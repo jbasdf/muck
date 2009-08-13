@@ -7,7 +7,8 @@ sl:
     calculated: izračuna
     collections: Zbirke
     collections_long: "Indeksno Zbirke"
-    credits: "Ki jih je razvil <a href=\"http://cosl.usu.edu\">Center za odprto učenje in trajnostnega</a> financiranja od <a href=\"http://nsf.gov/\">National Science Foundation</a>"
+    contribute_repository: "Prispevati OCW / OER Repository"
+    credits: "Ki jih je razvil <a href=\"http://cosl.usu.edu\">Center za odprto učenje in trajnostnega</a> financiranja od <a href=\"http://nsf.gov/\">National Science Foundation</a> in <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Podrobnosti
     developers: Razvijalci
@@ -16,6 +17,20 @@ sl:
     for: za
     gm_more_prompt: "Več Sorodni viri"
     gm_title: "Sorodni viri"
+    home: 
+      browse_and_search: "Brskajte in iščite po"
+      collaborate: "Sodelujte z"
+      comments_heading: "Nedavni komentarji"
+      example_comment: "To legos gradnjo vodnik je noro! Zanima me če bi lahko jo uporabite s študenti v CS 102."
+      get_widgets: "Pridobite FOLKSEMANTIC toinono"
+      oers: "<b>OPEN</b> ONLINE"
+      people: LJUDJE
+      resources: "UČNA SREDSTVA"
+      search: ISKANJE
+      signup: "Prijavite se še danes!"
+      signup_reasons: "Prijavite se za izpolnitev ljudi, s katerimi lahko ugotovijo, delež, remix, in razvoj učnih virov"
+      why: "ZAKAJ FOLKSEMANTIC?"
+      widgets_pitch: "Želite svoje spletne strani povezali z njimi povezane vire učenja?"
     just_ocws: Tečaji
     metadata: Metadata
     next: Naslednji
@@ -36,7 +51,7 @@ sl:
     search_description: "Poišči učnih virov z <span class=\"highlight\">iskanjem</span> in <span class=\"highlight\">brskanjem</span> preko <span class=\"highlight\">110.000</span> odprtih izobraževalnih virov,"
     search_link: "Poišči vire!"
     tag_line: "o pooblastitvi odprto izobraževanje"
-    title: Folksemantic
+    title: folksemantic
     tour: "Take a Tour!"
     tour_description: "Oglejte si <span class=\"highlight\">video uvedbo</span> Folksemantic"
     view_account: "Prikaži Vaš Račun"
@@ -45,6 +60,10 @@ sl:
     welcome_user: "Dobrodošli {{user}}"
     widgets_description: "Get toinono pomaga uporabnikom <span class=\"highlight\">najti</span> sredstva in <span class=\"highlight\">odkrijte vire, povezane</span> s tistimi, na vaši spletni strani"
     widgets_link: "Get Pripomočki!"
+    widgets_title: "folksemantic toinono"
     xml: XML
   muck: 
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Prispevati OCW / OER Repository"
     welcome_activity: "Dobrodošli na {{application_name}}! Tukaj lahko <a href='/resources'>odkrijete prosti izobraževalnih virov po vsem svetu.</a> Zanimiva <a href='/resources/search?q=lady+bugs'>gospa bugova?</a> <a href='/resources/3909'>Kaj učnih virov iz NASA?.</a>"
