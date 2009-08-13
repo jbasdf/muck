@@ -192,13 +192,19 @@ namespace :muck do
 
   desc "Gets everything ready for a release. Translates muck + gems, release gems, commits gems translates muck, writes versions into muck and then commits muck.  This takes a while"
   task :prepare_release do
-    #Rake::Task[ "muck:translate_all" ].execute
+    # Rake::Task[ "muck:commit_gems" ].execute
+    # Rake::Task[ "muck:pull_gems" ].execute
+    Rake::Task[ "muck:translate_all" ].execute
     Rake::Task[ "muck:release_gems" ].execute
     Rake::Task[ "muck:commit_gems" ].execute
+    Rake::Task[ "muck:push_gems" ].execute
     Rake::Task[ "muck:versions" ].execute
     # Commit and push muck
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     git_commit("#{projects_path}/muck", "Updated gem versions")
+    git_pull("#{projects_path}/muck")
+    git_push("#{projects_path}/muck")
+    puts "Don't forget to install the new gems on the server"
   end
   
   desc "Release muck gems"
