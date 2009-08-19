@@ -20,5 +20,5 @@
 
 class Share < ActiveRecord::Base
   acts_as_muck_share
-  belongs_to :entry
+  acts_as_muck_raker_share # must be called after acts_as_muck_share
 end

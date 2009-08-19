@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090808175401) do
+ActiveRecord::Schema.define(:version => 20090819030523) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -29,9 +29,13 @@ ActiveRecord::Schema.define(:version => 20090808175401) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "comment_count",    :default => 0
+    t.integer  "attachable_id"
+    t.string   "attachable_type"
   end
 
+  add_index "activities", ["attachable_id", "attachable_type"], :name => "index_activities_on_attachable_id_and_attachable_type"
   add_index "activities", ["item_id", "item_type"], :name => "index_activities_on_item_id_and_item_type"
+  add_index "activities", ["source_id", "source_type"], :name => "index_activities_on_source_id_and_source_type"
 
   create_table "activity_feeds", :force => true do |t|
     t.integer "activity_id"

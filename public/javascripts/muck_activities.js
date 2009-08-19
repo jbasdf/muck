@@ -1,8 +1,8 @@
 jQuery(document).ready(function() {
-	apply_comment_methods();
+	apply_activity_ajax_methods();
 });
 
-function apply_comment_methods(){
+function apply_activity_ajax_methods(){
 	setup_comment_submit();
 	hide_comment_boxes();
 	apply_comment_hover();
@@ -57,7 +57,7 @@ function setup_comment_submit(){
 					comment_box.removeClass('activity-no-comments');
 					comment_box.addClass('activity-has-comments');
 					comment_box.find('textarea').show();
-					apply_comment_methods();
+					apply_activity_ajax_methods();
 				}
       });
     return false;

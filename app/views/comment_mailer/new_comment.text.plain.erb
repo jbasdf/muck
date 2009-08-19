@@ -1,0 +1,11 @@
+<%= h(@display_name) %> commented:
+
+<%= h(@comment.body) %>.
+
+Follow the discussion:
+<%= link_to visit_url(@comment.commentable.id, :show_comments => true), visit_url(@comment.commentable.id, :show_comments => true) %>
+
+You may find more information about <%= h(@comment.user.display_name) %> on their profile <%= profile_url(@comment.user) %>
+
+Thanks,
+The <%= GlobalConfig.application_name %> Team
