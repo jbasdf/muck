@@ -1,18 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-	<head>
-    <%= render :partial => 'layouts/global/head' %>
-	</head>
-	<body>
-	    <div class="container">
-          <%= render :partial => 'layouts/global/header' %>
-          <%= yield :layout %>
-    		<%= render :partial => 'layouts/global/footer' %>
-      </div>
-		<script type="text/javascript" language="JavaScript">
-      <%= yield :javascript %>
-    </script>
-	<%= render :partial => 'layouts/global/get_satisfaction' %>
-    <%= render :partial => 'layouts/global/google_analytics' %>
-	</body>
+<head>
+  <%= render :partial => 'layouts/global/head' %>
+</head>
+<body>
+  <div class="container">
+    <%= render :partial => 'layouts/global/header' %>
+    <%= yield :layout %>
+    <%= render :partial => 'layouts/global/footer' %>
+  </div>
+  <script type="text/javascript" language="JavaScript">
+  <%= yield :javascript %>
+  </script>
+  <%= render :partial => 'layouts/global/get_satisfaction' %>
+  <%= render :partial => 'layouts/global/google_analytics' %>
+</body>
 </html>
