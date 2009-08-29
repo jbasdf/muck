@@ -69,12 +69,13 @@ jQuery(document).ready(function() {
 	jQuery("#global-login").focus(function() {
 		jQuery("#global-login").val("");
 	});
-	
+
 	jQuery("#global-password").focus(function() {
 		jQuery("#global-password").val("");
 	});
-	
+
 	jQuery("#quick-login-submit").click(function() {
 		jQuery("#quick-login").submit();
-	});	
+	});
+	
 });

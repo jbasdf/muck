@@ -60,7 +60,10 @@ fieldset{border:solid 1px #CCC;margin:0px;padding:10px;}
 .results-nav a{margin:0px 3px;}
 .results-nav .current{margin:0px 3px;font-weight:bold;color:#A90A07;}
 /* activity feed */
-#status-update-field{border:solid 1px #ccc;padding:10px 7px;background-color:#eee;}
+#activity-status-control{border:solid 1px #ccc;padding:10px 7px;background-color:#eee;}
+#status-update-field{}
+ul#status-menu{list-style:none;}
+ul#status-menu li{float:left;display:inline;margin:0 5px;}
 #status-update-button input{padding:0;}
 .status-update-dim{}
 .status-update-lit{}
@@ -81,6 +84,8 @@ form.activity-delete {position:relative;display:inline;float:right;display:none;
 form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:absolute;right:0px;bottom:0px;}
 .activity .activity-hover form.activity-delete{display:block;}
 .welcome_activity{font-size:14px;}
+a.upload-button{background:transparent url('/images/icons/button_background.png') no-repeat scroll left top;text-decoration:none;padding:0px 23px 1px 6px;color:#fff;font-weight:bold;}
+a.upload-button:hover{background:transparent url('/images/icons/button_background.png') no-repeat scroll left bottom;}
 /* comments under activity feed */
 .activity-comment{border:1px solid #ccc;margin:2px 50px 2px 60px;padding:.5em;background-color:#eee;}
 .activity-comment .actor-icon{width:40px;}
@@ -108,49 +113,8 @@ form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:ab
 .features ul{list-style-image: url(/images/icons/vote.png);padding-left:6px;}
 .features li{padding-bottom:6px;}
 .widget-info textarea{font-size:12px;}
-/* iFrame */
-.framed_content{height:100%;margin-bottom:-1px;width:100%;}
-#content_iframe{display:block;display:block;}
-#toolbar{height:30px;border-bottom:1px solid #999;background-image:url('/images/folksemantic/bg-toolbar.jpg');}
-#toolbar .section{padding:4px 20px;}
-#toolbar-logo {float:left;margin-left:30px;}
-#toolbar #search{float:right;padding:5px 0px;}
-#toolbar #search input{font-size:1em;}
-#toolbar #tools{float:right;}
-#toolbar #tools img{vertical-align:bottom;padding-right:4px;}
-#toolbar #tools a{margin-right:5px;padding-left:18px;font-weight:bolder;font-size:1em;color:#54493F;}
-#toolbar #tools a:hover{text-decoration:underline;}
-#toolbar #tools #share_login a{padding:0px;margin:0px;}
-#toolbar #close{float:right;padding-top:5px;padding-right:5px;}
-#toolbar .section a{text-decoration:none;}
-a#close_frame{-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:transparent url('/images/icons/close.png') no-repeat scroll left top;display:block;height:19px;width:19px;}
-a#close_frame:hover{background-position:left bottom;}
-a#close_frame_text{display:none;}
-#toolbar #search #search_go{display:none;}
-#toolbar #search #search_box{width:150px;height:21px;background:transparent url('/images/icons/search_box.png') no-repeat scroll left bottom;}
-#toolbar #search #search_box:hover{background:transparent url('/images/icons/search_box.png') no-repeat scroll left top;}
-#toolbar #search #search_box input {-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:transparent none repeat scroll 0 0;border:0 none;width:125px;}
-/* tools in frame */
-.tool{width:25%;float:right;}
-.tools_container{overflow:auto;width:100%;}
-a.close_link{text-decoration:none;float:right;margin:5px;display:block;padding:0px 23px 1px 6px;color:#fff;font-weight:bold;background:transparent url('/images/icons/hide.png') no-repeat scroll left top;}
-a.close_link:hover{background:transparent url('/images/icons/hide.png') no-repeat scroll left bottom;}
-.close_link_wrapper{height:28px;}
-.tool textarea{width:97%;height:75px;margin:5px auto;}
-.tool input{font-size:1em;}
-.tool label{font-size:1em;}
-/* shares tool in frame */
-#share_tool .share-form-wrapper{border:1px solid #ccc;margin:2px auto;padding:.5em;background-color:#eee;width:90%;}
-/* comments tool in frame */
-#comments_tool .comment_holder p{margin:0;}
-#comments_tool .comment_holder .commentor-icon{width:40px;float:left;margin:0 5px 0 0;}
-#comments_tool .comment_holder .commentor-icon img{width:40px;height:40px;}
-#comments_tool .comment_holder .commentor a{font-size:.8em;}
-#comments_tool .comment_holder .comment-time{color:#777777;font-size:.9em;}
-#comments_tool .comment-form-wrapper, #comments_tool .comment_holder{border:1px solid #ccc;margin:2px auto;padding:.5em;background-color:#eee;width:90%;}
-#comments_tool .comment-form-wrapper{height:116px;}
-#comments_tool .comment-form input{float:right;}
-#comments_tool form.comment-delete {position:relative;display:inline;float:right;}
-#comments_tool form.comment-delete input{padding:0;margin:0;width:15px;height:15px;position:absolute;right:0px;top:0px;}
-#comments_tool form.comment-delete{display:none;}
-#comments_tool .comment-hover form.comment-delete{display:block;}
+/* entry comment in activity feed */
+.entry-comment-contents{font-weight:bolder;}
+/* profile */
+.friendship-block a, .friendship-description a{background:#2B7EAA;padding:5px 8px;margin:4px;text-decoration:none;color:#fff;font-weight:bold;}
+.friendship-block a:hover, .friendship-description a:hover{background:#8EC0DB;}

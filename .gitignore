@@ -1,7 +1,11 @@
+coverage/*
+log/*.log
+tmp/**/*
+db/*.db
+config/database.yml
 **/*.pid
 log/*.log
 log/*.pid
-tmp
 .DS_Store
 public/cache/**/*
 public/system/**/*

@@ -1,43 +1,38 @@
 function swfUploadPreLoad() {
 	var self = this;
 	var loading = function () {
-		//document.getElementById("swf_upload_UI").style.display = "none";
-		document.getElementById("swf_loading_content").style.display = "";
-
+		jQuery('.swf_loading_content').show();
 		var longLoad = function () {
-			document.getElementById("swf_loading_content").style.display = "none";
-			document.getElementById("swf_long_loading").style.display = "";
+			jQuery('.swf_loading_content').hide();
+			jQuery('.swf_long_loading').show();
 		};
-		this.customSettings.loadingTimeout = setTimeout(function () {
+		this.customSettings.loadingTimeout = setTimeout(function() {
 				longLoad.call(self)
 			},
 			15 * 1000
 		);
 	};
 	
-	this.customSettings.loadingTimeout = setTimeout(function () {
+	this.customSettings.loadingTimeout = setTimeout(function() {
 			loading.call(self);
 		},
 		1*1000
 	);
 }
+
 function swfUploadLoaded() {
 	var self = this;
 	clearTimeout(this.customSettings.loadingTimeout);
-	//document.getElementById("swf_upload_UI").style.visibility = "visible";
-	//document.getElementById("swf_upload_UI").style.display = "block";
-	document.getElementById("swf_loading_content").style.display = "none";
-	document.getElementById("swf_long_loading").style.display = "none";
-	document.getElementById("swf_alternate_content").style.display = "none";
-	
-	//document.getElementById("btnBrowse").onclick = function () { self.selectFiles(); };
-	document.getElementById("swf_cancel_button").onclick = function () { self.cancelQueue(); };
+	jQuery('.swf_loading_content').hide();
+	jQuery('.swf_long_loading').hide();
+	jQuery('.swf_alternate_content').hide();
+	jQuery(".swf_cancel_button").click(function(){ self.cancelQueue(); });
 }
    
 function swfUploadLoadFailed() {
 	clearTimeout(this.customSettings.loadingTimeout);
-	jQuery('#degraded_container').show();
-	jQuery('#swfupload_container').hide();
+	jQuery('.degraded_container').show();
+	jQuery('.swfupload_container').hide();
 }
 
 function fileQueued(file) {

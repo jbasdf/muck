@@ -5,9 +5,12 @@
   <%= icon @user, :thumb %>
   <p><%= @user.full_name %></p>
   
-  <p><%= link_to (t('muck.profiles.edit_profile'), edit_user_profile_path(@user)) if @user.profile.can_edit?(current_user) %></p>
+  <p><%= link_to(t('muck.profiles.edit_profile'), edit_user_profile_path(@user)) if @user.profile.can_edit?(current_user) %></p>
   
-  <p><%= friend_link(current_user, @user) %></p>
+  <p>
+    <%= friend_link(current_user, @user) %>
+    <%= block_user_link(current_user, @user) %>
+  </p>
     
   <h2><%= t('muck.friends.followers')%></h2>
   <%= followers(@user, 12, t('muck.friends.no_followers'), 'friend_tiny_icon') %>

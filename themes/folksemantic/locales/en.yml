@@ -72,4 +72,7 @@ en:
       signup_pitch: Folksemantic makes it easy to find, share, and use open educational resources so you can get smart.
       dev_plans: We are actively developing it to extend <a href="http://ocwfinder.org">ocwfinder.org</a> and <a href="http://oerrecommender.org">oerrecommender.org</a>
       signup: Sign up!
-      
+    friends:
+      start_following: "Follow"
+      unblock: "Unblock"
+      block: "Block"

@@ -10,10 +10,11 @@ function maximize_space() {
   var spacer = jQuery('#comments_tools_close_wrapper').height() + 5;
   container.height(jQuery(window).height() - (jQuery('#toolbar').height() + spacer));
 }
-function setup_comment_submit(){
-	jQuery(".comment-submit").click(function() {
+function setup_entry_comment_submit(){
+	jQuery(".entry-comment-submit").click(function() {
 		jQuery(this).siblings('textarea').hide();
-		jQuery(this).parent().append('<p class="comment-loading"><img src="/images/spinner.gif" alt="loading..." /> ' + ADD_COMMENT_MESSAGE + '</p>');
+		jQuery(".entry-comment-submit").hide();
+		jQuery(this).parent().append('<p class="entry-comment-loading"><img src="/images/spinner.gif" alt="loading..." /> ' + ADD_COMMENT_MESSAGE + '</p>');
 		var form = jQuery(this).parents('form');
     jQuery.post(form.attr('action'), form.serialize() + '&format=json',
       function(data){
@@ -21,10 +22,11 @@ function setup_comment_submit(){
         if(!json.success){
           jQuery.jGrowl.info(json.message);
         } else {
-					jQuery('.comment-loading').remove();
+					jQuery('.entry-comment-loading').remove();
 					jQuery('#comments_tool').find('textarea').show();
 					jQuery('#comments_tool').find('textarea').val('');
-					jQuery("#comments_container").animate({ scrollTop: jQuery("#comments_container").attr("scrollHeight") }, 3000);
+					jQuery(".entry-comment-submit").show();
+					jQuery("#comments_container").animate({ scrollTop: jQuery("#comments_tool").attr("scrollHeight") }, 3000);
 					var contents = jQuery(json.html)
 					contents.hide();
 					jQuery('#comments_wrapper').append(contents);
@@ -58,4 +60,16 @@ function setup_share_submit(){
       });
     return false;
   });
+}
+
+jQuery(document).ready(function() {
+  jQuery("#content_iframe").load(maximize_iframe_height);
+  jQuery(window).bind('resize', function() {
+    maximize_iframe_height();
+  });
+});
+
+function maximize_iframe_height() {
+  var frame = jQuery("#content_iframe");
+  frame.height(jQuery(window).height() - jQuery('#toolbar').height());
 }
