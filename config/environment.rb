@@ -30,7 +30,8 @@ Rails::Initializer.run do |config|
   config.gem "friendly_id", :version => '>=2.1.3'
   config.gem "rgrove-sanitize", :lib => 'sanitize'
   config.gem "newrelic_rpm"
-  
+  config.gem "muck-feedbag", :lib => "feedbag", :source => "http://gems.github.com"
+  config.gem "pauldix-feedzirra", :lib => 'feedzirra', :source => "http://gems.github.com"
   config.gem 'babelphish', :version => '>=0.2.6'
   config.gem 'disguise', :version => '>=0.3.7'
   config.gem 'uploader', :version => '>=0.1.20'

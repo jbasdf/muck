@@ -33,6 +33,13 @@
   <div id="recommended" class="box">
     <h4>Recommended Resources</h4>
   </div> -->
+  
+  <hr class="space" />
+  <div id="identity" class="box">
+    <h3>My Identity</h3>
+    <%= services_summary(@user) %>
+    <%= link_to t('folksemantic.add_edit_feeds'), user_identity_feeds_path(@user) %>
+  </div>
 </div>
 
 <% content_for :javascript do -%>

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090819030523) do
+ActiveRecord::Schema.define(:version => 20090827221502) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -297,6 +297,14 @@ ActiveRecord::Schema.define(:version => 20090819030523) do
   add_index "friends", ["invited_id", "inviter_id"], :name => "index_friends_on_invited_id_and_inviter_id"
   add_index "friends", ["inviter_id", "invited_id"], :name => "index_friends_on_inviter_id_and_invited_id"
 
+  create_table "identity_feeds", :force => true do |t|
+    t.integer "feed_id",      :null => false
+    t.integer "ownable_id",   :null => false
+    t.string  "ownable_type", :null => false
+  end
+
+  add_index "identity_feeds", ["ownable_id", "ownable_type"], :name => "index_identity_feeds_on_ownable_id_and_ownable_type"
+
   create_table "languages", :force => true do |t|
     t.string  "name"
     t.string  "english_name"
@@ -426,14 +434,24 @@ ActiveRecord::Schema.define(:version => 20090819030523) do
     t.datetime "updated_at"
   end
 
+  create_table "service_categories", :force => true do |t|
+    t.string  "name",                :null => false
+    t.integer "sort", :default => 0
+  end
+
   create_table "services", :force => true do |t|
-    t.string  "uri",               :limit => 2083, :default => ""
-    t.string  "name",              :limit => 1000, :default => ""
-    t.string  "api_uri",           :limit => 2083, :default => ""
-    t.string  "uri_template",      :limit => 2083, :default => ""
-    t.string  "icon",              :limit => 2083, :default => "rss.gif"
-    t.integer "sequence"
-    t.boolean "requires_password",                 :default => false
+    t.string  "uri",                 :limit => 2083, :default => ""
+    t.string  "name",                :limit => 1000, :default => ""
+    t.string  "api_uri",             :limit => 2083, :default => ""
+    t.string  "uri_template",        :limit => 2083, :default => ""
+    t.string  "icon",                :limit => 2083, :default => "rss.gif"
+    t.integer "sort"
+    t.boolean "requires_password",                   :default => false
+    t.string  "use_for"
+    t.integer "service_category_id"
+    t.boolean "active",                              :default => true
+    t.string  "prompt"
+    t.string  "template"
   end
 
   create_table "sessions", :force => true do |t|
