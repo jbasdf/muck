@@ -6,7 +6,7 @@ rss:
   uri_template:
   icon: feed.png
   sort: 1
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 1
   active: true
   prompt: rss_url
@@ -28,7 +28,7 @@ twitter:
   uri_template: "http://www.twitter.com/{username}"
   icon: twitter.png
   sort: 3
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 5
   active: true
 youtube:
@@ -36,10 +36,10 @@ youtube:
   name: You Tube
   uri: "http://www.youtube.com"
   api_uri: 
-  uri_template: "http://www.youtube.com/rss/user/{username}/videos.rss"
+  uri_template: "http://gdata.youtube.com/feeds/base/users/{username}/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
   icon: youtube.png
   sort: 4
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 6
   active: true
 flickr:
@@ -50,7 +50,7 @@ flickr:
   uri_template: "http://www.flickr.com/photos/{username}/"
   icon: flickr.png
   sort: 5
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 9
   active: true
 delicious:
@@ -61,7 +61,7 @@ delicious:
   uri_template: "http://delicious.com/{username}"
   icon: delicious.png
   sort: 6
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 7
   active: true
 digg:
@@ -72,7 +72,7 @@ digg:
   uri_template: "http://digg.com/users/{username}/history.rss"
   icon: digg.png
   sort: 7
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 2
   active: true
 yelp:
@@ -83,7 +83,7 @@ yelp:
   uri_template: "http://{username}.yelp.com/rss"
   icon: yelp.png
   sort: 9
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 10
   active: true
 stumbleupon:
@@ -93,7 +93,7 @@ stumbleupon:
   api_uri:
   uri_template: "http://rss.stumbleupon.com/user/{username}/"
   icon: stumbleupon.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 7
   active: true
 vimeo:
@@ -104,7 +104,7 @@ vimeo:
   api_uri: 
   uri_template: "http://vimeo.com/{username}/videos/rss"
   icon: vimeo.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 6
   active: true
 lastfm:
@@ -115,7 +115,7 @@ lastfm:
   api_uri: 
   uri_template: "http://ws.audioscrobbler.com/1.0/user/{username}/recenttracks.rss"
   icon: lastfm.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 4
   active: true
 livejournal:
@@ -126,7 +126,7 @@ livejournal:
   api_uri: 
   uri_template: "http://{username}.livejournal.com"
   icon: livejournal.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 1
   active: true
 simpy:
@@ -137,7 +137,7 @@ simpy:
   api_uri: 
   uri_template: "http://www.simpy.com/rss/user/{username}/links/"
   icon: simpy.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 7
   active: true
 wordpress:
@@ -148,7 +148,7 @@ wordpress:
   api_uri: 
   uri_template: "http://{username}.wordpress.com/"
   icon: wordpress.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 1
   active: true
 xanga:
@@ -159,7 +159,7 @@ xanga:
   api_uri: 
   uri_template: "http://www.xanga.com/{username}/rss"
   icon: xanga.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 1
   active: true
 citeulike:
@@ -170,7 +170,7 @@ citeulike:
   api_uri: 
   uri_template: "http://www.citeulike.org/rss/user/{username}"
   icon: citeulike.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 8
   active: true
 googlenews:
@@ -178,7 +178,7 @@ googlenews:
   sort: 17
   name: Google News
   uri: "http://news.google.com/"
-  icon: googlenews.png
+  icon: google.png
   use_for: false
   service_category_id: 2
   active: true
@@ -189,7 +189,7 @@ googleblogsearch:
   sort: 18
   name: Google Blog Search
   uri: "http://blogsearch.google.com/"
-  icon: googleblogs.png
+  icon: google.png
   use_for: false
   service_category_id: 2
   active: true
@@ -228,7 +228,7 @@ technorati:
   api_uri: 
   uri_template: "http://feeds.technorati.com/faves/{username}?format=rss"
   icon: technorati.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 1
   active: true
 mixx:
@@ -239,7 +239,7 @@ mixx:
   api_uri:
   uri_template: "http://www.mixx.com/feeds/users/{username}"
   icon: mixx.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 2
   active: true
 reddit:
@@ -250,7 +250,7 @@ reddit:
   api_uri:
   uri_template: "http://www.reddit.com/user/{username}/.rss"
   icon: reddit.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 2
   active: true
 facebook:
@@ -261,18 +261,20 @@ facebook:
   api_uri:
   uri_template:
   icon: facebook.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 5
   active: true
+  template: facebook
+  prompt: facebook_prompt
 pandora:
   id: 26
   sort: 26
   name: pandora
   uri: "http://www.pandora.com"
   api_uri:
-  uri_template: "feed://feeds.pandora.com/feeds/people/{username}/favorites.xml"
+  uri_template: "http://feeds.pandora.com/feeds/people/{username}/favorites.xml"
   icon: pandora.png
-  use_for: 'identity'
+  use_for: "identity"
   service_category_id: 4
   active: true
 technorati_tags:
@@ -281,7 +283,7 @@ technorati_tags:
   name: Technorati
   uri: "http://www.technorati.com/"
   api_uri: 
-  uri_template: "feed://feeds.technorati.com/search/{tag}?language=n"
+  uri_template: "http://feeds.technorati.com/search/{tag}?language=n"
   icon: technorati.png
   use_for: 'tags'
   service_category_id: 1
@@ -330,3 +332,293 @@ delicious_tags:
   use_for: 'tags'
   service_category_id: 7
   active: true
+netflix:
+  id: 32
+  name: Netflix
+  uri: "http://www.netflix.com"
+  api_uri:
+  uri_template:
+  icon: netflix.png
+  sort: 32
+  use_for: "identity"
+  service_category_id: 10
+  active: true
+  prompt: netflix_prompt
+  template: netflix
+blogger:
+  id: 33
+  name: Blogger
+  uri: "http://www.blogger.com"
+  api_uri:
+  uri_template:
+  icon: blogger.png
+  sort: 33
+  use_for: "identity"
+  service_category_id: 1
+  active: true
+  prompt: blogger_prompt
+clipmarks:
+  id: 34
+  name: Clipmarks
+  uri: "http://www.clipmarks.com"
+  api_uri:
+  uri_template: "http://rss.clipmarks.com/clipper/{username}/"
+  icon: clipmarks.png
+  sort: 34
+  use_for: "identity"
+  service_category_id: 7
+  active: true
+friendhttp:
+  id: 35
+  name: Friendfeed
+  uri: "http://friendfeed.com"
+  api_uri:
+  uri_template:
+  icon: friendfeed.png
+  sort: 35
+  use_for: "identity"
+  service_category_id: 5
+  active: true  
+  prompt: friendfeed_prompt
+  template: friendfeed
+linkedin:
+  id: 36
+  name: LinkedIn
+  uri: "http://www.linkedin.com"
+  api_uri:
+  uri_template:
+  icon: linkedin.png
+  sort: 36
+  use_for: "identity"
+  service_category_id: 5
+  active: true  
+  prompt: linkedin_prompt
+  template: linkedin
+diigo:
+  id: 37
+  name: diigo
+  uri: "http://www.diigo.com"
+  api_uri:
+  uri_template: "http://www.diigo.com/rss/user/{username}"
+  icon: diigo.png
+  sort: 37
+  use_for: "identity"
+  service_category_id: 7
+  active: true  
+diigo_tags:
+  id: 38
+  sort: 38
+  name: diigo
+  uri: "http://www.diigo.org"
+  api_uri: 
+  uri_template: 'http://www.diigo.com/community/tag?tag={tag}'
+  icon: diigo.png
+  use_for: 'tags'
+  service_category_id: 7
+  active: true
+netvibes:
+  id: 39
+  sort: 39
+  name: NetVibes
+  uri: "http://www.netvibes.com"
+  api_uri:
+  uri_template: "http://www.netvibes.com/{username}#General"
+  icon: "netvibes.png"
+  use_for: "identity"
+  service_category_id: 2
+  active: true
+dailymotion:
+  id: 40
+  sort: 40
+  name: Dailymotion
+  uri: "http://www.dailymotion.com"
+  uri_template: "http://www.dailymotion.com/rss/user/{username}/1"
+  icon: dailymotion.png
+  use_for: "identity"
+  service_category_id: 6
+  active: true
+polyvore:
+  id: 41
+  sort: 41
+  name: Polyvore
+  uri: "http://www.polyvore.com"
+  icon: polyvore.png
+  active: false
+  prompt: polyvore_prompt
+  template: polyvore
+  prompt: polyvore_prompt
+  service_category_id: 10
+identica:
+  id: 42
+  sort: 42
+  name: "identi.ca"
+  uri: "http://identi.ca"
+  uri_template: "http://identi.ca/api/statuses/user_timeline/{username}.atom"
+  icon: identica.png
+  use_for: "identity"
+  service_category_id: 5
+  active: true
+tumblr:
+  id: 43
+  sort: 43
+  name: "Tumblr"
+  uri: "http://www.tumblr.com"
+  uri_template: "http://{username}.tumblr.com/"
+  icon: tumblr.png
+  use_for: "identity"
+  service_category_id: 1
+  active: true
+joost:
+  id: 44
+  sort: 44
+  name: "Joost"
+  uri: "http://www.joost.com"
+  uri_template: "http://www.joost.com/api/events/get/{username}?fmt=atom"
+  icon: joost.png
+  use_for: "identity"
+  service_category_id: 6
+  active: true
+fotolog:
+  id: 45
+  sort: 45
+  name: "Fotolog"
+  uri: "http://www.fotolog.com"
+  uri_template: "http://www.fotolog.com/{username}/feed/main/rss20"
+  icon: fotolog.png
+  use_for: "identity"
+  service_category_id: 9
+  active: true
+photobucket_photo_tags:
+  id: 46
+  sort: 46
+  name: Photobucket
+  uri: "http://www.photobucket.com/"
+  api_uri: 
+  uri_template: "http://feed.photobucket.com/images/{tag}/feed.rss"
+  icon: photobucket.png
+  use_for: 'tags'
+  service_category_id: 9
+  active: true
+photobucket_video_tags:
+  id: 47
+  sort: 47
+  name: Photobucket
+  uri: "http://www.photobucket.com/"
+  api_uri: 
+  uri_template: "http://feed.photobucket.com/videos/{tag}/feed.rss"
+  icon: photobucket.png
+  use_for: 'tags'
+  service_category_id: 6
+  active: true
+identica:
+  id: 48
+  sort: 48
+  name: "identi.ca"
+  uri: "http://identi.ca"
+  uri_template: "http://identi.ca/api/statusnet/tags/timeline/{tag}.atom"
+  icon: identica.png
+  use_for: "tags"
+  service_category_id: 5
+  active: true 
+smugmug:
+  id: 49
+  sort: 49
+  name: "Smugmug"
+  uri: "http://www.smugmug.com"
+  uri_template: "http://{username}.smugmug.com/"
+  icon: smugmug.png
+  use_for: "identity"
+  service_category_id: 9
+  active: true  
+smugmug_tags:
+  id: 50
+  sort: 50
+  name: "Smugmug"
+  uri: "http://www.smugmug.com"
+  uri_template: "http://www.smugmug.com/hack/feed.mg?Type=search&Data={tag}&format=atom10"
+  icon: smugmug.png
+  use_for: "tags"
+  service_category_id: 9
+  active: true
+zooomr:
+  id: 51
+  sort: 51
+  name: "Zooomr"
+  uri: "http://www.zooomr.com"
+  uri_template: "http://www.zooomr.com/photos/{username}"
+  icon: zooomr.png
+  use_for: "identity"
+  service_category_id: 9
+  active: true  
+picasa:
+  id: 52
+  sort: 52
+  name: "Picasa"
+  uri: "http://picasaweb.google.com"
+  uri_template: "http://picasaweb.google.com/data/feed/base/user/{username}?alt=rss&kind=album&hl=en_US&access=public"
+  icon: picasa.png
+  use_for: "identity"
+  service_category_id: 9
+  active: true
+picasa_tags:
+  id: 53
+  sort: 53
+  name: "Picasa"
+  uri: "http://picasaweb.google.com"
+  uri_template: "http://picasaweb.google.com/data/feed/base/all?alt=rss&kind=photo&filter=1&q={tag}&hl=en_US"
+  icon: picasa.png
+  use_for: "tags"
+  service_category_id: 9
+  active: true  
+librarything: 
+  id: 54
+  sort: 54
+  name: LibraryThing
+  uri: "http://www.librarything.com"
+  uri_template: "http://www.librarything.com/rss/reviews/{username}"
+  icon: librarything.png
+  use_for: "identity"
+  service_category_id: 10
+  active: true
+goodreads: 
+  id: 55
+  sort: 55
+  name: Goodreads
+  uri: "http://www.goodreads.com"
+  icon: librarything.png
+  use_for: "identity"
+  service_category_id: 10
+  active: true
+  template: goodreads
+  prompt: goodreads_prompt
+zotero_groups:
+  id: 56
+  sort: 56
+  name: Zotero Groups
+  uri: "http://www.zotero.org"
+  icon: zotero.png
+  use_for: "identity"
+  service_category_id: 8
+  active: true
+  template: zotero_group
+  prompt: zotero_group_prompt
+zotero:
+  id: 57
+  sort: 57
+  name: Zotero
+  uri: "http://www.zotero.org"
+  uri_template: "http://www.zotero.org/{username}/items"
+  icon: zotero.png
+  use_for: "identity"
+  service_category_id: 8
+  active: true
+amazon:
+  id: 58
+  sort: 58
+  name: Amazon
+  uri: "http://www.amazon.com"
+  icon: amazon.png
+  use_for: "identity"
+  service_category_id: 10
+  active: true
+  prompt: amazon_prompt

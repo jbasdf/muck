@@ -14,9 +14,9 @@ music:
   id: 4
   name: Music
   sort: 5
-status:
+networks:
   id: 5
-  name: Status
+  name: Networks
   sort: 2
 video:
   id: 6

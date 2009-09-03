@@ -129,7 +129,7 @@ a.upload-button:hover{background:transparent url('/images/icons/button_backgroun
 .identity-service{font-size:1em;font-weight:bold;}
 .identity-service-title{font-size:1.2em;font-weight:bold;padding:2px 0 5px 28px;}
 #identity-feed{margin:auto;}
-#identity-feed input[type="text"] {width:280px;}
+#identity-feed input[type="text"] {width:380px;}
 ul#my-services-list li {position:relative;}
 ul#my-services-list li form {right:-25px;position:absolute;top:3px;}
 ul.service-summary{margin:0;padding:0;list-style:none;}
