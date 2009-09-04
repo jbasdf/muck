@@ -18,6 +18,11 @@
   <h2><%= t('muck.friends.following')%></h2>
   <%= followings(@user, 12, t('muck.friends.not_following_anyone'), 'friend_tiny_icon') %>
 
+  <hr class="space" />
+  <div id="identity" class="box">
+    <%= services_summary(@user) %>
+  </div>
+  
 </div>
 
 <div class="span-16 column">

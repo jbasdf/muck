@@ -585,7 +585,7 @@ goodreads:
   sort: 55
   name: Goodreads
   uri: "http://www.goodreads.com"
-  icon: librarything.png
+  icon: goodreads.png
   use_for: "identity"
   service_category_id: 10
   active: true
