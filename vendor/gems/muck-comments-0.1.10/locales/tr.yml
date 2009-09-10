@@ -1,0 +1,18 @@
+--- 
+tr: 
+  muck: 
+    activity_templates: 
+      comment: Yorumlar
+    comments: 
+      add_comment: Yorum
+      add_comment_button: "Yorum ekle"
+      anonymous: anonim
+      cant_delete_comment: "Izniniz Bu yorumu silmek zorunda değilsiniz"
+      comment_removed: "Yorum başarıyla kaldırıldı."
+      create_error: "Yorum {{errors}} oluşturulamadı"
+      create_success: "Yorum başarıyla eklendi"
+      missing_comment_template_error: "Kısmi adlı {{partial}}. bulunamadı Lütfen bir yorum kısmi ve yeniden deneyin oluşturun."
+      new_comment_email_subject: "{{name}} Doğum {{application_name}} New Yorum"
+      new_comment_no_title: "Yeni bir yorum ekle"
+      new_comment_with_title: "{{title}} Yeni yorum ekle"
+      problem_adding_comment: "Bir sorun yorum ekleme oldu"

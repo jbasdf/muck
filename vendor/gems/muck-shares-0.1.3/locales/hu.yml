@@ -1,0 +1,22 @@
+--- 
+hu: 
+  muck: 
+    activity_templates: 
+      share: Részvények
+    shares: 
+      add_share: Megoszt
+      add_share_button: Megoszt
+      adding_share: "Sharing oldal ..."
+      cancel_share_button: Mégsem
+      cant_delete_share: "Nincs engedélye, hogy törli a részvény"
+      create_error: "Nem lehet létrehozni a részvény: {{errors}}"
+      create_success: "Sikeresen közös oldal"
+      login_prompt: "Bejelentkezés a részvény"
+      message: Üzenet
+      new_share: "Ossza meg a Link"
+      problem_adding_share: "Volt egy további probléma a részvény"
+      share_activity_content: "megosztott {{link}}.  {{message}}"
+      share_removed: "Ossza sikeresen eltávolították."
+      share_title: "Osztozik Ez Link"
+      title: Cím
+      uri: Url

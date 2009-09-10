@@ -1,0 +1,12 @@
+--- 
+da: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Kunne ikke finde den angivne bruger."
+      edit_failure: "Der opstod en fejl under opdateringen af din profil."
+      edit_profile: "Rediger profil"
+      edit_success: "Blevet opdateret din profil"
+      problem_editing_account: "Der opstod et problem med at opdatere din profil"
+      update_profile: "Update Profile"
+      upload_photo: "Upload et foto:"
+      view_profile: "Vis profil"

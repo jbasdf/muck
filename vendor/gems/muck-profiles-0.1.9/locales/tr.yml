@@ -1,0 +1,12 @@
+--- 
+tr: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Belirtilen kullanıcı bulunamadı."
+      edit_failure: "Süre Profilin güncellenirken bir hata oluştu."
+      edit_profile: "Profili Düzenle"
+      edit_success: "Başarıyla Profil güncelleme"
+      problem_editing_account: "Bir sorun profil güncelleyerek oldu"
+      update_profile: "Profili Güncelle"
+      upload_photo: "Yükle Fotoğraf:"
+      view_profile: "Profili Görüntüle"

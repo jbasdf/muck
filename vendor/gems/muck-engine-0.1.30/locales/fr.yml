@@ -1,0 +1,31 @@
+--- 
+fr: 
+  muck: 
+    engine: 
+      choose_country: "Choisir le pays"
+      choose_language: "Choose Language"
+      choose_state: "Choisissez l&#39;État"
+      missing_parent_error: "S&#39;il vous plaît spécifier un objet parent de"
+      select_country_prompt: "S&#39;il vous plaît choisir un pays"
+      select_language_prompt: "S&#39;il vous plaît sélectionnez une langue"
+      select_state_prompt: "S&#39;il vous plaît sélectionner un état"
+    forms: 
+      please_enter_a_value: "S&#39;il vous plaît entrer une valeur pour {{label}}"
+    general: 
+      activate: Activer
+      deactivate: Désactiver
+      delete: Supprimer
+      disable: Activer
+      enable: Désactiver
+      enabled: Activé?
+      general_info: "Infos générales"
+      help: Aider
+      next: "Suivant »"
+      no_text: Non
+      previous: «Précédent
+      read_more: "lire la suite"
+      save: Sauver
+      settings_saved: "Paramètres ont été enregistrés."
+      time_ago: "Il ya {{time_in_words}}"
+      update: "Mettre à jour"
+      yes_text: Oui

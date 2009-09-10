@@ -1,0 +1,12 @@
+--- 
+zh-TW: 
+  muck: 
+    profiles: 
+      could_not_find_user: 找不到指定的用戶。
+      edit_failure: 時發生錯誤更新您的個人資料。
+      edit_profile: 編輯簡介
+      edit_success: 成功地更新您的個人資料
+      problem_editing_account: 有一個問題，更新您的個人資料
+      update_profile: 更新個人資料
+      upload_photo: 上傳照片：
+      view_profile: 查看個人資料

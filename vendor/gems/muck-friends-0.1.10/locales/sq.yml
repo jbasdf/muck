@@ -1,0 +1,49 @@
+--- 
+sq: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: Shokët
+    friends: 
+      acccept_friend_request: "Accept Friend Request From {{user}}"
+      accept: (pranoni)
+      block: "Blloku {{user}}"
+      block_problem: "Nuk ishte një gabim duke bllokuar {{user}}"
+      blocked: "Blocked {{user}}"
+      delete: (fshini)
+      follow_activity: "{{inviter}} Tani pas {{invited}}"
+      followers: Followers
+      following: Vijues
+      following_you: "{{name}} Është tani pas ju {{application_name}}"
+      friend_request: "{{name}} Ju ka dërguar një kërkesë mik në {{application_name}}"
+      friend_request_links: "{{profile}} Ju dërgoi një kërkesë mik {{accept}} {{ignore}}"
+      friend_request_pending: "Kërkesë Friend {{link}} në pritje"
+      friend_request_prompt: "Dërgoni një Kërkesë {{user}} Friend"
+      friend_request_sent: "Friend Request Sent"
+      friends: Shokët
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Tani shokë me {{invited}}"
+      ignore: (ignore)
+      login: hyrje
+      login_or_sign_up_to_follow: "{{login}} Ose {{signup}} të ndjekin këtë përdorues"
+      login_or_sign_up_to_friend: "{{login}} Ose {{signup}} të dërgoni kërkesat mik"
+      mutual_friends: "Reciproke Friends"
+      no_followers: "Nuk Followers"
+      no_friends: "No friends"
+      no_mutual_friends: "No friends reciprok gjetur"
+      not_following_anyone: "Jo Pas Kushdo"
+      problem_adding_follow: "Nuk ishte një problem duke shtuar {{user}} tuaj ndiqni lista. Ju lutem provoni përsëri."
+      problem_sending_friend_request: "Nuk ishte një problem duke dërguar një kërkesë mik të {{user}}. Ju lutem provoni përsëri."
+      removed_following_error: "Një problem ndodhi ndërsa përpiqej të unfollow {{user}}"
+      removed_friendship: "Removed {{user}} e miqve tuaj"
+      removed_friendship_error: "Nuk ishte një problem heqjen e {{user}} nga lista e miqve tuaj"
+      same_inviter_error_message: "Përdoruesi nuk mund të bëhen miq me themself."
+      signup: signup
+      start_following: "Ndiqni {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop {{user}} Pas"
+      stopped_following: "Sukses u ndal pas {{user}}"
+      unblock: "Zhbllokuar {{user}}"
+      unblocked: "{{user}} ZhbllokuaraSARAJEVE"
+      view_all: "View All"
+      you_are_now_following: "Ti tani pas {{user}}"

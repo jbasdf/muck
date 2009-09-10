@@ -1,0 +1,34 @@
+--- 
+tr: 
+  muck: 
+    activities: 
+      activity_feed_title: "Son Aktivite"
+      add_photos: "Fotoğraf ekle"
+      add_videos: "Share Videolar"
+      adding_comment_message: "Yorum ekleniyor ..."
+      all_activities: "Tüm Etkinlikler"
+      clear: Temizlemek
+      create_error: "Bir sorun istenen etkinliği ekleyerek: {{error}} oldu"
+      delete: Silmek
+      invite_friends: "Davet Arkadaşlar"
+      item_could_not_be_removed: "Öğe son faaliyetleri listeden çıkarılır olamazdı."
+      item_created: "Ekledi etkinliği"
+      item_removed: "Öğe başarıyla son faaliyetleri listeden kaldırılır."
+      joined_status: "{{name}} {{application_name}} Katıldı"
+      make_comment: Yorum
+      paging_newer: «Newer
+      paging_older: "Eski »"
+      permission_denied: "Maalesef, bunu yapamazlar."
+      post: Paylaşmak
+      problem_with_status: "Bir sorun durum değişiyordu"
+      status_indicator: olmak
+      status_update_prompt: "Şu anda ne yapıyorsun?"
+      template_or_item_required: "Bir faaliyet veya bir madde düzgün görüntülemek için şablon gerektirir"
+      update_error: "Oops ... Orada bir sorun var. {{errors}}"
+      update_status_message: "Durum güncelleme!"
+      updating_status_message: "Durum güncelleniyor. Lütfen bekleyin."
+      upload_files: "Upload Dosya"
+      write: Yazmak
+      write_prompt: "Yorum yazın ..."
+    activity_templates: 
+      status_update: "Durum Güncellemeleri"

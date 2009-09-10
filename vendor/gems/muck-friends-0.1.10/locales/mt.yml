@@ -1,0 +1,49 @@
+--- 
+mt: 
+  muck: 
+    activity_templates: 
+      follow: Segwaċi
+      friends_with: Ħbieb
+    friends: 
+      acccept_friend_request: "Aċċetta Friend Talba Mill {{user}}"
+      accept: (taċċetta)
+      block: "Blokk {{user}}"
+      block_problem: "Ma kien hemm żball imblukkar {{user}}"
+      blocked: "Bblukkata {{user}}"
+      delete: (ħassar)
+      follow_activity: "{{inviter}} Issa wara {{invited}}"
+      followers: Segwaċi
+      following: Wara
+      following_you: "{{name}} Issa wara inti fuq {{application_name}}"
+      friend_request: "{{name}} Bagħtitlek talba friend dwar {{application_name}}"
+      friend_request_links: "{{profile}} Bagħtitlek talba ħabib {{accept}} {{ignore}}"
+      friend_request_pending: "Talba Friend {{link}} pendenti"
+      friend_request_prompt: "Send {{user}} Request a Friend"
+      friend_request_sent: "Friend Talba Mibgħuta"
+      friends: Ħbieb
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Issa ħbieb ma {{invited}}"
+      ignore: (jinjora)
+      login: illoggja
+      login_or_sign_up_to_follow: "{{login}} Jew {{signup}} biex isegwu dan l-utent"
+      login_or_sign_up_to_friend: "{{login}} Jew {{signup}} li tibgħat talbiet ħabib"
+      mutual_friends: "Friends Reċiproka"
+      no_followers: "Nru Followers"
+      no_friends: "Nru ħbieb"
+      no_mutual_friends: "Nru ħbieb reċiproku nstab"
+      not_following_anyone: "Mhux Wara Kull min"
+      problem_adding_follow: "Kien hemm problema sabiex żżid {{user}} tieghek ta &#39;follow-lista. Jekk jogħġbok erġa &#39;pprova."
+      problem_sending_friend_request: "Kien hemm problema tibgħat talba lill ħabib {{user}}. Jekk jogħġbok erġa &#39;pprova."
+      removed_following_error: "Problema seħħet waqt li jipprova unfollow {{user}}"
+      removed_friendship: "{{user}} Jitneħħew mill-ħbieb tiegħek"
+      removed_friendship_error: "Kien hemm problema {{user}}-tneħħija mil-lista ta &#39;ħbieb tiegħek"
+      same_inviter_error_message: "Utent ma jistgħux isiru ħbieb ma themself."
+      signup: signup
+      start_following: "Follow {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop {{user}} Wara"
+      stopped_following: "Qatgħu b&#39;suċċess wara {{user}}"
+      unblock: "Jiżblokka {{user}}"
+      unblocked: "{{user}} Mblukkata"
+      view_all: "View All"
+      you_are_now_following: "Inti issa wara {{user}}"

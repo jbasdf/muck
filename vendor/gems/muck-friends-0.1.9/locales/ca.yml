@@ -1,0 +1,44 @@
+--- 
+ca: 
+  muck: 
+    activity_templates: 
+      follow: Seguidors
+      friends_with: Amics
+    friends: 
+      acccept_friend_request: "D&#39;acceptar la sol licitud d&#39;amistat {{user}}"
+      accept: (acceptar)
+      delete: (eliminar)
+      follow_activity: "{{inviter}} Ara següents {{invited}}"
+      followers: Seguidors
+      following: Següent
+      following_you: "{{name}} Està seguint en {{application_name}}"
+      friend_request: "{{name}} Li ha enviat una sol licitud d&#39;amistat en {{application_name}}"
+      friend_request_links: "{{profile}} Li va enviar una sol licitud d&#39;amistat {{accept}} {{ignore}}"
+      friend_request_pending: "A l&#39;espera de sol licitud d&#39;amistat {{link}}"
+      friend_request_prompt: "Enviar a un amic Demana {{user}}"
+      friend_request_sent: "La sol licitud s&#39;ha enviat un amic"
+      friends: Amics
+      friends_title: "Els meus amics"
+      friends_with: "{{inviter}} Ara amb amics {{invited}}"
+      ignore: (ignorar)
+      login: "inici de sessió"
+      login_or_sign_up_to_follow: "{{login}} O {{signup}} a aquest usuari"
+      login_or_sign_up_to_friend: "{{login}} O {{signup}} per enviar sol licituds d&#39;amistat"
+      mutual_friends: "Amics mutus"
+      no_followers: "Els seguidors no"
+      no_friends: "No hi ha amics"
+      no_mutual_friends: "No va trobar amics"
+      not_following_anyone: "Després no Qualsevol"
+      problem_adding_follow: "Hi ha hagut un problema {{user}} afegir a la seva llista de seguiment. Torneu-ho de nou."
+      problem_sending_friend_request: "Hi ha hagut un problema l&#39;enviament d&#39;una sol licitud d&#39;amistat {{user}}. Torneu-ho de nou."
+      removed_following_error: "Un problema es va produir en intentar unfollow {{user}}"
+      removed_friendship: "{{user}} Esborrat dels teus amics"
+      removed_friendship_error: "Hi ha hagut un problema {{user}} eliminar de la llista d&#39;amics"
+      same_inviter_error_message: "L&#39;usuari no pot convertir-se en amics amb ell mateix."
+      signup: registre
+      start_following: "Siga {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Després d&#39;aturar {{user}}"
+      stopped_following: "Èxit detingut després {{user}}"
+      view_all: "Veure tots"
+      you_are_now_following: "Ara està després {{user}}"

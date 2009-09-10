@@ -1,0 +1,34 @@
+--- 
+mt: 
+  muck: 
+    activities: 
+      activity_feed_title: "Recent Attività"
+      add_photos: "Add Photos"
+      add_videos: "Share Videos"
+      adding_comment_message: "Żieda comment ..."
+      all_activities: "Attivitajiet Kollha"
+      clear: Ċar
+      create_error: "Kien hemm problema żżid l-attività mitluba: {{error}}"
+      delete: Ħassar
+      invite_friends: "Invite Friends"
+      item_could_not_be_removed: "Oġġett ma jista &#39;jitneħħa mill-lista ta&#39; attivitajiet reċenti."
+      item_created: "Attività Added"
+      item_removed: "Punt b&#39;suċċess jitneħħa mil-lista attivitajiet reċenti."
+      joined_status: "{{name}} Ssieħbu {{application_name}}"
+      make_comment: Kumment
+      paging_newer: «Newer
+      paging_older: "Older »"
+      permission_denied: "Jiddispjacini, inti ma tistax tagħmel dan."
+      post: Aqsam
+      problem_with_status: "Kien hemm problema tibdel l-istat tiegħek"
+      status_indicator: huwa
+      status_update_prompt: "X&#39;Ser tagħmel id-dritt issa?"
+      template_or_item_required: "L-attività teħtieġ template jew oġġett li jintwerew b&#39;mod korrett"
+      update_error: "Oops ... Kien hemm problema. {{errors}}"
+      update_status_message: "taġġorna istatus tieg ¢ ek!"
+      updating_status_message: "Aġġornament istatus tieg ¢ ek. Jekk jogħġbok stenna."
+      upload_files: "Fajls upload"
+      write: Ikteb
+      write_prompt: "Write a comment ..."
+    activity_templates: 
+      status_update: "Aġġornamenti Status"

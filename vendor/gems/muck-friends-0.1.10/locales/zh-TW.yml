@@ -1,0 +1,49 @@
+--- 
+zh-TW: 
+  muck: 
+    activity_templates: 
+      follow: 追隨者
+      friends_with: 朋友們
+    friends: 
+      acccept_friend_request: "接受好友請求從{{user}}"
+      accept: （接受）
+      block: "塊{{user}}"
+      block_problem: "有一個錯誤阻止{{user}}"
+      blocked: "封鎖{{user}}"
+      delete: （刪除）
+      follow_activity: "{{inviter}}現正跟進{{invited}}"
+      followers: 追隨者
+      following: 下列的
+      following_you: "{{name}}正按照您{{application_name}}"
+      friend_request: "{{name}}向您發出交友請求{{application_name}}"
+      friend_request_links: "{{profile}}向您發出交友請求{{accept}} {{ignore}}"
+      friend_request_pending: "朋友的要求待{{link}}"
+      friend_request_prompt: "發送{{user}}好友請求"
+      friend_request_sent: 好友請求已發送
+      friends: 朋友們
+      friends_title: 我的朋友
+      friends_with: "{{inviter}}現在交朋友{{invited}}"
+      ignore: （忽略）
+      login: 註冊
+      login_or_sign_up_to_follow: "{{login}}或{{signup}}遵循此用戶"
+      login_or_sign_up_to_friend: "{{login}}或{{signup}}發送交友請求"
+      mutual_friends: 共同的朋友
+      no_followers: 沒有追隨者
+      no_friends: 沒有朋友
+      no_mutual_friends: 沒有共同的朋友找到
+      not_following_anyone: 不按任何
+      problem_adding_follow: "有一個問題，你的加入{{user}}遵循清單。請再試一次。"
+      problem_sending_friend_request: "有一個問題，一個朋友發送請求{{user}}.請再試一次。"
+      removed_following_error: "問題發生在試圖unfollow {{user}}"
+      removed_friendship: "刪除{{user}}從您的朋友"
+      removed_friendship_error: "有一個問題，消除{{user}}從您的朋友列表"
+      same_inviter_error_message: 用戶不能成為朋友的themself。
+      signup: 註冊
+      start_following: "按照{{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "停止以下{{user}}"
+      stopped_following: "以下{{user}}，成功制止"
+      unblock: "解除封鎖{{user}}"
+      unblocked: "暢通{{user}}"
+      view_all: 查看全部
+      you_are_now_following: "您現在以下{{user}}"

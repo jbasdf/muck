@@ -1,0 +1,32 @@
+--- 
+sk: 
+  muck: 
+    contents: 
+      add: Pridať
+      cancel: Zrušiť
+      cant_delete_content: "Nemáte oprávnenie na odstránenie uvedených obsah"
+      choose_layout: "Vyberte šablónu"
+      choose_layout_help: "Vyberte rozloženie šablóny, ktoré budú tvoriť v chrómované pre túto stránku."
+      confirm_delete_content: "Naozaj si prajete zmazať tento obsah? To sa nedá vrátiť späť!"
+      content_help: "To je obsah, ktorý sa zobrazí na stránke."
+      content_label: Obsah
+      content_removed: "Obsah úspešne odstránený"
+      create_error: "Došlo k problému pridáva svoj obsah"
+      default_404_body: "Nepodarilo sa nám nájsť stránku, ktorú hľadáte."
+      default_404_title: "404 Stránka nebola nájdená"
+      delete: Odstrániť
+      delete_title: "Odstrániť túto stránku."
+      edit: Upraviť
+      edit_title: "Upraviť túto stránku."
+      manage_pages_title: "Správa obsahu stránok"
+      no_uri_error: "Prosím nastavte hodnotu uri pred uložením modelu, keď contentable je nula"
+      page_doesnt_exist_create: "Na stránke ste si vyžiadali neexistuje. Uveďte, prosím, nižšie uvedené informácie o vytvorenie stránky."
+      permalink: "Permalink:"
+      problem_adding_content: "Došlo k problému pri pridávaní obsahu"
+      problem_updating_content: "Došlo k problému pri aktualizácii obsahu"
+      save: Uložiť
+      submit_content_button: Uložiť
+      tag_information: "Štítky pomáhajú ostatným užívateľom nájsť vašu stránku a bude použitá ako meta kľúčové slová pre dokument."
+      tags: Tagy
+      title_help: "Nadpis kontroly URL a názov stránky zobrazené v url bar"
+      title_label: Názov

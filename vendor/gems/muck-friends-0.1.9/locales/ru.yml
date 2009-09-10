@@ -1,0 +1,44 @@
+--- 
+ru: 
+  muck: 
+    activity_templates: 
+      follow: Последователи
+      friends_with: Друзья
+    friends: 
+      acccept_friend_request: "Принять предложение дружбы от {{user}}"
+      accept: (принять)
+      delete: (удаление)
+      follow_activity: "{{inviter}} Теперь следующие {{invited}}"
+      followers: Последователи
+      following: Следующий
+      following_you: "{{name}} Сейчас вы на следующей {{application_name}}"
+      friend_request: "{{name}} Прислал Вам запрос о дружбе на {{application_name}}"
+      friend_request_links: "{{profile}} Отправил Вам запрос о дружбе {{accept}} {{ignore}}"
+      friend_request_pending: "Другой запрос до {{link}}"
+      friend_request_prompt: "Отправить {{user}} запрос о дружбе"
+      friend_request_sent: "Другой Запрос отправлен"
+      friends: Друзья
+      friends_title: "Мои друзья"
+      friends_with: "{{inviter}} В настоящее время с друзьями {{invited}}"
+      ignore: (игнорировать)
+      login: вход
+      login_or_sign_up_to_follow: "{{login}} Или {{signup}} последовать этому пользователю"
+      login_or_sign_up_to_friend: "{{login}} Или {{signup}} отправить другу запросы"
+      mutual_friends: "Общие друзья"
+      no_followers: "Нет Последователи"
+      no_friends: "Нет друзей"
+      no_mutual_friends: "Нет общих друзей найти"
+      not_following_anyone: "Любое лицо, не следует"
+      problem_adding_follow: "Был проблему добавив {{user}} вашей последующей списка. Пожалуйста, попробуйте еще раз."
+      problem_sending_friend_request: "Был проблема отправки другу с просьбой к {{user}}. Пожалуйста, попробуйте еще раз."
+      removed_following_error: "А проблема возникла при попытке unfollow {{user}}"
+      removed_friendship: "Удалено {{user}} от ваших друзей"
+      removed_friendship_error: "Был проблема удаления {{user}} из списка друзей"
+      same_inviter_error_message: "Пользователь не может дружить с себя."
+      signup: Signup
+      start_following: "Последующие {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Остановка После {{user}}"
+      stopped_following: "Успешно остановлены следующие {{user}}"
+      view_all: "Посмотреть все"
+      you_are_now_following: "Теперь следующий {{user}}"

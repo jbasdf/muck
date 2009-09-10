@@ -1,0 +1,7 @@
+--- 
+sv: 
+  muck: 
+    blogs: 
+      add_post: "Lägg Post"
+      add_post_link: "Lägg Post"
+      blog_title: "Blogg för {{title}}"

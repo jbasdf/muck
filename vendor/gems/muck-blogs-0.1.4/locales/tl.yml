@@ -1,0 +1,7 @@
+--- 
+tl: 
+  muck: 
+    blogs: 
+      add_post: "Magdagdag ng mga Post"
+      add_post_link: "Magdagdag ng mga Post"
+      blog_title: "Blog para sa {{title}}"

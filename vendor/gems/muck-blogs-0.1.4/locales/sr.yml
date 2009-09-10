@@ -1,0 +1,7 @@
+--- 
+sr: 
+  muck: 
+    blogs: 
+      add_post: "Додај Порука"
+      add_post_link: "Додај Порука"
+      blog_title: "Блог за {{title}}"

@@ -1,0 +1,141 @@
+--- 
+zh: 
+  muck: 
+    activity_templates: 
+      entry_comment: 评论
+    raker: 
+      add_extended_feed_sub_title: 促进新的数据源
+      add_extended_feed_title: 添加新的饲料
+      add_feed: 添加饲料
+      add_feed_advanced: 添加饲料（高级）
+      add_feed_title: 添加新的饲料
+      add_feed_url: 网址：
+      all_resources: 所有资源
+      already_added_uri_feed: "你已经添加的url {{uri}}"
+      already_added_username_feed: "你已经添加的用户名{{service}} 1 {{username}}帐户"
+      already_shared: 您以前共享的这一页。
+      amazon_prompt: 请输入您的电子邮件使用Amazon.com
+      atom: 原子
+      available_services: 提供服务
+      ban_feed: 马克饲料无效
+      banned: 禁止
+      blogger_prompt: 您的博客网址
+      calculated: 计算
+      cant_modify_identity_feed: 您没有权限访问指定的饲料。
+      choose_service: 选择服务：
+      close: 关闭
+      collection_description: 集合描述：
+      collection_home_uri: 地址集合主页
+      collection_uri: 地址集合元数据：
+      collections: 集合
+      collections_long: 索引的集合
+      comment_entries_count: 
+        one: 1条评论
+        other: "{{count}}评论"
+      course_search_results: "课程<b>{{first}} -</b>在<b>{{last}} {{total}}</b>搜索<b>{{terms}}</b>"
+      course_tag_results: "课程<b>{{first}} -</b>在<b>{{last}}</b>标签<b>{{total}} {{terms}}</b>"
+      courses_tag_cloud_label: "使用标签浏览课程<a href=\"/resources\">[浏览所有资源]</a>"
+      demo: 演示
+      description: 描述
+      details: 详细信息
+      developers_long: 开发者信息
+      direct_link: "[直接链接]"
+      discover_feed: 发现饲料
+      discover_feed_message: 寻找关于您所提供的信息。请稍候。
+      display_url: 要显示的网址：
+      entry_commment_contents: "评论{{resource}}"
+      facebook_instructions: "在我的链接页面，右键点击&#39;我的链接，然后复制该链接。我们会自动包括地位，链接和说明。"
+      facebook_link: "你可以找到你的Facebook我的链接页面上的网址。 {{link}}，然后点击&#39;我的链接&#39;"
+      facebook_notes: Facebook的注释
+      facebook_notifications: Facebook的通知
+      facebook_prompt: 您的Facebook我的链接网址
+      facebook_shares: Facebook的共享链接
+      failed_harvests: 失败的收成
+      failed_last_request: "失败的最后一个请求：{{error}}"
+      feed_banned_message: 饲料成功取缔。
+      feed_successfully_created: 饲料已成功创建。
+      feed_successfully_updated: 饲料已成功更新。
+      feed_validated_message: 饲料已成功验证。
+      feeds_title: 注册收藏
+      for: 为了
+      friendfeed_prompt: "的FriendFeed RSS网址"
+      friendfeed_rss: "您可以在您的{{link}}.底部您的网址"
+      gm_more_prompt: 更多相关资源
+      gm_title: 相关资源
+      goodreads_prompt: Goodreads个人资料的网址
+      goodreads_rss: "例如，http://www.goodreads.com/user/show/1111"
+      harvest_interval: 收获间隔（小时）
+      harvested_at: 收获的
+      hide: 隐藏
+      identity_feed_removed: 删除服务
+      identity_feeds: 身份求职
+      import_service: "进口{{service}}"
+      linkedin_prompt: 百度公开个人资料的网址
+      linkedin_rss: "您可以在您的{{link}}.底部您的网址"
+      loading_content_image: 加载内容的图像
+      login: 注册
+      login_or_signup_prompt: "{{signup}}或{{login}}进行讨论和分享资源。"
+      login_to_comment: 登录以添加评论
+      metadata: 元数据
+      my_services: 我的服务
+      narrow_further: 进一步缩小结果
+      netflix_prompt: Netflix的队列RSS网址
+      netflix_rss: "你可以在你{{link}}.您的网址请注意，有几个可以用您的资讯Netflix的队列页（队列，建议书，电影评论等）。添加多达你喜欢！"
+      new_global_feed: "一种新的饲料已被添加到{{application_name}}"
+      next: 下一个
+      next_label: 下一个
+      no_feeds_at_uri: 我们无法找到给定的URL
+      no_feeds_from_username: 我们无法找到给定的帐户
+      no_hits: "您的搜索- <b>{{search}}</b> -没有任何符合<b>{{resource_type}}。</b>请尝试不同的搜索或选择不同的语言。"
+      no_tagged_courses: "没有<b>课程</b>被发现与<b>{{tags}}</b>标签。 <a href='/resources'>重新开始</a>或显示<a href='/resources/tags/{{tags}}'>标记{{tags}}的所有资源</a> 。"
+      no_tagged_resources: "没有<b>资源</b>被发现与<b>{{tags}}</b>标签。 <a href='/resources'>重新开始</a> 。"
+      no_tags: 还没有标签可用
+      oai_prompt: "如果您指定醪河，你必须指定完整的URL ListRecords请求（不只是端点的OAI）"
+      of: 的
+      ok: 行
+      only_courses: 只有课程
+      polyvore_prompt: Polyvore个人资料的网址
+      polyvore_rss: "您Polyvore个人资料的网址看起来像http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: 采用
+      previous: 上一页
+      previous_label: 上一页
+      problem_adding_feed: 有一个问题，加入饲料：
+      rdf: RDF的
+      related_resources: 相关
+      related_resources_title: 相关资源
+      relevance: 相关
+      remix: 不怕
+      repository_short_title: 仓库简称：
+      repository_title: 库标题：
+      resource_search_results: "资源<b>{{first}} -</b>在<b>{{last}} {{total}}</b>搜索<b>{{terms}}</b>"
+      resource_tag_results: "资源<b>{{first}} -</b>在<b>{{last}}</b>标签<b>{{total}} {{terms}}</b>"
+      resources_tag_cloud_label: "使用标签浏览资源<a href=\"/resources?grain_size=course\">[浏览只有课程]</a>"
+      results: 结果
+      rss: 的RSS
+      rss_url: 网址为您的RSS提要
+      search: 搜索
+      search_button: 离去
+      search_link: 资源！
+      select_feeds_prompt: 选择供稿您想补充：
+      select_service_prompt: 请选择服务
+      service_username: "{{service}}用户名"
+      share: 共享
+      short_title: 简称：
+      show_tagged_courses: 只显示课程
+      show_tagged_resources: 显示任何类型的资源
+      signup: 注册
+      spinner_image: 轮候形象
+      start_over: 重新开始
+      status: 身份
+      submitting_feed_message: 提交您的供稿...
+      successfully_added_uri_feed: "成功将{{uri}}"
+      successfully_added_username_feed: "成功将{{service}}"
+      tags: 标签
+      title: 标题
+      type_of_metadata: 元数据类型：
+      uri: 网址
+      validate_feed: 马克饲料有效
+      visit: 访问
+      xml: XML的
+      zotero_group_prompt: Zotero的集团网址
+      zotero_group_rss: "您的网址组Zotero的样子：http://www.zotero.org/groups/adventures_in_library_instruction/items"

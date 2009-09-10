@@ -1,0 +1,9 @@
+<% form_tag(:controller => 'search', :action => 'results') do %>
+  <%= text_field_tag(:form_terms, @terms.nil? ? "" : @terms, :size => 30) %>
+  <%= submit_tag(t(:search), :class => "input-button") %>
+  <%= render(:partial => "search/languages") %> 
+<% end %>
+<p class="help_links"><%= link_to t(:demo), "/help/demo" %> 
+| <%= link_to t(:collections_long), "/collections" %> 
+| <%= link_to t(:developers_long), "/help/integration" %> 
+- <%= t(:powered_by) %> <a href="http://lucene.apache.org/">Lucene</a></p>

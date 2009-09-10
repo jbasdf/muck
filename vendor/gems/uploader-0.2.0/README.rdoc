@@ -1,0 +1,340 @@
+= Uploader
+
+Uploader makes it easy to integrate multiple file uploads into your application using SWFUpload
+
+
+== Installation
+
+=== Install the gem:
+sudo gem install uploader
+
+Installing uploader should also install mime-types and rack.  If for some reason it does not then manually install it:
+sudo gem install mime-types
+sudo gem install rack
+
+
+=== Add the gem to environment.rb
+config.gem 'uploader'
+
+
+=== Install jQuery
+uploader uses jQuery.  You'll need to include it in your application.  Download it here:
+http://jquery.com/
+
+Then include it in your layout:
+  <%= javascript_include_tag 'jquery/jquery.js' %>
+            
+Another option is to use jRails
+http://ennerchi.com/projects/jrails
+
+=== Create a model for uploads.
+We recommend creating a model called upload.rb.  acts_as_uploader accepts all valid options for paperclip via :has_attached_file => {}
+
+  class Upload < ActiveRecord::Base
+
+   acts_as_uploader  :enable_s3 => false,
+                     :has_attached_file => {
+                       :url     => "/system/:attachment/:id_partition/:style/:basename.:extension",
+                       :path    => ":rails_root/public/system/:attachment/:id_partition/:style/:basename.:extension",
+                       :styles  => { :icon => "30x30!", 
+                                     :thumb => "100>", 
+                                     :small => "150>", 
+                                     :medium => "300>", 
+                                     :large => "660>" },
+                       :default_url => "/images/profile_default.jpg",
+                       :storage => :s3,
+                       :s3_credentials => AMAZON_S3_CREDENTIALS,
+                       :bucket => "assets.example.com",
+                       :s3_host_alias => "assets.example.com",
+                       :convert_options => {
+                          :all => '-quality 80'
+                        }
+                     },
+                     :s3_path => ':id_partition/:style/:basename.:extension'
+                                                                  
+    # only allow images:
+    # validates_attachment_content_type :file, :content_type => ['image/jpeg', 'image/pjpeg', 'image/jpg']
+    
+    # limit uploads to 10 MB
+    # validates_attachment_size :local, :less_than => 10.megabytes
+    
+    # The following method is implemented in 'acts_as_uploader'.  This is the method destroy will check to see if
+    # the user has permission to delete the object.  Add additional logic as needed or if the existing logic
+    # looks fine then feel free to delete this comment and the can_edit? method.
+    def can_edit?(check_user)
+      return false if user.blank?
+      check_user == self.user
+    end
+    
+  end
+
+
+=== Add multiple file uploads to one of your models
+
+Your uploads will need a parent object to attach to.  For example, a user might have many files:
+
+  class User < ActiveRecord::Base
+    has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
+  
+    def can_upload?(check_user)
+      self == check_user
+    end
+  end
+
+or a photo album might have many photos
+
+  class PhotoAlbum < ActiveRecord::Base
+    has_many :photos, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
+  
+    def can_upload?(check_user)
+      self.editors.include?(check_user)
+    end
+  end
+
+Note that in both examples there is an implementation of 'can_upload?'.  This method must be
+included in any parent object and will control who has permission to upload files.
+
+=== The application controller
+Be sure you have turned on protect from forgery.  This is required for uploader to get the appropriate tokens
+from your Rails application.  It is also a good idea and is the default in new Rails applications.
+
+  protect_from_forgery # See ActionController::RequestForgeryProtection for details
+
+=== The uploads controller
+You can modify the upload controller behavior by inheriting from the uploader controller.  For example, you might want to
+require that users be logged in to upload a file.  There are a number of methods in the uploads controller that contain 
+default functionality that you may consider overriding.
+
+Be sure to modify your routes file.  Add the following line to ensure that your application uses the new uploads 
+controller instead of directly using the one inside the gem:
+
+  map.resources :uploads, :collection => { :swfupload => :post }
+  
+
+  class UploadsController < Uploader::UploadsController
+    
+    prepend_before_filter :login_required
+    
+    protected
+    
+    # The default 'get_upload_text' method throws an exception.  You must override this method in your controller.  It
+    # is used by the swf upload call to generate the html to be returned to the client.
+    # Here's an example:
+    def get_upload_text(upload)
+      render_to_string( :partial => 'uploads/upload_row', :object => upload, :locals => { :parent => @parent } )
+    end
+    
+    # The existing method will handle most cases but you might choose a different message or a different redirect:
+    def permission_denied
+      message = t("uploader.permission_denied")
+      respond_to do |format|
+        format.html do
+          flash[:notice] = message
+          redirect_to get_redirect
+        end
+        format.js { render :text => message }
+        format.json { render :json => { :success => false, :message => message } }
+      end
+    end
+  
+    # Simply attempts to redirect to the parent object.  You might want to build something more sophisticated that
+    # redirect to different areas of you site depending on the type of object that was uploaded or on based on the parent.
+    # source can be :destroy_success, :create_success, :create_failure, :permission_denied
+    def get_redirect
+      @parent
+    end
+
+    # The default action is to call 'can_upload?' on the parent object.  Be sure to implement 'can_upload?(check_user) on
+    # your parent objects
+    def has_permission_to_upload(user, upload_parent)
+      upload_parent.can_upload?(user)
+    end
+    
+    
+    # By default the controller will use a model named 'Upload' to do a destroy.  If you want to use a different model
+    # you'll need to override 'set_upload_for_destroy in your controller to find the object using a different object.  
+    # For example:
+    def set_upload_for_destroy
+      @upload = Photo.find(params[:id])
+    end
+    
+  end
+
+=== Configure your views.
+You'll need something like this in your layout so that uploader can add in the required css and javascript files.
+
+<%= yield :head -%>
+
+Then to add an upload form:
+<%= upload_form(parent_object) %>
+parent_object should be the object which owns the uploads.  ie a user, photo_album, etc.
+
+=== Rake Tasks
+
+Add the rake tasks for uploader to your project.  You will need to add the following to your applications's Rakefile
+
+  require 'uploader'
+  require 'uploader/tasks'
+
+Then run:
+  rake uploader:sync
+
+Last run:
+  rake db:migrate
+This will create an uploads table for you.  If you selected a different name for your model you will need to modify the migration accordingly.  
+== WARNING
+The migration will drop any existing 'uploads' table you have in place
+
+
+That will copy all the required javascript and asset files into your project
+
+
+== Amazon s3
+
+
+If you'd like to store your uploads on Amazon's S3 service there are a few extra steps involved.  See the example file above
+to view the options in context.
+
+=== Turn on s3
+Set the enable_s3 option to true in acts_as_uploader
+  :enable_s3 => true
+
+Pass your s3 credentials into acts_as_uploader
+  :has_attached_file => { :s3_credentials => File.join(RAILS_ROOT, 'config', 's3.yml') }
+
+=== Setup your credentials
+Create a file named s3.yml in your configuration directory and add the following lines:
+
+  access_key_id: PUT YOUR KEY HERE
+  secret_access_key: PUT YOUR SECRET ACCESS KEY HERE
+
+
+=== Turn on the Daemon process
+There are a number of timing issues that you will run into if you attempt to upload files directly to s3.  To overcome that
+problem uploader includes a daemon process which will send the files to Amazon asynchronously.  Note that the uploader
+will leave your local copy in place.
+
+Add the daemons gem and plugin:
+  sudo gem install daemons
+
+Then inside your Rails project:
+  script/plugin install git://github.com/dougal/daemon_generator.git
+  script/generate daemon amazonaws
+  
+If you have already run rake uploader:sync it will have already copied a file called amazonaws.rb into lib/daemons.  Running 
+script/generate daemon amazonaws will create the other files required to support that process.  You will get a prompt "overwrite lib/daemons/amazonaws.rb?".
+Answer 'n'o as the file is already setup.
+
+To start the daemon locally:
+  RAILS_ENV=development lib/daemons/amazonaws_ctl start
+
+
+There is also an app wide control script that you can add to capistrano:
+  ./script/daemons [start|stop|restart]
+
+Learn more about the custom daemon gem with Ryan Bates screencast:
+  http://railscasts.com/episodes/129-custom-daemon
+
+
+== Use Rake to send files to s3
+uploader includes a task capable of sending files to s3 but it makes an assumption that the model you are interacting with
+is named 'Upload'.
+
+  rake uploader:upload_to_s3 
+
+If you want to use a different model or several models just add a rake task to your project:
+
+  desc 'Send all uploads to S3.  (Will only send uploads from a model named Upload)'
+  task :upload_to_s3 do
+    
+    uploads = Upload.pending_s3_migration
+    uploads.each do |upload|
+      upload.remote = upload.local
+      upload.save!
+    end
+    
+    photos = Photo.pending_s3_migration
+    photos.each do |photo|
+      photo.remote = photo.local
+      photo.save!
+    end
+    
+  end
+
+== Setup Domains
+If you use Amazon's S3 service you can setup a cname to clean up your urls.  Configure your s3 bucket as above:
+
+  :bucket => "assets.example.com"
+  :s3_host_alias => "assets.example.com"
+
+Your assets will be available at assets.example.com.s3.amazon.com.  You can then create a CNAME in your DNS entries
+to point "assets.example.com" to "assets.example.com.s3.amazon.com".  Your assets will then appear to be
+be served from assets.example.com even though they are loaded from Amazon.
+
+
+== Other Stuff
+
+If you'd like to add an ajax delete to your uploads page this code might come in handy.
+
+Say you have chosen to display your upload in a table.  Your code might look like the following.  Note that there are a number of assumptions made in this code.  Modify it to suite your needs.
+
+  <tr id="<%= upload_row.dom_id %>" class="delete-container <%= cycle('odd', 'even') %>" <%=style-%> >
+  	<td><div class="file-icon"><%= image_tag upload_row.icon -%></div></td>
+  	<td><a href="<%=upload_row.file.url%>"><%= truncate(sanitize(upload_row.file_name), 100) %></a></td>
+  	<td><%= upload_row.created_at.to_s(:long) -%></td>
+  	<td>
+  		<% if parent.can_edit?(current_user) -%>
+  			<% form_for(:upload, :url => upload_path(upload_row.id), :html => { :class => "delete-form", :method => :delete} ) do |f| -%>
+  				<%= image_submit_tag '/images/icons/delete.png', {:id => 'submit-comment', :title => t('general.delete_file'), :class => 'submit-delete', :width => '12', :height => '12', :alt => t('general.delete_file') } %>
+  			<% end -%>
+  			<% if !style.empty? -%>
+  			<script type="text/javascript" language="JavaScript">
+  				jQuery("#<%= upload_row.dom_id %>").fadeIn("slow");
+  			</script>
+  			<% end -%>
+  		<% end -%>
+  	</td>
+  </tr>
+
+
+I put the following in my main upload view
+  <% content_for :javascript do  -%>
+
+    setup_submit_delete();
+
+    function upload_completed_callback(data){
+      jQuery('#upload-list').prepend(data);
+      setup_submit_delete();
+    }
+  <% end -%>
+  
+  
+
+The following jQuery code will do an ajax delete for you
+
+  function setup_submit_delete(){
+  	jQuery(".submit-delete").click(function() {
+  		// if(!confirm("Are you sure?")){
+  		// 	return false;
+  		// }
+      jQuery(this).parents('.delete-container').fadeOut();
+      var form = jQuery(this).parents('form');
+      jQuery.post(form.attr('action') + '.json', form.serialize(),
+        function(data){
+          var json = eval('(' + data + ')');
+          if(!json.success){
+            jQuery.jGrowl.info(json.message);
+          }
+        });
+      return false;
+    });
+  }
+
+
+=== Testing
+If you intend to develop code and wish to run the tests you may do so using rake test.  However, note that you will need to install the gem first using
+rake install since the embedded test application will use the gem that is install and not the current code from the project.  This is a limitation
+I attempted to overcome using a special initializer in rails_root/config/initializers/uploader.rb but I didn't have any success getting it working.
+
+
+Copyright (c) 2009 Justin Ball, released under the MIT license

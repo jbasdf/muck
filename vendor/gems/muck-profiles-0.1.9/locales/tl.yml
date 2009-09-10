@@ -1,0 +1,12 @@
+--- 
+tl: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Hindi mahanap ang mga tinukoy na gumagamit."
+      edit_failure: "May naganap na error habang nag-a-update ng iyong profile."
+      edit_profile: "I-edit ang Profile"
+      edit_success: "Matagumpay na na-update ang iyong profile"
+      problem_editing_account: "Nagkaroon ng problema sa ina-update ang iyong profile"
+      update_profile: "I-update ng Profile"
+      upload_photo: "Mag-upload ng isang photo:"
+      view_profile: "Tingnan ang Profile"

@@ -1,0 +1,31 @@
+--- 
+et: 
+  muck: 
+    engine: 
+      choose_country: "Vali riik"
+      choose_language: "Vali Keel"
+      choose_state: "Vali riik"
+      missing_parent_error: "Palun täpsustage vanem objekti"
+      select_country_prompt: "Palun vali riik"
+      select_language_prompt: "Palun valige keel"
+      select_state_prompt: "Vali riik"
+    forms: 
+      please_enter_a_value: "Palun sisestage väärtus {{label}}"
+    general: 
+      activate: Aktiveeri
+      deactivate: Deaktiveeri
+      delete: Kustutama
+      disable: Võimaldama
+      enable: Vigastama
+      enabled: Enabled?
+      general_info: Üldteave
+      help: Abi
+      next: "Järgmine »"
+      no_text: Ei
+      previous: «Eelmine
+      read_more: "loe lähemalt"
+      save: Salvestama
+      settings_saved: "Seaded on salvestatud."
+      time_ago: "{{time_in_words}} Tagasi"
+      update: Värskendama
+      yes_text: Jah

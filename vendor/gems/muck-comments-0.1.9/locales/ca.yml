@@ -1,0 +1,16 @@
+--- 
+ca: 
+  muck: 
+    activity_templates: 
+      comment: Comentaris
+    comments: 
+      add_comment: Comentari
+      add_comment_button: "Afegir comentari"
+      cant_delete_comment: "Vostè no té permís per eliminar aquest comentari"
+      comment_removed: "Comentari eliminat amb èxit."
+      create_error: "No es pot crear el comentari {{errors}}"
+      create_success: "Agregat comentari"
+      missing_comment_template_error: "No va poder trobar un nom parcial {{partial}}. Si us plau, creeu una observació parcial i torni a intentar."
+      new_comment_no_title: "Afegeix un comentari nou"
+      new_comment_with_title: "Afegir un nou comentari a {{title}}"
+      problem_adding_comment: "Hi ha hagut un problema en afegir el seu comentari"

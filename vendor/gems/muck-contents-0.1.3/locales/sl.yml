@@ -1,0 +1,32 @@
+--- 
+sl: 
+  muck: 
+    contents: 
+      add: Dodati
+      cancel: Prekliči
+      cant_delete_content: "Nimate dovoljenja za brisanje določene vsebine"
+      choose_layout: "Izberite predlogo"
+      choose_layout_help: "Izberite postavitev template, da bo postala chrome za to stran."
+      confirm_delete_content: "Ali ste prepričani, da želite izbrisati to vsebino? To ni mogoče razveljaviti!"
+      content_help: "To je vsebina, ki bo prikazana na strani."
+      content_label: Vsebina
+      content_removed: "Vsebina uspešno odstranjen"
+      create_error: "Prišlo je do težave pri dodajanju vašo vsebino"
+      default_404_body: "Nismo uspeli najti strani, ki ste jo iskali."
+      default_404_title: "404 Page not found"
+      delete: Izbrisati
+      delete_title: "Zbriši to stran."
+      edit: Uredi
+      edit_title: "Uredi to stran."
+      manage_pages_title: "Upravljanje vsebine"
+      no_uri_error: "Prosimo, nastavite vrednost uri pred shranjevanjem model ko contentable je nič"
+      page_doesnt_exist_create: "Stran, ki ste ga zahtevali, ne obstaja. Prosimo, navedite podatke spodaj, da bi ustvarili stran."
+      permalink: "Permalink:"
+      problem_adding_content: "Prišlo je do težave pri dodajanju vsebine"
+      problem_updating_content: "Prišlo je do težave pri posodabljanju vsebine"
+      save: Shraniti
+      submit_content_button: Shraniti
+      tag_information: "Tags pomagajo drugi uporabniki našli vašo stran in se bodo uporabili kot meta ključne besede, za kateri dokument gre."
+      tags: Tags
+      title_help: "Naslov nadzoruje url in naslov strani prikazan v url bar"
+      title_label: Naslov

@@ -1,0 +1,60 @@
+= Muck Friends
+
+== Installation
+
+The muck friends engine is part of the muck framework and relies upon the muck-engine, muck-users and muck-profiles gems.  
+These gems should be installed automatically when you install the muck-friends gem.  Refer to the documentation for each
+to setup configuration.  The muck-activities gem is optional.  If it is installed and enable_friend_activity is true
+then friend and follow activity will be fed into the user's activity feeds
+
+  sudo gem install muck-friends
+
+Add this to environment.rb:
+
+    config.gem 'muck-friends', :lib => 'muck_friends'
+
+
+Inside of global_config.yml add the following, changing the emails to match your application:
+
+  default: &DEFAULT
+
+    # Sent in emails to users
+    application_name: 'Name of my application'
+    from_email: 'support@example.com'
+    support_email: 'support@example.com'
+    admin_email: 'admin@example.com'
+
+    # Friend configuration
+    # Muck Friends provides a hybrid friend/follow model.  Either mode can be turned off or both can be enabled
+    # If only following is enabled then users will be provided the ability to follow, unfollow, and block
+    # If only friending is enabled then users will be provided a 'friend request' link and the ability to accept friend requests
+    # If both modes are are enabled then users will be able to follow other users.  A mutual follow results in 'friends'.  An unfollow 
+    # leaves the other party as just a follower.
+    # Note that at least one mode must be enabled or imagine all life as you know it stopping instantaneously and every molecule in your body exploding at the speed of light. 
+    enable_friending: true        # If true then friending is enabled.
+    enable_following: true        # If true then users can 'follow' each other.  If false then only friend requests will be used.
+    enable_friend_activity: true  # If true then friend related activity will show up in the activity feed.  Requires muck-activities gem
+    
+== Usage
+
+You will need a friend model that 'acts_as_muck_friend' and a user model that 'acts_as_muck_friend_user'
+
+== Example
+After installing the gem just create a friend model thus:
+
+  class Friend < ActiveRecord::Base  
+    acts_as_muck_friend
+    has_activities  # requires the muck-activities gem
+  end
+
+and a user model thus:
+
+  class User < ActiveRecord::Base
+    acts_as_muck_user
+    acts_as_muck_friend_user
+    has_muck_profile
+    has_activities # requires the muck-activities gem
+  end
+
+
+Copyright (c) 2009 Justin Ball, released under the MIT license

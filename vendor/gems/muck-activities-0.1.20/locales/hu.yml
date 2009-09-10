@@ -1,0 +1,34 @@
+--- 
+hu: 
+  muck: 
+    activities: 
+      activity_feed_title: "Legutóbbi tevékenység"
+      add_photos: "Fotók hozzáadása"
+      add_videos: "Share Video"
+      adding_comment_message: "Hozzáadása comment ..."
+      all_activities: "Minden tevékenység"
+      clear: Világos
+      create_error: "Probléma merült fel a hozzá adott tevékenységet: {{error}}"
+      delete: Töröl
+      invite_friends: "Invite Friends"
+      item_could_not_be_removed: "Elem nem távolítható el a közelmúltban tevékenységek listáját."
+      item_created: "Added tevékenység"
+      item_removed: "Cikk sikeresen eltávolították a jelenlegi tevékenységét listán."
+      joined_status: "{{name}} Csatlakozott {{application_name}}"
+      make_comment: Megjegyzést
+      paging_newer: «Újabb
+      paging_older: "Older »"
+      permission_denied: "Sajnáljuk, de nem tehetem meg."
+      post: Megoszt
+      problem_with_status: "Hiba történt a változó a helyzet"
+      status_indicator: van
+      status_update_prompt: "Mit csinálsz most?"
+      template_or_item_required: "Egy tevékenységet igényel egy sablont vagy egy elem helyes megjelenítését"
+      update_error: "Hoppá ... Volt egy kis probléma. {{errors}}"
+      update_status_message: "frissítse a helyzet!"
+      updating_status_message: "Frissítését státuszát. Kérem, várjon."
+      upload_files: "Upload Files"
+      write: Írjon
+      write_prompt: "Írj egy megjegyzést ..."
+    activity_templates: 
+      status_update: "Status Updates"

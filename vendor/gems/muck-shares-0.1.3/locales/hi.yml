@@ -1,0 +1,22 @@
+--- 
+hi: 
+  muck: 
+    activity_templates: 
+      share: शेयर
+    shares: 
+      add_share: हिस्सा
+      add_share_button: हिस्सा
+      adding_share: "पेज साझा ..."
+      cancel_share_button: "रद्द करें"
+      cant_delete_share: "आप अनुमति उस हिस्से को नष्ट करने की जरूरत नहीं है"
+      create_error: "शेयर नहीं बना सकते हैं: {{errors}}"
+      create_success: "सफलतापूर्वक पृष्ठ सहभाजीत"
+      login_prompt: "प्रवेशक का साझा करने के लिए"
+      message: संदेश
+      new_share: "साझा एक लिंक"
+      problem_adding_share: "एक समस्या तुम्हारे हिस्से को जोड़ने का था"
+      share_activity_content: "साझा {{link}}.  {{message}}"
+      share_removed: "साझा सफलतापूर्वक हटा दिया."
+      share_title: "साझा यह लिंक"
+      title: शीर्षक
+      uri: Url

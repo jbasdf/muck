@@ -1,0 +1,32 @@
+--- 
+fi: 
+  muck: 
+    contents: 
+      add: Lisää
+      cancel: Peruuta
+      cant_delete_content: "Sinulla ei ole oikeutta poistaa määritetyn sisällön"
+      choose_layout: "Valitse malli"
+      choose_layout_help: "Valitse asettelu malli, tekevät Chrome tällä sivulla."
+      confirm_delete_content: "Oletko varma että haluat poistaa tämän sisällön? Tämä ei voi perua!"
+      content_help: "Tämä on sisältöä, joka näkyy sivulla."
+      content_label: Sisällys
+      content_removed: "Sisältö onnistuneesti poistettu"
+      create_error: "Oli ongelma lisäämällä sisällön"
+      default_404_body: "Emme löytäneet sivun olit etsimässä."
+      default_404_title: "404 Page not found"
+      delete: Poistaa
+      delete_title: "Poista tämä sivu."
+      edit: Muokkaus
+      edit_title: "Muokkaa tätä sivua."
+      manage_pages_title: "Hallitse sivuston sisältö"
+      no_uri_error: "Aseta arvo URI ennen tallentamista malli kun contentable on nolla"
+      page_doesnt_exist_create: "Hakemaasi sivua ei löydy. Antakaa tiedot alla luoda sivun."
+      permalink: "Permalink:"
+      problem_adding_content: "Oli ongelma lisäämällä sisältöä"
+      problem_updating_content: "Oli ongelma päivittää sisältöä"
+      save: Tallentaa
+      submit_content_button: Tallentaa
+      tag_information: "Tagit auttavat muita käyttäjiä löytämään sivusi ja käytetään meta avainsanat asiakirjaa."
+      tags: Tunnisteita
+      title_help: "Otsikko valvonta URL-osoite ja sivun otsikon näkyvä URL bar"
+      title_label: Arvonimi

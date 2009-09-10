@@ -1,0 +1,45 @@
+--- 
+? "no"
+: 
+  muck: 
+    activity_templates: 
+      follow: Etterfølgere
+      friends_with: Venner
+    friends: 
+      acccept_friend_request: "Godta venn Fra {{user}}"
+      accept: (godta)
+      delete: (Slett)
+      follow_activity: "{{inviter}} Nå følgende {{invited}}"
+      followers: Etterfølgere
+      following: Påfølgende
+      following_you: "{{name}} Nå følgende deg på {{application_name}}"
+      friend_request: "{{name}} Har sendt deg en venneforespørsel på {{application_name}}"
+      friend_request_links: "{{profile}} Sendt deg en venneforespørsel {{accept}} {{ignore}}"
+      friend_request_pending: "Venn vente {{link}}"
+      friend_request_prompt: "Send {{user}} en venn"
+      friend_request_sent: "Venn Sendt"
+      friends: Venner
+      friends_title: "Mine venner"
+      friends_with: "{{inviter}} Er nå venner med {{invited}}"
+      ignore: (ignore)
+      login: innlogging
+      login_or_sign_up_to_follow: "{{login}} Eller {{signup}} å følge denne brukeren"
+      login_or_sign_up_to_friend: "{{login}} Eller {{signup}} å sende venneforespørsler"
+      mutual_friends: "Felles venner"
+      no_followers: "Ingen etterfølgere"
+      no_friends: "Ingen venner"
+      no_mutual_friends: "Ingen felles venner funnet"
+      not_following_anyone: "Ikke Etter Anyone"
+      problem_adding_follow: "Det var et problem å legge {{user}} til følgende liste. Prøv igjen."
+      problem_sending_friend_request: "Det var et problem med å sende en venneforespørsel til {{user}}. Prøv igjen."
+      removed_following_error: "Et problem oppstod under forsøk på å unfollow {{user}}"
+      removed_friendship: "Fjernet {{user}} fra vennene dine"
+      removed_friendship_error: "Det var et problem med å fjerne {{user}} fra listen over venner"
+      same_inviter_error_message: "Brukeren kan ikke bli venner med seg selv."
+      signup: signup
+      start_following: "Følg {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stopp Etter {{user}}"
+      stopped_following: "Successfully stoppet følgende {{user}}"
+      view_all: "Se alle"
+      you_are_now_following: "Du er nå følgende {{user}}"

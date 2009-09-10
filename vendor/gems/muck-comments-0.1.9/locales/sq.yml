@@ -1,0 +1,16 @@
+--- 
+sq: 
+  muck: 
+    activity_templates: 
+      comment: Komente
+    comments: 
+      add_comment: Koment
+      add_comment_button: "Add Comment"
+      cant_delete_comment: "Ju nuk keni leje të fshini se koment"
+      comment_removed: "Koment fshi me sukses."
+      create_error: "Nuk mund të krijoni komentin {{errors}}"
+      create_success: "Me sukses shtoi koment"
+      missing_comment_template_error: "Nuk munda të gjejë një të pjesshme të quajtur {{partial}}. Ju lutem krijoni një koment të pjesshëm dhe të provoni përsëri."
+      new_comment_no_title: "Shto një koment të ri"
+      new_comment_with_title: "Shto një koment të ri {{title}}"
+      problem_adding_comment: "Ka ndodhur një problem duke shtuar komentin tuaj"

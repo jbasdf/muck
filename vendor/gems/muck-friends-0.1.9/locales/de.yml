@@ -1,0 +1,44 @@
+--- 
+de: 
+  muck: 
+    activity_templates: 
+      follow: Anhänger
+      friends_with: Freunde
+    friends: 
+      acccept_friend_request: "Nehmen Sie die Anfrage ab {{user}}"
+      accept: (akzeptieren)
+      delete: (Löschen)
+      follow_activity: "{{inviter}} Ist nun folgende {{invited}}"
+      followers: Anhänger
+      following: Folgend
+      following_you: "{{name}} Ist nun folgende Sie auf {{application_name}}"
+      friend_request: "{{name}} Hat Ihnen eine Anfrage auf {{application_name}}"
+      friend_request_links: "{{profile}} Dir eine Anfrage {{accept}} {{ignore}}"
+      friend_request_pending: "Freund Anfrage bis {{link}}"
+      friend_request_prompt: "Senden Sie {{user}} a Friend Request"
+      friend_request_sent: "Freund Anfrage gesendet"
+      friends: Freunde
+      friends_title: "Meine Freunde"
+      friends_with: "{{inviter}} Ist jetzt mit Freunden {{invited}}"
+      ignore: (ignore)
+      login: Anmeldung
+      login_or_sign_up_to_follow: "{{login}} Oder {{signup}} an dieses Benutzers"
+      login_or_sign_up_to_friend: "{{login}} Oder {{signup}} zu senden Freundschaftsanfragen"
+      mutual_friends: "Gemeinsame Freunde"
+      no_followers: "Nr. Anhänger"
+      no_friends: "Keine Freunde"
+      no_mutual_friends: "Keine gemeinsamen Freunde gefunden"
+      not_following_anyone: "Wer nicht auf"
+      problem_adding_follow: "Es gab ein Problem hinzufügen {{user}} zu Ihrer Liste folgen. Bitte versuchen Sie es erneut."
+      problem_sending_friend_request: "Es wurde ein Problem, das Senden einer Anfrage an {{user}}. Bitte versuchen Sie es erneut."
+      removed_following_error: "Ein Problem trat bei dem Versuch zu unfollow {{user}}"
+      removed_friendship: "{{user}} Entfernt von deinen Freunden"
+      removed_friendship_error: "Es gab ein Problem Beseitigung {{user}} aus Ihrer Liste der Freunde"
+      same_inviter_error_message: "User können sich nicht selbst mit Freunden."
+      signup: Anmeldung
+      start_following: "Folgen Sie {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop Nach {{user}}"
+      stopped_following: "Erfolgreich beendet folgenden {{user}}"
+      view_all: "Alle anzeigen"
+      you_are_now_following: "Sie befinden sich nun folgende {{user}}"

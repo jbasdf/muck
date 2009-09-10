@@ -1,0 +1,30 @@
+--- 
+bg: 
+  muck: 
+    activities: 
+      activity_feed_title: "Скорошна активност"
+      adding_comment_message: "Добавяне на коментар ..."
+      all_activities: "Всички дейности"
+      clear: Ясен
+      create_error: "Имаше проблем при добавянето на исканата дейност: {{error}}"
+      delete: Изтривам
+      invite_friends: "Поканете приятели"
+      item_could_not_be_removed: "Точка не могат да бъдат отстранени от последните дейности списък."
+      item_created: "Добавен дейност"
+      item_removed: "Позиция успешно отстранява от последните дейности списък."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: Коментар
+      paging_newer: «По-нови
+      paging_older: "По-стари »"
+      permission_denied: "За съжаление, не можете да направите това."
+      post: Дял
+      problem_with_status: "Имаше проблем с промяна на статута"
+      status_indicator: е
+      status_update_prompt: "Какво правите в момента?"
+      template_or_item_required: "Една дейност изисква шаблон или елемент да показва правилно"
+      update_error: "Опа ... Имаше проблем. {{errors}}"
+      update_status_message: "обновите своя статус!"
+      updating_status_message: "Актуализиране на вашия статус. Моля, изчакайте."
+      write_prompt: "Напиши коментар ..."
+    activity_templates: 
+      status_update: "Статус актуализации"

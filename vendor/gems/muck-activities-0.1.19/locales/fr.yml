@@ -1,0 +1,30 @@
+--- 
+fr: 
+  muck: 
+    activities: 
+      activity_feed_title: "Activité récente"
+      adding_comment_message: "Ajout de commentaire ..."
+      all_activities: "Toutes les activités"
+      clear: Clair
+      create_error: "Il y avait un problème en ajoutant la demande de l&#39;activité: {{error}}"
+      delete: Supprimer
+      invite_friends: "Inviter des amis"
+      item_could_not_be_removed: "Point ne peut pas être retiré de la liste des activités récentes."
+      item_created: "Ajouté activité"
+      item_removed: "Point supprimé de la liste des activités récentes."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: Commentaire
+      paging_newer: «Newer
+      paging_older: "Older »"
+      permission_denied: "Désolé, vous ne pouvez pas faire cela."
+      post: Partager
+      problem_with_status: "Il y avait un problème de changer votre statut"
+      status_indicator: est
+      status_update_prompt: "Que faites-vous actuellement?"
+      template_or_item_required: "Une activité exige un modèle ou un élément pour afficher correctement"
+      update_error: "Oops ... Il y avait un problème. {{errors}}"
+      update_status_message: "mise à jour de votre statut!"
+      updating_status_message: "Mise à jour de votre statut. Attendez s&#39;il vous plaît."
+      write_prompt: "Ecrire un commentaire ..."
+    activity_templates: 
+      status_update: "Mises à jour Etat"

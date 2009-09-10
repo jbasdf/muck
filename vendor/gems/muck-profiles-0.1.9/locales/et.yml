@@ -1,0 +1,12 @@
+--- 
+et: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Kas ei leia kindlaksmääratud kasutajale."
+      edit_failure: "Viga ajakohastamisega profiili."
+      edit_profile: "Muuda profiili"
+      edit_success: "Edukalt päivittäessäsi profiili"
+      problem_editing_account: "Probleem uuendasite profiili"
+      update_profile: "Uuenda profiil"
+      upload_photo: "Saada pilt:"
+      view_profile: "Vaata profiili"

@@ -1,0 +1,12 @@
+--- 
+ar: 
+  muck: 
+    profiles: 
+      could_not_find_user: "لا يمكن العثور على مستخدم المحدد."
+      edit_failure: "حدث خطأ أثناء تحديث ملفك الشخصي."
+      edit_profile: "تحرير ملف التعريف"
+      edit_success: "نجحت عملية تحديث بروفايلك"
+      problem_editing_account: "هناك مشكلة في استكمال بروفايلك"
+      update_profile: "نبذة عن آخر التطورات"
+      upload_photo: "تحميل الصور :"
+      view_profile: "ونظرا لمحة"

@@ -1,0 +1,22 @@
+--- 
+cs: 
+  muck: 
+    activity_templates: 
+      share: Akcie
+    shares: 
+      add_share: Sdílet
+      add_share_button: Sdílet
+      adding_share: "Sdílení stránku ..."
+      cancel_share_button: Zrušit
+      cant_delete_share: "Nemáte oprávnění k odstranění, které sdílejí"
+      create_error: "Nelze vytvořit podíl: {{errors}}"
+      create_success: "Úspěšně sdílené stránky"
+      login_prompt: "Přihlásit se k akcii"
+      message: Zpráva
+      new_share: "Sdílejte Link"
+      problem_adding_share: "Došlo k problému přidává svůj podíl"
+      share_activity_content: "sdílené {{link}}.  {{message}}"
+      share_removed: "Share úspěšně odstraněn."
+      share_title: "Sdílet tento odkaz"
+      title: Název
+      uri: Url

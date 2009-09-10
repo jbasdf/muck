@@ -1,0 +1,44 @@
+--- 
+et: 
+  muck: 
+    activity_templates: 
+      follow: Järgijad
+      friends_with: Sõbrad
+    friends: 
+      acccept_friend_request: "Nõus Sõber taotluse {{user}}"
+      accept: (nõus)
+      delete: "(välja jäetud)"
+      follow_activity: "{{inviter}} On nüüd järgmised {{invited}}"
+      followers: Järgijad
+      following: Järgnev
+      following_you: "{{name}} On nüüd järgmised sind {{application_name}}"
+      friend_request: "{{name}} On saatnud sulle sõber taotluse {{application_name}}"
+      friend_request_links: "{{profile}} Avaldanud soovi sinu sõber olla {{accept}} {{ignore}}"
+      friend_request_pending: "Sõber taotleda kuni {{link}}"
+      friend_request_prompt: "Saada {{user}} sõbrale Soov"
+      friend_request_sent: "Sõber Taotlus saadetud"
+      friends: Sõbrad
+      friends_title: "Minu sõbrad"
+      friends_with: "{{inviter}} On nüüd sõpru {{invited}}"
+      ignore: (ignoreerib)
+      login: "sisse logima"
+      login_or_sign_up_to_follow: "{{login}} Või {{signup}} järgida selle kasutaja"
+      login_or_sign_up_to_friend: "{{login}} Või {{signup}} saata taotlusi sõber"
+      mutual_friends: "Ühised sõbrad"
+      no_followers: "Nr järgijaid"
+      no_friends: "Sõbrad puuduvad"
+      no_mutual_friends: "Ole ühiseid sõpru leida"
+      not_following_anyone: "Ei Pärast Igaüks"
+      problem_adding_follow: "Probleem, lisades {{user}} oma järgida nimekirja. Palun proovige uuesti."
+      problem_sending_friend_request: "Probleem saates sõber taotluse {{user}}. Palun proovige uuesti."
+      removed_following_error: "Probleem tekkis püüdes samas unfollow {{user}}"
+      removed_friendship: "Eemaldatud {{user}} Sinu sõbrad"
+      removed_friendship_error: "Probleem kõrvaldades {{user}} oma sõprade nimekirja"
+      same_inviter_error_message: "Kasutaja ei saa sõpru endale."
+      signup: registreerimine
+      start_following: "Järgige {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Peatus Pärast {{user}}"
+      stopped_following: "Edukalt lõpetasid järgmised {{user}}"
+      view_all: "View All"
+      you_are_now_following: "Olete nüüd järgmised {{user}}"

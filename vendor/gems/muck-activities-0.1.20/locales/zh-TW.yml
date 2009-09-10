@@ -1,0 +1,34 @@
+--- 
+zh-TW: 
+  muck: 
+    activities: 
+      activity_feed_title: 近期活動
+      add_photos: 添加照片
+      add_videos: 分享視頻
+      adding_comment_message: 添加評論...
+      all_activities: 所有活動
+      clear: 清楚的
+      create_error: "有一個問題，要求加入活動：{{error}}"
+      delete: 刪除
+      invite_friends: 邀請朋友
+      item_could_not_be_removed: 項目無法刪除從最近的活動清單。
+      item_created: 新增活動
+      item_removed: 項目成功地從最近的活動清單。
+      joined_status: "{{name}}加入{{application_name}}"
+      make_comment: 評論
+      paging_newer: «較新
+      paging_older: 較舊»
+      permission_denied: 對不起，你不能這樣做。
+      post: 共享
+      problem_with_status: 有一個問題，改變你的狀態
+      status_indicator: 是
+      status_update_prompt: 你在做什麼現在？
+      template_or_item_required: 一個活動需要一個模板或一個項目以顯示正確
+      update_error: "哎呀...有一個問題。 {{errors}}"
+      update_status_message: 更新您的狀態！
+      updating_status_message: 更新您的狀態。請稍候。
+      upload_files: 上傳文件
+      write: 寫
+      write_prompt: 撰寫評論...
+    activity_templates: 
+      status_update: 狀態更新

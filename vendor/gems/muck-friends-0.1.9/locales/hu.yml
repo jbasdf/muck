@@ -1,0 +1,44 @@
+--- 
+hu: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: Barátok
+    friends: 
+      acccept_friend_request: "Fogadja el ismerősének kérelme {{user}}"
+      accept: (accept)
+      delete: (törlés)
+      follow_activity: "{{inviter}} Most következő {{invited}}"
+      followers: Followers
+      following: Következő
+      following_you: "{{name}} Most következő Önnek {{application_name}}"
+      friend_request: "{{name}} Küldött neked egy barát kérést {{application_name}}"
+      friend_request_links: "{{profile}} Küldött egy barátom kérésére {{accept}} {{ignore}}"
+      friend_request_pending: "Friend request pending {{link}}"
+      friend_request_prompt: "Küldje el egy ismerősének {{user}} kérése"
+      friend_request_sent: "Friend Request Elküldött"
+      friends: Barátok
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Most barátja {{invited}}"
+      ignore: (ignore)
+      login: bejelentkezés
+      login_or_sign_up_to_follow: "{{login}} Vagy {{signup}}, hogy ez a felhasználó"
+      login_or_sign_up_to_friend: "{{login}} Vagy {{signup}} küldeni ismerősként"
+      mutual_friends: "Kölcsönös Barátok"
+      no_followers: "Nem Followers"
+      no_friends: "No friends"
+      no_mutual_friends: "Nem találtam a kölcsönös barátok"
+      not_following_anyone: "Aki nem követi"
+      problem_adding_follow: "Gond van a hozzá {{user}} a követési listán. Kérjük, próbálja újra."
+      problem_sending_friend_request: "Gond van a küldés egy barátnak kérés {{user}}. Kérjük, próbálja újra."
+      removed_following_error: "A probléma felmerült közben unfollow {{user}}"
+      removed_friendship: "Eltávolított {{user}} a barátainak"
+      removed_friendship_error: "Ott volt a probléma eltávolítása {{user}} listájáról barátok"
+      same_inviter_error_message: "A felhasználó nem lehet barátja themself."
+      signup: signup
+      start_following: "Kövesse {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Ne kövess {{user}}"
+      stopped_following: "Sikeresen leállította következő {{user}}"
+      view_all: "Összes megtekintése"
+      you_are_now_following: "Ön most következő {{user}}"

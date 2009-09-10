@@ -1,0 +1,7 @@
+<div id="add_share">
+  <h2><%= @page_title %><h2>
+  <%= output_errors(t('muck.shares.problem_adding_share'), {:class => 'help-box'}, @share) %>
+  <% share_form(@share) do |f| -%>
+    <%= hidden_field_tag :render_new, false -%>
+  <% end -%>
+</div>

@@ -1,0 +1,30 @@
+--- 
+sr: 
+  muck: 
+    activities: 
+      activity_feed_title: "Рецент Ацтивиты"
+      adding_comment_message: "Додавање коментар ..."
+      all_activities: "Све активности"
+      clear: Јасно
+      create_error: "Дошло је до проблема у додавању тражену делатност: {{error}}"
+      delete: Избрисати
+      invite_friends: "Позови пријатеље"
+      item_could_not_be_removed: "Предмет није могао бити скинут са списка недавних активности."
+      item_created: "Аддед активност"
+      item_removed: "Ставка успешно уклоњен из недавне активности листе."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: Коментар
+      paging_newer: «Новија
+      paging_older: "Старије »"
+      permission_denied: "Нажалост, не можете да урадите."
+      post: Делити
+      problem_with_status: "Дошло је до проблема мења ваш статус"
+      status_indicator: је
+      status_update_prompt: "Шта то радиш сада?"
+      template_or_item_required: "Активност захтева шаблон или ставке приказати исправно"
+      update_error: "Упс ... Дошло је до проблема. {{errors}}"
+      update_status_message: "ажурирајте свој статус!"
+      updating_status_message: "Ажурирање вашег статуса. Молимо сачекајте."
+      write_prompt: "Урите а цоммент ..."
+    activity_templates: 
+      status_update: "Статус Упдатес"

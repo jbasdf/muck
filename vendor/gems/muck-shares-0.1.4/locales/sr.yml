@@ -1,0 +1,22 @@
+--- 
+sr: 
+  muck: 
+    activity_templates: 
+      share: Акције
+    shares: 
+      add_share: Поделити
+      add_share_button: Поделити
+      adding_share: "Дељење страницу ..."
+      cancel_share_button: Откажи
+      cant_delete_share: "Немате дозволу да избришете који деле"
+      create_error: "Није могуће направити деле: {{errors}}"
+      create_success: "Успешно заједничку страницу"
+      login_prompt: "Улогуј се да делите"
+      message: Порука
+      new_share: "Делите линк"
+      problem_adding_share: "Дошло је до проблема додавањем акција"
+      share_activity_content: "дељене {{link}}. {{message}}"
+      share_removed: "Поделите успешно уклоњен."
+      share_title: "Поделите овај линк"
+      title: Наслов
+      uri: Урл

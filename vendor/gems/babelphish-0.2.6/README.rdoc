@@ -1,0 +1,167 @@
+= babelphish
+
+* http://github.com/jbasdf/babelphish
+
+== DESCRIPTION:
+
+babelphish makes it simple to translate you yaml files into all the languages supported by Google Translate
+
+== USAGE:
+
+Translate the en.yml file into all supported languages:
+  babelphish -y ./my/locales/en.yml
+  
+Translate the en.yml file into all supported languages and overwrite other yml files:
+  babelphish -y ./my/locales/en.yml -o
+
+=== Using in your application
+Babelphish can be used to translate content programmatically within your application.  Use it thus:
+
+Translate content into a single language:
+  from = 'en'
+  to = 'es'
+  translation = Babelphish::Translator.translate('hello world', to, from)
+
+Translate content into all supported languages at once.  This will return a hash table with the locale as keys (ie 'en', 'es', etc).
+  translations = Babelphish::Translator.multiple_translate('hello world', Babelphish::GoogleTranslate::LANGUAGES, self.locale)
+  
+Here's a more extensive example
+  # Translate title and body using Google
+  def translate()
+    translate_from_locale = 'en'
+    title_translations = Babelphish::Translator.multiple_translate(self.title, Babelphish::GoogleTranslate::LANGUAGES, translate_from_locale)
+    body_translations = Babelphish::Translator.multiple_translate(self.body, Babelphish::GoogleTranslate::LANGUAGES, translate_from_locale)
+    
+    Babelphish::GoogleTranslate::LANGUAGES.each do |language|
+      self.content_translations.create!(:title => title_translations[language], 
+                                        :body => body_translations[language],
+                                        :locale => language)
+      end
+    end
+  end
+
+== INSTALL:
+
+ya2yaml should be automatically installed when you install babelphish, but is isn't:
+
+* sudo gem install ya2yaml  
+* sudo gem install babelphish
+
+== Related Blog Posts
+http://www.justinball.com/2009/05/19/babelphish-yml-translation-made-simple/
+
+== Language Codes:
+AFRIKAANS = 'af'
+ALBANIAN = 'sq'
+AMHARIC = 'am'
+ARABIC = 'ar'
+ARMENIAN = 'hy'
+AZERBAIJANI = 'az'
+BASQUE = 'eu'
+BELARUSIAN = 'be'
+BENGALI = 'bn'
+BIHARI = 'bh'
+BULGARIAN = 'bg'
+BURMESE = 'my'
+CATALAN = 'ca'
+CHEROKEE = 'chr'
+CHINESE = 'zh'
+CHINESE_SIMPLIFIED = 'zh-CN'
+CHINESE_TRADITIONAL = 'zh-TW'
+CROATIAN = 'hr'
+CZECH = 'cs'
+DANISH = 'da'
+DHIVEHI = 'dv'
+DUTCH = 'nl'  
+ENGLISH = 'en'
+ESPERANTO = 'eo'
+ESTONIAN = 'et'
+FILIPINO = 'tl'
+FINNISH = 'fi'
+FRENCH = 'fr'
+GALICIAN = 'gl'
+GEORGIAN = 'ka'
+GERMAN = 'de'
+GREEK = 'el'
+GUARANI = 'gn'
+GUJARATI = 'gu'
+HEBREW = 'iw'
+HINDI = 'hi'
+HUNGARIAN = 'hu'
+ICELANDIC = 'is'
+INDONESIAN = 'id'
+INUKTITUT = 'iu'
+ITALIAN = 'it'
+JAPANESE = 'ja'
+KANNADA = 'kn'
+KAZAKH = 'kk'
+KHMER = 'km'
+KOREAN = 'ko'
+KURDISH = 'ku'
+KYRGYZ = 'ky'
+LAOTHIAN = 'lo'
+LATVIAN = 'lv'
+LITHUANIAN = 'lt'
+MACEDONIAN = 'mk'
+MALAY = 'ms'
+MALAYALAM = 'ml'
+MALTESE = 'mt'
+MARATHI = 'mr'
+MONGOLIAN = 'mn'
+NEPALI = 'ne'
+NORWEGIAN = 'no'
+ORIYA = 'or'
+PASHTO = 'ps'
+PERSIAN = 'fa'
+POLISH = 'pl'
+PORTUGUESE = 'pt-PT'
+PUNJABI = 'pa'
+ROMANIAN = 'ro'
+RUSSIAN = 'ru'
+SANSKRIT = 'sa'
+SERBIAN = 'sr'
+SINDHI = 'sd'
+SINHALESE = 'si'
+SLOVAK = 'sk'
+SLOVENIAN = 'sl'
+SPANISH = 'es'
+SWAHILI = 'sw'
+SWEDISH = 'sv'
+TAJIK = 'tg'
+TAMIL = 'ta'
+TAGALOG = 'tl'
+TELUGU = 'te'
+THAI = 'th'
+TIBETAN = 'bo'
+TURKISH = 'tr'
+UKRAINIAN = 'uk'
+URDU = 'ur'
+UZBEK = 'uz'
+UIGHUR = 'ug'
+VIETNAMESE = 'vi'
+
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2009 Justin Ball
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

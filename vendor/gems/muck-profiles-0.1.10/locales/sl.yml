@@ -1,0 +1,12 @@
+--- 
+sl: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Ni mogoče najti določene uporabnika."
+      edit_failure: "Prišlo je do napake med posodabljanjem svojega profila."
+      edit_profile: "Uredi profil"
+      edit_success: "Uspešno posodobljena svoj profil"
+      problem_editing_account: "Prišlo je do težave posodobitvi svoj profil"
+      update_profile: "Update Profile"
+      upload_photo: "Naložite fotografije:"
+      view_profile: "View Profile"

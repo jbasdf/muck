@@ -1,0 +1,12 @@
+--- 
+fi: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Ei löytynyt tietty käyttäjä."
+      edit_failure: "Virhe Profiilisi päivityksessä."
+      edit_profile: "Muokkaa profiilia"
+      edit_success: "Päivittäminen onnistui profiiliasi"
+      problem_editing_account: "Ongelma Profiilisi päivityksessä"
+      update_profile: "Päivitä Profiili"
+      upload_photo: "Lähetä kuva:"
+      view_profile: "Näytä profiili"

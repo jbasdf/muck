@@ -1,0 +1,19 @@
+--- 
+lv: 
+  uploader: 
+    cancel_all: "Atcelt visus ielādētos"
+    file_delete_permission_denied: "Jums nav tiesību dzēst šo failu."
+    file_deleted: "Svītrots failu"
+    file_upload_error: "Kļūda augšupielādējot failu."
+    javascript_not_enabled: "Mēs atvainojamies. SWFUpload nevarēja slodzi. Jums ir jābūt aktivizētam Javascript, baudīt SWFUpload."
+    manage_files: "Pārvaldīt failus"
+    manage_photos_files: "Pārvaldīt Bildes / faili"
+    missing_parent_id_error: "Lūdzu, norādiet vecāku objekts"
+    permission_denied: "Jums nav atļaujas, lai pabeigtu šo darbību."
+    standard_file_upload_error: "Kļūda augšupielādējot failu: {{error}}. Lūdzu nodrošināt, ka fails nav derīgs. Pārliecinieties fails nav tukšs. Tad mēģini vēlreiz."
+    successful_upload: "Veiksmīgi augšupielādēto failu."
+    swf_loading: "SWFUpload tiek noslogota. Lūdzu, uzgaidiet moments ..."
+    swf_not_loading: "Mēs atvainojamies. SWFUpload nevarēja slodzi. Jums var būt nepieciešams instalēt vai atjaunināt Flash Player. Visit {{url}} nokļūt Flash Player."
+    swf_taking_to_long: "SWFUpload uzņemas ilgs laiks, lai slodze vai slodze nav izdevies. Lūdzu, pārliecinieties, ka Flash Plugin ir iespējota, un ka darba versija, Adobe Flash Player ir uzstādīta."
+    upload_file: "Upload File"
+    upload_files: "Augšupielādēt failus"

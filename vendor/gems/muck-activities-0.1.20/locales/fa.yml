@@ -1,0 +1,34 @@
+--- 
+fa: 
+  muck: 
+    activities: 
+      activity_feed_title: "فعالیت های اخیر"
+      add_photos: "اضافه کردن عکس"
+      add_videos: "قسمت فیلم"
+      adding_comment_message: "اضافه کردن نظر..."
+      all_activities: "تمام فعالیت های"
+      clear: "پاک کردن"
+      create_error: "بود مشکل اضافه کردن فعالیت های درخواست شده : {{error}}وجود دارد."
+      delete: حذف
+      invite_friends: "دعوت از دوستان"
+      item_could_not_be_removed: "قلم دوم از اقلام لیست می توانند از فعالیت های اخیر نمی حذف خواهد شد."
+      item_created: "فعالیت های اضافه شده"
+      item_removed: "قلم دوم از اقلام لیست با موفقیت از فعالیت های اخیر ، حذف خواهند شد."
+      joined_status: "{{name}}تاریخ عضویت {{application_name}}"
+      make_comment: نظر
+      paging_newer: «جدیدتر
+      paging_older: "قدیمی تر »"
+      permission_denied: "با عرض پوزش ، شما را نمی تواند انجام دهد."
+      post: تقسیم
+      problem_with_status: "بود مشکل تغییر وضعیت خانوادگی شما وجود ندارد"
+      status_indicator: است
+      status_update_prompt: "چه کسانی هستند به شما انجام در حال حاضر؟"
+      template_or_item_required: "فعالیت نیاز به یک الگو یا یک آیتم را به درستی نمایش داده"
+      update_error: "آخ... بود مشکل وجود دارد. {{errors}}"
+      update_status_message: "وضعیت بروز رسانی کنید!"
+      updating_status_message: "وضعیت به روز رسانی کنید. لطفا صبر کنید."
+      upload_files: "آپلود فایلها"
+      write: "نوشتن نظر"
+      write_prompt: "یک نظر..."
+    activity_templates: 
+      status_update: "وضعیت به روز رسانی ها"

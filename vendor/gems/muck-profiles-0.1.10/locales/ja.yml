@@ -1,0 +1,12 @@
+--- 
+ja: 
+  muck: 
+    profiles: 
+      could_not_find_user: 指定されたユーザーが見つかりませんでした。
+      edit_failure: ながら、お客様プロファイルの更新エラーが発生しました。
+      edit_profile: プロフィールを編集
+      edit_success: 正常にプロファイルを更新
+      problem_editing_account: 問題があるあなたのプロファイルの更新された
+      update_profile: プロフィールを更新
+      upload_photo: 写真をアップロード：
+      view_profile: プロフィール

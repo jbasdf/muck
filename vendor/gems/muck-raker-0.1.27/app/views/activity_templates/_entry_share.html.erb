@@ -1,0 +1,8 @@
+<% if activity.item.entry
+     link = link_to(activity.item.title, visit_path(activity.item.entry), :target => '_blank')
+   else
+     link = link_to(activity.item.title, activity.item.uri, :target => '_blank')
+   end -%>
+<% activity_for(activity, :activity_css_class => 'activity-share') do -%>
+  <%= t('muck.shares.share_activity_content', :link => link, :message => activity.item.message) %>
+<% end -%>

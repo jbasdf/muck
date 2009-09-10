@@ -1,0 +1,49 @@
+--- 
+et: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: Sõbrad
+    friends: 
+      acccept_friend_request: "Nõus Sõbrale taotluse {{user}}"
+      accept: (nõus)
+      block: "Blokeeri {{user}}"
+      block_problem: "Tekkis viga blokeerimise {{user}}"
+      blocked: "Blokeeritud {{user}}"
+      delete: "(välja jäetud)"
+      follow_activity: "{{inviter}} On nüüd järgmine {{invited}}"
+      followers: Followers
+      following: Järgnev
+      following_you: "{{name}} On nüüd järgmine teid {{application_name}}"
+      friend_request: "{{name}} On saatnud sulle sõber taotluse {{application_name}}"
+      friend_request_links: "{{profile}} Saadetakse soovi sinu sõber {{accept}} {{ignore}}"
+      friend_request_pending: "Sõbrale taotleda kuni {{link}}"
+      friend_request_prompt: "Saada {{user}} sõbraks"
+      friend_request_sent: "Sõbrale Taotlus saadetud"
+      friends: Sõbrad
+      friends_title: Sõbrad
+      friends_with: "{{inviter}} On nüüd sõpru {{invited}}"
+      ignore: (ignoreerida)
+      login: "sisse logima"
+      login_or_sign_up_to_follow: "{{login}} Või {{signup}} jälgida kasutaja"
+      login_or_sign_up_to_friend: "{{login}} Või {{signup}} saata taotlusi sõber"
+      mutual_friends: "Ühised sõbrad"
+      no_followers: "Nr Followers"
+      no_friends: "Sõbrad puuduvad"
+      no_mutual_friends: "Nr ühiseid sõpru leida"
+      not_following_anyone: "Ei Pärast Igaüks"
+      problem_adding_follow: "Probleem lisades {{user}} oma järgida nimekirja. Palun proovi uuesti."
+      problem_sending_friend_request: "Probleem saatmine sõbrale taotluse {{user}}. Palun proovi uuesti."
+      removed_following_error: "Probleem tekkis, üritades unfollow {{user}}"
+      removed_friendship: "Eemaldatud {{user}} sõpradega"
+      removed_friendship_error: "Tekkis probleem kõrvaldada {{user}} loendist sõbrad"
+      same_inviter_error_message: "Kasutaja ei ole saanud sõpru endale."
+      signup: registreerimine
+      start_following: "Jälgi {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Peatus Pärast {{user}}"
+      stopped_following: "Edukalt lõpetatud järgmised {{user}}"
+      unblock: "Tühista {{user}}"
+      unblocked: "Unblocked {{user}}"
+      view_all: "Vaata kõiki"
+      you_are_now_following: "Olete nüüd järgmine {{user}}"

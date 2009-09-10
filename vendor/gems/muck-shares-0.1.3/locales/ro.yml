@@ -1,0 +1,22 @@
+--- 
+ro: 
+  muck: 
+    activity_templates: 
+      share: Acţiuni
+    shares: 
+      add_share: Împărtăşi
+      add_share_button: Împărtăşi
+      adding_share: "Schimbul de pagina ..."
+      cancel_share_button: Anulare
+      cant_delete_share: "Nu aveţi permisiunea de a şterge acea parte"
+      create_error: "Nu am putut crea ponderea: {{errors}}"
+      create_success: "Succes partajat pagina"
+      login_prompt: "Login pentru a împărtăşi"
+      message: Mesaj
+      new_share: "Ponderea un link"
+      problem_adding_share: "A apărut o problemă la adăugarea de partea ta"
+      share_activity_content: "împărtăşite {{link}}.  {{message}}"
+      share_removed: "Ponderea a fost eliminat cu succes."
+      share_title: "Partajaţi acest link"
+      title: Titlu
+      uri: Url

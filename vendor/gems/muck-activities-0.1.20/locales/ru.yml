@@ -1,0 +1,34 @@
+--- 
+ru: 
+  muck: 
+    activities: 
+      activity_feed_title: "Последние действия"
+      add_photos: "Добавить фотографии"
+      add_videos: "Отправить видео"
+      adding_comment_message: "Добавление комментария ..."
+      all_activities: "Все мероприятия"
+      clear: Ясный
+      create_error: "Был проблемой добавлении просил деятельности: {{error}}"
+      delete: Удалить
+      invite_friends: "Пригласить друзей"
+      item_could_not_be_removed: "Пункт не может быть удален из последнего списка видов деятельности."
+      item_created: "Добавлено деятельности"
+      item_removed: "Пункт успешно удалена из последнего списка видов деятельности."
+      joined_status: "{{name}} Вступил {{application_name}}"
+      make_comment: Комментарии
+      paging_newer: «Позже
+      paging_older: "Раньше »"
+      permission_denied: "К сожалению, вы не можете этого делать."
+      post: Разделять
+      problem_with_status: "Был проблема смены статуса"
+      status_indicator: быть
+      status_update_prompt: "Что вы делаете сейчас?"
+      template_or_item_required: "Деятельность требует шаблон или пункт правильного отображения"
+      update_error: "К сожалению ... Был проблема. {{errors}}"
+      update_status_message: "обновить статус!"
+      updating_status_message: "Обновление статуса. Пожалуйста, подождите."
+      upload_files: "Загрузить файлы"
+      write: Писать
+      write_prompt: "Напишите комментарий ..."
+    activity_templates: 
+      status_update: "Статус обновления"

@@ -1,0 +1,22 @@
+--- 
+sl: 
+  muck: 
+    activity_templates: 
+      share: Delnice
+    shares: 
+      add_share: Deliti
+      add_share_button: Deliti
+      adding_share: "Sharing strani ..."
+      cancel_share_button: Prekliči
+      cant_delete_share: "Nimate dovoljenja za brisanje ta delež"
+      create_error: "Ne morem ustvariti delež: {{errors}}"
+      create_success: "Uspešno skupni page"
+      login_prompt: "Prijava za izmenjavo"
+      message: Message
+      new_share: "Share Link"
+      problem_adding_share: "Prišlo je do težave dodajanje delež"
+      share_activity_content: "skupna {{link}}. {{message}}"
+      share_removed: "Delež uspešno odstraniti."
+      share_title: "Share This Link"
+      title: Naslov
+      uri: Url

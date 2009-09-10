@@ -1,0 +1,7 @@
+--- 
+th: 
+  muck: 
+    blogs: 
+      add_post: เพิ่มโพสต์
+      add_post_link: เพิ่มโพสต์
+      blog_title: "สำหรับบล็อก {{title}}"

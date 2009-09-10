@@ -1,0 +1,30 @@
+--- 
+hi: 
+  muck: 
+    activities: 
+      activity_feed_title: "हाल की गतिविधि"
+      adding_comment_message: "टिप्पणी जोड़ना ..."
+      all_activities: "सभी क्रियाएँ"
+      clear: स्पष्ट
+      create_error: "वहाँ एक समस्या का अनुरोध गतिविधि जोड़कर: {{error}} था"
+      delete: मिटाना
+      invite_friends: "दोस्तों को आमंत्रित करें"
+      item_could_not_be_removed: "आइटम हाल की गतिविधियों की सूची से हटाया नहीं जा सका."
+      item_created: "जोड़ा गया गतिविधि"
+      item_removed: "आइटम को सफलतापूर्वक हाल की गतिविधियों की सूची से हटा दिया."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: टिप्पणी
+      paging_newer: «नया
+      paging_older: "पुराने »"
+      permission_denied: "क्षमा करें, आप ऐसा नहीं कर सकते."
+      post: हिस्सा
+      problem_with_status: "एक समस्या अपनी स्थिति बदल गई"
+      status_indicator: है
+      status_update_prompt: "तुम अभी क्या कर रहे हैं?"
+      template_or_item_required: "एक गतिविधि एक या एक मद को सही ढंग से प्रदर्शित करने के लिए टेम्पलेट की आवश्यकता है"
+      update_error: "उफ़ ... वहाँ एक समस्या थी. {{errors}}"
+      update_status_message: "अपनी स्थिति अद्यतन!"
+      updating_status_message: "अपनी स्थिति अद्यतन. कृपया प्रतीक्षा करें."
+      write_prompt: "टिप्पणी लिखें ..."
+    activity_templates: 
+      status_update: "स्तर अपडेट"

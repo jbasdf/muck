@@ -1,0 +1,22 @@
+--- 
+fa: 
+  muck: 
+    activity_templates: 
+      share: سهام
+    shares: 
+      add_share: تقسیم
+      add_share_button: تقسیم
+      adding_share: "به اشتراک گذاری صفحه..."
+      cancel_share_button: انصراف
+      cant_delete_share: "شما مجاز به حذف آن سهم ندارد"
+      create_error: "می تواند سهم ایجاد نمی شود : {{errors}}"
+      create_success: "صفحه با موفقیت به مشترک"
+      login_prompt: "ورود به سیستم برای به اشتراک گذاشتن"
+      message: پیام
+      new_share: "تقسیم یک پیوند"
+      problem_adding_share: "یک مشکل در اضافه کردن سهم شما وجود دارد."
+      share_activity_content: "مشترک {{link}}.  {{message}}"
+      share_removed: "تقسیم با موفقیت حذف شد."
+      share_title: "تقسیم این پیوند"
+      title: عنوان
+      uri: کلیپ

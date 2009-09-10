@@ -1,0 +1,44 @@
+--- 
+sv: 
+  muck: 
+    activity_templates: 
+      follow: Efterföljare
+      friends_with: Vänner
+    friends: 
+      acccept_friend_request: "Godkänn vänbegäran Från {{user}}"
+      accept: (acceptera)
+      delete: (radera)
+      follow_activity: "{{inviter}} Är nu följande {{invited}}"
+      followers: Efterföljare
+      following: Följande
+      following_you: "{{name}} Nu efter dig på {{application_name}}"
+      friend_request: "{{name}} Har skickat en begäran om vänskap på {{application_name}}"
+      friend_request_links: "{{profile}} Skickat en vänbegäran {{accept}} {{ignore}}"
+      friend_request_pending: "Vänbegäran väntan {{link}}"
+      friend_request_prompt: "Skicka {{user}} en vänbegäran"
+      friend_request_sent: "Vänbegäran Skickat"
+      friends: Vänner
+      friends_title: "Mina vänner"
+      friends_with: "{{inviter}} Är nu vän med {{invited}}"
+      ignore: (ignorera)
+      login: "logga in"
+      login_or_sign_up_to_follow: "{{login}} Eller {{signup}} att följa denna användare"
+      login_or_sign_up_to_friend: "{{login}} Eller {{signup}} att skicka vänförfrågningar"
+      mutual_friends: "Ömsesidigt Vänner"
+      no_followers: "Nr Anhängarna"
+      no_friends: "Inga vänner"
+      no_mutual_friends: "Inga gemensamma vänner hittade"
+      not_following_anyone: "Inte Efter Alla"
+      problem_adding_follow: "Det uppstod ett problem att lägga {{user}} på ditt följa listan. Please try again."
+      problem_sending_friend_request: "Det uppstod ett problem med att skicka en vänbegäran till {{user}}. Please try again."
+      removed_following_error: "Ett problem uppstod vid försök att unfollow {{user}}"
+      removed_friendship: "Borttaget {{user}} från dina vänner"
+      removed_friendship_error: "Det uppstod ett problem att ta bort {{user}} från din lista med vänner"
+      same_inviter_error_message: "Användare kan inte bli vän med sig själv."
+      signup: signup
+      start_following: "Följ {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stopp Efter {{user}}"
+      stopped_following: "Successfully stoppas efter {{user}}"
+      view_all: "Visa alla"
+      you_are_now_following: "Du är nu följande {{user}}"

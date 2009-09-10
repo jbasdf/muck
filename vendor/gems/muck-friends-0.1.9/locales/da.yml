@@ -1,0 +1,44 @@
+--- 
+da: 
+  muck: 
+    activity_templates: 
+      follow: Tilhængere
+      friends_with: Venner
+    friends: 
+      acccept_friend_request: "Accepter ven anmodning fra {{user}}"
+      accept: (accepter)
+      delete: (slet)
+      follow_activity: "{{inviter}} Er nu følgende {{invited}}"
+      followers: Tilhængere
+      following: Følgende
+      following_you: "{{name}} Følger nu du på {{application_name}}"
+      friend_request: "{{name}} Har sendt dig en ven anmodning om {{application_name}}"
+      friend_request_links: "{{profile}} Sendt dig en anmodning om venskab {{accept}} {{ignore}}"
+      friend_request_pending: "Ven anmodning indtil {{link}}"
+      friend_request_prompt: "Send {{user}} en anmodning om venskab"
+      friend_request_sent: "Ven Anmodning Sendte"
+      friends: Venner
+      friends_title: "Mine venner"
+      friends_with: "{{inviter}} Er nu venner med {{invited}}"
+      ignore: (ignore)
+      login: login
+      login_or_sign_up_to_follow: "{{login}} Eller {{signup}} at følge denne bruger"
+      login_or_sign_up_to_friend: "{{login}} Eller {{signup}} at sende anmodninger om venskab"
+      mutual_friends: "Fælles venner"
+      no_followers: "Nr. Tilhængere"
+      no_friends: "Ingen venner"
+      no_mutual_friends: "Ingen fælles venner fundet"
+      not_following_anyone: "Ikke Efter Enhver"
+      problem_adding_follow: "Der var et problem at tilføje {{user}} til din følge listen. Please try again."
+      problem_sending_friend_request: "Der var et problem at sende en anmodning om venskab til {{user}}. Please try again."
+      removed_following_error: "At der opstod et problem under forsøget på at unfollow {{user}}"
+      removed_friendship: "Fjernet {{user}} fra dine venner"
+      removed_friendship_error: "Der var et problem at fjerne {{user}} fra din liste over venner"
+      same_inviter_error_message: "Bruger kan ikke være venner med selv."
+      signup: signup
+      start_following: "Følg {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop Efter {{user}}"
+      stopped_following: "Held stoppet efter {{user}}"
+      view_all: "Vis alle"
+      you_are_now_following: "Du er nu følgende {{user}}"

@@ -1,0 +1,32 @@
+--- 
+cs: 
+  muck: 
+    contents: 
+      add: Přidat
+      cancel: Zrušit
+      cant_delete_content: "Nemáte oprávnění k odstranění uvedených obsah"
+      choose_layout: "Vyberte šablonu"
+      choose_layout_help: "Vyberte rozvržení šablony, které budou činit v chromované pro tuto stránku."
+      confirm_delete_content: "Opravdu si přejete smazat tento obsah? To nelze vrátit zpět!"
+      content_help: "To je obsah, který se zobrazí na stránce."
+      content_label: Obsah
+      content_removed: "Obsah úspěšně odstraněn"
+      create_error: "Došlo k problému přidává svůj obsah"
+      default_404_body: "Nepodařilo se nám najít stránku, kterou hledáte."
+      default_404_title: "404 Stránka nebyla nalezena"
+      delete: Odstranit
+      delete_title: "Odstranit tuto stránku."
+      edit: Upravit
+      edit_title: "Upravit tuto stránku."
+      manage_pages_title: "Správa obsahu stránek"
+      no_uri_error: "Prosím nastavte hodnotu uri před uložením modelu, kdy contentable je nula"
+      page_doesnt_exist_create: "Na stránce jste si vyžádali neexistuje. Uveďte, prosím níže uvedené informace o vytvoření stránky."
+      permalink: "Permalink:"
+      problem_adding_content: "Došlo k problému při přidávání obsahu"
+      problem_updating_content: "Došlo k problému při aktualizaci obsahu"
+      save: Uložit
+      submit_content_button: Uložit
+      tag_information: "Štítky pomáhají ostatním uživatelům najít vaši stránku a bude použita jako meta klíčová slova pro dokument."
+      tags: Tagy
+      title_help: "Nadpis kontroly URL a název stránky zobrazené v url bar"
+      title_label: Název

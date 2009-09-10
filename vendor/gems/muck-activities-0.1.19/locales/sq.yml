@@ -1,0 +1,30 @@
+--- 
+sq: 
+  muck: 
+    activities: 
+      activity_feed_title: "Aktivitet e fundit"
+      adding_comment_message: "Shtimi i koment ..."
+      all_activities: "Të gjitha Aktivitete"
+      clear: "I qartë"
+      create_error: "Ka ndodhur një problem duke shtuar aktivitetin e kërkuar: {{error}}"
+      delete: Fshij
+      invite_friends: "Fto Miq"
+      item_could_not_be_removed: "Item nuk mund të hiqet nga lista e aktiviteteve të fundit."
+      item_created: "Added Aktiviteti"
+      item_removed: "Item sukses të hiqen nga lista e aktiviteteve të fundit."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: Koment
+      paging_newer: "«I / e re"
+      paging_older: "E vjeter »"
+      permission_denied: "Na vjen keq, ju nuk mund ta bëjë këtë."
+      post: Pjesë
+      problem_with_status: "Ka ndodhur një problem në ndryshim të statusit tuaj"
+      status_indicator: është
+      status_update_prompt: "Çfarë po bën tani?"
+      template_or_item_required: "Një aktivitet kërkon një template ose një objekt për të shfaqur korrekte"
+      update_error: "Oops ... Ka ndodhur një problem. {{errors}}"
+      update_status_message: "update your status!"
+      updating_status_message: "Përditësimi statusin tuaj. Ju lutem prisni."
+      write_prompt: "Shkruani një koment ..."
+    activity_templates: 
+      status_update: "Statusi Updates"

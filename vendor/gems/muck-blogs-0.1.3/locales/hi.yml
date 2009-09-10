@@ -1,0 +1,7 @@
+--- 
+hi: 
+  muck: 
+    blogs: 
+      add_post: "जोड़ें पोस्ट"
+      add_post_link: "जोड़ें पोस्ट"
+      blog_title: "ब्लॉग {{title}} के लिए"

@@ -1,0 +1,18 @@
+--- 
+pt: 
+  muck: 
+    forms: 
+      please_enter_a_value: "Por favor, introduza um valor para {{label}}"
+    general: 
+      activate: Activar
+      deactivate: Desactivar
+      delete: Excluir
+      disable: Habilitar
+      enable: Desabilitar
+      enabled: Ativado?
+      general_info: "General info"
+      help: Ajuda
+      no_text: Não
+      save: Salvar
+      settings_saved: "Configurações foram salvas."
+      yes_text: Sim

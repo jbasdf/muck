@@ -1,0 +1,141 @@
+--- 
+lv: 
+  muck: 
+    activity_templates: 
+      entry_comment: Komentārs
+    raker: 
+      add_extended_feed_sub_title: "Sekmēt jaunu datu avotu,"
+      add_extended_feed_title: "Pievienot jaunu barotni"
+      add_feed: "Add Feed"
+      add_feed_advanced: "Pievienojiet plūsmu (Advanced)"
+      add_feed_title: "Pievienot jaunu barotni"
+      add_feed_url: "Url:"
+      all_resources: "Visi resursi"
+      already_added_uri_feed: "Jūs jau esat pievienotās url {{uri}}"
+      already_added_username_feed: "Jūs jau esat pievienotās {{service}} konta lietotājvārds {{username}}"
+      already_shared: "Jūs esat iepriekš piedalījušās šajā lapā."
+      amazon_prompt: "Lūdzu, ievadiet e-pasta lietojat ar Amazon.com"
+      atom: Atoms
+      available_services: "Available Services"
+      ban_feed: "Mark barībā, kā nederīgu"
+      banned: aizliegts
+      blogger_prompt: "URL Blog"
+      calculated: aprēķina
+      cant_modify_identity_feed: "Jums nav tiesību piekļūt norādīto barību."
+      choose_service: "Izvēlēties pakalpojumu:"
+      close: Aizvērt
+      collection_description: "Collection Apraksts:"
+      collection_home_uri: "Adrese Collection Home Page"
+      collection_uri: "Adrese Collection Metadata:"
+      collections: Collections
+      collections_long: "Indeksētā Collections"
+      comment_entries_count: 
+        one: "1 komentārs"
+        other: "{{count}} Komentāri"
+      course_search_results: "Kursi <b>{{first}} - {{last}}</b> par <b>{{total}}</b> meklēšanai <b>{{terms}}</b>"
+      course_tag_results: "Kursi <b>{{first}} - {{last}}</b> no <b>{{total}}</b> tagged <b>{{terms}}</b>"
+      courses_tag_cloud_label: "Pārlūkot Kursus izmantot tagus <a href=\"/resources\">[pārlūkot visu resursu]</a>"
+      demo: Demo
+      description: Apraksts
+      details: Details
+      developers_long: "Informācija izstrādātājiem"
+      direct_link: "[Direct link]"
+      discover_feed: "Discover Feed"
+      discover_feed_message: "Meklē informāciju par url jūs norādījāt. Please wait."
+      display_url: "Url ir Attēlots:"
+      entry_commment_contents: "komentēja {{resource}}"
+      facebook_instructions: "Par Mani Saites lapu, ar peles labo pogu noklikšķiniet uz &quot;Mani Links &#39;un kopēt saites. Mēs automātiski ietver statusa, saites un piezīmes."
+      facebook_link: "Jūs varat atrast savu URL jūsu Facebook Manas saites lapā. {{link}} Un tad noklikšķiniet uz &quot;Mani Saites &#39;"
+      facebook_notes: "Facebook Piezīmes"
+      facebook_notifications: "Facebook Paziņojumi"
+      facebook_prompt: "Jūsu Facebook Mani Saites URL"
+      facebook_shares: "Facebook Shared Saites"
+      failed_harvests: "Neizdevās ražas"
+      failed_last_request: "Failed pēdējā pieprasījuma: {{error}}"
+      feed_banned_message: "Barība ir veiksmīgi aizliegta."
+      feed_successfully_created: "Feed tika veiksmīgi izveidots."
+      feed_successfully_updated: "Barība ir veiksmīgi atjaunināts."
+      feed_validated_message: "Barība ir veiksmīgi apstiprināts."
+      feeds_title: "Registered Collections"
+      for: dēļ
+      friendfeed_prompt: "FriendFeed RSS URL"
+      friendfeed_rss: "Jūs varat atrast savu URL apakšā Jūsu {{link}}."
+      gm_more_prompt: "Vairāk Saistītie resursi"
+      gm_title: "Saistītie resursi"
+      goodreads_prompt: "Goodreads profils URL"
+      goodreads_rss: "piemēram, http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Ražas intervāls (stundas)"
+      harvested_at: Novākti
+      hide: Slēpt
+      identity_feed_removed: "Atcēlušas ar pakalpojumiem"
+      identity_feeds: "Identity Feeds"
+      import_service: "Import {{service}}"
+      linkedin_prompt: "LinkedIn publisko profilu URL"
+      linkedin_rss: "Jūs varat atrast savu URL apakšā Jūsu {{link}}."
+      loading_content_image: ", Satura ielādi image"
+      login: Pieteikšanās
+      login_or_signup_prompt: "{{signup}} Vai {{login}} diskutēt un dalīties resursos."
+      login_to_comment: "Login to pievienot komentāru"
+      metadata: metadati
+      my_services: "Mani pakalpojumi"
+      narrow_further: "šaurs rezultātiem,"
+      netflix_prompt: "Netflix Queue RSS URL"
+      netflix_rss: "Jūs varat atrast savu URL jūsu {{link}}. Ņemiet vērā, ka ir vairākas plūsmas, kas pieejams jūsu Netflix Queue lapā (Queue, Ieteikumi, filmu recenzijas, utt.) Pievienot tik daudz, cik vēlaties!"
+      new_global_feed: "Jauna barība ir pievienots {{application_name}}"
+      next: Nākamais
+      next_label: Nākamais
+      no_feeds_at_uri: "Mēs nevarējām atrast, ņemot vērā url"
+      no_feeds_from_username: "Mēs nevarējām atrast ņemot vērā"
+      no_hits: "Jūsu meklēšana - <b>{{search}}</b> - neatbilst nevienam <b>{{resource_type}}.</b> Lūdzu, mēģiniet citu meklēšanu vai izvēlieties citu valodu."
+      no_tagged_courses: "Nē <b>kursi</b> tika atrasti tagged with <b>{{tags}}.</b> <a href='/resources'>Sākt no jauna</a> vai parādīt <a href='/resources/tags/{{tags}}'>visus resursus tagged {{tags}}.</a>"
+      no_tagged_resources: "<b>Resursi netika</b> atrasts tagged with <b>{{tags}}.</b> <a href='/resources'>Sākt no jauna.</a>"
+      no_tags: "Nav atslēgvārdu pagaidām nav vēl pieejami"
+      oai_prompt: "Ja jūs norādiet OAI, jums ir jānorāda pilns URL ListRecords pieprasījumu (ne tikai OAI rezultāts)"
+      of: "no"
+      ok: OK
+      only_courses: "Tikai Kursi"
+      polyvore_prompt: "Polyvore profils URL"
+      polyvore_rss: "Jūsu Polyvore profils URL izskatās http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "powered by"
+      previous: Iepriekšējais
+      previous_label: Iepriekšējais
+      problem_adding_feed: "Radās problēma pievienojot barībai:"
+      rdf: RDF
+      related_resources: related
+      related_resources_title: "Saistītie resursi"
+      relevance: relevance
+      remix: Remix
+      repository_short_title: "Repozitorijs Short Nosaukums:"
+      repository_title: "Repository Nosaukums:"
+      resource_search_results: "Resursi <b>{{first}} - {{last}}</b> par <b>{{total}}</b> meklēšanai <b>{{terms}}</b>"
+      resource_tag_results: "Resursi <b>{{first}} - {{last}}</b> no <b>{{total}}</b> tagged <b>{{terms}}</b>"
+      resources_tag_cloud_label: "pārlūkot resursiem, izmantojot tagus <a href=\"/resources?grain_size=course\">[pārlūkot tikai kursi]</a>"
+      results: Rezultāti
+      rss: RSS
+      rss_url: "URL rss feed"
+      search: meklēt
+      search_button: Iet
+      search_link: "Atrast resursus!"
+      select_feeds_prompt: "Izvēlieties feeds vēlaties pievienot:"
+      select_service_prompt: "Lūdzu, izvēlieties dienests"
+      service_username: "{{service}} Lietotājvārds"
+      share: Dalīties
+      short_title: "Short nosaukums:"
+      show_tagged_courses: "Rādīt tikai kursi"
+      show_tagged_resources: "Parādīt visu veidu resursu"
+      signup: "Sign Up"
+      spinner_image: "Waiting image"
+      start_over: "sākt no sākuma"
+      status: Statuss
+      submitting_feed_message: "Iesniedzot savu barotni ..."
+      successfully_added_uri_feed: "Veiksmīgi pievienots {{uri}}"
+      successfully_added_username_feed: "Veiksmīgi pievienots {{service}}"
+      tags: tags
+      title: Nosaukums
+      type_of_metadata: "Type of Metadata:"
+      uri: Url
+      validate_feed: "Mark barību derīgs"
+      visit: vizīte
+      xml: XML
+      zotero_group_prompt: "Zotero grupas URL"
+      zotero_group_rss: "Jūsu Zotero grupa URL izskatās: http://www.zotero.org/groups/adventures_in_library_instruction/items"

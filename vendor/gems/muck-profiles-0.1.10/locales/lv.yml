@@ -1,0 +1,12 @@
+--- 
+lv: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Neizdevās atrast norādīto lietotāju."
+      edit_failure: "Kļūda atjaunināt savu profilu."
+      edit_profile: "Labot profilu"
+      edit_success: "Veiksmīgi atjaunojis savu profilu"
+      problem_editing_account: "Radās problēma atjaunina savu profilu"
+      update_profile: "Update Profile"
+      upload_photo: "Upload Photo:"
+      view_profile: "View Profile"

@@ -1,0 +1,22 @@
+--- 
+el: 
+  muck: 
+    activity_templates: 
+      share: Μετοχές
+    shares: 
+      add_share: Μοιράζομαι
+      add_share_button: Μοιράζομαι
+      adding_share: "Κοινοχρησία σελίδα ..."
+      cancel_share_button: Ακύρωση
+      cant_delete_share: "Δεν έχετε δικαίωμα να διαγράψετε το μερίδιο"
+      create_error: "Δεν ήταν δυνατή η δημιουργία του μεριδίου: {{errors}}"
+      create_success: "Επιτυχής κοινές σελίδα"
+      login_prompt: "Σύνδεση με μερίδιο"
+      message: Μήνυμα
+      new_share: "Μοιραστείτε μια Link"
+      problem_adding_share: "Υπήρξε πρόβλημα στην προσθήκη σας μερίδιο"
+      share_activity_content: "κοινές {{link}}.  {{message}}"
+      share_removed: "Μερίδιο με επιτυχία."
+      share_title: "Μοιραστείτε αυτό το σύνδεσμο"
+      title: Τίτλος
+      uri: Url

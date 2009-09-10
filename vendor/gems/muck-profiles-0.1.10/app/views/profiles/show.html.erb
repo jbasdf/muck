@@ -1,0 +1,5 @@
+<div class="span-24 colborder column">
+  <%= icon @user, :thumb %>
+  <p><%= @user.full_name %></p>
+  <p><%= link_to t('muck.profiles.edit_profile'), edit_user_profile_path(@user) if @profile.can_edit?(current_user) %></p>
+</div>

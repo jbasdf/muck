@@ -13,6 +13,29 @@ namespace :muck do
   BLUE = "\033[0;34m"
   INVERT = "\033[00m"
   
+  desc "Unpacks all muck gems into vendor/gems."
+  task :unpack => :install_gems do
+    gem_path = File.join(File.dirname(__FILE__), '..', '..', 'vendor', 'gems')
+    FileUtils.mkdir_p(gem_path) unless File.exists?(gem_path)
+    inside gem_path do
+      system('gem unpack babelphish')
+      system('gem unpack cms-lite')
+      system('gem unpack disguise')
+      system('gem unpack uploader')
+      system('gem unpack muck-solr')
+      system('gem unpack muck-raker')
+      system('gem unpack muck-engine')
+      system('gem unpack muck-users')
+      system('gem unpack muck-activities')
+      system('gem unpack muck-comments')
+      system('gem unpack muck-profiles')
+      system('gem unpack muck-friends')
+      system('gem unpack muck-contents')
+      system('gem unpack muck-blogs')
+      system('gem unpack muck-shares')
+    end
+  end
+  
   desc 'Translate muck and all themes from English into all languages supported by Google'
   task :translate do
     file = File.join(File.dirname(__FILE__), '..', '..', 'config', 'locales', 'en.yml')

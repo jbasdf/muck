@@ -1,0 +1,16 @@
+--- 
+ja: 
+  muck: 
+    activity_templates: 
+      comment: コメント
+    comments: 
+      add_comment: コメント
+      add_comment_button: コメントの追加
+      cant_delete_comment: 使用する許可は、コメントを削除する必要はありません
+      comment_removed: コメントが正常に削除されます。
+      create_error: "コメント{{errors}}を作成できませんでした"
+      create_success: 正常にコメントを追加しました
+      missing_comment_template_error: "{{partial}}.名前の一部が見つかりませんでしたご希望のコメント部分、もう一度試して作成してください。"
+      new_comment_no_title: 新しいコメントの追加
+      new_comment_with_title: "{{title}}に新しいコメントを追加"
+      problem_adding_comment: コメントを追加中にエラーが発生しました

@@ -1,0 +1,6 @@
+en:
+  muck:
+    blogs:
+      blog_title: Blog for {{title}}
+      add_post: "Add Post"
+      add_post_link: "Add Post"

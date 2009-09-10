@@ -1,0 +1,22 @@
+--- 
+ru: 
+  muck: 
+    activity_templates: 
+      share: Акции
+    shares: 
+      add_share: Разделять
+      add_share_button: Разделять
+      adding_share: "Обмен страницу ..."
+      cancel_share_button: Отмена
+      cant_delete_share: "У вас нет разрешения на удаление, что доля"
+      create_error: "Не удалось создать доли: {{errors}}"
+      create_success: "Успешно общих страниц"
+      login_prompt: "Войти в долю"
+      message: Сообщение
+      new_share: "Отправить ссылку"
+      problem_adding_share: "Был проблема добавить свою долю"
+      share_activity_content: "общая {{link}}.  {{message}}"
+      share_removed: "Доля успешно удален."
+      share_title: "Доля этой ссылке"
+      title: Название
+      uri: Url

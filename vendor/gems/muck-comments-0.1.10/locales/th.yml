@@ -1,0 +1,18 @@
+--- 
+th: 
+  muck: 
+    activity_templates: 
+      comment: ความคิดเห็น
+    comments: 
+      add_comment: ความคิดเห็น
+      add_comment_button: เพิ่มความคิดเห็น
+      anonymous: ไม่ระบุชื่อ
+      cant_delete_comment: คุณไม่ได้รับสิทธิ์ในการลบความคิดเห็นที่
+      comment_removed: ความคิดเห็นสำเร็จลบ.
+      create_error: "ไม่สามารถสร้าง {{errors}} ความคิดเห็น"
+      create_success: สำเร็จเพิ่มความคิดเห็น
+      missing_comment_template_error: "ไม่พบ {{partial}}. ชื่อบางส่วนโปรดสร้างความคิดเห็นบางส่วนและลองอีกครั้ง."
+      new_comment_email_subject: "ความคิดเห็นใหม่จาก {{name}} ใน {{application_name}}"
+      new_comment_no_title: เพิ่มความคิดเห็นใหม่
+      new_comment_with_title: "เพิ่มความคิดเห็นใหม่ {{title}}"
+      problem_adding_comment: มีปัญหาการเพิ่มข้อคิดเห็นของคุณได้

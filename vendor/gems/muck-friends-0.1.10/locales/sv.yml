@@ -1,0 +1,49 @@
+--- 
+sv: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: Vänner
+    friends: 
+      acccept_friend_request: "Acceptera Friend Request Från {{user}}"
+      accept: (acceptera)
+      block: "Block {{user}}"
+      block_problem: "Det uppstod ett fel blockering {{user}}"
+      blocked: "Blockerade {{user}}"
+      delete: (radera)
+      follow_activity: "{{inviter}} Följer nu {{invited}}"
+      followers: Followers
+      following: Följande
+      following_you: "{{name}} Är nu efter dig på {{application_name}}"
+      friend_request: "{{name}} Har skickat en begäran om vänskap på {{application_name}}"
+      friend_request_links: "{{profile}} Skickat en begäran om vänskap {{accept}} {{ignore}}"
+      friend_request_pending: "Friend Request avvaktan {{link}}"
+      friend_request_prompt: "Skicka {{user}} en Friend Request"
+      friend_request_sent: "Friend Request Skickat"
+      friends: Vänner
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Är nu vän med {{invited}}"
+      ignore: (ignorera)
+      login: "logga in"
+      login_or_sign_up_to_follow: "{{login}} Eller {{signup}} att följa denna användare"
+      login_or_sign_up_to_friend: "{{login}} Eller {{signup}} att skicka vänförfrågningar"
+      mutual_friends: "Gemensamma vänner"
+      no_followers: "Ingen Followers"
+      no_friends: "Inga vänner"
+      no_mutual_friends: "Inga gemensamma vänner hittades"
+      not_following_anyone: "Inte Efter Anyone"
+      problem_adding_follow: "Det uppstod ett problem att lägga {{user}} att följa din lista. Försök igen."
+      problem_sending_friend_request: "Det uppstod ett problem med att skicka en begäran om vänskap till {{user}}. Försök igen."
+      removed_following_error: "Ett problem uppstod när unfollow {{user}}"
+      removed_friendship: "Removed {{user}} från dina vänner"
+      removed_friendship_error: "Det uppstod ett problem att ta bort {{user}} från din lista med vänner"
+      same_inviter_error_message: "Medlemmen kan inte bli vän med sig själv."
+      signup: Signup
+      start_following: "Följ {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop Efter {{user}}"
+      stopped_following: "Framgångsrikt stannade följande {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "Hävs {{user}}"
+      view_all: "Visa alla"
+      you_are_now_following: "Du är nu {{user}} följande"

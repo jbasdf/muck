@@ -1,0 +1,49 @@
+--- 
+es: 
+  muck: 
+    activity_templates: 
+      follow: Seguidores
+      friends_with: Amigos
+    friends: 
+      acccept_friend_request: "Aceptar Amigo De {{user}}"
+      accept: (aceptar)
+      block: "Bloque {{user}}"
+      block_problem: "Hubo un error de bloqueo {{user}}"
+      blocked: "Bloqueados {{user}}"
+      delete: (eliminar)
+      follow_activity: "{{inviter}} Está siguiendo {{invited}}"
+      followers: Seguidores
+      following: Siguiente
+      following_you: "{{name}} Está siguiendo usted en {{application_name}}"
+      friend_request: "{{name}} Ha enviado una solicitud de amigo en {{application_name}}"
+      friend_request_links: "{{profile}} Enviado una solicitud de amigo {{accept}} {{ignore}}"
+      friend_request_pending: "Solicitud de amigo {{link}} espera"
+      friend_request_prompt: "Enviar {{user}} una solicitud de amistad"
+      friend_request_sent: "Friend Request Sent"
+      friends: Amigos
+      friends_title: "Mis amigos"
+      friends_with: "{{inviter}} Ahora es amigo de {{invited}}"
+      ignore: (ignorar)
+      login: "inicio de sesión"
+      login_or_sign_up_to_follow: "{{login}} O {{signup}} a seguir este usuario"
+      login_or_sign_up_to_friend: "{{login}} O {{signup}} para enviar solicitudes de amistad"
+      mutual_friends: "Amigos mutuos"
+      no_followers: "No followers"
+      no_friends: "No hay amigos"
+      no_mutual_friends: "No hay amigos en común encontrado"
+      not_following_anyone: "No seguir a nadie"
+      problem_adding_follow: "Hubo un problema al añadir {{user}} a tu lista de seguimiento. Por favor, inténtelo de nuevo."
+      problem_sending_friend_request: "Hubo un problema al enviar una solicitud de amistad a {{user}}. Por favor, inténtelo de nuevo."
+      removed_following_error: "Se produjo un problema al intentar unfollow {{user}}"
+      removed_friendship: "Eliminado {{user}} de tus amigos"
+      removed_friendship_error: "Hubo un problema al quitar {{user}} de tu lista de amigos"
+      same_inviter_error_message: "El usuario no puede ser amigo de sí mismos."
+      signup: signup
+      start_following: "Siga {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Tras dejar de {{user}}"
+      stopped_following: "Detenido con éxito los siguientes {{user}}"
+      unblock: "Desbloquear {{user}}"
+      unblocked: "{{user}} Unblocked"
+      view_all: "Ver todos"
+      you_are_now_following: "Usted está siguiendo ahora {{user}}"

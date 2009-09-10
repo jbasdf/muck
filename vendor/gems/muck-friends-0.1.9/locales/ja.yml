@@ -1,0 +1,44 @@
+--- 
+ja: 
+  muck: 
+    activity_templates: 
+      follow: 信者
+      friends_with: 友人
+    friends: 
+      acccept_friend_request: "友達のリクエストを受け入れる{{user}}投稿者"
+      accept: "（ ）を受け入れる"
+      delete: "（ ）を削除"
+      follow_activity: "{{inviter}}する{{invited}}以下の通りです"
+      followers: 信者
+      following: 支持者
+      following_you: "{{name}}する{{application_name}}を以下の通りです"
+      friend_request: "{{name}}を{{application_name}}の友達リクエストが届いています"
+      friend_request_links: "{{profile}}を{{accept}} {{ignore}}から友達リクエストが届い"
+      friend_request_pending: "保留中の友達のリクエスト{{link}}"
+      friend_request_prompt: "友人のリクエストを送信{{user}}"
+      friend_request_sent: 友達リクエストが届い
+      friends: 友人
+      friends_title: マイフレンド
+      friends_with: "{{inviter}}今の{{invited}}と友達"
+      ignore: "（ ）を無視する"
+      login: ログイン
+      login_or_sign_up_to_follow: "このユーザー{{login}}または{{signup}}従うこと"
+      login_or_sign_up_to_friend: "{{login}}または{{signup}}友達のリクエストを送信する"
+      mutual_friends: 共通の友達
+      no_followers: いいえ信者
+      no_friends: に友達
+      no_mutual_friends: の共通の友達が見つかりました
+      not_following_anyone: 続いていない方
+      problem_adding_follow: "そこが問題のリストに従ってください{{user}}に追加されました。もう一度やり直してください。"
+      problem_sending_friend_request: "中に問題が発生{{user}}.に友達のリクエストが送信されましたもう一度やり直してください。"
+      removed_following_error: "一方{{user}} unfollowしようとして問題が発生しました"
+      removed_friendship: "お友達から{{user}}削除"
+      removed_friendship_error: "友達の中に問題が発生{{user}}リストから削除されました"
+      same_inviter_error_message: ユーザーがその人自身と友達になることはできません。
+      signup: 申し込み
+      start_following: "{{user}}に従ってください"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "次の{{user}}停止"
+      stopped_following: "正常{{user}}次の停止"
+      view_all: すべて見る
+      you_are_now_following: "これ{{user}}以下の通りです。"

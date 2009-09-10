@@ -1,0 +1,34 @@
+--- 
+tl: 
+  muck: 
+    activities: 
+      activity_feed_title: "Recent Aktibidad"
+      add_photos: "Magdagdag ng mga Larawan"
+      add_videos: "Share Videos"
+      adding_comment_message: "Pagdaragdag ng puna ..."
+      all_activities: "Lahat ng mga gawain"
+      clear: Malinaw
+      create_error: "Nagkaroon ng problema ang pagdaragdag ng hiniling na aktibidad: {{error}}"
+      delete: Tanggalin
+      invite_friends: "Imbitahan ang mga Kaibigan"
+      item_could_not_be_removed: "Item ay hindi maaaring tanggalin mula sa listahan ng mga kamakailan-lamang na mga gawain."
+      item_created: "Added aktibidad"
+      item_removed: "Item matagumpay na tinanggal mula sa listahan ng mga kamakailan-lamang na mga gawain."
+      joined_status: "{{name}} Sumali {{application_name}}"
+      make_comment: Comment
+      paging_newer: "«Mas bagong"
+      paging_older: "Mas luma »"
+      permission_denied: "Paumanhin, hindi mo maaaring gawin iyon."
+      post: Ibahagi
+      problem_with_status: "Nagkaroon ng problema sa pagbabago ng iyong kalagayan"
+      status_indicator: ay
+      status_update_prompt: "Ano ang ginagawa mo ngayon?"
+      template_or_item_required: "Ang aktibidad ay nangangailangan ng isang template o isang bagay upang ipakita ang tama"
+      update_error: "Oops ... Nagkaroon ng problema. {{errors}}"
+      update_status_message: "i-update ang iyong katayuan!"
+      updating_status_message: "Ina-update ang iyong kalagayan. Mangyaring maghintay."
+      upload_files: "Mag-upload ng file"
+      write: Magsulat
+      write_prompt: "Sumulat ng puna ..."
+    activity_templates: 
+      status_update: "Status Updates"

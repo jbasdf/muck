@@ -1,0 +1,31 @@
+--- 
+sk: 
+  muck: 
+    engine: 
+      choose_country: "Vyberte krajinu"
+      choose_language: "Vyberte jazyk"
+      choose_state: "Vyberte si štát"
+      missing_parent_error: "Prosím, uveďte materský objekt"
+      select_country_prompt: "Vyberte krajinu"
+      select_language_prompt: "Prosím vyberte jazyk"
+      select_state_prompt: "Prosím, vyberte stav"
+    forms: 
+      please_enter_a_value: "Prosím, zadajte hodnotu pre {{label}}"
+    general: 
+      activate: Aktivovať
+      deactivate: Deaktivovať
+      delete: Odstrániť
+      disable: Umožniť
+      enable: Znemožniť
+      enabled: Povolené?
+      general_info: "Všeobecné info"
+      help: Pomoc
+      next: "Ďalšie »"
+      no_text: Ne
+      previous: «Predchádzajúci
+      read_more: "čítajte viac"
+      save: Uložiť
+      settings_saved: "Nastavenie bolo uložené."
+      time_ago: "{{time_in_words}} Minúty"
+      update: Aktualizovať
+      yes_text: Áno

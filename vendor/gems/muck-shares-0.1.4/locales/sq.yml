@@ -1,0 +1,22 @@
+--- 
+sq: 
+  muck: 
+    activity_templates: 
+      share: Aksionet
+    shares: 
+      add_share: Pjesë
+      add_share_button: Pjesë
+      adding_share: "Sharing faqe ..."
+      cancel_share_button: Anulo
+      cant_delete_share: "Ju nuk keni leje të fshini që ndajnë"
+      create_error: "Nuk mund të krijojnë pjesë: {{errors}}"
+      create_success: "Përbashkëta me sukses faqe"
+      login_prompt: "Identifikohu për të ndarë"
+      message: Mesazh
+      new_share: "Add a Link"
+      problem_adding_share: "Nuk ishte një problem duke shtuar pjesën tuaj"
+      share_activity_content: "përbashkët {{link}}. {{message}}"
+      share_removed: "Share hoq me sukses."
+      share_title: "Share This Link"
+      title: Titulli
+      uri: Url

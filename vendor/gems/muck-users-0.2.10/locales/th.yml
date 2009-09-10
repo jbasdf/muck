@@ -1,0 +1,129 @@
+--- 
+th: 
+  muck: 
+    roles: 
+      assign_role: กําหนดบทบาท
+      edit_roles: แก้ไขบทบาท
+      remove_role: ลบบทบาท
+      role_created: บทบาทสำเร็จสร้าง.
+      roles: บทบาท
+    users: 
+      access_denied: คุณไม่ได้รับสิทธิ์ในการเข้าใช้ที่ร้องขอเพจ.
+      account_activated: "บัญชีของคุณถูกเปิดใช้งาน! ขณะนี้คุณสามารถเข้าสู่ระบบ."
+      account_not_activated: "{{application_name}} บัญชีของคุณยังไม่ได้เปิดใช้งาน."
+      activation_complete: การเปิดใช้งานเสร็จสมบูรณ์
+      activation_instructions: คำแนะนำการเปิดใช้งาน
+      activation_not_found: "การเปิดใช้งานโค้ดไม่พบ. โปรดลองสร้างบัญชีใหม่."
+      admin: 
+        activate_all_inactive_users: เปิดใช้งานผู้ใช้ทั้งหมดไม่ใช้งาน
+        activate_all_inactive_users_confirm: คุณแน่ใจหรือไม่ว่าต้องการเปิดใช้งานทุกคนไม่ได้ใช้งานผู้ใช้ในระบบหรือไม่นี้ไม่สามารถเลิกทำได้!
+        search_users: ค้นหาผู้ใช้
+        show_emails: แสดงอีเมล
+        unactivated_users: "มีผู้ใช้ {{count}} unactivated"
+      admin_users_title: ผู้ใช้งานบริหาร
+      all_users: ผู้ใช้ทั้งหมด
+      already_activated: "บัญชีของคุณได้รับการเปิดใช้งาน. คุณสามารถเข้าสู่ระบบด้านล่าง."
+      already_logged_in: คุณจะได้อยู่ในระบบและไม่จำเป็นต้องกู้คืนรหัสผ่านของคุณ.
+      already_registered: แล้วเป็นสมาชิก?
+      application_base_url_not_set: "กรุณาตั้ง application_base_url ใน global_config.yml"
+      cannot_deactivate_yourself: คุณไม่สามารถยกเลิกการเปิดใช้งานของคุณเอง!
+      change_password: เปลี่ยนรหัสผ่าน
+      change_your_password: เปลี่ยนรหัสผ่านของท่าน
+      choose_member_name: ชื่อสมาชิก
+      complete_profile: โปรไฟล์ของคุณ
+      confirm_delete_account: "คุณแน่ใจหรือไม่ว่าต้องการลบบัญชีของคุณ? \\ NThis ไม่สามารถเลิกทำได้."
+      confirm_password: ยืนยันรหัสผ่าน
+      confirm_select_new_password: ยืนยันการเปลี่ยนรหัสผ่าน
+      could_not_find_reset_code: "ไม่พบรีเซ็ตรหัสผ่านรหัส. โปรดลองรีเซ็ตรหัสผ่านอีกครั้ง."
+      could_not_find_user_with_email: ไม่พบผู้ใช้ที่มีที่อยู่อีเมลที่.
+      current_password: รหัสผ่านปัจจุบัน
+      delete_my_account: ลบบัญชีผู้ใช้ของฉันและข้อมูลทั้งหมดของฉัน.
+      delete_this_user: ลบผู้ใช้รายนี้.
+      edit_profile: แก้ไขโปรไฟล์
+      email_address: ที่อยู่อีเมล
+      email_available: อีเมล์ที่ใช้ได้
+      email_empty: โปรดป้อนที่อยู่อีเมล
+      email_help: "กรุณาใช้ที่ถูกต้องเป็นปัจจุบันอีเมล์. เราจะไม่แบ่งปันหรือจดหมายขยะที่อยู่อีเมลของคุณ."
+      email_invalid: อีเมลไม่ถูกต้อง
+      email_not_available: "อีเมลแล้วในการใช้. {{reset_password_help}}"
+      email_recover_prompt: โปรดระบุอีเมลที่คุณลงทะเบียนกับการกู้รหัสผ่านของคุณ.
+      first_name: ชื่อ
+      forgot_password: ลืมรหัสผ่าน
+      forgot_username: ลืมชื่อผู้ใช้
+      forgot_your_password: ลืมรหัสผ่าน?
+      forgot_your_username: ลืมชื่อผู้ใช้ของคุณ?
+      invalid_username: ชื่อผู้ใช้ไม่ถูกต้อง
+      join_application_name: เข้าร่วมและได้รับการกระทำมัน
+      last_name: นามสกุล
+      login_empty: โปรดป้อนเข้าสู่ระบบ
+      login_fail: "ขออภัยแต่เราไม่สามารถรับรู้ของคุณข้อมูลการเข้าสู่ระบบ. โปรดลองอีกครั้ง."
+      login_out_success: คุณได้ออกจากระบบ.
+      login_requred: คุณต้องเข้าสู่ระบบเพื่อเข้าใช้งานคุณลักษณะนี้.
+      login_success: เข้าสู่ระบบที่ประสบความสำเร็จ!
+      login_title: เข้าสู่ระบบไปยังบัญชีของคุณ
+      logout_required: ~
+      my_dashboard: แผงควบคุมของฉัน
+      name: ชื่อ
+      navigation: 
+        all_users: ผู้ใช้ทั้งหมด
+        inactive_users: ผู้ใช้ที่ไม่ใช้งาน
+        search_users: ค้นหาผู้ใช้
+      new_password_doesnt_match: รหัสผ่านใหม่ไม่ตรงกับรหัสผ่านการยืนยัน.
+      old_password_incorrect: รหัสผ่านเก่าของคุณไม่ถูกต้อง.
+      password: รหัสผ่าน
+      password_cannot_be_blank: ฟิลด์รหัสผ่านไม่สามารถเว้นว่างไว้.
+      password_confirmation_help: เพื่อให้แน่ใจว่ารหัสผ่านของคุณถูกต้องโปรดป้อนอีกครั้งที่นี่.
+      password_help: "รหัสผ่านของคุณควรจะมีอย่างน้อยหกตัวอักษร. ที่ผสมของบนและลด-กรณีตัวอักษรและตัวเลขทำงานได้ดี"
+      password_mismatch: รหัสผ่านไม่ตรงกัน.
+      password_not_reset: รีเซ็ตรหัสผ่านไม่.
+      password_reset: รีเซ็ตรหัสผ่าน.
+      password_reset_email_subject: "คุณได้ขอให้คุณเปลี่ยนรหัสผ่าน {{application_name}}"
+      password_reset_link_sent: "คำแนะนำเพื่อรีเซ็ตรหัสผ่านของคุณได้ส่งถึงคุณ. โปรดตรวจสอบอีเมลของคุณ."
+      password_updated: รหัสผ่านสำเร็จปรับปรุง.
+      permission_denied: คุณไม่ได้รับอนุญาตให้ดำเนินการที่ร้องขอเสร็จ.
+      problem_changing_password: "มีปัญหาในการเปลี่ยนรหัสผ่าน. {{errors}}"
+      problem_creating_account: "มีปัญหาในการสร้างบัญชีของท่าน. โปรดแก้ไขข้อผิดพลาดต่อไปนี้:"
+      problem_editing_account: มีปัญหาในการอัปเดตข้อมูลของคุณ.
+      recover_password: กู้คืนรหัสผ่าน
+      recover_password_prompt: (ถ้าคุณลืมรหัสผ่านกู้ได้ที่นี่)
+      register_account: "ลงทะเบียนสำหรับบัญชี {{application_name}}"
+      register_for_account: ลงทะเบียนเพื่อรับบัญชี
+      remember_me: จดจำฉัน
+      remove_my_account: ลบบัญชีของฉัน
+      request_username: ขอชื่อผู้ใช้
+      request_username_subject: ลืมชื่อผู้ใช้
+      reset_password: รีเซ็ตรหัสผ่านของท่าน
+      reset_your_password: รีเซ็ตรหัสผ่านของท่าน
+      select_new_password: เลือกรหัสผ่านใหม่
+      sign_in: เข้าสู่ระบบ
+      sign_in_now: เข้าสู่ระบบในตอนนี้เลย!
+      sign_in_title: เข้าสู่ระบบ
+      sign_out_title: ออกจากระบบ
+      sign_up: ลงทะเบียน
+      sign_up_now: ลงทะเบียนเดี๋ยวนี้
+      sorry_invalid_reset_code: "ขออภัยแต่เราไม่สามารถค้นหาบัญชี. หากคุณมีปัญหาลองคัดลอกและวาง URL ที่จากอีเมลของคุณลงในเบราเซอร์ของคุณหรือที่เริ่มต้นการรีเซ็ตรหัสผ่านกระบวนการ."
+      terms_and_service: "เมื่อคลิกที่ &#39;ลงทะเบียนเดี๋ยวนี้&#39; คุณยินยอมที่จะปฏิบัติกับ {{tos_link_anchor}}Terms and Conditions{{link_end}}."
+      thanks_sign_up: ขอขอบคุณที่ลงทะเบียน!
+      thanks_sign_up_check: "บัญชีของคุณถูกสร้าง. โปรดตรวจสอบอีเมลของคุณสำหรับบัญชีของคุณคำแนะนำการเปิดใช้งาน!"
+      thanks_sign_up_login: "ขอขอบคุณที่ลงทะเบียน! คุณอาจเข้าสู่ระบบในขณะนี้"
+      update_profile: ปรับปรุงโปรไฟล์ของคุณ
+      update_user: อัปเดตข้อมูลผู้ใช้
+      user_account_deleted: คุณได้ลบบัญชีของคุณ.
+      user_disable_problem: มีปัญหาในการปิดใช้งานผู้ใช้รายนี้.
+      user_disabled: ผู้ใช้ถูกปิดการใช้งาน
+      user_enable_problem: มีปัญหาในการเปิดใช้งานผู้ใช้รายนี้.
+      user_enabled: ผู้ใช้ใช้งาน
+      user_marked_active: ผู้ใช้ที่ได้รับการทำเครื่องหมายเป็นการใช้งาน
+      user_marked_inactive: ผู้ใช้ที่ได้รับการทำเครื่องหมายเป็นไม่ใช้งาน
+      user_successfully_deleted: "ผู้ใช้ {{login}} สำเร็จการลบ."
+      user_update: ข้อมูลของผู้ใช้ที่คุณได้รับการปรับปรุงแล้ว.
+      username: ชื่อผู้ใช้
+      username_available: ชื่อผู้ใช้ที่มี
+      username_help: "คุณสามารถใช้ระหว่าง 6 และ 20 อักขระ. หากชื่อที่คุณต้องการนั้นไม่สามารถใช้งานได้ลองเพิ่มตัวเลขหรือเครื่องหมายวรรคตอน."
+      username_not_available: ชื่อผู้ใช้ไม่สามารถใช้งานได้
+      username_recover_prompt: โปรดระบุอีเมลที่คุณใช้เมื่อคุณสร้างบัญชีผู้ใช้ของคุณจะถูกส่งถึงคุณ.
+      username_sent: "ชื่อผู้ใช้ของคุณถูกส่งส่งถึงคุณ. โปรดตรวจสอบอีเมลของคุณ."
+      welcome: ยินดีต้อนรับ
+      welcome_email_subject: "ยินดีต้อนรับสู่ {{application_name}}"
+      welcome_message: "ยินดีต้อนรับสู่โคลน. ระบบนี้ให้องค์ประกอบพื้นฐานที่จะช่วยให้คุณสร้างเว็บไซต์ของคุณ."
+      what_is_the_email: อะไรคือที่อยู่อีเมลที่ใช้เพื่อสร้างบัญชีของคุณ?

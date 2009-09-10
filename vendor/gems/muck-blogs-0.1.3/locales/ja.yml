@@ -1,0 +1,7 @@
+--- 
+ja: 
+  muck: 
+    blogs: 
+      add_post: 追加ポスト
+      add_post_link: 追加ポスト
+      blog_title: "ブログの{{title}}"

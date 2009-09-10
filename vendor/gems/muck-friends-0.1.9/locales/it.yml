@@ -1,0 +1,44 @@
+--- 
+it: 
+  muck: 
+    activity_templates: 
+      follow: Seguaci
+      friends_with: Amici
+    friends: 
+      acccept_friend_request: "Accetta amico Richiesta Da {{user}}"
+      accept: (accettare)
+      delete: (cancellato)
+      follow_activity: "{{inviter}} È ora seguenti {{invited}}"
+      followers: Seguaci
+      following: Successivo
+      following_you: "{{name}} È ora in seguito a {{application_name}}"
+      friend_request: "{{name}} Ti ha inviato una richiesta di amicizia su {{application_name}}"
+      friend_request_links: "{{profile}} Inviato una richiesta di amicizia {{accept}} {{ignore}}"
+      friend_request_pending: "In attesa della richiesta di amicizia {{link}}"
+      friend_request_prompt: "{{user}} Invia una richiesta di amicizia"
+      friend_request_sent: "Richiesta inviata amico"
+      friends: Amici
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} È ora con amici {{invited}}"
+      ignore: (ignorare)
+      login: accesso
+      login_or_sign_up_to_follow: "{{login}} O {{signup}} a seguire questo utente"
+      login_or_sign_up_to_friend: "{{login}} O {{signup}} di inviare richieste di amicizia"
+      mutual_friends: Amici
+      no_followers: "N. Seguaci"
+      no_friends: "Nessun amico"
+      no_mutual_friends: "N. trovato amici"
+      not_following_anyone: "Chiunque non seguito"
+      problem_adding_follow: "Si è verificato un problema aggiungendo {{user}} a seguire la vostra lista. Si prega di riprovare."
+      problem_sending_friend_request: "Ci è stato un problema inviando una richiesta di amicizia a {{user}}. Si prega di riprovare."
+      removed_following_error: "Un problema si è verificato durante il tentativo di unfollow {{user}}"
+      removed_friendship: "{{user}} Rimosso dai tuoi amici"
+      removed_friendship_error: "Si è verificato un problema {{user}} rimuovere dal tuo elenco di amici"
+      same_inviter_error_message: "L&#39;utente non può diventare amici con themself."
+      signup: iscrizione
+      start_following: "Seguire {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop seguito {{user}}"
+      stopped_following: "Successo in seguito arrestato {{user}}"
+      view_all: "Visualizza tutto"
+      you_are_now_following: "Si stanno seguendo {{user}}"

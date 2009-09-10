@@ -1,0 +1,16 @@
+--- 
+vi: 
+  muck: 
+    activity_templates: 
+      comment: "Các ý kiến"
+    comments: 
+      add_comment: "Thảo luận"
+      add_comment_button: "Thêm Thảo luận"
+      cant_delete_comment: "Bạn không được phép nhận xét rằng xoá"
+      comment_removed: "Thảo luận thành công loại bỏ."
+      create_error: "Không thể tạo ra những nhận xét {{errors}}"
+      create_success: "Bổ sung thành công bình luận"
+      missing_comment_template_error: "Không tìm thấy một phần tên {{partial}}. Xin vui lòng tạo một phần nhận xét và thử lại."
+      new_comment_no_title: "Thêm một ý kiến mới"
+      new_comment_with_title: "Thêm một ý kiến mới để {{title}}"
+      problem_adding_comment: "Có một vấn đề khi thêm bình luận của bạn"

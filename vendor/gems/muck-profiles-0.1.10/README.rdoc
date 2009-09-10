@@ -1,0 +1,41 @@
+= MuckProfiles
+
+Add profiles to muck users.  This implements a photo for users as well as a property bag that enables total customization of the user's profile information including privacy settings.
+
+== Installation
+Muck profile relies upon the muck-engine and muck-users gems as well as paperclip.  Add the following lines to your environment.rb file:
+
+  config.gem "authlogic"
+  config.gem "binarylogic-searchlogic", :lib => 'searchlogic', :source  => 'http://gems.github.com', :version => '~> 2.0.0'
+  config.gem "bcrypt-ruby", :lib => "bcrypt"
+  config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
+  config.gem 'muck-engine', :lib => 'muck_engine'
+  config.gem 'muck-users', :lib => 'muck_users'
+  config.gem 'muck-profiles', :lib => 'muck_profiles'
+
+Next run rake gems:install
+
+
+== Usage
+Create a model called profile.rb and add 'acts_as_muck_profile'.  This mixes in the muck profile functionality but also permits further customization of the profile in your application.
+
+  class Profile < ActiveRecord::Base
+    acts_as_muck_profile
+  end
+
+Modify your user model so that it has a profile:
+
+  class User < ActiveRecord::Base
+    acts_as_authentic do |c|
+      c.crypto_provider = Authlogic::CryptoProviders::BCrypt
+    end
+    acts_as_muck_user
+    has_muck_profile
+  end
+
+
+Your user model will now appear to have a 'photo' which is delegated to the profile model:
+
+  @user.photo # returns a photo object from paperclip
+
+Copyright (c) 2009 Justin Ball, released under the MIT license

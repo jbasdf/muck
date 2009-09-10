@@ -1,0 +1,32 @@
+--- 
+ca: 
+  muck: 
+    contents: 
+      add: Afegir
+      cancel: Cancel
+      cant_delete_content: "No tens permís per esborrar el contingut especificat"
+      choose_layout: "Selecciona plantilla"
+      choose_layout_help: "Seleccioneu una plantilla de disseny que farà que el crom d&#39;aquesta pàgina."
+      confirm_delete_content: "Esteu segur que voleu eliminar aquest contingut? Això no es pot desfer!"
+      content_help: "Aquest és el contingut que apareixerà a la pàgina."
+      content_label: Contingut
+      content_removed: "Contingut eliminat amb èxit"
+      create_error: "Hi ha hagut un problema en afegir el seu contingut"
+      default_404_body: "No hem pogut trobar la pàgina que estava buscant."
+      default_404_title: "404 Pàgina no trobada"
+      delete: Esborrar
+      delete_title: "Esborra aquesta pàgina."
+      edit: Edita
+      edit_title: "Edita aquesta pàgina."
+      manage_pages_title: "Administrar el contingut del lloc"
+      no_uri_error: "Si us plau introduïu un valor per uri abans de desar el model és igual a zero quan acontentar"
+      page_doesnt_exist_create: "La pàgina demanada no existeix. Sírvase proporcionar la següent informació per a crear la pàgina."
+      permalink: "Permalink:"
+      problem_adding_content: "Hi ha hagut un problema en afegir el contingut"
+      problem_updating_content: "Hi ha hagut un problema en actualitzar el contingut"
+      save: Salvar
+      submit_content_button: Salvar
+      tag_information: "Etiquetes ajudar els usuaris a trobar la seva pàgina i s&#39;utilitza com a paraules clau de metadades per al document."
+      tags: Etiquetes
+      title_help: "El títol controla la url i el títol de la pàgina apareix la URL a la barra"
+      title_label: Títol

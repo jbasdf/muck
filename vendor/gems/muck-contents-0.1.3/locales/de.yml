@@ -1,0 +1,32 @@
+--- 
+de: 
+  muck: 
+    contents: 
+      add: Hinzufügen
+      cancel: Abbrechen
+      cant_delete_content: "Sie haben keine Berechtigung zum Löschen der angegebenen Inhalt"
+      choose_layout: "Wählen Sie die Vorlage"
+      choose_layout_help: "Wählen Sie ein Layout-Vorlage, wird dazu führen, dass die Chrom für diese Seite."
+      confirm_delete_content: "Sind Sie sicher, dass Sie löschen möchten diesen Inhalt? Dies kann nicht rückgängig gemacht werden!"
+      content_help: "Dies ist der Inhalt, die auf der Seite erscheinen."
+      content_label: Inhalt
+      content_removed: "Content erfolgreich entfernt"
+      create_error: "Es gab ein Problem geben Sie Ihre Inhalte"
+      default_404_body: "Wir konnten nicht finden, die Seite, die Sie suchen."
+      default_404_title: "404 Seite nicht gefunden"
+      delete: Löschen
+      delete_title: "Diese Seite löschen."
+      edit: Bearbeiten
+      edit_title: "Diese Seite bearbeiten."
+      manage_pages_title: "Verwalten von Website-Content"
+      no_uri_error: "Bitte setzen Sie einen Wert für uri vor dem Speichern, wenn das Modell contentable gleich Null ist"
+      page_doesnt_exist_create: "Die von Ihnen angeforderte Seite ist nicht vorhanden. Bitte geben Sie die unten angegebenen Informationen, um die Seite."
+      permalink: "Permalink:"
+      problem_adding_content: "Es gab ein Problem Sie die Inhalte"
+      problem_updating_content: "Es wurde ein Problem der Aktualisierung der Inhalte"
+      save: Sichern
+      submit_content_button: Sichern
+      tag_information: "Tags helfen Sie anderen Anwendern finden Sie Ihre Seite und wird als Meta-Keywords für das Dokument."
+      tags: Tags
+      title_help: "Der Titel steuert die URL und der Seitentitel in der URL-Bar"
+      title_label: Titel

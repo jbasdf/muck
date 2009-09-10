@@ -1,0 +1,44 @@
+--- 
+tr: 
+  muck: 
+    activity_templates: 
+      follow: Taraftar
+      friends_with: Arkadaşlar
+    friends: 
+      acccept_friend_request: "Kabul Arkadaşına İstek {{user}} Gönderen"
+      accept: "() kabul"
+      delete: (sil)
+      follow_activity: "{{inviter}} Şimdi {{invited}} şudur"
+      followers: Taraftar
+      following: Sonraki
+      following_you: "{{name}} Şimdi {{application_name}} üzerinde şudur"
+      friend_request: "{{name}} Size {{application_name}} bir arkadaş isteği gönderdi"
+      friend_request_links: "{{profile}} Size {{accept}} {{ignore}} bir arkadaş isteği gönderdi"
+      friend_request_pending: "Arkadaş isteğini bekleyen {{link}}"
+      friend_request_prompt: "Arkadaşına Gönder İstek {{user}}"
+      friend_request_sent: "Arkadaşına İstek Gönderildi"
+      friends: Arkadaşlar
+      friends_title: Arkadaşlar
+      friends_with: "{{inviter}} Artık {{invited}} arkadaş"
+      ignore: "() yok saymak"
+      login: "oturum açmak"
+      login_or_sign_up_to_follow: "{{login}} Veya {{signup}} bu kullanıcı takip etmek"
+      login_or_sign_up_to_friend: "{{login}} Veya {{signup}} arkadaş istekleri göndermek için"
+      mutual_friends: "Karşılıklı Arkadaşlar"
+      no_followers: "Hayır taraftar"
+      no_friends: "Hayır arkadaşlar"
+      no_mutual_friends: "Hayır ortak arkadaşlarımız bulundu"
+      not_following_anyone: "Değil herkes sonrasında"
+      problem_adding_follow: "Bir sorun listesini izleyin sizin için {{user}} eklenmesi oldu. Lütfen tekrar deneyin."
+      problem_sending_friend_request: "Bir sorun {{user}}. Bir arkadaşa talepte oldu Lütfen tekrar deneyin."
+      removed_following_error: "Süre {{user}} unfollow çalıştığınız bir sorun oluştu"
+      removed_friendship: "Arkadaşlarınızdan {{user}} Kaldırıldı"
+      removed_friendship_error: "Bir sorun Arkadaş listenizden {{user}} çıkarmadan oldu"
+      same_inviter_error_message: "Kullanıcı kendilerini arkadaş olamaz."
+      signup: kayıt
+      start_following: "{{user}} Izleyin"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Aşağıdaki {{user}} Dur"
+      stopped_following: "Başarıyla {{user}} aşağıdaki durduruldu"
+      view_all: Tüm
+      you_are_now_following: "Artık {{user}} aşağıdadır"

@@ -1,0 +1,31 @@
+en:
+  muck:
+    contents:
+      save: Save
+      cancel: Cancel
+      delete: Delete
+      edit: Edit
+      add: Add
+      delete_title: "Delete this page."
+      edit_title: "Edit this page."
+      create_error: "There was a problem adding your content"
+      content_removed: "Content successfully removed"
+      cant_delete_content: "You don't have permission to delete the specified content"
+      manage_pages_title: "Manage site content"
+      tag_information: "Tags help other users find your page and will be used as the meta keywords for the document."
+      tags: Tags
+      permalink: "Permalink:"
+      page_doesnt_exist_create: "The page you requested does not exist.  Please provide the information below to create the page."
+      default_404_title: "404 Page not found"
+      default_404_body: "We could not find the page you were looking for."
+      no_uri_error: "Please set a value for uri before saving the model when contentable is nil"
+      submit_content_button: "Save"
+      content_label: "Content"
+      title_label: "Title"
+      title_help: "The title controls the url and the page title displayed in the url bar"
+      content_help: "This is the content that will appear on the page."
+      problem_adding_content: "There was a problem adding the content"
+      problem_updating_content: "There was a problem updating the content"
+      confirm_delete_content: "Are you sure you wish to delete this content?  This cannot be undone!"
+      choose_layout: "Select Template"
+      choose_layout_help: "Select a layout template that will render the chrome for this page."

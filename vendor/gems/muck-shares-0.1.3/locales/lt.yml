@@ -1,0 +1,22 @@
+--- 
+lt: 
+  muck: 
+    activity_templates: 
+      share: Akcijos
+    shares: 
+      add_share: Dalytis
+      add_share_button: Dalytis
+      adding_share: "Dalijimasis puslapį ..."
+      cancel_share_button: Atšaukti
+      cant_delete_share: "Jūs neturite leidimo pašalinti, kad dalis"
+      create_error: "Nepavyko sukurti dalis: {{errors}}"
+      create_success: "Sėkmingai pasidalijamąjį puslapis"
+      login_prompt: "Prisijunkite, jei norite dalintis"
+      message: Pranešimas
+      new_share: "Dalintis nuorodą"
+      problem_adding_share: "Iškilo problema pridėti savo dalį"
+      share_activity_content: "bendr {{link}}.  {{message}}"
+      share_removed: "Dalintis sėkmingai ištrintas."
+      share_title: "Dalintis Šis Nuoroda"
+      title: Pavadinimas
+      uri: Url

@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="<%= I18n.locale %>" xml:lang="<%= I18n.locale %>">
+  <head>
+    <%= render :partial => 'layouts/global/head' %>
+  </head>
+  <body>
+    <div id="popup_wrapper" class="container">
+      <div id="content-wrapper">
+        <div id="content">
+          <%= yield :layout %>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" language="JavaScript">
+    <%= yield :javascript %>
+    </script>
+    <%= render :partial => 'layouts/global/google_analytics' %>
+  </body>
+</html>

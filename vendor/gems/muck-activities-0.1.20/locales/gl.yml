@@ -1,0 +1,34 @@
+--- 
+gl: 
+  muck: 
+    activities: 
+      activity_feed_title: "Actividade recente"
+      add_photos: "Adicionar fotos"
+      add_videos: "Compartir vídeos"
+      adding_comment_message: "Engadido comentario ..."
+      all_activities: "Todas as Actividades"
+      clear: Borrar
+      create_error: "Houbo un problema engadido a actividade solicitada: {{error}}"
+      delete: Borrar
+      invite_friends: "Convidar amigos"
+      item_could_not_be_removed: "Elemento non puido ser eliminado da lista de actividades recentes."
+      item_created: "Actividade Engadido"
+      item_removed: "Elemento eliminado con éxito a partir da lista de actividades recentes."
+      joined_status: "{{name}} Xunto {{application_name}}"
+      make_comment: Comentario
+      paging_newer: «Recentes
+      paging_older: "Anteriores »"
+      permission_denied: "Sentímolo, non pode facelo."
+      post: Compartir
+      problem_with_status: "Houbo un problema ao mudar o seu status"
+      status_indicator: é
+      status_update_prompt: "O que está facendo agora?"
+      template_or_item_required: "Unha actividade require dun modelo ou un elemento para amosar correctamente"
+      update_error: "Oops ... Había un problema. {{errors}}"
+      update_status_message: "actualizar o seu status!"
+      updating_status_message: "Actualizando o seu estado. Por favor, espere."
+      upload_files: "Upload Files"
+      write: Escribir
+      write_prompt: "Escribir un comentario ..."
+    activity_templates: 
+      status_update: "Status Updates"

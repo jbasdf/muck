@@ -1,0 +1,12 @@
+--- 
+lt: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Nepavyko rasti konkretaus vartotojo."
+      edit_failure: "Įvyko klaida atnaujinti savo profilį."
+      edit_profile: "Redaguoti profilį"
+      edit_success: "Jūsų profilis sėkmingai atnaujintas"
+      problem_editing_account: "Iškilo problema atnaujinti savo profilį"
+      update_profile: "Atnaujinti profilį"
+      upload_photo: "Įkelti nuotrauką:"
+      view_profile: Profile

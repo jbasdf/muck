@@ -1,0 +1,44 @@
+--- 
+lt: 
+  muck: 
+    activity_templates: 
+      follow: Pasekėjų
+      friends_with: Draugai
+    friends: 
+      acccept_friend_request: "Priimti draugą Prašymas iš {{user}}"
+      accept: (priimti)
+      delete: (išbraukta)
+      follow_activity: "{{inviter}} Dabar taip {{invited}}"
+      followers: Pasekėjų
+      following: Šie
+      following_you: "{{name}} Dabar taip jums {{application_name}}"
+      friend_request: "{{name}} Išsiuntė jums draugo prašymą dėl {{application_name}}"
+      friend_request_links: "{{profile}} Išsiuntė jums draugo prašymą {{accept}} {{ignore}}"
+      friend_request_pending: "Draugo prašymą kol {{link}}"
+      friend_request_prompt: "Siųsti {{user}} draugui Prašymas"
+      friend_request_sent: "Draugui Prašymas išsiųstas"
+      friends: Draugai
+      friends_title: "Mano draugai"
+      friends_with: "{{inviter}} Dabar draugai su {{invited}}"
+      ignore: (nepaisyti)
+      login: prisijungimas
+      login_or_sign_up_to_follow: "{{login}} Arba {{signup}} stebėti šį vartotoją"
+      login_or_sign_up_to_friend: "{{login}} Arba {{signup}} nusiųsti draugui prašymai"
+      mutual_friends: "Mutual Friends"
+      no_followers: "Nr pasekėjų"
+      no_friends: "Nr draugai"
+      no_mutual_friends: "Nr bendrų draugų rasti"
+      not_following_anyone: "Ne Po Nesvarbu"
+      problem_adding_follow: "Iškilo problema pridedant {{user}} jūsų atlikite sąrašą. Bandykite dar kartą."
+      problem_sending_friend_request: "Iškilo problema nusiųsti draugui prašymą {{user}}. Bandykite dar kartą."
+      removed_following_error: "Problema atsiranda, kai bandote unfollow {{user}}"
+      removed_friendship: "Pašalinta {{user}} iš savo draugų"
+      removed_friendship_error: "Iškilo problema šalinant {{user}} iš sąrašo draugus"
+      same_inviter_error_message: "Vartotojas negali tapti draugais su save."
+      signup: registracijos
+      start_following: "Sekite {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stotelė Po {{user}}"
+      stopped_following: "Sėkmingai sustabdė po {{user}}"
+      view_all: "Rodyti visas"
+      you_are_now_following: "Dabar taip {{user}}"

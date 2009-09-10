@@ -1,0 +1,8 @@
+<h2><%= t('muck.friends.friends') %></h2>
+<%= friends(user) %>
+<% if GlobalConfig.enable_following -%>
+  <h2><%= t('muck.friends.followers') %></h2>
+  <%= followers(user) %>  
+  <h2><%= t('muck.friends.following') %></h2>
+  <%= followings(user) %>
+<% end -%>

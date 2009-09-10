@@ -1,0 +1,9 @@
+<div id="<%= share.dom_id %>" class="share_holder delete-container">
+  <div class="shareor-icon"><%= icon share.shared_by %></div>
+  <p><span class="sharer"><%= link_to share.shared_by.try(:display_name), share.shared_by %></span>
+    <div class="share-uri"><%= link_to h(share.title), share.uri %></div>
+    <div class="share-message"><%= h share.message %></div>
+  </p>
+  <%= delete_share(share, :image) if share.can_edit?(current_user) %>
+  <span class="share-time"><%= t("muck.general.time_ago", :time_in_words => time_ago_in_words(share.created_at)) %></span></p>
+</div>

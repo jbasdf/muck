@@ -1,0 +1,22 @@
+--- 
+et: 
+  muck: 
+    activity_templates: 
+      share: Akts
+    shares: 
+      add_share: Jagama
+      add_share_button: Jagama
+      adding_share: "Sharing lehekülg ..."
+      cancel_share_button: Tühista
+      cant_delete_share: "Sul ei ole õigusi kustutada osa"
+      create_error: "Kas ei tekita osa: {{errors}}"
+      create_success: "Edukalt jagatud leht"
+      login_prompt: "Logi sisse jagada"
+      message: Sõnum
+      new_share: "Jaga Link"
+      problem_adding_share: "Probleem, lisades oma osa"
+      share_activity_content: "jagatud {{link}}. {{message}}"
+      share_removed: "Jaga edukalt eemaldatud."
+      share_title: "Share This Link"
+      title: Pealkiri
+      uri: Url

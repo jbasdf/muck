@@ -1,0 +1,43 @@
+<div id="edit-user" class="common-form">
+  <h1><%= t('muck.users.update_user') %></h1>
+
+  <% custom_form_for @user, :url => user_path(@user), :html => {:id => "edit-user-form", :name => 'edit-user-form', :method => :put, :multipart => true } do |f| -%>
+
+   <%= output_errors(t('muck.users.problem_editing_account'), {:class => 'help-box'}, @user) %>
+
+   <%= f.text_field :email, { :label => t('muck.users.email_address'),
+                               :tip => t('muck.users.email_help') } -%>
+    <%= f.text_field :first_name, { :label => t('muck.users.first_name') } %>
+    <%= f.text_field :last_name, { :label => t('muck.users.last_name') } %>
+		<div class="button form-row">
+	  	<%= f.submit t('muck.general.save') %>
+	  </div>
+	  <%= hidden_field_tag :redirect_to, edit_user_path(@user) %>
+	<% end %>
+	
+</div>
+
+<div id="change-password" class="common-form">
+  <h2><%= t('muck.users.change_password') %></h2>
+  <% custom_form_for @user, :url => user_path(@user), :html => { :id => "change-password-form", :name => 'change-password-form', :method => :put } do |f| %>
+    <%= f.password_field :password, { :label => t('muck.users.password'),
+                                      :tip => t('muck.users.password_help')} -%>
+    <%= f.password_field :password_confirmation, { :label => t('muck.users.confirm_password'),
+                                  		             :tip => t('muck.users.password_confirmation_help') } -%>
+  	<div class="button form-row">
+  	  <%= submit_tag t('muck.users.change_password'), :class => 'button' %>
+  	</div>
+  	<%= hidden_field_tag :redirect_to, edit_user_path(@user) %>
+  <% end -%>
+</div>
+
+<% if GlobalConfig.let_users_delete_their_account -%>
+  <div id="delete-account" class="common-form">
+    <% custom_form_for :user, :url => users_path, :html => {:id => "delete-user-form", :name => 'delete-user-form', :method => :delete, :confirm => t("users.confirm_delete_account")} do |f| -%>
+  		<h2><%= t('muck.users.remove_my_account') %></h2>
+  		<div class="button form-row">
+  	  	<%= f.submit t('muck.general.delete_my_account') %>
+  	  </div>
+    <% end -%>
+  </div>
+<% end -%>

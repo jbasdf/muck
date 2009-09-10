@@ -1,0 +1,44 @@
+--- 
+sq: 
+  muck: 
+    activity_templates: 
+      follow: Pasues
+      friends_with: Shokët
+    friends: 
+      acccept_friend_request: "Accept Friend Request Nga {{user}}"
+      accept: (pranoni)
+      delete: (fshini)
+      follow_activity: "{{inviter}} Është tani pas {{invited}}"
+      followers: Pasues
+      following: Vijues
+      following_you: "{{name}} Është tani në vijim ju {{application_name}}"
+      friend_request: "{{name}} Ju ka dërguar një kërkesë të {{application_name}} mik"
+      friend_request_links: "{{profile}} Dërguam ty një mik kërkesë {{accept}} {{ignore}}"
+      friend_request_pending: "Friend kërkesën në pritje të {{link}}"
+      friend_request_prompt: "Send {{user}} mikut Kërkesë"
+      friend_request_sent: "Friend Request Sent"
+      friends: Shokët
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Tani është shokë me {{invited}}"
+      ignore: (injoro)
+      login: hyrje
+      login_or_sign_up_to_follow: "{{login}} Ose {{signup}} që duhet të ndiqni këtë përdorues"
+      login_or_sign_up_to_friend: "{{login}} Ose për të dërguar {{signup}} mik kërkesa"
+      mutual_friends: "Reciproke Friends"
+      no_followers: "Jo ndjekësit"
+      no_friends: "Nuk ka miq"
+      no_mutual_friends: "Nuk ka gjetur miq reciprok"
+      not_following_anyone: "Jo Pas Kushdo"
+      problem_adding_follow: "Ka ndodhur një problem duke shtuar {{user}} në listën tuaj të ndjekë. Ju lutemi të provoni përsëri."
+      problem_sending_friend_request: "Ka ndodhur një problem dërguar një kërkesë për mik {{user}}. Ju lutemi të provoni përsëri."
+      removed_following_error: "Një problem ndodhi ndërsa përpiqej të unfollow {{user}}"
+      removed_friendship: "Removed {{user}} nga miqtë tuaj"
+      removed_friendship_error: "Ka ndodhur një problem {{user}} hequr nga lista e miqve tuaj"
+      same_inviter_error_message: "Përdoruesi nuk mund të bëhen shokë me themself."
+      signup: hyrjes
+      start_following: "Ndiqni {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Pas {{user}} Stop"
+      stopped_following: "Me sukses u ndal pas {{user}}"
+      view_all: "View All"
+      you_are_now_following: "Ju jeni tani pas {{user}}"

@@ -1,0 +1,16 @@
+--- 
+pl: 
+  muck: 
+    activity_templates: 
+      comment: Komentarze
+    comments: 
+      add_comment: Komentarz
+      add_comment_button: "Dodaj komentarz"
+      cant_delete_comment: "Nie masz uprawnień, aby usunąć tego komentarza"
+      comment_removed: "Komentarz pomyślnie usunięty."
+      create_error: "Nie można utworzyć komentarz {{errors}}"
+      create_success: "Pomyślnie dodany komentarz"
+      missing_comment_template_error: "Nie można znaleźć częściowego nazwie {{partial}}. Proszę utworzyć częściowego komentarz i spróbuj ponownie."
+      new_comment_no_title: "Dodaj nowy komentarz"
+      new_comment_with_title: "Dodaj nowy komentarz do {{title}}"
+      problem_adding_comment: "Wystąpił problem dodając swój komentarz"

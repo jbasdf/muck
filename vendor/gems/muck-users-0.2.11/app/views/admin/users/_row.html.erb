@@ -1,0 +1,6 @@
+<tr id="<%=user.dom_id('row')%>" class="<%= cycle('odd','even') %>">
+	<td><%= link_to h(user.full_name), user %></td>
+	<td><%= mail_to h(user.email), user.email %></td>
+	<td id="<%=user.dom_id('link')%>"><%= render :partial => 'admin/users/activate', :locals => { :user => user } %></td>
+	<td><%= link_to_remote t("muck.general.delete"), { :url => admin_user_path(user.id), :method => :delete }, { :title => t('muck.users.delete_this_user'), :class => 'delete-user' } -%></td>
+</tr>

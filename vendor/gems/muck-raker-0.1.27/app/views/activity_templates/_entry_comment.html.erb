@@ -1,0 +1,8 @@
+<% activity_for(activity, :activity_css_class => 'activity-entry-comment') do -%>
+  <% if limited -%>
+    <%= activity.item.body %>
+  <% else -%>
+    <%= t('muck.raker.entry_commment_contents', :resource => link_to(activity.item.commentable.title, visit_path(activity.item.commentable, :show_comments => true))) -%>
+    <p class="entry-comment-contents"><%= activity.item.body %></p>
+  <% end -%>
+<% end -%>

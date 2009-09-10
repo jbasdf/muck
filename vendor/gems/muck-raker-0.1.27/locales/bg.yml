@@ -1,0 +1,141 @@
+--- 
+bg: 
+  muck: 
+    activity_templates: 
+      entry_comment: Коментар
+    raker: 
+      add_extended_feed_sub_title: "Принос нов източник на данни"
+      add_extended_feed_title: "Добавяне на нова емисия"
+      add_feed: "Добавяне на емисия"
+      add_feed_advanced: "Добавяне на емисия (Advanced)"
+      add_feed_title: "Добавяне на нова емисия"
+      add_feed_url: "URL:"
+      all_resources: "Всички ресурси"
+      already_added_uri_feed: "Вие вече сте добавя URL {{uri}}"
+      already_added_username_feed: "Вие вече сте добавили {{service}} сметка с потребителско име {{username}}"
+      already_shared: "Вие сте преди споделя тази страница."
+      amazon_prompt: "Моля, въведете имейл, който използвате с Amazon.com"
+      atom: Атом
+      available_services: "Предлагани услуги"
+      ban_feed: "Марк фуражи, както е невалиден"
+      banned: забранен
+      blogger_prompt: "Адресът на вашия блог"
+      calculated: изчислени
+      cant_modify_identity_feed: "Вие нямате разрешение за достъп до определени фуражи."
+      choose_service: "Изберете услуга:"
+      close: Затварям
+      collection_description: "Колекция Описание:"
+      collection_home_uri: "Адрес на събирането Начална страница"
+      collection_uri: "Адрес на събирането Метаданните:"
+      collections: Колекции
+      collections_long: "Индексирани Колекции"
+      comment_entries_count: 
+        one: "1 Коментар"
+        other: "{{count}} Коментари"
+      course_search_results: "Курсове <b>{{first}} - {{last}}</b> на <b>{{total}}</b> за търсене <b>{{terms}}</b>"
+      course_tag_results: "Курсове <b>{{first}} - {{last}}</b> на <b>{{total}}</b> етикет <b>{{terms}}</b>"
+      courses_tag_cloud_label: "паса курсове някой тагове <a href=\"/resources\">[разглеждате всички ресурси]</a>"
+      demo: Демо
+      description: Описание
+      details: Детайли
+      developers_long: "Информация за програмисти"
+      direct_link: "[линк]"
+      discover_feed: "Открийте Feed"
+      discover_feed_message: "Търсенето на информация за адреса, който предоставихте. Моля, изчакайте."
+      display_url: "Url да бъдат показани:"
+      entry_commment_contents: "коментира {{resource}}"
+      facebook_instructions: "На страницата,, Моят Връзки, щракнете с десния бутон върху &quot;Моите връзки&quot; и копие на връзката. Ние автоматично ще включва, статус, линкове и бележки."
+      facebook_link: "Можете да намерите вашия URL на вашия Facebook Моята страница Връзки. {{link}} И след това кликнете на &quot;Моите връзки&quot;"
+      facebook_notes: "Facebook отбелязва,"
+      facebook_notifications: "Facebook Известия"
+      facebook_prompt: "Вашият Facebook Моите връзки URL"
+      facebook_shares: "Facebook общо връзки"
+      failed_harvests: "Неуспешно реколти"
+      failed_last_request: "Неуспешно последната заявка: {{error}}"
+      feed_banned_message: "Емисия беше успешно забранени."
+      feed_successfully_created: "Емисия е създаден успешно."
+      feed_successfully_updated: "Емисия е обновен успешно."
+      feed_validated_message: "Емисия беше успешно утвърдени."
+      feeds_title: "Регистриран Колекции"
+      for: за
+      friendfeed_prompt: "RSS FriendFeed URL"
+      friendfeed_rss: "Можете да намерите вашия URL в долната част на вашия {{link}}."
+      gm_more_prompt: "Още Сродни ресурси"
+      gm_title: "Сродни ресурси"
+      goodreads_prompt: "Goodreads профил URL"
+      goodreads_rss: "например, http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Жътва интервал (часа)"
+      harvested_at: "Реколтирани при"
+      hide: Крия
+      identity_feed_removed: "Премахнато услуги"
+      identity_feeds: "Идентичност Feeds"
+      import_service: "Внос {{service}}"
+      linkedin_prompt: "LinkedIn обществен профил URL"
+      linkedin_rss: "Можете да намерите вашия URL в долната част на вашия {{link}}."
+      loading_content_image: "Зареждане съдържание изображение"
+      login: Влизам
+      login_or_signup_prompt: "{{signup}} Или {{login}} да обсъждат и споделят ресурси."
+      login_to_comment: "Вход за да добавите коментар"
+      metadata: метаданни
+      my_services: "Моите услуги"
+      narrow_further: "тесен Освен това резултатите"
+      netflix_prompt: "Netflix Опашката RSS URL"
+      netflix_rss: "Можете да намерите вашия URL на вашия {{link}}. Имайте предвид, че има няколко храни са налични на вашата страница Netflix опашката (Queue, препоръки, филм рецензии и др.) Добави толкова, колкото искате!"
+      new_global_feed: "А новата емисия е добавен към {{application_name}}"
+      next: Следващ
+      next_label: Следващ
+      no_feeds_at_uri: "Ние не можахме да намерим на даден URL"
+      no_feeds_from_username: "Ние не можахме да намерим на даден акаунт"
+      no_hits: "Вашето търсене - <b>{{search}}</b> - не съвпадна с никакви <b>{{resource_type}}.</b> Моля опитайте с различни търсене или изберете друг език."
+      no_tagged_courses: "Не са открити <b>курсове</b> етикет с <b>{{tags}}.</b> <a href='/resources'>Започнем отначало</a> или да покажете <a href='/resources/tags/{{tags}}'>всички ресурси етикет с {{tags}}.</a>"
+      no_tagged_resources: "Не са намерени <b>ресурси</b> етикет с <b>{{tags}}.</b> <a href='/resources'>Започнем отначало.</a>"
+      no_tags: "Не тагове наличен още"
+      oai_prompt: "Ако зададете OAI, трябва да зададете пълния URL адрес на искането ListRecords (не само крайна точка OAI)"
+      of: на
+      ok: ОК
+      only_courses: "Само Курсове"
+      polyvore_prompt: "Polyvore профил URL"
+      polyvore_rss: "Вашият профил Polyvore URL прилича http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "захранва от"
+      previous: Назад
+      previous_label: Назад
+      problem_adding_feed: "Имаше проблем при добавянето на емисия:"
+      rdf: RDF
+      related_resources: "свързани с"
+      related_resources_title: "Сродни ресурси"
+      relevance: значение
+      remix: Remix
+      repository_short_title: "Repository кратък Заглавие:"
+      repository_title: "Repository Заглавие:"
+      resource_search_results: "Ресурси <b>{{first}} - {{last}}</b> на <b>{{total}}</b> за търсене <b>{{terms}}</b>"
+      resource_tag_results: "Ресурси <b>{{first}} - {{last}}</b> на <b>{{total}}</b> етикет <b>{{terms}}</b>"
+      resources_tag_cloud_label: "паса ресурси с тагове <a href=\"/resources?grain_size=course\">[разглеждате само курсове]</a>"
+      results: Резултати
+      rss: RSS
+      rss_url: "Url за RSS емисията"
+      search: търся
+      search_button: Отивам
+      search_link: "Намери ресурси!"
+      select_feeds_prompt: "Изберете емисии, който искате да добавите:"
+      select_service_prompt: "Моля изберете услуга"
+      service_username: "{{service}} Потребителско име"
+      share: Дял
+      short_title: "Кратко заглавие:"
+      show_tagged_courses: "Покажи само курсове"
+      show_tagged_resources: "покажи всички видове ресурси"
+      signup: "Sign Up"
+      spinner_image: "Чакащи изображение"
+      start_over: "започнем отначало"
+      status: Състояние
+      submitting_feed_message: "Изпращане на вашата емисия ..."
+      successfully_added_uri_feed: "Добавен успешно {{uri}}"
+      successfully_added_username_feed: "Добавен успешно {{service}}"
+      tags: тагове
+      title: Заглавие
+      type_of_metadata: "Вид на метаданни:"
+      uri: Url
+      validate_feed: "Марк фуражи, както е валиден"
+      visit: посещение
+      xml: XML
+      zotero_group_prompt: "Zotero група URL"
+      zotero_group_rss: "Вашият Zotero група URL изглежда така: http://www.zotero.org/groups/adventures_in_library_instruction/items"

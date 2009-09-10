@@ -1,0 +1,98 @@
+= MuckActivities
+
+== Installation
+The muck activities engine is part of the muck framework and relies upon the muck_engine.  Install with
+
+  sudo gem install muck-activites
+  
+This should also install the dependencies.
+  
+== Usage
+This engine implements simple activity tracking. 
+
+Models that can have activity feed should call 'has_activities'
+
+  Example:
+    class User
+      has_activities
+    end
+
+Adding an item to the activity feed requires 'acts_as_activity_source' which then profiles the method 'add_activity'
+
+  add_activity(feed_to, actor, item, template, check_method)
+
+  feed_to - contains an array of objects (typically users) that have use acts_as_activity_user
+  actor - the user performing the action
+  item - a reference to the object that 
+  template - the template (partial) to use to render the activity
+  check_method - and optional method to call on each object in the feed_to array that determines whether or not to add the activity
+
+  Example:
+    add_activity(user.feed_to, user, comment, 'comment')
+
+Create an activity model that 'acts_as_muck_activity':
+
+  class Activity < ActiveRecord::Base
+    acts_as_muck_activity
+  end
+
+=== Authorization
+By default 'has_activities' will add a simple 'can_view?' method:
+
+  def can_view?(check_object)
+    self == check_object
+  end
+
+This method determines whether or not the check_object has access to the current object's activity feeds.  For example, if the 
+intent is to recover the activities for a given user where the user is '@parent' thus:
+  
+  @parent.can_view?(current_user)
+
+The can view method will determine whether or not the current_user has the right to view the activity feed.
+
+In most instances you will need to override this method to implement proper security.  For example, for a group that has an activity feed
+you might add a can_view? method like this:
+
+  def can_view?(check_object)
+    self.member?(check_object) || (check_object.is_a?(User) && check_object.admin?)
+  end
+
+== Configuration
+If you would like to enable comments for your project's activities feeds you can do so by adding an entry to GlobalConfig.yml (configuration file added by muck)
+
+  enable_activity_comments: true
+
+If you would like to add live updates to the user's activity feed you can do so by adding an entry to GlobalConfig.yml (configuration file added by muck)
+
+  enable_live_activity_updates: true
+  live_activity_update_interval: 5
+
+You can also use the 'contribute' helper method to render a richer status update if you have uploader installed and configured:
+  enable_activity_file_uploads: true # Turn on file uploads in the activity feed.  Requires that uploader be installed.
+  enable_activity_image_uploads: true # Turn on image uploads in the activity feed.  Requires that uploader and muck_albums be installed.
+  enable_activity_video_sharing: true # Turn on video sharing in the activity feed.
+  
+Note that this will poll the server every 5 seconds and so will increase server load and bandwidth usage.
+
+== Development
+
+If you want to add a new activity you only need to add a template to views/activity_templates then setup the related localization. 
+For example, to create a template for 'comments' add a partial called _comments.html.erb to views/activity_templates.  There is
+a generic template available that can be used to speed development or be used as an example:
+
+  <%= render :partial => 'activity_templates/generic', :locals => { :activity => activity, :activity_css_class => 'activity-status-update' } %>
+
+Next create an entry in en.yml
+
+  en:
+    muck:
+      activity_templates:
+        comment: "Comments"
+
+The name of the entry needs to match the name of the template.  Then to add an activity you only 
+need to do:
+
+  add_activity(user.feed_to, user, comment, 'comment')
+
+
+Copyright (c) 2009 Justin Ball, released under the MIT license

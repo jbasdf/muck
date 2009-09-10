@@ -1,0 +1,31 @@
+--- 
+lt: 
+  muck: 
+    engine: 
+      choose_country: "Pasirinkite šalį"
+      choose_language: "Pasirinkite kalbą"
+      choose_state: "Pasirinkite narė"
+      missing_parent_error: "Nurodykite patronuojanti objektą"
+      select_country_prompt: "Pasirinkite šalį"
+      select_language_prompt: "Pasirinkite kalbą"
+      select_state_prompt: "Prašome pasirinkti valstybę"
+    forms: 
+      please_enter_a_value: "Įveskite vertė {{label}}"
+    general: 
+      activate: Aktyvuoti
+      deactivate: Dezaktywuj
+      delete: Ištrinti
+      disable: Leisti
+      enable: "Daryti nepajėgų"
+      enabled: Įjungtas?
+      general_info: "Bendra informacija"
+      help: Padėti
+      next: "Sekantis »"
+      no_text: Ne
+      previous: «Buvęs
+      read_more: "Skaityti daugiau"
+      save: Saugoti
+      settings_saved: "Nustatymai sėkmingai išsaugoti."
+      time_ago: "{{time_in_words}} Atgal"
+      update: Atnaujinti
+      yes_text: Taip

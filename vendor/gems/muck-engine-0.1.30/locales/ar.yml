@@ -1,0 +1,31 @@
+--- 
+ar: 
+  muck: 
+    engine: 
+      choose_country: "اختيار البلد"
+      choose_language: "اختيار اللغة"
+      choose_state: "اختيار الدولة"
+      missing_parent_error: "يرجى تحديد وجوه أحد الوالدين"
+      select_country_prompt: "الرجاء اختيار بلد"
+      select_language_prompt: "الرجاء اختيار اللغة"
+      select_state_prompt: "الرجاء اختيار الدولة"
+    forms: 
+      please_enter_a_value: "الرجاء إدخال قيمة {{label}}"
+    general: 
+      activate: تفعيل
+      deactivate: تعطيل
+      delete: حذف
+      disable: يمكن
+      enable: يعطل
+      enabled: مكن؟
+      general_info: "معلومات اضافية"
+      help: مساعدة
+      next: "التالي »"
+      no_text: لا
+      previous: «السابق
+      read_more: "اقرأ المزيد"
+      save: حفظ
+      settings_saved: "تم حفظ الإعدادات."
+      time_ago: "قبل {{time_in_words}}"
+      update: تحديث
+      yes_text: نعم

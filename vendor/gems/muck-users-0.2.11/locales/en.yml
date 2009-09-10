@@ -1,0 +1,132 @@
+en:
+  muck:
+    users:
+      register_account: "Register for a {{application_name}} account"
+      already_registered: "Already a member?"
+      sign_in_now: Sign in now!
+      sign_in: Sign In
+      sign_in_title: Sign In
+      sign_out_title: Sign Out
+      sign_up: Sign Up
+      thanks_sign_up: "Thanks for signing up!"
+      thanks_sign_up_login: "Thanks for signing up! You may login now"
+      thanks_sign_up_check: "Your account has been created. Please check your e-mail for your account activation instructions!"
+      welcome_message: "Welcome to muck.  This system provides the basic components to help you build your website."
+      username_not_available: Username not available
+      username_available: Username available
+      join_application_name: Join and get it done
+      choose_member_name: Member Name
+      first_name: First Name
+      last_name: Last Name
+      name: Name
+      email_address: Email Address
+      email_help: "Please use a valid, current e-mail address. We will never share or spam your e-mail address."
+      email_available: "Email available"
+      email_invalid: "Invalid email"
+      email_empty: "Please enter an email address"
+      login_empty: "Please enter a login"
+      username: Username
+      username_help: "You can use between 6 and 20 characters. If the name you want isn't available try adding numbers or punctuation."
+      password: Password
+      password_help: "Your password should be at least six characters long. A Mix of upper and lower-case letters and numbers works well"
+      confirm_password: Confirm Password
+      password_confirmation_help: "To ensure that your password is correct please enter it again here."
+      sign_up_now: Sign-up Now
+      terms_and_service: "By clicking 'Sign-up Now' you agree to comply with the {{tos_link_anchor}}Terms and Conditions{{link_end}}."
+      my_dashboard: My Dashboard
+      update_user: Update your user information
+      problem_editing_account: There was a problem updating your information.
+      edit_profile: Edit Profile
+      update_profile: Update your profile
+      complete_profile: Complete Your Profile
+      email_not_available: "Email already in use. {{reset_password_help}}"
+      recover_password_prompt: "(If you forgot your password recover it here)"
+      welcome: Welcome
+      login_title: Log-in to your Account
+      reset_password: "Reset Password"
+      recover_password: "Recover Password"
+      register_for_account: Register for an account
+      forgot_your_password: Forgot your password?
+      forgot_password: Forgot Password
+      request_username_subject: Forgotten username
+      forgot_your_username: Forgot your username?
+      forgot_username: Forgot Username
+      request_username: Request Username
+      username_sent: Your username has been sent emailed to you. Please check your Email.
+      remember_me: Remember me
+      what_is_the_email: What is the email address used to create your account?
+      reset_your_password: Reset Your Password
+      reset_password: Reset Password
+      select_new_password: Select a New Password
+      confirm_select_new_password: Confirm Password Change
+      username_recover_prompt: "Please provide the email that you used when you created your account, your username will be emailed to you."
+      account_activated: Your account has been activated! You can now login.
+      activation_not_found: Activation code not found. Please try creating a new account.
+      already_activated: Your account has already been activated. You can log in below.
+      password_updated: Password successfully updated.
+      password_cannot_be_blank: "Password field cannot be blank."
+      new_password_doesnt_match: New password does not match the password confirmation.
+      old_password_incorrect: Your old password is incorrect.
+      problem_changing_password: "There was a problem changing your password. {{errors}}"
+      change_password: Change Password
+      change_your_password: Change Your Password
+      current_password: Current Password 
+      confirm_password: Confirm Password
+      password_reset: "Password reset."
+      reset_password: "Reset Your Password"
+      password_not_reset: "Password not reset."
+      password_mismatch: "Password mismatch."
+      remove_my_account: Remove My Account
+      delete_my_account: Delete my user account and all my data.
+      confirm_delete_account: 'Are you sure you want to delete your account?\nThis can not be undone.'
+      all_users: All Users
+      problem_creating_account: 'There was a problem creating your account.  Please correct the following errors:'
+      user_account_deleted: "You have successfully deleted your account."
+      user_disabled: User disabled
+      user_disable_problem: There was a problem disabling this user.
+      user_enabled: User enabled
+      user_enable_problem: There was a problem enabling this user.
+      cannot_deactivate_yourself: You cannot deactivate yourself!
+      user_marked_active: User has been marked as active
+      user_marked_inactive: User has been marked as inactive
+      user_successfully_deleted: "User {{login}} was successfully deleted."
+      password_reset_link_sent: "Instructions to reset your password have been emailed to you. Please check your email."
+      could_not_find_user_with_email: "Could not find a user with that email address."
+      could_not_find_reset_code: "Could not find a password reset code.  Please try resetting your password again."
+      sorry_invalid_reset_code: "We're sorry, but we could not locate your account. If you are having issues try copying and pasting the URL from your email into your browser or restarting the reset password process."
+      already_logged_in: "You are already logged in and don't need to recover your password."
+      login_success: "Login successful!"
+      login_out_success: "You have been logged out."
+      login_fail: "We're sorry, but we couldn't recognize your login information.  Please try again."
+      login_requred: "You must be logged in to access this feature."
+      logout_required: ""
+      permission_denied: "You don't have permission to complete the requested action."
+      access_denied: "You don't have permission to access the requested page."
+      user_update: "You're user information has been updated."
+      invalid_username: "Invalid username"
+      activation_complete: Activation Complete
+      activation_instructions: Activation Instructions
+      account_not_activated: "Your {{application_name}} account has not yet been activated."
+      password_reset_email_subject: "You have requested to change your {{application_name}} password"
+      welcome_email_subject: "Welcome to {{application_name}}"
+      admin_users_title: "User Administration"
+      delete_this_user: "Delete this user."
+      sign_up: Sign up
+      email_recover_prompt: "Please provide the email you signed up with to recover your password."
+      application_base_url_not_set: "Please set application_base_url in global_config.yml"
+      admin:
+        unactivated_users: "There are {{count}} unactivated users"
+        activate_all_inactive_users: "Activate All Inactive Users"
+        activate_all_inactive_users_confirm: "Are you sure you want to activate all inactive users in the system?  This cannot be undone!"
+        show_emails: "Show Emails"
+        search_users: Search Users
+      navigation:
+        all_users: All Users
+        inactive_users: Inactive Users
+        search_users: Search Users
+    roles:
+      roles: Roles
+      edit_roles: Edit Roles
+      remove_role: Remove Role
+      assign_role: Assign Role
+      role_created: Role was successfully created.

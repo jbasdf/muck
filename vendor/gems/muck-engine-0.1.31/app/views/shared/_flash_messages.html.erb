@@ -1,0 +1,7 @@
+<% if flash.keys.any? {|key| flash[key].length > 0} -%>
+  <div id="flashMessage" class="message">
+    <% flash.each do |key, msg| -%>
+      <%= content_tag :div, msg, :class => [key, " message"], :id => "notice_#{key}" %>
+    <% end -%>
+  </div>
+<% end -%>

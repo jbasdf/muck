@@ -1,0 +1,22 @@
+--- 
+gl: 
+  muck: 
+    activity_templates: 
+      share: Accións
+    shares: 
+      add_share: Compartir
+      add_share_button: Compartir
+      adding_share: "Compartindo a páxina ..."
+      cancel_share_button: Cancelar
+      cant_delete_share: "Non ten permiso para borrar que a cota"
+      create_error: "Non se puido crear as partes: {{errors}}"
+      create_success: "Compartida con éxito páxina"
+      login_prompt: "Acceso a partes"
+      message: Mensaxe
+      new_share: "Share a ligazón"
+      problem_adding_share: "Houbo un problema de engadir súas partes"
+      share_activity_content: "compartida {{link}}. {{message}}"
+      share_removed: "Compartir eliminada con éxito."
+      share_title: "Share This Link"
+      title: Título
+      uri: Url

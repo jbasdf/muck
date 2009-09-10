@@ -1,0 +1,22 @@
+#The account plugin needs to be configured.  The following values may be used to customize the account
+
+default: &DEFAULT
+
+  application_url: localhost:3000
+  
+  # session key information
+  session_key: _uploader_session
+  session_secret: ea55c4d5e105735fdfb1caec46711b3dd14ec976d0ba95b4c0f575cb046cc358bce7a335ee36eb29253fb680ef8b838d871f6baeff48220fee8e9e42ab84774b
+
+  # enable_activity_file_uploads: true # Turn on file uploads in the activity feed.  Requires that uploader be installed.
+  #   enable_activity_image_uploads: true # Turn on image uploads in the activity feed.  Requires that uploader and muck_albums be installed.
+  #   enable_activity_video_sharing: true # Turn on video sharing in the activity feed.
+  #   
+production:
+  <<: *DEFAULT
+  
+development:
+  <<: *DEFAULT
+  
+test:
+  <<: *DEFAULT

@@ -1,0 +1,30 @@
+= MuckShares
+
+Add sharing functionality to your muck application.
+
+== Setup
+Install the gem:
+  sudo gem install muck-shares
+This should also install other required muck gems.  Items are shared into the user's activity feed as well as the 
+dashboard activity feed of any users that following or friends with the current user.
+
+== Usage
+
+=== Share model
+Create a model called share in your project and add the following:
+  
+  class Share < ActiveRecord::Base
+    acts_as_muck_share
+  end
+This let's you add any other methods to the share model that you see fit.
+
+=== User model
+You will need a user model that will do the sharing:
+  class User < ActiveRecord::Base
+    acts_as_muck_sharer
+  end
+
+MuckShares will look for 'current_user' when adding new shares.
+
+
+Copyright (c) 2009 Muck your app, released under the MIT license

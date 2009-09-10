@@ -1,0 +1,22 @@
+--- 
+bg: 
+  muck: 
+    activity_templates: 
+      share: Акции
+    shares: 
+      add_share: Дял
+      add_share_button: Дял
+      adding_share: "Споделяне на страница ..."
+      cancel_share_button: Отказ
+      cant_delete_share: "Вие нямате право да изтриете този дял"
+      create_error: "Неуспех при създаването на една акция: {{errors}}"
+      create_success: "Успешно споделени страница"
+      login_prompt: "Вход за споделяне"
+      message: Съобщение
+      new_share: "Споделете Линк"
+      problem_adding_share: "Имаше проблем при добавянето на вашата акция"
+      share_activity_content: "споделено {{link}}. {{message}}"
+      share_removed: "Напишете успешно премахнат."
+      share_title: "Сподели тази Линк"
+      title: Заглавие
+      uri: Url

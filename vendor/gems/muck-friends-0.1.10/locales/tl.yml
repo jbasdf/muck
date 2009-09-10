@@ -1,0 +1,49 @@
+--- 
+tl: 
+  muck: 
+    activity_templates: 
+      follow: "Mga tagasunod"
+      friends_with: "Mga kaibigan"
+    friends: 
+      acccept_friend_request: "Tanggapin Friend Request Mula {{user}}"
+      accept: (tanggapin)
+      block: "Block {{user}}"
+      block_problem: "Mayroong mali sa pagharang ng {{user}}"
+      blocked: "Blocked {{user}}"
+      delete: (tanggalin)
+      follow_activity: "{{inviter}} Na ngayon ang mga sumusunod na {{invited}}"
+      followers: "Mga tagasunod"
+      following: Sumusunod
+      following_you: "{{name}} Na ngayon ang mga sumusunod na kayo sa {{application_name}}"
+      friend_request: "{{name}} Ay nagpadala sa inyo ng friend request sa {{application_name}}"
+      friend_request_links: "{{profile}} Nagpadala sa inyo ng friend request {{accept}} {{ignore}}"
+      friend_request_pending: "Friend request pending {{link}}"
+      friend_request_prompt: "Magpadala ng {{user}} isang Kaibigan Kahilingan"
+      friend_request_sent: "Friend Naipadalang Kahilingan"
+      friends: "Mga kaibigan"
+      friends_title: "Aking mga kaibigan"
+      friends_with: "{{inviter}} Na ngayon ang mga kaibigan na may {{invited}}"
+      ignore: (pansinin)
+      login: login
+      login_or_sign_up_to_follow: "{{login}} O {{signup}} na sundin ang user na ito"
+      login_or_sign_up_to_friend: "{{login}} O {{signup}} na magpadala ng mga friend requests"
+      mutual_friends: "Mutual Friends"
+      no_followers: "Walang Followers"
+      no_friends: "Walang mga kaibigan"
+      no_mutual_friends: "Walang mga kapwa kaibigan natagpuan"
+      not_following_anyone: "Hindi pagsunod sa kahit sino"
+      problem_adding_follow: "Nagkaroon ng problema sa pagdagdag ng {{user}} sa iyong sundin ang listahan. Mangyaring subukan ulit."
+      problem_sending_friend_request: "Nagkaroon ng problema sa pagpapadala ng isang friend request sa {{user}}. Mangyaring subukan ulit."
+      removed_following_error: "Problema sa isang naganap habang sinusubukang unfollow {{user}}"
+      removed_friendship: "Tinanggal {{user}} mula sa iyong mga kaibigan"
+      removed_friendship_error: "Nagkaroon ng problema sa pag-alis {{user}} mula sa iyong listahan ng mga kaibigan"
+      same_inviter_error_message: "User hindi maaaring maging mga kaibigan na may themself."
+      signup: pagpapalista
+      start_following: "Sundin {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Ihinto ang pagsunod sa {{user}}"
+      stopped_following: "Matagumpay na tumigil sa mga sumusunod na {{user}}"
+      unblock: "Huwag hadlangan si {{user}}"
+      unblocked: "I-unblock ng {{user}}"
+      view_all: "Tingnan ang lahat ng mga"
+      you_are_now_following: "Ngayon Ikaw ay sumusunod {{user}}"

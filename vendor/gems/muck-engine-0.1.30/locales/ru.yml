@@ -1,0 +1,31 @@
+--- 
+ru: 
+  muck: 
+    engine: 
+      choose_country: "Выберите страну"
+      choose_language: "Выбор языка"
+      choose_state: "Выбрать государство"
+      missing_parent_error: "Укажите родительский объект"
+      select_country_prompt: "Пожалуйста, выберите страну"
+      select_language_prompt: "Пожалуйста, выберите язык"
+      select_state_prompt: "Пожалуйста, выберите состояние"
+    forms: 
+      please_enter_a_value: "Введите значение для {{label}}"
+    general: 
+      activate: Включить
+      deactivate: Деактивировать
+      delete: Удалить
+      disable: Разрешать
+      enable: Выключать
+      enabled: Включен?
+      general_info: "Общая информация"
+      help: Помощь
+      next: "Следующая »"
+      no_text: Нет
+      previous: «Предыдущая
+      read_more: подробнее
+      save: Сохранить
+      settings_saved: "Настройки были спасены."
+      time_ago: "{{time_in_words}} Назад"
+      update: Обновление
+      yes_text: Да

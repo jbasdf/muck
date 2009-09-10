@@ -1,0 +1,44 @@
+--- 
+fa: 
+  muck: 
+    activity_templates: 
+      follow: پیروان
+      friends_with: دوستان
+    friends: 
+      acccept_friend_request: "پذیرفتن درخواست از دوستان {{user}}"
+      accept: (قبول)
+      delete: (حذف)
+      follow_activity: "{{inviter}}در حال حاضر زیر {{invited}}"
+      followers: پیروان
+      following: زیر
+      following_you: "{{name}}در حال حاضر شما را در زیر {{application_name}}"
+      friend_request: "{{name}}فرستاده است درخواست دوستی برای شما در {{application_name}}"
+      friend_request_links: "ارسال خبر {{profile}}درخواست دوستی برای شما {{accept}}{{ignore}}"
+      friend_request_pending: "درخواست دوستان در انتظار {{link}}"
+      friend_request_prompt: "ارسال {{user}}به درخواست دوستان"
+      friend_request_sent: "درخواست ارسال به دوستان"
+      friends: دوستان
+      friends_title: "دوستان من"
+      friends_with: "{{inviter}}است که حالا با هم دوست با {{invited}}"
+      ignore: "(نادیده گرفتن)"
+      login: "ورود به سایت"
+      login_or_sign_up_to_follow: "{{login}}و یا {{signup}}به دنبال این کاربر"
+      login_or_sign_up_to_friend: "{{login}}و یا {{signup}}ارسال درخواست دوستان"
+      mutual_friends: "دوستان متقابل"
+      no_followers: "هیچ پیروان"
+      no_friends: "هیچ دوستی"
+      no_mutual_friends: "هیچ دوستی متقابل نشد"
+      not_following_anyone: "هنوز به دنبال هر کس"
+      problem_adding_follow: "یک مشکل در اضافه کردن {{user}}به خود را دنبال لیست وجود دارد. لطفا دوباره سعی کنید."
+      problem_sending_friend_request: "یک اشکال در ارسال درخواست یک دوست به {{user}}.وجود دارد. لطفا دوباره سعی کنید."
+      removed_following_error: "یک مشکل رخ داده است در حالی که تلاش برای unfollow {{user}}"
+      removed_friendship: "حذف {{user}}از دوستان خود"
+      removed_friendship_error: "یک اشکال در از بین بردن {{user}}را از لیست خود را از دوستان وجود دارد."
+      same_inviter_error_message: "کاربر نمی تواند تبدیل به دوستان با themself."
+      signup: "ثبت نام"
+      start_following: "دنبال {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "توقف {{user}}به دنبال"
+      stopped_following: "متوقف زیر را با موفقیت به {{user}}"
+      view_all: "نمایش همه"
+      you_are_now_following: "شما در حال حاضر زیر {{user}}"

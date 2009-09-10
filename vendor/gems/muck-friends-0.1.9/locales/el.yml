@@ -1,0 +1,44 @@
+--- 
+el: 
+  muck: 
+    activity_templates: 
+      follow: "Οι οπαδοί"
+      friends_with: Φίλοι
+    friends: 
+      acccept_friend_request: "Αποδοχή φίλου Αίτηση Από {{user}}"
+      accept: (αποδεχθεί)
+      delete: (διαγραφή)
+      follow_activity: "{{inviter}} Είναι τώρα, μετά {{invited}}"
+      followers: "Οι οπαδοί"
+      following: Ακολουθία
+      following_you: "{{name}} Είναι τώρα, μετά θα σε {{application_name}}"
+      friend_request: "{{name}} Σας έστειλε ένα φίλο αίτηση για {{application_name}}"
+      friend_request_links: "{{profile}} Σας έστειλε ένα φίλο αίτηση {{accept}} {{ignore}}"
+      friend_request_pending: "Φίλος εκκρεμεί αίτηση {{link}}"
+      friend_request_prompt: "Αποστολή {{user}} ένα φίλο Αίτηση"
+      friend_request_sent: "Φίλος Αίτηση Σταλθέντα"
+      friends: Φίλοι
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Είναι τώρα φίλοι με {{invited}}"
+      ignore: (ignore)
+      login: σύνδεση
+      login_or_sign_up_to_follow: "{{login}} Ή {{signup}} να ακολουθήσουν αυτό το χρήστη"
+      login_or_sign_up_to_friend: "{{login}} Ή {{signup}} να στείλει αιτήσεις φίλων"
+      mutual_friends: "Αμοιβαία Φίλοι"
+      no_followers: "Δεν οπαδοί"
+      no_friends: "Δεν υπάρχουν φίλοι"
+      no_mutual_friends: "Δεν αμοιβαίας φίλους που βρέθηκαν"
+      not_following_anyone: "Όποιος δεν ακολουθεί"
+      problem_adding_follow: "Υπήρξε πρόβλημα στην προσθήκη {{user}} σας λίστα παρακολούθησης. Παρακαλώ δοκιμάστε ξανά."
+      problem_sending_friend_request: "Υπήρξε ένα πρόβλημα κατά την αποστολή σε ένα φίλο αίτηση για {{user}}. Παρακαλώ δοκιμάστε ξανά."
+      removed_following_error: "Ένα πρόβλημα, ενώ προσπαθεί να unfollow {{user}}"
+      removed_friendship: "Αφαιρέθηκε {{user}} από τους φίλους σας"
+      removed_friendship_error: "Υπήρξε ένα πρόβλημα {{user}} την αφαίρεση από τη λίστα φίλων"
+      same_inviter_error_message: "Χρήστης δεν μπορεί να γίνει με τους φίλους αυτών των ιδίων."
+      signup: εγγραφή
+      start_following: "Ακολουθήστε {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Διακοπή Μετά {{user}}"
+      stopped_following: "Επιτυχής σταματήσει μετά {{user}}"
+      view_all: "Προβολή όλων"
+      you_are_now_following: "Τώρα μετά {{user}}"

@@ -1,0 +1,30 @@
+--- 
+ar: 
+  muck: 
+    activities: 
+      activity_feed_title: "النشاط الأخير"
+      adding_comment_message: "واضاف التعليق..."
+      all_activities: "جميع الأنشطة"
+      clear: واضح
+      create_error: "هناك مشكلة في طلب واضاف ان النشاط : {{error}}"
+      delete: حذف
+      invite_friends: "دعوة الأصدقاء"
+      item_could_not_be_removed: "البند لا يمكن شطبها من قائمة الأنشطة الأخيرة."
+      item_created: "واضاف النشاط"
+      item_removed: "البند بنجاح في الآونة الأخيرة من الأنشطة القائمة."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: التعليق
+      paging_newer: «أحدث
+      paging_older: "أقدم »"
+      permission_denied: "عذرا ، لا يمكنك فعل ذلك."
+      post: مشاركة
+      problem_with_status: "هناك مشكلة في تغيير حالتك"
+      status_indicator: يكون
+      status_update_prompt: "ماذا تفعل الآن؟"
+      template_or_item_required: "نشاط يتطلب القالب أو بندا لعرض بشكل صحيح"
+      update_error: "عفوا... كانت هناك مشكلة. {{errors}}"
+      update_status_message: "تحديث مركز!"
+      updating_status_message: "تحديث حالتك. الرجاء الانتظار."
+      write_prompt: "كتابة تعليق..."
+    activity_templates: 
+      status_update: "مركز والمستجدات"

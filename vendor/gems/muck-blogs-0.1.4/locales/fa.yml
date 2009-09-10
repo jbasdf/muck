@@ -1,0 +1,7 @@
+--- 
+fa: 
+  muck: 
+    blogs: 
+      add_post: "اضافه کردن پیام"
+      add_post_link: "اضافه کردن پیام"
+      blog_title: "وبلاگ برای {{title}}"

@@ -1,0 +1,12 @@
+/* main-navigation */
+#main-navigation{float:left;display:inline;}
+#account-navigation {float:right;display:inline;}
+
+.navigation ul{float:left;margin:4px 0;padding:2px;display:inline;}
+.navigation ul li{float:left;padding:0 4px 0 10px;list-style:none;font-weight:bold;}
+.navigation ul li a{float:left;text-decoration:none;font-weight:bold;}
+.navigation ul li a:hover{text-decoration:underline;}
+
+/* themes */
+#current-theme{clear:both;float:left;width:100%;}
+.theme-block{width:250px;height:300px;float:left;clear:none;margin:10px;}

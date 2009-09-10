@@ -1,0 +1,30 @@
+--- 
+sv: 
+  muck: 
+    activities: 
+      activity_feed_title: "Senaste aktiviteter"
+      adding_comment_message: "Lägga kommentar ..."
+      all_activities: "Alla aktiviteter"
+      clear: Klar
+      create_error: "Det uppstod ett problem att lägga till den anmodade Verksamhetsområde: {{error}}"
+      delete: "Ta bort"
+      invite_friends: "Bjud in vänner"
+      item_could_not_be_removed: "Punkt kunde inte flyttas från den senaste listan över verksamhetsområden."
+      item_created: "Tillagd verksamhet"
+      item_removed: "Punkt tagits bort från den senaste listan över verksamhetsområden."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: Kommentera
+      paging_newer: «Nyare
+      paging_older: "Äldre »"
+      permission_denied: "Tyvärr kan du inte göra det."
+      post: Del
+      problem_with_status: "Det uppstod ett problem med att ändra din status"
+      status_indicator: är
+      status_update_prompt: "Vad gör du just nu?"
+      template_or_item_required: "En verksamhet kräver en mall eller ett objekt för att visas korrekt"
+      update_error: "Oj ... Det uppstod ett problem. {{errors}}"
+      update_status_message: "uppdatera din status!"
+      updating_status_message: "Uppdatera din status. Vänta."
+      write_prompt: "Skriv en kommentar ..."
+    activity_templates: 
+      status_update: "Status Updates"

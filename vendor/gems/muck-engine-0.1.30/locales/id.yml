@@ -1,0 +1,31 @@
+--- 
+id: 
+  muck: 
+    engine: 
+      choose_country: "Pilih Negara"
+      choose_language: "Pilih Bahasa"
+      choose_state: "Pilih Negara"
+      missing_parent_error: "Silakan tentukan induk objek"
+      select_country_prompt: "Silakan pilih negara"
+      select_language_prompt: "Silakan pilih bahasa"
+      select_state_prompt: "Silakan pilih salah satu negara"
+    forms: 
+      please_enter_a_value: "Masukkan nilai {{label}}"
+    general: 
+      activate: Aktifkan
+      deactivate: Menonaktifkan
+      delete: Menghapus
+      disable: Memungkinkan
+      enable: "Tidak mampu"
+      enabled: Diaktifkan?
+      general_info: "Info umum"
+      help: Membantu
+      next: "Berikutnya »"
+      no_text: Tidak
+      previous: «Sebelumnya
+      read_more: "read more"
+      save: Simpan
+      settings_saved: "Pengaturan telah disimpan."
+      time_ago: "{{time_in_words}} Lalu"
+      update: Pembaruan
+      yes_text: Ya

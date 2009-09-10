@@ -1,0 +1,21 @@
+<div id="<%= share.dom_id %>_new_share" class="share-form-wrapper">
+  <% custom_form_for(share, :url => user_shares_path(current_user), :html => { :id => "#{share.dom_id}_share_form", :class => "share-form"} ) do |f| -%>
+    <% if defined?(include_share_to) -%>
+      <div id="share_to">
+        <%= f.text_field :to %>
+      </div>
+    <% end -%>
+    <div id="share_information">
+      <%= f.text_field :title, { :label => t('muck.shares.title') } -%>
+      <%= f.text_field :uri, { :label => t('muck.shares.uri') } -%>
+    </div>
+    <div id="share_message">
+      <%= f.text_area :message, { :label => t('muck.shares.message'),
+                                  :class => 'min' } %>
+    </div>
+    <%= capture(f, &block) %>
+    <div class="button form-row">
+      <%= f.submit t('muck.shares.add_share_button'), :class => "button share-submit", :id => "share_submit_#{share.dom_id}" %>
+    </div>
+  <% end -%>
+</div>

@@ -1,0 +1,44 @@
+--- 
+ar: 
+  muck: 
+    activity_templates: 
+      follow: أتباع
+      friends_with: أصدقاء
+    friends: 
+      acccept_friend_request: "قبول طلب من صديق {{user}}"
+      accept: (قبول)
+      delete: (حذف)
+      follow_activity: "{{inviter}}الآن بعد {{invited}}"
+      followers: أتباع
+      following: تال
+      following_you: "{{name}}الآن إليكم ما يلي {{application_name}}"
+      friend_request: "{{name}}أرسل لك صديقك الطلب على {{application_name}}"
+      friend_request_links: "{{profile}}أرسال طلب لصديق {{accept}}{{ignore}}"
+      friend_request_pending: "طلب صديق في انتظار {{link}}"
+      friend_request_prompt: "ارسال طلب {{user}}صديق"
+      friend_request_sent: "تم إرسال طلب صديق"
+      friends: أصدقاء
+      friends_title: أصدقائي
+      friends_with: "{{inviter}}الآن مع أصدقاء {{invited}}"
+      ignore: (تجاهل)
+      login: "تسجيل الدخول"
+      login_or_sign_up_to_follow: "{{login}}أو {{signup}}لمتابعة هذا المستخدم"
+      login_or_sign_up_to_friend: "{{login}}أو {{signup}}إرسال طلبات الأصدقاء"
+      mutual_friends: "تبادل الأصدقاء"
+      no_followers: "لا أتباع"
+      no_friends: "لا أصدقاء"
+      no_mutual_friends: "لا أصدقاء للطرفين ، وجدت"
+      not_following_anyone: "لا وبعد كل"
+      problem_adding_follow: "هناك مشكلة واضاف {{user}}لمتابعة القائمة الخاصة بك. يرجى المحاولة مرة أخرى."
+      problem_sending_friend_request: "هناك مشكلة في ارسال طلب لصديق {{user}}. يرجى المحاولة مرة أخرى."
+      removed_following_error: "وثمة مشكلة وقعت بينما كان يحاول فولو غير {{user}}"
+      removed_friendship: "إزالة {{user}}من أصدقائك"
+      removed_friendship_error: "هناك مشكلة في إزالة {{user}}من قائمة الأصدقاء"
+      same_inviter_error_message: "المستخدم لا يمكن أن يصبح صديقا لذاتهما."
+      signup: الاشتراك
+      start_following: "يتبع {{user}}"
+      stop_being_friends_with: "العدو {{user}}"
+      stop_following: "وبعد توقف {{user}}"
+      stopped_following: "بنجاح بعد توقف {{user}}"
+      view_all: "وبالنظر إلى جميع"
+      you_are_now_following: "أنت الآن بعد {{user}}"

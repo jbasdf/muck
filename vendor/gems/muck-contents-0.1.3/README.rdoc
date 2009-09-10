@@ -1,0 +1,111 @@
+= MuckContents
+
+Add contents to you website.  News stories, blog posts and pages are all basically a page with content and a title.  Muck content makes 
+it easy to add this content to your website.
+
+=== Gems
+Note that all gems below should be installed automatically as a muck-contents has them set as a dependency.  
+Many of the gems are found on github so before installing do:
+  gem sources -a http://gems.github.com
+
+  sudo gem install muck-acts_as_git                   # Versioning. Requires a git installation.
+  sudo gem install collectiveidea-awesome_nested_set  # Nested pages.  Used to setup navigation hierarchy (http://github.com/collectiveidea/awesome_nested_set/tree/master)
+  sudo gem install rgrove-sanitize                    # Remove harmful html. (http://github.com/rgrove/sanitize/tree/master.)
+  sudo gem install mbleigh-acts-as-taggable-on        # Tagging.  (http://github.com/mbleigh/acts-as-taggable-on/tree/master)
+  sudo gem install friendly_id                        # Pretty urls (http://github.com/norman/friendly_id/tree/master)
+  sudo gem install babelphish                         # Translations
+  sudo gem install muck-solr                          # Search Install muck_solr (or another version of acts_as_solr)
+
+=== Configure environment.rb
+Paste in the following:
+  config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set'
+  config.gem "rgrove-sanitize", :lib => 'sanitize'
+  config.gem "mbleigh-acts-as-taggable-on", :source => "http://gems.github.com", :lib => "acts-as-taggable-on"
+  config.gem "friendly_id"
+  config.gem "babelphish"
+
+
+=== Gem configuration and setup
+In your app do
+  script/generate friendly_id
+  script/generate acts_as_taggable_on_migration
+  rake db:migrate
+
+== Setup
+
+=== User model
+Add the following method to your user model and modify it according to your specific needs:
+  
+  def can_add_root_content?
+    admin?
+  end
+
+This method determines who can add content to any url on your website.  For example, if you type in
+http://www.example.com/a/test/page and that page does not exist, muck contents will automatically create
+a page for you at that location if the logged in user has a method can_add_root_content? that returns true.
+
+=== Content models
+Create the following models in your project.  This let's you add any other methods that you see fit.
+
+  class Content < ActiveRecord::Base
+    # This assumes you are using GlobalConfig.  You can also set these values directly in the model
+    acts_as_muck_content(
+      :git_repository => GlobalConfig.content_git_repository,
+      :enable_translations => GlobalConfig.enable_auto_translations,
+      :enable_solr => GlobalConfig.content_enable_solr
+    )
+  end
+  
+  class ContentTranslation < ActiveRecord::Base
+    acts_as_muck_content_translation
+  end
+  
+  class ContentPermission < ActiveRecord::Base
+    acts_as_muck_content_permission
+  end
+
+=== Application controller
+Add acts_as_muck_content_handler if you want muck_contents to intercept pages that are not found and provide authorized users
+and opportunity to add them.
+
+  class ApplicationController < ActionController::Base
+    acts_as_muck_content_handler
+  end
+
+=== Contents controller
+
+Create a ContentsController and inherit from Muck::ContentsController.  Unfortunately, due to routing issues this is required or 
+we'd have to hard code the routes to go to muck/contents which prevent modification of the contents_controller.
+  class ContentsController < Muck::ContentsController
+  end
+
+Add a route for the new controller:
+  ActionController::Routing::Routes.draw do |map|
+    map.resource :contents
+  end
+  
+Override the contents controller to change the the security model.  For example:
+
+  class ContentsController < Muck::ContentsController
+    
+    # Modify this method to change how permissions are checked to see if a user can content.
+    # Each model that implements 'has_muck_content' can (and should) override can_add_content? to 
+    # change how content permissions are handled.
+    def has_permission_to_add_content(user, parent, content)
+      parent.can_add_content?(user)
+    end
+    
+    # Setups up the layouts that are available in the 'layouts' pulldown.
+    # Override this method to change the available layouts. Note that the
+    # layout will need to exist in your 'views/layouts' directory
+    def setup_layouts
+      @content_layouts = 
+      @content_layouts << OpenStruct.new(:name => 'A Great Layout', :value => 'great_layout')
+      @content_layouts << OpenStruct.new(:name => 'Default', :value => 'default')
+    end
+    
+  end
+
+
+
+Copyright (c) 2009 Justin Ball, released under the MIT license

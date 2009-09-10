@@ -1,0 +1,22 @@
+--- 
+ko: 
+  muck: 
+    activity_templates: 
+      share: 주식
+    shares: 
+      add_share: 공유
+      add_share_button: 공유
+      adding_share: "페이지를 공유 ..."
+      cancel_share_button: 취소
+      cant_delete_share: "공유 권한을 삭제하지 않아도"
+      create_error: "공유를 만들 수없습니다 : {{errors}}"
+      create_success: "성공적으로 페이지를 공유"
+      login_prompt: "로그인 공유"
+      message: 메시지
+      new_share: "공유 링크"
+      problem_adding_share: "거기에 문제가 의견을 추가했습니다"
+      share_activity_content: "{{link}}. 공유 {{message}}"
+      share_removed: "공유를 성공적으로 제거됩니다."
+      share_title: "이것을 나누십 링크"
+      title: 제목
+      uri: 홈페이지

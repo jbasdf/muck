@@ -1,0 +1,5 @@
+<p class="language_list">
+<% @languages.each_with_index do |language, index| %>
+<%= index == 0 ? "" : " | " %><%= link_to language.name, "/?locale=" + language.code %>
+<% end %>
+</p>

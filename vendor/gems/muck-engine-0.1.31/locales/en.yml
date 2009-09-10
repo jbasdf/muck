@@ -1,0 +1,31 @@
+en:
+  muck:
+    forms: 
+      please_enter_a_value: "Please enter a value for {{label}}"
+    general:
+      yes_text: 'Yes'
+      no_text: 'No'
+      save: Save
+      disable: Enable
+      enable: Disable
+      deactivate: Deactivate
+      activate: Activate
+      enabled: Enabled?
+      general_info: General info
+      help: Help
+      settings_saved: Settings have been saved.
+      delete: Delete
+      update: Update
+      previous: '&laquo; Previous'
+      next: 'Next &raquo;'
+      time_ago: "{{time_in_words}} ago"
+      read_more: "read more"
+      deleting: "Deleting..."
+    engine:
+      choose_country: "Choose Country"
+      select_country_prompt: "Please select a country"
+      choose_state: "Choose State"
+      select_state_prompt: "Please select a state"
+      choose_language: "Choose Language"
+      select_language_prompt: "Please select a language"
+      missing_parent_error: "Please specify a parent object"

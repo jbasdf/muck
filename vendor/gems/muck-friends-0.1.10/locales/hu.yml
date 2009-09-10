@@ -1,0 +1,49 @@
+--- 
+hu: 
+  muck: 
+    activity_templates: 
+      follow: Hívei
+      friends_with: Barátok
+    friends: 
+      acccept_friend_request: "Accept Friend kérésére {{user}}"
+      accept: (accept)
+      block: "Block {{user}}"
+      block_problem: "Hiba történt blokkoló {{user}}"
+      blocked: "Blokkolt {{user}}"
+      delete: (törlés)
+      follow_activity: "{{inviter}} Most következő {{invited}}"
+      followers: Hívei
+      following: Következő
+      following_you: "{{name}} Most következő Önt {{application_name}}"
+      friend_request: "{{name}} Küldött egy barát kérelem {{application_name}}"
+      friend_request_links: "{{profile}} Küldött egy barátom kérésére {{accept}} {{ignore}}"
+      friend_request_pending: "Ismerősei függőben {{link}}"
+      friend_request_prompt: "Send {{user}} mailben kérése"
+      friend_request_sent: "Friend Request elküldve"
+      friends: Barátok
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Most barátok {{invited}}"
+      ignore: (ignore)
+      login: bejelentkezés
+      login_or_sign_up_to_follow: "{{login}} Vagy {{signup}}, hogy kövessék a felhasználót"
+      login_or_sign_up_to_friend: "{{login}} Vagy {{signup}} küldeni ismerősének kérések"
+      mutual_friends: "Mutual Friends"
+      no_followers: "No Followers"
+      no_friends: "No friends"
+      no_mutual_friends: "Nincs közös ismerőseink találtak"
+      not_following_anyone: "Aki nem követi"
+      problem_adding_follow: "Hiba történt a hozzá {{user}} el az alábbi listát. Kérjük, próbálja újra."
+      problem_sending_friend_request: "Hiba történt a küldés egy barátnak kérelmet {{user}}. Kérjük, próbálja újra."
+      removed_following_error: "A Hiba történt, miközben próbálta unfollow {{user}}"
+      removed_friendship: "{{user}} Távolítani a barátaid"
+      removed_friendship_error: "Hiba történt a kivétele {{user}} a listáról a barátok"
+      same_inviter_error_message: "A felhasználó nem válhat barátok themself."
+      signup: feliratkozási
+      start_following: "Kövesse {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Leállításához követően {{user}}"
+      stopped_following: "Sikeresen megállította a következő {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "Feloldását {{user}}"
+      view_all: "View All"
+      you_are_now_following: "Ön most következő {{user}}"

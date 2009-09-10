@@ -1,0 +1,32 @@
+--- 
+hr: 
+  muck: 
+    contents: 
+      add: Dodati
+      cancel: Odustani
+      cant_delete_content: "Nemate dopuštenje za brisanje naveden sadržaj"
+      choose_layout: "Odaberite predložak"
+      choose_layout_help: "Odaberite predložak izgleda da će uzvratiti krom za ovu stranicu."
+      confirm_delete_content: "Jeste li sigurni da želite izbrisati ovaj sadržaj? To se ne može poništiti!"
+      content_help: "To je sadržaj koji će se pojaviti na stranici."
+      content_label: Sadržaj
+      content_removed: "Sadržaj je uspješno uklonjen"
+      create_error: "Došlo je do problema dodavanje sadržaja"
+      default_404_body: "Nismo mogli naći stranicu koju ste tražili."
+      default_404_title: "404 Stranica nije pronađena"
+      delete: Izbrisati
+      delete_title: "Izbriši ovu stranicu."
+      edit: Uredi
+      edit_title: "Edit this page."
+      manage_pages_title: "Upravljanje web sadržajem"
+      no_uri_error: "Molimo postavite vrijednost za uri prije spremanja model kad contentable je nula"
+      page_doesnt_exist_create: "Stranicu koju ste tražili ne postoji. Molimo navedite podatke ispod kako biste stvorili stranicu."
+      permalink: "Permalink:"
+      problem_adding_content: "Došlo je do problema dodavanje sadržaja"
+      problem_updating_content: "Došlo je do problema ažuriranje sadržaja"
+      save: Spremiti
+      submit_content_button: Spremiti
+      tag_information: "Tags pomoći i drugim korisnicima da pronađu svoju stranicu, te će se koristiti kao meta za ključne riječi dokumenta."
+      tags: Tags
+      title_help: "Naziv kontrole URL te stranice naslov prikazan u url baru"
+      title_label: Naslov

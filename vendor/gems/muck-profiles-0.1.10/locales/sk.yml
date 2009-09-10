@@ -1,0 +1,12 @@
+--- 
+sk: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Nemožno nájsť konkrétneho užívateľa."
+      edit_failure: "Došlo k chybe pri aktualizácii vášho profilu."
+      edit_profile: "Edit Profile"
+      edit_success: "Úspešne aktualizovať svoj profil"
+      problem_editing_account: "Došlo k problému pri aktualizácii vášho profilu"
+      update_profile: "Upraviť profil"
+      upload_photo: "Upload fotografie:"
+      view_profile: "Zobraziť profil"

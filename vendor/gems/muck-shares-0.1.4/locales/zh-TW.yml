@@ -1,0 +1,22 @@
+--- 
+zh-TW: 
+  muck: 
+    activity_templates: 
+      share: 股份
+    shares: 
+      add_share: 共享
+      add_share_button: 共享
+      adding_share: 共享網頁...
+      cancel_share_button: 取消
+      cant_delete_share: 您沒有權限刪除該共享
+      create_error: "無法創建共享：{{errors}}"
+      create_success: 成功地分享網頁
+      login_prompt: 登錄到共享
+      message: 消息
+      new_share: 共享鏈接
+      problem_adding_share: 有一個問題，將您共享
+      share_activity_content: "共享{{link}}. {{message}}"
+      share_removed: 分享成功刪除。
+      share_title: 分享此鏈接
+      title: 標題
+      uri: 網址

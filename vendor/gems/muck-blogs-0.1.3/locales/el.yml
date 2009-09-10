@@ -1,0 +1,7 @@
+--- 
+el: 
+  muck: 
+    blogs: 
+      add_post: "Προσθήκη Post"
+      add_post_link: "Προσθήκη Post"
+      blog_title: "Blog για {{title}}"

@@ -1,0 +1,32 @@
+--- 
+cs: 
+  muck: 
+    engine: 
+      choose_country: "Vyberte zemi"
+      choose_language: "Vybrat jazyk"
+      choose_state: "Vyberte si stát"
+      missing_parent_error: "Prosím, zadejte nadřazeného objektu"
+      select_country_prompt: "Prosím vyberte zemi"
+      select_language_prompt: "Prosím, vyberte jazyk"
+      select_state_prompt: "Prosím, vyberte stav"
+    forms: 
+      please_enter_a_value: "Prosím, zadejte hodnotu pro {{label}}"
+    general: 
+      activate: Aktivovat
+      deactivate: Deaktivovat
+      delete: Odstranit
+      deleting: "Mazání ..."
+      disable: Umožnit
+      enable: Znemožnit
+      enabled: Povoleno?
+      general_info: "Obecné info"
+      help: Nápověda
+      next: "Další »"
+      no_text: Ne
+      previous: «Předchozí
+      read_more: více
+      save: Uložit
+      settings_saved: "Nastavení bylo uloženo."
+      time_ago: "{{time_in_words}} Ago"
+      update: Aktualizovat
+      yes_text: Ano

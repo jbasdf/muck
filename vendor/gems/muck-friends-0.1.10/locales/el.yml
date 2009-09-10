@@ -1,0 +1,49 @@
+--- 
+el: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: Φίλοι
+    friends: 
+      acccept_friend_request: "Αποδοχή φίλου Αίτημα {{user}}"
+      accept: (αποδεχθεί)
+      block: "Block {{user}}"
+      block_problem: "Υπήρξε λάθος κλείδωμα {{user}}"
+      blocked: "Αποκλεισμένοι {{user}}"
+      delete: (διαγραφή)
+      follow_activity: "{{inviter}} Ακολουθεί τώρα {{invited}}"
+      followers: Followers
+      following: Ακολουθία
+      following_you: "{{name}} Ακολουθεί εσείς τώρα για {{application_name}}"
+      friend_request: "{{name}} Σας έστειλε ένα αίτημα για {{application_name}} φίλο"
+      friend_request_links: "{{profile}} Σας έστειλε ένα αίτημα φίλο {{accept}} {{ignore}}"
+      friend_request_pending: "Φίλος αίτημα εκκρεμεί {{link}}"
+      friend_request_prompt: "Αποστολή {{user}} ένα φίλο Αίτηση"
+      friend_request_sent: "Φίλος αίτημα εστάλη"
+      friends: Φίλοι
+      friends_title: "Οι φίλοι μου"
+      friends_with: "{{inviter}} Είναι τώρα φίλοι με {{invited}}"
+      ignore: (ignore)
+      login: σύνδεση
+      login_or_sign_up_to_follow: "{{login}} Ή {{signup}} να ακολουθήσουν αυτό το χρήστη"
+      login_or_sign_up_to_friend: "{{login}} Ή {{signup}} να στείλετε αιτήσεις φίλων"
+      mutual_friends: "Αμοιβαία Φίλοι"
+      no_followers: "Δεν Followers"
+      no_friends: "Δεν υπάρχουν φίλοι"
+      no_mutual_friends: "Δεν αμοιβαία φίλους που βρέθηκαν"
+      not_following_anyone: "Όποιος δεν ακολουθεί"
+      problem_adding_follow: "Υπήρξε ένα πρόβλημα προσθέτοντας {{user}} να ακολουθήσει σας λίστα. Παρακαλώ δοκιμάστε ξανά."
+      problem_sending_friend_request: "Υπήρξε ένα πρόβλημα στέλνοντας ένα φίλο αίτηση για {{user}}. Παρακαλώ δοκιμάστε ξανά."
+      removed_following_error: "Ένα πρόβλημα εμφανίστηκε κατά την προσπάθεια unfollow {{user}}"
+      removed_friendship: "Απομακρυνθεί {{user}} από τους φίλους σας"
+      removed_friendship_error: "Υπήρξε ένα πρόβλημα {{user}} την αφαίρεση από τη λίστα των φίλων"
+      same_inviter_error_message: "Ο χρήστης δεν μπορεί να γίνει με τους φίλους ιδίων."
+      signup: εγγραφή
+      start_following: "Ακολουθήστε {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop Μετά {{user}}"
+      stopped_following: "Επιτυχώς σταμάτησε μετά {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "Unblocked {{user}}"
+      view_all: "View All"
+      you_are_now_following: "Είστε ακόλουθες τώρα {{user}}"

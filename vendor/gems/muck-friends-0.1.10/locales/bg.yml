@@ -1,0 +1,49 @@
+--- 
+bg: 
+  muck: 
+    activity_templates: 
+      follow: Последователи
+      friends_with: Приятели
+    friends: 
+      acccept_friend_request: "Приеми приятел искане от {{user}}"
+      accept: (приеме)
+      block: "Блок {{user}}"
+      block_problem: "Имаше грешка при блокиране {{user}}"
+      blocked: "Блокирани {{user}}"
+      delete: (изтриване)
+      follow_activity: "{{inviter}} Е сега след {{invited}}"
+      followers: Последователи
+      following: Следващ
+      following_you: "{{name}} Е сега продължение на {{application_name}}"
+      friend_request: "{{name}} Ви е изпратил молба за приятелство на {{application_name}}"
+      friend_request_links: "{{profile}} Ви изпрати молба за приятелство {{accept}} {{ignore}}"
+      friend_request_pending: "Приятел искане до {{link}}"
+      friend_request_prompt: "Изпрати на приятел {{user}} Заявка"
+      friend_request_sent: "Заявката е изпратена приятел"
+      friends: Приятели
+      friends_title: "Моите приятели"
+      friends_with: "{{inviter}} Сега е приятел с {{invited}}"
+      ignore: (игнорира)
+      login: влизам
+      login_or_sign_up_to_follow: "{{login}} Или {{signup}} да последват този потребител"
+      login_or_sign_up_to_friend: "{{login}} Или {{signup}} да изпращат молби за приятелство"
+      mutual_friends: "Общи приятели"
+      no_followers: "Не Последователи"
+      no_friends: "Няма приятели"
+      no_mutual_friends: "Не общи приятели намерени"
+      not_following_anyone: "Всеки, който не следват"
+      problem_adding_follow: "Имаше проблем при добавянето на {{user}} да следват вашия списък. Моля опитайте отново."
+      problem_sending_friend_request: "Имаше проблем при изпращането на молба за приятелство с {{user}}. Моля опитайте отново."
+      removed_following_error: "Един от проблемите, възникнали при опит да unfollow {{user}}"
+      removed_friendship: "Премахнато {{user}} от приятелите си"
+      removed_friendship_error: "Имаше проблем при премахването на {{user}} от своя списък с приятели"
+      same_inviter_error_message: "Потребителите не могат да станат приятели с themself."
+      signup: регистрация
+      start_following: "Следвайте {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Спри След {{user}}"
+      stopped_following: "Успешно спря след {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "Разблокирани {{user}}"
+      view_all: "Виж всички"
+      you_are_now_following: "Сега след {{user}}"

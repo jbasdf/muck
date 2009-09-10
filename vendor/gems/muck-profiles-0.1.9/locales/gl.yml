@@ -1,0 +1,12 @@
+--- 
+gl: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Non se puido atopar o usuario especificado."
+      edit_failure: "Houbo un erro ao actualizar o seu perfil."
+      edit_profile: "Editar perfil"
+      edit_success: "Actualizar correctamente o seu perfil"
+      problem_editing_account: "Houbo un problema ao actualizar o seu perfil"
+      update_profile: "Actualizar perfil"
+      upload_photo: "Fai a carga de unha foto:"
+      view_profile: "Ver perfil"

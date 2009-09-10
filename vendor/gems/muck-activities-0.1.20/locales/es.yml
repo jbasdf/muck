@@ -1,0 +1,34 @@
+--- 
+es: 
+  muck: 
+    activities: 
+      activity_feed_title: "Actividad reciente"
+      add_photos: "Agregar fotos"
+      add_videos: "Compartir vídeos"
+      adding_comment_message: "Añadir comentario ..."
+      all_activities: "Todas las Actividades"
+      clear: Claro
+      create_error: "Hubo un problema al añadir la actividad solicitada: {{error}}"
+      delete: Borrar
+      invite_friends: "Invitar a los amigos"
+      item_could_not_be_removed: "No se ha podido quitar de la lista de actividades recientes."
+      item_created: "Alta actividad"
+      item_removed: "Artículo ha eliminado de la lista de actividades recientes."
+      joined_status: "{{name}} Unió {{application_name}}"
+      make_comment: Comentario
+      paging_newer: "«Más reciente"
+      paging_older: "Más antiguo »"
+      permission_denied: "Lo sentimos, no puedes hacer eso."
+      post: Compartir
+      problem_with_status: "Hubo un problema al cambiar su estado de"
+      status_indicator: es
+      status_update_prompt: "¿Qué estás haciendo ahora?"
+      template_or_item_required: "Una actividad que requiere de una plantilla o un elemento para mostrar correctamente"
+      update_error: "Vaya ... Ha habido un problema. {{errors}}"
+      update_status_message: "actualizar su estatus!"
+      updating_status_message: "La actualización de su estado. Por favor, espere."
+      upload_files: "Cargar archivos"
+      write: Escribir
+      write_prompt: "Escriba un comentario ..."
+    activity_templates: 
+      status_update: "Las actualizaciones de estado"

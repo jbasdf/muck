@@ -1,0 +1,12 @@
+--- 
+ro: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Nu a putut fi găsit de utilizator specificat."
+      edit_failure: "A apărut o eroare la actualizarea profilului dumneavoastră."
+      edit_profile: "Editare profil"
+      edit_success: "Au fost actualizate cu succes profilul dvs."
+      problem_editing_account: "A apărut o problemă la actualizarea profilului dvs."
+      update_profile: "Update Profil"
+      upload_photo: "Încărcaţi o fotografie:"
+      view_profile: "Vezi Profil"

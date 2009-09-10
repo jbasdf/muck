@@ -1,0 +1,16 @@
+--- 
+mt: 
+  muck: 
+    activity_templates: 
+      comment: Kummenti
+    comments: 
+      add_comment: Kumment
+      add_comment_button: "Żid Kumment"
+      cant_delete_comment: "Inti ma jkollhomx permess li tħassar dan il-kumment"
+      comment_removed: "Kumment jitneħħew b&#39;suċċess."
+      create_error: "Ma setgħetx toħloq il-kumment {{errors}}"
+      create_success: "B&#39;suċċess miżjud kumment"
+      missing_comment_template_error: "Ma setax isib parzjali msemmija {{partial}}. Jekk jogħġbok joħolqu kumment parzjali u erġa &#39;pprova."
+      new_comment_no_title: "Żid kumment ġdid"
+      new_comment_with_title: "Żid kumment ġdid {{title}}"
+      problem_adding_comment: "Kien hemm problema żżid kumment tiegħek"

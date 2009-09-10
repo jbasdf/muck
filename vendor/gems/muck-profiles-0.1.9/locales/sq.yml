@@ -1,0 +1,12 @@
+--- 
+sq: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Nuk munda të gjejë të specifikuar përdorues."
+      edit_failure: "Ka ndodhur një gabim gjatë azhornimin e profilit tuaj."
+      edit_profile: "Edit Profile"
+      edit_success: "Ri-freskua me sukses profilin tuaj"
+      problem_editing_account: "Ka ndodhur një problem azhornimin e profilit tuaj"
+      update_profile: "Profile Update"
+      upload_photo: "Ngarko foto:"
+      view_profile: "Shiko Profilin"

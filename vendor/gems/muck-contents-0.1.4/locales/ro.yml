@@ -1,0 +1,32 @@
+--- 
+ro: 
+  muck: 
+    contents: 
+      add: Adăuga
+      cancel: Anulaţi
+      cant_delete_content: "Nu aveţi permisiunea de a şterge conţinutul specificate"
+      choose_layout: "Select Template"
+      choose_layout_help: "Selectaţi un aspect şablon, care va face ca crom pentru această pagină."
+      confirm_delete_content: "Sunteţi sigur că doriţi să ştergeţi acest conţinut? Acest lucru nu poate fi anulată!"
+      content_help: "Acesta este conţinutul care va apărea pe pagină."
+      content_label: Conţinut
+      content_removed: "Conţinut înlăturat cu succes"
+      create_error: "Nu a fost o problemă adăugând conţinut dvs."
+      default_404_body: "Nu am putut găsi pe pagina pe care îl căutaţi."
+      default_404_title: "404 Pagina nu a fost găsit"
+      delete: Şterge
+      delete_title: "Şterge pagina."
+      edit: Editaţi
+      edit_title: "Edita această pagină."
+      manage_pages_title: "Gestionaţi conţinutul site-ului"
+      no_uri_error: "Vă rugăm să stabiliţi o valoare pentru uri înainte de a salva modelul contentable atunci când este egală cu zero"
+      page_doesnt_exist_create: "Pagina pe care aţi solicitat nu există. Vă rugăm să furnizaţi informaţiile de mai jos pentru a crea pagina."
+      permalink: "Permalink:"
+      problem_adding_content: "Nu a fost o problemă adăugarea de conţinut"
+      problem_updating_content: "Nu a fost o problemă de actualizare a conţinutului"
+      save: Economisi
+      submit_content_button: Economisi
+      tag_information: "Tag-uri ajuta utilizatorii să găsească alte pagina dvs. şi va fi utilizată ca cuvintele cheie meta pentru document."
+      tags: Tag-uri
+      title_help: "Titlu de control URL-ul şi titlul paginii afişate în bara de URL-ul"
+      title_label: Title

@@ -1,0 +1,16 @@
+--- 
+es: 
+  muck: 
+    activity_templates: 
+      comment: Comentarios
+    comments: 
+      add_comment: Comentario
+      add_comment_button: "Añadir comentario"
+      cant_delete_comment: "Usted no tiene permiso para eliminar ese comentario"
+      comment_removed: "Comentario eliminado con éxito."
+      create_error: "No es posible crear el comentario {{errors}}"
+      create_success: "Agregado comentario"
+      missing_comment_template_error: "No pudo encontrar un nombre parcial {{partial}}. Por favor, cree una observación parcial y vuelva a intentarlo."
+      new_comment_no_title: "Añade un comentario nuevo"
+      new_comment_with_title: "Añadir un nuevo comentario a {{title}}"
+      problem_adding_comment: "Ha habido un problema al añadir su comentario"

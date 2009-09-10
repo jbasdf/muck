@@ -1,0 +1,32 @@
+--- 
+ar: 
+  muck: 
+    contents: 
+      add: إضافة
+      cancel: الغاء
+      cant_delete_content: "ليس لديك إذن لحذف مضمون محدد"
+      choose_layout: "اختيار قالب"
+      choose_layout_help: "اختيار تصميم قالب سيجعل الكروم لهذه الصفحة."
+      confirm_delete_content: "هل أنت متأكد من أنك تريد حذف هذا المحتوى؟ هذا لا يمكن التراجع!"
+      content_help: "هذا هو المضمون الذي سيظهر على الصفحة."
+      content_label: محتوى
+      content_removed: "نجحت في إزالة المحتوى"
+      create_error: "هناك مشكلة واضاف المحتوى الخاص بك"
+      default_404_body: "لم نتمكن من العثور على الصفحة التي تبحث عنها."
+      default_404_title: "404 لم يتم العثور على الصفحة"
+      delete: حذف
+      delete_title: "حذف هذه الصفحة."
+      edit: تحرير
+      edit_title: "تعديل هذه الصفحة."
+      manage_pages_title: "إدارة محتوى الموقع"
+      no_uri_error: "يرجى تحديد قيمة لاوري قبل إنقاذ نموذج عندما contentable صفر"
+      page_doesnt_exist_create: "الصفحة المطلوبة غير موجودة. يرجى تقديم المعلومات التالية لإنشاء الصفحة."
+      permalink: "Permalink :"
+      problem_adding_content: "هناك مشكلة واضاف ان مضمون"
+      problem_updating_content: "هناك مشكلة في تحديث المحتوى"
+      save: حفظ
+      submit_content_button: حفظ
+      tag_information: "علامات أخرى تساعد المستخدمين على العثور على الصفحة الخاصة بك وسيتم استخدام الكلمات الرئيسية الوصفية لهذه الوثيقة."
+      tags: العلامات
+      title_help: "عنوان رابط الضوابط وعرض عنوان الصفحة في شريط العنوان"
+      title_label: العنوان

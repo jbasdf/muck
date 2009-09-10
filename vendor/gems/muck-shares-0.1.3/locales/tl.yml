@@ -1,0 +1,22 @@
+--- 
+tl: 
+  muck: 
+    activity_templates: 
+      share: Namamahagi
+    shares: 
+      add_share: Ibahagi
+      add_share_button: Ibahagi
+      adding_share: "Sharing pahina ..."
+      cancel_share_button: I-cancel
+      cant_delete_share: "Ikaw ay walang pahintulot na tanggalin na ibahagi"
+      create_error: "Hindi malikha ang share: {{errors}}"
+      create_success: "Matagumpay na nai-share na pahina"
+      login_prompt: "Mag-login sa share"
+      message: Mensahe
+      new_share: "Ibahagi ang isang Link"
+      problem_adding_share: "Nagkaroon ng problema sa pagdagdag ng iyong ibahagi"
+      share_activity_content: "shared {{link}}.  {{message}}"
+      share_removed: "Ibahagi ang matagumpay na natanggal."
+      share_title: "Ipamahagi Ang Link"
+      title: Title
+      uri: Url

@@ -1,0 +1,16 @@
+--- 
+hu: 
+  muck: 
+    activity_templates: 
+      comment: Hozzászólások
+    comments: 
+      add_comment: Hozzászólás
+      add_comment_button: "Add Comment"
+      cant_delete_comment: "Nincs engedélye a törölni ezt a megjegyzést"
+      comment_removed: "Hozzászólás sikeresen eltávolították."
+      create_error: "Nem lehet létrehozni a megjegyzés {{errors}}"
+      create_success: "Sikeresen hozzáadott komment"
+      missing_comment_template_error: "Nem találom a részleges nevű {{partial}}. Kérjük, hozzon létre egy megjegyzést részleges és próbálja újra."
+      new_comment_no_title: "Új hozzászólás"
+      new_comment_with_title: "Új megjegyzés {{title}}"
+      problem_adding_comment: "Probléma hozzátéve meg véleményét"

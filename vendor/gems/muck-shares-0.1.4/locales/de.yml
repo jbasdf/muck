@@ -1,0 +1,22 @@
+--- 
+de: 
+  muck: 
+    activity_templates: 
+      share: Aktien
+    shares: 
+      add_share: Anteil
+      add_share_button: Anteil
+      adding_share: "Sharing-Seite ..."
+      cancel_share_button: Abbrechen
+      cant_delete_share: "Sie haben keine Berechtigung für diese Freigabe zu löschen"
+      create_error: "Konnte nicht erstellt werden die Aktien: {{errors}}"
+      create_success: "Erfolgreich gemeinsame Seite"
+      login_prompt: "Login zu teilen"
+      message: Nachricht
+      new_share: "Stellen Sie ein Link"
+      problem_adding_share: "Es gab ein Problem du deine Aktien"
+      share_activity_content: "gemeinsamen {{link}}. {{message}}"
+      share_removed: "Sagen erfolgreich entfernt."
+      share_title: "Diesen Link weiterempfehlen"
+      title: Titel
+      uri: URL

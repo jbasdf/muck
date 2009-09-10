@@ -1,0 +1,5 @@
+<% followers.each do |follower| %>
+  <li><%= t('muck.friends.friend_request_links', :profile => link_to(h(follower.full_name), profile_path(follower)), 
+                                                 :accept => accept_follower_link(current_user, follower),
+                                                 :ignore => ignore_friend_request_link(current_user, follower) ) -%></li>
+<% end %>

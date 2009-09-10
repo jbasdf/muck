@@ -1,0 +1,16 @@
+--- 
+ar: 
+  muck: 
+    activity_templates: 
+      comment: تعليقات
+    comments: 
+      add_comment: التعليق
+      add_comment_button: "أضف تعليق"
+      cant_delete_comment: "ليس لديك إذن حذف هذا التعليق"
+      comment_removed: "نجحت في إزالة التعليق."
+      create_error: "لا يمكن تهيئة التعليق {{errors}}"
+      create_success: "واضاف التعليق بنجاح"
+      missing_comment_template_error: "لا يمكن العثور على جزء من اسمه {{partial}}. الرجاء إنشاء التعليق الجزئي وحاول مرة أخرى."
+      new_comment_no_title: "إضافة تعليق جديد"
+      new_comment_with_title: "إضافة تعليق جديد ل{{title}}"
+      problem_adding_comment: "هناك مشكلة واضاف تعليقك"

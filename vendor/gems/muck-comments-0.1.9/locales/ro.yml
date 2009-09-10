@@ -1,0 +1,16 @@
+--- 
+ro: 
+  muck: 
+    activity_templates: 
+      comment: Comentarii
+    comments: 
+      add_comment: Comenteaza
+      add_comment_button: "Add Comment"
+      cant_delete_comment: "Nu aveţi permisiunea să ştergeţi acest comentariu"
+      comment_removed: "Comentariul a fost eliminat cu succes."
+      create_error: "Nu am putut crea un comentariu {{errors}}"
+      create_success: "Adăugat cu succes comentariu"
+      missing_comment_template_error: "Nu am putut găsi un parţială numit {{partial}}. Vă rugăm să creaţi un comentariu parţiale şi încercaţi din nou."
+      new_comment_no_title: "Adauga un nou comentariu"
+      new_comment_with_title: "Adauga un comentariu nou pentru a {{title}}"
+      problem_adding_comment: "A apărut o problemă la adăugarea Comentarii"

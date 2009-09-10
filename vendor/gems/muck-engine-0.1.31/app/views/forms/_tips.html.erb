@@ -1,0 +1,7 @@
+<div id="<%= field_name %>-help" style="display:none;"><%= tip %></div>
+<div id="<%= field_name %>-help-title" style="display:none;"><%= tip_title || label_name %></div>
+<div id="<%= field_name %>-help-position" style="display:none;"><%= tip_position %></div>
+<% if tip_key -%>
+  <div id="tip-key" style="display:none;"><%= tip_key %></div>
+  <div id="tip-id" style="display:none;"><%= field_name %></div>
+<% end -%>

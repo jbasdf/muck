@@ -1,0 +1,22 @@
+--- 
+iw: 
+  muck: 
+    activity_templates: 
+      share: מניות
+    shares: 
+      add_share: לשתף
+      add_share_button: לשתף
+      adding_share: "שיתוף דף ..."
+      cancel_share_button: ביטול
+      cant_delete_share: "אין לך הרשאה למחוק את נתח"
+      create_error: "אין אפשרות ליצור את השיתוף: {{errors}}"
+      create_success: "בהצלחה דף משותף"
+      login_prompt: "התחברות לשתף"
+      message: הודעה
+      new_share: "שתף קישור"
+      problem_adding_share: "הייתה בעיה להוסיף את נתח"
+      share_activity_content: "המשותף {{link}}.  {{message}}"
+      share_removed: "שתף בהצלחה להסירו."
+      share_title: "שתף את הקישור הזה"
+      title: כותר
+      uri: "כתובת האתר"

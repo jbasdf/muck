@@ -1,0 +1,16 @@
+--- 
+hi: 
+  muck: 
+    activity_templates: 
+      comment: टिप्पणियाँ
+    comments: 
+      add_comment: टिप्पणी
+      add_comment_button: "टिप्पणी जोड़ें"
+      cant_delete_comment: "आप अनुमति उस टिप्पणी को नष्ट करने की जरूरत नहीं है"
+      comment_removed: "टिप्पणी सफलतापूर्वक हटा दिया."
+      create_error: "टिप्पणी {{errors}} नहीं बना सकते हैं"
+      create_success: "सफलतापूर्वक टिप्पणी जोड़ा"
+      missing_comment_template_error: "एक आंशिक नाम {{partial}}. नहीं मिला कृपया एक टिप्पणी आंशिक और फिर कोशिश करें बनाएँ."
+      new_comment_no_title: "एक नई टिप्पणी जोड़ें"
+      new_comment_with_title: "{{title}} करने के लिए एक नई टिप्पणी जोड़ें"
+      problem_adding_comment: "एक समस्या आपकी टिप्पणी जोड़ने था"

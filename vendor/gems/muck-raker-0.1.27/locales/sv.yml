@@ -1,0 +1,141 @@
+--- 
+sv: 
+  muck: 
+    activity_templates: 
+      entry_comment: Kommentar
+    raker: 
+      add_extended_feed_sub_title: "Bidra med en ny datakälla"
+      add_extended_feed_title: "Lägg till ny feed"
+      add_feed: "Add feed"
+      add_feed_advanced: "Lägg Feed (Advanced)"
+      add_feed_title: "Lägg till ett nytt flöde"
+      add_feed_url: "URL:"
+      all_resources: "Alla resurser"
+      already_added_uri_feed: "Du har redan lagt url {{uri}}"
+      already_added_username_feed: "Du har redan lagt ett {{service}} konto med användarnamn {{username}}"
+      already_shared: "Du har tidigare delat den här sidan."
+      amazon_prompt: "Fyll i den e du använder med Amazon.com"
+      atom: Atom
+      available_services: Tillgängligt
+      ban_feed: "Mark foder ogiltig"
+      banned: förbjudna
+      blogger_prompt: "URL till din blogg"
+      calculated: beräknad
+      cant_modify_identity_feed: "Du har inte behörighet att komma åt den angivna foder."
+      choose_service: "Välj tjänst:"
+      close: Nära
+      collection_description: "Collection Beskrivning:"
+      collection_home_uri: "Adress Collection Home Page"
+      collection_uri: "Adress Collection Metadata:"
+      collections: Samlingar
+      collections_long: "Indexed Collections"
+      comment_entries_count: 
+        one: "1 Kommentar"
+        other: "{{count}} Comments"
+      course_search_results: "Kurser <b>{{first}} - {{last}}</b> av <b>{{total}}</b> för sökning <b>{{terms}}</b>"
+      course_tag_results: "Kurser <b>{{first}} - {{last}}</b> av <b>{{total}}</b> taggade <b>{{terms}}</b>"
+      courses_tag_cloud_label: "Bläddra kurser med taggar <a href=\"/resources\">[bläddra bland alla resurser]</a>"
+      demo: Demo
+      description: Beskrivning
+      details: Detaljer
+      developers_long: "Information för utvecklare"
+      direct_link: "[direktlänk]"
+      discover_feed: "Upptäck Feed"
+      discover_feed_message: "Söker information om webbadressen som du angav. Please wait."
+      display_url: "Webbadressen som ska visas:"
+      entry_commment_contents: "kommenterade {{resource}}"
+      facebook_instructions: "På Min länksida, högerklicka på &quot;Mina länkar&quot; och kopiera länken. Vi kommer automatiskt att inkludera, status, kontakter och anteckningar."
+      facebook_link: "Du kan hitta din webbadress på din Facebook Min länksida. {{link}} Och klicka på &quot;Mina länkar&quot;"
+      facebook_notes: "Facebook Notes"
+      facebook_notifications: "Facebook Notifications"
+      facebook_prompt: "Dina Facebook Mina länkar URL"
+      facebook_shares: "Facebook Shared Links"
+      failed_harvests: Missväxt
+      failed_last_request: "Misslyckades sista önskan: {{error}}"
+      feed_banned_message: "Foder förbjöds framgångsrikt."
+      feed_successfully_created: "Feed skapades."
+      feed_successfully_updated: "Feed har uppdaterats."
+      feed_validated_message: "Foder var framgångsrikt validerade."
+      feeds_title: "Registrerad Collections"
+      for: för
+      friendfeed_prompt: "FriendFeed RSS URL"
+      friendfeed_rss: "Du kan hitta din webbadress längst ned i ditt {{link}}."
+      gm_more_prompt: "Mer Närliggande resurser"
+      gm_title: "Närliggande resurser"
+      goodreads_prompt: "Goodreads Profile URL"
+      goodreads_rss: "t.ex. http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Harvest intervall (timmar)"
+      harvested_at: "Skördas vid"
+      hide: Gömma
+      identity_feed_removed: "Removed service"
+      identity_feeds: "Identity Feeds"
+      import_service: "Import {{service}}"
+      linkedin_prompt: "LinkedIn offentlig profil URL"
+      linkedin_rss: "Du kan hitta din webbadress längst ned i ditt {{link}}."
+      loading_content_image: "Laddar innehåll image"
+      login: "Logga in"
+      login_or_signup_prompt: "{{signup}} Eller {{login}} att diskutera och dela resurser."
+      login_to_comment: "Logga in för att lägga till en kommentar"
+      metadata: metadata
+      my_services: "Mina tjänster"
+      narrow_further: "Begränsa resultaten vidare"
+      netflix_prompt: "Netflix Queue RSS URL"
+      netflix_rss: "Du kan hitta din webbadress på din {{link}}. Observera att det finns flera matningar på din Netflix Kö sida (kö, rekommendationer, Movie Reviews, etc). Lägg till så många du vill!"
+      new_global_feed: "Ett nytt foder har lagts till {{application_name}}"
+      next: Nästa
+      next_label: Nästa
+      no_feeds_at_uri: "Vi kunde inte hitta den angivna webbadressen"
+      no_feeds_from_username: "Vi kunde inte hitta den angivna kontot"
+      no_hits: "Din sökning - <b>{{search}}</b> - matchade inte något <b>{{resource_type}}.</b> Försök med en annan sökning eller välj ett annat språk."
+      no_tagged_courses: "Inga <b>kurser</b> hittades märkta med <b>{{tags}}.</b> <a href='/resources'>Börja om</a> eller visa <a href='/resources/tags/{{tags}}'>alla resurser taggade {{tags}}.</a>"
+      no_tagged_resources: "Inga <b>resurser</b> hittades taggade med <b>{{tags}}.</b> <a href='/resources'>Börja om.</a>"
+      no_tags: "Inga taggar tillgänglig ännu"
+      oai_prompt: "Om du anger OAI, måste du ange den fullständiga webbadressen till ListRecords begäran (inte bara OAI effektmått)"
+      of: av
+      ok: OK
+      only_courses: "Endast kurser"
+      polyvore_prompt: "Polyvore Profile URL"
+      polyvore_rss: "Din Polyvore profil URL ser ut http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "powered by"
+      previous: Föregående
+      previous_label: Föregående
+      problem_adding_feed: "Fanns ett problem att lägga till feed:"
+      rdf: RDF
+      related_resources: relaterade
+      related_resources_title: "Närliggande resurser"
+      relevance: relevans
+      remix: Remix
+      repository_short_title: "Förvaringsplats Kortfattad titel:"
+      repository_title: "Repository Titel:"
+      resource_search_results: "Resurser <b>{{first}} - {{last}}</b> av <b>{{total}}</b> för sökning <b>{{terms}}</b>"
+      resource_tag_results: "Resurser <b>{{first}} - {{last}}</b> av <b>{{total}}</b> taggade <b>{{terms}}</b>"
+      resources_tag_cloud_label: "Bläddra resurser med taggar <a href=\"/resources?grain_size=course\">[bläddra endast kurser]</a>"
+      results: Resultat
+      rss: RSS
+      rss_url: "URL för ditt RSS-flöde"
+      search: söka
+      search_button: Gå
+      search_link: "Hitta resurser!"
+      select_feeds_prompt: "Välj de feeds du vill tillägga:"
+      select_service_prompt: "Välj en tjänst"
+      service_username: "{{service}} Användarnamn"
+      share: Del
+      short_title: "Kortform:"
+      show_tagged_courses: "Visa endast kurser"
+      show_tagged_resources: "visa någon form av resurs"
+      signup: Underteckna
+      spinner_image: "Väntar bild"
+      start_over: "Börja om"
+      status: Status
+      submitting_feed_message: "Skicka din information ..."
+      successfully_added_uri_feed: "Lagts till {{uri}}"
+      successfully_added_username_feed: "Lagts till {{service}}"
+      tags: tags
+      title: Titel
+      type_of_metadata: "Typ av metadata:"
+      uri: Url
+      validate_feed: "Mark foder som giltiga"
+      visit: visit
+      xml: XML
+      zotero_group_prompt: "Zotero grupp URL"
+      zotero_group_rss: "Din Zotero grupp URL ser ut så här: http://www.zotero.org/groups/adventures_in_library_instruction/items"

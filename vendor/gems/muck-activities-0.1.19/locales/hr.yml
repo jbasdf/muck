@@ -1,0 +1,30 @@
+--- 
+hr: 
+  muck: 
+    activities: 
+      activity_feed_title: "Recent Activity"
+      adding_comment_message: "Dodavanje komentar ..."
+      all_activities: "Sve aktivnosti"
+      clear: Jasno
+      create_error: "Došlo je do problema u dodavanju traženu djelatnost: {{error}}"
+      delete: Izbrisati
+      invite_friends: "Pozovi prijatelje"
+      item_could_not_be_removed: "Predmet nije mogao biti skinut sa popisa nedavnih aktivnosti."
+      item_created: "Added aktivnost"
+      item_removed: "Stavka uspješno uklonjen iz nedavne aktivnosti liste."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: Komentar
+      paging_newer: «Novija
+      paging_older: "Starije »"
+      permission_denied: "Nažalost, ne možete učiniti."
+      post: Dijeliti
+      problem_with_status: "Došlo je do problema mijenja vaš status"
+      status_indicator: je
+      status_update_prompt: "Što to radiš sada?"
+      template_or_item_required: "Aktivnost zahtijeva predložak ili stavke prikazati ispravno"
+      update_error: "Ups ... Došlo je do problema. {{errors}}"
+      update_status_message: "ažurirajte svoj status!"
+      updating_status_message: "Ažuriranje vašeg statusa. Molimo pričekajte."
+      write_prompt: "Write a comment ..."
+    activity_templates: 
+      status_update: "Status Updates"

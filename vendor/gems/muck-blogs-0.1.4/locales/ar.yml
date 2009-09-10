@@ -1,0 +1,7 @@
+--- 
+ar: 
+  muck: 
+    blogs: 
+      add_post: "إضافة بوست"
+      add_post_link: "إضافة بوست"
+      blog_title: "بلوق ل{{title}}"

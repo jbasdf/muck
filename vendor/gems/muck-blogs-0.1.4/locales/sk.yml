@@ -1,0 +1,7 @@
+--- 
+sk: 
+  muck: 
+    blogs: 
+      add_post: "Pridať príspevok"
+      add_post_link: "Pridať príspevok"
+      blog_title: "Blog pre {{title}}"

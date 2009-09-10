@@ -1,0 +1,32 @@
+--- 
+gl: 
+  muck: 
+    contents: 
+      add: Engadir
+      cancel: Cancelar
+      cant_delete_content: "Non ten permiso para borrar o contido indicado"
+      choose_layout: "Seleccionar modelo"
+      choose_layout_help: "Seleccione un modelo de deseño que vai procesar o cromo para esta páxina."
+      confirm_delete_content: "¿Está seguro de que desexa eliminar este contido? Isto non pode ser desfeita!"
+      content_help: "Este é o contido que aparecerá na páxina."
+      content_label: Advertencias
+      content_removed: "O contido foi eliminado correctamente"
+      create_error: "Houbo un problema ao engadir o seu contido"
+      default_404_body: "Non atopamos a páxina que busca."
+      default_404_title: "404 Páxina non atopada"
+      delete: Borrar
+      delete_title: "Borrar esta páxina."
+      edit: Editar
+      edit_title: "Edita esta páxina."
+      manage_pages_title: "Xestionar o contido do sitio web"
+      no_uri_error: "Por favor, estableza un valor para uri antes de gardar o modelo cando contentable é nula"
+      page_doesnt_exist_create: "A páxina solicitada non existe. Por favor, forneza a información seguinte para crear a páxina."
+      permalink: "Permalink:"
+      problem_adding_content: "Houbo un erro engadindo o contido"
+      problem_updating_content: "Houbo un problema ao actualizar o contido"
+      save: Gardar
+      submit_content_button: Gardar
+      tag_information: "Tags axudar a outros usuarios a atopar a súa páxina e será usado como meta palabras clave para o papel."
+      tags: Tags
+      title_help: "O título controla o URL eo título da páxina amosada na barra do URL"
+      title_label: Título

@@ -1,0 +1,31 @@
+--- 
+uk: 
+  muck: 
+    engine: 
+      choose_country: "Виберіть країну"
+      choose_language: "Вибір мови"
+      choose_state: "Вибрати держава"
+      missing_parent_error: "Вкажіть батьківський об&#39;єкт"
+      select_country_prompt: "Будь ласка, виберіть країну"
+      select_language_prompt: "Будь ласка, виберіть мову"
+      select_state_prompt: "Будь ласка, виберіть стан"
+    forms: 
+      please_enter_a_value: "Введіть значення для {{label}}"
+    general: 
+      activate: Включити
+      deactivate: Деактивувати
+      delete: Видалити
+      disable: Дозволяти
+      enable: Вимикати
+      enabled: Включен?
+      general_info: "Загальна інформація"
+      help: Допомога
+      next: "Наступна »"
+      no_text: Ні
+      previous: «Попередня
+      read_more: докладніше
+      save: Зберегти
+      settings_saved: "Настройки були врятовані."
+      time_ago: "{{time_in_words}} Назад"
+      update: Оновлення
+      yes_text: Так

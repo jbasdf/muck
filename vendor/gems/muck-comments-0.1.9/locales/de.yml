@@ -1,0 +1,16 @@
+--- 
+de: 
+  muck: 
+    activity_templates: 
+      comment: Kommentare
+    comments: 
+      add_comment: Kommentar
+      add_comment_button: "Kommentar hinzufügen"
+      cant_delete_comment: "Sie haben keine Berechtigung zu löschen, dass Kommentar"
+      comment_removed: "Kommentar erfolgreich entfernt."
+      create_error: "Könnte nicht der Kommentar {{errors}}"
+      create_success: "Erfolgreich hinzugefügt Kommentar"
+      missing_comment_template_error: "Konnte nicht gefunden werden teilweise Namen {{partial}}. Bitte erstellen Sie einen Kommentar teilweise und versuchen Sie es erneut."
+      new_comment_no_title: "Fügen Sie einen neuen Kommentar"
+      new_comment_with_title: "Fügen Sie einen neuen Kommentar zu {{title}}"
+      problem_adding_comment: "Es gab ein Problem geben Sie Ihre Kommentar"

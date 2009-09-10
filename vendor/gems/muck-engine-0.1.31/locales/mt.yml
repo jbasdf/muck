@@ -1,0 +1,32 @@
+--- 
+mt: 
+  muck: 
+    engine: 
+      choose_country: "Agħżel Pajjiż"
+      choose_language: "Agħżel Lingwa"
+      choose_state: "Agħżel l-Istat"
+      missing_parent_error: "Jekk jogħġbok speċifika l-oġġett prinċipali"
+      select_country_prompt: "Jekk jogħġbok agħżel pajjiż"
+      select_language_prompt: "Jekk jogħġbok agħżel lingwa"
+      select_state_prompt: "Jekk jogħġbok agħżel stat"
+    forms: 
+      please_enter_a_value: "Jekk joghgbok ikteb valur għal {{label}}"
+    general: 
+      activate: Activate
+      deactivate: Diżattivazzjoni
+      delete: Ħassar
+      deleting: "Tħassir ..."
+      disable: Awtorizza
+      enable: Invalida
+      enabled: Iffaċilitati?
+      general_info: "Info Ġenerali"
+      help: Għajnuna
+      next: "Next »"
+      no_text: Le
+      previous: «Previous
+      read_more: "aqra aktar"
+      save: Save
+      settings_saved: "Settings ġew salvati."
+      time_ago: "{{time_in_words}} Ago"
+      update: Aġġornament
+      yes_text: Iva

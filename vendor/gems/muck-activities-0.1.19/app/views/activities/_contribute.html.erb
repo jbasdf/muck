@@ -1,0 +1,22 @@
+<div id="activity-status-control">
+  <div id="status-container" class="status-activity"><%= status_update(@user) %></div>
+  <% if GlobalConfig.enable_activity_image_uploads -%>
+    <div id="photos-container" class="status-activity" style="display:none;">
+      <%= upload_form(@user, true, 'photos', :file_types_description => 'Photos', :file_types => '*.jpg;*.gif;*.png;*.tif;*.jpeg', :transparent => true, :transparent_html => '<a href="#" class="upload-button">' + t('muck.activities.add_photos') + '</a>') %>
+    </div>
+  <% end -%>
+  <% if GlobalConfig.enable_activity_video_sharing -%>
+    <div id="videos-container" class="status-activity" style="display:none;"></div>
+  <% end -%>
+  <% if GlobalConfig.enable_activity_file_uploads -%>
+    <div id="files-container" class="status-activity" style="display:none;">
+      <%= upload_form(@user, false, 'files', :button_image_url => '/images/') %>
+    </div>
+  <% end -%>
+  <ul id="status-menu">
+    <li><a id="status-action" class="status-action" href="#"><%= t('muck.activities.write') %></a></li>
+    <% if GlobalConfig.enable_activity_image_uploads -%><li><a id="photos-action" class="status-action" href="#"><%= t('muck.activities.add_photos') %></a></li><% end -%>
+    <% if GlobalConfig.enable_activity_video_sharing -%><li><a id="videos-action" class="status-action" href="#"><%= t('muck.activities.add_videos') %></a></li><% end -%>
+    <% if GlobalConfig.enable_activity_file_uploads -%><li><a id="files-action" class="status-action" href="#"><%= t('muck.activities.upload_files') %></a></li><% end -%>
+  </ul>
+</div>

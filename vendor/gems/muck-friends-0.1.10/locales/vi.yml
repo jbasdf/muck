@@ -1,0 +1,49 @@
+--- 
+vi: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: "Bạn bè"
+    friends: 
+      acccept_friend_request: "Chấp nhận yêu cầu từ bạn bè {{user}}"
+      accept: "(chấp nhận)"
+      block: "Khối {{user}}"
+      block_problem: "Có một lỗi chặn {{user}}"
+      blocked: "Bị chặn {{user}}"
+      delete: (xóa)
+      follow_activity: "{{inviter}} Bây giờ là sau {{invited}}"
+      followers: Followers
+      following: Sau
+      following_you: "{{name}} Bây giờ sau bạn vào {{application_name}}"
+      friend_request: "{{name}} Đã gửi cho bạn một yêu cầu kết bạn trên {{application_name}}"
+      friend_request_links: "{{profile}} Gửi cho bạn một yêu cầu kết bạn {{accept}} {{ignore}}"
+      friend_request_pending: "Người bạn yêu cầu đang chờ {{link}}"
+      friend_request_prompt: "Gửi một Yêu cầu {{user}} bạn bè"
+      friend_request_sent: "Yêu cầu người bạn đã gửi"
+      friends: "Bạn bè"
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Bây giờ là bạn bè với {{invited}}"
+      ignore: "(bỏ qua)"
+      login: "đăng nhập"
+      login_or_sign_up_to_follow: "{{login}} Hoặc {{signup}} làm theo người dùng này"
+      login_or_sign_up_to_friend: "{{login}} Hoặc {{signup}} để gửi yêu cầu kết bạn"
+      mutual_friends: "Mutual Friends"
+      no_followers: "Không theo tôi"
+      no_friends: "Không có bạn bè"
+      no_mutual_friends: "Không có bạn bè chung hàng"
+      not_following_anyone: "Bất cứ ai cũng không Sau"
+      problem_adding_follow: "Có vấn đề thêm {{user}} để bạn thực hiện theo danh sách. Hãy thử lại."
+      problem_sending_friend_request: "Có vấn đề gửi một yêu cầu kết bạn để {{user}}. Hãy thử lại."
+      removed_following_error: "Một vấn đề xảy ra trong khi đang cố gắng unfollow {{user}}"
+      removed_friendship: "Removed {{user}} từ bạn bè của bạn"
+      removed_friendship_error: "Có vấn đề {{user}} loại bỏ khỏi danh sách bạn bè"
+      same_inviter_error_message: "Người dùng không thể trở thành bạn bè với themself."
+      signup: "đăng ký"
+      start_following: "Làm theo {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Dừng {{user}} Sau"
+      stopped_following: "Ngừng lại sau thành công {{user}}"
+      unblock: "Bỏ cấm {{user}}"
+      unblocked: "Cấm {{user}}"
+      view_all: "Xem tất cả"
+      you_are_now_following: "Bạn bây giờ sau {{user}}"

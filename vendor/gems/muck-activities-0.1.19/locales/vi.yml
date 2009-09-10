@@ -1,0 +1,30 @@
+--- 
+vi: 
+  muck: 
+    activities: 
+      activity_feed_title: "Hoạt động gần đây"
+      adding_comment_message: "Thêm nhận xét ..."
+      all_activities: "Tất cả các hoạt động"
+      clear: "Rõ ràng"
+      create_error: "Có một vấn đề khi thêm các yêu cầu hoạt động: {{error}}"
+      delete: Xoá
+      invite_friends: "Mời bạn bè"
+      item_could_not_be_removed: "Khoản có thể không được gỡ bỏ khỏi danh sách các hoạt động gần đây."
+      item_created: "Đăng từ hoạt động"
+      item_removed: "Khoản thành công gỡ bỏ khỏi danh sách các hoạt động gần đây."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: "Thảo luận"
+      paging_newer: "«Mơi hơn"
+      paging_older: "Cu hơn »"
+      permission_denied: "Xin lỗi, bạn không thể làm điều đó."
+      post: "Chia sẻ"
+      problem_with_status: "Có một vấn đề thay đổi tình trạng của bạn"
+      status_indicator: là
+      status_update_prompt: "Bạn đang làm gì ngay bây giờ?"
+      template_or_item_required: "Một hoạt động đòi hỏi một mẫu hoặc một mục để hiển thị một cách chính xác"
+      update_error: "Rất tiếc ... Có một vấn đề. {{errors}}"
+      update_status_message: "cập nhật tình trạng của bạn!"
+      updating_status_message: "Cập nhật tình trạng của bạn. Xin vui lòng chờ trong giây lát."
+      write_prompt: "Viết bình luận ..."
+    activity_templates: 
+      status_update: "Tình trạng cập nhật"

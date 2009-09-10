@@ -1,0 +1,32 @@
+--- 
+lv: 
+  muck: 
+    engine: 
+      choose_country: "Izvēlies valsti"
+      choose_language: "Choose Language"
+      choose_state: "Izvēlieties valsti"
+      missing_parent_error: "Lūdzu, norādiet vecāku objekts"
+      select_country_prompt: "Lūdzu izvēlieties valsti"
+      select_language_prompt: "Lūdzu, izvēlieties valodu"
+      select_state_prompt: "Lūdzu izvēlieties valsti"
+    forms: 
+      please_enter_a_value: "Lūdzu, ievadiet vērtību {{label}}"
+    general: 
+      activate: Aktivizēt
+      deactivate: Deaktivizēt
+      delete: Dzēst
+      deleting: "Notiek dzēšana ..."
+      disable: Sekmēt
+      enable: Sakropļot
+      enabled: Enabled?
+      general_info: "Vispārēja informācija"
+      help: Palīdzība
+      next: "Nākamā »"
+      no_text: Nē
+      previous: «Iepriekšējie
+      read_more: "lasīt vairāk"
+      save: Glābt
+      settings_saved: "Iestatījumi ir saglabāti."
+      time_ago: "{{time_in_words}} Ago"
+      update: Atjaunot
+      yes_text: Jā

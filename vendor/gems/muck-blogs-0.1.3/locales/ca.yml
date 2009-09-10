@@ -1,0 +1,7 @@
+--- 
+ca: 
+  muck: 
+    blogs: 
+      add_post: "Afegir post"
+      add_post_link: "Afegir post"
+      blog_title: "Blog de {{title}}"

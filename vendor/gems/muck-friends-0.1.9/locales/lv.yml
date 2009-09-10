@@ -1,0 +1,44 @@
+--- 
+lv: 
+  muck: 
+    activity_templates: 
+      follow: Sekotāji
+      friends_with: Draugi
+    friends: 
+      acccept_friend_request: "Piekrītu Friend Request No {{user}}"
+      accept: (pieņem)
+      delete: (svītrot)
+      follow_activity: "{{inviter}} Tagad pēc {{invited}}"
+      followers: Sekotāji
+      following: Nākamais
+      following_you: "{{name}} Tagad pēc Jūs {{application_name}}"
+      friend_request: "{{name}} Ir nosūtījis jums drauga pieprasījumu {{application_name}}"
+      friend_request_links: "{{profile}} Nosūtījis jums drauga pieprasījumu {{accept}} {{ignore}}"
+      friend_request_pending: "Drauga lūgumu līdz {{link}}"
+      friend_request_prompt: "Sūtīt {{user}} draugam Pieprasījums"
+      friend_request_sent: "Drauga Pieprasījums nosūtīts"
+      friends: Draugi
+      friends_title: "Mani draugi"
+      friends_with: "{{inviter}} Tagad ir draugi ar {{invited}}"
+      ignore: (ignore)
+      login: pieteikšanās
+      login_or_sign_up_to_follow: "{{login}} Vai {{signup}} sekot šim lietotājam"
+      login_or_sign_up_to_friend: "{{login}} Vai {{signup}} nosūtīt draugu pieprasījumus"
+      mutual_friends: "Mutual Friends"
+      no_followers: "Nr sekotāji"
+      no_friends: "Draugu nav"
+      no_mutual_friends: "Nr savstarpēju draugiem atrasts"
+      not_following_anyone: "Ne Pēc Anyone"
+      problem_adding_follow: "Radās problēma, pievienojot {{user}} jūsu sekot sarakstā. Lūdzu, mēģiniet vēlreiz."
+      problem_sending_friend_request: "Radās problēma, nosūtot draugam lūgumu {{user}}. Lūdzu, mēģiniet vēlreiz."
+      removed_following_error: "Problēma radās, mēģinot unfollow {{user}}"
+      removed_friendship: "Noņemtā {{user}} no jūsu draugiem"
+      removed_friendship_error: "Radās problēma, noņemot {{user}} no jūsu saraksta draugu"
+      same_inviter_error_message: "Lietotājs nevar kļūt draugiem ar themself."
+      signup: Signup
+      start_following: "Izpildiet {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Pietura Pēc {{user}}"
+      stopped_following: "Veiksmīgi pārtraukta pēc {{user}}"
+      view_all: "Skatīt visu"
+      you_are_now_following: "Jūs tagad pēc {{user}}"

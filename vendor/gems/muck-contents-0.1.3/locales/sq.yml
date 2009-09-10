@@ -1,0 +1,32 @@
+--- 
+sq: 
+  muck: 
+    contents: 
+      add: Shtoj
+      cancel: Anulo
+      cant_delete_content: "Ju nuk keni leje për të fshirë përmbajtjen e specifikuar"
+      choose_layout: "Zgjidhni Template"
+      choose_layout_help: "Zgjidh shabllonin një plan urbanistik që do të bëjë të kromit për këtë faqe."
+      confirm_delete_content: "A jeni i sigurt se dëshironi ta fshini këtë përmbajtje? Kjo nuk mund të jetë i fikur!"
+      content_help: "Kjo është përmbajtja që do të shfaqen në faqe."
+      content_label: Përmbajtja
+      content_removed: "Përmbajtja fshi me sukses"
+      create_error: "Ka ndodhur një problem duke shtuar tuaj content"
+      default_404_body: "Ne nuk mund të gjeni faqen që po kërkoni."
+      default_404_title: "Page 404 not found"
+      delete: Fshij
+      delete_title: "Grise faqen."
+      edit: Edit
+      edit_title: "Redaktoni faqen."
+      manage_pages_title: "Manage site content"
+      no_uri_error: "Ju lutem plotësoni një vlerë për URI para saving model kur contentable është zero"
+      page_doesnt_exist_create: "Faqja që ju kërkoni nuk ekziston. Ju lutemi të sigurojë informacion më poshtë për të krijuar faqe."
+      permalink: "Permalink:"
+      problem_adding_content: "Ka ndodhur një problem duke shtuar përmbajtjen"
+      problem_updating_content: "Ka ndodhur një problem azhornimin e përmbajtjes"
+      save: Ruaj
+      submit_content_button: Ruaj
+      tag_information: "Tags ndihmojë përdoruesit e tjerë të gjeni faqen tuaj dhe do të përdoret si fjalë kyçe të meta për këtë dokument."
+      tags: Tags
+      title_help: "Titulli kontrollon url dhe titullin e faqes të shfaqura në url bar"
+      title_label: Titulli

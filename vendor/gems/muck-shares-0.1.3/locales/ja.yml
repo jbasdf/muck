@@ -1,0 +1,22 @@
+--- 
+ja: 
+  muck: 
+    activity_templates: 
+      share: 株式
+    shares: 
+      add_share: 共有する
+      add_share_button: 共有する
+      adding_share: ページを共有する...
+      cancel_share_button: キャンセル
+      cant_delete_share: 使用する許可は、共有を削除する必要はありません
+      create_error: "の共有を作成できませんでした： {{errors}}"
+      create_success: 正常にページを共有する
+      login_prompt: ログイン情報を共有する
+      message: メッセージ
+      new_share: 共有リンク
+      problem_adding_share: 共有を追加中にエラーが発生しました
+      share_activity_content: "共有{{link}}.  {{message}}"
+      share_removed: 共有が正常に削除されます。
+      share_title: このリンクを共有
+      title: タイトル
+      uri: ホームページURL

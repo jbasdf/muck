@@ -1,0 +1,8 @@
+<div id="<%= parent.dom_id %>_new_comment" class="comment-form-wrapper">
+  <% form_for(:comment, :url => new_comment_path_with_parent(parent), :html => { :id => "#{parent.dom_id}_comment_form", :class => "comment-form"} ) do |f| -%>
+    <%= f.text_area :body, :class => 'min' %>
+    <%= hidden_field_tag :parent_comment_id, comment.id unless comment.blank? -%>
+    <%= hidden_field_tag :render_new, render_new -%>
+    <%= f.submit t('muck.comments.add_comment_button'), :class => "button #{comment_button_class}", :id => "comment_submit_#{parent.dom_id}" %>
+  <% end -%>
+</div>

@@ -1,0 +1,12 @@
+--- 
+it: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Impossibile trovare l&#39;utente specificato."
+      edit_failure: "Si è verificato un errore durante l&#39;aggiornamento del proprio profilo."
+      edit_profile: "Modifica profilo"
+      edit_success: "Aggiornato il tuo profilo"
+      problem_editing_account: "Si è verificato un problema l&#39;aggiornamento del tuo profilo"
+      update_profile: "Aggiorna profilo"
+      upload_photo: "Carica una foto:"
+      view_profile: "Visualizza Profilo"

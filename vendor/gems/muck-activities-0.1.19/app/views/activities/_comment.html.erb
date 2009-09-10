@@ -1,0 +1,7 @@
+<div id="<%= comment.dom_id %>" class="activity-comment delete-container">
+  <div class="actor-icon"><%= icon(comment.user) %></div>
+  <%= delete_activity_comment(comment, :image) if comment.can_edit?(current_user) %>
+  <p><span class="actor"><%= link_to comment.user.display_name, comment.user %></span>
+     <span class="activity-time"><%= t("muck.general.time_ago", :time_in_words => time_ago_in_words(comment_owner.created_at)) %></span></p>
+  <p><%= h comment.body %></p>
+</div>

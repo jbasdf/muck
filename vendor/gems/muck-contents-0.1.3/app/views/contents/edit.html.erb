@@ -1,0 +1,6 @@
+<div id="edit_content">
+  <%= output_errors(t('muck.contents.problem_updating_content'), {:class => 'help-box'}, @content) %>
+  <% content_form(@content) do |f| -%>
+    <%# can add form fields as desired here -%>
+  <% end -%>
+</div>

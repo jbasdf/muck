@@ -1,0 +1,49 @@
+--- 
+sk: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: Kamaráti
+    friends: 
+      acccept_friend_request: "Accept-mailom žiadosť {{user}}"
+      accept: (prijatie)
+      block: "Blok {{user}}"
+      block_problem: "Došlo k chybe pri blokovaní {{user}}"
+      blocked: "Zablokované {{user}}"
+      delete: (zmazať)
+      follow_activity: "{{inviter}} Je teraz po {{invited}}"
+      followers: Followers
+      following: Nasledujúca
+      following_you: "{{name}} Je teraz po vás {{application_name}}"
+      friend_request: "{{name}} Vám poslal žiadosť o priateľstve o {{application_name}}"
+      friend_request_links: "{{profile}} Vám poslal žiadosť o priateľstve {{accept}} {{ignore}}"
+      friend_request_pending: "Priateľstvo až do {{link}}"
+      friend_request_prompt: "Poslať mailom {{user}} Dopyt"
+      friend_request_sent: "Friend Požiadavka bol odoslaný"
+      friends: Kamaráti
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Je teraz priatelia s {{invited}}"
+      ignore: (ignorovať)
+      login: prihlásiť
+      login_or_sign_up_to_follow: "{{login}} Alebo {{signup}} nasledovať tohto užívateľa"
+      login_or_sign_up_to_friend: "{{login}} Alebo {{signup}} poslať priateľstvo"
+      mutual_friends: "Vzájomné Friends"
+      no_followers: "No Followers"
+      no_friends: "Žiadni priatelia"
+      no_mutual_friends: "Nenašli žiadne spoločných priateľov"
+      not_following_anyone: "Keď niekto nie je"
+      problem_adding_follow: "Tam bol problém {{user}} pridať do svojho zoznamu nasledovať. Prosím, skúste to znova."
+      problem_sending_friend_request: "Došlo k problému pri odosielaní priateľstvo na {{user}}. Prosím, skúste to znova."
+      removed_following_error: "Problém nastal pri pokuse o unfollow {{user}}"
+      removed_friendship: "{{user}} Odstránené z vaších priateľov"
+      removed_friendship_error: "Tam bol problém odstrániť {{user}} z vášho zoznamu priateľov"
+      same_inviter_error_message: "Užívateľ sa nemôže stať s priateľmi themself."
+      signup: registrácia
+      start_following: "Postupujte {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Po zastavení {{user}}"
+      stopped_following: "Úspešne sa zastavil po {{user}}"
+      unblock: "Odblokovat {{user}}"
+      unblocked: "Odblokované {{user}}"
+      view_all: "Zobraziť všetky"
+      you_are_now_following: "Teraz po {{user}}"

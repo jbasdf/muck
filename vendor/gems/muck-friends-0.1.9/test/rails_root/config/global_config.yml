@@ -1,0 +1,72 @@
+default: &DEFAULT
+  
+  application_url: localhost:3000
+  
+  # Sent in emails to users
+  application_name: 'example'
+  from_email: 'support@example.com' # Emails will come from this address
+  from_email_name: 'example' # This will show up as the name on emails.  i.e. support@example.com <Example> 
+  support_email: 'support@example.com'
+  admin_email: 'admin@example.com'
+  customer_service_number: '1-800-'
+
+  # Email charset
+  mail_charset: 'utf-8'
+
+  # Email server configuration
+  email_user_name: 'system@example.com'
+  email_password: 'test'
+  base_domain: 'example.com'
+
+  # sign up options
+  automatically_activate: true
+  automatically_login_after_account_create: true
+  send_welcome: true
+  
+  application_url: localhost:3000
+  
+  # if you use recaptcha you will need to also provide a public and private
+  # key available from http://recaptcha.net.
+  use_recaptcha: false
+  recaptcha_pub_key: GET_A_RECAPTCHA_KEY(TODO)
+  recaptcha_priv_key: GET_A_RECAPTCHA_KEY(TODO)
+
+  # jgrowl related settings
+  growl_enabled: false
+  
+  # application configuration
+  let_users_delete_their_account: false  # turn on/off ability for users to delete their own account
+
+  # activity configuration
+  enable_live_activity_updates: true # Turns on polling inside the user's activity feed so they constantly get updates from the site
+  live_activity_update_interval: 60 # time between updates to live activity feed in seconds
+  enable_activity_comments: true    # Turn on comments in the activity feed
+
+  # Friend configuration
+  enable_following:  true
+  enable_friend_activity: true
+
+  # ssl
+  enable_ssl: false
+  
+  # session key information
+  session_key: _test_session
+  session_secret: 882585c5d472d21e832965410ab233be541ea626e50ed0eb68a00a2f49b59073480e58599404e3dc62105a803ee42d67872e3f95eb48e2d6508b42038436abd6
+
+production:
+  <<: *DEFAULT
+  
+development:
+  <<: *DEFAULT
+  
+test:
+  <<: *DEFAULT
+
+  # controls account activation and automatic login
+  automatically_activate: false
+  automatically_login_after_account_create: false
+
+  # turn off for testing
+  use_recaptcha: false
+
+  application_url: 'localhost:3000'

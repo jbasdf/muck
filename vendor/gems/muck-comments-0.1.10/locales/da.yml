@@ -1,0 +1,18 @@
+--- 
+da: 
+  muck: 
+    activity_templates: 
+      comment: Kommentarer
+    comments: 
+      add_comment: Kommentar
+      add_comment_button: "Add Comment"
+      anonymous: anonym
+      cant_delete_comment: "Du har ikke tilladelse til at slette den kommentar"
+      comment_removed: "Kommentar held fjernet."
+      create_error: "Kunne ikke oprette kommentar {{errors}}"
+      create_success: "Blevet tilføjet kommentar"
+      missing_comment_template_error: "Kunne ikke finde en delvis opkaldt {{partial}}. Opret venligst en kommentar delvis og prøv igen."
+      new_comment_email_subject: "Ny kommentar fra {{name}} på {{application_name}}"
+      new_comment_no_title: "Tilføj en ny kommentar"
+      new_comment_with_title: "Tilføj en ny kommentar til {{title}}"
+      problem_adding_comment: "Der var et problem at tilføje din kommentar"

@@ -1,0 +1,44 @@
+--- 
+fi: 
+  muck: 
+    activity_templates: 
+      follow: Seuraajat
+      friends_with: Ystävät
+    friends: 
+      acccept_friend_request: "Hyväksy Friend pyynnöstä {{user}}"
+      accept: (hyväksy)
+      delete: (poista)
+      follow_activity: "{{inviter}} On nyt seuraavat {{invited}}"
+      followers: Seuraajat
+      following: Seuraava
+      following_you: "{{name}} On nyt seuraavat teitä {{application_name}}"
+      friend_request: "{{name}} On lähettänyt sinulle ystävä pyynnön {{application_name}}"
+      friend_request_links: "{{profile}} Lähettänyt sinulle kaveriksitulopyynnön {{accept}} {{ignore}}"
+      friend_request_pending: "Kaveriksitulopyynnön kunnes {{link}}"
+      friend_request_prompt: "Lähetä {{user}} kaveriksitulopyynnön"
+      friend_request_sent: "Friend Pyyntö lähetetty"
+      friends: Ystävät
+      friends_title: Ystävät
+      friends_with: "{{inviter}} On nyt ystävien kanssa {{invited}}"
+      ignore: (ohittaa)
+      login: kirjautuminen
+      login_or_sign_up_to_follow: "{{login}} Tai {{signup}} seurata tämän käyttäjän"
+      login_or_sign_up_to_friend: "{{login}} Tai {{signup}} lähettää kaveriksitulopyynnöt"
+      mutual_friends: "Keskinäinen Ystävät"
+      no_followers: "N: o seuraajia"
+      no_friends: "Ei ystäviä"
+      no_mutual_friends: "Ei yhteisiä kavereita löytyi"
+      not_following_anyone: "Ei jälkeen Jokainen"
+      problem_adding_follow: "Ongelma lisäämällä {{user}} teidän seurata luettelosta. Ole hyvä ja yritä uudelleen."
+      problem_sending_friend_request: "Ongelma lähettää ystävälle pyynnön {{user}}. Ole hyvä ja yritä uudelleen."
+      removed_following_error: "Ongelma ilmeni, kun yrittää unfollow {{user}}"
+      removed_friendship: "Poistetut {{user}} ystäviesi"
+      removed_friendship_error: "Ongelma poistamalla {{user}} listaltasi friends"
+      same_inviter_error_message: "Käyttäjä ei voi tulla ystävien kanssa ilmoittanut."
+      signup: signup
+      start_following: "Seuraa {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop jälkeen {{user}}"
+      stopped_following: "Onnistuneesti lopettanut seuraavat {{user}}"
+      view_all: "Näytä kaikki"
+      you_are_now_following: "Olet nyt seuraavat {{user}}"

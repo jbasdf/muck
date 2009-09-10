@@ -1,0 +1,22 @@
+--- 
+pl: 
+  muck: 
+    activity_templates: 
+      share: Akcje
+    shares: 
+      add_share: Dzielić
+      add_share_button: Dzielić
+      adding_share: "Udostępnianie strony ..."
+      cancel_share_button: Zrezygnuj
+      cant_delete_share: "Nie masz uprawnień, aby usunąć ten udział"
+      create_error: "Nie można utworzyć udział: {{errors}}"
+      create_success: "Pomyślne wspólna strona"
+      login_prompt: "Zaloguj się do akcji"
+      message: Wiadomość
+      new_share: "Prześlij link"
+      problem_adding_share: "Wystąpił problem dodając swoje akcje"
+      share_activity_content: "wspólne {{link}}.  {{message}}"
+      share_removed: "Podziel się pomyślnie usunięte."
+      share_title: "Prześlij ten link"
+      title: Tytuł
+      uri: Url

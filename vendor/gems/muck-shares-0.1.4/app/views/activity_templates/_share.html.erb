@@ -1,0 +1,3 @@
+<% activity_for(activity, :activity_css_class => 'activity-share') do -%>
+  <%= t('muck.shares.share_activity_content', :link => link_to(activity.item.title, activity.item.uri, :target => '_blank'), :message => activity.item.message) %>
+<% end -%>

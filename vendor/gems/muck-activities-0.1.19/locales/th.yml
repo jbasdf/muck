@@ -1,0 +1,30 @@
+--- 
+th: 
+  muck: 
+    activities: 
+      activity_feed_title: กิจกรรมล่าสุด
+      adding_comment_message: "เพิ่มความคิดเห็น ..."
+      all_activities: ทุกกิจกรรม
+      clear: ชัดเจน
+      create_error: "มีปัญหาในการเพิ่มขอกิจกรรม: {{error}}"
+      delete: ลบ
+      invite_friends: เชิญเพื่อน
+      item_could_not_be_removed: รายการไม่สามารถลบออกจากรายการล่าสุดกิจกรรม.
+      item_created: เพิ่มกิจกรรม
+      item_removed: รายการสำเร็จลบออกจากรายการล่าสุดกิจกรรม.
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: ความคิดเห็น
+      paging_newer: «ใหม่กว่า
+      paging_older: "เก่ากว่า »"
+      permission_denied: ขออภัยคุณไม่สามารถทำที่.
+      post: แบ่งปัน
+      problem_with_status: มีปัญหาในการเปลี่ยนสถานะของคุณ
+      status_indicator: เป็น
+      status_update_prompt: คุณกำลังทำอะไรในขณะนี้?
+      template_or_item_required: มีกิจกรรมที่ต้องใช้เทมเพลทหรือรายการที่จะแสดงอย่างถูกต้อง
+      update_error: "โอ๊ะ ... มีปัญหา. {{errors}}"
+      update_status_message: อัปเดทสถานะ!
+      updating_status_message: "อัปเดทสถานะ. โปรดรอ."
+      write_prompt: "เขียนความคิดเห็น ..."
+    activity_templates: 
+      status_update: สถานะการปรับปรุง

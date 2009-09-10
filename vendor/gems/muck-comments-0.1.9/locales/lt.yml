@@ -1,0 +1,16 @@
+--- 
+lt: 
+  muck: 
+    activity_templates: 
+      comment: Komentarai
+    comments: 
+      add_comment: Komentaras
+      add_comment_button: "Pridėti komentarą"
+      cant_delete_comment: "Jūs neturite leidimo pašalinti komentarą"
+      comment_removed: "Komentaras sėkmingai ištrintas."
+      create_error: "Nepavyko sukurti komentarą {{errors}}"
+      create_success: "Sėkmingai pridėti komentarą"
+      missing_comment_template_error: "Neradote dalinio pavadinimu {{partial}}. Sukurkite komentarą dalinis ir bandykite dar kartą."
+      new_comment_no_title: "Pridėti naują komentarą"
+      new_comment_with_title: "Pridėti naują komentarą {{title}}"
+      problem_adding_comment: "Iškilo problema pridėti savo komentarą"

@@ -1,0 +1,12 @@
+--- 
+cs: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Nelze najít zadanou uživatelem."
+      edit_failure: "&quot;Vyskytla se chyba při aktualizaci vašeho profilu."
+      edit_profile: "Upravit profil"
+      edit_success: "Úspěšně aktualizovali profil"
+      problem_editing_account: "Došlo k problému při aktualizaci vašeho profilu"
+      update_profile: "Aktualizace profilu"
+      upload_photo: "Nahrát foto:"
+      view_profile: "Zobrazit profil"

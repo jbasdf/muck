@@ -1,0 +1,13 @@
+--- 
+? "no"
+: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Finner ikke den angitte brukeren."
+      edit_failure: "Det oppstod en feil under oppdatering av profilen din."
+      edit_profile: "Rediger profil"
+      edit_success: "Blitt oppdatert profil"
+      problem_editing_account: "Det var et problem med å oppdatere din profil"
+      update_profile: "Oppdater profil"
+      upload_photo: "Last opp et bilde:"
+      view_profile: "Vis profil"

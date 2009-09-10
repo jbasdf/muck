@@ -1,0 +1,31 @@
+--- 
+zh-TW: 
+  muck: 
+    engine: 
+      choose_country: 選擇國家
+      choose_language: 選擇語言
+      choose_state: 選擇國家
+      missing_parent_error: 請指定一個父對象
+      select_country_prompt: 請選擇一個國家
+      select_language_prompt: 請選擇一種語言
+      select_state_prompt: 請選擇一個國家
+    forms: 
+      please_enter_a_value: "請輸入一個值{{label}}"
+    general: 
+      activate: 激活
+      deactivate: 停用
+      delete: 刪除
+      disable: 使能夠
+      enable: 喪失能力
+      enabled: 啟用？
+      general_info: 一般資訊
+      help: 幫助
+      next: 下一頁»
+      no_text: 否
+      previous: «上一頁
+      read_more: 閱讀更多
+      save: 保存
+      settings_saved: 設置已保存。
+      time_ago: "{{time_in_words}}前"
+      update: 更新
+      yes_text: 是

@@ -1,0 +1,19 @@
+--- 
+cs: 
+  uploader: 
+    cancel_all: "Zrušit všechny Uploads"
+    file_delete_permission_denied: "Nemáte dostatečná oprávnění k odstranění tohoto souboru."
+    file_deleted: "Smazaný soubor"
+    file_upload_error: "Nastala chyba při nahrávání souboru."
+    javascript_not_enabled: "Je nám líto. SWFUpload nemohl načíst. Musíte mít povolen JavaScript těšit SWFUpload."
+    manage_files: "Správa souborů"
+    manage_photos_files: "Správa Fotografie / Files"
+    missing_parent_id_error: "Prosím, zadejte nadřazeného objektu"
+    permission_denied: "Nemáte oprávnění k dokončení této akce."
+    standard_file_upload_error: "Nastala chyba při nahrávání souboru: {{error}}. Ujistěte se, že soubor je platný. Přesvědčte se, že soubor není prázdné. Pak zkuste to znovu."
+    successful_upload: "Úspěšně uploadovaný soubor."
+    swf_loading: "SWFUpload se nahrává. Prosím, vyčkejte chvíli ..."
+    swf_not_loading: "Je nám líto. SWFUpload nemohl načíst. Možná budete muset nainstalovat nebo upgradovat Flash Player. Navštivte {{url}} dostat Flash Player."
+    swf_taking_to_long: "SWFUpload bere dlouho zatížení nebo zatížení selhalo. Ujistěte se, že Flash Plugin je povoleno, a že pracovní verzi Adobe Flash Player je nainstalován."
+    upload_file: "Nahrát soubor"
+    upload_files: "Upload souborů"

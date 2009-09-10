@@ -1,0 +1,16 @@
+--- 
+nl: 
+  muck: 
+    activity_templates: 
+      comment: Reacties
+    comments: 
+      add_comment: Commentaar
+      add_comment_button: "Reactie toevoegen"
+      cant_delete_comment: "Je hebt geen toestemming om te verwijderen die opmerking"
+      comment_removed: "Commentaar succesvol verwijderd."
+      create_error: "Kan niet de opmerking {{errors}}"
+      create_success: "Toegevoegd commentaar"
+      missing_comment_template_error: "Kan niet vinden een gedeeltelijke naam {{partial}}. Maak een opmerking gedeeltelijke en probeer het opnieuw."
+      new_comment_no_title: "Voeg een nieuwe reactie"
+      new_comment_with_title: "Voeg een nieuwe reactie te {{title}}"
+      problem_adding_comment: "Er een probleem was het toevoegen van je reactie"

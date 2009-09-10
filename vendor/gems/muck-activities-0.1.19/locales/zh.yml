@@ -1,0 +1,30 @@
+--- 
+zh: 
+  muck: 
+    activities: 
+      activity_feed_title: 近期活动
+      adding_comment_message: 添加评论...
+      all_activities: 所有活动
+      clear: 清楚的
+      create_error: "有问题的请加活动： {{error}}"
+      delete: 删除
+      invite_friends: 邀请朋友
+      item_could_not_be_removed: 项目不能从最近的活动清单。
+      item_created: 时间活动
+      item_removed: 项目成功地从最近的活动清单。
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: 评论
+      paging_newer: «较新
+      paging_older: 较旧»
+      permission_denied: 对不起，你不能这样做。
+      post: 共享
+      problem_with_status: 有问题请更改您的状态
+      status_indicator: 是
+      status_update_prompt: 你在做什么呢？
+      template_or_item_required: 一项活动需要一个模板或一个项目，以显示正确
+      update_error: "哎呀...有一个问题。 {{errors}}"
+      update_status_message: 更新您的地位！
+      updating_status_message: 更新您的状态。请稍候。
+      write_prompt: 撰写评论...
+    activity_templates: 
+      status_update: 状态更新

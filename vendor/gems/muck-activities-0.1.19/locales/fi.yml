@@ -1,0 +1,30 @@
+--- 
+fi: 
+  muck: 
+    activities: 
+      activity_feed_title: "Recent Activity"
+      adding_comment_message: "Lisäämällä kommentti ..."
+      all_activities: "Kaikki Aktiviteetit"
+      clear: Tyhjennä
+      create_error: "Ongelma lisäämällä pyynnön Toimiala: {{error}}"
+      delete: Poistaa
+      invite_friends: "Kutsu kavereita"
+      item_could_not_be_removed: "Tuote ei ole voitu poistaa viime toiminta."
+      item_created: "Lisätty toimintaa"
+      item_removed: "Alamomentti onnistuneesti poistettu viime toiminta."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: Kommentti
+      paging_newer: «Uudemmat
+      paging_older: "Vanhemmat »"
+      permission_denied: "Et voi tehdä sitä."
+      post: Jakaa
+      problem_with_status: "Ongelma muuttuviin olotilasi"
+      status_indicator: "on"
+      status_update_prompt: "Mitä teet juuri nyt?"
+      template_or_item_required: "Aktiivisuus edellyttää mallia tai kohteen näyttämään oikein"
+      update_error: "Oho ... Oli ongelma. {{errors}}"
+      update_status_message: "Päivitä tila!"
+      updating_status_message: "Päivitetään olotilasi. Odota."
+      write_prompt: "Kirjoita kommentti ..."
+    activity_templates: 
+      status_update: Tila-päivitykset

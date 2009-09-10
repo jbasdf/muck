@@ -1,0 +1,31 @@
+--- 
+fa: 
+  muck: 
+    engine: 
+      choose_country: "انتخاب کشور"
+      choose_language: "انتخاب زبان"
+      choose_state: "استان را انتخاب کنید"
+      missing_parent_error: "لطفا یک شیء پدر و مادر را مشخص"
+      select_country_prompt: "لطفا یک کشور را انتخاب کنید"
+      select_language_prompt: "لطفا یک زبان را انتخاب کنید"
+      select_state_prompt: "لطفا یک حالت را انتخاب کنید"
+    forms: 
+      please_enter_a_value: "لطفا یک مقدار برای {{label}}را وارد کنید"
+    general: 
+      activate: فعال
+      deactivate: "بی خاصیت کردن"
+      delete: حذف
+      disable: فعال
+      enable: "غیر فعال کردن"
+      enabled: "را فعال کنید؟"
+      general_info: "اطلاعات عمومی"
+      help: راهنما
+      next: "بعدی »"
+      no_text: هیچ
+      previous: «قبلی
+      read_more: "بیشتر بخوانید"
+      save: ذخیره
+      settings_saved: "تنظیمات را ذخیره شد."
+      time_ago: "{{time_in_words}}پیش"
+      update: "بروز رسانی"
+      yes_text: بله

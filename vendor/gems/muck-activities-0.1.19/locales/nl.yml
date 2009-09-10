@@ -1,0 +1,30 @@
+--- 
+nl: 
+  muck: 
+    activities: 
+      activity_feed_title: "Recente activiteit"
+      adding_comment_message: "Het toevoegen van commentaar ..."
+      all_activities: "Alle activiteiten"
+      clear: Helder
+      create_error: "Er een probleem was het toevoegen van de gevraagde activiteit: {{error}}"
+      delete: Wissen
+      invite_friends: "Vrienden uitnodigen"
+      item_could_not_be_removed: "Post kan niet worden verwijderd uit de recente activiteiten lijst."
+      item_created: "Toegevoegd activiteit"
+      item_removed: "Post succesvol verwijderd uit de recente activiteiten lijst."
+      joined_status: "{{name}} joined {{application_name}}"
+      make_comment: Commentaar
+      paging_newer: «Nieuwer
+      paging_older: "Ouder »"
+      permission_denied: "Sorry, kan je niet doen."
+      post: Delen
+      problem_with_status: "Er is een probleem verandert uw status"
+      status_indicator: is
+      status_update_prompt: "Wat doe je nu?"
+      template_or_item_required: "Een activiteit is een sjabloon of een item om de juiste"
+      update_error: "Oeps ... Er was een probleem. {{errors}}"
+      update_status_message: "update your status!"
+      updating_status_message: "Updaten van uw status. Please wait."
+      write_prompt: "Schrijf een opmerking ..."
+    activity_templates: 
+      status_update: "Status Updates"

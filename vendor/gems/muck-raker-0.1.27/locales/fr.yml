@@ -1,0 +1,141 @@
+--- 
+fr: 
+  muck: 
+    activity_templates: 
+      entry_comment: Commentaire
+    raker: 
+      add_extended_feed_sub_title: "Apporter une nouvelle source de données"
+      add_extended_feed_title: "Ajouter une nouvelle distribution"
+      add_feed: "Add Feed"
+      add_feed_advanced: "Add Feed (Avancé)"
+      add_feed_title: "Ajouter un nouveau flux"
+      add_feed_url: "Url:"
+      all_resources: "Toutes les ressources"
+      already_added_uri_feed: "Vous avez déjà ajouté la {{uri}} url"
+      already_added_username_feed: "Vous avez déjà ajouté un compte {{service}} avec le nom d&#39;utilisateur {{username}}"
+      already_shared: "Vous avez déjà partagé cette page."
+      amazon_prompt: "S&#39;il vous plaît entrez l&#39;email que vous utilisez avec Amazon.com"
+      atom: Atom
+      available_services: "Services disponibles"
+      ban_feed: "Feed Marquer comme non valide"
+      banned: interdit
+      blogger_prompt: "URL de votre blog"
+      calculated: calculés
+      cant_modify_identity_feed: "Vous n&#39;avez pas la permission d&#39;accéder à la source spécifiée."
+      choose_service: "Choisissez un service:"
+      close: Fermer
+      collection_description: "Collection Description:"
+      collection_home_uri: "Adresse de la Page d&#39;Accueil Collection"
+      collection_uri: "Adresse de la Collection de métadonnées:"
+      collections: Collections
+      collections_long: "Collections indexées"
+      comment_entries_count: 
+        one: "1 Commentaire"
+        other: "{{count}} Commentaires"
+      course_search_results: "Cours <b>{{first}} - {{last}}</b> de <b>{{total}}</b> pour <b>{{terms}}</b> de recherche"
+      course_tag_results: "Cours <b>{{first}} - {{last}}</b> de <b>{{total}} {{terms}}</b> tagué"
+      courses_tag_cloud_label: "Parcourir les cours utilisant les balises <a href=\"/resources\">[Voir toutes les ressources]</a>"
+      demo: Demo
+      description: Description
+      details: Détails
+      developers_long: "Informations destinées aux développeurs"
+      direct_link: "[Direct link]"
+      discover_feed: "Découvrez Feed"
+      discover_feed_message: "Rechercher des informations sur les URL que vous avez fournis. S&#39;il vous plaît attendre."
+      display_url: "URL à afficher:"
+      entry_commment_contents: "a commenté sur {{resource}}"
+      facebook_instructions: "Sur la page Liens Mon, cliquez à droite sur «Mes liens» et copier le lien. Nous allons inclure automatiquement, l&#39;état, des liens et des notes."
+      facebook_link: "Vous pouvez trouver votre URL sur votre page Facebook Liens My. {{link}} Puis cliquez sur «Mes liens»"
+      facebook_notes: "Facebook Notes"
+      facebook_notifications: "Facebook Alertes"
+      facebook_prompt: "Votre Facebook Mes liens Web"
+      facebook_shares: "Facebook Shared Links"
+      failed_harvests: "Échec de récoltes"
+      failed_last_request: "Échec de la dernière demande: {{error}}"
+      feed_banned_message: "Aliments pour animaux a pu être interdites."
+      feed_successfully_created: "Aliments pour animaux a été créé."
+      feed_successfully_updated: "Aliments pour animaux a été mis à jour."
+      feed_validated_message: "Aliments pour animaux a été validé avec succès."
+      feeds_title: "Inscrits Collections"
+      for: pour
+      friendfeed_prompt: "FriendFeed URL RSS"
+      friendfeed_rss: "Vous pouvez trouver votre URL au bas de votre {{link}}."
+      gm_more_prompt: "Plus Ressources connexes"
+      gm_title: "Ressources connexes"
+      goodreads_prompt: "Goodreads profil Web"
+      goodreads_rss: "par exemple, http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Récolte (h)"
+      harvested_at: "Récoltés à"
+      hide: Masquer
+      identity_feed_removed: "Enlevée service"
+      identity_feeds: "Identité Feeds"
+      import_service: "{{service}} Import"
+      linkedin_prompt: "LinkedIn profile URL publique"
+      linkedin_rss: "Vous pouvez trouver votre URL au bas de votre {{link}}."
+      loading_content_image: "Loading image de contenu"
+      login: Connexion
+      login_or_signup_prompt: "{{signup}} Ou {{login}} pour discuter et partager les ressources."
+      login_to_comment: "Login pour ajouter un commentaire"
+      metadata: métadonnées
+      my_services: "Mes services"
+      narrow_further: "affiner vos résultats encore"
+      netflix_prompt: "Netflix Queue URL RSS"
+      netflix_rss: "Vous pouvez trouver votre URL sur votre {{link}}. Notez qu&#39;il ya plusieurs fils RSS disponibles sur votre page Netflix file d&#39;attente (Queue, recommandations, critiques de films, etc.) En ajouter autant que vous le souhaitez!"
+      new_global_feed: "Un nouveau flux a été ajouté à {{application_name}}"
+      next: Suivant
+      next_label: Suivant
+      no_feeds_at_uri: "Nous n&#39;avons pas pu trouver l&#39;url donnée"
+      no_feeds_from_username: "Nous ne pouvions pas trouver le compte rendu"
+      no_hits: "Votre recherche - <b>{{search}}</b> - ne correspond à aucun <b>{{resource_type}}.</b> S&#39;il vous plaît essayer une autre recherche ou choisissez une autre langue."
+      no_tagged_courses: "Pas de <b>cours</b> ont été trouvés avec les tags <b>{{tags}}.</b> <a href='/resources'>Recommencer</a> ou afficher <a href='/resources/tags/{{tags}}'>toutes les ressources tagué {{tags}}.</a>"
+      no_tagged_resources: "<b>Aucun</b> crédit n&#39;a été trouvé avec les tags <b>{{tags}}.</b> <a href='/resources'>Recommencer.</a>"
+      no_tags: "Pas de tags encore disponibles"
+      oai_prompt: "Si vous spécifiez OAI, vous devez spécifier l&#39;URL complète de la demande ListRecords (pas seulement le point de terminaison OAI)"
+      of: de
+      ok: OK
+      only_courses: "Seuls les cours"
+      polyvore_prompt: "Polyvore profil Web"
+      polyvore_rss: "Votre profil Polyvore URL ressemble http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "powered by"
+      previous: Précédent
+      previous_label: Précédent
+      problem_adding_feed: "Il y avait un problème en ajoutant l&#39;alimentation:"
+      rdf: RDF
+      related_resources: connexes
+      related_resources_title: "Ressources connexes"
+      relevance: pertinence
+      remix: Remix
+      repository_short_title: "Garde-titre abrégé:"
+      repository_title: "Repository Titre:"
+      resource_search_results: "Ressources <b>{{first}} - {{last}}</b> de <b>{{total}}</b> pour <b>{{terms}}</b> de recherche"
+      resource_tag_results: "Ressources <b>{{first}} - {{last}}</b> de <b>{{total}} {{terms}}</b> tagué"
+      resources_tag_cloud_label: "Trouver des ressources utilisant les balises <a href=\"/resources?grain_size=course\">[Parcourir les cours seulement]</a>"
+      results: Résultats
+      rss: RSS
+      rss_url: "URL de votre flux rss"
+      search: recherche
+      search_button: Aller
+      search_link: "Trouver des ressources!"
+      select_feeds_prompt: "Sélectionnez le flux que vous souhaitez ajouter:"
+      select_service_prompt: "S&#39;il vous plaît choisir un service"
+      service_username: "{{service}} Nom d&#39;utilisateur"
+      share: Partager
+      short_title: "Titre abrégé:"
+      show_tagged_courses: "Afficher uniquement les cours"
+      show_tagged_resources: "Afficher tout type de ressource"
+      signup: "S&#39;inscrire"
+      spinner_image: "Waiting image"
+      start_over: "Start Over"
+      status: État
+      submitting_feed_message: "Envoi de votre flux ..."
+      successfully_added_uri_feed: "Venez d&#39;ajouter {{uri}}"
+      successfully_added_username_feed: "Venez d&#39;ajouter {{service}}"
+      tags: Tags
+      title: Titre
+      type_of_metadata: "Type de métadonnées:"
+      uri: Url
+      validate_feed: "Mark aliments comme valable"
+      visit: Visite
+      xml: XML
+      zotero_group_prompt: "Zotero groupe URL"
+      zotero_group_rss: "Votre groupe Zotero URL ressemble à: http://www.zotero.org/groups/adventures_in_library_instruction/items"

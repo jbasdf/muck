@@ -1,0 +1,22 @@
+--- 
+vi: 
+  muck: 
+    activity_templates: 
+      share: "Cổ phần"
+    shares: 
+      add_share: "Chia sẻ"
+      add_share_button: "Chia sẻ"
+      adding_share: "Chia sẻ trang ..."
+      cancel_share_button: "Hủy bỏ"
+      cant_delete_share: "Bạn không được phép để xóa mà chia sẻ"
+      create_error: "Không thể tạo ra chia sẻ: {{errors}}"
+      create_success: "Trang chia sẻ thành công"
+      login_prompt: "Đăng nhập để chia sẻ"
+      message: "Thông báo"
+      new_share: "Chia sẻ một liên kết"
+      problem_adding_share: "Có một vấn đề của bạn chia sẻ thêm"
+      share_activity_content: "chia sẻ {{link}}.  {{message}}"
+      share_removed: "Chia sẻ thành công loại bỏ."
+      share_title: "Chia sẻ liên kết này"
+      title: "Tiêu đề"
+      uri: Url

@@ -1,0 +1,11 @@
+<% content_for :sidebar do -%>
+  <%= render :partial => 'admin/users/search_box' -%>
+  <%= render :partial => 'admin/users/ajax_search_box' -%>
+  <div id="user-navigation" class="box">
+    <ul>
+      <li><%= link_to t("muck.users.navigation.all_users"), admin_users_path %></li>
+      <li><%= link_to t("muck.users.navigation.inactive_users"), inactive_admin_users_path %></li>
+      <li><%= link_to t("muck.users.navigation.search_users"), search_admin_users_path %></li>
+    </ul>
+  </div>
+<% end -%>

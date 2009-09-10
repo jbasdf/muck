@@ -1,0 +1,44 @@
+--- 
+id: 
+  muck: 
+    activity_templates: 
+      follow: Pengikutnya
+      friends_with: Teman-teman
+    friends: 
+      acccept_friend_request: "Teman Terima Permintaan Dari {{user}}"
+      accept: (menerima)
+      delete: (menghapus)
+      follow_activity: "{{inviter}} Sekarang berikut {{invited}}"
+      followers: Pengikutnya
+      following: Setelah
+      following_you: "{{name}} Sekarang berikut Anda pada {{application_name}}"
+      friend_request: "{{name}} Telah dikirim ke teman Anda meminta pada {{application_name}}"
+      friend_request_links: "{{profile}} Dikirim permintaan teman Anda {{accept}} {{ignore}}"
+      friend_request_pending: "Permintaan tertunda {{link}}"
+      friend_request_prompt: "Kirim Permintaan {{user}} Teman"
+      friend_request_sent: "Teman Permintaan Terkirim"
+      friends: Teman-teman
+      friends_title: "Teman saya"
+      friends_with: "{{inviter}} Sekarang dengan teman-teman {{invited}}"
+      ignore: (abaikan)
+      login: login
+      login_or_sign_up_to_follow: "{{login}} Atau {{signup}} mengikuti pengguna ini"
+      login_or_sign_up_to_friend: "{{login}} Atau {{signup}} untuk mengirim permintaan"
+      mutual_friends: "Saling Teman"
+      no_followers: "Tidak ada pengikutnya"
+      no_friends: "Tidak ada teman"
+      no_mutual_friends: "Tidak ditemukan teman bersama"
+      not_following_anyone: "Siapapun tidak Mengikuti"
+      problem_adding_follow: "Terjadi masalah {{user}} menambahkan Anda ke daftar ikuti. Coba lagi."
+      problem_sending_friend_request: "Terjadi masalah mengirimkan permintaan ke {{user}}. Coba lagi."
+      removed_following_error: "Sebuah masalah terjadi ketika mencoba untuk unfollow {{user}}"
+      removed_friendship: "{{user}} Dihapus dari teman-teman Anda"
+      removed_friendship_error: "Terjadi masalah {{user}} menghapus dari daftar teman-teman"
+      same_inviter_error_message: "Pengguna tidak dapat menjadi teman-teman dengan themself."
+      signup: pendaftaran
+      start_following: "Ikuti {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Berhenti Mengikuti {{user}}"
+      stopped_following: "Berhasil dihentikan berikut {{user}}"
+      view_all: "Lihat Semua"
+      you_are_now_following: "Anda sekarang berikut {{user}}"

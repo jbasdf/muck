@@ -1,0 +1,44 @@
+--- 
+tl: 
+  muck: 
+    activity_templates: 
+      follow: Mga
+      friends_with: "Mga kaibigan"
+    friends: 
+      acccept_friend_request: "Tanggapin Kaibigan Kahilingan Mula {{user}}"
+      accept: (tanggapin)
+      delete: (tanggalin)
+      follow_activity: "{{inviter}} Na ngayon ang mga sumusunod na {{invited}}"
+      followers: Mga
+      following: Sumusunod
+      following_you: "{{name}} Na ngayon ang mga sumusunod na kayo sa {{application_name}}"
+      friend_request: "{{name}} Ay nagpadala sa inyo ng friend request sa {{application_name}}"
+      friend_request_links: "{{profile}} Nagpadala sa inyo ng friend request {{accept}} {{ignore}}"
+      friend_request_pending: "Friend request pending {{link}}"
+      friend_request_prompt: "Magpadala ng {{user}} isang Kaibigan Kahilingan"
+      friend_request_sent: "Kaibigan Naipadalang Kahilingan"
+      friends: "Mga kaibigan"
+      friends_title: "Aking Kaibigan"
+      friends_with: "{{inviter}} Ay kaibigan na {{invited}}"
+      ignore: "(huwag pansinin)"
+      login: login
+      login_or_sign_up_to_follow: "{{login}} O {{signup}} na sundan ang user na ito"
+      login_or_sign_up_to_friend: "{{login}} O {{signup}} na magpadala ng mga kahilingan ng kaibigan"
+      mutual_friends: "Mutual Kaibigan"
+      no_followers: "Walang mga"
+      no_friends: "Walang mga kaibigan"
+      no_mutual_friends: "Walang nahanap na mga kaibigan ng isa sa isa"
+      not_following_anyone: "Hindi Kasunod ng sinuman"
+      problem_adding_follow: "Nagkaroon ng problema sa pagdagdag ng {{user}} sa iyong sundin listahan. Mangyaring subukan ulit."
+      problem_sending_friend_request: "Nagkaroon ng problema sa pagpapadala ng isang kaibigan kahilingan sa {{user}}. Mangyaring subukan ulit."
+      removed_following_error: "Ang isang problema naganap habang sinusubukang unfollow {{user}}"
+      removed_friendship: "Tinanggal {{user}} mula sa iyong mga kaibigan"
+      removed_friendship_error: "Nagkaroon ng problema sa pagtatanggal ng {{user}} mula sa iyong listahan ng mga kaibigan"
+      same_inviter_error_message: "User ay maaaring hindi maging mga kaibigan na may themself."
+      signup: signup
+      start_following: "Sundin {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Itigil Kasunod ng {{user}}"
+      stopped_following: "Matagumpay na tumigil sa mga sumusunod na {{user}}"
+      view_all: "Tingnan ang lahat ng"
+      you_are_now_following: "Kayo ngayon ay sumusunod {{user}}"

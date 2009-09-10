@@ -1,0 +1,6 @@
+<div id="search_box" class="box">
+  <% form_tag :action => 'search' do %>
+    <%= text_field_tag :query, '', :class => 'span-5' %>
+    <%= submit_tag t("muck.users.admin.search_users") %>
+  <% end %>
+</div>

@@ -1,0 +1,12 @@
+--- 
+fa: 
+  muck: 
+    profiles: 
+      could_not_find_user: "ممکن است که کاربر مشخص شده را پیدا کند."
+      edit_failure: "یک خطا رخ داده است در حالی که روز رسانی مشخصات شما."
+      edit_profile: "ویرایش پروفایل"
+      edit_success: "مشخصات خود را با موفقیت به روز شده در تاریخ"
+      problem_editing_account: "یک اشکال در به روز رسانی مشخصات شما وجود دارد."
+      update_profile: "به روز رسانی پروفایل"
+      upload_photo: "ارسال یک عکس :"
+      view_profile: "مشاهده مشخصات"

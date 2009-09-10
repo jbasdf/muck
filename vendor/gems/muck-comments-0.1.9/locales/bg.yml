@@ -1,0 +1,16 @@
+--- 
+bg: 
+  muck: 
+    activity_templates: 
+      comment: Коментари
+    comments: 
+      add_comment: Коментар
+      add_comment_button: "Добави коментар"
+      cant_delete_comment: "Вие нямате разрешение да изтриете този коментар"
+      comment_removed: "Коментар успешно премахнат."
+      create_error: "Не може да се създаде мнение {{errors}}"
+      create_success: "Успешно добави коментар"
+      missing_comment_template_error: "Не може да се намери частично име {{partial}}. Моля, създайте мнение частична и опитайте отново."
+      new_comment_no_title: "Добавяне на нов коментар"
+      new_comment_with_title: "Добавяне на нов коментар {{title}}"
+      problem_adding_comment: "Имаше проблем при добавянето на коментар"

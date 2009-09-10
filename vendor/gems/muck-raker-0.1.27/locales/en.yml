@@ -1,0 +1,144 @@
+en:
+  muck:
+    activity_templates:
+      entry_comment: Comment
+    raker:
+        no_tags: No tags available yet
+        collections: Collections
+        demo: Demo
+        search_button: Go
+        collections_long: Indexed Collections
+        developers_long: Information for Developers
+        powered_by: powered by
+        no_hits: Your search - <b>{{search}}</b> - did not match any <b>{{resource_type}}</b>. Please try a different search or choose a different language.
+        no_tagged_courses: No <b>courses</b> were found tagged with <b>{{tags}}</b>. <a href='/resources'>Start over</a> or show <a href='/resources/tags/{{tags}}'>all resources tagged {{tags}}</a>.
+        no_tagged_resources: No <b>resources</b> were found tagged with <b>{{tags}}</b>. <a href='/resources'>Start over</a>.
+        previous: Previous
+        next: Next
+        results: Results
+        of: of
+        for: for
+        relevance: relevance
+        metadata: metadata
+        related_resources: related
+        rss: RSS
+        xml: XML
+        atom: Atom 
+        rdf: RDF 
+        related_resources_title: Related Resources
+        calculated: calculated
+        details: Details
+        gm_title: Related Resources
+        gm_more_prompt: More Related Resources
+        direct_link: '[direct link]'
+        search: search
+        search_link: Find Resources!
+        resources_tag_cloud_label: browse resources using tags <a href="/resources?grain_size=course">[browse only courses]</a>
+        courses_tag_cloud_label: browse courses using tags <a href="/resources">[browse all resources]</a>
+        narrow_further: narrow results further
+        show_tagged_courses: show only courses 
+        show_tagged_resources: show any kind of resource
+        tags: tags
+        start_over: start over
+        course_tag_results: "Courses <b>{{first}} - {{last}}</b> of <b>{{total}}</b> tagged <b>{{terms}}</b>"
+        resource_tag_results: "Resources <b>{{first}} - {{last}}</b> of <b>{{total}}</b> tagged <b>{{terms}}</b>"  
+        course_search_results: "Courses <b>{{first}} - {{last}}</b> of <b>{{total}}</b> for search <b>{{terms}}</b>"
+        resource_search_results: "Resources <b>{{first}} - {{last}}</b> of <b>{{total}}</b> for search <b>{{terms}}</b>"
+        next_label: Next
+        previous_label: Previous
+        all_resources: All Resources
+        only_courses: Only Courses
+        add_feed: Add
+        add_feed_url: "Url:"
+        discover_feed_message: "Searching for information about the url you provided.  Please wait."
+        select_feeds_prompt: "Select the feeds you would like to add:"
+        display_url: "Url to be displayed:"
+        title: "Title"
+        short_title: "Short title:"
+        description: "Description:"
+        add_feed_title: "Add a new feed"
+        repository_title: "Repository Title:"
+        repository_short_title: "Repository Short Title:"
+        collection_uri: "Address of the Collection Metadata:"
+        collection_home_uri: "Address of the Collection Home Page"
+        collection_description: "Collection Description:"
+        type_of_metadata: "Type of Metadata:"
+        oai_prompt: "If you specify OAI, you must specify the full url to the ListRecords request (not just the OAI endpoint)"
+        choose_service: "Choose service:"
+        select_service_prompt: "Please select a service"
+        add_extended_feed_title: "Add new feed"
+        add_extended_feed_sub_title: "Contribute a new data source"
+        submitting_feed_message: "Submitting your feed..."
+        feed_successfully_created: "Feed was successfully created."
+        feed_successfully_updated: "Feed was successfully updated."
+        new_global_feed: "A new feed has been added to {{application_name}}"
+        feeds_title: "Registered Collections"
+        title: "Title"
+        description: "Description"
+        harvest_interval: "Harvest interval (hrs)"
+        harvested_at: "Harvested at"
+        failed_harvests: "Failed harvests"
+        status: "Status"
+        uri: "Url"
+        discover_feed: "Discover Feed"
+        add_feed: "Add Feed"
+        add_feed_advanced: "Add Feed (Advanced)"
+        ok: OK
+        banned: banned
+        failed_last_request: "Failed last request: {{error}}"
+        visit: "visit"
+        problem_adding_feed: "There was a problem adding the feed:"
+        validate_feed: "Mark feed as valid"
+        ban_feed: "Mark feed as invalid"
+        feed_validated_message: "Feed was successfully validated."
+        feed_banned_message: "Feed was successfully banned."
+        close: "Close"
+        share: "Share"
+        hide: "Hide"
+        remix: "Remix"
+        login_to_comment: "Login to add a comment"
+        login_or_signup_prompt: "{{signup}} or {{login}} to discuss and share resources."
+        login: "Login"
+        signup: "Sign Up"
+        already_shared: "You've previously shared this page."
+        entry_commment_contents: "commented on {{resource}}"
+        cant_modify_identity_feed: "You don't have permission to access the specified feed."
+        available_services: "Available Services"
+        my_services: "My Services"
+        import_service: "Import {{service}}"
+        service_username: "{{service}} username"
+        no_feeds_from_username: "We could not find the given account"
+        no_feeds_at_uri: "We could not find the given url"
+        successfully_added_username_feed: "Successfully added {{service}}"
+        successfully_added_uri_feed: "Successfully added {{uri}}"
+        already_added_username_feed: "You've already added a {{service}} account with the username {{username}}"
+        already_added_uri_feed: "You've already added the url {{uri}}"
+        rss_url: "Url for your rss feed"
+        blogger_prompt: "Url of your Blog"
+        netflix_prompt: "Netflix Queue RSS URL"
+        netflix_rss: "You can find your URL on your {{link}}.  Note that there are several feeds available on your Netflix Queue page (Queue, Recommendations, Movie Reviews, etc).  Add as many as you like!"
+        friendfeed_prompt: "FriendFeed RSS URL"
+        friendfeed_rss: "You can find your URL at the bottom of your {{link}}."
+        linkedin_prompt: "LinkedIn public profile URL"
+        linkedin_rss: "You can find your URL at the bottom of your {{link}}."
+        polyvore_prompt: "Polyvore profile URL"
+        polyvore_rss: "Your Polyvore profile URL looks like http://www.polyvore.com/cgi/profile?id=00000"
+        goodreads_prompt: "Goodreads profile URL"
+        goodreads_rss: "e.g., http://www.goodreads.com/user/show/1111"
+        zotero_group_prompt: "Zotero group URL"
+        zotero_group_rss: "Your Zotero group URL looks like: http://www.zotero.org/groups/adventures_in_library_instruction/items"
+        amazon_prompt: "Please enter the email you use with Amazon.com"
+        facebook_prompt: "Your Facebook My Links URL"
+        facebook_link: "You can find your URL on your Facebook My Links page. {{link}} and then click on 'My Links'"
+        facebook_instructions: "On the My Links page, right-click on 'My Links' and copy the link. We will automatically include, status, links and notes."
+        identity_feed_removed: "Removed service"
+        loading_content_image: "Loading content image"
+        spinner_image: "Waiting image"
+        identity_feeds: "Identity Feeds"
+        facebook_notifications: "Facebook Notifications"
+        facebook_shares: "Facebook Shared Links"
+        facebook_notes: "Facebook Notes"
+        comment_entries_count:
+          one: "1 Comment"
+          other: "{{count}} Comments"
+        

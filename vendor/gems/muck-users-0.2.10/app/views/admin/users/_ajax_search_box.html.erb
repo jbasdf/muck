@@ -1,0 +1,6 @@
+<div id="ajax_search_box" class="box" style="display: none;" >
+  <% form_remote_tag :action => 'ajax_search', :url => '/admin/users/ajax_search', :update => "manage" do %>
+    <%= text_field_tag :query, '', :class => 'span-5' %>
+    <%= submit_tag t("muck.users.admin.search_users") %>
+  <% end %>
+</div>

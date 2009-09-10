@@ -1,0 +1,32 @@
+--- 
+hr: 
+  muck: 
+    engine: 
+      choose_country: "Choose Country"
+      choose_language: "Izaberite jezik"
+      choose_state: "Izaberite State"
+      missing_parent_error: "Navedite objekt roditelj"
+      select_country_prompt: "Molimo odaberite zemlju"
+      select_language_prompt: "Molimo odaberite jezik"
+      select_state_prompt: "Molimo odaberite državu"
+    forms: 
+      please_enter_a_value: "Molimo unesite vrijednost za {{label}}"
+    general: 
+      activate: Aktiviraj
+      deactivate: Isključiti
+      delete: Izbrisati
+      deleting: "Brisanje ..."
+      disable: Omogućiti
+      enable: Onemogućiti
+      enabled: Omogućen?
+      general_info: "Opće informacije"
+      help: Pomoć
+      next: "Sljedeća »"
+      no_text: Ne
+      previous: «Prethodna
+      read_more: "pročitaj više"
+      save: Spremiti
+      settings_saved: "Postavke su spremljene."
+      time_ago: "{{time_in_words}} Ago"
+      update: Ažurirati
+      yes_text: Da

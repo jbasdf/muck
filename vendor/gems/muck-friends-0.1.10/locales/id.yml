@@ -1,0 +1,49 @@
+--- 
+id: 
+  muck: 
+    activity_templates: 
+      follow: Pengikut
+      friends_with: Teman-teman
+    friends: 
+      acccept_friend_request: "Menerima Friend Request Dari {{user}}"
+      accept: (menerima)
+      block: "Blok {{user}}"
+      block_problem: "Ada kesalahan menghalangi {{user}}"
+      blocked: "Blocked {{user}}"
+      delete: (hapus)
+      follow_activity: "Berikut {{inviter}} sekarang {{invited}}"
+      followers: Pengikut
+      following: Setelah
+      following_you: "{{name}} Sekarang mengikuti Anda pada {{application_name}}"
+      friend_request: "{{name}} Telah mengirimkan permintaan teman di {{application_name}}"
+      friend_request_links: "{{profile}} Mengirimkan permintaan teman {{accept}} {{ignore}}"
+      friend_request_pending: "Permintaan teman tertunda {{link}}"
+      friend_request_prompt: "Kirim {{user}} a Friend Request"
+      friend_request_sent: "Teman Permintaan Terkirim"
+      friends: Teman-teman
+      friends_title: Teman
+      friends_with: "Sekarang {{inviter}} berteman dengan {{invited}}"
+      ignore: (abaikan)
+      login: login
+      login_or_sign_up_to_follow: "{{login}} Atau {{signup}} untuk mengikuti pengguna ini"
+      login_or_sign_up_to_friend: "{{login}} Atau {{signup}} untuk mengirim permintaan teman"
+      mutual_friends: "Mutual Teman"
+      no_followers: "Tidak Followers"
+      no_friends: "Tidak ada teman"
+      no_mutual_friends: "Tidak ada teman-teman yang ditemukan"
+      not_following_anyone: "Tidak Mengikuti Siapa"
+      problem_adding_follow: "Ada masalah {{user}} menambahkan ke daftar mengikuti Anda. Silakan coba lagi."
+      problem_sending_friend_request: "Ada masalah teman mengirimkan permintaan untuk {{user}}. Silakan coba lagi."
+      removed_following_error: "Suatu masalah terjadi ketika mencoba unfollow {{user}}"
+      removed_friendship: "Removed {{user}} dari teman Anda"
+      removed_friendship_error: "Ada masalah {{user}} menghapus dari daftar teman Anda"
+      same_inviter_error_message: "Pengguna tidak dapat berteman dengan themself."
+      signup: signup
+      start_following: "Ikuti {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Berhenti Mengikuti {{user}}"
+      stopped_following: "Berhasil berhenti mengikuti {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "Diblokir {{user}}"
+      view_all: "View All"
+      you_are_now_following: "Anda sekarang {{user}} berikut"

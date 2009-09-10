@@ -1,0 +1,22 @@
+--- 
+da: 
+  muck: 
+    activity_templates: 
+      share: Aktier
+    shares: 
+      add_share: Del
+      add_share_button: Del
+      adding_share: "Deling side ..."
+      cancel_share_button: Annuller
+      cant_delete_share: "Du har ikke tilladelse til at slette den pågældende aktie"
+      create_error: "Kunne ikke oprette andelen: {{errors}}"
+      create_success: "Held delt side"
+      login_prompt: "Log ind for at dele"
+      message: Besked
+      new_share: "Deler et Link"
+      problem_adding_share: "Der var et problem at tilføje din andel"
+      share_activity_content: "delt {{link}}.  {{message}}"
+      share_removed: "Andel held fjernet."
+      share_title: "Del dette link"
+      title: Titel
+      uri: Url

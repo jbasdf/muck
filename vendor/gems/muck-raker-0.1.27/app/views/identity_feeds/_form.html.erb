@@ -1,0 +1,20 @@
+<div id="identity-feed">
+  <% form_for(:feed, :url => url_by_identity_feed(parent, @identity_feed, service)) do |f| -%>
+    <%= service_title(service) %>
+    <% if service.template.blank? -%>
+      <% if service.uri_template.blank? -%>
+        <%= text_field_tag :uri, feed.uri %>
+      <% else -%>
+        <%= text_field_tag :username, feed.login %>
+      <% end -%>
+    <% else -%>
+      <%= render :partial => "service_templates/#{service.template}", :locals => { :service => service, :feed => feed } -%>
+    <% end -%>
+    <div class="button form-row">
+      <%= f.submit t('muck.raker.import_service', :service => service.name), :id => 'submit_feed', :onclick => "jQuery('#submit_feed').hide();jQuery('#finding_uri_message').show();" %>
+      <span id="finding_uri_message" style="display:none;">
+        <%= t('muck.raker.submitting_feed_message') %><img src="/images/loading.gif" alt="<%= t('muck.raker.loading_content_image') %>" />
+      </span>
+    </div>
+  <% end -%>
+</div>

@@ -1,0 +1,12 @@
+--- 
+uk: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Не вдається знайти вказаний користувачем."
+      edit_failure: "Виникла помилка при оновленні вашого профілю."
+      edit_profile: "Змінити профіль"
+      edit_success: "Успішно оновили профіль"
+      problem_editing_account: "Був проблема оновлення профілю"
+      update_profile: "Оновити профіль"
+      upload_photo: "Завантажити фотографію:"
+      view_profile: "Переглянути профіль"

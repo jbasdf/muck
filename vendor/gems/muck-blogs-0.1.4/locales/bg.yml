@@ -1,0 +1,7 @@
+--- 
+bg: 
+  muck: 
+    blogs: 
+      add_post: "Добави Коментар"
+      add_post_link: "Добави Коментар"
+      blog_title: "Блог за {{title}}"

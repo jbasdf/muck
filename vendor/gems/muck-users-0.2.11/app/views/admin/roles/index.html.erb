@@ -1,0 +1,8 @@
+<h2><%= I18n.t('Roles for %{user}') % {:user => h(@user.login.capitalize)} %></h2>
+ 
+<h3><%= I18n.t('Roles assigned:') %></h3>
+<ul><%= render :partial => 'role', :collection => @user.roles %></ul>
+ 
+<h3><%= I18n.t('Roles available:') %></h3>
+<ul><%= render :partial => 'role', :collection => (@all_roles - @user.roles) %></ul>
+
