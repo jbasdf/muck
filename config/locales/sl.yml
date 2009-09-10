@@ -1,32 +1,32 @@
 --- 
 sl: 
   contact: 
-    contact_response_subject: "Hvala za vašo poizvedbo iz {{application_name}}!"
-    contact_us: "Contact Us"
-    email: "Vaš email:"
-    email_help: "Prosimo, posredujte nam svoj e-naslov, tako da vas lahko kontaktiramo, če je potrebno."
+    contact_response_subject: "Hvala za vaše povpraševanje iz {{application_name}}!"
+    contact_us: Kontakt
+    email: "Vaš e-mail:"
+    email_help: "Prosimo, da nam pošljete vaš email, tako da bomo lahko v stik z vami, če je potrebno."
     name: "Vaše ime:"
-    name_help: "Prosimo, posredujte nam vaše ime."
-    phone: "Vaša telefonska številka:"
-    phone_help: "Vaša telefonska številka je neobvezno, vendar nam bodo pomagali v stik z vami, če je potrebno."
+    name_help: "Prosimo, da nam s svojim imenom."
+    phone: "Vaš telefon:"
+    phone_help: "Vaša telefonska številka ni obvezna, vendar nam bo pomagalo stik z vami, če je to potrebno."
     question: "Vaše sporočilo / vprašanje:"
-    question_help: "Prosimo, vključite vse pripombe, ki jo želite poslušati."
+    question_help: "Prosimo, vključite vse pripombe, ki jih želite nas slišati."
     subject: "Zadeva:"
-    subject_help: "A preprosto izjavo, ki označuje naravo vaše povratne informacije."
+    subject_help: "Preprosto izjavo o naravi vaše povratne informacije."
   general: 
     delete_file: "Brisanje datotek"
     send: Poslati
-    thank_you_contact: "Hvala za vaše sporočilo. Član naše ekipe, da vam bomo odgovorili v kratkem."
+    thank_you_contact: "Hvala za vaše sporočilo. Za člana naše ekipe se bodo odzvali na vas v kratkem."
   muck: 
     activity_templates: 
       welcome: Dobrodošli
     admin: 
       home: Domov
-      my_dashboard: "Moja tabla"
+      my_dashboard: "My Dashboard"
       permissions: Dovoljenja
       themes: Teme
       users: Uporabniki
-    contact_request: "Kontakt Zahteva"
-    contact_thanks: "Hvala, ker nas kontaktirate. Prejeli smo vašo e-pošto in bo v kratkem stiku."
-    user_greeting: "Zdravo {{user}},"
-    welcome_activity: "Dobrodošli na {{application_name}}."
+    contact_request: "Contact Request"
+    contact_thanks: "Hvala, ker ste nas kontaktirali. Prejeli smo vašo e-pošto in bo kmalu v stiku."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Dobrodošli v {{application_name}}."

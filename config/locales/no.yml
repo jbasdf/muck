@@ -2,32 +2,32 @@
 ? "no"
 : 
   contact: 
-    contact_response_subject: "Takk for din henvendelse fra {{application_name}}!"
+    contact_response_subject: "Takk for forespørselen fra {{application_name}}!"
     contact_us: "Kontakt oss"
     email: "Din e-post:"
-    email_help: "Oppgi din e-post slik at vi kan kontakte deg om nødvendig."
+    email_help: "Vennligst oppgi din e-post slik at vi kan kontakte deg om nødvendig."
     name: "Ditt navn:"
-    name_help: "Oppgi ditt navn."
+    name_help: "Vennligst oppgi ditt navn."
     phone: "Ditt telefonnummer:"
-    phone_help: "Telefonnummer er valgfritt, men vil hjelpe oss å kontakte deg om nødvendig."
-    question: "Din beskjed / spørsmål:"
-    question_help: "Ta med eventuelle kommentarer du vil at vi skal høre."
+    phone_help: "Ditt telefonnummer er valgfritt, men vil hjelpe oss kontakte deg om nødvendig."
+    question: "Din melding / spørsmål:"
+    question_help: "Ta med eventuelle kommentarer du ønsker å høre."
     subject: "Emne:"
-    subject_help: "En enkel uttalelse indikerer natur tilbakemelding."
+    subject_help: "En enkel setning som indikerer hva slags tilbakemelding."
   general: 
-    delete_file: "Slett filer"
+    delete_file: "Slett fil"
     send: Sende
-    thank_you_contact: "Takk for meldingen. Et medlem av teamet vårt vil svare deg snart."
+    thank_you_contact: "Takk for meldingen. Et medlem av vårt team vil svare deg innen kort tid."
   muck: 
     activity_templates: 
       welcome: Velkommen
     admin: 
       home: Hjem
-      my_dashboard: "Min Dashboard"
+      my_dashboard: "My Dashboard"
       permissions: Tillatelser
       themes: Temaer
       users: Brukere
-    contact_request: "Kontakt Forespørsel"
-    contact_thanks: "Takk for at du kontakter oss. Vi har mottatt din e-post og vil være i kontakt snart."
-    user_greeting: "Hi {{user}},"
+    contact_request: "Contact Request"
+    contact_thanks: "Takk for at du kontakter oss. Vi har mottatt e-post og vil være i kontakt snart."
+    user_greeting: "Hei {{user}},"
     welcome_activity: "Velkommen til {{application_name}}."

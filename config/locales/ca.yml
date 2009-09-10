@@ -1,10 +1,10 @@
 --- 
 ca: 
   contact: 
-    contact_response_subject: "Gràcies per la vostra consulta d&#39;{{application_name}}!"
+    contact_response_subject: "Gràcies per la seva consulta de {{application_name}}!"
     contact_us: "Contacti&#39;ns"
-    email: "El seu email:"
-    email_help: "Si us plau ens proporcioni la seva adreça de correu electrònic perquè puguem contactar amb vostè si és necessari."
+    email: "El seu correu electrònic:"
+    email_help: "Si us plau ens proporcioni el seu correu electrònic per a que puguem contactar amb vostè si és necessari."
     name: "El seu nom:"
     name_help: "Si us plau ens proporcioni el seu nom."
     phone: "El seu número de telèfon:"
@@ -12,21 +12,21 @@ ca:
     question: "El teu missatge / pregunta:"
     question_help: "Si us plau, inclogui qualsevol comentari que ens agradaria escoltar."
     subject: "Assumpte:"
-    subject_help: "Una simple declaració indicant la naturalesa dels seus informes."
+    subject_help: "Una simple declaració indicant la naturalesa dels seus comentaris."
   general: 
     delete_file: "Esborrar arxiu"
     send: Enviar
-    thank_you_contact: "Gràcies pel seu missatge. Un membre del nostre equip et respondrà en breu."
+    thank_you_contact: "Gràcies pel seu missatge. Un membre del nostre equip respondrà en breu."
   muck: 
     activity_templates: 
       welcome: Benvingut
     admin: 
       home: Inici
-      my_dashboard: "El meu Escriptori"
+      my_dashboard: "Meva consola"
       permissions: Permisos
       themes: Temes
       users: Usuaris
-    contact_request: "Sol licitud de Contacte"
+    contact_request: "Sol.licitud de Contacte"
     contact_thanks: "Gràcies per contactar amb nosaltres. Hem rebut el seu correu electrònic i es posarà en contacte en breu."
     user_greeting: "Hola {{user}},"
     welcome_activity: "Benvingut a {{application_name}}."

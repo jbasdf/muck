@@ -1,32 +1,32 @@
 --- 
 vi: 
   contact: 
-    contact_response_subject: "Cám ơn bạn đã tìm hiểu từ {{application_name}}!"
-    contact_us: "Liên hệ với chúng tôi"
+    contact_response_subject: "Cảm ơn bạn đã yêu cầu thông tin của bạn từ {{application_name}}!"
+    contact_us: "Liên hệ"
     email: "Email của bạn:"
-    email_help: "Xin vui lòng cung cấp cho chúng tôi email của bạn để chúng tôi có thể liên lạc với bạn nếu cần thiết."
+    email_help: "Xin vui lòng cho chúng tôi email của bạn để chúng tôi có thể liên lạc với bạn nếu cần thiết."
     name: "Tên của bạn:"
-    name_help: "Xin vui lòng cung cấp cho chúng tôi tên của bạn."
+    name_help: "Xin vui lòng cung cấp cho chúng tôi với tên của bạn."
     phone: "Số điện thoại của bạn:"
     phone_help: "Số điện thoại của bạn là tùy chọn, nhưng sẽ giúp chúng tôi liên lạc với bạn nếu cần thiết."
-    question: "Tin nhắn của bạn / câu hỏi:"
-    question_help: "Xin vui lòng bao gồm bất cứ bình luận nào bạn muốn chúng tôi nghe."
+    question: "Câu hỏi của bạn tin nhắn /:"
+    question_help: "Xin vui lòng bao gồm bất kỳ ý kiến bạn muốn chúng tôi nghe."
     subject: "Tiêu đề:"
-    subject_help: "Một tuyên bố đơn giản chỉ tính chất của thông tin phản hồi của bạn."
+    subject_help: "Một câu đơn giản chỉ ra bản chất của các phản hồi của bạn."
   general: 
     delete_file: "Xoá tệp"
     send: Gửi
-    thank_you_contact: "Cảm ơn bạn đã cho tin nhắn của bạn. Một thành viên của nhóm chúng tôi sẽ trả lời cho bạn trong thời gian ngắn."
+    thank_you_contact: "Cám ơn các tin nhắn của bạn. Một thành viên của nhóm chúng tôi sẽ trả lời bạn ngay."
   muck: 
     activity_templates: 
       welcome: "Chào mừng"
     admin: 
       home: "Gia đình"
       my_dashboard: "Bảng điều khiển của tôi"
-      permissions: Quyền
+      permissions: Permissions
       themes: "Chủ đề"
-      users: "Người sử dụng"
-    contact_request: "Yêu cầu Liên hệ"
-    contact_thanks: "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi đã nhận được email của bạn và sẽ được liên lạc sớm."
+      users: "Người dùng"
+    contact_request: "Liên hệ Yêu cầu"
+    contact_thanks: "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi đã nhận được email của bạn và sẽ liên lạc sớm."
     user_greeting: "Hi {{user}},"
-    welcome_activity: "Chào mừng bạn đến với {{application_name}}."
+    welcome_activity: "Chào mừng đến với {{application_name}}."

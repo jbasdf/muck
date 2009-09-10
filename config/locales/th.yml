@@ -1,32 +1,32 @@
 --- 
 th: 
   contact: 
-    contact_response_subject: "ขอขอบคุณที่ให้สอบถามจาก {{application_name}}!"
+    contact_response_subject: "ขอขอบคุณสำหรับคำถามของคุณจาก {{application_name}}!"
     contact_us: ติดต่อเรา
-    email: "อีเมลของคุณ:"
-    email_help: โปรดระบุอีเมลเพื่อให้เราสามารถติดต่อคุณถ้าจำเป็น.
-    name: "ชื่อของท่าน:"
-    name_help: โปรดระบุชื่อ.
+    email: "อีเมล์ของคุณ:"
+    email_help: กรุณาระบุอีเมล์ของคุณเพื่อให้เราสามารถติดต่อคุณถ้าจำเป็น.
+    name: ชื่อของคุณ
+    name_help: โปรดระบุชื่อของคุณ.
     phone: "หมายเลขโทรศัพท์ของคุณ:"
-    phone_help: หมายเลขโทรศัพท์ของคุณหรือไม่ก็ได้แต่จะช่วยให้เราสามารถติดต่อคุณถ้าจำเป็น.
-    question: "ข้อความของคุณ / คำถาม:"
-    question_help: โปรดรวมถึงความคิดเห็นใดก็ตามที่คุณต้องการให้เราได้ยิน.
-    subject: "หัวเรื่อง:"
-    subject_help: ง่ายๆงบระบุลักษณะข้อเสนอแนะของคุณ.
+    phone_help: หมายเลขโทรศัพท์ของคุณมีตัวเลือกแต่จะช่วยให้เราติดต่อคุณถ้าจำเป็น.
+    question: "ข้อความ / คำถามของคุณ:"
+    question_help: กรุณาใส่ความคิดเห็นที่คุณต้องการให้เราได้ยิน.
+    subject: "Subject:"
+    subject_help: คำง่ายๆที่ระบุลักษณะการตอบรับของคุณ.
   general: 
-    delete_file: ลบไฟล์
+    delete_file: ไฟล์ลบ
     send: ส่ง
-    thank_you_contact: "ขอขอบคุณสำหรับข้อความของคุณ. สมาชิกของทีมงานเราจะตอบกลับในไม่ช้าคุณ."
+    thank_you_contact: "ขอขอบคุณสำหรับข้อความของคุณ. สมาชิกของทีมงานเราจะตอบกับคุณในไม่ช้า."
   muck: 
     activity_templates: 
       welcome: ยินดีต้อนรับ
     admin: 
       home: บ้าน
       my_dashboard: แผงควบคุมของฉัน
-      permissions: การอนุญาต
+      permissions: สิทธิ
       themes: ธีม
-      users: ผู้ใช้
-    contact_request: ติดต่อขอ
-    contact_thanks: "ขอขอบคุณที่ติดต่อเรา. เราได้รับอีเมลของคุณและจะติดต่อเร็วๆนี้."
-    user_greeting: "สวัสดี {{user}},"
+      users: ผู้ใช้งาน
+    contact_request: ขอติดต่อ
+    contact_thanks: "ขอขอบคุณที่ติดต่อเรา. เราได้รับอีเมลของคุณและจะติดต่อเร็ว."
+    user_greeting: "{{user}}, Hi"
     welcome_activity: "ยินดีต้อนรับสู่ {{application_name}}."

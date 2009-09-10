@@ -1,32 +1,32 @@
 --- 
 sk: 
   contact: 
-    contact_response_subject: "Ďakujeme za váš dotaz z {{application_name}}!"
+    contact_response_subject: "Vďaka za váš dotaz z {{application_name}}!"
     contact_us: "Kontaktujte nás"
-    email: "Váš email:"
-    email_help: "Poskytnite nám prosím Váš e-mail tak, že vás môžeme kontaktovať v prípade potreby."
+    email: "Váš e-mail:"
+    email_help: "Povedzte nám svoj e-mail, aby vás mohli kontaktovať v prípade potreby."
     name: "Vaše meno:"
     name_help: "Ak nám poskytnete svoje meno."
     phone: "Vaše telefónne číslo:"
-    phone_help: "Vaše telefónne číslo je nepovinné, ale pomôže nám to s vami v prípade potreby."
+    phone_help: "Telefónneho čísla je nepovinné, ale pomôže nám s vami v prípade potreby."
     question: "Váš vzkaz / dotaz:"
-    question_help: "Prosím obsahovať žiadne pripomienky chcete nás počuť."
+    question_help: "Uveďte prosím akékoľvek pripomienky, ktoré by ste rád, aby sme počuli."
     subject: "Predmet:"
-    subject_help: "Jednoduchý uvádzajúci povahu svoj názor."
+    subject_help: "Jednoduchý uvedie povahu svoj názor."
   general: 
-    delete_file: "Delete File"
+    delete_file: "Zmazať súbor"
     send: Poslať
-    thank_you_contact: "Ďakujeme Vám za Vašu správu. Každý člen nášho tímu bude reagovať na vás v blízkej dobe."
+    thank_you_contact: "Ďakujeme Vám za Vašu správu. Člen nášho tímu bude reagovať na vás v najbližšej dobe."
   muck: 
     activity_templates: 
       welcome: Vitajte
     admin: 
       home: Domov
       my_dashboard: "My Dashboard"
-      permissions: Privilégiá
+      permissions: Oprávnenie
       themes: Témy
       users: Užívatelia
     contact_request: "Kontakt Dopyt"
-    contact_thanks: "Vďaka za nás kontaktovať. Dostali sme vašu e-mailovú adresu a budú v kontakte čoskoro."
-    user_greeting: "Ahoj {{user}},"
+    contact_thanks: "Thanks for contacting us. Dostali sme váš e-mail a budú v kontakte čoskoro."
+    user_greeting: "Hi {{user}},"
     welcome_activity: "Vitajte na {{application_name}}."

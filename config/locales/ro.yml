@@ -1,32 +1,32 @@
 --- 
 ro: 
   contact: 
-    contact_response_subject: "Vă mulţumim pentru anchetă de la {{application_name}}!"
+    contact_response_subject: "Vă mulţumim pentru solicitarea de informatii de la {{application_name}}!"
     contact_us: Contactati-ne
-    email: "Adresa dvs. email:"
-    email_help: "Vă rugăm să ne oferiţi dvs. de email, aşa încât să vă putem contacta daca este necesar."
-    name: "Numele dvs.:"
+    email: "Adresa ta de email:"
+    email_help: "Vă rugăm să ne oferiţi un e-mail, astfel încât să vă putem contacta dacă este necesar."
+    name: "Numele tau:"
     name_help: "Vă rugăm să ne furnizaţi numele dumneavoastră."
     phone: "Numărul dvs. de telefon:"
-    phone_help: "Numărul dvs. de telefon este opţională, dar ne va ajuta să vă contacteze dacă este necesar."
+    phone_help: "Numărul dvs. de telefon este facultativă, dar ne va ajuta să vă contactăm dacă este necesar."
     question: "Mesajul dvs. / întrebare:"
-    question_help: "Vă rugăm să includeţi orice comentarii pe care doriţi să ne audă."
+    question_help: "Vă rugăm să includă orice observaţii pe care doriţi ca noi să aud."
     subject: "Subiect:"
-    subject_help: "O simplă declaraţie indicând natura de feedback-ul dumneavoastră."
+    subject_help: "O simplă declaraţie care indică natura feedback-ul dumneavoastră."
   general: 
-    delete_file: "Ştergere fişiere"
+    delete_file: "Şterge fişier"
     send: Trimite
-    thank_you_contact: "Vă mulţumim pentru mesaj. Un membru al echipei noastre vă va răspunde la scurt timp."
+    thank_you_contact: "Vă mulţumim pentru mesaj. Un membru al echipei noastre va va raspunde in scurt timp."
   muck: 
     activity_templates: 
       welcome: "Bun venit"
     admin: 
       home: Acasă
-      my_dashboard: "Tabloul de bord meu"
-      permissions: Permisiuni
-      themes: Teme
-      users: Utilizatorii
-    contact_request: "Contact Cerere de"
-    contact_thanks: "Vă mulţumim pentru a ne contacta. Am primit cererea dvs. de e-mail şi se va atinge în curând."
+      my_dashboard: "My Tablou de bord"
+      permissions: Permissions
+      themes: Themes
+      users: Users
+    contact_request: "A lua legatura cu Cerere de"
+    contact_thanks: "Vă mulţumim pentru a ne contacta. Am primit un e-mail şi va fi în contact în curând."
     user_greeting: "Max {{user}},"
     welcome_activity: "Bine ati venit la {{application_name}}."

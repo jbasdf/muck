@@ -1,22 +1,22 @@
 --- 
 ko: 
   contact: 
-    contact_response_subject: "{{application_name}}!에서 귀하의 문의에 감사드립니다"
-    contact_us: "저희에게 연락주세요"
+    contact_response_subject: "{{application_name}}!에서 질문해 주셔서 감사합니다"
+    contact_us: 연락처
     email: "귀하의 이메일 :"
-    email_help: "귀하의 이메일과 함께 필요하다면 우리가 연락을 취할 수 있도록 우리가 제공하고있습니다."
+    email_help: "귀하의 이메일되기 때문에 필요하다면 우리가 우리에게 연락을 취할 수있습니다."
     name: "귀하의 이름 :"
-    name_help: "귀하의 이름으로 우리를 제공합니다."
-    phone: "귀하의 전화 번호 :"
-    phone_help: "귀하의 전화 번호는 선택 사항입니다하지만 필요한 경우 연락처가 도움이 될 것입니다."
+    name_help: "귀하의 이름과 우리가 제공하고있습니다."
+    phone: "귀하의 휴대 전화 번호 :"
+    phone_help: "귀하의 전화 번호는 선택 사항입니다하지만 필요한 경우 연락처가 도움이됩니다."
     question: "귀하의 메시지 / 질문 :"
-    question_help: "제발 당신이 어떤 의견을 듣고 우리와 같은 것이 포함됩니다."
+    question_help: "제발 우리에게 듣고 싶은 모든 의견을 포함합니다."
     subject: "제목 :"
-    subject_help: "간단한 성명 귀하의 의견의 성격을 나타냅니다."
+    subject_help: "간단하게 여러분의 의견 진술의 성격을 나타냅니다."
   general: 
     delete_file: "파일 삭제"
     send: 보내기
-    thank_you_contact: "귀하의 메시지를 보내주셔서 감사합니다. 우리 팀의 한 일원 당신에게 곧 답변해 드리겠습니다."
+    thank_you_contact: "귀하의 메시지를 보내 주셔서 감사합니다. 저희 팀의 일원 당신에게 곧 답변해 드리겠습니다."
   muck: 
     activity_templates: 
       welcome: 환영
@@ -26,7 +26,7 @@ ko:
       permissions: 권한
       themes: 테마
       users: 사용자
-    contact_request: "문의 신청"
-    contact_thanks: "문의해 주셔서 감사합니다. 우리는 귀하의 이메일을받은 적이 터치에 곧 도착할 것입니다."
+    contact_request: "문의 요청"
+    contact_thanks: "문의해 주셔서 감사합니다. 우리는 귀하의 이메일을 받았습니다 곧 연락 것입니다."
     user_greeting: "안녕하세요 {{user}},"
-    welcome_activity: "{{application_name}}.에 오신 것을 환영합니다"
+    welcome_activity: "{{application_name}}. 오신 것을 환영합니다"

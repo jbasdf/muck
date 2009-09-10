@@ -1,32 +1,32 @@
 --- 
 zh: 
   contact: 
-    contact_response_subject: "感谢您询问从{{application_name}}!"
+    contact_response_subject: "感谢您的{{application_name}}!查询"
     contact_us: 联系我们
     email: 您的电子邮件：
-    email_help: 请向我们提供您的电子邮件，以便我们能够与您联系，如果必要的。
+    email_help: 请提供您的电子邮件，以便我们与您联系，如果必要的。
     name: 您的姓名：
-    name_help: 请向我们提供您的姓名。
+    name_help: 请提供你的姓名。
     phone: 您的电话号码：
-    phone_help: 您的电话号码是可选的，但将有助于我们与您联系，如果必要的。
+    phone_help: 您的电话号码是可选的，但将帮助我们与您联系，如果必要的。
     question: 您的留言/问题：
-    question_help: 请附上任何意见，希望我们能听到的。
+    question_help: 请包含任何您希望我们听到的。
     subject: 主题：
-    subject_help: 一个简单的声明，说明的性质，您的反馈。
+    subject_help: 一个简单的声明，表示您的反馈意见的性质。
   general: 
     delete_file: 删除文件
     send: 发送
-    thank_you_contact: 感谢您的来信。我们的小组成员将在近期内与您联络。
+    thank_you_contact: 感谢您的来信。我们的小组成员将很快回复您。
   muck: 
     activity_templates: 
       welcome: 欢迎
     admin: 
       home: 家
-      my_dashboard: 我的控制台
+      my_dashboard: 我的仪表板
       permissions: 权限
       themes: 主题
       users: 用户
     contact_request: 联系索取
-    contact_thanks: 感谢您与我们联系。我们已经收到您的电子邮件地址和联系将很快。
+    contact_thanks: 感谢您与我们联系。我们已经收到您的电子邮件，并会很快联系。
     user_greeting: "您好{{user}},"
     welcome_activity: "欢迎{{application_name}}."

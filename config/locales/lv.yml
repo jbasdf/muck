@@ -1,32 +1,32 @@
 --- 
 lv: 
   contact: 
-    contact_response_subject: "Paldies par izmeklēšanas no {{application_name}}!"
+    contact_response_subject: "Paldies par Jūsu izmeklēšanu no {{application_name}}!"
     contact_us: "Contact Us"
     email: "Jūsu e-pasts:"
-    email_help: "Lūdzu, sniedziet mums savu e-pasta adresi, lai mēs varētu ar jums sazināties, ja nepieciešams."
+    email_help: "Lūdzu, sniedziet mums savu e-pastu, lai mēs varētu ar jums sazināties, ja nepieciešams."
     name: "Jūsu vārds:"
     name_help: "Lūdzu, sniedziet mums savu vārdu."
-    phone: "Jūsu telefona numurs:"
-    phone_help: "Jūsu tālruņa numurs ir pēc izvēles, bet palīdzēs mums ar Jums sazināties, ja nepieciešams."
+    phone: "Jūsu tālruņa numurs:"
+    phone_help: "Jūsu telefona numurs ir obligāta, bet mums palīdzēs jums sazināties, ja nepieciešams."
     question: "Jūsu ziņa / jautājums:"
-    question_help: "Lūdzu ietvert jebkādus komentārus vēlaties, lai mēs dzirdēt."
-    subject: "Subject:"
-    subject_help: "Vienkāršs apgalvojums, kas norāda veidu, jūsu atsauksmi."
+    question_help: "Lūdzu, ietver visus komentārus Jūs vēlētos mūs dzirdēt."
+    subject: "Tēma:"
+    subject_help: "Vienkāršu paziņojumu, norādot Jūsu atsauksmi."
   general: 
-    delete_file: "Dzēst File"
+    delete_file: "Izdzēst failu"
     send: Sūtīt
-    thank_you_contact: "Paldies par ziņu. Loceklis, mūsu komanda atbildēt ar jums drīz."
+    thank_you_contact: "Paldies par jūsu ziņojumu. Mūsu komandas loceklis atbildēs Jums tuvākajā laikā."
   muck: 
     activity_templates: 
       welcome: "Laipni lūdzam"
     admin: 
       home: Mājas
-      my_dashboard: "Mani Dashboard"
+      my_dashboard: "Mans iestatījumu panelis"
       permissions: Atļaujas
       themes: Tēmas
       users: Lietotāji
-    contact_request: "Kontakti Pieprasījums"
-    contact_thanks: "Paldies par sazināšanos ar mums. Mēs esam saņēmuši jūsu e-pasta adresi un būs touch drīz."
+    contact_request: "Contact Pieprasījums"
+    contact_thanks: "Paldies, ka sazinājāties ar mums. Mēs esam saņēmuši jūsu vēstuli un būs touch soon."
     user_greeting: "Hi {{user}},"
-    welcome_activity: "Laipni lūgti {{application_name}}."
+    welcome_activity: "Welcome to {{application_name}}."

@@ -1,32 +1,32 @@
 --- 
 et: 
   contact: 
-    contact_response_subject: "Täname kyselystäsi alates {{application_name}}!"
+    contact_response_subject: "Täname alates {{application_name}}!"
     contact_us: Kontakt
-    email: "Sinu e-post:"
-    email_help: "Palun anna meile oma e-posti aadress, et saaksime Sinuga ühendust, kui vaja."
+    email: "Teie e-post:"
+    email_help: "Palun anna meile oma e-maili, et saaksime teiega vajadusel."
     name: "Teie nimi:"
     name_help: "Palun anna meile oma nimi."
-    phone: "Teie telefoninumber:"
-    phone_help: "Teie telefoninumber on kohustuslik, kuid aitab meil teiega, kui vaja."
-    question: "Teie teade / küsimus:"
-    question_help: "Palun sinna märkusi soovite kuulata."
+    phone: "Telefoni number:"
+    phone_help: "Teie telefoninumber on vabatahtlik, kuid aitab meil teiega ühendust, kui vaja."
+    question: "Sõnum / küsimus:"
+    question_help: "Palun lisada märkusi soovid meie kuulata."
     subject: "Teema:"
-    subject_help: "Lihtne märge laadi tagasisidet."
+    subject_help: "Lihtne kinnitus selle kohta, iseloom tagasisidet."
   general: 
     delete_file: "Kustuta fail"
     send: Saatma
-    thank_you_contact: "Täname sõnum. Liikme meeskond vastab Teile kiiresti."
+    thank_you_contact: "Tänan Teid kirja eest. Liige meeskond vastab teile peagi."
   muck: 
     activity_templates: 
       welcome: "Tere tulemast"
     admin: 
       home: Kodu
       my_dashboard: "Minu Armatuurlaud"
-      permissions: Load
+      permissions: Õigused
       themes: Teemad
       users: Kasutajad
     contact_request: "Kontakt Hinnapäring"
-    contact_thanks: "Täname yhteydenotostasi. Saime Sinu e-posti ja võtab varsti."
+    contact_thanks: "Täname meiega ühendust. Me saime oma e-posti ja seda ühendust kohe."
     user_greeting: "Hi {{user}},"
     welcome_activity: "Tere tulemast {{application_name}}."

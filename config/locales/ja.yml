@@ -1,22 +1,22 @@
 --- 
 ja: 
   contact: 
-    contact_response_subject: "{{application_name}}!からお問い合わせいただき、ありがとうございます"
+    contact_response_subject: "{{application_name}}!からお問い合わせいただきありがとうございます"
     contact_us: お問い合わせ
     email: あなたのメールアドレス：
-    email_help: Eメールのために必要な場合は、ご連絡することができます私たちを提供します。
-    name: あなたの名前：
-    name_help: あなたのお名前をご提供しています。
-    phone: お使いの携帯電話番号：
-    phone_help: お客様の電話番号は任意ですが、必要に応じて私たちに連絡することができます。
+    email_help: あなたのEメールのように必要に応じてお客様に連絡することができます私たちを提供します。
+    name: あなたのお名前：
+    name_help: あなたのお名前をご提供します。
+    phone: あなたの電話番号：
+    phone_help: あなたの電話番号はオプションですが必要な場合へのご連絡に役立ちます。
     question: あなたのメッセージ/質問：
-    question_help: 聞いてくださいご希望の方は任意のコメントなどがあります。
+    question_help: してくださいあなたを聞いてご希望の方はコメントしています。
     subject: 題目：
-    subject_help: 簡単なご意見をお寄せ文の性質を示す。
+    subject_help: 単純なステートメントをあなたのフィードバックの性質を示す。
   general: 
-    delete_file: 削除ファイル
+    delete_file: ファイルの削除
     send: 送る
-    thank_you_contact: あなたのメッセージをいただき、ありがとうございます。我々のチームのメンバーがすぐに対応いたします。
+    thank_you_contact: あなたのメッセージをいただきありがとうございます。我々のチームのメンバーがすぐに対応いたします。
   muck: 
     activity_templates: 
       welcome: ようこそ
@@ -25,8 +25,8 @@ ja:
       my_dashboard: マイダッシュボード
       permissions: アクセス許可
       themes: テーマ
-      users: ユーザ
-    contact_request: お問い合わせリクエスト
-    contact_thanks: ご連絡いただきありがとうございます。また、お客様のメールを受信してすぐに連絡されます。
+      users: ユーザー
+    contact_request: お問い合わせ資料請求
+    contact_thanks: お問い合わせいただきありがとうございます。我々はあなたのメールを受信したタッチですぐにされます。
     user_greeting: "こんにちは{{user}},"
-    welcome_activity: "ようこそ{{application_name}}."
+    welcome_activity: "へようこそ{{application_name}}."

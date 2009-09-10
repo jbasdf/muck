@@ -1,22 +1,22 @@
 --- 
 tl: 
   contact: 
-    contact_response_subject: "Salamat sa iyong pagtatanong mula sa {{application_name}}!"
+    contact_response_subject: "Salamat para sa iyong mga tanong mula sa {{application_name}}!"
     contact_us: "Makipag-ugnay sa Amin"
     email: "Ang iyong email:"
-    email_help: "Mangyaring ibigay sa amin ang inyong email sa gayon ay maaari kaming makipag-ugnayan sa iyo kung kinakailangan."
+    email_help: "Mangyari lamang na ibigay sa amin ang inyong email upang maaari ugnayan kami sa iyo kung kinakailangan."
     name: "Ang iyong pangalan:"
     name_help: "Mangyari lamang na magbigay sa amin ng iyong pangalan."
     phone: "Ang iyong numero ng telepono:"
     phone_help: "Ang iyong numero ng telepono ay opsyonal ngunit ito ay makakatulong sa amin na makipag-ugnayan sa iyo kung kinakailangan."
     question: "Ang iyong mensahe / katanungan:"
-    question_help: "Mangyaring isama ang anumang mga puna na nais mo sa amin na marinig."
+    question_help: "Mangyaring isama ang anumang mga puna na nais mong sa amin upang marinig."
     subject: "Paksa:"
-    subject_help: "Ang isang simpleng pahayag na nagpapahiwatig ng uri ng iyong feedback."
+    subject_help: "Ang isang simpleng pahayag na nagpapahiwatig na ang uri ng iyong puna."
   general: 
     delete_file: "Tanggalin File"
     send: Ipadala
-    thank_you_contact: "Salamat sa iyo para sa iyong mensahe. Ang isang miyembro ng aming team ay tumugon sa inyo maya-maya lamang."
+    thank_you_contact: "Salamat sa iyong mensahe. Ang isang miyembro ng aming pangkat ay tumugon sa iyo sa ilang sandali."
   muck: 
     activity_templates: 
       welcome: "Maligayang pagdating"
@@ -25,8 +25,8 @@ tl:
       my_dashboard: "Aking Dashboard"
       permissions: Pahintulot
       themes: "Mga tema"
-      users: Gumagamit
+      users: "Ang mga gumagamit"
     contact_request: "Makipag-ugnayan sa Kahilingan"
-    contact_thanks: "Salamat sa makipag-ugnayan sa amin. Natanggap namin ang iyong email at ang magiging in touch sa lalong madaling panahon."
+    contact_thanks: "Salamat sa pakikipag-ugnayan sa amin. Natanggap namin ang iyong email at ay nakakaugnay sa lalong madaling panahon."
     user_greeting: "Hi {{user}},"
     welcome_activity: "Maligayang pagdating sa {{application_name}}."

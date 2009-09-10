@@ -1,32 +1,32 @@
 --- 
 gl: 
   contact: 
-    contact_response_subject: "Grazas pola súa consulta de {{application_name}}!"
-    contact_us: "Fale connosco"
+    contact_response_subject: "Grazas polo seu interese en {{application_name}}!"
+    contact_us: "Contacte connosco"
     email: "O seu e-mail:"
-    email_help: "Forneza connosco seu correo electrónico para que poidamos contacto-lo se é necesario."
+    email_help: "Por favor, nos proporcionar o seu correo electrónico para que poidamos en contacto con vostede se fose necesario."
     name: "O seu nome:"
-    name_help: "Forneza-nos o seu nome."
-    phone: "Seu número de teléfono:"
-    phone_help: "Seu número de teléfono é opcional, pero vai axudarnos a contacto-lo se é necesario."
+    name_help: "Por favor nos fornecer o seu nome."
+    phone: "O seu número de teléfono:"
+    phone_help: "O seu número de teléfono é opcional, pero pode axudar-nos en contacto con vostede se fose necesario."
     question: "A súa mensaxe / pregunta:"
-    question_help: "Favor incluir os comentarios que lle gustaría escoitar connosco."
+    question_help: "Por favor, incluír os comentarios que desexa nos escoitar."
     subject: "Asunto:"
-    subject_help: "Unha simple declaración indicando a natureza do seu feedback."
+    subject_help: "Unha simple declaración indicando a natureza do seu producto."
   general: 
     delete_file: "Borrar Arquivo"
     send: Enviar
-    thank_you_contact: "Grazas pola súa mensaxe. Un membro da nosa equipa debería responder en breve."
+    thank_you_contact: "Grazas pola túa mensaxe. Un membro do noso equipo debería responder en breve."
   muck: 
     activity_templates: 
       welcome: Benvido
     admin: 
-      home: Fogar
-      my_dashboard: "Meu panel"
+      home: Inicio
+      my_dashboard: "My Dashboard"
       permissions: Permisos
       themes: Temas
       users: Usuarios
-    contact_request: "Proposta de Contacto"
-    contact_thanks: "Grazas por nos contacto. Recibimos o seu correo e será en contacto en breve."
+    contact_request: "Solicitude de Contacto"
+    contact_thanks: "Grazas por contacto. Recibimos seu e-mail e Porémonos en contacto en breve."
     user_greeting: "Ola {{user}},"
-    welcome_activity: "Benvido a {{application_name}}."
+    welcome_activity: "Benvido ao {{application_name}}."
