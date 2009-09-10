@@ -20,7 +20,9 @@ namespace :muck do
   end
   
   def muck_gem_paths
-    muck_gems.collect{|name| name.sub('-', '_')}
+    gems = muck_gems.delete_if { |x| x == 'muck-solr' }
+    gems << 'acts_as_solr'
+    gems.collect{|name| name.sub('-', '_')}
   end
   
   desc "unpacks all muck gems into vendor/gems using versions installed on the local machine."
