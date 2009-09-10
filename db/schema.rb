@@ -262,8 +262,8 @@ ActiveRecord::Schema.define(:version => 20090827221502) do
     t.text     "top_tags"
     t.integer  "priority",                                   :default => 10
     t.integer  "status",                                     :default => 1
-    t.datetime "last_requested_at"
-    t.datetime "last_harvested_at"
+    t.datetime "last_requested_at",                          :default => '1969-01-01 00:00:00'
+    t.datetime "last_harvested_at",                          :default => '1969-01-01 00:00:00'
     t.integer  "harvest_interval",                           :default => 86400
     t.integer  "failed_requests",                            :default => 0
     t.text     "error_message"

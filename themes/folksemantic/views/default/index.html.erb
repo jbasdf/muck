@@ -28,9 +28,9 @@
 			#home-right-panel{float:left;position:relative;left:220px;top:300px;width:400px;}
 			#home-comments{clear:both;float:left;position:relative;left:120px;top:335px;width:260px;}
 			#home-get-widgets{float:left;position:relative;left:220px;top:335px;width:400px;}
-			#search-button{margin-left:8px;color:#FFF;font-size:14px;font-weight:bold;background-color:#66AF24;height:34px;border:3px solid #DDD;}
-			#signup-link{margin-top:14px;font-size:22px;font-weight:bold;}
-			#signup-link a{text-decoration:none;}
+			#search-button{padding:3px 8px 5px;margin-left:8px;color:#FFF;font-size:14px;font-weight:bold;background-color:#66AF24;height:34px;border:3px solid #DDD;}
+			#signup-link{margin:14px 20px 0px 0px;font-size:22px;text-align:right;}
+			#signup-link a{text-decoration:none;font-weight:bold;}
 			#signup-link a:hover{text-decoration:underline;}
 			#widgets-link{margin-top:10px;margin-left:40px;}
 			#widgets-link a{text-decoration:none;color:white;}
@@ -38,7 +38,7 @@
 			#footer{line-height:30px;}
             #home-footer{text-align:center;clear:both;top:460px;position:relative;}
 			#home-footer a{color:#838383;}
-			#get-widgets{background-color:#297FAA;padding:6px 10px;vertical-align:middle;}
+			#get-widgets{background-color:#297FAA;vertical-align:middle;display:block;width:310px;}
 		</style>
     </head>
     <body>
@@ -54,6 +54,7 @@
                 <%= t('folksemantic.home.signup') %> 
                 <img src="/images/folksemantic/btn-blue-arrow.gif" style="vertical-align:top;margin-left:4px;"/>
                 </a>
+              <br/><%= link_to t('muck.users.sign_in'), '/signin', {:class => 'folk-gray fs0', :style => 'font-weight:normal;'} %>
             </div>
         </div>
 
@@ -78,7 +79,7 @@
         <div id="home-get-widgets">
             <div class="folk-gray fs1"><%= t('folksemantic.home.widgets_pitch') %></div>
             <div id="widgets-link">
-                <a href="/widgets"><img src="/images/folksemantic/btn-blue-arrow2.gif" style="vertical-align:middle;"/><span class="fs1" id="get-widgets"><%= t('folksemantic.home.get_widgets') %></span></a>
+                <a href="/widgets"><span class="fs1" id="get-widgets"><img src="/images/folksemantic/btn-blue-arrow2.gif" style="vertical-align:middle;padding-right:10px"/><%= t('folksemantic.home.get_widgets') %></span></a>
             </div>
         </div>
 
