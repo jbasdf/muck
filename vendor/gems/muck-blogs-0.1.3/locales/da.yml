@@ -1,7 +1,0 @@
---- 
-da: 
-  muck: 
-    blogs: 
-      add_post: "Tilføj Post"
-      add_post_link: "Tilføj Post"
-      blog_title: "Blog for {{title}}"

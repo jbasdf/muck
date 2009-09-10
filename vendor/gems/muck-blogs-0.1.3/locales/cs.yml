@@ -1,7 +1,0 @@
---- 
-cs: 
-  muck: 
-    blogs: 
-      add_post: "Přidat příspěvek"
-      add_post_link: "Přidat příspěvek"
-      blog_title: "Blog pro {{title}}"

@@ -1,7 +1,0 @@
---- 
-sr: 
-  muck: 
-    blogs: 
-      add_post: "Адд Пост"
-      add_post_link: "Адд Пост"
-      blog_title: "Блог за {{title}}"

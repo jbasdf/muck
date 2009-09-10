@@ -1,7 +1,0 @@
---- 
-ko: 
-  muck: 
-    blogs: 
-      add_post: "추가 포스트"
-      add_post_link: "추가 포스트"
-      blog_title: "블로그에 대한 {{title}}"

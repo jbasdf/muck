@@ -1,7 +1,0 @@
---- 
-fr: 
-  muck: 
-    blogs: 
-      add_post: "Ajouter Post"
-      add_post_link: "Ajouter Post"
-      blog_title: "Blog pour {{title}}"

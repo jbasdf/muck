@@ -1,7 +1,0 @@
-<% if !activities.blank? -%>
-  <% activities.each do |activity| -%>
-    <% cache ("activities/#{I18n.locale}/#{limited}/#{activity.cache_key}") do -%>
-      <%= render( :partial => "activity_templates/#{activity.partial}", :locals => {:activity => activity, :limited => limited}) %>
-    <% end -%>
-  <% end -%>
-<% end -%>

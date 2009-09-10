@@ -1,7 +1,0 @@
---- 
-iw: 
-  muck: 
-    blogs: 
-      add_post: "הוסף הודעה"
-      add_post_link: "הוסף הודעה"
-      blog_title: "הבלוג {{title}}"

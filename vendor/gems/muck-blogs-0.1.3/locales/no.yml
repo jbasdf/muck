@@ -1,8 +1,0 @@
---- 
-? "no"
-: 
-  muck: 
-    blogs: 
-      add_post: "Legg Post"
-      add_post_link: "Legg Post"
-      blog_title: "Blogg for {{title}}"

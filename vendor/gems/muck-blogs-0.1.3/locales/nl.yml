@@ -1,7 +1,0 @@
---- 
-nl: 
-  muck: 
-    blogs: 
-      add_post: "Toevoegen Post"
-      add_post_link: "Toevoegen Post"
-      blog_title: "Blog voor {{title}}"

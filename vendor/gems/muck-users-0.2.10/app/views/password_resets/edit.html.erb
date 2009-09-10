@@ -1,9 +1,0 @@
-<div id="reset-password-confirm" class="common-form">
-  <h1><%= t('muck.users.select_new_password') %></h1>
-  <%= output_errors(t('muck.users.select_new_password'), {:class => 'help-box'}) %>
-  <% custom_form_for @user, :url => password_reset_path, :html => {:method => :put} do |f| -%>
-    <%= f.text_field :password, { :label => t('muck.users.password'), :hide_required => true } -%>
-    <%= f.text_field :password_confirmation, { :label => t('muck.users.confirm_password'), :hide_required => true } -%>
-    <%= submit_tag t('muck.users.confirm_select_new_password') %>
-  <% end -%>
-</div>

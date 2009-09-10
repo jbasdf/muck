@@ -1,7 +1,0 @@
---- 
-id: 
-  muck: 
-    blogs: 
-      add_post: "Tambahkan Post"
-      add_post_link: "Tambahkan Post"
-      blog_title: "Blog untuk {{title}}"

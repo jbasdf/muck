@@ -1,8 +1,0 @@
-<%= render :partial => 'admin/users/user_navigation' -%>
-<div>
-  <h2><%= t('muck.users.admin.unactivated_users', :count => @user_inactive_count) %> 
-		<span class="link-button"><%= link_to t('muck.users.admin.activate_all_inactive_users'), activate_all_admin_users_path, :confirm => t('muck.users.admin.activate_all_inactive_users_confirm') %></span>
-		<span class="link-button"><%= link_to t('muck.users.admin.show_emails'), inactive_emails_admin_users_path %></span>
-	</h2>
-	<%= render :partial => 'admin/users/table' -%>
-</div>
