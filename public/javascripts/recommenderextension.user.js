@@ -273,7 +273,7 @@ GM_xmlhttpRequest(
             var sListEnd = '</ul>';
 			var sDocID = root.getAttribute("document_id");
 			var sMorePrompt = root.getAttribute("more_prompt");
-            var sMoreLink = '<div class="recommender_more_link" style="margin: 3px; padding: 0px;" align="center"><a href="' + sShowDocUrl + sDocID + '" style="color:#3987DC !important; text-decoration:none !important; ">' + sMorePrompt + '</a></div>';
+            var sMoreLink = sDocID == '' ? '' : '<div class="recommender_more_link" style="margin: 3px; padding: 0px;" align="center"><a href="' + sShowDocUrl + sDocID + '" style="color:#3987DC !important; text-decoration:none !important; ">' + sMorePrompt + '</a></div>';
             var sRecList = bSpecialSite == true ? '' : sListStart;
             for (var i = 0; i < recommendations.length; i++) 
             {
