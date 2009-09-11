@@ -80,4 +80,65 @@ fancybox - http://fancy.klade.lv/home
 easing - http://gsgd.co.uk/sandbox/jquery/easing/
 fancyzoom - http://orderedlist.com/articles/fancyzoom-meet-jquery
 
-Copyright (c) 2009 Justin Ball, released under the MIT license
+
+== Rake tasks
+The muck engine comes with an abundance of rake tasks mostly meant for development of muck engines.  If you want to use these tasks
+be sure that you first do a sudo install muck-engine.  Next define the muck gems you are using in a file RAILS_ROOT/lib/tasks/muck.rake.
+Here's an example taken from the muck project:
+
+  require 'rake'
+  begin
+    require 'git'
+  rescue LoadError
+    puts "git gem not installed.  If git functionality is required run 'sudo gem install git'"
+  end
+  require 'fileutils'
+
+  namespace :muck do
+  
+    def muck_gems
+      ['cms-lite', 'disguise', 'uploader', 'muck-solr', 'muck-raker', 'muck-engine',
+      'muck-users', 'muck-activities', 'muck-comments', 'muck-profiles', 'muck-friends',
+      'muck-contents', 'muck-blogs', 'muck-shares'] #'muck-invites'
+    end
+  
+    desc 'Translate muck and all themes from English into all languages supported by Google'
+    task :translate => :environment do
+      puts 'translating muck'
+      system("babelphish -o -y #{RAILS_ROOT}/config/locales/en.yml")
+      theme_path = File.join(RAILS_ROOT, 'themes')
+      Dir.glob("#{theme_path}/*").each do |next_file|
+        if File.directory?(next_file)
+          file = File.join(next_file, 'locales', 'en.yml')
+          system("babelphish -o -y #{file}")
+        end
+      end
+    end
+
+    desc "Translate all muck related projects and gems"
+    task :translate_all do
+      Rake::Task[ "muck:translate" ].execute
+      Rake::Task[ "muck:translate_gems" ].execute
+      puts 'finished translations'
+    end
+  
+    desc "Gets everything ready for a release. Translates muck + gems, release gems, commits gems translates muck, writes versions into muck and then commits muck.  This takes a while"
+    task :prepare_release do
+      # Rake::Task[ "muck:commit_gems" ].execute
+      # Rake::Task[ "muck:pull_gems" ].execute
+      Rake::Task[ "muck:translate_all" ].execute
+      Rake::Task[ "muck:release_gems" ].execute
+      Rake::Task[ "muck:commit_gems" ].execute
+      Rake::Task[ "muck:push_gems" ].execute
+      Rake::Task[ "muck:versions" ].execute
+      # Commit and push muck
+      git_commit("#{projects_path}/muck", "Updated gem versions")
+      git_pull("#{projects_path}/muck")
+      git_push("#{projects_path}/muck")
+      puts "Don't forget to install the new gems on the server"
+    end
+
+  end
+  
+
+Copyright (c) 2009 Tatemai, released under the MIT license

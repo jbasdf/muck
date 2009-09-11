@@ -2,9 +2,20 @@ require 'rake'
 require 'rake/tasklib'
 require 'fileutils'
 require 'jcode'
+begin
+  require 'git'
+rescue LoadError
+  puts "git gem not installed.  If git functionality for muck rake tasks is required run 'sudo gem install git'"
+end
 
 class MuckEngine
   class Tasks < ::Rake::TaskLib
+    
+    GREEN = "\033[0;32m"
+    RED = "\033[0;31m"
+    BLUE = "\033[0;34m"
+    INVERT = "\033[00m"
+    
     def initialize
       define
     end
@@ -13,6 +24,278 @@ class MuckEngine
     def define
       
       namespace :muck do
+        
+        def muck_gem_paths
+          muck_gems.collect{|name| muck_gem_path(name)}
+        end
+
+        def muck_gem_path(gem_name)
+          if gem_name == 'muck-solr'
+            'acts_as_solr'
+          else
+            gem_name.sub('-', '_')
+          end
+        end
+
+        def muck_unpack(gem_name)
+          system("gem unpack #{gem_name} --target=#{muck_gems_path}")
+        end
+
+        def muck_write_specs
+          Dir.glob("#{muck_gems_path}/*").each do |dir|
+            if File.directory?(dir)
+              muck_gem = muck_gems.detect{|muck_gem| dir.include?(muck_gem)}
+              if muck_gem
+                inside dir do
+                  system("gem specification #{muck_gem} > .specification")
+                end
+              end
+            end
+          end 
+        end
+
+        def ensure_muck_gems_path
+          gem_path = muck_gems_path
+          FileUtils.mkdir_p(gem_path) unless File.exists?(gem_path)
+        end
+
+        def muck_gems_path
+          #File.join(File.dirname(__FILE__), '..', '..', 'vendor', 'gems')
+          File.join(RAILS_ROOT, 'vendor', 'gems')
+        end
+
+        # Path to all other projects.  Usually the muck engines will be a sibling to muck
+        def projects_path
+          File.join(RAILS_ROOT, '..')
+        end
+        
+        def release_gem(path, gem_name)
+          gem_path = File.join(path, gem_name)
+          puts "releasing #{gem_name}"
+          inside gem_path do
+            if File.exists?('pkg/*')
+              puts "attempting to delete files from pkg.  Results #{system("rm pkg/*")}"
+            end
+            puts system("rake version:bump:patch")
+            system("rake gemspec")
+            puts system("rake rubyforge:release")
+          end
+          write_new_gem_version(path, gem_name)
+        end
+
+        def write_new_gem_version(path, gem_name)
+          gem_path = File.join(path, gem_name)
+          env_file = File.join(RAILS_ROOT, 'config', 'environment.rb')
+          version = IO.read(File.join(gem_path, 'VERSION')).strip
+          environment = IO.read(env_file)
+          search = Regexp.new('\:lib\s+=>\s+\'' + gem_name + '\',\s+\:version\s+=>\s+[\'\"][ <>=~]*\d+\.\d+\.\d+[\'\"]')
+          if environment.gsub!(search, ":lib => '#{gem_name}', :version => '>=#{version}'").nil?
+            search = Regexp.new('config.gem\s+\'' + gem_name + '\',\s+\:version\s+=>\s+[\'\"][ <>=~]*\d+\.\d+\.\d+[\'\"]')
+            environment.gsub!(search, "config.gem '#{gem_name}', :version => '>=#{version}'")
+          end
+
+          File.open(env_file, 'w') { |f| f.write(environment) }
+        end
+
+        def git_commit(path, message)
+          puts "Commiting #{BLUE}#{File.basename(path)}#{INVERT}"
+          repo = Git.open("#{path}")
+          puts repo.add('.')
+          puts repo.commit(message) rescue 'nothing to commit'
+        end
+
+        def git_push(path)
+          puts "Pushing #{BLUE}#{File.basename(path)}#{INVERT}"
+          repo = Git.open("#{path}")
+          puts repo.push
+        end
+
+        def git_pull(path)
+          puts "Pulling code for #{BLUE}#{File.basename(path)}#{INVERT}"
+          repo = Git.open("#{path}")
+          puts repo.pull
+        end
+
+        def git_status(path)
+          repo = Git.open("#{path}")
+          status = repo.status
+
+          changed = (status.changed.length > 0 ? RED : GREEN) + "#{status.changed.length}#{INVERT}"
+          untracked = (status.untracked.length > 0 ? RED : GREEN) + "#{status.untracked.length}#{INVERT}"
+          added = (status.added.length > 0 ? RED : GREEN) + "#{status.added.length}#{INVERT}"
+          deleted = (status.deleted.length > 0 ? RED : GREEN) + "#{status.deleted.length}#{INVERT}"
+          puts "#{BLUE}#{File.basename(path)}:#{INVERT}  Changed(#{changed}) Untracked(#{untracked}) Added(#{added}) Deleted(#{deleted})"
+          if status.changed.length > 0
+            status.changed.each do |file|
+              puts "    Changed: #{RED}#{file[1].path}#{INVERT}"
+            end
+          end
+          # if status.untracked.length > 0
+          #   status.untracked.each do |file|
+          #     puts "    Untracked: #{RED}#{file[1].path}#{INVERT}"
+          #   end
+          # end
+          # if status.added.length > 0
+          #   status.added.each do |file|
+          #     puts "    Added: #{RED}#{file[1].path}#{INVERT}"
+          #   end
+          # end
+          if status.deleted.length > 0
+            status.deleted.each do |file|
+              puts "    Deleted: #{RED}#{file[1].path}#{INVERT}"
+            end
+          end
+          puts ""
+        end
+
+        # execute commands in a different directory
+        def inside(dir, &block)
+          FileUtils.cd(dir) { block.arity == 1 ? yield(dir) : yield }
+        end
+        
+        desc "Release and commit muck gems"
+        task :release_commit_gems do
+          muck_gem_paths.each do |gem_name|
+            message = "Released new gem"
+            release_gem("#{projects_path}", gem_name)
+            git_commit("#{projects_path}/#{gem_name}", message)
+            git_push("#{projects_path}/#{gem_name}")
+          end
+        end
+
+        desc "Release muck gems"
+        task :release_gems do
+          muck_gem_paths.each do |gem_name|
+            release_gem("#{projects_path}", gem_name)
+          end
+        end
+
+        desc "commit gems after a release"
+        task :commit_gems do
+          message = "Released new gem"
+          muck_gem_paths.each do |gem_name|
+            git_commit("#{projects_path}/#{gem_name}", message)
+          end
+        end
+
+        desc "Pull code for all the gems (use with caution)"
+        task :pull_gems do
+          muck_gem_paths.each do |gem_name|
+            git_pull("#{projects_path}/#{gem_name}")
+          end
+        end
+
+        desc "Push code for all the gems (use with caution)"
+        task :push_gems do
+          muck_gem_paths.each do |gem_name|
+            git_push("#{projects_path}/#{gem_name}")
+          end
+        end
+
+        desc "Gets status for all the muck gems"
+        task :status_gems do
+          muck_gem_paths.each do |gem_name|
+            git_status("#{projects_path}/#{gem_name}")
+          end
+        end
+        
+        desc "Write muck gem versions into muck"
+        task :versions do
+          muck_gem_paths.each do |gem_name|
+            write_new_gem_version("#{projects_path}", gem_name)
+          end
+        end
+        
+        desc "Translate all muck gems"
+        task :translate_gems do
+          muck_gem_paths.each do |gem_name|
+            puts "translating #{gem_name}"
+            system("babelphish -o -y #{projects_path}/#{gem_name}/locales/en.yml")
+          end
+        end
+        
+        desc "write specs into muck gems"
+        task :specs do
+          muck_write_specs
+        end
+
+        desc "Unpacks all muck gems into vendor/gems using versions installed on the local machine."
+        task :unpack do
+          ensure_muck_gems_path
+          muck_gems.each do |gem_name|
+            muck_unpack(gem_name)
+          end
+          muck_write_specs
+        end
+
+        desc "Install and unpacks all muck gems into vendor/gems."
+        task :unpack_install => :install_gems do
+          ensure_muck_gems_path
+          muck_gems.each do |gem_name|
+            muck_unpack(gem_name)
+          end
+          muck_write_specs
+        end
+        
+        task :install_gems do
+          muck_gems.each do |gem_name|
+            system("sudo gem install #{gem_name}")
+          end
+        end
+
+        task :setup do
+          Rake::Task[ "cms_lite:setup" ].execute if muck_gems.include?('cms-lite')
+          Rake::Task[ "disguise:setup" ].execute if muck_gems.include?('disguise')
+        end
+
+        task :sync do
+          puts 'syncronizing engines and gems'
+          muck_gems.each do |gem_name|
+            begin
+              Rake::Task[ "#{gem_name}:sync" ].execute
+            rescue
+              puts "not sync task for #{gem_name}"
+            end
+          end
+        end
+
+        desc "Completely reset and repopulate the database and annotate models. THIS WILL DELETE ALL YOUR DATA"
+        task :reset do
+          Rake::Task[ "muck:sync" ].execute
+          Rake::Task[ "muck:reset_db" ].execute
+        end
+
+        desc "Drop, creates, migrations and populates the database"
+        task :reset_db => :environment do
+
+          puts 'droping databases'
+          Rake::Task[ "db:drop" ].execute
+
+          puts 'creating databases'
+          Rake::Task[ "db:create" ].execute
+
+          puts 'migrating'
+          Rake::Task[ "db:migrate" ].execute
+
+          Rake::Task[ "db:setup_db" ].execute
+        end
+
+        desc "populates the database with all required values"
+        task :setup_db => :environment do
+          puts 'populating db with locale info'
+          Rake::Task[ "muck:db:populate" ].execute
+
+          puts 'flagging the languages muck raker supports and adding services it supports'
+          Rake::Task[ "muck:raker:db:populate" ].execute
+
+          puts 'adding some oai endpoints and feeds to the db'
+          Rake::Task[ "muck:raker:db:bootstrap" ].execute
+
+          puts 'setting up admin account'
+          Rake::Task[ "muck:users:create_admin" ].execute
+        end
+        
+        
         namespace :engine do
           desc "Sync files from muck engine."
           task :sync do
