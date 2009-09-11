@@ -242,7 +242,7 @@
     -->
   <requestDispatcher handleSelect="true" >
     <!--Make sure your system has some authentication before enabling remote streaming!  -->
-    <requestParsers enableRemoteStreaming="false" multipartUploadLimitInKB="2048" />
+    <requestParsers enableRemoteStreaming="true" multipartUploadLimitInKB="2048" />
   </requestDispatcher>
   
       
@@ -265,6 +265,13 @@
      </lst>
   </requestHandler>
 
+  <requestHandler name="mlt" class="solr.MoreLikeThisHandler">
+    <lst name="defaults">
+      <str name="mlt.fl">text</str>
+      <int name="mlt.mindf">1</int>
+    </lst>
+  </requestHandler>
+
   <!-- Note how you can register the same handler multiple times with
        different names (and different init parameters)
     -->
@@ -275,8 +282,8 @@
        The response format differs from solr1.1 formatting and returns a standard error code.
        
        To enable solr1.1 behavior, remove the /update handler or change its path
-  <requestHandler name="/update" class="solr.XmlUpdateRequestHandler" />
     -->
+  <requestHandler name="/update" class="solr.XmlUpdateRequestHandler" />
 
   <!-- queryResponseWriter plugins... query responses will be written using the
     writer specified by the 'wt' request parameter matching the name of a registered
