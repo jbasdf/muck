@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-engine}
-  s.version = "0.1.31"
+  s.version = "0.1.32"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
@@ -376,6 +376,9 @@ Gem::Specification.new do |s|
      "test/rails_root/config/routes.rb",
      "test/rails_root/db/.keep",
      "test/rails_root/db/migrate/20090320174818_create_muck_permissions_and_roles.rb",
+     "test/rails_root/db/migrate/20090402234137_create_languages.rb",
+     "test/rails_root/db/migrate/20090426041056_create_countries.rb",
+     "test/rails_root/db/migrate/20090426041103_create_states.rb",
      "test/rails_root/db/migrate/20090602041838_create_users.rb",
      "test/rails_root/features/step_definitions/webrat_steps.rb",
      "test/rails_root/features/support/env.rb",
@@ -549,6 +552,7 @@ Gem::Specification.new do |s|
      "test/rails_root/test/test_helper.rb",
      "test/rails_root/test/unit/.keep",
      "test/rails_root/test/unit/basic_mailer_test.rb",
+     "test/rails_root/test/unit/muck_engine_helper_test.rb",
      "test/rails_root/vendor/plugins/ssl_requirement/README",
      "test/rails_root/vendor/plugins/ssl_requirement/lib/ssl_requirement.rb",
      "test/rails_root/vendor/plugins/ssl_requirement/test/ssl_requirement_test.rb",
@@ -585,6 +589,9 @@ Gem::Specification.new do |s|
      "test/rails_root/config/initializers/session_store.rb",
      "test/rails_root/config/routes.rb",
      "test/rails_root/db/migrate/20090320174818_create_muck_permissions_and_roles.rb",
+     "test/rails_root/db/migrate/20090402234137_create_languages.rb",
+     "test/rails_root/db/migrate/20090426041056_create_countries.rb",
+     "test/rails_root/db/migrate/20090426041103_create_states.rb",
      "test/rails_root/db/migrate/20090602041838_create_users.rb",
      "test/rails_root/features/step_definitions/webrat_steps.rb",
      "test/rails_root/features/support/env.rb",
@@ -600,6 +607,7 @@ Gem::Specification.new do |s|
      "test/rails_root/test/shoulda_macros/plugins.rb",
      "test/rails_root/test/test_helper.rb",
      "test/rails_root/test/unit/basic_mailer_test.rb",
+     "test/rails_root/test/unit/muck_engine_helper_test.rb",
      "test/rails_root/vendor/plugins/ssl_requirement/lib/ssl_requirement.rb",
      "test/rails_root/vendor/plugins/ssl_requirement/test/ssl_requirement_test.rb",
      "test/rails_root/vendor/plugins/validation_reflection/init.rb",

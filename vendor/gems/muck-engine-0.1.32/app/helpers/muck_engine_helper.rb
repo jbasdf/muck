@@ -80,16 +80,24 @@ module MuckEngineHelper
   end
   
   def locale_link(name, locale)
-    link_to name, request.protocol + locale + '.' + request.domain + request.request_uri
-    #link_to name, request.url.gsub(request.protocol, "#{request.protocol}#{locale}.")
-    #link_to name, request.url.sub(request.protocol, "#{request.protocol}#{locale}.").sub('www.','')
-    protocol = request.protocol
-    if request.domain.count('.') == 1
-      new_domain = request.url.sub(protocol, "#{protocol}#{locale}.")
+    parts = request.host.split('.')
+    first_subdomain = parts.first
+    request_uri = request.request_uri
+    if first_subdomain == 'www' or Language.supported_locale?(first_subdomain)
+      link_to name, request.protocol + (locale == I18n.default_locale.to_s ? 'www' : locale) + '.' + parts[1..-1].join('.') + request.port_string + request_uri
+    elsif /^localhost/.match( request.host ) or /^(\d{1,3}\.){3}\d{1,3}$/.match( request.host )
+      if request_uri.include?('?')
+        if request_uri.include?('locale')
+          link_to name, request.protocol + request.host_with_port + request_uri.sub(/locale=.*/, 'locale=' + locale)
+        else
+          link_to name, request.protocol + request.host_with_port + request_uri + '&locale=' + locale
+        end
+      else
+        link_to name, request.protocol + request.host_with_port + request_uri + '?locale=' + locale
+      end  
     else
-      new_domain = request.url.sub(Regexp.new(protocol + "[^\.]+."), "#{protocol}#{locale}.")
+      link_to name, request.protocol + (locale == I18n.default_locale.to_s ? 'www' : locale) + '.' + request.host_with_port + request_uri
     end
-    link_to name, new_domain
   end
 
   # Generate parameters for a url that refer to a given object as parent.  Useful

@@ -20,33 +20,65 @@ namespace :muck do
   end
   
   def muck_gem_paths
-    gems = muck_gems.delete_if { |x| x == 'muck-solr' }
-    gems << 'acts_as_solr'
-    gems.collect{|name| name.sub('-', '_')}
+    gems.collect{|name| muck_gem_path(name)}
+  end
+  
+  def muck_gem_path(gem_name)
+    if gem_name == 'muck-solr'
+      'acts_as_solr'
+    else
+      gem_name.sub('-', '_')
+    end
+  end
+  
+  def muck_unpack(gem_name)
+    system("gem unpack #{gem_name} --target=#{muck_gems_path}")
+  end
+  
+  def muck_write_specs
+    Dir.glob("#{muck_gems_path}/*").each do |dir|
+      if File.directory?(dir)
+        muck_gem = muck_gems.detect{|muck_gem| dir.include?(muck_gem)}
+        if muck_gem
+          inside dir do
+            system("gem specification #{muck_gem} > .specification")
+          end
+        end
+      end
+    end 
+  end
+  
+  def ensure_muck_gems_path
+    gem_path = muck_gems_path
+    FileUtils.mkdir_p(gem_path) unless File.exists?(gem_path)
+  end
+  
+  def muck_gems_path
+    #File.join(File.dirname(__FILE__), '..', '..', 'vendor', 'gems')
+    File.join(RAILS_ROOT, 'vendor', 'gems')
+  end
+  
+  desc "write specs into muck gems"
+  task :specs do
+    muck_write_specs
   end
   
   desc "unpacks all muck gems into vendor/gems using versions installed on the local machine."
   task :unpack do
-    gem_path = File.join(File.dirname(__FILE__), '..', '..', 'vendor', 'gems')
-    FileUtils.mkdir_p(gem_path) unless File.exists?(gem_path)
-    inside gem_path do
-      muck_gems.each do |gem_name|
-        system("gem unpack #{gem_name}")
-        system("gem specification #{gem_name} > .specification")
-      end
+    ensure_muck_gems_path
+    muck_gems.each do |gem_name|
+      muck_unpack(gem_name)
     end
+    muck_write_specs
   end
     
   desc "Install and unpacks all muck gems into vendor/gems."
   task :unpack_install => :install_gems do
-    gem_path = File.join(File.dirname(__FILE__), '..', '..', 'vendor', 'gems')
-    FileUtils.mkdir_p(gem_path) unless File.exists?(gem_path)
-    inside gem_path do
-      muck_gems.each do |gem_name|
-        system("gem unpack #{gem_name}")
-        system("gem specification #{gem_name} > .specification")
-      end
+    ensure_muck_gems_path
+    muck_gems.each do |gem_name|
+      muck_unpack(gem_name)
     end
+    muck_write_specs
   end
   
   desc 'Translate muck and all themes from English into all languages supported by Google'

@@ -5,6 +5,7 @@ require 'test_help'
 gem 'thoughtbot-factory_girl' # from github
 require 'factory_girl'
 require 'mocha'
+require 'ruby-debug'
 require 'redgreen' rescue LoadError
 require File.expand_path(File.dirname(__FILE__) + '/factories')
 require File.join(File.dirname(__FILE__), 'shoulda_macros', 'controller')
