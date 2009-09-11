@@ -20,7 +20,7 @@ namespace :muck do
   end
   
   def muck_gem_paths
-    gems.collect{|name| muck_gem_path(name)}
+    muck_gems.collect{|name| muck_gem_path(name)}
   end
   
   def muck_gem_path(gem_name)
@@ -56,6 +56,11 @@ namespace :muck do
   def muck_gems_path
     #File.join(File.dirname(__FILE__), '..', '..', 'vendor', 'gems')
     File.join(RAILS_ROOT, 'vendor', 'gems')
+  end
+  
+  # Path to all other projects.  Usually the muck engines will be a sibling to muck
+  def projects_path
+    File.join(File.dirname(__FILE__), '..', '..',  '..')
   end
   
   desc "write specs into muck gems"
@@ -199,8 +204,6 @@ namespace :muck do
   
   desc "Translate all muck related projects and gems"
   task :translate_all do
-    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-
     puts 'translating muck'
     system("babelphish -o -y #{projects_path}/muck/config/locales/en.yml")
 
@@ -222,41 +225,46 @@ namespace :muck do
     Rake::Task[ "muck:push_gems" ].execute
     Rake::Task[ "muck:versions" ].execute
     # Commit and push muck
-    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     git_commit("#{projects_path}/muck", "Updated gem versions")
     git_pull("#{projects_path}/muck")
     git_push("#{projects_path}/muck")
     puts "Don't forget to install the new gems on the server"
   end
-  
-  desc "Release muck gems"
-  task :release_gems do
-    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    muck_gem_paths.each do |gem_name|
-      release_gem("#{projects_path}", gem_name)
-    end
-  end
 
   desc "Write muck gem versions into muck"
   task :versions do
-    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     muck_gem_paths.each do |gem_name|
       write_new_gem_version("#{projects_path}", gem_name)
+    end
+  end
+  
+  desc "Release and commit muck gems"
+  task :release_commit_gems do
+    muck_gem_paths.each do |gem_name|
+      message = "Released new gem"
+      release_gem("#{projects_path}", gem_name)
+      git_commit("#{projects_path}/#{gem_name}", message)
+      git_push("#{projects_path}/#{gem_name}")
+    end
+  end
+    
+  desc "Release muck gems"
+  task :release_gems do
+    muck_gem_paths.each do |gem_name|
+      release_gem("#{projects_path}", gem_name)
     end
   end
     
   desc "commit gems after a release"
   task :commit_gems do
     message = "Released new gem"
-    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     muck_gem_paths.each do |gem_name|
-      write_new_gem_version("#{projects_path}/#{gem_name}", message)
+      git_commit("#{projects_path}/#{gem_name}", message)
     end
   end
   
   desc "Pull code for all the gems (use with caution)"
   task :pull_gems do
-    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     muck_gem_paths.each do |gem_name|
       git_pull("#{projects_path}/#{gem_name}")
     end
@@ -264,7 +272,6 @@ namespace :muck do
   
   desc "Push code for all the gems (use with caution)"
   task :push_gems do
-    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     muck_gem_paths.each do |gem_name|
       git_push("#{projects_path}/#{gem_name}")
     end
@@ -272,7 +279,6 @@ namespace :muck do
   
   desc "Gets status for all the muck gems"
   task :status_gems do
-    projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
     muck_gem_paths.each do |gem_name|
       git_status("#{projects_path}/#{gem_name}")
     end
