@@ -1,0 +1,141 @@
+--- 
+tr: 
+  muck: 
+    activity_templates: 
+      entry_comment: Yorum
+    raker: 
+      add_extended_feed_sub_title: "Sözlüğe yeni bir veri kaynağı"
+      add_extended_feed_title: "Yeni bir besleme ekleyin"
+      add_feed: "Yayın Ekle"
+      add_feed_advanced: "(Gelişmiş) Yayın Ekle"
+      add_feed_title: "Yeni bir besleme ekleyin"
+      add_feed_url: "Url:"
+      all_resources: "Tüm Kaynaklar"
+      already_added_uri_feed: "Zaten url {{uri}} ekledik"
+      already_added_username_feed: "Zaten adınızı {{service}} bir {{username}} hesap ekledik"
+      already_shared: "Daha önce bu sayfada paylaştım."
+      amazon_prompt: "Lütfen size Amazon.com kullanmak e-posta girin"
+      atom: Atom
+      available_services: Available
+      ban_feed: "Geçersiz olarak işaretleme yem"
+      banned: yasaklı
+      blogger_prompt: "Url için blog"
+      calculated: Hesaplanan
+      cant_modify_identity_feed: "Izniniz belirtilen yayınına erişmek gerekmez."
+      choose_service: "Hizmet seç:"
+      close: Kapatmak
+      collection_description: "Toplama Açıklama:"
+      collection_home_uri: "Adres Toplama Ana Sayfa"
+      collection_uri: "Koleksiyon meta veri Adres:"
+      collections: Koleksiyon
+      collections_long: "Indexed Koleksiyonlar"
+      comment_entries_count: 
+        one: "1 Yorum"
+        other: "{{count}} Yorumlar"
+      course_search_results: "Dersler <b>{{first}} - {{last}} {{total}}</b> arama <b>{{terms}}</b> için"
+      course_tag_results: "Dersler <b>{{first}} - {{last}} {{total}}</b> öğesini <b>{{terms}}</b> ve"
+      courses_tag_cloud_label: "dersler etiketlerini kullanarak taramak <a href=\"/resources\">[tüm kaynakları browse]</a>"
+      demo: Demo
+      description: Açıklamalar
+      details: Detaylar
+      developers_long: "Geliştiriciler için"
+      direct_link: "[Direct link]"
+      discover_feed: "Keşfetmek Feed"
+      discover_feed_message: "Verdiğiniz URL hakkında bilgi aranıyor. Lütfen bekleyin."
+      display_url: "Url görüntülenecek:"
+      entry_commment_contents: "{{resource}} yorumladı"
+      facebook_instructions: "My Links sayfasında, &#39;My Links&#39; ve bağlantıyı kopyalayın sağ tıklayın. Otomatik olarak, durum, bağlantılar ve notları yer alacak."
+      facebook_link: "Size Facebook My Links sayfasında URL bulabilirsiniz. &#39;Doğum {{link}} ve sonra tıklatın Bağlantılar&#39;"
+      facebook_notes: "Facebook Notlar"
+      facebook_notifications: "Facebook Bildirimler"
+      facebook_prompt: "Facebook My Links URL"
+      facebook_shares: "Facebook Paylaşılan Linkler"
+      failed_harvests: "Başarısız hasadın"
+      failed_last_request: "Son isteği Başarısız: {{error}}"
+      feed_banned_message: "Feed başarıyla yasaklandı."
+      feed_successfully_created: "Feed başarıyla oluşturuldu."
+      feed_successfully_updated: "Feed başarıyla güncellendi."
+      feed_validated_message: "Feed başarıyla doğrulanmış oldu."
+      feeds_title: "Kayıtlı Koleksiyonlar"
+      for: için
+      friendfeed_prompt: "FriendFeed RSS URL"
+      friendfeed_rss: "Size {{link}}. altındaki URL bulabilirsiniz"
+      gm_more_prompt: "Daha İlgili Kaynaklar"
+      gm_title: "İlgili Kaynaklar"
+      goodreads_prompt: "Goodreads profil URL"
+      goodreads_rss: "örneğin, http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Hasat aralığı (saat)"
+      harvested_at: "At hasat"
+      hide: Gizlemek
+      identity_feed_removed: "Hizmet kaldırıldı"
+      identity_feeds: "Kimlik Besleme"
+      import_service: "İthalat {{service}}"
+      linkedin_prompt: "LinkedIn genel profil URL"
+      linkedin_rss: "Size {{link}}. altındaki URL bulabilirsiniz"
+      loading_content_image: "İçerik Resim Yükleniyor"
+      login: "Oturum açmak"
+      login_or_signup_prompt: "{{signup}} Veya {{login}} ve paylaşmak kaynakları görüşmek üzere."
+      login_to_comment: "Giriş Yorum eklemek için"
+      metadata: meta
+      my_services: Hizmetlerim
+      narrow_further: "dar sonuçları daha"
+      netflix_prompt: "Netflix Kuyruk RSS URL"
+      netflix_rss: "Size {{link}}. Doğum URL bulabilirsiniz Orada birkaç senin Netflix Kuyruk sayfasında (Kuyruk, Öneriler, film incelemeleri, vs kullanılabilir) beslemelerini unutmayın. Eklemek istediğiniz kadar!"
+      new_global_feed: "Yeni bir yem {{application_name}} eklendi"
+      next: Sonraki
+      next_label: Sonraki
+      no_feeds_at_uri: "Biz verilen url bulamadı"
+      no_feeds_from_username: "Biz verilen hesap bulamadık"
+      no_hits: "Arama - <b>{{search}}</b> - herhangi bir <b>{{resource_type}}</b> eşleşmedi. Lütfen başka bir arama yapmayı deneyin veya farklı bir dil seçin."
+      no_tagged_courses: "No <b>kursları {{tags}}</b> ile etiketledi bulundu. <a href='/resources'>Başlayın</a> veya <a href='/resources/tags/{{tags}}'>tüm kaynakların {{tags}} öğesini</a> gösterir."
+      no_tagged_resources: "No <b>kaynakları {{tags}}</b> ile etiketledi bulundu. <a href='/resources'>Baştan başla.</a>"
+      no_tags: "No tags henüz"
+      oai_prompt: "Eğer OAI belirtirseniz, ListRecords (istek değil OAI uç nokta) için tam URL belirtmelisiniz"
+      of: onun
+      ok: Tamam
+      only_courses: "Sadece Dersleri"
+      polyvore_prompt: "Polyvore profil URL"
+      polyvore_rss: "Your Polyvore profil URL http://www.polyvore.com/cgi/profile?id=00000 benziyor"
+      powered_by: "powered by"
+      previous: Önceki
+      previous_label: Önceki
+      problem_adding_feed: "Bir sorun besleme eklemeden oldu:"
+      rdf: RDF
+      related_resources: ilgili
+      related_resources_title: "İlgili Kaynaklar"
+      relevance: alaka
+      remix: Remix
+      repository_short_title: "Repository Kısa Adı:"
+      repository_title: "Repository Adı:"
+      resource_search_results: "Kaynaklar <b>{{first}} - {{last}} {{total}}</b> arama <b>{{terms}}</b> için"
+      resource_tag_results: "Kaynaklar <b>{{first}} - {{last}} {{total}}</b> öğesini <b>{{terms}}</b> ve"
+      resources_tag_cloud_label: "Kaynaklar etiketlerini kullanarak <a href=\"/resources?grain_size=course\">[sadece ders browse]</a>"
+      results: Sonuçlar
+      rss: RSS
+      rss_url: "URL RSS feed"
+      search: aramak
+      search_button: Gitmek
+      search_link: "Find Kaynaklar!"
+      select_feeds_prompt: "Seçin eklemek istiyorum beslemeleri:"
+      select_service_prompt: "Lütfen bir servis seçin"
+      service_username: "{{service}} Kullanıcı adı"
+      share: Paylaşmak
+      short_title: "Kısa Başlık:"
+      show_tagged_courses: "sadece ders göster"
+      show_tagged_resources: "kaynak her türlü göstermek"
+      signup: Kayıt
+      spinner_image: "Görüntü Bekleyen"
+      start_over: "Baştan başla"
+      status: Konum
+      submitting_feed_message: "Besleme gönderme ..."
+      successfully_added_uri_feed: "{{uri}} Başarıyla eklendi"
+      successfully_added_username_feed: "{{service}} Başarıyla eklendi"
+      tags: etiketleri
+      title: Title
+      type_of_metadata: "Metadata Tipi:"
+      uri: Url
+      validate_feed: "Geçerli olarak işaretleme yem"
+      visit: ziyaret
+      xml: XML
+      zotero_group_prompt: "Zotero Group URL"
+      zotero_group_rss: "Kişisel Zotero Group URL gibidir: http://www.zotero.org/groups/adventures_in_library_instruction/items"

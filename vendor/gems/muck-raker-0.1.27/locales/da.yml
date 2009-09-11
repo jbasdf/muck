@@ -1,0 +1,141 @@
+--- 
+da: 
+  muck: 
+    activity_templates: 
+      entry_comment: Kommentar
+    raker: 
+      add_extended_feed_sub_title: "Bidrage med en ny datakilde"
+      add_extended_feed_title: "Tilføj nyt feed"
+      add_feed: "Tilføj feed"
+      add_feed_advanced: "Tilføj Feed (avanceret)"
+      add_feed_title: "Tilføj en ny feed"
+      add_feed_url: "Url:"
+      all_resources: "Alle ressourcer"
+      already_added_uri_feed: "Du har allerede tilføjet den url {{uri}}"
+      already_added_username_feed: "Du har allerede tilføjet en {{service}} konto med brugernavnet {{username}}"
+      already_shared: "Du tidligere har delt denne side."
+      amazon_prompt: "Indtast den e-mail, du bruger med Amazon.com"
+      atom: Atom
+      available_services: "Tilgængelige Services"
+      ban_feed: "Mark foder som ugyldig"
+      banned: forbudt
+      blogger_prompt: "Webadressen på din blog"
+      calculated: beregnet
+      cant_modify_identity_feed: "Du har ikke tilladelse til at få adgang til den angivne feed."
+      choose_service: "Vælg tjeneste:"
+      close: Luk
+      collection_description: "Collection Beskrivelse:"
+      collection_home_uri: "Adresse på den Collection Home Page"
+      collection_uri: "Adresse på den Collection Metadata:"
+      collections: Samlinger
+      collections_long: "Indekseret Samlinger"
+      comment_entries_count: 
+        one: "1 Kommentar"
+        other: "{{count}} Kommentarer"
+      course_search_results: "Kurser <b>{{first}} - {{last}}</b> af <b>{{total}}</b> til søgning <b>{{terms}}</b>"
+      course_tag_results: "Kurser <b>{{first}} - {{last}}</b> af <b>{{total}}</b> mærkede <b>{{terms}}</b>"
+      courses_tag_cloud_label: "Kursusoversigt bruger tags <a href=\"/resources\">[gennemse alle ressourcer]</a>"
+      demo: Demo
+      description: Beskrivelse
+      details: Detaljer
+      developers_long: "Oplysninger til udviklere"
+      direct_link: "[direkte link]"
+      discover_feed: "Oplev Feed"
+      discover_feed_message: "Søgning efter oplysninger om den url du har opgivet. Vent venligst."
+      display_url: "Url der skal vises:"
+      entry_commment_contents: "kommenterede {{resource}}"
+      facebook_instructions: "På Mine Links side, højre-klik på &#39;Mine Links&#39; og kopiere linket. Vi vil automatisk omfatte, status, links og noter."
+      facebook_link: "Du kan finde din webadresse på din Facebook Mine links side. {{link}} Og derefter klikke på &#39;My Links&#39;"
+      facebook_notes: "Facebook Noter"
+      facebook_notifications: "Facebook Notifications"
+      facebook_prompt: "Din Facebook Mine Links URL"
+      facebook_shares: "Facebook Delt Links"
+      failed_harvests: "Fejlslagen høst"
+      failed_last_request: "Mislykket sidste anmodning: {{error}}"
+      feed_banned_message: "Feed lykkedes forbudt."
+      feed_successfully_created: "Feed blev oprettet."
+      feed_successfully_updated: "Feed er blevet opdateret."
+      feed_validated_message: "Feed lykkedes valideret."
+      feeds_title: "Registreret Samlinger"
+      for: for
+      friendfeed_prompt: "FriendFeed RSS URL"
+      friendfeed_rss: "Du kan finde din webadresse nederst i din {{link}}."
+      gm_more_prompt: "Mere Relaterede ressourcer"
+      gm_title: "Relaterede ressourcer"
+      goodreads_prompt: "Goodreads profil URL"
+      goodreads_rss: "f.eks http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Harvest interval (timer)"
+      harvested_at: "Høstet ved"
+      hide: Gemme
+      identity_feed_removed: "Fjernet service"
+      identity_feeds: "Identity Feeds"
+      import_service: "Import {{service}}"
+      linkedin_prompt: "LinkedIn offentlig profil URL"
+      linkedin_rss: "Du kan finde din webadresse nederst i din {{link}}."
+      loading_content_image: "Indlæsning af indhold billede"
+      login: Login
+      login_or_signup_prompt: "{{signup}} Eller {{login}} at diskutere og dele ressourcer."
+      login_to_comment: "Log ind for at tilføje en kommentar"
+      metadata: metadata
+      my_services: "Min Service"
+      narrow_further: "indsnævre resultaterne yderligere"
+      netflix_prompt: "Netflix Kø RSS URL"
+      netflix_rss: "Du kan finde din webadresse på dit {{link}}. Bemærk, at der er flere feeds til rådighed på din Netflix Kø side (Queue, henstillinger, Movie Reviews, etc). Tilføj så mange som du vil!"
+      new_global_feed: "Et nyt foder er blevet tilføjet til {{application_name}}"
+      next: Næste
+      next_label: Næste
+      no_feeds_at_uri: "Vi kunne ikke finde den angivne URL"
+      no_feeds_from_username: "Vi kunne ikke finde den angivne konto"
+      no_hits: "Din søgning - <b>{{search}}</b> - svarede ikke til nogen <b>{{resource_type}}.</b> Prøv en anden søgning eller vælg et andet sprog."
+      no_tagged_courses: "Ingen <b>kurser</b> blev fundet mærket med <b>{{tags}}.</b> <a href='/resources'>Start forfra</a> eller vise <a href='/resources/tags/{{tags}}'>alle ressourcer mærkede {{tags}}.</a>"
+      no_tagged_resources: "Ingen <b>ressourcer</b> blev fundet mærket med <b>{{tags}}.</b> <a href='/resources'>Start forfra.</a>"
+      no_tags: "Ingen tags tilgængelige endnu"
+      oai_prompt: "Hvis du angiver OAI, skal du angive den fulde URL til ListRecords anmodning (ikke kun OAI-point)"
+      of: af
+      ok: OK
+      only_courses: "Kun Kurser"
+      polyvore_prompt: "Polyvore profil URL"
+      polyvore_rss: "Din Polyvore profil URL udseende http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "powered by"
+      previous: Forrige
+      previous_label: Forrige
+      problem_adding_feed: "Der var et problem at tilføje feed:"
+      rdf: RDF
+      related_resources: relaterede
+      related_resources_title: "Relaterede ressourcer"
+      relevance: relevant
+      remix: Remix
+      repository_short_title: "Repository Kort Titel:"
+      repository_title: "Repository Titel:"
+      resource_search_results: "Ressourcer <b>{{first}} - {{last}}</b> af <b>{{total}}</b> til søgning <b>{{terms}}</b>"
+      resource_tag_results: "Ressourcer <b>{{first}} - {{last}}</b> af <b>{{total}}</b> mærkede <b>{{terms}}</b>"
+      resources_tag_cloud_label: "gennemse ressourcer ved hjælp af tags <a href=\"/resources?grain_size=course\">[browse kun kurser]</a>"
+      results: Resultater
+      rss: RSS
+      rss_url: "URL til din RSS-feed"
+      search: søgning
+      search_button: Start
+      search_link: "Find ressourcer!"
+      select_feeds_prompt: "Vælg de feeds, du ønsker at tilføje:"
+      select_service_prompt: "Vælg en tjeneste"
+      service_username: "{{service}} Brugernavn"
+      share: Del
+      short_title: "Kort titel:"
+      show_tagged_courses: "Vis kun kurser"
+      show_tagged_resources: "vise nogen form for ressource"
+      signup: Tilmeld
+      spinner_image: "Venter billede"
+      start_over: "starte forfra"
+      status: Status
+      submitting_feed_message: "Indsendelse af dit feed ..."
+      successfully_added_uri_feed: "Blev tilføjet {{uri}}"
+      successfully_added_username_feed: "Blev tilføjet {{service}}"
+      tags: tags
+      title: Titel
+      type_of_metadata: "Type Metadata:"
+      uri: Url
+      validate_feed: "Mark foder som gyldige"
+      visit: visit
+      xml: XML
+      zotero_group_prompt: "Zotero gruppe URL"
+      zotero_group_rss: "Din Zotero gruppe URL ser således ud: http://www.zotero.org/groups/adventures_in_library_instruction/items"

@@ -1,0 +1,49 @@
+--- 
+pl: 
+  muck: 
+    activity_templates: 
+      follow: Wyznawcy
+      friends_with: Znajomi
+    friends: 
+      acccept_friend_request: "Zaakceptuj Friend Request Od {{user}}"
+      accept: (zaakceptować)
+      block: "Blok {{user}}"
+      block_problem: "Wystąpił błąd podczas blokowania {{user}}"
+      blocked: "Zablokowana {{user}}"
+      delete: "(niepotrzebne skreślić)"
+      follow_activity: "{{inviter}} Jest teraz po {{invited}}"
+      followers: Wyznawcy
+      following: Następujący
+      following_you: "{{name}} Jest teraz po was {{application_name}}"
+      friend_request: "{{name}} Przysłał prośbę przyjaciela na {{application_name}}"
+      friend_request_links: "{{profile}} Wysłał prośbę przyjaciela {{accept}} {{ignore}}"
+      friend_request_pending: "Prośbę przyjaciela {{link}} czasu"
+      friend_request_prompt: "Wyślij {{user}} Friend Request"
+      friend_request_sent: "Friend Request Wysłane"
+      friends: Znajomi
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} Są teraz znajomymi z {{invited}}"
+      ignore: (zignorować)
+      login: login
+      login_or_sign_up_to_follow: "{{login}} Lub {{signup}} do naśladowania tego użytkownika"
+      login_or_sign_up_to_friend: "{{login}} Lub {{signup}} wysłać zaproszenia od przyjaciół"
+      mutual_friends: Wzajemnych
+      no_followers: "Nr Followers"
+      no_friends: "Brak znajomych"
+      no_mutual_friends: "Brak wspólnych znajomych znalezionych"
+      not_following_anyone: "Nie Po Anyone"
+      problem_adding_follow: "Wystąpił problem dodając {{user}} do po liście. Please try again."
+      problem_sending_friend_request: "Wystąpił problem podczas wysyłania żądania przyjaciela {{user}}. Please try again."
+      removed_following_error: "Wystąpił problem podczas próby unfollow {{user}}"
+      removed_friendship: "Usunięto {{user}} od znajomych"
+      removed_friendship_error: "Wystąpił problem z usunięciem {{user}} z listy znajomych"
+      same_inviter_error_message: "Użytkownik nie może stać się przyjaciółmi z problemem samemu."
+      signup: rejestracji
+      start_following: "Follow {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Przystanek {{user}} Po"
+      stopped_following: "Zostały zatrzymane po {{user}}"
+      unblock: "Odblokuj {{user}}"
+      unblocked: "Odblokowane {{user}}"
+      view_all: "Zobacz wszystkie"
+      you_are_now_following: "Jesteś teraz po {{user}}"

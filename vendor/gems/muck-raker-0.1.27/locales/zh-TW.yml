@@ -1,0 +1,141 @@
+--- 
+zh-TW: 
+  muck: 
+    activity_templates: 
+      entry_comment: 評論
+    raker: 
+      add_extended_feed_sub_title: 促進新的數據源
+      add_extended_feed_title: 添加新的飼料
+      add_feed: 添加飼料
+      add_feed_advanced: 添加飼料（高級）
+      add_feed_title: 添加新的飼料
+      add_feed_url: 網址：
+      all_resources: 所有資源
+      already_added_uri_feed: "你已經添加的url {{uri}}"
+      already_added_username_feed: "您已經添加了{{service}}帳戶的用戶名{{username}}"
+      already_shared: 您以前共享的這一頁。
+      amazon_prompt: 請輸入您的電子郵件使用Amazon.com
+      atom: 原子
+      available_services: 提供服務
+      ban_feed: 馬克飼料無效
+      banned: 禁止
+      blogger_prompt: 您的博客網址
+      calculated: 計算
+      cant_modify_identity_feed: 您沒有權限訪問指定的飼料。
+      choose_service: 選擇服務：
+      close: 關閉
+      collection_description: 集合描述：
+      collection_home_uri: 地址集合主頁
+      collection_uri: 地址集合元數據：
+      collections: 集合
+      collections_long: 索引的集合
+      comment_entries_count: 
+        one: 1條評論
+        other: "{{count}}評論"
+      course_search_results: "課程<b>{{first}} - {{last}}</b>的<b>{{total}}</b>搜索<b>{{terms}}</b>"
+      course_tag_results: "課程<b>{{first}} - {{last}}</b>的<b>{{total}}</b>標籤<b>{{terms}}</b>"
+      courses_tag_cloud_label: "使用標籤瀏覽課程<a href=\"/resources\">[瀏覽所有資源]</a>"
+      demo: 演示
+      description: 描述
+      details: 詳細信息
+      developers_long: 開發者信息
+      direct_link: "[直接鏈接]"
+      discover_feed: 發現飼料
+      discover_feed_message: 搜索有關您提供的URL。請稍候。
+      display_url: 要顯示的網址：
+      entry_commment_contents: "評論{{resource}}"
+      facebook_instructions: "在我的鏈接頁面，右鍵點擊&#39;我的鏈接，然後複製該鏈接。我們會自動包括地位，鏈接和說明。"
+      facebook_link: "您可以找到您的網址在你的Facebook我的鏈接頁面。 {{link}}然後點擊&#39;我的鏈接&#39;"
+      facebook_notes: Facebook的註釋
+      facebook_notifications: Facebook的通知
+      facebook_prompt: 您的Facebook我的鏈接網址
+      facebook_shares: Facebook的共享鏈接
+      failed_harvests: 失敗的收成
+      failed_last_request: "失敗的最後一個請求：{{error}}"
+      feed_banned_message: 飼料成功取締。
+      feed_successfully_created: 飼料已成功創建。
+      feed_successfully_updated: 飼料已成功更新。
+      feed_validated_message: 飼料已成功驗證。
+      feeds_title: 註冊收藏
+      for: 為了
+      friendfeed_prompt: "的FriendFeed RSS網址"
+      friendfeed_rss: "您可以找到您的網址在底部您{{link}}."
+      gm_more_prompt: 更多相關資源
+      gm_title: 相關資源
+      goodreads_prompt: Goodreads個人資料的網址
+      goodreads_rss: "例如，http://www.goodreads.com/user/show/1111"
+      harvest_interval: 收穫間隔（小時）
+      harvested_at: 收穫的
+      hide: 隱藏
+      identity_feed_removed: 刪除服務
+      identity_feeds: 身份求職
+      import_service: "進口{{service}}"
+      linkedin_prompt: 百度公開個人資料的網址
+      linkedin_rss: "您可以找到您的網址在底部您{{link}}."
+      loading_content_image: 加載內容的圖像
+      login: 註冊
+      login_or_signup_prompt: "{{signup}}或{{login}}進行討論和分享資源。"
+      login_to_comment: 登錄以添加評論
+      metadata: 元數據
+      my_services: 我的服務
+      narrow_further: 進一步縮小結果範圍
+      netflix_prompt: Netflix的隊列RSS網址
+      netflix_rss: "您可以找到您的網址在您的{{link}}.請注意，有幾個可以用您的資訊Netflix的隊列頁（隊列，建議書，電影評論等）。添加多達你喜歡！"
+      new_global_feed: "一種新的飼料已被添加到{{application_name}}"
+      next: 下一個
+      next_label: 下一個
+      no_feeds_at_uri: 我們無法找到給定的URL
+      no_feeds_from_username: 我們無法找到給定的帳戶
+      no_hits: "您的搜索- <b>{{search}}</b> -沒有任何符合<b>{{resource_type}}。</b>請嘗試不同的搜索或選擇不同的語言。"
+      no_tagged_courses: "沒有發現<b>課程</b>標為<b>{{tags}}。</b> <a href='/resources'>重新開始</a>或顯示<a href='/resources/tags/{{tags}}'>標籤{{tags}}的所有資源</a> 。"
+      no_tagged_resources: "沒有<b>資源</b>被發現標籤的<b>{{tags}}。</b> <a href='/resources'>重新開始</a> 。"
+      no_tags: 還沒有標籤可用
+      oai_prompt: "如果您指定醪河，你必須指定完整的URL ListRecords請求（不只是端點的OAI）"
+      of: 的
+      ok: 行
+      only_courses: 只有課程
+      polyvore_prompt: Polyvore個人資料的網址
+      polyvore_rss: "您Polyvore個人資料的網址看起來像http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: 採用
+      previous: 上一頁
+      previous_label: 上一頁
+      problem_adding_feed: 有一個問題，加入飼料：
+      rdf: RDF的
+      related_resources: 相關
+      related_resources_title: 相關資源
+      relevance: 相關
+      remix: 不怕
+      repository_short_title: 倉庫簡稱：
+      repository_title: 庫標題：
+      resource_search_results: "資源<b>{{first}} - {{last}}</b>的<b>{{total}}</b>搜索<b>{{terms}}</b>"
+      resource_tag_results: "資源<b>{{first}} - {{last}}</b>的<b>{{total}}</b>標籤<b>{{terms}}</b>"
+      resources_tag_cloud_label: "使用標籤瀏覽資源<a href=\"/resources?grain_size=course\">[瀏覽只有課程]</a>"
+      results: 結果
+      rss: 的RSS
+      rss_url: 網址為您的RSS提要
+      search: 搜索
+      search_button: 離去
+      search_link: 資源！
+      select_feeds_prompt: 選擇供稿您想補充：
+      select_service_prompt: 請選擇服務
+      service_username: "{{service}}用戶名"
+      share: 共享
+      short_title: 簡稱：
+      show_tagged_courses: 只顯示課程
+      show_tagged_resources: 表現出任何一種資源
+      signup: 註冊
+      spinner_image: 輪候形象
+      start_over: 重新開始
+      status: 身份
+      submitting_feed_message: 提交您的供稿...
+      successfully_added_uri_feed: "成功將{{uri}}"
+      successfully_added_username_feed: "成功將{{service}}"
+      tags: 標籤
+      title: 標題
+      type_of_metadata: 元數據類型：
+      uri: 網址
+      validate_feed: 馬克飼料有效
+      visit: 訪問
+      xml: XML的
+      zotero_group_prompt: Zotero的集團網址
+      zotero_group_rss: "您的網址組Zotero的樣子：http://www.zotero.org/groups/adventures_in_library_instruction/items"

@@ -1,0 +1,32 @@
+--- 
+tr: 
+  muck: 
+    engine: 
+      choose_country: "Ülke seçin"
+      choose_language: "Dil Seç"
+      choose_state: State
+      missing_parent_error: "Lütfen bir üst nesne belirtin"
+      select_country_prompt: "Lütfen bir ülke seçin"
+      select_language_prompt: "Lütfen bir dil seçin"
+      select_state_prompt: "Lütfen bir devlet seçin"
+    forms: 
+      please_enter_a_value: "Lütfen {{label}} için bir değer girin"
+    general: 
+      activate: Etkinleştirmek
+      deactivate: "Devre dışı bırakmak"
+      delete: Silmek
+      deleting: "Silme ..."
+      disable: "Imkan vermek"
+      enable: "Devre dışı bırakmak"
+      enabled: "Etkin mi?"
+      general_info: "Genel Bilgi"
+      help: Yardım
+      next: "Sonraki »"
+      no_text: Hayır
+      previous: «Önceki
+      read_more: devamı
+      save: Kaydetmek
+      settings_saved: "Ayarlar kaydedildi."
+      time_ago: "{{time_in_words}} Önce"
+      update: Güncellemek
+      yes_text: Evet

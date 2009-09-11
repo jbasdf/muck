@@ -1,0 +1,18 @@
+--- 
+lv: 
+  muck: 
+    activity_templates: 
+      comment: Komentāri
+    comments: 
+      add_comment: Komentārs
+      add_comment_button: "Pievienot komentāru"
+      anonymous: anonīms
+      cant_delete_comment: "Jums nav tiesību dzēst šo komentāru"
+      comment_removed: "Komentēt veiksmīgi noņemts."
+      create_error: "Neizdevās izveidot komentāru {{errors}}"
+      create_success: "Veiksmīgi pievienots komentāru"
+      missing_comment_template_error: "Neizdevās atrast daļēju nosaukumu {{partial}}. Lūdzu, izveidojiet komentāru daļēju un mēģiniet vēlreiz."
+      new_comment_email_subject: "Jaunu komentāru {{name}} par {{application_name}}"
+      new_comment_no_title: "Pievienot jaunu komentāru"
+      new_comment_with_title: "Pievienot jaunu komentāru {{title}}"
+      problem_adding_comment: "Radās problēma, pievienojot savu komentāru"

@@ -1,0 +1,86 @@
+= MuckComments
+
+Add comments to any object.  This gem is the muck version of acts_as_commentable_with_threading (http://github.com/elight/acts_as_commentable_with_threading/tree/master)
+
+== Setup
+Install the the awesome_nested_set gem (http://github.com/collectiveidea/awesome_nested_set/tree/master)
+
+  gem sources -a http://gems.github.com
+  sudo gem install collectiveidea-awesome_nested_set
+
+Then add it to your environment.rb:
+
+  config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set'
+
+== Usage
+
+=== Comment model
+Create a model called comment in your project and add the following:
+  
+  class Comment < ActiveRecord::Base
+    acts_as_muck_comment
+  end
+This let's you add any other methods to the comment model that you see fit.
+
+=== Comment controller
+Override the comments controller to change the the security model.  For example:
+
+  class CommentsController < Muck::CommentsController
+    
+    before_filter :login_required # require the user to be logged in to make a comment
+    
+    # Modify this method to change how permissions are checked to see if a user can comment.
+    # Each model that implements 'acts_as_muck_comment' can override can_comment? to 
+    # change how comment permissions are handled.
+    def has_permission_to_comment(user, parent)
+      parent.can_comment?(user)
+    end
+    
+  end
+
+=== Attach comments to a model:
+
+For a given model add 'acts_as_commentable'
+  class Blog < ActiveRecord::Base
+    acts_as_commentable
+  end
+
+'acts_as_commentable' will automatically track the count, but you will need to add a column to your table called comment_count:
+
+  class AddCommentCache < ActiveRecord::Migration
+    def self.up
+      add_column :blogs, :comment_count, :integer, :default => 0
+    end
+
+    def self.down
+      remove_column :blogs, :comment_count
+    end
+  end
+
+Then you will be able to do this to get a comment count:
+  
+  @blog.comment_count
+
+=== Configuration
+Add the following to globalconfig.yml:
+  send_email_for_new_comments: true
+
+This will send out an email to each user that has participated in a comment thread.  The default email is basic and only includes the body
+of the comment.  Add new email views to provide a better email for you users.  They can be found in app/views/comment_mailer/new_comment.text.html.erb
+and app/views/comment_mailer/new_comment.text.plain.erb
+
+=== Comment partial
+When calling create in the comments controller with :format => 'json' the resulting json will include an 'html' field that contains
+a rendered version of the comment html.  To facilitate this process be sure to create a partial called '_comment.html.erb' under a directory
+with the same name as the parent object.  The partial will be passed an object 'comment_owner' that references the parent object.
+
+For example, for an object 'activity' that acts_as_commentable create a partial 'activities/_comment.html.erb'.  The contents might look like this:
+
+  <div id="<%= comment.dom_id %>">
+    <span class="user"><%= link_to comment_owner.user, comment_owner.user %></span>
+    <p><%= h comment.body %></p>
+  </div>
+
+
+
+Copyright (c) 2009 Tatemai, released under the MIT license

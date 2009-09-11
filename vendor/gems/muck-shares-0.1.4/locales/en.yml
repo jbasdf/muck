@@ -1,0 +1,21 @@
+en:
+  muck:
+    shares:
+      cant_delete_share: "You don't have permission to delete that share"
+      share_removed: "Share successfully removed."
+      create_error: "Could not create the share: {{errors}}"
+      create_success: "Successfully shared page"
+      add_share: "Share"
+      add_share_button: "Share"
+      adding_share: "Sharing page..."
+      cancel_share_button: "Cancel"
+      new_share: "Share a Link"
+      problem_adding_share: "There was a problem adding your share"
+      title: "Title"
+      uri: "Url"
+      message: "Message"
+      login_prompt: "Login to share"
+      share_title: "Share This Link"
+      share_activity_content: "shared {{link}}.  {{message}}"
+    activity_templates:
+      share: Shares

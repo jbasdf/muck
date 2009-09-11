@@ -3,20 +3,20 @@ nl:
   contact: 
     contact_response_subject: "Bedankt voor uw vraag uit {{application_name}}!"
     contact_us: "Contact Us"
-    email: "Uw e-mailadres:"
-    email_help: "Geef ons uw e-mail zodat wij contact met u kunnen opnemen indien nodig."
+    email: "Uw e-mail:"
+    email_help: "Geef ons uw e-mail zodat wij u kunnen contacteren indien nodig."
     name: "Uw naam:"
     name_help: "Geef ons uw naam."
     phone: "Uw telefoonnummer:"
-    phone_help: "Uw telefoonnummer is optioneel, maar zal ons helpen u indien nodig."
+    phone_help: "Uw telefoonnummer is optioneel, maar zal ons helpen om contact met u opnemen indien nodig."
     question: "Uw bericht / vraag:"
-    question_help: "Vermeld ook eventuele opmerkingen die u graag zou zien dat we te horen."
+    question_help: "Vermeld eventuele opmerkingen die u wilt dat wij horen."
     subject: "Onderwerp:"
-    subject_help: "Een eenvoudige verklaring met vermelding van de aard van uw feedback."
+    subject_help: "Een eenvoudige verklaring waaruit de aard van uw feedback."
   general: 
     delete_file: "Bestand verwijderen"
     send: Sturen
-    thank_you_contact: "Dank u voor uw bericht. Een medewerker van ons team zal op korte termijn reageren."
+    thank_you_contact: "Dank u voor uw bericht. Een lid van ons team zal reageren binnenkort aan jou."
   muck: 
     activity_templates: 
       welcome: Welkom
@@ -24,9 +24,9 @@ nl:
       home: Home
       my_dashboard: "Mijn dashboard"
       permissions: Machtigingen
-      themes: "Thema&#39;s"
+      themes: Thema
       users: Gebruikers
     contact_request: "Contact Aanvraag"
-    contact_thanks: "Bedankt dat u contact met ons op. We hebben uw e-mail en zal binnenkort contact met u opnemen."
+    contact_thanks: "Bedankt dat u contact met ons op. We hebben uw e-mail en zal in contact snel."
     user_greeting: "Hi {{user}},"
-    welcome_activity: "Welkom bij {{application_name}}."
+    welcome_activity: "Welkom op {{application_name}}."

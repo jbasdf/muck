@@ -1,0 +1,34 @@
+--- 
+lv: 
+  muck: 
+    activities: 
+      activity_feed_title: "Recent Activity"
+      add_photos: "Add Photos"
+      add_videos: "Share Videos"
+      adding_comment_message: "Ievietošanas komentāru ..."
+      all_activities: "Visas darbības"
+      clear: Skaidrs
+      create_error: "Radās problēma pievienojot pieprasītā darbība: {{error}}"
+      delete: Dzēst
+      invite_friends: "Uzaicināt draugus"
+      item_could_not_be_removed: "Item nevarēja izņemt no neseno rīcību sarakstu."
+      item_created: "Pievienots aktivitāte"
+      item_removed: "Item veiksmīgi izņemta no neseno rīcību sarakstu."
+      joined_status: "{{name}} Pievienojās {{application_name}}"
+      make_comment: Komentārs
+      paging_newer: «Jaunāki
+      paging_older: "Vecāks »"
+      permission_denied: "Atvainojiet, jūs nevarat darīt."
+      post: Dalīties
+      problem_with_status: "Radās problēma mainīt savu statusu"
+      status_indicator: ir
+      status_update_prompt: "Ko tu dari tieši šobrīd?"
+      template_or_item_required: "Darbības prasība veidni vai posteni, lai rādītu pareizi"
+      update_error: "Ups ... Radās problēma. {{errors}}"
+      update_status_message: ", atjauniniet savu statusu!"
+      updating_status_message: "Atjaunināšana savu statusu. Please wait."
+      upload_files: "Augšupielādēt failus"
+      write: Rakstīt
+      write_prompt: "Rakstīt komentāru ..."
+    activity_templates: 
+      status_update: "Status Updates"

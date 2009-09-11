@@ -1,0 +1,15 @@
+<div id="results-description" class="block">
+    <div class="column span-24 align-right">
+        <span>
+            <%= results_status %> 
+            <%= ('&nbsp;&nbsp;' + link_to('[' + t('muck.raker.start_over') + ']', {:action => 'index', :grain_size => @grain_size}) + '&nbsp;') unless @tag_filter.nil? %>
+            &nbsp;&nbsp;
+            <% if @grain_size == 'course' %>
+                <%= link_to('[' + t('muck.raker.show_tagged_resources') + ']', @tag_filter.nil? ? {:q => @search, :grain_size => 'all'} : {:grain_size => 'all'}) %>
+            <% else %>
+                <%= link_to('[' + t('muck.raker.show_tagged_courses') + ']',  @tag_filter.nil? ? {:q => @search, :grain_size => 'course'} : {:grain_size => 'course'}) %>
+            <% end %>
+            &nbsp;
+        </span>
+    </div>
+</div>

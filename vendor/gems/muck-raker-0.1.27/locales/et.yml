@@ -1,0 +1,141 @@
+--- 
+et: 
+  muck: 
+    activity_templates: 
+      entry_comment: Kommentaar
+    raker: 
+      add_extended_feed_sub_title: "Kaasa uute andmete allikaks"
+      add_extended_feed_title: "Lisa uus sööt"
+      add_feed: "Lisa uudisvoog"
+      add_feed_advanced: "Lisa kanal (Advanced)"
+      add_feed_title: "Uue kanali lisamine"
+      add_feed_url: "Url:"
+      all_resources: "Kõik ressursid"
+      already_added_uri_feed: "Te olete juba lisatud url {{uri}}"
+      already_added_username_feed: "Te olete juba lisatud {{service}} konto kasutajanimi {{username}}"
+      already_shared: "Olete varem jagatud lehekülg."
+      amazon_prompt: "Palun sisestage e-kirja kasutamiseks Amazon.com"
+      atom: Atom
+      available_services: "Saadaval Teenused"
+      ban_feed: "Mark sööda kehtetuks"
+      banned: keelatud
+      blogger_prompt: "URL Blog"
+      calculated: arvutatud
+      cant_modify_identity_feed: "Sul ei ole õigust kasutada nimetatud sööta."
+      choose_service: "Vali teenus:"
+      close: Sulgema
+      collection_description: "Collection Description:"
+      collection_home_uri: "Aadress kogumise Esileht"
+      collection_uri: "Aadress kogumise Vaheandmed:"
+      collections: Kogud
+      collections_long: "Indekseeritud Kogud"
+      comment_entries_count: 
+        one: "1 kommentaar"
+        other: "{{count}} Kommentaarid"
+      course_search_results: "Kursused <b>{{first}} - {{last}}</b> on <b>{{total}}</b> otsingu <b>{{terms}}</b>"
+      course_tag_results: "Kursused <b>{{first}} - {{last}}</b> on <b>{{total}}</b> tagged <b>{{terms}}</b>"
+      courses_tag_cloud_label: "Kursuste sirvimine, kasutades koode <a href=\"/resources\">[Sirvi kõiki vahendeid]</a>"
+      demo: Demo
+      description: Kirjeldus
+      details: Detailid
+      developers_long: "Info arendajatele"
+      direct_link: "[link]"
+      discover_feed: "Avasta Feed"
+      discover_feed_message: "Otsin infot url andsite. Palun oota."
+      display_url: "Url näidatakse:"
+      entry_commment_contents: "kommenteeris {{resource}}"
+      facebook_instructions: "On My Links Page paremklõpsake teemal &quot;Minu lingid&quot; ja kopeerida link. Me automaatselt lisada, staatuse, linke ja märkusi."
+      facebook_link: "Leiad URL-i Facebook My Links Page. {{link}} Ja kliki &quot;Minu lingid&quot;"
+      facebook_notes: "Facebook Märkused"
+      facebook_notifications: "Facebook Teavitused"
+      facebook_prompt: "Teie Facebook Minu lingid URL"
+      facebook_shares: "Facebook Jagatud Viited"
+      failed_harvests: "Ebaõnnestus saagi"
+      failed_last_request: "Ebaõnnestus viimase nõudmisel: {{error}}"
+      feed_banned_message: "Feed edukalt keelata."
+      feed_successfully_created: "Feed on loodud."
+      feed_successfully_updated: "Feed on edukalt uuendatud."
+      feed_validated_message: "Sööt oli õnnestus."
+      feeds_title: "Registreerunud Kogud"
+      for: jaoks
+      friendfeed_prompt: "FriendFeed RSS URL"
+      friendfeed_rss: "Leiad URL allosas oma {{link}}."
+      gm_more_prompt: "Veel Seostuvad ressursid"
+      gm_title: "Seostuvad ressursid"
+      goodreads_prompt: "Goodreads profiili URL"
+      goodreads_rss: "nt http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Saagikoristuse järel (kl)"
+      harvested_at: Koristada
+      hide: Peitma
+      identity_feed_removed: "Eemaldatud teenus"
+      identity_feeds: "Isikut Feeds"
+      import_service: "Import {{service}}"
+      linkedin_prompt: "LinkedIn avalikku profiili URL"
+      linkedin_rss: "Leiad URL allosas oma {{link}}."
+      loading_content_image: "Sisu laadimiseks pilt"
+      login: "Sisse logima"
+      login_or_signup_prompt: "{{signup}} Või {{login}} arutada ja jagada ressursse."
+      login_to_comment: "Logi sisse kommentaari lisamiseks"
+      metadata: metaandmed
+      my_services: "Minu teenused"
+      narrow_further: "kitsas tulemusi veelgi"
+      netflix_prompt: "Netflix Queue RSS URL"
+      netflix_rss: "Leiad URL-i {{link}}. Pange tähele, et on mitmeid kanaleid salvestatud teie Netflix Queue lehel (järjekord, soovitused, Movie Reviews, jne). Lisage nii palju kui soovite!"
+      new_global_feed: "Uue kanali on lisatud {{application_name}}"
+      next: Järgmine
+      next_label: Järgmine
+      no_feeds_at_uri: "Me ei suutnud leida antud url"
+      no_feeds_from_username: "Me ei suutnud leida antud konto"
+      no_hits: "Sinu otsing - <b>{{search}}</b> - ei vastanud ühtegi <b>{{resource_type}}.</b> Proovige teistsugust otsingut või valige teine keel."
+      no_tagged_courses: "Nr <b>kursused</b> leiti tagged with <b>{{tags}}.</b> <a href='/resources'>Algusesse üle</a> või näitavad <a href='/resources/tags/{{tags}}'>kõik vahendid tagged {{tags}}.</a>"
+      no_tagged_resources: "Nr <b>vahendeid</b> leitud kodeeritud <b>{{tags}}.</b> <a href='/resources'>Start üle.</a>"
+      no_tags: "No tags veel puuduvad"
+      oai_prompt: "Kui määrate OAI, peate täpsustama täieliku URL List Records taotlus (mitte ainult OAI tulemusnäitaja)"
+      of: sellest
+      ok: OK
+      only_courses: "Ainult Kursused"
+      polyvore_prompt: "Polyvore profiili URL"
+      polyvore_rss: "Teie Polyvore profiili URL näeb välja http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "powered by"
+      previous: Eelmine
+      previous_label: Eelmine
+      problem_adding_feed: "Probleem lisamisega söödale:"
+      rdf: RDF
+      related_resources: seotud
+      related_resources_title: "Seostuvad ressursid"
+      relevance: tekst
+      remix: Remix
+      repository_short_title: "Hoidla Lühipealkiri:"
+      repository_title: "Hoidla Pealkiri:"
+      resource_search_results: "Ressursid <b>{{first}} - {{last}}</b> on <b>{{total}}</b> otsingu <b>{{terms}}</b>"
+      resource_tag_results: "Ressursid <b>{{first}} - {{last}}</b> on <b>{{total}}</b> tagged <b>{{terms}}</b>"
+      resources_tag_cloud_label: "Lehitse vahendeid kasutades sildid <a href=\"/resources?grain_size=course\">[sirvida ainult kursustel]</a>"
+      results: Tulemused
+      rss: RSS
+      rss_url: "URL RSS feed"
+      search: otsima
+      search_button: Minema
+      search_link: "Leida vahendeid!"
+      select_feeds_prompt: "Valige toidab soovid lisada:"
+      select_service_prompt: "Vali teenus"
+      service_username: "{{service}} Kasutajanimi"
+      share: Jagama
+      short_title: "Lühipealkiri:"
+      show_tagged_courses: "Näita ainult kursused"
+      show_tagged_resources: "Näita tahes ressursi"
+      signup: "Sign Up"
+      spinner_image: "Ootel pilt"
+      start_over: "uuesti alustada"
+      status: Staatus
+      submitting_feed_message: "Sisestades ..."
+      successfully_added_uri_feed: "Edukalt lisatud {{uri}}"
+      successfully_added_username_feed: "Edukalt lisatud {{service}}"
+      tags: Sildid
+      title: Pealkiri
+      type_of_metadata: "Tüüp Vaheandmed:"
+      uri: Url
+      validate_feed: "Mark sööda kehtiv"
+      visit: Külasta
+      xml: XML
+      zotero_group_prompt: "Zotero Grupi URL"
+      zotero_group_rss: "Teie Zotero grupp URL näeb välja selline: http://www.zotero.org/groups/adventures_in_library_instruction/items"

@@ -1,0 +1,34 @@
+--- 
+sq: 
+  muck: 
+    activities: 
+      activity_feed_title: "Recent Activity"
+      add_photos: "Add Photos"
+      add_videos: "Share Video"
+      adding_comment_message: "Shtimi i koment ..."
+      all_activities: "Gjitha Aktivitetet"
+      clear: "I qartë"
+      create_error: "Nuk ishte një problem duke shtuar aktivitetin e kërkuar: {{error}}"
+      delete: Fshij
+      invite_friends: "Invite Friends"
+      item_could_not_be_removed: "Item nuk mund të hiqen nga lista e fundit aktiviteteve."
+      item_created: "Aktiviteti Added"
+      item_removed: "Item hoq me sukses nga lista e fundit aktiviteteve."
+      joined_status: "{{name}} Bashkua {{application_name}}"
+      make_comment: Koment
+      paging_newer: «Newer
+      paging_older: "Older »"
+      permission_denied: "Na vjen keq, ju nuk mund ta bëjë këtë."
+      post: Pjesë
+      problem_with_status: "Nuk ishte një problem ndryshuar statusin tuaj"
+      status_indicator: është
+      status_update_prompt: "Çfarë jeni duke bërë tani?"
+      template_or_item_required: "Një aktivitet kërkon një template ose një objekt për të shfaqur korrekt"
+      update_error: "Oops ... Nuk ishte një problem. {{errors}}"
+      update_status_message: "update statusin tuaj!"
+      updating_status_message: "Përditësimi statusin tuaj. Ju lutem prisni."
+      upload_files: "Upload Files"
+      write: Shkruaj
+      write_prompt: "Shkruani një koment ..."
+    activity_templates: 
+      status_update: "Statusi Updates"

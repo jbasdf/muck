@@ -1,0 +1,7 @@
+--- 
+sl: 
+  muck: 
+    blogs: 
+      add_post: "Add Post"
+      add_post_link: "Add Post"
+      blog_title: "Blog za {{title}}"

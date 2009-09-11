@@ -1,0 +1,77 @@
+require 'rake'
+require 'rake/testtask'
+require 'rake/rdoctask'
+
+desc 'Default: run unit tests.'
+task :default => :test
+
+desc 'Default: run unit tests.'
+task :default => :test
+
+desc 'Test muck-raker.'
+Rake::TestTask.new(:test) do |t|
+  t.libs << 'lib'
+  t.libs << 'test/rails_root/test'
+  t.pattern = 'test/rails_root/test/**/*_test.rb'
+  t.verbose = true
+end
+
+begin
+  require 'rcov/rcovtask'
+  Rcov::RcovTask.new do |t|
+    #t.libs << 'lib'
+    t.libs << 'test/rails_root/lib'
+    t.pattern = 'test/rails_root/test/**/*_test.rb'
+    t.verbose = true
+    t.output_dir = 'coverage'
+    t.rcov_opts << '--exclude "gems/*"'
+  end
+rescue LoadError
+  task :rcov do
+    abort "RCov is not available. In order to run rcov, you must: sudo gem install spicycode-rcov"
+  end
+end
+
+desc 'Translate this gem'
+task :translate do
+  file = File.join(File.dirname(__FILE__), 'locales', 'en.yml')
+  system("babelphish -o -y #{file}")
+  path = File.join(File.dirname(__FILE__), 'app', 'views', 'raker_mailer')
+  system("babelphish -o -h #{path} -l en")
+end
+
+desc 'Generate documentation for the recommender plugin.'
+Rake::RDocTask.new(:rdoc) do |rdoc|
+  rdoc.rdoc_dir = 'rdoc'
+  rdoc.title    = 'Recommender'
+  rdoc.options << '--line-numbers' << '--inline-source'
+  rdoc.rdoc_files.include('README*')
+  rdoc.rdoc_files.include('lib/**/*.rb')
+end
+
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "muck-raker"
+    gemspec.summary = "The aggregation and recommendation engine for the muck system"
+    gemspec.email = "justinball@gmail.com"
+    gemspec.homepage = "http://github.com/jbasdf/muck_raker"
+    gemspec.description = "The aggregation and recommendation engine for the muck system."
+    gemspec.authors = ["Joel Duffin Justin Ball"]
+    gemspec.rubyforge_project = 'muck-raker'
+    gemspec.add_dependency "mbleigh-acts-as-taggable-on"
+    gemspec.add_dependency "mislav-will_paginate"
+    gemspec.add_dependency "httparty"
+    gemspec.add_dependency "muck-feedbag"
+    gemspec.add_dependency "pauldix-feedzirra"
+    gemspec.add_dependency "muck-engine"
+    gemspec.add_dependency "muck-users"
+    gemspec.add_dependency "muck-comments"
+    gemspec.add_dependency "muck-solr"
+  end
+  Jeweler::RubyforgeTasks.new do |rubyforge|
+    rubyforge.doc_task = "rdoc"
+  end
+rescue LoadError
+  puts "Jeweler not available. Install it with: sudo gem install jeweler"
+end

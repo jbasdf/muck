@@ -1,32 +1,32 @@
 --- 
 hu: 
   contact: 
-    contact_response_subject: "Köszönjük, hogy a vizsgálóbizottság {{application_name}}!"
-    contact_us: Kapcsolat
-    email: "E-mail címe:"
+    contact_response_subject: "Köszönjük, hogy a vizsgálat a {{application_name}}!"
+    contact_us: Érdeklődjön
+    email: "Ön e-mail:"
     email_help: "Kérjük, adja meg e-mail, hogy felvehessük Önnel a kapcsolatot, ha szükséges."
     name: "Az Ön neve:"
-    name_help: "Kérjük, adja meg nekünk a nevét."
-    phone: "Telefonszáma:"
-    phone_help: "Telefonszámod nem kötelező, de segíthet a kapcsolatot, ha szükséges."
+    name_help: "Kérjük, adja meg a nevét."
+    phone: "Az Ön telefonszáma:"
+    phone_help: "Ön telefonszáma nem kötelező, de segít nekünk Önnel a kapcsolatot, ha szükséges."
     question: "Üzenete / kérdése:"
-    question_help: "Kérjük, az észrevételeket szeretne minket hallani."
-    subject: "Tárgy:"
+    question_help: "Kérjük, észrevételeiket szeretne minket hallani."
+    subject: "Tárgy: Az"
     subject_help: "Egy egyszerű kijelentés jellege visszajelzését."
   general: 
     delete_file: "Fájl törlése"
     send: Elküld
-    thank_you_contact: "Thank you for your message. A csapat tagja válaszol neked hamarosan."
+    thank_you_contact: "Köszönjük az üzenetet. A csapatunk tagja lesz hamarosan válaszolunk Önnek."
   muck: 
     activity_templates: 
       welcome: Üdvözlöm
     admin: 
       home: Otthon
-      my_dashboard: "Saját Beállítópult"
-      permissions: Engedélyek
-      themes: Témák
-      users: Felhasználók
-    contact_request: "Kapcsolat Ajánlatkérés"
-    contact_thanks: "Köszönjük, hogy kapcsolatba velünk. Megérkezett az e-mail és azt a kapcsolatot hamarosan."
-    user_greeting: "Szia {{user}},"
-    welcome_activity: "Üdvözöljük a {{application_name}}."
+      my_dashboard: "Saját beállítópult"
+      permissions: Jogosítványait
+      themes: Témákban
+      users: Álláskeresők
+    contact_request: "Contact Request"
+    contact_thanks: "Köszönjük, hogy felkeresett minket. Megkaptuk az e-mail, és azt a kapcsolatot hamarosan."
+    user_greeting: "{{user}}, Hi"
+    welcome_activity: "Welcome to {{application_name}}."

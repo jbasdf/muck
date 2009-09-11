@@ -1,0 +1,16 @@
+<h1><%= I18n.t('New role') %></h1>
+
+<%= error_messages_for :role %>
+
+<% form_for @role, :url => admin_role_path(@role) do |f| %>
+  <p>
+    <b><%= I18n.t('Rolename') %></b><br />
+    <%= f.text_field :rolename %>
+  </p>
+
+  <p>
+    <%= f.submit I18n.t('Create') %>
+  </p>
+<% end %>
+
+<%= link_to I18n.t('Back'), admin_roles_path %>

@@ -1,0 +1,141 @@
+--- 
+id: 
+  muck: 
+    activity_templates: 
+      entry_comment: Komentar
+    raker: 
+      add_extended_feed_sub_title: "Kontribusi sumber data baru"
+      add_extended_feed_title: "Menambahkan feed baru"
+      add_feed: "Tambahkan Feed"
+      add_feed_advanced: "Tambahkan Feed (Advanced)"
+      add_feed_title: "Menambahkan feed baru"
+      add_feed_url: "Url:"
+      all_resources: "Semua Resources"
+      already_added_uri_feed: "Anda sudah menambahkan url {{uri}}"
+      already_added_username_feed: "Anda sudah menambahkan account {{service}} dengan username {{username}}"
+      already_shared: "Sebelumnya Anda berbagi halaman ini."
+      amazon_prompt: "Silahkan masukkan email yang Anda gunakan dengan Amazon.com"
+      atom: Atom
+      available_services: "Tersedia Layanan"
+      ban_feed: "Mark feed sebagai tidak valid"
+      banned: dilarang
+      blogger_prompt: "Url dari Blog Anda"
+      calculated: dihitung
+      cant_modify_identity_feed: "Anda tidak memiliki izin untuk mengakses feed tertentu."
+      choose_service: "Pilih Layanan:"
+      close: Tutup
+      collection_description: "Koleksi Keterangan:"
+      collection_home_uri: "Alamat Koleksi Home Page"
+      collection_uri: "Alamat Koleksi artikel:"
+      collections: Koleksi
+      collections_long: "Indexed Koleksi"
+      comment_entries_count: 
+        one: "1 Komentar"
+        other: "{{count}} Komentar"
+      course_search_results: "Kursus <b>{{first}} - {{last}}</b> dari <b>{{total}}</b> untuk pencarian <b>{{terms}}</b>"
+      course_tag_results: "Kursus <b>{{first}} - {{last}}</b> dari <b>{{total}}</b> tagged <b>{{terms}}</b>"
+      courses_tag_cloud_label: "mencari kursus menggunakan tag <a href=\"/resources\">[browse seluruh sumber daya]</a>"
+      demo: Demo
+      description: Deskripsi
+      details: Details
+      developers_long: "Informasi untuk Pengembang"
+      direct_link: "[direct link]"
+      discover_feed: "Temukan Feed"
+      discover_feed_message: "Mencari informasi tentang URL yang Anda berikan. Harap tunggu."
+      display_url: "Url yang akan ditampilkan:"
+      entry_commment_contents: "commented on {{resource}}"
+      facebook_instructions: "Di halaman Link Saya, klik kanan pada &#39;My Links&#39; dan salin link. Kami akan secara otomatis memasukkan, status, link dan catatan."
+      facebook_link: "Anda dapat menemukan URL Anda pada halaman Facebook My Links. {{link}} Dan kemudian klik &#39;My Links&#39;"
+      facebook_notes: "Facebook Catatan"
+      facebook_notifications: "Facebook Notifikasi"
+      facebook_prompt: "Anda Facebook My Links URL"
+      facebook_shares: "Facebook Shared Link"
+      failed_harvests: "Gagal panen"
+      failed_last_request: "Gagal permintaan terakhir: {{error}}"
+      feed_banned_message: "Feed telah berhasil dilarang."
+      feed_successfully_created: "Feed berhasil dibuat."
+      feed_successfully_updated: "Feed berhasil diperbarui."
+      feed_validated_message: "Feed telah berhasil divalidasi."
+      feeds_title: "Terdaftar Koleksi"
+      for: untuk
+      friendfeed_prompt: "FriendFeed RSS URL"
+      friendfeed_rss: "Anda dapat menemukan URL Anda di bagian bawah {{link}}. Anda"
+      gm_more_prompt: "More Related Resources"
+      gm_title: "Related Resources"
+      goodreads_prompt: "Profil Goodreads URL"
+      goodreads_rss: "misalnya, http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Panen interval (jam)"
+      harvested_at: Dipanen
+      hide: Sembunyi
+      identity_feed_removed: "Layanan Dihapus"
+      identity_feeds: "Identitas Feed"
+      import_service: "Impor {{service}}"
+      linkedin_prompt: "LinkedIn URL profil umum"
+      linkedin_rss: "Anda dapat menemukan URL Anda di bagian bawah {{link}}. Anda"
+      loading_content_image: "Konten loading gambar"
+      login: Login
+      login_or_signup_prompt: "{{signup}} Atau {{login}} untuk mendiskusikan dan berbagi sumber daya."
+      login_to_comment: "Login untuk menambahkan komentar"
+      metadata: metadata
+      my_services: "My Services"
+      narrow_further: "hasil sempit lebih"
+      netflix_prompt: "Netflix Antrian RSS URL"
+      netflix_rss: "Anda dapat menemukan URL Anda {{link}}. Perhatikan bahwa ada beberapa feed yang tersedia pada halaman Antrian Netflix (Antrian, Rekomendasi, Movie Review, dll). Tambahkan sebanyak yang Anda suka!"
+      new_global_feed: "Sebuah feed baru telah ditambahkan ke {{application_name}}"
+      next: Berikutnya
+      next_label: Berikutnya
+      no_feeds_at_uri: "Kami tidak dapat menemukan url yang diberikan"
+      no_feeds_from_username: "Kami tidak dapat menemukan account yang diberikan"
+      no_hits: "Pencarian Anda - <b>{{search}}</b> - tidak cocok dengan <b>{{resource_type}}.</b> Silakan mencoba pencarian lain atau memilih bahasa yang berbeda."
+      no_tagged_courses: "Tidak ada <b>kursus</b> yang ditemukan tagged with <b>{{tags}}.</b> <a href='/resources'>Mulai dari awal</a> atau menampilkan <a href='/resources/tags/{{tags}}'>seluruh sumber daya tagged {{tags}}.</a>"
+      no_tagged_resources: "Tidak ada <b>sumber daya</b> yang ditemukan tagged with <b>{{tags}}.</b> <a href='/resources'>Mulai dari awal.</a>"
+      no_tags: "Tidak ada tag tersedia lagi"
+      oai_prompt: "Jika Anda menetapkan oai, Anda harus menentukan URL lengkap ke ListRecords permintaan (bukan hanya oai endpoint)"
+      of: dari
+      ok: OK
+      only_courses: "Hanya Kursus"
+      polyvore_prompt: "URL profil Polyvore"
+      polyvore_rss: "Profil Polyvore Anda URL terlihat seperti http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "powered by"
+      previous: Sebelumnya
+      previous_label: Sebelumnya
+      problem_adding_feed: "Ada masalah menambahkan feed:"
+      rdf: RDF
+      related_resources: terkait
+      related_resources_title: "Related Resources"
+      relevance: relevansi
+      remix: Remix
+      repository_short_title: "Repositori Short Judul:"
+      repository_title: "Repositori Judul:"
+      resource_search_results: "Resources <b>{{first}} - {{last}}</b> dari <b>{{total}}</b> untuk pencarian <b>{{terms}}</b>"
+      resource_tag_results: "Resources <b>{{first}} - {{last}}</b> dari <b>{{total}}</b> tagged <b>{{terms}}</b>"
+      resources_tag_cloud_label: "daya browse menggunakan tag <a href=\"/resources?grain_size=course\">[browse hanya kursus]</a>"
+      results: Hasil
+      rss: RSS
+      rss_url: "Url untuk rss feed"
+      search: mencari
+      search_button: Pergi
+      search_link: "Find Resources!"
+      select_feeds_prompt: "Pilih feed yang ingin Anda tambahkan:"
+      select_service_prompt: "Silakan pilih layanan"
+      service_username: "{{service}} Username"
+      share: Berbagi
+      short_title: "Short title:"
+      show_tagged_courses: "hanya menampilkan kursus"
+      show_tagged_resources: "menunjukkan jenis sumber daya"
+      signup: Daftar
+      spinner_image: "Menunggu foto"
+      start_over: memulai
+      status: Status
+      submitting_feed_message: "Mengirimkan feed Anda ..."
+      successfully_added_uri_feed: "Berhasil ditambahkan {{uri}}"
+      successfully_added_username_feed: "Berhasil ditambahkan {{service}}"
+      tags: tag
+      title: Judul
+      type_of_metadata: "Jenis artikel:"
+      uri: Url
+      validate_feed: "Mark feed sebagai sah"
+      visit: kunjungi
+      xml: XML
+      zotero_group_prompt: "URL grup Zotero"
+      zotero_group_rss: "URL grup Zotero Anda terlihat seperti: http://www.zotero.org/groups/adventures_in_library_instruction/items"

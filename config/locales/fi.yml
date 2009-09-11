@@ -1,32 +1,32 @@
 --- 
 fi: 
   contact: 
-    contact_response_subject: "Kiitos tutkintavaliokunnan alkaen {{application_name}}!"
+    contact_response_subject: "Kiitos kyselyn {{application_name}}!"
     contact_us: "Ota yhteyttä"
     email: "Sähköpostiosoitteesi:"
-    email_help: "Ole hyvä ja anna meille sähköpostiosoitteesi, jotta voimme ottaa sinuun yhteyttä tarvittaessa."
-    name: "Oma nimi:"
-    name_help: "Anna meille nimesi."
+    email_help: "Ole hyvä ja anna sähköpostiosoitteesi, jotta voimme ottaa sinuun yhteyttä tarvittaessa."
+    name: "Nimesi:"
+    name_help: "Ole hyvä ja anna nimesi."
     phone: "Puhelinnumerosi:"
-    phone_help: "Puhelinnumerosi on vapaaehtoista, mutta auttaa meitä yhteyttä sinuun tarvittaessa."
-    question: "Viestisi / kysymys:"
-    question_help: "Ilmoita mahdolliset huomautukset haluat kuulla."
+    phone_help: "Puhelinnumerosi on vapaaehtoista, mutta se auttaa meitä yhteyttä tarvittaessa."
+    question: "Viestisi / kysymyksesi:"
+    question_help: "Liitä mukaan mahdolliset huomautukset haluaisitte kuulla."
     subject: "Aihe:"
-    subject_help: "Pelkkä ilmoitus luonne palautteesi."
+    subject_help: "Yksinkertainen ilmoitus luonne palautetta."
   general: 
     delete_file: "Poista tiedosto"
     send: Lähettää
-    thank_you_contact: "Kiitos viestistäsi. Jäsenen tiimimme Vastaamme sinulle pian."
+    thank_you_contact: "Kiitos viestistäsi. Tiimimme jäsen vastaa sinulle pian."
   muck: 
     activity_templates: 
       welcome: Tervetuloa
     admin: 
       home: Koti
-      my_dashboard: "Oma Dashboard"
-      permissions: Oikeudet
-      themes: Teemat
+      my_dashboard: "My Dashboard"
+      permissions: Permissions
+      themes: Aihealueiden
       users: Käyttäjät
     contact_request: Yhteydenottopyyntö
-    contact_thanks: "Kiitos yhteydenotostasi. Olemme vastaanottaneet sähköpostiviestisi, ja se on kosketuksissa pian."
+    contact_thanks: "Kiitos yhteyttä. Olemme saaneet sähköpostisi ja pian yhteyttä."
     user_greeting: "Hi {{user}},"
     welcome_activity: "Tervetuloa {{application_name}}."

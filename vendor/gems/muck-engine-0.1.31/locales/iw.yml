@@ -1,0 +1,32 @@
+--- 
+iw: 
+  muck: 
+    engine: 
+      choose_country: "בחר מדינה"
+      choose_language: "בחר שפה"
+      choose_state: "בחר מדינה"
+      missing_parent_error: "אנא ציין אובייקט ההורה"
+      select_country_prompt: "אנא בחר ארץ"
+      select_language_prompt: "אנא בחר שפה"
+      select_state_prompt: "אנא בחר מדינה"
+    forms: 
+      please_enter_a_value: "אנא הזן ערך עבור {{label}}"
+    general: 
+      activate: הפעל
+      deactivate: השבת
+      delete: למחוק
+      deleting: "מחיקת ..."
+      disable: לאפשר
+      enable: להשבית
+      enabled: Enabled?
+      general_info: "מידע כללי"
+      help: עזרה
+      next: "הבא »"
+      no_text: לא
+      previous: «קודם
+      read_more: "קרא עוד"
+      save: לשמור
+      settings_saved: "הגדרות נשמרו."
+      time_ago: "לפני {{time_in_words}}"
+      update: עדכון
+      yes_text: כן

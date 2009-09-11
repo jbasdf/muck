@@ -1,0 +1,32 @@
+--- 
+bg: 
+  muck: 
+    engine: 
+      choose_country: "Изберете Държава"
+      choose_language: "Изберете език"
+      choose_state: "Изберете държава"
+      missing_parent_error: "Моля, посочете обект майка"
+      select_country_prompt: "Моля изберете страна"
+      select_language_prompt: "Моля изберете език"
+      select_state_prompt: "Изберете държава"
+    forms: 
+      please_enter_a_value: "Моля, въведете стойност за {{label}}"
+    general: 
+      activate: Активиране
+      deactivate: Деактивиране
+      delete: Изтривам
+      deleting: "Изтриването на ..."
+      disable: Включвам
+      enable: Изключвам
+      enabled: "Е включен?"
+      general_info: "Обща информация"
+      help: Помощ
+      next: "Следваща »"
+      no_text: Не
+      previous: «Назад
+      read_more: "прочети повече"
+      save: Спасявам
+      settings_saved: "Настройките са запазени."
+      time_ago: "{{time_in_words}} Назад"
+      update: Актуализирам
+      yes_text: Да

@@ -1,22 +1,22 @@
 --- 
 iw: 
   contact: 
-    contact_response_subject: "תודה על שאלתך מאת {{application_name}}!"
+    contact_response_subject: "תודה על שאלתך מן {{application_name}}!"
     contact_us: "צור קשר"
     email: "הדוא&quot;ל שלך:"
-    email_help: "אנא ספק לנו את כתובת הדוא&quot;ל שלך כדי שנוכל ליצור איתכם קשר במידת הצורך."
+    email_help: "אנא ספק לנו את הדוא&quot;ל שלך כדי שנוכל ליצור איתך קשר במידת הצורך."
     name: "השם שלך:"
     name_help: "אנא ספק לנו את שמך."
     phone: "מספר הטלפון שלך:"
-    phone_help: "מספר הטלפון שלך הוא אופציונלי, אך יסייע לנו ליצור איתך קשר אם יהיה צורך בכך."
-    question: "את ההודעה / שאלה:"
-    question_help: "נא לכלול הערות אתה רוצה לשמוע אותנו."
+    phone_help: "מספר הטלפון שלך הוא אופציונלי, אך יסייע לנו ליצור איתך קשר במידת הצורך."
+    question: "הודעה / שאלה שלך:"
+    question_help: "נא לכלול הערות כלשהן אתה רוצה לשמוע אותנו."
     subject: "נושא:"
-    subject_help: "הצהרה פשוטה המציין את מהות המשוב שלך."
+    subject_help: "משפט פשוט מצביע על אופי המשוב שלך."
   general: 
-    delete_file: "מחיקת קבצים"
+    delete_file: "מחיקת קובץ"
     send: לשלוח
-    thank_you_contact: "אנו מודים לך על ההודעה. אחד מאנשי הצוות נגיב לך בקרוב."
+    thank_you_contact: "תודה על ההודעה שלך. חבר בצוות שלנו יגיב בהקדם."
   muck: 
     activity_templates: 
       welcome: "ברוך הבא"
@@ -27,6 +27,6 @@ iw:
       themes: "ערכות נושא"
       users: משתמשים
     contact_request: "צור בקשה"
-    contact_thanks: "תודה על יצירת קשר איתנו. קיבלנו את הדוא&quot;ל שלך יהיה על קשר בהקדם."
+    contact_thanks: "תודה על פנייתך אלינו. קיבלנו את הדוא&quot;ל שלך יהיה קשר בקרוב."
     user_greeting: "היי {{user}},"
     welcome_activity: "ברוכים הבאים {{application_name}}."

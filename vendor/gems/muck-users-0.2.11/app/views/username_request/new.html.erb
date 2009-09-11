@@ -1,0 +1,11 @@
+<div id="request-username" class="common-form">
+  <h1><%= t('muck.users.forgot_username') %></h1>
+  <%= output_errors(t('muck.users.request_username'), {:class => 'help-box'}) %>
+  <% custom_form_for :request_username, :url => username_request_path do |f| -%>
+    <p><%= t('muck.users.username_recover_prompt') %></p>
+    <%= f.text_field :email, { :label => t('muck.users.email_address'), :hide_required => true } -%>
+    <div class="button form-row">
+      <%= submit_tag t('muck.users.request_username') %>
+    </div>
+  <% end -%>
+</div>

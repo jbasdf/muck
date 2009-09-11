@@ -1,0 +1,34 @@
+--- 
+et: 
+  muck: 
+    activities: 
+      activity_feed_title: "Recent Activity"
+      add_photos: "Lisa pilte"
+      add_videos: "Jaga Videod"
+      adding_comment_message: "Lisamine kommentaar ..."
+      all_activities: "Kõik Tegevus"
+      clear: Selge
+      create_error: "Probleem lisades nõutud aktiivsus: {{error}}"
+      delete: Kustutama
+      invite_friends: "Kutsu sõpru"
+      item_could_not_be_removed: "Punkt ei saa eemaldada hiljuti tegevuse loetelu."
+      item_created: "Lisatud aktiivsus"
+      item_removed: "Punkt edukalt eemaldatud hiljuti tegevuse loetelu."
+      joined_status: "{{name}} Liitunud {{application_name}}"
+      make_comment: Kommentaar
+      paging_newer: «Uuemad
+      paging_older: "Vanemad »"
+      permission_denied: "Vabandame, sa ei saa seda teha."
+      post: Jagama
+      problem_with_status: "Probleem, muutes oma staatust"
+      status_indicator: "on"
+      status_update_prompt: "Mida sa teed praegu?"
+      template_or_item_required: "Tegevus eeldab malli või toode kuvata õigesti"
+      update_error: "Oih ... Tekkis probleem. {{errors}}"
+      update_status_message: "uuendate staatus!"
+      updating_status_message: "Uuendan oma olekut. Palun oota."
+      upload_files: "Faile üles laadida"
+      write: Kirjutama
+      write_prompt: "Write a comment ..."
+    activity_templates: 
+      status_update: "Status uuendused"

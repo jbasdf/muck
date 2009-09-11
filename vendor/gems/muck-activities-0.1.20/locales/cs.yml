@@ -1,0 +1,34 @@
+--- 
+cs: 
+  muck: 
+    activities: 
+      activity_feed_title: "Nedávná činnost"
+      add_photos: "Přidat fotografie"
+      add_videos: "Share Video"
+      adding_comment_message: "Přidání komentáře ..."
+      all_activities: "Všechny aktivity"
+      clear: Jasný
+      create_error: "Tam byl problém přidat požadované činnosti: {{error}}"
+      delete: Odstranit
+      invite_friends: "Pozvat přátele"
+      item_could_not_be_removed: "Položka nemůže být odstraněna ze seznamu posledních aktivit."
+      item_created: "Added činnost"
+      item_removed: "Položka úspěšně odstraněna ze seznamu posledních aktivit."
+      joined_status: "{{name}} Připojil {{application_name}}"
+      make_comment: Komentář
+      paging_newer: «Novější
+      paging_older: "Starší »"
+      permission_denied: "Je nám líto, nemůžete udělat."
+      post: Sdílet
+      problem_with_status: "Došlo k problému změnou svého postavení"
+      status_indicator: je
+      status_update_prompt: "Co děláte teď?"
+      template_or_item_required: "Činnost vyžaduje šablonu, nebo položku správně zobrazí"
+      update_error: "Jejda ... Tam byl problém. {{errors}}"
+      update_status_message: "aktualizovat svůj stav!"
+      updating_status_message: "Aktualizace váš status. Prosím čekejte."
+      upload_files: "Upload souborů"
+      write: Psát
+      write_prompt: "Napsat komentář ..."
+    activity_templates: 
+      status_update: "Stav aktualizace"

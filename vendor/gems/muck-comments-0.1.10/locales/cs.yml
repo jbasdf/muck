@@ -1,0 +1,18 @@
+--- 
+cs: 
+  muck: 
+    activity_templates: 
+      comment: "Komentář:"
+    comments: 
+      add_comment: Komentář
+      add_comment_button: "Přidat komentář"
+      anonymous: anonymní
+      cant_delete_comment: "Nemáte dostatečná oprávnění k odstranění, že komentář"
+      comment_removed: "Komentář úspěšně odstraněn."
+      create_error: "Nelze vytvořit komentář {{errors}}"
+      create_success: "Úspěšně přidán komentář"
+      missing_comment_template_error: "Nepodařilo se najít částečnou názvem {{partial}}. Prosím vytvořte komentář dílčí a zkuste to znovu."
+      new_comment_email_subject: "Nový komentář od {{name}} na {{application_name}}"
+      new_comment_no_title: "Přidat nový komentář"
+      new_comment_with_title: "Přidat nový komentář {{title}}"
+      problem_adding_comment: "Tam byl problém přidat svůj komentář"

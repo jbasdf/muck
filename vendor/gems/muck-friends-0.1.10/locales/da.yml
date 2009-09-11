@@ -1,0 +1,49 @@
+--- 
+da: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: Venner
+    friends: 
+      acccept_friend_request: "Accepter Friend Request Fra {{user}}"
+      accept: (acceptere)
+      block: "Block {{user}}"
+      block_problem: "Der opstod en fejl blokere {{user}}"
+      blocked: "Blokerede {{user}}"
+      delete: (slet)
+      follow_activity: "{{inviter}} Er nu følgende {{invited}}"
+      followers: Followers
+      following: Følgende
+      following_you: "{{name}} Er nu efter dig på {{application_name}}"
+      friend_request: "{{name}} Har sendt dig en ven anmodning om {{application_name}}"
+      friend_request_links: "{{profile}} Sendt dig en anmodning om venskab {{accept}} {{ignore}}"
+      friend_request_pending: "Anmodning om venskab indtil {{link}}"
+      friend_request_prompt: "Send {{user}} en anmodning om venskab"
+      friend_request_sent: "Ven Anmodning sendt"
+      friends: Venner
+      friends_title: "Mine venner"
+      friends_with: "{{inviter}} Er nu venner med {{invited}}"
+      ignore: (ignore)
+      login: login
+      login_or_sign_up_to_follow: "{{login}} Eller {{signup}} at følge denne bruger"
+      login_or_sign_up_to_friend: "{{login}} Eller {{signup}} at sende anmodninger om venskab"
+      mutual_friends: "Fælles venner"
+      no_followers: "Ingen Followers"
+      no_friends: "Ingen venner"
+      no_mutual_friends: "Ingen fælles venner fundet"
+      not_following_anyone: "Ikke Efter Anyone"
+      problem_adding_follow: "Der var et problem at tilføje {{user}} til din følge listen. Please try again."
+      problem_sending_friend_request: "Der var et problem at sende en anmodning om venskab til {{user}}. Please try again."
+      removed_following_error: "Et problem opstod under forsøget på at unfollow {{user}}"
+      removed_friendship: "Fjernede {{user}} fra dine venner"
+      removed_friendship_error: "Der var et problem at fjerne {{user}} fra din liste over venner"
+      same_inviter_error_message: "Brugeren kan ikke blive venner med dem selv."
+      signup: signup
+      start_following: "Følg {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop Efter {{user}}"
+      stopped_following: "Held stoppet efter {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "Ublokerede {{user}}"
+      view_all: "Se alle"
+      you_are_now_following: "Du er nu følgende {{user}}"

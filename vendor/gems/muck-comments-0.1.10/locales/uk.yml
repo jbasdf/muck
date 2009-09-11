@@ -1,0 +1,18 @@
+--- 
+uk: 
+  muck: 
+    activity_templates: 
+      comment: Коментарів
+    comments: 
+      add_comment: Коментарі
+      add_comment_button: "Додати коментар"
+      anonymous: анонімно
+      cant_delete_comment: "У вас немає дозволу на видалення, що коментар"
+      comment_removed: "Коментарі успішно вилучено."
+      create_error: "Не вдалося створити свій коментар {{errors}}"
+      create_success: "Успішно доданий коментар"
+      missing_comment_template_error: "Не знайшов часткове їм {{partial}}. Будь ласка, створіть коментар часткової і спробуйте знову."
+      new_comment_email_subject: "Новий коментар від {{name}} на {{application_name}}"
+      new_comment_no_title: "Додати новий коментар"
+      new_comment_with_title: "Додати новий коментар до {{title}}"
+      problem_adding_comment: "Був проблема додати свій коментар"

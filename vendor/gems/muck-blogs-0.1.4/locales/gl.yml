@@ -1,0 +1,7 @@
+--- 
+gl: 
+  muck: 
+    blogs: 
+      add_post: "Engadir Mensaxe"
+      add_post_link: "Engadir Mensaxe"
+      blog_title: "Blog para {{title}}"

@@ -1,0 +1,49 @@
+--- 
+pt-PT: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: Amigos
+    friends: 
+      acccept_friend_request: "Accept Friend Request From {{user}}"
+      accept: (aceitar)
+      block: "Block {{user}}"
+      block_problem: "Houve um erro de bloqueio {{user}}"
+      blocked: "Bloqueado {{user}}"
+      delete: (apagar)
+      follow_activity: "{{inviter}} Agora é seguir {{invited}}"
+      followers: Followers
+      following: Seguinte
+      following_you: "{{name}} Agora está seguindo você em {{application_name}}"
+      friend_request: "{{name}} Lhe enviou um pedido de amizade no {{application_name}}"
+      friend_request_links: "{{profile}} Lhe enviou um pedido de amizade {{accept}} {{ignore}}"
+      friend_request_pending: "Amigo pedido {{link}} pendentes"
+      friend_request_prompt: "{{user}} Enviar um pedido de amizade"
+      friend_request_sent: "Friend Request Sent"
+      friends: Amigos
+      friends_title: "My Friends"
+      friends_with: "{{inviter}} É amigos com {{invited}}"
+      ignore: (ignorar)
+      login: "fazer logon"
+      login_or_sign_up_to_follow: "{{login}} Ou {{signup}} para seguir este usuário"
+      login_or_sign_up_to_friend: "{{login}} Ou {{signup}} para enviar solicitações de amigo"
+      mutual_friends: "Mutual Friends"
+      no_followers: "No Followers"
+      no_friends: "No friends"
+      no_mutual_friends: "Não encontrou amigos em comum"
+      not_following_anyone: "Quem não seguir"
+      problem_adding_follow: "Houve um problema adicionando {{user}} à sua lista de acompanhamento. Por favor, tente novamente."
+      problem_sending_friend_request: "Houve um problema ao enviar uma solicitação de amigo para {{user}}. Por favor, tente novamente."
+      removed_following_error: "Um problema ocorreu durante a tentativa de unfollow {{user}}"
+      removed_friendship: "{{user}} Removido de seus amigos"
+      removed_friendship_error: "Houve um problema removendo {{user}} da sua lista de amigos"
+      same_inviter_error_message: "O usuário não pode tornar-se amigos com themself."
+      signup: Inscrição
+      start_following: "Siga {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Após parar {{user}}"
+      stopped_following: "Parado com êxito seguinte {{user}}"
+      unblock: "Desbloquear {{user}}"
+      unblocked: "{{user}} Desbloqueou"
+      view_all: "Ver Todos"
+      you_are_now_following: "Está agora a seguir {{user}}"

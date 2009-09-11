@@ -1,0 +1,141 @@
+--- 
+iw: 
+  muck: 
+    activity_templates: 
+      entry_comment: תגובה
+    raker: 
+      add_extended_feed_sub_title: "לתרום מקור נתונים חדש"
+      add_extended_feed_title: "הוסף עדכון חדש"
+      add_feed: "Add Feed"
+      add_feed_advanced: "הוסף הזנת (מתקדם)"
+      add_feed_title: "הוסף עדכון חדש"
+      add_feed_url: "כתובת האתר:"
+      all_resources: "כל משאבי"
+      already_added_uri_feed: "אתה כבר הוסיף את כתובת {{uri}}"
+      already_added_username_feed: "אתה כבר התווסף חשבון {{service}} עם {{username}} שם המשתמש"
+      already_shared: "יש לך מקור משותף בעבר."
+      amazon_prompt: "אנא הזן את הדוא&quot;ל אתה משתמש עם Amazon.com"
+      atom: Atom
+      available_services: "השירותים הזמינים"
+      ban_feed: "להאכיל כמו מארק לנכים"
+      banned: אסרה
+      blogger_prompt: "כתובת האתר של הבלוג שלך"
+      calculated: מחושב
+      cant_modify_identity_feed: "אין לך הרשאה לגשת להאכיל שצוין."
+      choose_service: "בחר שירות:"
+      close: סגור
+      collection_description: "אוסף תיאור:"
+      collection_home_uri: "כתובת אוסף של דף הבית"
+      collection_uri: "כתובת של אוסף Metadata:"
+      collections: אוספים
+      collections_long: "אוספים אינדקס"
+      comment_entries_count: 
+        one: "1 תגובה"
+        other: "תגובות {{count}}"
+      course_search_results: "קורסים <b>{{first}} - {{last}}</b> של <b>{{total}}</b> עבור <b>{{terms}}</b> חיפוש"
+      course_tag_results: "קורסים <b>{{first}} - {{last}}</b> של <b>{{total}}</b> tagged <b>{{terms}}</b>"
+      courses_tag_cloud_label: "קורסים לגלוש באמצעות התגים <a href=\"/resources\">[לדפדף כל המשאבים]</a>"
+      demo: הדגמה
+      description: תיאור
+      details: פרטים
+      developers_long: "מידע עבור מפתחים"
+      direct_link: "[קישור ישיר]"
+      discover_feed: "גלה Feed"
+      discover_feed_message: "מחפש מידע על כתובת האתר שמסרת. אנא המתן."
+      display_url: "כתובת האתר שתוצג:"
+      entry_commment_contents: "תגובות על {{resource}}"
+      facebook_instructions: "בדף הקישורים שלי, לחץ לחיצה ימנית על &#39;קשר&#39; שלי, להעתיק את הקישור. אנחנו באופן אוטומטי כוללים, מעמד, קישורים והערות."
+      facebook_link: "אתה יכול למצוא את כתובת האתר שלך בעמוד פייסבוק שלי שלך קשר. {{link}} ולאחר מכן לחץ על &quot;קישורים שלי&quot;"
+      facebook_notes: "הערות פייסבוק"
+      facebook_notifications: "הודעות פייסבוק"
+      facebook_prompt: "פייסבוק הקישורים שלי כתובת האתר שלך"
+      facebook_shares: "פייסבוק משותפים קשר"
+      failed_harvests: "היבול נכשל"
+      failed_last_request: "נכשל הבקשה האחרונה: {{error}}"
+      feed_banned_message: "Feed נאסר בהצלחה."
+      feed_successfully_created: "Feed נוצר בהצלחה."
+      feed_successfully_updated: "Feed עודכן בהצלחה."
+      feed_validated_message: "Feed היה אומת בהצלחה."
+      feeds_title: "אוספים נרשם"
+      for: עבור
+      friendfeed_prompt: "FriendFeed כתובת RSS"
+      friendfeed_rss: "אתה יכול למצוא את כתובת האתר שלך בתחתית {{link}}. שלך"
+      gm_more_prompt: "יותר משאבים קשורים"
+      gm_title: "משאבים קשורים"
+      goodreads_prompt: "Goodreads פרופיל כתובת"
+      goodreads_rss: "למשל, http://www.goodreads.com/user/show/1111"
+      harvest_interval: "מרווח קציר (שעות)"
+      harvested_at: "שנקטפו ב"
+      hide: להסתיר
+      identity_feed_removed: "הוסר שירות"
+      identity_feeds: "הזנות זהות"
+      import_service: "{{service}} ייבוא"
+      linkedin_prompt: "פרופיל LinkedIn הציבור כתובת"
+      linkedin_rss: "אתה יכול למצוא את כתובת האתר שלך בתחתית {{link}}. שלך"
+      loading_content_image: "טוען תמונה התוכן"
+      login: כניסה
+      login_or_signup_prompt: "{{signup}} או {{login}} לדון לשתף משאבים."
+      login_to_comment: "התחבר כדי להוסיף הערה"
+      metadata: מטה
+      my_services: "השירותים שלי"
+      narrow_further: "צר תוצאות נוספות"
+      netflix_prompt: "נטפליקס תור RSS כתובת"
+      netflix_rss: "אתה יכול למצוא את כתובת האתר שלך על {{link}}. שלך שים לב כי ישנם מספר הזנות זמין ב נטפליקס שלך בדף תור (תור, המלצות, ביקורות סרטים, וכו &#39;). הוסף כמה שאתה רוצה!"
+      new_global_feed: "עדכון חדש נוספה {{application_name}}"
+      next: הבא
+      next_label: הבא
+      no_feeds_at_uri: "לא הצלחנו למצוא את כתובת האתר נתון"
+      no_feeds_from_username: "לא יכולנו למצוא את החשבון נתן"
+      no_hits: "חיפוש - <b>{{search}}</b> - לא תאם כל <b>{{resource_type}}.</b> אנא נסה חיפוש שונה או בחר בשפה שונה."
+      no_tagged_courses: "אין <b>קורסים</b> נמצאו tagged with <b>{{tags}}.</b> <a href='/resources'>התחל מחדש</a> או להציג <a href='/resources/tags/{{tags}}'>את כל המשאבים tagged {{tags}}.</a>"
+      no_tagged_resources: "לא נמצאו <b>משאבים</b> tagged with <b>{{tags}}.</b> <a href='/resources'>התחל מחדש.</a>"
+      no_tags: "עדיין אין תגיות זמין"
+      oai_prompt: "אם תציין OAI, עליך לציין את כתובת האתר המלאה לבקשה ListRecords (לא רק קצה OAI)"
+      of: של
+      ok: אישור
+      only_courses: "רק קורסים"
+      polyvore_prompt: "Polyvore פרופיל כתובת"
+      polyvore_rss: "פרופיל Polyvore כתובת האתר שלך נראה כמו http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "מופעל על ידי"
+      previous: קודם
+      previous_label: קודם
+      problem_adding_feed: "היתה בעיה להוסיף את ההזנה:"
+      rdf: RDF
+      related_resources: בנושא
+      related_resources_title: "משאבים קשורים"
+      relevance: הרלוונטיות
+      remix: Remix
+      repository_short_title: "מאגר תאור קצר:"
+      repository_title: "מאגר כותרת:"
+      resource_search_results: "משאבים <b>{{first}} - {{last}}</b> של <b>{{total}}</b> עבור <b>{{terms}}</b> חיפוש"
+      resource_tag_results: "משאבים <b>{{first}} - {{last}}</b> של <b>{{total}}</b> tagged <b>{{terms}}</b>"
+      resources_tag_cloud_label: "דפדף משאבים באמצעות התגים <a href=\"/resources?grain_size=course\">[עיון קורסים בלבד]</a>"
+      results: תוצאות
+      rss: RSS
+      rss_url: "Url-RSS שלך"
+      search: חיפוש
+      search_button: "לעבור אל"
+      search_link: "מצא משאבים!"
+      select_feeds_prompt: "בחר את הזנות שאתה רוצה להוסיף:"
+      select_service_prompt: "אנא בחר שירות"
+      service_username: "שם המשתמש {{service}}"
+      share: לשתף
+      short_title: "כותרת קצרה:"
+      show_tagged_courses: "להראות רק קורסים"
+      show_tagged_resources: "להראות כל סוג של משאב"
+      signup: הרשם
+      spinner_image: "מחכה תמונה"
+      start_over: "להתחיל מחדש"
+      status: מצב
+      submitting_feed_message: "שליחת העדכון שלך ..."
+      successfully_added_uri_feed: "נוסף בהצלחה {{uri}}"
+      successfully_added_username_feed: "נוסף בהצלחה {{service}}"
+      tags: תגיות
+      title: כותר
+      type_of_metadata: "סוג Metadata:"
+      uri: Url
+      validate_feed: "להאכיל מארק תקפה"
+      visit: בקר
+      xml: XML
+      zotero_group_prompt: "קבוצה Zotero כתובת"
+      zotero_group_rss: "קבוצה Zotero כתובת האתר שלך נראה כמו: http://www.zotero.org/groups/adventures_in_library_instruction/items"

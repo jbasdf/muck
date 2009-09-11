@@ -1,0 +1,129 @@
+--- 
+ja: 
+  muck: 
+    roles: 
+      assign_role: 役割の割り当て
+      edit_roles: "[編集]役割"
+      remove_role: を削除する役割
+      role_created: ロールが正常に作成されました。
+      roles: ロール
+    users: 
+      access_denied: アクセス許可は要求されたページにアクセスする必要はありません。
+      account_activated: あなたのアカウントが有効にされています！今すぐログインすることができます。
+      account_not_activated: "あなたの{{application_name}}アカウントがまだアクティブ化されていません。"
+      activation_complete: 活性化を完了
+      activation_instructions: アクティベーションの手順
+      activation_not_found: アクティベーションコードが見つかりません。してください新しいアカウントを作成してください。
+      admin: 
+        activate_all_inactive_users: アクティブにすべてのアクティブユーザー
+        activate_all_inactive_users_confirm: あなたには、システム内のすべての非アクティブユーザーを有効にしてよろしいですか？これは元に戻すことはできません！
+        search_users: ユーザーを検索
+        show_emails: 地図をメール
+        unactivated_users: "ようこそ{{count}} unactivatedユーザーがいる"
+      admin_users_title: ユーザ管理
+      all_users: すべてのユーザー
+      already_activated: お客様のアカウントは既に有効になっている。あなたの下には、ログインすることができます。
+      already_logged_in: あなたが既に記録され、あなたのパスワードを回復する必要はありません。
+      already_registered: すでにメンバー？
+      application_base_url_not_set: "どうぞglobal_config.yml application_base_url設定"
+      cannot_deactivate_yourself: あなた自身を無効にすることはできません！
+      change_password: パスワードの変更
+      change_your_password: パスワードを変更する
+      choose_member_name: メンバー名
+      complete_profile: 完全にあなたのプロフィール
+      confirm_delete_account: "あなたがあなたのアカウントを削除しますか？しています\\ nこの元に戻すことはできません。"
+      confirm_password: パスワードの確認
+      confirm_select_new_password: パスワードの確認変更
+      could_not_find_reset_code: パスワードをリセットするコードを見つけることができませんでした。もう一度パスワードをリセットしてください。
+      could_not_find_user_with_email: は、電子メールアドレスを持つユーザーを見つけることができませんでした。
+      current_password: 現在のパスワード
+      delete_my_account: すべてのデータは自分のユーザーアカウントを削除します。
+      delete_this_user: このユーザーを削除します。
+      edit_profile: プロフィールを編集
+      email_address: 電子メールアドレス
+      email_available: ご利用メール
+      email_empty: してください電子メールアドレスを入力します。
+      email_help: 有効な、現在の電子メールアドレスを使用します。私たちと共有しませんか、またはあなたの電子メールアドレスは、スパム。
+      email_invalid: 無効な電子メール
+      email_not_available: "メールですでに使用されている。 {{reset_password_help}}"
+      email_recover_prompt: してくださいあなたのパスワードを回復するためにサインアップし、電子メールを提供します。
+      first_name: 名前
+      forgot_password: パスワードを忘れた場合
+      forgot_username: ユーザー名を忘れた
+      forgot_your_password: パスワードをお忘れですか？
+      forgot_your_username: あなたのユーザ名を忘れましたか？
+      invalid_username: 無効なユーザー名
+      join_application_name: 参加して、それを成し遂げる
+      last_name: 姓
+      login_empty: してくださいログイン情報を入力
+      login_fail: 大変申し訳ございませんが、お客様のログイン情報を認識できませんでした。もう一度やり直してください。
+      login_out_success: ログアウトしています。
+      login_requred: この機能にアクセスするには、ログインする必要があります。
+      login_success: ログインに成功！
+      login_title: ログインアカウントには、
+      logout_required: ~
+      my_dashboard: マイダッシュボード
+      name: 名前
+      navigation: 
+        all_users: すべてのユーザー
+        inactive_users: 非アクティブユーザー
+        search_users: ユーザーを検索
+      new_password_doesnt_match: 新しいパスワードは、パスワード確認が一致していません。
+      old_password_incorrect: 古いパスワードが間違っています。
+      password: パスワード
+      password_cannot_be_blank: "[Password]フィールドを空白にすることはできません。"
+      password_confirmation_help: あなたのパスワードをもう一度ここに入力してください正しいことを確認してください。
+      password_help: パスワードは少なくとも6文字の長さにする必要があります。ミックス上限と下限の場合、文字と数字だけの作品
+      password_mismatch: パスワードが一致しません。
+      password_not_reset: パスワードをリセットできません。
+      password_reset: パスワードをリセットします。
+      password_reset_email_subject: "あなたの{{application_name}}パスワードの変更を要求している"
+      password_reset_link_sent: 手順をメールで送信されているパスワードをリセットします。あなたの電子メールをチェックします。
+      password_updated: パスワードが正常に更新されます。
+      permission_denied: アクセス許可は要求された操作を完了する必要はありません。
+      problem_changing_password: "問題があるパスワードを変更された。 {{errors}}"
+      problem_creating_account: 問題があるアカウントを作成されました。下記のエラーを修正する：
+      problem_editing_account: 問題があるお客様の情報を更新し続けた。
+      recover_password: パスワードの回復
+      recover_password_prompt: （もし）あなたのパスワードをここでは回復を忘れて
+      register_account: "登録{{application_name}}アカウント"
+      register_for_account: 登録アカウント
+      remember_me: 私記憶
+      remove_my_account: 削除マイアカウント
+      request_username: リクエスト名
+      request_username_subject: 忘れ名
+      reset_password: リセットパスワード
+      reset_your_password: リセットパスワード
+      select_new_password: "を選択し、[新しいパスワード]"
+      sign_in: ログイン
+      sign_in_now: 今すぐログイン！
+      sign_in_title: ログイン
+      sign_out_title: サインアウト
+      sign_up: サインアップ
+      sign_up_now: サインアップ今
+      sorry_invalid_reset_code: 大変申し訳ございませんが、お客様のアカウントを見つけることができませんでした。場合の問題をコピーして、あなたのメールからお使いのブラウザにURLを貼り付けたり、パスワードのリセットプロセスの再起動を行っている。
+      terms_and_service: "をクリックする&#39;にサインアップ今&#39;を{{tos_link_anchor}}利用規約{{link_end}}.に従うことに同意することにより"
+      thanks_sign_up: お申し込みいただきありがとうございます！
+      thanks_sign_up_check: お客様のアカウントが作成されています。あなたのアカウントのアクティベーション手順については、電子メールをチェック！
+      thanks_sign_up_login: お申し込みいただきありがとうございます！今すぐログインすることも
+      update_profile: プロファイル
+      update_user: アップデートを適用するユーザー情報
+      user_account_deleted: 正常にアカウントを削除している。
+      user_disable_problem: 問題がある、このユーザーを無効にされた。
+      user_disabled: ユーザーが無効に
+      user_enable_problem: 問題がある、このユーザーを有効にされた。
+      user_enabled: 有効なユーザー
+      user_marked_active: ユーザがアクティブとしてマークされている
+      user_marked_inactive: ユーザーが非アクティブとしてマークされている
+      user_successfully_deleted: "ユーザー{{login}}が正常に削除されました。"
+      user_update: ユーザ情報が更新されている。
+      username: ユーザー名
+      username_available: ユーザー名は使用
+      username_help: を6と20の間の文字を使用することができます。する場合は、名前を利用されていない数字や句読点を追加してください。
+      username_not_available: ユーザー名は使用できません
+      username_recover_prompt: してくださいするときに、アカウントの作成に使用した電子メールを提供し、お客様のユーザー名をメールで送信されます。
+      username_sent: あなたのユーザ名をメールで送信されています。してくださいあなたの電子メールをチェックします。
+      welcome: ようこそ
+      welcome_email_subject: "ようこそ{{application_name}}する"
+      welcome_message: ようこそ小屋の掃除をする。このシステムはあなたのウェブサイトの構築を支援するために基本的なコンポーネントを提供します。
+      what_is_the_email: どのような電子メールアドレスのアカウントを作成するために使用ですか？

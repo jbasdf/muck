@@ -1,0 +1,32 @@
+--- 
+ja: 
+  muck: 
+    engine: 
+      choose_country: 国を選択
+      choose_language: 言語を選択
+      choose_state: 都道府県を選んで
+      missing_parent_error: してください親オブジェクトを指定する
+      select_country_prompt: してください国を選択
+      select_language_prompt: してください言語を選択
+      select_state_prompt: してください。状態を選択
+    forms: 
+      please_enter_a_value: "してください。{{label}}の値を入力します。"
+    general: 
+      activate: アクティブ化
+      deactivate: 非アクティブ化
+      delete: 削除する
+      deleting: 削除...
+      disable: 有効にする
+      enable: 無効にする
+      enabled: 有効かどうか
+      general_info: 一般的な情報
+      help: ヘルプ
+      next: 次のページ»
+      no_text: いいえ
+      previous: «前のページ
+      read_more: 続きを読む
+      save: 保存する
+      settings_saved: 設定が保存されている。
+      time_ago: "{{time_in_words}}前"
+      update: 更新する
+      yes_text: はい

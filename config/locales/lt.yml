@@ -3,30 +3,30 @@ lt:
   contact: 
     contact_response_subject: "Ačiū už klausimą iš {{application_name}}!"
     contact_us: Kontaktai
-    email: "Jūsų elektroninio pašto adresas:"
-    email_help: "Pateikite mums savo elektroninio pašto adresą, kad galėtume su jumis susisiekti, jei reikia."
+    email: "Jūsų email:"
+    email_help: "Prašome pateikti mums savo elektroninio pašto adresą, kad galėtume su Jumis susisiekti, jei reikia."
     name: "Jūsų vardas:"
-    name_help: "Prašome nurodyti savo vardą."
+    name_help: "Prašome pateikti mums savo vardą."
     phone: "Jūsų telefono numeris:"
-    phone_help: "Jūsų telefono numeris yra neprivalomas, bet leis mums susisiekti su Jumis, jei reikia."
+    phone_help: "Jūsų telefono numeris yra neprivalomas, bet leis mums su jumis susisiekti, jei reikia."
     question: "Jūsų pranešimas / klausimas:"
-    question_help: "Prašome pateikti bet kokias pastabas norite išgirsti."
+    question_help: "Prašome pateikti pastabas norėtumėte, kad būtų išgirsti."
     subject: "Tema:"
-    subject_help: "Paprasta nurodantis pobūdį jūsų atsiliepimus."
+    subject_help: "Paprastas teiginys apie jūsų atsiliepimus pobūdis."
   general: 
     delete_file: "Ištrinti failą"
     send: Siųsti
-    thank_you_contact: "Dėkojame už pranešimą. Narys mūsų komandai bus atsakyti jums netrukus."
+    thank_you_contact: "Dėkojame už pranešimą. Mūsų komandos narys turės atsakyti Jumis."
   muck: 
     activity_templates: 
-      welcome: "Sveiki atvykę"
+      welcome: Sutikti
     admin: 
       home: Namai
-      my_dashboard: "Mano Įrankinė"
+      my_dashboard: "Mano skydelis"
       permissions: Leidimai
       themes: Temos
       users: Vartotojai
     contact_request: "Kontaktai Užklausa"
-    contact_thanks: "Dėkojame už susisiekti su mumis. Mes gavome jūsų laišką ir bus susisiekti greičiau."
-    user_greeting: "Max {{user}},"
+    contact_thanks: "Dėkojame už susisiekti su mumis. Mes gavome Jūsų laišką ir su jumis artimiausiu metu."
+    user_greeting: "Hi {{user}},"
     welcome_activity: "Sveiki atvykę į {{application_name}}."

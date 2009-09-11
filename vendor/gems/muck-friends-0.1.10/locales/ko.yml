@@ -1,0 +1,49 @@
+--- 
+ko: 
+  muck: 
+    activity_templates: 
+      follow: 추종자
+      friends_with: 친구들
+    friends: 
+      acccept_friend_request: "친구 요청을 수락에서 {{user}}"
+      accept: "() 동의"
+      block: "블록 {{user}}"
+      block_problem: "저기 {{user}} 차단 오류가 발생했습니다"
+      blocked: "차단된 {{user}}"
+      delete: "() 삭제"
+      follow_activity: "{{inviter}} 이제 다음과 같은 {{invited}}입니다"
+      followers: 추종자
+      following: 다음
+      following_you: "{{name}} 지금 {{application_name}}에서 다음입니다"
+      friend_request: "{{name}} 당신 {{application_name}}에 친구 요청을 보냈습니다"
+      friend_request_links: "{{profile}} 당신 {{accept}} {{ignore}} 친구 요청을 보냈습니다"
+      friend_request_pending: "친구 요청을 보류 {{link}}"
+      friend_request_prompt: "친구 신청 {{user}} 보내기"
+      friend_request_sent: "친구 요청을 보냈습"
+      friends: 친구들
+      friends_title: "나의 친구"
+      friends_with: "{{inviter}} 지금 {{invited}}들과 친구가"
+      ignore: "()을 무시"
+      login: 로그인
+      login_or_sign_up_to_follow: "{{login}} 또는 {{signup}}이 사용자에 따라"
+      login_or_sign_up_to_friend: "{{login}} 또는 {{signup}} 친구 요청을 보내도록"
+      mutual_friends: "상호 친구"
+      no_followers: "아니 추종자"
+      no_friends: 친구가없습니다
+      no_mutual_friends: "서로 친구를 찾을 수 없음"
+      not_following_anyone: "아니 누구와도 같이"
+      problem_adding_follow: "거기에 문제가 목록에 귀하의 {{user}}에 따라 추가했다. 다시 시도해주십시오."
+      problem_sending_friend_request: "거기에 문제가 {{user}}.에게 친구 요청을 전송했습니다 다시 시도해주십시오."
+      removed_following_error: "반면 {{user}} unfollow하려는 문제가 발생했습니다"
+      removed_friendship: "친구에서 삭제 {{user}}"
+      removed_friendship_error: "거기에 문제가 친구 목록에서 제거했습니다 {{user}}"
+      same_inviter_error_message: "사용자 스스로가 친구가 될 수없습니다."
+      signup: 가입
+      start_following: "{{user}}에 따라"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "다음 {{user}} 그만"
+      stopped_following: "성공적으로 다음과 같은 중지 {{user}}"
+      unblock: "차단 {{user}}"
+      unblocked: "차단을 해제 {{user}}"
+      view_all: 전체보기
+      you_are_now_following: "이제 다음과 같은 위치 {{user}}"

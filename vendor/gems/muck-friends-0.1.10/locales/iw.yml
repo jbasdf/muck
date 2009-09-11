@@ -1,0 +1,49 @@
+--- 
+iw: 
+  muck: 
+    activity_templates: 
+      follow: Followers
+      friends_with: חברים
+    friends: 
+      acccept_friend_request: "קבל לחבר בקשה {{user}}"
+      accept: (מקבל)
+      block: "בלוק {{user}}"
+      block_problem: "אירעה שגיאה חסימת {{user}}"
+      blocked: "החסומים {{user}}"
+      delete: (למחוק)
+      follow_activity: "{{inviter}} עכשיו הבא {{invited}}"
+      followers: Followers
+      following: הבא
+      following_you: "{{name}} עכשיו אתה הבאות על {{application_name}}"
+      friend_request: "{{name}} שלח לך בקשת חברות ב {{application_name}}"
+      friend_request_links: "{{profile}} שלח לך בקשת חברות {{accept}} {{ignore}}"
+      friend_request_pending: "בקשה לחבר {{link}} ממתינים"
+      friend_request_prompt: "שלח {{user}} בקשת חבר"
+      friend_request_sent: "חבר הבקשה נשלחה"
+      friends: חברים
+      friends_title: "החברים שלי"
+      friends_with: "{{inviter}} הוא עכשיו עם חברים {{invited}}"
+      ignore: (להתעלם)
+      login: כניסה
+      login_or_sign_up_to_follow: "{{login}} או {{signup}} לעקוב המשתמש הזה"
+      login_or_sign_up_to_friend: "{{login}} או {{signup}} לשלוח בקשות לחבר"
+      mutual_friends: "חברים משותפים"
+      no_followers: "לא Followers"
+      no_friends: "אין חברים"
+      no_mutual_friends: "לא נמצאו חברים משותפים"
+      not_following_anyone: "לא בעקבות מישהו"
+      problem_adding_follow: "היתה בעיה {{user}} הוספת לעקוב ברשימה שלך. אנא נסה שנית."
+      problem_sending_friend_request: "היתה בעיה שליחת בקשה חבר {{user}}. אנא נסה שנית."
+      removed_following_error: "בעיה אירעה בעת שניסה unfollow {{user}}"
+      removed_friendship: "הוסר {{user}} מחבריך"
+      removed_friendship_error: "היתה בעיה {{user}} הסרה מרשימת החברים שלך"
+      same_inviter_error_message: "משתמש לא יכולים להיות ידידים עם עצמם."
+      signup: הרשמה
+      start_following: "בצע {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "עצור {{user}} בעקבות"
+      stopped_following: "בהצלחה עצר הבאות {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "{{user}} חסומות"
+      view_all: "הצג הכל"
+      you_are_now_following: "כעת אתה הבא {{user}}"

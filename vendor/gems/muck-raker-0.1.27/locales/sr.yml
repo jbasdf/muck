@@ -1,0 +1,141 @@
+--- 
+sr: 
+  muck: 
+    activity_templates: 
+      entry_comment: Коментар
+    raker: 
+      add_extended_feed_sub_title: "Доприносе нов извор на податоци"
+      add_extended_feed_title: "Додај нови феед"
+      add_feed: "Додај феед"
+      add_feed_advanced: "Додај феед (опција)"
+      add_feed_title: "Додај нови феед"
+      add_feed_url: "Урл:"
+      all_resources: "Сви извори"
+      already_added_uri_feed: "Већ сте додали УРЛ {{uri}}"
+      already_added_username_feed: "Већ сте додали {{service}} налог са корисничким именом {{username}}"
+      already_shared: "Претходно сте дели ове странице."
+      amazon_prompt: "Молимо Вас да унесете е-адресу коју користите са Амазон.цом"
+      atom: Атом
+      available_services: "Доступне услуге"
+      ban_feed: "Означи хранити као неважећи"
+      banned: забрањен
+      blogger_prompt: "УРЛ вашег блог"
+      calculated: израчунати
+      cant_modify_identity_feed: "Немате дозволу да приступите наведене хране."
+      choose_service: "Одаберите услугу:"
+      close: Затворити
+      collection_description: "Колекција Опис:"
+      collection_home_uri: "Адреса збирке Насловна"
+      collection_uri: "Адреса Метаподаци колекције:"
+      collections: Збирке
+      collections_long: "Индексед Збирке"
+      comment_entries_count: 
+        one: "1 коментар"
+        other: "{{count}} Коментари"
+      course_search_results: "Курсеви <b>{{first}} - {{last}}</b> од <b>{{total}}</b> за претрагу <b>{{terms}}</b>"
+      course_tag_results: "Курсеви <b>{{first}} - {{last}}</b> од <b>{{total}}</b> означене <b>{{terms}}</b>"
+      courses_tag_cloud_label: "прегледајте курсеве помоћу ознаке <a href=\"/resources\">[прегледате све изворе]</a>"
+      demo: Демо
+      description: Опис
+      details: Детаљи
+      developers_long: "Информације за програмере"
+      direct_link: "[Дирецт линк]"
+      discover_feed: "Откријте Субсцрибе"
+      discover_feed_message: "Траже информације о УРЛ који сте дали. Молимо сачекајте."
+      display_url: "Урл који ће бити приказани:"
+      entry_commment_contents: "коментарисао {{resource}}"
+      facebook_instructions: "Моји Линкови на страници, кликните десним тастером миша на &#39;Моја веза &quot;и копирајте линк. Ми ћемо аутоматски укључују, статус везе и ноте."
+      facebook_link: "Можете пронаћи свој УРЛ на Фацебоок-Моји Линкови странице. {{link}} А затим кликните на &#39;Моја веза &quot;"
+      facebook_notes: "Фацебоок Белешке"
+      facebook_notifications: "Фацебоок Обавештења"
+      facebook_prompt: "Моји Линкови на Фејсбуку УРЛ адреса"
+      facebook_shares: "Фацебоок Заједничка Линкови"
+      failed_harvests: "Неуспело жетва"
+      failed_last_request: "Последњи захтев није успео: {{error}}"
+      feed_banned_message: "Феед успешно је забрањен."
+      feed_successfully_created: "Феед је успешно креиран."
+      feed_successfully_updated: "Феед је успешно ажуриран."
+      feed_validated_message: "Феед је успешно потврђене."
+      feeds_title: "Регистровани Збирке"
+      for: за
+      friendfeed_prompt: "ФриендФеед УРЛ адресу РСС Феед"
+      friendfeed_rss: "Можете наћи ваш УРЛ у дну {{link}}."
+      gm_more_prompt: "Више Сродни ресурси"
+      gm_title: "Слични извори"
+      goodreads_prompt: "Гоодреадс УРЛ адресе профил"
+      goodreads_rss: "нпр хттп://ууу.гоодреадс.цом/усер/схоу/1111"
+      harvest_interval: "Жетва интервала (сати)"
+      harvested_at: "Добиен на"
+      hide: Сакрити
+      identity_feed_removed: "Уклоњено служби"
+      identity_feeds: "Идентитет Феедови"
+      import_service: "Увоз {{service}}"
+      linkedin_prompt: "ЛинкедИн УРЛ адресе јавни профил"
+      linkedin_rss: "Можете наћи ваш УРЛ у дну {{link}}."
+      loading_content_image: "Учитавање садржаја слике"
+      login: Пријављивање
+      login_or_signup_prompt: "{{signup}} Или {{login}} да разговарају и деле ресурсе."
+      login_to_comment: "Улогуј се да бисте додали коментар"
+      metadata: Метаподаци
+      my_services: "Моји Сервиси"
+      narrow_further: "уска резултати даље"
+      netflix_prompt: "Нетфликс ред УРЛ адресу РСС Феед"
+      netflix_rss: "Можете пронаћи Ваш УРЛ на {{link}}. Имајте на уму да постоји неколико изводи доступни на вашој страници Нетфликс ред (ред, Препоруке, филмова Рецензије, итд). Додати колико год желите!"
+      new_global_feed: "Нови фид је додат {{application_name}}"
+      next: Следећи
+      next_label: Следећи
+      no_feeds_at_uri: "Нисмо могли наћи дати УРЛ"
+      no_feeds_from_username: "Нисмо могли наћи дати налог"
+      no_hits: "Ваша претрага - <b>{{search}}</b> - не одговара ниједном <b>{{resource_type}}.</b> Покушајте другу претрагу или изаберите други језик."
+      no_tagged_courses: "Нема <b>курсеви</b> су пронађена Таггед уитх <b>{{tags}}</b> <a href='/resources'>Почните поново,</a> или показују <a href='/resources/tags/{{tags}}'>све ресурсе означене {{tags}}..</a>"
+      no_tagged_resources: "Нема <b>средства</b> су пронађена Таггед уитх <b>{{tags}}</b> <a href='/resources'>Почните поново..</a>"
+      no_tags: "Нема тагова на располагању још"
+      oai_prompt: "Ако наведете ОАИ, морате навести пуни УРЛ до ЛистРецордс захтев (а не само крајње тачке ОАИ)"
+      of: од
+      ok: "У реду"
+      only_courses: "Само Курсеви"
+      polyvore_prompt: "Полыворе УРЛ адресе профил"
+      polyvore_rss: "Ваш профил Полыворе УРЛ адреса изгледа хттп://ууу.полыворе.цом/цги/профиле?ид=00000"
+      powered_by: "Поуеред бы"
+      previous: Претходни
+      previous_label: Претходни
+      problem_adding_feed: "Дошло је до проблема са додавањем хране:"
+      rdf: РДФ
+      related_resources: повезани
+      related_resources_title: "Слични извори"
+      relevance: релевантности
+      remix: Ремикс
+      repository_short_title: "Ризнице Кратки Наслов:"
+      repository_title: "Репозиториј Наслов:"
+      resource_search_results: "Ресурси <b>{{first}} - {{last}}</b> од <b>{{total}}</b> за претрагу <b>{{terms}}</b>"
+      resource_tag_results: "Ресурси <b>{{first}} - {{last}}</b> од <b>{{total}}</b> означене <b>{{terms}}</b>"
+      resources_tag_cloud_label: "Броусе ресурса помоћу ознаке <a href=\"/resources?grain_size=course\">[претражујете само курсеви]</a>"
+      results: Резултати
+      rss: "РСС Феед"
+      rss_url: "УРЛ за РСС Феед"
+      search: претраживати
+      search_button: Ићи
+      search_link: "Пронађи ресурси!"
+      select_feeds_prompt: "Изаберите феед који желите да додате:"
+      select_service_prompt: "Молимо изаберите услугу"
+      service_username: "{{service}} Име"
+      share: Поделити
+      short_title: "Кратак наслов:"
+      show_tagged_courses: "Прикажи само курсеви"
+      show_tagged_resources: "показују било какав ресурс"
+      signup: "Пријавите се"
+      spinner_image: "Чекајући слику"
+      start_over: "Почните поново"
+      status: Статус
+      submitting_feed_message: "Слање фида ..."
+      successfully_added_uri_feed: "Успешно додато {{uri}}"
+      successfully_added_username_feed: "Успешно додато {{service}}"
+      tags: ознаке
+      title: Наслов
+      type_of_metadata: "Врста Метаподаци:"
+      uri: Урл
+      validate_feed: "Означи хранити као важећи"
+      visit: посетите
+      xml: "КСМЛ -"
+      zotero_group_prompt: "Зотеро УРЛ групе"
+      zotero_group_rss: "Ваш Зотеро УРЛ групе изгледа овако: хттп://ууу.зотеро.орг/гроупс/адвентурес_ин_либрары_инструцтион/итемс"

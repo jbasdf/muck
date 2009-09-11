@@ -1,22 +1,22 @@
 --- 
 cs: 
   contact: 
-    contact_response_subject: "Děkujeme za váš dotaz z {{application_name}}!"
+    contact_response_subject: "Díky za váš dotaz z {{application_name}}!"
     contact_us: "Kontaktujte nás"
-    email: "Váš email:"
-    email_help: "Poskytněte nám prosím Váš e-mail tak, že vás můžeme kontaktovat v případě potřeby."
+    email: "Váš e-mail:"
+    email_help: "Sdělte nám prosím svůj e-mail, aby vás mohli kontaktovat v případě potřeby."
     name: "Vaše jméno:"
     name_help: "Pokud nám poskytnete své jméno."
     phone: "Vaše telefonní číslo:"
-    phone_help: "Vaše telefonní číslo je nepovinné, ale pomůže nám to s vámi v případě potřeby."
+    phone_help: "Telefonního čísla je nepovinné, ale pomůže nám s vámi v případě potřeby."
     question: "Váš vzkaz / dotaz:"
-    question_help: "Prosím obsahovat žádné připomínky chcete nás slyšet."
+    question_help: "Uveďte prosím jakékoliv připomínky, které byste rád, abychom slyšeli."
     subject: "Předmět:"
     subject_help: "Jednoduchý uvádějící povahu svůj názor."
   general: 
-    delete_file: "Delete File"
+    delete_file: "Smazat soubor"
     send: Poslat
-    thank_you_contact: "Děkujeme Vám za Vaši zprávu. Každý člen našeho týmu bude reagovat na vás v brzké době."
+    thank_you_contact: "Děkujeme Vám za Vaši zprávu. Člen našeho týmu bude reagovat na vás v nejbližší době."
   muck: 
     activity_templates: 
       welcome: Vítejte
@@ -27,6 +27,6 @@ cs:
       themes: Témata
       users: Uživatelé
     contact_request: "Kontakt Poptávka"
-    contact_thanks: "Díky za nás kontaktovat. Obdrželi jsme vaši e-mailovou adresu a budou v kontaktu brzy."
-    user_greeting: "Ahoj {{user}},"
+    contact_thanks: "Thanks for contacting us. Obdrželi jsme váš e-mail a budou v kontaktu brzy."
+    user_greeting: "Hi {{user}},"
     welcome_activity: "Vítejte na {{application_name}}."

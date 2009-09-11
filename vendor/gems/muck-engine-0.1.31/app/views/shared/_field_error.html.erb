@@ -1,0 +1,3 @@
+<% if !field_error.nil? && field_error.errors.length > 0 -%>
+<ul id="field-errors"><%=field_error.errors.full_messages.map {|msg| content_tag(:li, msg)} %></ul>
+<% end -%>

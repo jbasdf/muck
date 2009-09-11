@@ -1,0 +1,18 @@
+--- 
+zh-CN: 
+  muck: 
+    activity_templates: 
+      comment: 评论
+    comments: 
+      add_comment: 评论
+      add_comment_button: 新增评论
+      anonymous: 匿名
+      cant_delete_comment: 您没有权限删除该评论
+      comment_removed: 评论成功删除。
+      create_error: "无法创建的评论{{errors}}"
+      create_success: 成功添加评论
+      missing_comment_template_error: "找不到部分名为{{partial}}.请建立一个注释部分，然后再试一次。"
+      new_comment_email_subject: "从{{name}}新的评论对{{application_name}}"
+      new_comment_no_title: 添加新评论
+      new_comment_with_title: "添加对{{title}}新评论"
+      problem_adding_comment: 有一个问题，加入您的评论

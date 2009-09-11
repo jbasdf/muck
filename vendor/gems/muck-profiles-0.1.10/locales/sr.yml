@@ -1,0 +1,12 @@
+--- 
+sr: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Није могуће пронаћи одређеног корисника."
+      edit_failure: "Десила се грешка током ажурирања Вашег профила."
+      edit_profile: "Измени профил"
+      edit_success: "Успешно ажурирали свој профил"
+      problem_editing_account: "Дошло је до проблема ажурирање профила"
+      update_profile: "Ажурирање профила"
+      upload_photo: "Отпреми слику:"
+      view_profile: "Погледај профил"

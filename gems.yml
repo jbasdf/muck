@@ -1,0 +1,46 @@
+# Thu Sep 10 16:11:28 -0600 2009
+--- 
+- :version: 1.2.2
+  :name: git
+- :version: 2.1.1
+  :name: bcrypt-ruby
+- :version: 1.0.5
+  :name: mbleigh-acts-as-taggable-on
+- :version: 2.1.1
+  :name: binarylogic-authlogic
+- :version: 2.3.2
+  :name: binarylogic-searchlogic
+- :version: 1.3.0
+  :name: collectiveidea-awesome_nested_set
+- :version: 0.4.4
+  :name: httparty
+- :version: 2.1.3
+  :name: friendly_id
+- :version: 2.3.11
+  :name: mislav-will_paginate
+- :version: 2.3.1
+  :name: thoughtbot-paperclip
+- :version: 1.1.3
+  :name: openrain-action_mailer_tls
+- :version: 2.8.10
+  :name: newrelic_rpm
+- :version: 0.5.2.0
+  :name: taf2-curb
+- :version: 1.0.8
+  :name: rgrove-sanitize
+- :version: 0.2.8
+  :name: polyglot
+- :version: 0.0.13
+  :name: pauldix-sax-machine
+- :version: 0.0.17
+  :name: pauldix-feedzirra
+- :version: 1.3.3
+  :name: nokogiri
+- :version: "0.26"
+  :name: ya2yaml
+
+
+
+
+
+

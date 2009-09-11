@@ -1,0 +1,18 @@
+--- 
+gl: 
+  muck: 
+    activity_templates: 
+      comment: Comentarios
+    comments: 
+      add_comment: Comentario
+      add_comment_button: Comentar
+      anonymous: anónimo
+      cant_delete_comment: "Non ten permiso para borrar este comentario"
+      comment_removed: "Comentario eliminado correctamente."
+      create_error: "Non se puido crear o {{errors}} comentario"
+      create_success: "Engadir comentario"
+      missing_comment_template_error: "Non se puido atopar un {{partial}}. parcial nomeado Por favor, cree un comentario parcial e ténteo de novo."
+      new_comment_email_subject: "Novo comentario de {{name}} en {{application_name}}"
+      new_comment_no_title: "Engadir un novo comentario"
+      new_comment_with_title: "Engadir un novo comentario para {{title}}"
+      problem_adding_comment: "Houbo un problema ao engadir o teu comentario"

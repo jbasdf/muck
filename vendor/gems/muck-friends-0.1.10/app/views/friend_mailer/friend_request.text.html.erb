@@ -1,0 +1,8 @@
+<p>Hi <%= h(@invited.display_name) %></p>
+
+<p><%= h(@inviter.display_name) %> has sent you a friend request on <%= GlobalConfig.application_name %>.</p>
+
+<p>You may find more information about <%= h(@inviter.display_name) %> on their profile <%= profile_url(@inviter) %></p>
+
+<p>Thanks, <br />
+The <%= GlobalConfig.application_name %> Team</p>

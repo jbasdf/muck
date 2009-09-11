@@ -1,0 +1,13 @@
+<div id="<%= "#{content.dom_id}" %>" class="content_editor">
+  <% custom_form_for(content, :url => get_content_form_url(content, @parent), :html => html.merge(:id => "#{content.dom_id}_content_form", :class => 'content_form') ) do |f| -%>
+    <%= f.text_field :title, {:class => 'title', :tip => t('muck.contents.title_help'), :label => t('muck.contents.title_label') } %>
+    <%= f.text_area :body_raw, {:label => t('muck.contents.content_label'), :class => 'mceEditor', :id => 'mce_content', :tip_key => 'mce_content', :tip => t('muck.contents.content_help') } %>
+    <%= capture(f, &block) %>
+    <%= f.muck_select(:layout, :value, :name, t('muck.contents.choose_layout'), @content_layouts, {:tip => t('muck.contents.choose_layout_help')}) %>
+    <div class="button form-row">
+      <%= f.submit t('muck.contents.submit_content_button'), :class => "button share-submit", :id => "content_submit_#{content.dom_id}" %>
+      <%= f.hidden_field :uri_path unless content.uri_path.blank? %>
+      <%= f.hidden_field :custom_scope unless content.custom_scope.blank? %>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,32 @@
+--- 
+tl: 
+  muck: 
+    engine: 
+      choose_country: "Pumili ng Bansa"
+      choose_language: "Pumili ng Wika"
+      choose_state: "Pumili ng Estado"
+      missing_parent_error: "Mangyaring tukuyin ang isang magulang object"
+      select_country_prompt: "Mangyaring pumili ng isang bansa"
+      select_language_prompt: "Mangyaring pumili ng isang wika"
+      select_state_prompt: "Mangyaring pumili ng isang estado"
+    forms: 
+      please_enter_a_value: "Mangyaring ipasok ang isang halaga para sa {{label}}"
+    general: 
+      activate: Buhayin
+      deactivate: Deactivate
+      delete: Tanggalin
+      deleting: "Ang pagtanggal sa ..."
+      disable: Paganahin
+      enable: "Huwag paganahin"
+      enabled: Napagana?
+      general_info: "Pangkalahatang Impormasyon"
+      help: Tulong
+      next: "Next »"
+      no_text: Hindi
+      previous: «Nakaraang
+      read_more: "read more"
+      save: I-save
+      settings_saved: "Setting ay nai-save."
+      time_ago: "{{time_in_words}} Nakaraan"
+      update: Mag-update
+      yes_text: Oo

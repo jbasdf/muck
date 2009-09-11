@@ -1,0 +1,22 @@
+--- 
+sv: 
+  muck: 
+    activity_templates: 
+      share: Aktier
+    shares: 
+      add_share: Del
+      add_share_button: Del
+      adding_share: "Dela sidan ..."
+      cancel_share_button: Avbryt
+      cant_delete_share: "Du har inte behörighet att ta bort denna del"
+      create_error: "Kunde inte skapa aktie: {{errors}}"
+      create_success: "Framgångsrikt delade sida"
+      login_prompt: "Logga in för att dela"
+      message: Message
+      new_share: "Share a Link"
+      problem_adding_share: "Det uppstod ett problem att lägga till din del"
+      share_activity_content: "delade {{link}}. {{message}}"
+      share_removed: "Dela lyckats ta bort."
+      share_title: "Share This Link"
+      title: Titel
+      uri: Url

@@ -1,0 +1,32 @@
+--- 
+ro: 
+  muck: 
+    engine: 
+      choose_country: "Alegeti Tara"
+      choose_language: "Alege Limba"
+      choose_state: "Alege de stat"
+      missing_parent_error: "Vă rugăm să specificaţi un obiect părinte"
+      select_country_prompt: "Vă rugăm să selectaţi o ţară"
+      select_language_prompt: "Vă rugăm să selectaţi o limbă"
+      select_state_prompt: "Vă rugăm să selectaţi un stat"
+    forms: 
+      please_enter_a_value: "Vă rugăm să introduceţi o valoare pentru {{label}}"
+    general: 
+      activate: Activaţi
+      deactivate: Dezactivează
+      delete: Şterge
+      deleting: "Ştergerea ..."
+      disable: Îngădui
+      enable: Dezactiva
+      enabled: Activat?
+      general_info: "General info"
+      help: Ajuta
+      next: "Next »"
+      no_text: Nu
+      previous: «Înapoi
+      read_more: "citeste mai mult"
+      save: Economisi
+      settings_saved: "Setările au fost salvate."
+      time_ago: "{{time_in_words}} În urmă"
+      update: Actualiza
+      yes_text: Da

@@ -1,20 +1,20 @@
 --- 
 da: 
   contact: 
-    contact_response_subject: "Tak for din forespørgsel fra {{application_name}}!"
+    contact_response_subject: "Tak for din henvendelse fra {{application_name}}!"
     contact_us: "Kontakt os"
     email: "Din email:"
-    email_help: "Giv os din e-mail, så vi kan kontakte dig, hvis det er nødvendigt."
+    email_help: "Giv os din e-mail, så vi kan kontakte dig, hvis nødvendigt."
     name: "Dit navn:"
     name_help: "Giv os dit navn."
     phone: "Dit telefonnummer:"
-    phone_help: "Dit telefonnummer er valgfrit men vil hjælpe os kontakte dig, hvis det er nødvendigt."
-    question: "Dit indlæg / spørgsmål:"
-    question_help: "Vedlæg eventuelle kommentarer, du vil have os til at høre."
+    phone_help: "Dit telefonnummer er frivillig, men vil hjælpe os med at kontakte dig, hvis det er nødvendigt."
+    question: "Din besked / spørgsmål:"
+    question_help: "Inkluder venligst eventuelle kommentarer, du vil have os til at høre."
     subject: "Emne:"
     subject_help: "En simpel angivelse af arten af din feedback."
   general: 
-    delete_file: "Slet Fil"
+    delete_file: "Slet fil"
     send: Sende
     thank_you_contact: "Tak for din besked. Et medlem af vores team vil svare dig snarest."
   muck: 
@@ -22,11 +22,11 @@ da:
       welcome: Velkommen
     admin: 
       home: Hjem
-      my_dashboard: "Min Dashboard"
+      my_dashboard: "My Dashboard"
       permissions: Tilladelser
       themes: Temaer
       users: Brugere
-    contact_request: "Kontakt Anmodning"
-    contact_thanks: "Tak for at kontakte os. Vi har modtaget din e-mail og vil blive kontaktet snarest."
+    contact_request: "Contact Request"
+    contact_thanks: "Tak for din henvendelse. Vi har modtaget din e-mail og vil blive kontaktet snarest."
     user_greeting: "Hi {{user}},"
     welcome_activity: "Velkommen til {{application_name}}."

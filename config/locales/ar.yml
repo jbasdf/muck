@@ -1,32 +1,32 @@
 --- 
 ar: 
   contact: 
-    contact_response_subject: "شكرا لتعليقك من {{application_name}}!"
+    contact_response_subject: "شكرا لاستفسارك من {{application_name}}!"
     contact_us: "اتصل بنا"
-    email: "بريدك الالكتروني :"
-    email_help: "يرجى تزويدنا بريدك الالكتروني حتى نتمكن من الاتصال بكم إذا لزم الأمر."
-    name: "اسمك :"
+    email: "البريد الإلكتروني الخاص بك :"
+    email_help: "يرجى تزويدنا البريد الإلكتروني الخاص بك لكي نتمكن من الاتصال بكم إذا لزم الأمر."
+    name: "اسم :"
     name_help: "يرجى تزويدنا باسمك."
-    phone: "رقم هاتفك :"
-    phone_help: "رقم هاتفك اختياري لكنه سيساعدنا على الاتصال بكم إذا لزم الأمر."
+    phone: "رقم الهاتف :"
+    phone_help: "رقم الهاتف الخاص بك هو اختياري ولكن سيساعدنا على الاتصال بكم إذا لزم الأمر."
     question: "رسالتك / السؤال :"
-    question_help: "يرجى إدراج أية تعليقات تريد لنا أن نسمع هذا."
+    question_help: "يرجى إدراج أي تعليقات تودون منا أن يسمع."
     subject: "الموضوع :"
-    subject_help: "وقال بيان بسيط يبين طبيعة مشاركتك."
+    subject_help: "وجاء في بيان بسيط يبين طبيعة مشاركتك."
   general: 
-    delete_file: "حذف الملفات"
+    delete_file: "حذف ملف"
     send: يرسل
-    thank_you_contact: "أشكرك على رسالتك. وقال عضو في فريق عملنا ، وسوف نرد عليك قريبا."
+    thank_you_contact: "شكرا على رسالتك. وقال عضو في فريق عملنا سوف نرد عليك قريبا."
   muck: 
     activity_templates: 
       welcome: مرحبا
     admin: 
       home: منزل
-      my_dashboard: "بلدي لوحة التحكم الرئيسية"
+      my_dashboard: "بلدي لوحة"
       permissions: أذونات
       themes: المواضيع
-      users: المستخدمين
+      users: شاهد
     contact_request: "طلب الاتصال"
-    contact_thanks: "الشكر على الاتصال بنا. لقد تلقينا رسالتك وسيكون على اتصال في وقت قريب."
+    contact_thanks: "شكرا على اتصالك بنا. تلقينا البريد الإلكتروني الخاص بك ، وسوف يكون على اتصال في وقت قريب."
     user_greeting: "مرحبا {{user}}،"
     welcome_activity: "مرحبا بكم في {{application_name}}."

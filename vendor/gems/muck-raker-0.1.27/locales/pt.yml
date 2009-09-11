@@ -1,0 +1,43 @@
+--- 
+pt: 
+  muck: 
+    raker: 
+      atom: Atom
+      calculated: calculada
+      collections: Coleções
+      collections_long: "Indexed Colecções"
+      demo: Demo
+      details: Detalhes
+      developers: Desenvolvedores
+      developers_long: "Informações para programadores"
+      direct_link: "[link direto]"
+      for: para
+      gm_more_prompt: "Mais Recursos Relacionados"
+      gm_title: "Recursos Relacionados"
+      metadata: metadados
+      next: Próximo
+      no_hits: "Não hits. Tente uma pesquisa diferente ou escolha um idioma diferente."
+      no_tags: "Não disponível ainda tags"
+      of: de
+      powered_by: "powered by"
+      previous: Anterior
+      rdf: RDF
+      register_description: "Inscreva-se para receber <span class=\"highlight\">recomendações</span> personalizadas, participar em <span class=\"highlight\">grupos,</span> e de fácil <span class=\"highlight\">publicar em blogs.</span>"
+      register_link: Inscreva-se!
+      related_resources: relacionados
+      related_resources_title: "Recursos Relacionados"
+      relevance: pertinência
+      results: Resultados
+      rss: RSS
+      search: pesquisa
+      search_button: Ir
+      search_description: "Encontre recursos pedagógicos <span class=\"highlight\">pesquisar</span> e <span class=\"highlight\">navegar</span> por mais de <span class=\"highlight\">110.000</span> recursos educativos abertos."
+      search_link: "Encontrar Recursos!"
+      tag_line: "educação aberta fazendo trabalho"
+      title: Folksemantic
+      tour: "Faça uma visita!"
+      tour_description: "Assista a um <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">introdução</span> Folksemantic."
+      welcome_user: "Bem-vindo {{user}}"
+      widgets_description: "Receba widgets recursos para ajudar os usuários a <span class=\"highlight\">encontrar</span> e <span class=\"highlight\">descobrir recursos relacionados</span> com aquelas em seu site."
+      widgets_link: "Get Widgets!"
+      xml: XML

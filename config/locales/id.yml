@@ -1,32 +1,32 @@
 --- 
 id: 
   contact: 
-    contact_response_subject: "Thanks for your inquiry dari {{application_name}}!"
-    contact_us: "Hubungi Kami"
-    email: "Email Anda:"
-    email_help: "Harap memberikan kami email Anda agar kami dapat menghubungi Anda jika diperlukan."
+    contact_response_subject: "Terima kasih atas pertanyaan dari {{application_name}}!"
+    contact_us: Kontak
+    email: "Email:"
+    email_help: "Harap menyediakan kami dengan email Anda agar kami dapat menghubungi Anda jika perlu."
     name: "Nama Anda:"
     name_help: "Harap menyediakan kami dengan nama Anda."
     phone: "Nomor telepon Anda:"
-    phone_help: "Nomor telepon Anda adalah opsional, namun akan membantu kami menghubungi Anda jika diperlukan."
-    question: "Anda pesan / pertanyaan:"
+    phone_help: "Nomor telepon Anda adalah opsional, namun akan membantu kami menghubungi Anda jika perlu."
+    question: "Pesan Anda / Pertanyaan:"
     question_help: "Harap sertakan komentar Anda ingin kami dengar."
-    subject: "Pelajaran:"
-    subject_help: "Sebuah pernyataan sederhana yang menunjukkan sifat dari tanggapan Anda."
+    subject: "Perihal:"
+    subject_help: "Sebuah pernyataan sederhana yang menunjukkan sifat umpan balik Anda."
   general: 
-    delete_file: "Hapus file"
+    delete_file: "Hapus File"
     send: Mengirim
-    thank_you_contact: "Terima kasih atas pesan Anda. Seorang anggota tim kami akan segera merespon anda."
+    thank_you_contact: "Terima kasih untuk pesan Anda. Seorang anggota tim kami akan merespon anda segera."
   muck: 
     activity_templates: 
       welcome: "Selamat datang"
     admin: 
       home: Rumah
-      my_dashboard: "Saya Dashboard"
+      my_dashboard: "My Dashboard"
       permissions: Perizinan
       themes: Tema
-      users: User
-    contact_request: "Permintaan kontak"
-    contact_thanks: "Thanks untuk menghubungi kami. Kami telah menerima email Anda dan akan segera berkomunikasi."
+      users: Users
+    contact_request: "Kontak Permintaan"
+    contact_thanks: "Terima kasih telah menghubungi kami. Kami telah menerima email Anda dan akan menghubungi segera."
     user_greeting: "Hi {{user}},"
-    welcome_activity: "Selamat datang ke {{application_name}}."
+    welcome_activity: "Welcome to {{application_name}}."

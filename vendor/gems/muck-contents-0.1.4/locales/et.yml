@@ -1,0 +1,32 @@
+--- 
+et: 
+  muck: 
+    contents: 
+      add: Lisama
+      cancel: Tühista
+      cant_delete_content: "Sul ei ole õigusi kustutada määratletud sisu"
+      choose_layout: "Vali mall"
+      choose_layout_help: "Vali paigutus malli, et teevad Chrome lehekülg."
+      confirm_delete_content: "Oled sa kindel, et soovid kustutada selle sisu? Seda ei saa tagasi võtta!"
+      content_help: "See on sisu, mis ilmuvad leheküljele."
+      content_label: Sisu
+      content_removed: "Sisu edukalt eemaldatud"
+      create_error: "Probleem lisades sisu"
+      default_404_body: "Me ei leidnud lehekülje otsisid."
+      default_404_title: "404 Lehekülge ei leitud"
+      delete: Kustutama
+      delete_title: "Kustuta see artikkel."
+      edit: Edit
+      edit_title: "Redigeeri selle lehekülje."
+      manage_pages_title: "Halda saidi sisu"
+      no_uri_error: "Palun määrata väärtus uri enne salvestamist mudel kui contentable on null"
+      page_doesnt_exist_create: "Lehekülge ei eksisteeri. Palun esitage allpool nõutud teave, et luua lehele."
+      permalink: "Permalink:"
+      problem_adding_content: "Probleem lisades sisu"
+      problem_updating_content: "Probleem ajakohastamine sisaldus"
+      save: Salvestama
+      submit_content_button: Salvestama
+      tag_information: "Sildid aidata teisi kasutajaid leiavad teie lehe ja seda kasutatakse meta märksõnad dokumendid."
+      tags: Sildid
+      title_help: "Pealkiri kontrolli URL ja lehe pealkiri kuvatakse url bar"
+      title_label: Pealkiri

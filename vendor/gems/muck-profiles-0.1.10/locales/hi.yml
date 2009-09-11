@@ -1,0 +1,12 @@
+--- 
+hi: 
+  muck: 
+    profiles: 
+      could_not_find_user: "खोज विनिर्दिष्ट उपयोगकर्ता नहीं कर सका."
+      edit_failure: "एक त्रुटि हो गई, जबकि आपकी प्रोफ़ाइल अपडेट."
+      edit_profile: "प्रोफ़ाइल संपादित करें"
+      edit_success: "सफलतापूर्वक अपना प्रोफाइल अद्यतन"
+      problem_editing_account: "वहाँ एक अपने प्रोफ़ाइल अद्यतन समस्या थी"
+      update_profile: "अद्यतन प्रोफाइल"
+      upload_photo: "अपलोड एक तस्वीर:"
+      view_profile: "प्रोफ़ाइल देखें"

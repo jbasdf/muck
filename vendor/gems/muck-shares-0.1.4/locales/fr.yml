@@ -1,0 +1,22 @@
+--- 
+fr: 
+  muck: 
+    activity_templates: 
+      share: Actions
+    shares: 
+      add_share: Partager
+      add_share_button: Partager
+      adding_share: "Partage de la page ..."
+      cancel_share_button: Annuler
+      cant_delete_share: "Vous n&#39;avez pas la permission de supprimer cette part"
+      create_error: "Impossible de créer le partage: {{errors}}"
+      create_success: "Avec succès la page partagée"
+      login_prompt: "Connectez-vous à partager"
+      message: Message
+      new_share: "Partager un lien"
+      problem_adding_share: "Il y avait un problème en ajoutant votre part"
+      share_activity_content: "partagée {{link}}. {{message}}"
+      share_removed: "Partager correctement supprimé."
+      share_title: "Share this link"
+      title: Titre
+      uri: Url

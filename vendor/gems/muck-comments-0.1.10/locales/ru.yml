@@ -1,0 +1,18 @@
+--- 
+ru: 
+  muck: 
+    activity_templates: 
+      comment: Комментариев
+    comments: 
+      add_comment: Комментарии
+      add_comment_button: "Добавить комментарий"
+      anonymous: анонимно
+      cant_delete_comment: "У вас нет разрешения на удаление, что комментарий"
+      comment_removed: "Комментарии успешно удален."
+      create_error: "Не удалось создать свой комментарий {{errors}}"
+      create_success: "Успешно добавлен комментарий"
+      missing_comment_template_error: "Не нашел частичное им {{partial}}. Пожалуйста, создайте комментарий частичной и попробуйте снова."
+      new_comment_email_subject: "Новый комментарий от {{name}} на {{application_name}}"
+      new_comment_no_title: "Добавить новый комментарий"
+      new_comment_with_title: "Добавить новый комментарий к {{title}}"
+      problem_adding_comment: "Был проблема добавить свой комментарий"

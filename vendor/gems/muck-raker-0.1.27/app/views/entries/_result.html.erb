@@ -1,0 +1,7 @@
+<% link = visit_path(result) %>
+<p>
+  <%= link_to result.title + " (" + result.collection + ")", link, :class => "title_link", :rel => "nofollow" %>
+  - <%= link_to t('muck.raker.related_resources'), resource_path(result), :class => "related_resources_link", :rel => "nofollow" %>
+  <% if !result.direct_link.nil? %> - <%= link_to t('muck.raker.metadata'), result.permalink, :class => "catalog_link" %><% end %>
+  <% if result.description.length > 0 %><br/><span class="description"><%= truncate_words(result.description) %></span><% end %>
+</p>

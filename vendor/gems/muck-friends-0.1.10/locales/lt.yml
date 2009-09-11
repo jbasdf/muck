@@ -1,0 +1,49 @@
+--- 
+lt: 
+  muck: 
+    activity_templates: 
+      follow: Pasekėjų
+      friends_with: Draugai
+    friends: 
+      acccept_friend_request: "Sutinku draugui prašymas {{user}}"
+      accept: (priimti)
+      block: "Blokuoti {{user}}"
+      block_problem: "Įvyko klaida blokavimo {{user}}"
+      blocked: "Užblokuoti {{user}}"
+      delete: (išbraukta)
+      follow_activity: "{{inviter}} Dabar taip {{invited}}"
+      followers: Pasekėjų
+      following: Šie
+      following_you: "{{name}} Dabar taip jums {{application_name}}"
+      friend_request: "{{name}} Atsiuntė draugui prašymą dėl {{application_name}}"
+      friend_request_links: "{{profile}} Išsiuntė jums draugo užklausą {{accept}} {{ignore}}"
+      friend_request_pending: "Draugo prašymą kol {{link}}"
+      friend_request_prompt: "Siųsti {{user}} draugo užklausą"
+      friend_request_sent: "Draugystės Išsiųsta"
+      friends: Draugai
+      friends_title: "Mano draugai"
+      friends_with: "{{inviter}} Dabar yra draugai su {{invited}}"
+      ignore: (nepaisyti)
+      login: prisijungimas
+      login_or_sign_up_to_follow: "{{login}} Arba {{signup}} stebėti šį klientą"
+      login_or_sign_up_to_friend: "{{login}} Arba {{signup}} nusiųsti draugui prašymą"
+      mutual_friends: Interests
+      no_followers: "Nr pasekėjų"
+      no_friends: "Nėra draugų"
+      no_mutual_friends: "Nėra bendrų draugų rasti"
+      not_following_anyone: "Ne Po Visi"
+      problem_adding_follow: "Iškilo problema pridėti {{user}} jūsų atlikite sąrašą. Bandykite dar kartą."
+      problem_sending_friend_request: "Iškilo problema siųsti draugui prašymą {{user}}. Bandykite dar kartą."
+      removed_following_error: "Iškilo problema bandant unfollow {{user}}"
+      removed_friendship: "Pašalintas {{user}} iš savo draugų"
+      removed_friendship_error: "Iškilo problema šalinant {{user}} iš sąrašo draugus"
+      same_inviter_error_message: "Vartotojas negali tapti draugais su savimi."
+      signup: prenumerata
+      start_following: "Sekite {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stotelė Po {{user}}"
+      stopped_following: "Sėkmingai metė po {{user}}"
+      unblock: "Atblokuoti {{user}}"
+      unblocked: "Unblocked {{user}}"
+      view_all: "Peržiūrėti visus"
+      you_are_now_following: "Jūs esate dabar taip {{user}}"

@@ -1,0 +1,32 @@
+--- 
+mt: 
+  muck: 
+    contents: 
+      add: Żid
+      cancel: Ikkanċella
+      cant_delete_content: "Inti ma għandekx permess biex jitħassar il-kontenut speċifikati"
+      choose_layout: "Select Template"
+      choose_layout_help: "Ċikli relatati mad-format template li se jagħmlu l-chrome għal din il-paġna."
+      confirm_delete_content: "Are you sure tixtieq li jitħassar dan il-kontenut? Dan cannot be undone!"
+      content_help: "Dan huwa l-kontenut li se jidhru fuq il-paġna."
+      content_label: Kuntent
+      content_removed: "Kontenut jitneħħew b&#39;suċċess"
+      create_error: "Kien hemm problema żżid tiegħek kontenut"
+      default_404_body: "Aħna ma setgħetx issib il-paġna għandek kienu qed ifittxu."
+      default_404_title: "404 Page not found"
+      delete: Ħassar
+      delete_title: "Ħassar din il-paġna."
+      edit: Edit
+      edit_title: "Edit this page."
+      manage_pages_title: "Kontenut tas-sit Manage"
+      no_uri_error: "Jekk jogħġbok stabbilit valur għal uri qabel l-iffrankar l-mudell huwa contentable meta xejn"
+      page_doesnt_exist_create: "Il-paġna li inti mitlub ma jeżistix. Jekk jogħġbok ipprovdi l-informazzjoni hawn taħt sabiex toħloq il-paġna."
+      permalink: "Permalink:"
+      problem_adding_content: "Kien hemm problema żieda tal-kontenut"
+      problem_updating_content: "Kien hemm problema aġġornament tal-kontenut"
+      save: Save
+      submit_content_button: Save
+      tag_information: "Tags tgħin lill-utenti l-oħra jsibu paġna tiegħek u se tintuża bħala l-keywords meta għad-dokument."
+      tags: Tags
+      title_help: "It-titolu l-kontrolli url u t-titolu paġna li tidher fil-bar url"
+      title_label: Titolu

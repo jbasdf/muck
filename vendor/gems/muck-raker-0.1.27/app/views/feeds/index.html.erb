@@ -1,0 +1,34 @@
+<h1><%= t('muck.raker.feeds_title') %></h1>
+<div>
+  <p>
+    <%= link_to t('muck.raker.discover_feed'), new_feed_preview_path, :class => 'iframe lightbox' %>
+    <%= link_to t('muck.raker.add_feed'), new_feed_path, :class => 'iframe lightbox' %>
+    <%= link_to t('muck.raker.add_feed_advanced'), new_extended_feeds_path, :class => 'iframe lightbox' %>
+  </p>
+  <table class="feeds">
+    <tr>
+      <th><%= t('muck.raker.title') %></th>
+      <th><%= t('muck.raker.description') %></th>
+      <th><%= t('muck.raker.harvest_interval') %></th>
+      <th><%= t('muck.raker.harvested_at') %></th>
+      <th><%= t('muck.raker.failed_harvests') %></th>
+      <th><%= t('muck.raker.status') %></th>
+      <th><%= t('muck.raker.uri') %></th>
+    </tr>
+    <%= render :partial => 'feeds/feed', :collection => @feeds %>
+  </table>
+  <div class="clear">
+		<%= will_paginate @feeds %>
+	</div>
+</div>
+
+<% content_for :javascript do -%>
+jQuery(document).ready(function() {
+    jQuery('a.lightbox').fancybox({
+        'hideOnContentClick': true,
+        'overlayShow': true,
+        'frameWidth': 700,
+        'frameHeight': 600
+    });
+});
+<% end -%>

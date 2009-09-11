@@ -1,0 +1,10 @@
+--- 
+pt: 
+  muck: 
+    comments: 
+      add_comment: Comentário
+      cant_delete_comment: "Você não tem permissão para apagar esse comentário"
+      comment_removed: "Comentário removido com êxito."
+      create_error: "Não foi possível criar o comentário {{errors}}"
+      missing_comment_template_error: "Não foi possível encontrar um parcial chamado {{partial}}. Crie um comentário parcial e tente novamente."
+      missing_parent_id_error: "Especificar um objeto pai"

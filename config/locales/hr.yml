@@ -1,22 +1,22 @@
 --- 
 hr: 
   contact: 
-    contact_response_subject: "Hvala za Vaš upit s {{application_name}}!"
+    contact_response_subject: "Thanks for your inquiry iz {{application_name}}!"
     contact_us: "Kontaktirajte nas"
-    email: "Vaš email:"
-    email_help: "Molimo da nam dostavite Vašu e-poštu kako bismo mogli kontaktirati po potrebi."
+    email: "Vaša e-mail:"
+    email_help: "Molimo Vas da nam dostavite Vaše e-pošte, tako da Vas možemo kontaktirati po potrebi."
     name: "Vaše ime:"
-    name_help: "Molimo da nam dostavite vaše ime."
+    name_help: "Molimo Vas da nam dostavite svoje ime."
     phone: "Vaš telefonski broj:"
-    phone_help: "Vaš telefonski broj nije obavezno, ali pomoći će nam se obratite ako vam je to potrebno."
+    phone_help: "Vaš telefonski broj nije obavezno ali će nam pomoći da vas kontaktirati ako je potrebno."
     question: "Vaša poruka / pitanje:"
-    question_help: "Molimo Vas da uključite neke komentare koje biste željeli da čujete."
-    subject: "Predmet:"
-    subject_help: "Jednostavni iskaz naznakom prirode na Vašem komentaru."
+    question_help: "Molimo uključite komentare koje bi nas željeli čuti."
+    subject: "Tema:"
+    subject_help: "Jednostavna izjava ukazuje na prirodu your feedback."
   general: 
     delete_file: "Brisanje datoteke"
     send: Slati
-    thank_you_contact: "Hvala ti za poruku. Član našeg tima će vam odgovoriti uskoro."
+    thank_you_contact: "Hvala za poruku. Član našeg tima će odgovoriti na vas uskoro."
   muck: 
     activity_templates: 
       welcome: "Dobro došli"
@@ -25,8 +25,8 @@ hr:
       my_dashboard: "Moj Nadzorna ploča"
       permissions: Dozvole
       themes: Teme
-      users: Korisnici
+      users: Users
     contact_request: "Kontakt Upit"
-    contact_thanks: "Hvala što nas kontaktirate. Primili smo vašu e-mail, te će biti u kontaktu uskoro."
+    contact_thanks: "Hvala za jedan dan nas kontaktirate. Primili smo Vašu e-mail i bit će u kontaktu uskoro."
     user_greeting: "Hi {{user}},"
-    welcome_activity: "Dobrodošli na {{application_name}}."
+    welcome_activity: "Welcome to {{application_name}}."

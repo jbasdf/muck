@@ -1,0 +1,18 @@
+--- 
+fa: 
+  muck: 
+    activity_templates: 
+      comment: نظرات
+    comments: 
+      add_comment: نظر
+      add_comment_button: "اضافه کردن نظر"
+      anonymous: ناشناس
+      cant_delete_comment: "شما اجازه انجام این کار را حذف کنید که نظر ندارند"
+      comment_removed: "نظر با موفقیت حذف شد."
+      create_error: "امکان نظر {{errors}}ایجاد کنید"
+      create_success: "با موفقیت ارسال نظر"
+      missing_comment_template_error: "امکان دارد یک بخشی به نام {{partial}}.پیدا نشد لطفا نظر جزئی و دوباره سعی کنید ایجاد کنید."
+      new_comment_email_subject: "نظر جدید از {{name}}در {{application_name}}"
+      new_comment_no_title: "اضافه کردن نظر جدید"
+      new_comment_with_title: "اضافه کردن نظر جدید به {{title}}"
+      problem_adding_comment: "بود مشکل اضافه کردن نظر شما وجود دارد."

@@ -1,0 +1,32 @@
+--- 
+ja: 
+  muck: 
+    contents: 
+      add: 追加する
+      cancel: キャンセル
+      cant_delete_content: アクセス許可は、指定したコンテンツを削除する必要はありません
+      choose_layout: テンプレートを選択
+      choose_layout_help: レイアウトを選択するには、このページのクロムをレンダリングされるテンプレートです。
+      confirm_delete_content: あなたは、このコンテンツを削除してもよろしいですか？これは元に戻すことはできません！
+      content_help: これは、ページに表示されるコンテンツです。
+      content_label: 内容
+      content_removed: コンテンツが正常に削除
+      create_error: 問題があるコンテンツを追加したこと
+      default_404_body: 私たちはあなたを探していたページを見つけることができませんでした。
+      default_404_title: 404ページが見つかりませんでした
+      delete: 削除する
+      delete_title: このページを削除します。
+      edit: "[編集]"
+      edit_title: このページを編集します。
+      manage_pages_title: サイトコンテンツの管理
+      no_uri_error: してくださいモデルを保存する前にURIの値を設定nilの場合contentableです
+      page_doesnt_exist_create: あなたが存在しない場合、リクエストされたページです。してくださいページを作成し、以下の情報を提供します。
+      permalink: 固定リンク：
+      problem_adding_content: 問題があるコンテンツを追加されました
+      problem_updating_content: 問題があるコンテンツを更新されました
+      save: 保存する
+      submit_content_button: 保存する
+      tag_information: タグを他のユーザーがあなたのページに役立つとは、文書のメタデータをキーワードとして使用されます。
+      tags: タグ
+      title_help: タイトルとページタイトルのURLバーに表示されるURLを制御
+      title_label: タイトル

@@ -2,31 +2,31 @@
 pl: 
   contact: 
     contact_response_subject: "Dziękujemy za pytanie z {{application_name}}!"
-    contact_us: "Kontakt z nami"
+    contact_us: Kontakt
     email: "Twój e-mail:"
-    email_help: "Podaj nam swój adres e-mail, abyśmy mogli się z Tobą skontaktować w razie potrzeby."
-    name: "Imię i nazwisko:"
-    name_help: "Prosimy o podanie swojego imienia i nazwiska."
+    email_help: "Podaj nam swój e-mail, abyśmy mogli skontaktować się w razie potrzeby."
+    name: "Twoje imię:"
+    name_help: "Proszę podać nam swoje nazwisko."
     phone: "Twój numer telefonu:"
-    phone_help: "Twój numer telefonu nie jest obowiązkowe, ale pomogą nam skontaktować się z tobą w razie potrzeby."
-    question: "Wiadomość / pytanie:"
-    question_help: "Należy podać wszelkie uwagi chcieliby nas usłyszeć."
+    phone_help: "Twój numer telefonu nie jest obowiązkowe, ale pomogą nam skontaktować się w razie potrzeby."
+    question: "Twoje pytanie / wiadomość:"
+    question_help: "Prosimy o wszelkie uwagi chcieliby nas usłyszeć."
     subject: "Temat:"
-    subject_help: "Prosty deklarację określającą charakter opinii."
+    subject_help: "Proste oświadczenie stwierdzające charakter Twojej opinii."
   general: 
-    delete_file: "Usuwanie plików"
+    delete_file: "Usuwanie pliku"
     send: Wysłać
-    thank_you_contact: "Dziękujemy za wiadomość. Jeden z członków naszego zespołu będzie można odpowiedzieć na krótko."
+    thank_you_contact: "Dziękuję za wiadomość. Członkiem naszego zespołu będzie odpowiadał na Tobą."
   muck: 
     activity_templates: 
       welcome: Witamy
     admin: 
       home: Dom
-      my_dashboard: "Mój Panel"
+      my_dashboard: "My Dashboard"
       permissions: Uprawnienia
       themes: Tematy
       users: Użytkownicy
-    contact_request: "Kontakt Zapytanie"
+    contact_request: "NAPISZ DO NAS"
     contact_thanks: "Dziękujemy za skontaktowanie się z nami. Otrzymaliśmy e-maila i będzie w kontakcie wkrótce."
     user_greeting: "Hi {{user}},"
     welcome_activity: "Zapraszamy do {{application_name}}."

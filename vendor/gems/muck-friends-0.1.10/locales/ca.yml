@@ -1,0 +1,49 @@
+--- 
+ca: 
+  muck: 
+    activity_templates: 
+      follow: Seguidors
+      friends_with: Amics
+    friends: 
+      acccept_friend_request: "Acceptar Amic De {{user}}"
+      accept: (acceptar)
+      block: "Bloc {{user}}"
+      block_problem: "Hi va haver un error de bloqueig {{user}}"
+      blocked: "Bloquejats {{user}}"
+      delete: (eliminar)
+      follow_activity: "{{inviter}} Està seguint {{invited}}"
+      followers: Seguidors
+      following: Següent
+      following_you: "{{name}} Està seguint vostè en {{application_name}}"
+      friend_request: "{{name}} Ha enviat una sol licitud d&#39;amic a {{application_name}}"
+      friend_request_links: "{{profile}} Enviat una sol licitud d&#39;amic {{accept}} {{ignore}}"
+      friend_request_pending: "Sol.licitud d&#39;amic {{link}} espera"
+      friend_request_prompt: "Enviar {{user}} una sol licitud d&#39;amistat"
+      friend_request_sent: "Friend Request Sent"
+      friends: Amics
+      friends_title: "Els meus amics"
+      friends_with: "{{inviter}} Ara és amic de {{invited}}"
+      ignore: (ignorar)
+      login: "inici de sessió"
+      login_or_sign_up_to_follow: "{{login}} O {{signup}} a seguir aquest usuari"
+      login_or_sign_up_to_friend: "{{login}} O {{signup}} per enviar automàticament peticions d&#39;amistat"
+      mutual_friends: "Amics mutus"
+      no_followers: "No followers"
+      no_friends: "No hi ha amics"
+      no_mutual_friends: "No hi ha amics en comú trobat"
+      not_following_anyone: "No seguir a ningú"
+      problem_adding_follow: "Hi va haver un problema en afegir {{user}} a la teva llista de seguiment. Si us plau, torneu-ho de nou."
+      problem_sending_friend_request: "Hi va haver un problema en enviar una sol licitud d&#39;amistat a {{user}}. Si us plau, torneu-ho de nou."
+      removed_following_error: "Hi ha un problema en intentar unfollow {{user}}"
+      removed_friendship: "Esborrat {{user}} dels teus amics"
+      removed_friendship_error: "Hi va haver un problema en treure {{user}} de la vostra llista d&#39;amics"
+      same_inviter_error_message: "L&#39;usuari no pot ser amic de si mateixos."
+      signup: signup
+      start_following: "Siga {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Després de deixar de {{user}}"
+      stopped_following: "Detingut amb èxit els següents {{user}}"
+      unblock: "Desbloca {{user}}"
+      unblocked: "{{user}} Unblocked"
+      view_all: "Veure tots"
+      you_are_now_following: "Vostè està seguint ara {{user}}"

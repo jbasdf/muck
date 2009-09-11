@@ -1,0 +1,32 @@
+<%= output_errors('', {:class => 'help-box'}) %>
+<%= service_categories(@service_categories, nil, 'span-15') %>
+<%= services_for_user(@user_services, nil, 'span-5') %>
+
+<% content_for :javascript do -%>
+jQuery(document).ready(function() {
+  jQuery('a.lightbox').fancybox({
+    'hideOnContentClick': false,
+    'overlayShow': true,
+    'frameWidth': 400,
+    'frameHeight': 100
+  });
+  jQuery('a#facebook-link').fancybox({
+    'hideOnContentClick': false,
+    'overlayShow': true,
+    'frameWidth': 400,
+    'frameHeight': 275
+  });
+  jQuery('a#zotero-groups-link').fancybox({
+    'hideOnContentClick': false,
+    'overlayShow': true,
+    'frameWidth': 400,
+    'frameHeight': 130
+  }); 
+  jQuery('a#netflix-link').fancybox({
+    'hideOnContentClick': false,
+    'overlayShow': true,
+    'frameWidth': 400,
+    'frameHeight': 160
+  }); 
+});
+<% end -%>

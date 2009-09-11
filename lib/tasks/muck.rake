@@ -12,6 +12,42 @@ namespace :muck do
   RED = "\033[0;31m"
   BLUE = "\033[0;34m"
   INVERT = "\033[00m"
+
+  def muck_gems
+    ['cms-lite', 'disguise', 'uploader', 'muck-solr', 'muck-raker', 'muck-engine',
+    'muck-users', 'muck-activities', 'muck-comments', 'muck-profiles', 'muck-friends',
+    'muck-contents', 'muck-blogs', 'muck-shares'] #'muck-invites'
+  end
+  
+  def muck_gem_paths
+    gems = muck_gems.delete_if { |x| x == 'muck-solr' }
+    gems << 'acts_as_solr'
+    gems.collect{|name| name.sub('-', '_')}
+  end
+  
+  desc "unpacks all muck gems into vendor/gems using versions installed on the local machine."
+  task :unpack do
+    gem_path = File.join(File.dirname(__FILE__), '..', '..', 'vendor', 'gems')
+    FileUtils.mkdir_p(gem_path) unless File.exists?(gem_path)
+    inside gem_path do
+      muck_gems.each do |gem_name|
+        system("gem unpack #{gem_name}")
+        system("gem specification #{gem_name} > .specification")
+      end
+    end
+  end
+    
+  desc "Install and unpacks all muck gems into vendor/gems."
+  task :unpack_install => :install_gems do
+    gem_path = File.join(File.dirname(__FILE__), '..', '..', 'vendor', 'gems')
+    FileUtils.mkdir_p(gem_path) unless File.exists?(gem_path)
+    inside gem_path do
+      muck_gems.each do |gem_name|
+        system("gem unpack #{gem_name}")
+        system("gem specification #{gem_name} > .specification")
+      end
+    end
+  end
   
   desc 'Translate muck and all themes from English into all languages supported by Google'
   task :translate do
@@ -26,6 +62,30 @@ namespace :muck do
       end
     end
     
+  end
+  
+  task :install_gems do
+    muck_gems.each do |gem_name|
+      system("sudo gem install #{gem_name}")
+    end
+  end
+  
+  task :sync do
+    puts 'syncronizing engines and gems'
+    Rake::Task[ "cms_lite:setup" ].execute
+    Rake::Task[ "disguise:sync" ].execute
+    Rake::Task[ "disguise:setup" ].execute
+    Rake::Task[ "uploader:sync" ].execute
+    Rake::Task[ "muck:engine:sync" ].execute
+    Rake::Task[ "muck:users:sync" ].execute
+    Rake::Task[ "muck:activities:sync" ].execute
+    Rake::Task[ "muck:raker:sync" ].execute
+    Rake::Task[ "muck:comments:sync" ].execute
+    Rake::Task[ "muck:profiles:sync" ].execute
+    Rake::Task[ "muck:friends:sync" ].execute
+    Rake::Task[ "muck:contents:sync" ].execute
+    Rake::Task[ "muck:blogs:sync" ].execute
+    Rake::Task[ "muck:shares:sync" ].execute
   end
   
   desc "Completely reset and repopulate the database and annotate models. THIS WILL DELETE ALL YOUR DATA"
@@ -64,25 +124,6 @@ namespace :muck do
 
   end
   
-  task :install_gems do
-    system('sudo gem install babelphish')
-    system('sudo gem install cms-lite')
-    system('sudo gem install disguise')
-    system('sudo gem install uploader')
-    system('sudo gem install muck-solr')
-    system('sudo gem install muck-raker')
-    system('sudo gem install muck-engine')
-    system('sudo gem install muck-users')
-    system('sudo gem install muck-activities')
-    system('sudo gem install muck-comments')
-    system('sudo gem install muck-profiles')
-    system('sudo gem install muck-friends')
-    system('sudo gem install muck-contents')
-    system('sudo gem install muck-blogs')
-    system('sudo gem install muck-shares')
-    #system('sudo gem install muck-invites')
-  end
-  
   task :reset_db => :environment do
     
     puts 'droping databases'
@@ -119,27 +160,9 @@ namespace :muck do
     Rake::Task[ "muck:db:populate" ].execute
     Rake::Task[ "muck:raker:db:populate" ].execute
     Rake::Task[ "muck:raker:db:bootstrap" ].execute
-    
+        
     puts 'setting up admin account'
     Rake::Task[ "muck:users:create_admin" ].execute
-  end
-  
-  task :sync do
-    puts 'syncronizing engines and gems'
-    Rake::Task[ "cms_lite:setup" ].execute
-    Rake::Task[ "disguise:sync" ].execute
-    Rake::Task[ "disguise:setup" ].execute
-    Rake::Task[ "uploader:sync" ].execute
-    Rake::Task[ "muck:engine:sync" ].execute
-    Rake::Task[ "muck:users:sync" ].execute
-    Rake::Task[ "muck:activities:sync" ].execute
-    Rake::Task[ "muck:raker:sync" ].execute
-    Rake::Task[ "muck:comments:sync" ].execute
-    Rake::Task[ "muck:profiles:sync" ].execute
-    Rake::Task[ "muck:friends:sync" ].execute
-    Rake::Task[ "muck:contents:sync" ].execute
-    Rake::Task[ "muck:blogs:sync" ].execute
-    Rake::Task[ "muck:shares:sync" ].execute
   end
   
   desc "Translate all muck related projects and gems"
@@ -148,48 +171,11 @@ namespace :muck do
 
     puts 'translating muck'
     system("babelphish -o -y #{projects_path}/muck/config/locales/en.yml")
-        
-    puts 'translating cms lite'
-    system("babelphish -o -y #{projects_path}/cms_lite/locales/en.yml")
-    
-    puts 'translating disguise'
-    system("babelphish -o -y #{projects_path}/disguise/locales/en.yml")
-    
-    puts 'translating uploader'
-    system("babelphish -o -y #{projects_path}/uploader/locales/en.yml")
 
-    puts 'translating muck engine'
-    system("babelphish -o -y #{projects_path}/muck_engine/locales/en.yml")
-    
-    puts 'translating muck users'
-    system("babelphish -o -y #{projects_path}/muck_users/locales/en.yml")
-    
-    puts 'translating muck comments'
-    system("babelphish -o -y #{projects_path}/muck_comments/locales/en.yml")
-    
-    puts 'translating muck profiles'
-    system("babelphish -o -y #{projects_path}/muck_profiles/locales/en.yml")
-    
-    puts 'translating muck raker'
-    system("babelphish -o -y #{projects_path}/muck_raker/locales/en.yml")
-    
-    puts 'translating muck activities'
-    system("babelphish -o -y #{projects_path}/muck_activities/locales/en.yml")
-    
-    puts 'translating muck friends'
-    system("babelphish -o -y #{projects_path}/muck_friends/locales/en.yml")
-
-    puts 'translating muck contents'
-    system("babelphish -o -y #{projects_path}/muck_contents/locales/en.yml")
-    
-    puts 'translating muck blogs'
-    system("babelphish -o -y #{projects_path}/muck_blogs/locales/en.yml")
-
-    puts 'translating muck shares'
-    system("babelphish -o -y #{projects_path}/muck_shares/locales/en.yml")
-
-    puts 'translating muck invites'
-    system("babelphish -o -y #{projects_path}/muck_invites/locales/en.yml")
+    muck_gem_paths.each do |gem_name|
+      puts "translating #{gem_name}"
+      system("babelphish -o -y #{projects_path}/#{gem_name}/locales/en.yml")
+    end
 
     puts 'finished translations'
   end
@@ -214,124 +200,50 @@ namespace :muck do
   desc "Release muck gems"
   task :release_gems do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    #release_gem("#{projects_path}", "acts_as_solr")
-    #release_gem("#{projects_path}", "cms_lite")
-    #release_gem("#{projects_path}", "disguise")
-    #release_gem("#{projects_path}", "uploader")
-    release_gem("#{projects_path}", "muck_engine")
-    release_gem("#{projects_path}", "muck_users")
-    release_gem("#{projects_path}", "muck_comments")
-    release_gem("#{projects_path}", "muck_profiles")
-    release_gem("#{projects_path}", "muck_raker")
-    release_gem("#{projects_path}", "muck_activities")
-    release_gem("#{projects_path}", "muck_friends")
-    release_gem("#{projects_path}", "muck_contents")
-    release_gem("#{projects_path}", "muck_blogs")
-    release_gem("#{projects_path}", "muck_shares")
-    #release_gem("#{projects_path}", "muck_invites")
+    muck_gem_paths.each do |gem_name|
+      release_gem("#{projects_path}", gem_name)
+    end
   end
 
   desc "Write muck gem versions into muck"
   task :versions do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    write_new_gem_version("#{projects_path}", "acts_as_solr")
-    write_new_gem_version("#{projects_path}", "cms_lite")
-    write_new_gem_version("#{projects_path}", "disguise")
-    write_new_gem_version("#{projects_path}", "uploader")        
-    write_new_gem_version("#{projects_path}", "muck_engine")
-    write_new_gem_version("#{projects_path}", "muck_users")
-    write_new_gem_version("#{projects_path}", "muck_comments")
-    write_new_gem_version("#{projects_path}", "muck_profiles")
-    write_new_gem_version("#{projects_path}", "muck_raker")
-    write_new_gem_version("#{projects_path}", "muck_activities")
-    write_new_gem_version("#{projects_path}", "muck_friends")
-    write_new_gem_version("#{projects_path}", "muck_contents")
-    write_new_gem_version("#{projects_path}", "muck_blogs")
-    write_new_gem_version("#{projects_path}", "muck_shares")
-    #write_new_gem_version("#{projects_path}", "muck_invites")
+    muck_gem_paths.each do |gem_name|
+      write_new_gem_version("#{projects_path}", gem_name)
+    end
   end
     
   desc "commit gems after a release"
   task :commit_gems do
     message = "Released new gem"
-    #message = "Updated translations"
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    git_commit("#{projects_path}/acts_as_solr", message)
-    git_commit("#{projects_path}/cms_lite", message)
-    git_commit("#{projects_path}/disguise", message)
-    git_commit("#{projects_path}/uploader", message)
-    git_commit("#{projects_path}/muck_engine", message)
-    git_commit("#{projects_path}/muck_users", message)
-    git_commit("#{projects_path}/muck_comments", message)
-    git_commit("#{projects_path}/muck_profiles", message)
-    git_commit("#{projects_path}/muck_raker", message)
-    git_commit("#{projects_path}/muck_activities", message)
-    git_commit("#{projects_path}/muck_friends", message)
-    git_commit("#{projects_path}/muck_contents", message)
-    git_commit("#{projects_path}/muck_blogs", message)
-    git_commit("#{projects_path}/muck_shares", message)
-    #git_commit("#{projects_path}/muck_invites", message)
+    muck_gem_paths.each do |gem_name|
+      write_new_gem_version("#{projects_path}/#{gem_name}", message)
+    end
   end
   
   desc "Pull code for all the gems (use with caution)"
   task :pull_gems do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    git_pull("#{projects_path}/acts_as_solr")
-    git_pull("#{projects_path}/cms_lite")
-    git_pull("#{projects_path}/disguise")
-    git_pull("#{projects_path}/uploader")
-    git_pull("#{projects_path}/muck_engine")
-    git_pull("#{projects_path}/muck_users")
-    git_pull("#{projects_path}/muck_comments")
-    git_pull("#{projects_path}/muck_profiles")
-    git_pull("#{projects_path}/muck_raker")
-    git_pull("#{projects_path}/muck_activities")
-    git_pull("#{projects_path}/muck_friends")
-    git_pull("#{projects_path}/muck_contents")
-    git_pull("#{projects_path}/muck_blogs")
-    git_pull("#{projects_path}/muck_shares")
-    git_pull("#{projects_path}/muck_invites")
+    muck_gem_paths.each do |gem_name|
+      git_pull("#{projects_path}/#{gem_name}")
+    end
   end
   
   desc "Push code for all the gems (use with caution)"
   task :push_gems do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    git_push("#{projects_path}/acts_as_solr")
-    git_push("#{projects_path}/cms_lite")
-    git_push("#{projects_path}/disguise")
-    git_push("#{projects_path}/uploader")
-    git_push("#{projects_path}/muck_engine")
-    git_push("#{projects_path}/muck_users")
-    git_push("#{projects_path}/muck_comments")
-    git_push("#{projects_path}/muck_profiles")
-    git_push("#{projects_path}/muck_raker")
-    git_push("#{projects_path}/muck_activities")
-    git_push("#{projects_path}/muck_friends")
-    git_push("#{projects_path}/muck_contents")
-    git_push("#{projects_path}/muck_blogs")
-    git_push("#{projects_path}/muck_shares")
-    git_push("#{projects_path}/muck_invites")
+    muck_gem_paths.each do |gem_name|
+      git_push("#{projects_path}/#{gem_name}")
+    end
   end
   
   desc "Gets status for all the muck gems"
   task :status_gems do
     projects_path = File.join(File.dirname(__FILE__), '..', '..',  '..')
-    git_status("#{projects_path}/babelphish")
-    git_status("#{projects_path}/acts_as_solr")
-    git_status("#{projects_path}/cms_lite")
-    git_status("#{projects_path}/disguise")
-    git_status("#{projects_path}/uploader")
-    git_status("#{projects_path}/muck_engine")
-    git_status("#{projects_path}/muck_users")
-    git_status("#{projects_path}/muck_comments")
-    git_status("#{projects_path}/muck_profiles")
-    git_status("#{projects_path}/muck_raker")
-    git_status("#{projects_path}/muck_activities")
-    git_status("#{projects_path}/muck_friends")
-    git_status("#{projects_path}/muck_contents")
-    git_status("#{projects_path}/muck_blogs")
-    git_status("#{projects_path}/muck_shares")
-    git_status("#{projects_path}/muck_invites")
+    muck_gem_paths.each do |gem_name|
+      git_status("#{projects_path}/#{gem_name}")
+    end
   end
   
   def release_gem(path, gem_name)

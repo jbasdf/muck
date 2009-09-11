@@ -1,0 +1,49 @@
+--- 
+fi: 
+  muck: 
+    activity_templates: 
+      follow: Seuraajista
+      friends_with: Ystävät
+    friends: 
+      acccept_friend_request: "Hyväksy sähköpostilla pyynnön {{user}}"
+      accept: (hyväksyä)
+      block: "Block {{user}}"
+      block_problem: "Oli virhe estää {{user}}"
+      blocked: "Estettyjen {{user}}"
+      delete: (poista)
+      follow_activity: "{{inviter}} On nyt seuraava {{invited}}"
+      followers: Seuraajista
+      following: Seuraava
+      following_you: "{{name}} On nyt seuraavat sinulle {{application_name}}"
+      friend_request: "{{name}} On lähettänyt sinulle ystävä pyynnön {{application_name}}"
+      friend_request_links: "{{profile}} Lähettänyt sinulle ystävä kutsun {{accept}} {{ignore}}"
+      friend_request_pending: "Kaveriksitulopyyntösi kunnes {{link}}"
+      friend_request_prompt: "Lähetä {{user}} kaveriksitulopyynnön"
+      friend_request_sent: "Friend Pyyntö lähetetty"
+      friends: Ystävät
+      friends_title: Ystävät
+      friends_with: "{{inviter}} On nyt ystäviä {{invited}}"
+      ignore: (ignore)
+      login: kirjautuminen
+      login_or_sign_up_to_follow: "{{login}} Tai {{signup}} seurata tämän käyttäjän"
+      login_or_sign_up_to_friend: "{{login}} Tai {{signup}} lähettää kaveriksitulopyynnöt"
+      mutual_friends: "Keskinäinen ystävien"
+      no_followers: "O Followers"
+      no_friends: "No friends"
+      no_mutual_friends: "Ei ole yhteisiä kavereita löytynyt"
+      not_following_anyone: "Ei seuraa ketään"
+      problem_adding_follow: "Oli ongelma lisäämällä {{user}} teidän seurata luetteloon. Yritä uudelleen."
+      problem_sending_friend_request: "Oli ongelma lähettää ystävällesi pyynnön {{user}}. Yritä uudelleen."
+      removed_following_error: "Ongelma ilmeni kun yrittää unfollow {{user}}"
+      removed_friendship: "Removed {{user}} kaverilistastasi"
+      removed_friendship_error: "Oli ongelma poistamalla {{user}} listaltasi ystäviä"
+      same_inviter_error_message: "Käyttäjä ei voi tulla ystäviä themself."
+      signup: kirjautumistoiminnon
+      start_following: "Seuraa {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop jälkeen {{user}}"
+      stopped_following: "Onnistuneesti keskeytettävä {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "Vapautetaan {{user}}"
+      view_all: "Näytä kaikki"
+      you_are_now_following: "Olet nyt seuraavat {{user}}"

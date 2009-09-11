@@ -1,0 +1,49 @@
+--- 
+ro: 
+  muck: 
+    activity_templates: 
+      follow: Adepţi
+      friends_with: Prieteni
+    friends: 
+      acccept_friend_request: "Acceptaţi prieten cerere din partea {{user}}"
+      accept: (accepte)
+      block: "Bloc {{user}}"
+      block_problem: "Nu a fost o eroare de blocare {{user}}"
+      blocked: "Blocat {{user}}"
+      delete: "(se şterge)"
+      follow_activity: "{{inviter}} Este următorul acum {{invited}}"
+      followers: Adepţi
+      following: Următorul
+      following_you: "{{name}} Este următorul acum tine pe {{application_name}}"
+      friend_request: "{{name}}-A trimis o cerere de prietenie pe {{application_name}}"
+      friend_request_links: "{{profile}} Te-a trimis o cerere de prietenie {{accept}} {{ignore}}"
+      friend_request_pending: "Prieten cerere {{link}} în aşteptare"
+      friend_request_prompt: "Trimite {{user}} o cerere de prietenie"
+      friend_request_sent: "Prieten Solicitare trimisă"
+      friends: Prieteni
+      friends_title: "Prietenii mei"
+      friends_with: "{{inviter}} Este acum prieten cu {{invited}}"
+      ignore: (ignora)
+      login: conecta
+      login_or_sign_up_to_follow: "{{login}} Sau {{signup}} să urmeze acest utilizator"
+      login_or_sign_up_to_friend: "{{login}} Sau {{signup}} pentru a trimite cereri de prietenie"
+      mutual_friends: "Prieteni comuni"
+      no_followers: "Nr Followers"
+      no_friends: "No friends"
+      no_mutual_friends: "Nu prieteni comuni găsit"
+      not_following_anyone: "Nerespectarea Oricine"
+      problem_adding_follow: "Nu a fost o problemă adăugarea {{user}} pentru a vă urmaţi listă. Vă rugăm să încercaţi din nou."
+      problem_sending_friend_request: "Nu a fost o problemă trimite o cerere de prietenie pentru a {{user}}. Vă rugăm să încercaţi din nou."
+      removed_following_error: "O problemă a apărut în timp ce încerca să unfollow {{user}}"
+      removed_friendship: "Removed {{user}} de la prietenii dvs."
+      removed_friendship_error: "Nu a fost o problemă a scoate {{user}} din lista ta de prieteni"
+      same_inviter_error_message: "Utilizatorul nu poate deveni cu prietenii la sine."
+      signup: Signup
+      start_following: "Urmaţi {{user}}"
+      stop_being_friends_with: "Unfriend {{user}}"
+      stop_following: "Stop {{user}} În urma"
+      stopped_following: "Cu succes a oprit următoarele {{user}}"
+      unblock: "Unblock {{user}}"
+      unblocked: "{{user}} Unblocked"
+      view_all: "View All"
+      you_are_now_following: "Sunteti următoarele acum {{user}}"

@@ -1,0 +1,32 @@
+--- 
+hu: 
+  muck: 
+    engine: 
+      choose_country: "Válasszon országot"
+      choose_language: "Válasszon nyelvet"
+      choose_state: "Válassza ki az állami"
+      missing_parent_error: "Kérjük, adja meg a szülő objektum"
+      select_country_prompt: "Kérjük, válasszon országot"
+      select_language_prompt: "Kérjük, válasszon egy nyelvet"
+      select_state_prompt: "Kérjük, válasszon egy állam"
+    forms: 
+      please_enter_a_value: "Adjon meg egy értéket {{label}}"
+    general: 
+      activate: Aktiváljuk
+      deactivate: Inaktivál
+      delete: Töröl
+      deleting: "Törlés ..."
+      disable: Bekapcsol
+      enable: Kikapcsol
+      enabled: Enabled?
+      general_info: "Általános információk"
+      help: Segítség
+      next: "Következő »"
+      no_text: Nem
+      previous: «Előző
+      read_more: "olvas több"
+      save: Ment
+      settings_saved: "Beállítások mentése megtörtént."
+      time_ago: "{{time_in_words}} Ezelőtt"
+      update: Frissítés
+      yes_text: Igen

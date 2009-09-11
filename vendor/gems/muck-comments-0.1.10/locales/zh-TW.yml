@@ -1,0 +1,18 @@
+--- 
+zh-TW: 
+  muck: 
+    activity_templates: 
+      comment: 評論
+    comments: 
+      add_comment: 評論
+      add_comment_button: 新增評論
+      anonymous: 匿名
+      cant_delete_comment: 您沒有權限刪除該評論
+      comment_removed: 評論成功刪除。
+      create_error: "無法創建的評論{{errors}}"
+      create_success: 成功添加評論
+      missing_comment_template_error: "找不到部分名為{{partial}}.請建立一個註釋部分，然後再試一次。"
+      new_comment_email_subject: "從{{name}}新的評論對{{application_name}}"
+      new_comment_no_title: 添加新評論
+      new_comment_with_title: "添加新的評論，{{title}}"
+      problem_adding_comment: 有一個問題，加入您的評論

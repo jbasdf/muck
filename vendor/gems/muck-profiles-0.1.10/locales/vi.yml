@@ -1,0 +1,12 @@
+--- 
+vi: 
+  muck: 
+    profiles: 
+      could_not_find_user: "Không tìm thấy người sử dụng chỉ định."
+      edit_failure: "Đã xảy ra lỗi trong khi cập nhật tiểu sử của bạn."
+      edit_profile: "Edit Profile"
+      edit_success: "Cập nhật thành hồ sơ của bạn"
+      problem_editing_account: "Có vấn đề cập nhật hồ sơ của bạn"
+      update_profile: "Cập nhật thông tin"
+      upload_photo: "Tải lên một hình ảnh:"
+      view_profile: "Xem Hồ Sơ"

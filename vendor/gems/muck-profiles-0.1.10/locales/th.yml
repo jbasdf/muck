@@ -1,0 +1,12 @@
+--- 
+th: 
+  muck: 
+    profiles: 
+      could_not_find_user: ไม่พบผู้ใช้ที่ระบุ.
+      edit_failure: เกิดข้อผิดพลาดในขณะที่ปรับปรุงโปรไฟล์ของคุณ.
+      edit_profile: แก้ไขโปรไฟล์
+      edit_success: การปรับปรุงโปรไฟล์ของคุณเรียบร้อยแล้ว
+      problem_editing_account: เกิดปัญหาในการปรับปรุงโปรไฟล์ของคุณคือ
+      update_profile: "โปรไฟล์ Update"
+      upload_photo: "อัพโหลดรูปภาพ:"
+      view_profile: ดูโปรไฟล์

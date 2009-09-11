@@ -1,0 +1,141 @@
+--- 
+sk: 
+  muck: 
+    activity_templates: 
+      entry_comment: Komentár
+    raker: 
+      add_extended_feed_sub_title: "Prispieť nový zdroj dát"
+      add_extended_feed_title: "Pridať nový feed"
+      add_feed: "Pridať kanál"
+      add_feed_advanced: "Pridať kanál (Advanced)"
+      add_feed_title: "Pridať nový krmivo"
+      add_feed_url: "Url:"
+      all_resources: "Všetky zdroje"
+      already_added_uri_feed: "Ste už pridali url {{uri}}"
+      already_added_username_feed: "Ste už pridali {{service}} účet s užívateľským menom {{username}}"
+      already_shared: "Ste skôr do tejto stránke."
+      amazon_prompt: "Prosím, zadajte e-mailu môžete použiť s Amazon.com"
+      atom: Atom
+      available_services: "Dostupné služby"
+      ban_feed: "Označiť krmivo ako neplatné"
+      banned: zakázaná
+      blogger_prompt: "URL vášho blogu"
+      calculated: vypočítané
+      cant_modify_identity_feed: "Nemáte oprávnenie pre prístup k uvedenej krmivá."
+      choose_service: "Vyberte službu:"
+      close: Zavrieť
+      collection_description: "Kolekcia Popis:"
+      collection_home_uri: "Adresa Collection Domovská stránka"
+      collection_uri: "Adresa Collection Metadata:"
+      collections: Zbierky
+      collections_long: "Indexované Collections"
+      comment_entries_count: 
+        one: "1 Comment"
+        other: "{{count}} Komentáre"
+      course_search_results: "Predmety <b>{{first}} - {{last}}</b> z <b>{{total}}</b> pre vyhľadávanie <b>{{terms}}</b>"
+      course_tag_results: "Predmety <b>{{first}} - {{last}}</b> z <b>{{total}}</b> označené <b>{{terms}}</b>"
+      courses_tag_cloud_label: "prechádzať kurzy pomocou značiek <a href=\"/resources\">[prechádzať všetky zdroje]</a>"
+      demo: Demo
+      description: Opis
+      details: Detaily
+      developers_long: "Informácie pre vývojárov"
+      direct_link: "[priamy odkaz]"
+      discover_feed: "Objavte Feed"
+      discover_feed_message: "Vyhľadávanie informácií o URL, ktoré ste poskytli. Prosím čakajte."
+      display_url: "Url na zobrazenie:"
+      entry_commment_contents: "skomentoval {{resource}}"
+      facebook_instructions: "Na stránke Moje odkazy, pravým-kliknite na &#39;My Links&#39; a skopírovať odkaz. Budeme automaticky zahŕňajú stav, odkazy a poznámky."
+      facebook_link: "Môžete nájsť URL na vašej stránke Facebook My Links. {{link}} A potom kliknite na &#39;My Links&#39;"
+      facebook_notes: "Facebook Notes"
+      facebook_notifications: "Facebook Oznámenie"
+      facebook_prompt: "Vaša Facebook My Links URL"
+      facebook_shares: "Facebook Zdieľané Odkazy"
+      failed_harvests: "Výpadky zberom"
+      failed_last_request: "Neúspešný posledný dotaz: {{error}}"
+      feed_banned_message: "Krmivo bol úspešne zakázané."
+      feed_successfully_created: "Krmivo bol úspešne vytvorený."
+      feed_successfully_updated: "Krmivo bol úspešne aktualizovaný."
+      feed_validated_message: "Krmivo bola úspešne overená."
+      feeds_title: "Registrovaných Collections"
+      for: pre
+      friendfeed_prompt: "FriendFeed RSS URL"
+      friendfeed_rss: "Môžete si nájsť adresu URL v spodnej časti {{link}}."
+      gm_more_prompt: "Viac Súvisiace zdroje informácií"
+      gm_title: "Súvisiace zdroje informácií"
+      goodreads_prompt: "Goodreads profil URL"
+      goodreads_rss: "napr http://www.goodreads.com/user/show/1111"
+      harvest_interval: "Harvest interval (hod)"
+      harvested_at: "Zozbierané na"
+      hide: Skryť
+      identity_feed_removed: "Removed servis"
+      identity_feeds: "Identita RSS"
+      import_service: "Import {{service}}"
+      linkedin_prompt: "LinkedIn verejný profil URL"
+      linkedin_rss: "Môžete si nájsť adresu URL v spodnej časti {{link}}."
+      loading_content_image: "Loading image"
+      login: Prihlásiť
+      login_or_signup_prompt: "{{signup}} Alebo {{login}} na diskusiu a zdieľanie zdrojov."
+      login_to_comment: "Prihlásiť sa pridať komentár"
+      metadata: metadáta
+      my_services: "Moje služby"
+      narrow_further: "úzky výsledkov ďalšieho"
+      netflix_prompt: "Netflix Fronta RSS URL"
+      netflix_rss: "Môžete nájsť URL na vašich {{link}}. Všimnite si, že existuje niekoľko kanály k dispozícii na vašej stránke Netflix Queue (Fronta, odporúčania, recenzie filmov, atď). Pridať toľko, koľko chcete!"
+      new_global_feed: "Nový zdroj bol pridaný {{application_name}}"
+      next: Budúci
+      next_label: Budúci
+      no_feeds_at_uri: "Nepodarilo sa nám nájsť danú url"
+      no_feeds_from_username: "Nepodarilo sa nám nájsť daný účet"
+      no_hits: "Vaše hľadanie - <b>{{search}}</b> - nezodpovedajú žiadne <b>{{resource_type}}.</b> Prosím, skúste hľadať iné alebo vyberte iný jazyk."
+      no_tagged_courses: "Neboli nájdené žiadne <b>kurzy</b> označili <b>{{tags}}.</b> <a href='/resources'>Začať znovu</a> alebo zobraziť <a href='/resources/tags/{{tags}}'>všetky zdroje označené {{tags}}.</a>"
+      no_tagged_resources: "Žiadne <b>prostriedky</b> neboli nájdené označili <b>{{tags}}.</b> <a href='/resources'>Začať znova.</a>"
+      no_tags: "No tags zatiaľ k dispozícii"
+      oai_prompt: "Ak zadáte OAI, musíte zadať úplnú adresu URL na žiadosť ListRecords (nielen koncový bod OAI)"
+      of: z
+      ok: OK
+      only_courses: "Iba Kurzy"
+      polyvore_prompt: "Polyvore profil URL"
+      polyvore_rss: "Vaša Polyvore profil URL vyzerá http://www.polyvore.com/cgi/profile?id=00000"
+      powered_by: "powered by"
+      previous: Predchádzajúci
+      previous_label: Predchádzajúci
+      problem_adding_feed: "Tam bol problém pridať krmivá:"
+      rdf: RDF
+      related_resources: súvisiace
+      related_resources_title: "Súvisiace zdroje informácií"
+      relevance: relevance
+      remix: Remix
+      repository_short_title: "Úložisko Short Názov:"
+      repository_title: "Repository Názov:"
+      resource_search_results: "Zdroje <b>{{first}} - {{last}}</b> z <b>{{total}}</b> pre vyhľadávanie <b>{{terms}}</b>"
+      resource_tag_results: "Zdroje <b>{{first}} - {{last}}</b> z <b>{{total}}</b> označené <b>{{terms}}</b>"
+      resources_tag_cloud_label: "prechádzať zdrojov pomocou značiek <a href=\"/resources?grain_size=course\">[prechádzať iba kurzy]</a>"
+      results: Výsledky
+      rss: RSS
+      rss_url: "Url pre RSS feed"
+      search: hľadať
+      search_button: Choď
+      search_link: "Nájsť zdroje!"
+      select_feeds_prompt: "Vyberte kanály, ktorý chcete pridať:"
+      select_service_prompt: "Prosím vyberte službu"
+      service_username: "{{service}} Meno"
+      share: Zdieľať
+      short_title: "Skrátený názov:"
+      show_tagged_courses: "zobraziť iba kurzy"
+      show_tagged_resources: "show akéhokoľvek zdroja"
+      signup: "Sign Up"
+      spinner_image: "Čakanie image"
+      start_over: "začať znovu"
+      status: Stav
+      submitting_feed_message: "Pošlite nám svoj zdroj ..."
+      successfully_added_uri_feed: "Úspešne pridaný {{uri}}"
+      successfully_added_username_feed: "Úspešne pridaný {{service}}"
+      tags: Štítky
+      title: Názov
+      type_of_metadata: "Typ Metadata:"
+      uri: Url
+      validate_feed: "Mark krmivo ako platný"
+      visit: navštívte
+      xml: XML
+      zotero_group_prompt: "Zotero skupiny URL"
+      zotero_group_rss: "Vaša Zotero skupiny URL vyzerá nasledovne: http://www.zotero.org/groups/adventures_in_library_instruction/items"

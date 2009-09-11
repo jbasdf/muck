@@ -1,0 +1,22 @@
+--- 
+es: 
+  muck: 
+    activity_templates: 
+      share: Acciones
+    shares: 
+      add_share: Compartir
+      add_share_button: Compartir
+      adding_share: "Compartir la página ..."
+      cancel_share_button: Cancelar
+      cant_delete_share: "Usted no tiene permiso para eliminar que la cuota de"
+      create_error: "No se pudo crear el recurso compartido: {{errors}}"
+      create_success: "Éxito compartido página"
+      login_prompt: "Iniciar sesión para compartir"
+      message: Mensaje
+      new_share: "Compartir un enlace"
+      problem_adding_share: "Hubo un problema al añadir a su cuota de"
+      share_activity_content: "compartida {{link}}. {{message}}"
+      share_removed: "Compartir eliminado con éxito."
+      share_title: "Compartir este Link"
+      title: Título
+      uri: Url

@@ -1,0 +1,25 @@
+<h1><%= link_to @entry_title, @entry.permalink %> <%= link_to "(xml)", "/recommendations.xml?u=" + @entry.permalink, :class=> "catalog_link" %> - <%= t('muck.raker.details') %></h1>
+
+<table border="1" cellpadding="3px">
+  <tr>
+    <th><%= t('muck.raker.related_resources_title') %> <span style="color:#888;font-weight:normal;">(<%= t('muck.raker.calculated') %> <%= @entry.relevance_calculated_at.strftime("%d %b %Y") %>)</span></th>
+    <th class="centered">Relevance</th>
+    <th class="centered">Clicks</th>
+    <th class="centered">Avg Time<br/>(seconds)</th>
+  </tr>
+  <% @recommendations.each do |r| %>
+  <tr>
+    <td><%= render :partial => 'entries/related_entry', :locals => {:related_entry => r} %></td>
+    <td class="centered"><%= round(r["relevance"]) %></td>
+    <td class="centered"><%= r["clicks"] %></td>
+    <td class="centered"><%= r["avg_time_on_target"] %></td>
+  </tr>
+  <% end%>
+</table>
+
+<p>Ranking method:</p>
+<ol>
+  <li><em>Popular items</em> ordered by number of clicks. These are items that have been clicked on at least 1.5 standard deviations more than the average number of times.</li>
+  <li><em>Highly relevant</em> items, ordered randomly. These are items with a relevance score at least one standard deviation higher than the average relevance score.</li>
+  <li><em>Other relevant</em> items, ordered randomly. These are the rest of the relevant items.</li>
+</ol>

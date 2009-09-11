@@ -1,0 +1,32 @@
+--- 
+tr: 
+  muck: 
+    contents: 
+      add: Eklemek
+      cancel: Iptal
+      cant_delete_content: "Izniniz belirtilen içeriği silmek zorunda değilsiniz"
+      choose_layout: "Şablon Seçin"
+      choose_layout_help: "Bir düzen seçin ki bu sayfa için krom kılacağını şablonu."
+      confirm_delete_content: "Size bu içeriği silmek istediğinizden emin misiniz? Bu geri alınamaz!"
+      content_help: "Bu sayfada görünecektir içeriğidir."
+      content_label: Içerik
+      content_removed: "İçerik başarıyla kaldırıldı"
+      create_error: "Bir sorun içerik ekleyerek edildi"
+      default_404_body: "Biz Aradığınız sayfa bulunamadı."
+      default_404_title: "404 Sayfa bulunamadı"
+      delete: Silmek
+      delete_title: "Bu sayfayı silin."
+      edit: Değiştir
+      edit_title: "Bu sayfayı düzenleyin."
+      manage_pages_title: "Yönetmek site içeriği"
+      no_uri_error: "Lütfen modeli kaydetmeden önce uri için bir değeri sıfır olduğu zaman contentable"
+      page_doesnt_exist_create: "Mevcut değil istenen sayfası. Lütfen sayfa oluşturmak için aşağıdaki bilgileri."
+      permalink: "Permalink:"
+      problem_adding_content: "Bir sorun içerik ekleyerek oldu"
+      problem_updating_content: "Bir sorun içerik güncellenirken"
+      save: Kaydetmek
+      submit_content_button: Kaydetmek
+      tag_information: "Etiketler diğer kullanıcıların sayfası bulmak ve yardım belgenin meta anahtar kelimeler olarak kullanılacaktır."
+      tags: Etiketler
+      title_help: "Başlık ve sayfa başlığını url çubuğunda görüntülenen URL&#39;yi kontrol"
+      title_label: Title

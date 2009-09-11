@@ -1,0 +1,33 @@
+--- 
+? "no"
+: 
+  muck: 
+    contents: 
+      add: "Legge til"
+      cancel: Avbryt
+      cant_delete_content: "Du har ikke tillatelse til å slette den angitte innholdet"
+      choose_layout: "Velg mal"
+      choose_layout_help: "Velg et oppsett mal som skal gjengi chrome på denne siden."
+      confirm_delete_content: "Er du sikker på at du vil slette dette innholdet? Dette kan ikke gjøres om!"
+      content_help: "Dette er innhold som vises på siden."
+      content_label: Innhold
+      content_removed: "Innhold fjernet"
+      create_error: "Det var et problem å legge innholdet"
+      default_404_body: "Vi kunne ikke finne siden du leter etter."
+      default_404_title: "404 Finner ikke siden"
+      delete: Slette
+      delete_title: "Slett denne siden."
+      edit: Rediger
+      edit_title: "Rediger denne siden."
+      manage_pages_title: "Behandle innhold"
+      no_uri_error: "Vennligst angi en verdi for URI før du lagrer modellen når contentable er null"
+      page_doesnt_exist_create: "Siden du forespurte finnes ikke. Angi opplysningene nedenfor for å lage siden."
+      permalink: "Permalink:"
+      problem_adding_content: "Det var et problem å legge innholdet"
+      problem_updating_content: "Det var et problem oppdaterer innholdet"
+      save: Lagre
+      submit_content_button: Lagre
+      tag_information: "Tags å finne andre brukere til siden, og vil bli brukt som meta nøkkelord for dokumentet."
+      tags: Tags
+      title_help: "Tittelen styrer url og siden tittelen vises i URL-bar"
+      title_label: Tittel

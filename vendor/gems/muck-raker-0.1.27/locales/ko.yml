@@ -1,0 +1,141 @@
+--- 
+ko: 
+  muck: 
+    activity_templates: 
+      entry_comment: 댓글
+    raker: 
+      add_extended_feed_sub_title: "기부 새 데이터 소스"
+      add_extended_feed_title: "새 피드 추가"
+      add_feed: "피드 추가"
+      add_feed_advanced: "(고급) 피드 추가"
+      add_feed_title: "새 피드 추가"
+      add_feed_url: "홈페이지 :"
+      all_resources: "전체 자료"
+      already_added_uri_feed: "넌 이미 URL이 추가되었습니다 {{uri}}"
+      already_added_username_feed: "당신은 이미 이름 {{service}}와 {{username}} 계정을 추가했습니다"
+      already_shared: "이전에이 페이지를 공유했습니다."
+      amazon_prompt: "제발 당신이 Amazon.com에 사용할 이메일 주소를 입력"
+      atom: 아톰
+      available_services: "사용 가능한 서비스"
+      ban_feed: "무효로 마크 피드"
+      banned: 금지
+      blogger_prompt: "URL은 블로그의"
+      calculated: 계산
+      cant_modify_identity_feed: "권한이 지정된 피드에 액세스할 필요가없습니다."
+      choose_service: "서비스 선택 :"
+      close: 닫기
+      collection_description: "컬렉션 설명 :"
+      collection_home_uri: "주소 모음 홈 페이지"
+      collection_uri: "컬렉션 메타 데이터의 주소 :"
+      collections: 컬렉션
+      collections_long: "인덱스 컬렉션"
+      comment_entries_count: 
+        one: "1 개의 코멘트"
+        other: "{{count}} 댓글"
+      course_search_results: "코스 <b>{{first}} - {{last}} {{total}}</b> 찾기 <b>{{terms}}하기</b>"
+      course_tag_results: "코스 <b>{{first}} - {{last}} {{total}}</b> 태그 <b>{{terms}}의</b>"
+      courses_tag_cloud_label: "코스 태그를 사용하여 검색 <a href=\"/resources\">[모든 리소스를 검색]</a>"
+      demo: 데모
+      description: 설명
+      details: "세부 정보"
+      developers_long: "개발자를위한 정보"
+      direct_link: "[직접 링크]"
+      discover_feed: "다양한 피드"
+      discover_feed_message: "당신이 제공된 URL에 대한 정보를 검색. 잠시 기다려주십시오."
+      display_url: "URL을 표시할 수 :"
+      entry_commment_contents: "{{resource}}에 대한 논평"
+      facebook_instructions: "내 링크 페이지에서 &#39;내 링크&#39;와 링크를 복사를 마우스 오른쪽 단추로 누릅니다. 자동으로, 상태, 링크 및 메모가 포함됩니다."
+      facebook_link: "귀하의 페이 스북 내 링크 페이지에서 귀하의 URL을 찾을 수있습니다. &#39;에 대한 {{link}}을 누른 다음 내 링크&#39;"
+      facebook_notes: "페이스 북의 노트"
+      facebook_notifications: "페이스 북의 알림"
+      facebook_prompt: "귀하의 페이 스북 내 링크 URL을"
+      facebook_shares: "페이스 북의 공유 링크"
+      failed_harvests: "실패 수확"
+      failed_last_request: "마지막 요청이 실패했습니다 : {{error}}"
+      feed_banned_message: "피드를 성공적으로 금지했다."
+      feed_successfully_created: "피드를 성공적으로 만들었습니다."
+      feed_successfully_updated: "피드를 성공적으로 업데이 트되었습니다."
+      feed_validated_message: "피드를 성공적으로 확인했습니다."
+      feeds_title: "등록 컬렉션"
+      for: "을 위해"
+      friendfeed_prompt: "FriendFeed RSS URL을"
+      friendfeed_rss: "당신 {{link}}.의 하단에 귀하의 URL을 찾을 수있습니다"
+      gm_more_prompt: "더 많은 관련 리소스"
+      gm_title: "관련 리소스"
+      goodreads_prompt: "프로필에 URL을 Goodreads"
+      goodreads_rss: "예를 들어, http://www.goodreads.com/user/show/1111"
+      harvest_interval: "수확 간격 (시간)"
+      harvested_at: "에서 수확"
+      hide: 숨기기
+      identity_feed_removed: "서비스 삭제"
+      identity_feeds: "신원 피드"
+      import_service: "가져오기 {{service}}"
+      linkedin_prompt: "LinkedIn에 공개 프로필 URL을"
+      linkedin_rss: "당신 {{link}}.의 하단에 귀하의 URL을 찾을 수있습니다"
+      loading_content_image: "콘텐츠 이미지 로딩"
+      login: 로그인
+      login_or_signup_prompt: "{{signup}} 또는 {{login}} 및 공유 자원을 논의했다."
+      login_to_comment: "로그인 코멘트를 추가하려면"
+      metadata: "메타 데이터"
+      my_services: "나의 서비스"
+      narrow_further: "좁은 결과 추가"
+      netflix_prompt: "넷플 릭스 큐 RSS URL을"
+      netflix_rss: "당신 {{link}}.에 대한 귀하의 URL을 찾을 수있습니다 거기에 여러 귀하의 페이지에 넷플 릭스 큐 (큐, 추천, 영화 리뷰, 등 사용 가능) 피드됩니다. 추가만큼 많습니다!"
+      new_global_feed: "새 피드 {{application_name}}에 추가되었습니다"
+      next: 다음
+      next_label: 다음
+      no_feeds_at_uri: "우리는 주어진 URL을 찾을 수없습니다"
+      no_feeds_from_username: "우리는 주어진 계정을 찾을 수없습니다"
+      no_hits: "귀하의 검색 - <b>{{search}}</b> - 어떤 <b>{{resource_type}}</b> 일치하지 않았다. 제발 다른 검색을 시도하거나 다른 언어를 선택할 수있습니다."
+      no_tagged_courses: "아니 <b>과정 {{tags}}</b> 태그를 찾을 수없습니다. <a href='/resources'>다시 시작하거나</a> <a href='/resources/tags/{{tags}}'>모든 리소스 {{tags}} 태그를</a> 보여."
+      no_tagged_resources: "아니 <b>자원 {{tags}}</b> 태그를 찾을 수없습니다. <a href='/resources'>다시 시작.</a>"
+      no_tags: "아니 아직 태그가없습니다"
+      oai_prompt: "당신은 OAI를 지정하는 경우, 당신은 ListRecords 요청 (그냥은 OAI 종점)에 전체 URL을 지정해야합니다"
+      of: 의
+      ok: 확인
+      only_courses: "전용 코스"
+      polyvore_prompt: "프로필에 URL을 Polyvore"
+      polyvore_rss: "귀하의 Polyvore 프로필에 URL을 http://www.polyvore.com/cgi/profile?id=00000 같은데"
+      powered_by: "에 의해 구동"
+      previous: 이전
+      previous_label: 이전
+      problem_adding_feed: "거기에 문제가 피드를 추가했다 :"
+      rdf: RDF의
+      related_resources: 관련
+      related_resources_title: "관련 리소스"
+      relevance: 관련순
+      remix: 리믹스
+      repository_short_title: "저장소 짧은 제목 :"
+      repository_title: "저장소 제목 :"
+      resource_search_results: "자료 <b>{{first}} - {{last}} {{total}}</b> 찾기 <b>{{terms}}하기</b>"
+      resource_tag_results: "자료 <b>{{first}} - {{last}} {{total}}</b> 태그 <b>{{terms}}의</b>"
+      resources_tag_cloud_label: "태그를 사용하여 리소스를 검색 <a href=\"/resources?grain_size=course\">[전용 코스를 찾아보기]</a>"
+      results: "검색 결과"
+      rss: RSS
+      rss_url: "URL을 귀하의 RSS 피드에 대한"
+      search: 검색
+      search_button: 가다
+      search_link: "찾기 자료!"
+      select_feeds_prompt: "을 선택하면 추가하려는 피드 :"
+      select_service_prompt: "서비스를 선택하시기 바랍니다"
+      service_username: "{{service}} 이름"
+      share: 공유
+      short_title: "짧은 제목 :"
+      show_tagged_courses: "코스에만 표시"
+      show_tagged_resources: "자원의 어떤 표시"
+      signup: 가입하기
+      spinner_image: "이미지를 기다 리면서"
+      start_over: "다시 시작"
+      status: 상태
+      submitting_feed_message: "귀하의 피드를 제출 ..."
+      successfully_added_uri_feed: "{{uri}} 성공적으로 추가"
+      successfully_added_username_feed: "{{service}} 성공적으로 추가"
+      tags: 태그
+      title: 제목
+      type_of_metadata: "메타 데이터의 유형 :"
+      uri: 홈페이지
+      validate_feed: "유효 기간 : 마크 피드"
+      visit: 방문
+      xml: XML을
+      zotero_group_prompt: "Zotero 그룹 URL"
+      zotero_group_rss: "귀하의 Zotero 그룹의 URL을 같이 보입니다 : http://www.zotero.org/groups/adventures_in_library_instruction/items"

@@ -1,0 +1,18 @@
+--- 
+hr: 
+  muck: 
+    activity_templates: 
+      comment: Komentari
+    comments: 
+      add_comment: Komentar
+      add_comment_button: "Add Comment"
+      anonymous: anonymous
+      cant_delete_comment: "Nemate dopuštenje za brisanje koja komentar"
+      comment_removed: "Komentar je uspješno uklonjen."
+      create_error: "Ne mogu stvoriti {{errors}} komentar"
+      create_success: "Uspješno dodan komentar"
+      missing_comment_template_error: "Ne mogu pronaći djelomični pod nazivom {{partial}}. Molimo Vas izraditi parcijalne komentar i pokušajte ponovno."
+      new_comment_email_subject: "Novi komentar od {{name}} na {{application_name}}"
+      new_comment_no_title: "Dodaj novi komentar"
+      new_comment_with_title: "Dodaj novi komentar {{title}}"
+      problem_adding_comment: "Došlo je do problema dodajući Vaš komentar"

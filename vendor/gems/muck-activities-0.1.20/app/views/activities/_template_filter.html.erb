@@ -1,0 +1,7 @@
+<ul id="activity-filter">
+  <li class="all-activities <%=no_filter?%>"><a href="<%=all_activities_url%>"><%=t('muck.activities.all_activities')%></a></li>
+  <% activity_types.each do |type| -%>
+    <% continue if dont_include.include?(type) %>
+    <li class="<%= type.template%> <%=is_current_filter?(type.template)%>"><a href="?activity_filter=<%= type.template%>"><%= t("muck.activity_templates.#{type.template}") %></a></li>
+  <% end -%>
+</ul>
