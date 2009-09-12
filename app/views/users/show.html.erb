@@ -5,26 +5,54 @@
 <% end -%>
 
 <div class="span-3 column">
-  <%= activity_filter(@user) %>
+  <%= activity_filter(@user, 'welcome') %>
+  <h2><%= t('muck.friends.following')%></h2>
+  <%= followings(@user, 12, t('muck.friends.not_following_anyone'), 'friend_tiny_icon') %>
+  <h2><%= t('muck.friends.followers')%></h2>
+  <%= followers(@user, 12, t('muck.friends.no_followers'), 'friend_tiny_icon') %>
 </div>
 
 <div class="span-14 two-colborder column">
-  <%= current_status(@user) %>
+  <%#= contribute(@user) %>
   <%= status_update(@user) %>
   <%= activity_feed_for(@user) %>
 </div>
 
 <div class="span-5 last column">
-  <div id="recommended" class="box">
-    <%= link_to t('muck.profiles.edit_profile'), edit_user_profile_path(@user) if @user.profile.can_edit?(current_user) %>
+  <div id="controls" class="box">
+    <ul>
+      <li><%= link_to t('muck.profiles.view_profile'), profile_path(@user) %></li>
+      <li><%= link_to t('uploader.manage_photos_files'), user_uploads_path(@user) %></li>
+    </ul>
   </div>
+  <!-- 
   <hr class="space" />
   <div id="recommended" class="box">
     <h4>Recommended Resources</h4>
-  </div>
+  </div> -->
+  
   <hr class="space" />
-  <div id="uploads" class="box">
-    <h4>File Uploads</h4>
-    <%= link_to 'Uploads', uploads_path(make_parent_params(@user)) %>
+  <div id="identity" class="box">
+    <h3>My Identity</h3>
+    <%= services_summary(@user) %>
+    <%= link_to t('muck.raker.add_edit_feeds'), user_identity_feeds_path(@user) %>
   </div>
 </div>
+
+<% content_for :javascript do -%>
+jQuery(document).ready(function() {
+  jQuery('a.lightbox').fancybox({
+      'hideOnContentClick': true,
+      'overlayShow': true,
+      'frameWidth': 700,
+      'frameHeight': 600
+  });
+  jQuery('a.status-action').click(function(){
+    jQuery('.status-activity').hide();
+    jQuery('.status-action').removeClass('active');
+    var container = this.id.replace('-action', '-container');
+    jQuery(this).addClass('active');
+    jQuery('#' + container).show();
+  });
+});
+<% end -%>
