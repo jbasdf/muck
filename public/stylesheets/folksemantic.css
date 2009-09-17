@@ -135,3 +135,7 @@ ul#my-services-list li form {right:-25px;position:absolute;top:3px;}
 ul.service-summary{margin:0;padding:0;list-style:none;}
 ul.service-summary a.service-link{display:inline-block;margin:2px 0;padding:2px 0 5px 28px;text-decoration:none;}
 .waiting{margin:3px 0;padding-left:20px;background:transparent url('/images/spinner.gif') no-repeat scroll left bottom;}
+#sources-list ul {float:left;display:inline-block;height:130px;margin:0 20px;width:130px;}
+#sources-list ul li{padding:2px 0 5px 25px;}
+#sources-list ul li input{margin:0;}
+#sources-list ul li.source-title{font-weight:bolder;font-size:1.4em;margin:10px 0 0 0;padding:0;}

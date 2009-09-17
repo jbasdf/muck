@@ -47,6 +47,7 @@ class User < ActiveRecord::Base
   has_activities
   has_muck_feeds
   acts_as_muck_feed_owner
+  #acts_as_muck_aggregation_owner
   acts_as_muck_friend_user
   acts_as_muck_sharer
   acts_as_tagger
