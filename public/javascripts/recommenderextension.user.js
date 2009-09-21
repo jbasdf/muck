@@ -5,8 +5,8 @@
 // @include        *
 // ==/UserScript==
 
-// we don't do recommendations inside of frames
-if (self != top) return;
+var sUrlToGetRecsFor = new String(window.location);
+if (self != top && !folksemanticFrames(sUrlToGetRecsFor)) return;
 
 var Drag = function() {
     this.init.apply(this, arguments);
@@ -207,7 +207,7 @@ function demoDomain(sUrl) {
     for (nDomain = 0; nDomain < demoDomains.length; nDomain++) {
         if (sUrl.startsWith(demoDomains[nDomain])) return true;
     }
-    return false;
+    return folksemanticFrames(sUrl);
 }
 function blacklistedDomain(sUrl) {
     for (nDomain = 0; nDomain < blacklistedDomains.length; nDomain++) {
@@ -217,6 +217,9 @@ function blacklistedDomain(sUrl) {
 }
 function userRequest(sUrl) {
     return (sUrl.indexOf("rtr=true") != -1);
+}
+function folksemanticFrames(sUrl) {
+    return (sUrl.indexOf("show_recs=true") != -1);
 }
 
 function recList(recommendations, sDirectLinkText) {
@@ -264,7 +267,7 @@ function morePrompt(root) {
     return sDocID == '' ? '' : '<div class="recommender_more_link" style="margin: 3px; padding: 0px;" align="center"><a href="' + sShowDocUrl + sDocID + '" style="color:#3987DC !important; text-decoration:none !important; ">' + sMorePrompt + '</a></div>';
 }
 
-function positionSquatter(recommendersquat) {
+function positionSquatter(recommendersquat, bDraggable) {
     // we treat educommons and mit sites differently
     if (bSpecialSite == true)
     {
@@ -287,7 +290,7 @@ function positionSquatter(recommendersquat) {
         recommendersquat.setAttribute("style", 'margin:0px; font-size: 12px; font-family:Arial, Helvetica, sans-serif !important; border:1px solid #000; width:' + squatterWidth + 'px; position:absolute; left:' + rightAligned + 'px; top:2px; background-color:#FFF; z-index:999;');
 
         // make the div draggable
-        //recommendersquat.drag = new Drag(recommendertop, recommendersquat);
+        if (bDraggable) recommendersquat.drag = new Drag(recommendertop, recommendersquat);
 
         // insert a close box into the div title
         var close = window.document.createElement("div");
@@ -310,16 +313,16 @@ function showRecs() {
     window.location = window.location + (new String(window.location).indexOf('?') == -1 ? "?" : "&") + "rtr=true";
 }
 
-function displaySquatter(sContent) {
-    var sRecHeader = '<div id="recommendertop" style="margin: 2px 3px 2px 3px; padding: 0px;"><img src="' + /*sBaseUrl*/ 'http://localhost:3000' + '/images/folksemantic/logo-folksemantic-gm.gif" style="vertical-align:middle;"/><span style="padding-left:5px;font-size:14px;color: #777; font-weight: bold;">';
+function displaySquatter(sContent, bDraggable) {
+    var sRecHeader = '<div id="recommendertop" style="margin: 2px 3px 2px 3px; padding: 0px;"><img src="' + sBaseUrl + '/images/folksemantic/logo-folksemantic-gm.gif" style="vertical-align:middle;"/><span style="padding-left:5px;font-size:14px;color: #777; font-weight: bold;">';
     var recommendersquat = document.createElement('div');
     recommendersquat.innerHTML = sRecHeader + sContent;
     squatParent.insertBefore(recommendersquat, squatSibling);
-    positionSquatter(recommendersquat);
+    positionSquatter(recommendersquat, bDraggable);
 }
 
 function displayGetRecsButton() {
-    displaySquatter('<input type="button" onclick="showRecs();" value="Get Recommendations"/></span></div>');
+    displaySquatter('<input type="button" onclick="showRecs();" value="Get Recommendations"/></span></div>', false);
 }
 
 function getRecs(sUrl) {
@@ -334,13 +337,13 @@ function getRecs(sUrl) {
             var dom = new DOMParser().parseFromString(responseDetails.responseText, "application/xml");
             var root = dom.getElementsByTagName('recommendations')[0];
             var recommendations = dom.getElementsByTagName('recommendation');
-            if (recommendations.length > 0 && new String(window.location).indexOf("rtr=true") != -1)
-            {
-                displaySquatter(root.getAttribute("title") + '</span></div>' + recList(recommendations, root.getAttribute("direct_link_text")) + morePrompt(root));
+            if (recommendations.length > 0) {
+                displaySquatter(root.getAttribute("title") + '</span></div>' + recList(recommendations, root.getAttribute("direct_link_text")) + morePrompt(root), true);
             } else {
-                if (userRequest(sUrl))
-                    displaySquatter('Nothing found</span></div>');
-                else displayGetRecsButton();
+                if (bUserRequest)
+                    displaySquatter('Nothing found</span></div>', false);
+                else
+                    displayGetRecsButton();
             }
         }
     });
@@ -361,21 +364,21 @@ var bNeeds = false;
 var bMIT = false;
 var bNeedsRecord = false;
 var body = null;
-var sUrlToGetRecsFor = new String(window.location);
+var bUserRequest = userRequest(sUrlToGetRecsFor);
 var bodyTags = document.getElementsByTagName('body');
 var demoDomains = ['http://ocw.mit.edu','http://www.engineeringpathway.com'];
 var blacklistedDomains = ['http://www.folksemantic.com','http://www.ocwfinder.org','http://www.oerrecommender.org'];
 if (bodyTags && bodyTags.length > 0)
 {
-    sUrlToGetRecsFor = special_website_url(sUrlToGetRecsFor);            
+    sUrlToGetRecsFor = special_website_url(sUrlToGetRecsFor);
     body = bodyTags[0];
     if ((bNeeds == true && bNeedsRecord == true) || bNeeds == false) {
         identifySquatParent();
     }
     if (squatParent != null) {
         embedFunction(showRecs);
-        if (demoDomain(sUrlToGetRecsFor) || userRequest(sUrlToGetRecsFor)) {
-            getRecs(sServiceUrl + "u=" + sUrlToGetRecsFor);
+        if (demoDomain(sUrlToGetRecsFor) || bUserRequest) {
+            getRecs(sServiceUrl + (bUserRequest ? "rtr=true&" : "") + "u=" + sUrlToGetRecsFor);
         } else if (!blacklistedDomain(sUrlToGetRecsFor)) {
             displayGetRecsButton();
         }
