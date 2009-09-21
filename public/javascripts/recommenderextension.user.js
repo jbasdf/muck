@@ -367,7 +367,7 @@ var body = null;
 var bUserRequest = userRequest(sUrlToGetRecsFor);
 var bodyTags = document.getElementsByTagName('body');
 var demoDomains = ['http://ocw.mit.edu','http://www.engineeringpathway.com'];
-var blacklistedDomains = ['http://www.folksemantic.com','http://www.ocwfinder.org','http://www.oerrecommender.org'];
+var blacklistedDomains = ['http://localhost','http://folksemantic.com','http://www.folksemantic.com','http://www.ocwfinder.org','http://www.oerrecommender.org'];
 if (bodyTags && bodyTags.length > 0)
 {
     sUrlToGetRecsFor = special_website_url(sUrlToGetRecsFor);
