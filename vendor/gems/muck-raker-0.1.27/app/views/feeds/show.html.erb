@@ -1,6 +1,0 @@
-<div class="show-feed">
-  <%= output_errors('', {:class => 'help-box'}) %>
-  <h1><%= @feed.title %></h1>
-  <p><%= @feed.uri %></p>
-  <%= render :partial => 'feeds/entry', :collection => @entries %>
-</div>

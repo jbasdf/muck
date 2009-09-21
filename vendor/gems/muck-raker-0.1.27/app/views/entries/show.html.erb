@@ -1,7 +1,0 @@
-<% link = @entry.direct_link.nil? ? @entry.permalink : @entry.direct_link %>
-<h1 style="margin-bottom:20px;"><%= link_to @entry_title, link %> - <%= t('muck.raker.related_resources_title') %> - <%= link_to 'details', "?details=true", :class=> "catalog_link" %></h1>
-<div id="results">
-  <% @recommendations.each do |r| %>
-    <p><%= render :partial => 'entries/related_entry', :locals => {:related_entry => r} %></p>
-  <% end %>
-</div>

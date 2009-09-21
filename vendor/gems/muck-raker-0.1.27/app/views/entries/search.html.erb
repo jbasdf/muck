@@ -1,9 +1,0 @@
-<div id="search-results" class="span-24">
-    <% if @hit_count > 0 %>
-      <%= render(:partial => 'entries/result_status') %>
-      <%= render(:partial => 'entries/results') %>
-      <div class="results-nav"><%= will_paginate(@paginated_results, :next_label => '<b>' + t('muck.raker.next_label') + ' &raquo;</b>', :previous_label => '<b>&laquo; ' + t('muck.raker.previous_label') + '</b>') %></div>
-    <% else %>
-      <p><%= t('muck.raker.no_hits', :search => @search, :resource_type => @grain_size == 'all' ? 'resources' : 'courses') %></p>
-    <% end %>
-</div>

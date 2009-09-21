@@ -1,7 +1,0 @@
---- 
-fi: 
-  muck: 
-    blogs: 
-      add_post: "Lisää Post"
-      add_post_link: "Lisää Post"
-      blog_title: "Blogi {{title}}"

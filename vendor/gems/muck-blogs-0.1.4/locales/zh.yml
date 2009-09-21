@@ -1,7 +1,0 @@
---- 
-zh: 
-  muck: 
-    blogs: 
-      add_post: 添加新贴
-      add_post_link: 添加新贴
-      blog_title: "博客的{{title}}"

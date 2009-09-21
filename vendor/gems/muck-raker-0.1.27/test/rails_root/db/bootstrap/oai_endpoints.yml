@@ -1,6 +1,0 @@
-oer_commons:
-  uri: 'http://www.oercommons.org/oai'
-  display_uri: 'http://www.oercommons.org'
-  metadata_prefix: 'oer_recommender'
-  title: 'OER Commons - Open Educational Resources'
-  short_title: 'OERC'

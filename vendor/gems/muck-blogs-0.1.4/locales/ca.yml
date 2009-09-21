@@ -1,7 +1,0 @@
---- 
-ca: 
-  muck: 
-    blogs: 
-      add_post: "Afegir Post"
-      add_post_link: "Afegir Post"
-      blog_title: "Bloc per {{title}}"

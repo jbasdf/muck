@@ -1,7 +1,0 @@
---- 
-vi: 
-  muck: 
-    blogs: 
-      add_post: "Thêm bài"
-      add_post_link: "Thêm bài"
-      blog_title: "Blog cho {{title}}"

@@ -1,7 +1,0 @@
---- 
-fr: 
-  muck: 
-    blogs: 
-      add_post: "Ajouter un enregistrement"
-      add_post_link: "Ajouter un enregistrement"
-      blog_title: "Blog pour {{title}}"

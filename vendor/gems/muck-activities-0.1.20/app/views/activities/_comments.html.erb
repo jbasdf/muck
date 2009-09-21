@@ -1,7 +1,0 @@
-<% if activity.has_comments? -%>
-  <%= render( :partial => "activities/comment", :collection => activity.comments, :locals => { :comment_owner => activity } ) %>
-<% end -%>
-<div id="comment_<%=activity.dom_id%>" class="activity-comment <%= has_comments_css(activity) %>">
-  <div class="actor-icon"><%= icon current_user %></div>
-  <%= activity_comment_link(activity) %>
-</div>

@@ -1,5 +1,0 @@
-<% if user.active? -%>
-	<%= link_to_remote I18n.t('muck.general.deactivate'), { :url => admin_user_path(user, :format => 'js'), :method => :put } -%>
-<% else -%>
-	<%= link_to_remote I18n.t('muck.general.activate'), { :url => admin_user_path(user, :format => 'js'), :method => :put } -%>
-<% end -%>

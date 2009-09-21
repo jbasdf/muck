@@ -1,7 +1,0 @@
-.DS_Store
-coverage
-rdoc
-pkg
-pkg/*
-log/*
-*.gem

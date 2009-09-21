@@ -1,7 +1,0 @@
-<div id="<%= comment.dom_id %>" class="comment_holder delete-container">
-  <div class="commentor-icon"><%= icon comment.user %></div>
-  <p><span class="commentor"><%= link_to comment.user.try(:display_name), comment.user %></span>
-    <%= h comment.body %></p>
-  <%= delete_comment(comment, :image) if comment.can_edit?(current_user) %>
-  <span class="comment-time"><%= t("muck.general.time_ago", :time_in_words => time_ago_in_words(comment.created_at)) %></span></p>
-</div>

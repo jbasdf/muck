@@ -1,7 +1,0 @@
---- 
-ru: 
-  muck: 
-    blogs: 
-      add_post: "Добавить запись"
-      add_post_link: "Добавить запись"
-      blog_title: "Блог для {{title}}"

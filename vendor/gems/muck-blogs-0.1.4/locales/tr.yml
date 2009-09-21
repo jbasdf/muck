@@ -1,7 +1,0 @@
---- 
-tr: 
-  muck: 
-    blogs: 
-      add_post: "Add Mesaj"
-      add_post_link: "Add Mesaj"
-      blog_title: "Blog {{title}} için"

@@ -1,5 +1,0 @@
-<% content_for :head do  -%>
-  <meta name="keywords" content="<%=@content.tags.join(',')%>" />
-<% end -%>
-<%= @content.locale_body(I18n.locale) %>
-<%= render :partial => 'contents/admin', :locals => { :content => @content } -%>

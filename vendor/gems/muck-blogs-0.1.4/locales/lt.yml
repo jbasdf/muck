@@ -1,7 +1,0 @@
---- 
-lt: 
-  muck: 
-    blogs: 
-      add_post: "Pridėti Post"
-      add_post_link: "Pridėti Post"
-      blog_title: "Blog {{title}}"
