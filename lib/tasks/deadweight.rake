@@ -24,9 +24,9 @@ task :deadweight do
     form['user_session[login]'] = 'admin'
     form['user_session[password]'] = 'asdfasdf'
     agent.submit(form)
-    #fetch('/users/admin')
-    #fetch('/resources')
-    #fetch('/resources/tags/activity programs?grain_size=all')
+    fetch('/users/admin')
+    fetch('/resources')
+    fetch('/resources/tags/activity programs?grain_size=all')
   }
 
   dw.ignore_selectors = /flash_notice|flash_error|errorExplanation|fieldWithErrors|.*jGrowl.*/
