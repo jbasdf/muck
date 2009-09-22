@@ -1,93 +1,93 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-    <head>
-        <title>folksemantic</title>
-        <meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
-        <meta http-equiv="imagetoolbar" content="no" />
-        <meta name="distribution" content="all" />
-        <meta name="robots" content="all" />
-        <meta name="resource-type" content="document" />
-        <meta name="MSSmartTagsPreventParsing" content="true" />
-		<link rel="shortcut icon" href="/images/folksemantic/favicon.ico" type="image/x-icon">
-		<link rel="icon" type="image/vnd.microsoft.icon" href="/images/folksemantic/favicon.ico">
-		<style type="text/css">
-		    body {font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:75%;margin:0;}
-            img{border:0;}
-            input[type='text']{font-size:24px;text-align:center;padding:3px 2px 2px;height:32px;border:1px solid #8F8685;vertical-align:bottom;}
-			.folk-blue{color:#297FAA;}
-			.folk-green{color:#66AF24;}
-			.folk-gray{color:#838383;}
-			.fs0{font-size:14px;}
-			.fs1{font-size:14px;font-weight:bold;}
-			.fs2{font-size:20px;}
-			.fs3{font-size:50px;font-weight:bold;}
-			.fs4{font-size:40px;}
-			.fs5{font-size:30px;}
-			#home-container{background-image:url('/images/folksemantic/home-bg.jpg');width:950px;height:808px;background-repeat:no-repeat;margin:0 auto;}
-			#home-left-panel{float:left;position:relative;left:120px;top:290px;width:260px;}
-			#home-right-panel{float:left;position:relative;left:220px;top:300px;width:400px;}
-			#home-comments{clear:both;float:left;position:relative;left:120px;top:335px;width:260px;}
-			#home-get-widgets{float:left;position:relative;left:220px;top:335px;width:400px;}
-			#search-button{padding:3px 8px 5px;margin-left:8px;color:#FFF;font-size:14px;font-weight:bold;background-color:#66AF24;height:34px;border:3px solid #DDD;}
-			#signup-link{margin:14px 20px 0px 0px;font-size:22px;text-align:right;}
-			#signup-link a{text-decoration:none;font-weight:bold;}
-			#signup-link a:hover{text-decoration:underline;}
-			#widgets-link{margin-top:10px;margin-left:40px;}
-			#widgets-link a{text-decoration:none;color:white;}
-			#widgets-link a:hover{text-decoration:underline;}
-			#footer{line-height:30px;}
-            #home-footer{text-align:center;clear:both;top:460px;position:relative;}
-			#home-footer a{color:#838383;}
-			#get-widgets{background-color:#297FAA;vertical-align:middle;display:block;width:310px;}
-		</style>
-    </head>
-    <body>
-        <div class="block" id="home-container">
+<head>
+  <title>folksemantic</title>
+  <meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta name="distribution" content="all" />
+  <meta name="robots" content="all" />
+  <meta name="resource-type" content="document" />
+  <meta name="MSSmartTagsPreventParsing" content="true" />
+  <link rel="shortcut icon" href="/images/folksemantic/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/images/folksemantic/favicon.ico">
+  <style type="text/css">
+  body {font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:75%;margin:0;}
+  img{border:0;}
+  input[type='text']{font-size:24px;text-align:center;padding:3px 2px 2px;height:32px;border:1px solid #8F8685;vertical-align:bottom;}
+  .folk-blue{color:#297FAA;}
+  .folk-green{color:#66AF24;}
+  .folk-gray{color:#838383;}
+  .fs0{font-size:14px;}
+  .fs1{font-size:14px;font-weight:bold;}
+  .fs2{font-size:20px;}
+  .fs3{font-size:50px;font-weight:bold;}
+  .fs4{font-size:40px;}
+  .fs5{font-size:30px;}
+  #home-container{background-image:url('/images/folksemantic/home-bg.jpg');width:950px;height:808px;background-repeat:no-repeat;margin:0 auto;}
+  #home-left-panel{float:left;position:relative;left:120px;top:290px;width:260px;}
+  #home-right-panel{float:left;position:relative;left:220px;top:300px;width:400px;}
+  #home-comments{clear:both;float:left;position:relative;left:120px;top:335px;width:260px;}
+  #home-get-widgets{float:left;position:relative;left:220px;top:335px;width:400px;}
+  #search-button{padding:3px 8px 5px;margin-left:8px;color:#FFF;font-size:14px;font-weight:bold;background-color:#66AF24;height:34px;border:3px solid #DDD;}
+  #signup-link{margin:14px 20px 0px 0px;font-size:22px;text-align:right;}
+  #signup-link a{text-decoration:none;font-weight:bold;}
+  #signup-link a:hover{text-decoration:underline;}
+  #widgets-link{margin-top:10px;margin-left:40px;}
+  #widgets-link a{text-decoration:none;color:white;}
+  #widgets-link a:hover{text-decoration:underline;}
+  #footer{line-height:30px;}
+  #home-footer{text-align:center;clear:both;top:460px;position:relative;}
+  #home-footer a{color:#838383;}
+  #get-widgets{background-color:#297FAA;vertical-align:middle;display:block;width:310px;}
+  </style>
+</head>
+<body>
+  <div class="block" id="home-container">
 
-        <div id="home-left-panel">
-        	<div class="folk-blue fs1"><%= t('folksemantic.home.why') %></div>
-			<div class="folk-green fs2" style="margin-top:12px;"><%= t('folksemantic.home.collaborate') %></div>
-			<div class="folk-blue fs3" style="margin-top:0;line-height:50px;"><%= t('folksemantic.home.people') %></div>
-			<div class="folk-gray fs1" style="margin-top:6px;line-height:20px;"><%= t('folksemantic.home.signup_reasons') %></div>
-			<div id="signup-link">
-                <a href="/signup" class="folk-blue">
-                <%= t('folksemantic.home.signup') %> 
-                <img src="/images/folksemantic/btn-blue-arrow.gif" style="vertical-align:top;margin-left:4px;"/>
-                </a>
-              <br/><%= link_to t('muck.users.sign_in'), login_path, {:class => 'folk-gray fs0', :style => 'font-weight:normal;'} %>
-            </div>
-        </div>
+    <div id="home-left-panel">
+      <div class="folk-blue fs1"><%= t('folksemantic.home.why') %></div>
+      <div class="folk-green fs2" style="margin-top:12px;"><%= t('folksemantic.home.collaborate') %></div>
+      <div class="folk-blue fs3" style="margin-top:0;line-height:50px;"><%= t('folksemantic.home.people') %></div>
+      <div class="folk-gray fs1" style="margin-top:6px;line-height:20px;"><%= t('folksemantic.home.signup_reasons') %></div>
+      <div id="signup-link">
+        <a href="/signup" class="folk-blue">
+          <%= t('folksemantic.home.signup') %> 
+          <img src="/images/folksemantic/btn-blue-arrow.gif" style="vertical-align:top;margin-left:4px;"/>
+        </a>
+        <br/><%= link_to t('muck.users.sign_in'), login_path, {:class => 'folk-gray fs0', :style => 'font-weight:normal;'} %>
+      </div>
+    </div>
 
-        <% form_tag({:controller => 'muck/entries', :action => 'search'}, {:method => :get}) do -%>
-        <div id="home-right-panel">
-        	<div class="folk-green fs2"><%= t('folksemantic.home.browse_and_search') %></div>
-			<div class="folk-blue fs3" style="line-height:50px;">110,000</div>
-			<div class="folk-green fs4" style="line-height:40px;"><%= t('folksemantic.home.oers') %></div>
-			<div class="folk-green fs5" style="line-height:30px;"><%= t('folksemantic.home.resources') %></div>
-			<div style="margin-top:10px;">
-                <input type="text" name="q" style="width:270px;vertical-align:baseline;" />
-                <input type="submit" id="search-button" value="<%= t('folksemantic.home.search') %>" />
-            </div>
-        </div>
-        <% end %>
-        
-        <div id="home-comments">
-            <div class="folk-green fs1"><%= t('folksemantic.home.comments_heading') %></div>
-            <div class="folk-gray fs0" style="margin-top:6px;line-height:20px;"><%= t('folksemantic.home.example_comment') %></div>
-        </div>
+    <% form_tag({:controller => 'muck/entries', :action => 'search'}, {:method => :get}) do -%>
+    <div id="home-right-panel">
+      <div class="folk-green fs2"><%= t('folksemantic.home.browse_and_search') %></div>
+      <div class="folk-blue fs3" style="line-height:50px;">110,000</div>
+      <div class="folk-green fs4" style="line-height:40px;"><%= t('folksemantic.home.oers') %></div>
+      <div class="folk-green fs5" style="line-height:30px;"><%= t('folksemantic.home.resources') %></div>
+      <div style="margin-top:10px;">
+        <input type="text" name="q" style="width:270px;vertical-align:baseline;" />
+        <input type="submit" id="search-button" value="<%= t('folksemantic.home.search') %>" />
+      </div>
+    </div>
+    <% end %>
 
-        <div id="home-get-widgets">
-            <div class="folk-gray fs1"><%= t('folksemantic.home.widgets_pitch') %></div>
-            <div id="widgets-link">
-                <a href="/widgets"><span class="fs1" id="get-widgets"><img src="/images/folksemantic/btn-blue-arrow2.gif" style="vertical-align:middle;padding-right:10px"/><%= t('folksemantic.home.get_widgets') %></span></a>
-            </div>
-        </div>
+    <div id="home-comments">
+      <div class="folk-green fs1"><%= t('folksemantic.home.comments_heading') %></div>
+      <div class="folk-gray fs0" style="margin-top:6px;line-height:20px;"><%= t('folksemantic.home.example_comment') %></div>
+    </div>
 
-        <div id="home-footer" class="folk-gray">
-		    <%= render :partial => 'layouts/global/footer' %>
-        </div>
-		</div>
-        <%= render :partial => 'layouts/global/get_satisfaction' %>
-        <%= render :partial => 'layouts/global/google_analytics' %>
-    </body>
+    <div id="home-get-widgets">
+      <div class="folk-gray fs1"><%= t('folksemantic.home.widgets_pitch') %></div>
+      <div id="widgets-link">
+        <a href="/widgets"><span class="fs1" id="get-widgets"><img src="/images/folksemantic/btn-blue-arrow2.gif" style="vertical-align:middle;padding-right:10px"/><%= t('folksemantic.home.get_widgets') %></span></a>
+      </div>
+    </div>
+
+    <div id="home-footer" class="folk-gray">
+      <%= render :partial => 'layouts/global/footer' %>
+    </div>
+  </div>
+  <%= render :partial => 'layouts/global/get_satisfaction' %>
+  <%= render :partial => 'layouts/global/google_analytics' %>
+</body>
 </html>
