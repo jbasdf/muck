@@ -155,3 +155,4 @@ ul.service-summary a.service-link{display:inline-block;margin:2px 0;padding:2px 
 .even{background-color:#f6f8f9;}
 .odd{background-color:#fff;}
 .feed-photos img{width:100px;height:100px;}
+.entry-close{float:right;font-size:.8em;}
