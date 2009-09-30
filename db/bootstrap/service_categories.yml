@@ -1,40 +1,52 @@
 blogging:
   id: 1
   name: Blogging
-  sort: 1
-news:
-  id: 2
-  name: News
-  sort: 3
-data:
-  id: 3
-  name: Data
-  sort: 9
-music:
-  id: 4
-  name: Music
-  sort: 5
+  sort: 10
 networks:
-  id: 5
+  id: 2
   name: Networks
-  sort: 2
-video:
+  sort: 20
+search:
+  id: 3
+  name: Search
+  sort: 30
+news:
+  id: 4
+  name: News
+  sort: 40
+music:
+  id: 5
+  name: Music
+  sort: 50
+photos:
   id: 6
-  name: Video
-  sort: 6
-bookmarks:
+  name: Photos
+  sort: 60
+video:
   id: 7
-  name: Bookmarks
-  sort: 2
+  name: Video
+  sort: 70
 academics:
   id: 8
   name: Academics
-  sort: 7
-photos:
+  sort: 80
+bookmarks:
   id: 9
-  name: Photos
-  sort: 4
-other:
+  name: Bookmarks
+  sort: 90
+data:
   id: 10
+  name: Data
+  sort: 100
+other:
+  id: 11
   name: Other
-  sort: 8
+  sort: 110
+shopping:
+  id: 12
+  name: Shopping
+  sort: 95
+reading:
+  id: 13
+  name: Reading
+  sort: 75

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090827221502) do
+ActiveRecord::Schema.define(:version => 20090924200750) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -55,16 +55,17 @@ ActiveRecord::Schema.define(:version => 20090827221502) do
   add_index "aggregation_feeds", ["feed_id"], :name => "index_aggregation_feeds_on_feed_id"
 
   create_table "aggregations", :force => true do |t|
-    t.string   "name"
+    t.string   "terms"
     t.string   "title"
     t.text     "description"
     t.text     "top_tags"
-    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "ownable_id"
+    t.string   "ownable_type"
   end
 
-  add_index "aggregations", ["user_id"], :name => "index_aggregations_on_user_id"
+  add_index "aggregations", ["ownable_id", "ownable_type"], :name => "index_aggregations_on_ownable_id_and_ownable_type"
 
   create_table "attentions", :force => true do |t|
     t.integer "attentionable_id"
@@ -262,8 +263,8 @@ ActiveRecord::Schema.define(:version => 20090827221502) do
     t.text     "top_tags"
     t.integer  "priority",                                   :default => 10
     t.integer  "status",                                     :default => 1
-    t.datetime "last_requested_at",                          :default => '1969-01-01 00:00:00'
-    t.datetime "last_harvested_at",                          :default => '1969-01-01 00:00:00'
+    t.datetime "last_requested_at"
+    t.datetime "last_harvested_at"
     t.integer  "harvest_interval",                           :default => 86400
     t.integer  "failed_requests",                            :default => 0
     t.text     "error_message"
@@ -377,11 +378,16 @@ ActiveRecord::Schema.define(:version => 20090827221502) do
   add_index "micro_events", ["entry_id"], :name => "index_micro_events_on_entry_id"
 
   create_table "oai_endpoints", :force => true do |t|
-    t.string "uri",             :limit => 2083
-    t.string "display_uri",     :limit => 2083
-    t.string "metadata_prefix"
-    t.string "title",           :limit => 1000
-    t.string "short_title",     :limit => 100
+    t.string   "uri",                 :limit => 2083
+    t.string   "display_uri",         :limit => 2083
+    t.string   "metadata_prefix"
+    t.string   "title",               :limit => 1000
+    t.string   "short_title",         :limit => 100
+    t.integer  "contributor_id"
+    t.integer  "status"
+    t.integer  "default_language_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "permissions", :force => true do |t|
@@ -452,6 +458,7 @@ ActiveRecord::Schema.define(:version => 20090827221502) do
     t.boolean "active",                              :default => true
     t.string  "prompt"
     t.string  "template"
+    t.string  "uri_data_template",   :limit => 2083, :default => ""
   end
 
   create_table "sessions", :force => true do |t|

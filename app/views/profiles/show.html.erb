@@ -27,4 +27,5 @@
 
 <div class="span-16 column">
   <%= limited_activity_feed_for(@user) %>
+  <%= google_feeds_display(@user.own_feeds, 5, 10) %>
 </div>

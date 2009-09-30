@@ -139,3 +139,19 @@ ul.service-summary a.service-link{display:inline-block;margin:2px 0;padding:2px 
 #sources-list ul li{padding:2px 0 5px 25px;}
 #sources-list ul li input{margin:0;}
 #sources-list ul li.source-title{font-weight:bolder;font-size:1.4em;margin:10px 0 0 0;padding:0;}
+/* css for google widgets */
+.slide_show_content {width:250px;height:200px;margin-bottom:40px;padding:5px;}
+/* feed formating */
+.feed{padding:0px 4px;}
+.feed-header{background-color:#eee;padding:3px;margin-top:20px;}
+.feed-header h3{margin:0;padding:2px 0 10px 25px;}
+.feed-header h3 a{text-decoration:none;color:#333;}
+.feed-header h3 a:hover{color:#000;}
+.feed-item{margin:0 15px 0 20px;}
+.feed-item h4{margin:0;padding:2px;}
+.feed-item h4 a{text-decoration:none;color:#555;}
+.feed-item h4 a:hover{color:#000;}
+.feed-item .hentry .entry{display:none;}
+.even{background-color:#f6f8f9;}
+.odd{background-color:#fff;}
+.feed-photos img{width:100px;height:100px;}
