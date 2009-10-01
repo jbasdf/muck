@@ -21,6 +21,7 @@
   <hr class="space" />
   <div id="identity" class="box">
     <%= services_summary(@user) %>
+    <p><%= link_to t('muck.raker.add_edit_feeds'), user_identity_feeds_path(@user) if @user.profile.can_edit?(current_user) %></p>
   </div>
   
 </div>
