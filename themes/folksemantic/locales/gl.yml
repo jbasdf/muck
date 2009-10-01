@@ -1,74 +1,79 @@
 --- 
 gl: 
   folksemantic: 
-    all_resources: Todo
+    add_edit_feeds: "Engadir / Editar feeds"
+    all_resources: Todos
     atom: Atom
-    browse_resources: Medios
-    calculated: calcular
-    collections: Colección
-    collections_long: "Indexed coleccións"
-    contribute_repository: "Contribuir OCW / RDO depósito"
-    credits: "Desenvolvido polo <a href=\"http://cosl.usu.edu\">Centro de aprendizaxe aberto e sostible</a> con financiación do <a href=\"http://nsf.gov/\">National Science Foundation</a> ea <a href=\"http://www.mellon.org/\">Andrew Mellon Foundation W</a>"
+    browse_resources: Recursos
+    calculated: calculada
+    collections: Coleccións
+    collections_long: "Colección catastrais"
+    contribute_repository: "Contribuír OCW / REA Repositorio"
+    credits: "Desenvolvido polo <a href=\"http://cosl.usu.edu\">Centro de Aprendizaxe aberta e sostible,</a> con financiamento da <a href=\"http://nsf.gov/\">National Science Foundation</a> ea <a href=\"http://www.mellon.org/\">Fundación Andrew W Mellon</a>"
     demo: Demo
     details: Detalles
-    developers: Creadores
+    developers: Developers
     developers_long: "Información para desenvolvedores"
     direct_link: "[enlace directo]"
     for: a
-    gm_more_prompt: "Máis Recursos relacionados"
+    gm_more_prompt: "Máis recursos relacionados"
     gm_title: "Recursos relacionados"
     home: 
-      browse_and_search: "Explora e procura no"
-      collaborate: "Colaborar con"
-      comments_heading: "Comentarios Recentes"
-      example_comment: "Este guía legos construción é incrible! Quere saber se podería empregar lo cos alumnos na SC 102."
-      get_widgets: "Get RDO carta Widget"
-      oers: "Educación <b>Aberta</b>"
-      people: PERSOA
-      resources: "Recursos (Oers)"
-      search: BÚSQUEDA
-      signup: Rexístrese!
-      signup_reasons: "Rexístrese para coñecer xente coa que podes atopar, debate, remix, e desenvolver recursos pedagóxicos"
-      why: "FOLKSEMANTIC ¿Por que?"
-      widgets_pitch: "Want to get RDO recomendacións para as súas páxinas?"
+      browse_and_search: "Navega e procura no"
+      collaborate: "COLABORAR CON"
+      comments_heading: "COMENTARIOS RECENTES"
+      example_comment: "Esta guía de construción legos é impresionante! Eu me pregunta se nós poderíamos usalo cos alumnos do CS 102."
+      get_widgets: "Comezar REA Recomendar Widget"
+      oers: "<b>Formación Aberto</b>"
+      people: PERSOAS
+      resources: "RECURSOS (OERS)"
+      search: BUSCA
+      signup: "Sign Up Today!"
+      signup_reasons: "Regístrate para atender as persoas con quen podes atopar, discutir, remix, e desenvolver recursos de aprendizaxe"
+      why: "Por FOLKSEMANTIC?"
+      widgets_pitch: "Want to get recomendacións REA para as súas páxinas web?"
     just_ocws: Cursos
     metadata: Metadatos
     next: Seguinte
-    no_hits: "Non hits. Probe unha búsqueda distinta ou escolle un idioma diferente."
+    no_hits: "No hits. Por favor, ténteo unha busca ou selección un idioma diferente."
     of: de
     powered_by: "powered by"
     previous: Anterior
     rdf: RDF
-    register_description: "Rexístrese para recibir <span class=\"highlight\">recomendacións</span> personalizadas, participar en <span class=\"highlight\">grupos,</span> e de fácil <span class=\"highlight\">publicar en blogs</span>"
-    register_link: Rexístrese!
-    related_resources: "Recursos relacionados"
+    register_description: "Regístrate para recibir as <span class=\"highlight\">recomendacións</span> personalizadas, participar en <span class=\"highlight\">grupos,</span> e de fácil <span class=\"highlight\">publicar en blogs</span>"
+    register_link: "Sign Up!"
+    related_resources: "Recursos asociados"
     related_resources_title: "Recursos relacionados"
-    relevance: pertinência
+    relevance: relevancia
     results: Resultados
     rss: RSS
-    search: buscar
+    search: search
     search_button: Ir
-    search_description: "Atopar recursos pedagóxicos <span class=\"highlight\">buscar</span> e <span class=\"highlight\">navegar</span> por máis de <span class=\"highlight\">110.000</span> recursos educativos abertos"
-    search_link: "Atopar Recursos!"
-    tag_line: "empowering educación aberta"
+    search_description: "Atopar recursos de aprendizaxe a través de <span class=\"highlight\">busca</span> e <span class=\"highlight\">navegación</span> máis de <span class=\"highlight\">110.000</span> recursos educativos abertos"
+    search_link: "Buscar recursos!"
+    tag_line: "capacitación de Educación Aberta"
     title: folksemantic
-    tour: "Fai unha visita!"
-    tour_description: "Assist a un <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">introdución</span> Folksemantic"
-    view_account: "Ver túa Conta"
-    welcome: "Benvido a Folksemantic."
-    welcome_message: "Estamos traballando activamente para integrar OCWFinder e OERRecommender nun sitio web para axudar a atopar os máis interesantes e relevantes recursos educativos."
+    tour: "Fai un tour!"
+    tour_description: "Assista a un <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">catalogación</span> Folksemantic"
+    view_account: "Ver Conta"
+    welcome: "Benvido ao Folksemantic."
+    welcome_message: "Estamos a traballar activamente para integrarse OCWFinder e OERRecommender en un sitio web para axudar a atopar os recursos máis interesantes e relevantes para o ensino."
     welcome_user: "Benvido {{user}}"
-    widgets_description: "Recibir widgets recursos para axudar aos usuarios a <span class=\"highlight\">buscar</span> e <span class=\"highlight\">descubrir recursos relacionados</span> con aquelas no seu sitio"
-    widgets_link: "Get Widgets!"
-    widgets_title: "folksemantic widgets"
+    widgets_description: "Get widgets para axudar aos usuarios a <span class=\"highlight\">atopar os</span> recursos e <span class=\"highlight\">descubra os recursos relacionados</span> a estes no seu sitio"
+    widgets_link: "Get su!"
+    widgets_title: "Widgets folksemantic"
     xml: XML
   muck: 
+    friends: 
+      block: Bloquear
+      start_following: Tome
+      unblock: Desbloquear
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Contribuir OCW / RDO depósito"
+      add_extended_feed_title: "Contribuír OCW / REA Repositorio"
     users: 
-      dev_plans: "Estamos a desenvolver activamente tendo em vista a prorrogação <a href=\"http://ocwfinder.org\">ocwfinder.org</a> e <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Rexístrese!
-      signup_header: "Pense que está intelixente?"
-      signup_pitch: "Folksemantic torna fácil atopar, compartir e utilizar os recursos educativos abertos, para que poida obter intelixente."
-    welcome_activity: "Benvido a {{application_name}}! Aquí pode <a href='/resources'>descubrir libre recursos educacionais de todo o mundo.</a> Interesante no <a href='/resources/search?q=lady+bugs'>lady Bugs?</a> <a href='/resources/3909'>Como sobre recursos de aprendizaxe NASA?.</a>"
+      dev_plans: "Estamos a desenvolver activamente para extender <a href=\"http://ocwfinder.org\">ocwfinder.org</a> e <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Cadastre-se!
+      signup_header: "Pense que é intelixente?"
+      signup_pitch: "Folksemantic fai doado atopar, compartir e utilizar recursos educativos abertos para que poida estar espertos."
+    welcome_activity: "Benvido ao {{application_name}}! Aquí pode <a href='/resources'>descubrir outros recursos educativos de todo o mundo.</a> Interesante en <a href='/resources/search?q=lady+bugs'>erros da señora?</a> <a href='/resources/3909'>Como recursos de aprendizaxe da NASA?.</a>"

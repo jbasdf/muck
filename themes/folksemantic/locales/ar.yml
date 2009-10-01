@@ -1,17 +1,18 @@
 --- 
 ar: 
   folksemantic: 
+    add_edit_feeds: "إضافة / تحرير يغذي"
     all_resources: الكل
     atom: ذرة
     browse_resources: "تصفح المصادر"
     calculated: حسبت
     collections: المجموعات
-    collections_long: "فهرسة المجموعات"
-    contribute_repository: "المساهمة في OCW / OER مستودع"
-    credits: "وضعته <a href=\"http://cosl.usu.edu\">في مركز التعليم المفتوح والمستدامة</a> ، وبتمويل من <a href=\"http://nsf.gov/\">المؤسسة الوطنية للعلوم</a> <a href=\"http://www.mellon.org/\">ومؤسسة أندرو دبليو ميلون</a>"
-    demo: التجريبي
+    collections_long: "مجموعات المفهرس"
+    contribute_repository: "تسهم OCW / OER مستودع"
+    credits: "التي وضعها <a href=\"http://cosl.usu.edu\">مركز للتعليم المفتوح والتعلم المستدام</a> وذلك بتمويل من <a href=\"http://nsf.gov/\">مؤسسة العلوم الوطنية</a> <a href=\"http://www.mellon.org/\">ومؤسسة أندرو دبليو ميلون</a>"
+    demo: تجريبي
     details: التفاصيل
-    developers: المطورين
+    developers: للمطورين
     developers_long: "معلومات للمطورين"
     direct_link: "[صلة مباشرة]"
     for: لأجل
@@ -21,7 +22,7 @@ ar:
       browse_and_search: "تصفح وابحث عن"
       collaborate: "التعاون مع"
       comments_heading: "التعليقات الأخيرة"
-      example_comment: "legos أن البناء هو دليل رائع! وأتساءل عما إذا كان يمكن استخدامها مع الطلاب في خدمات العملاء 102."
+      example_comment: "لغس] أن البناء هو دليل رهيبة! وأتساءل عما إذا كنا قد استخدامه مع الطلاب في خدمات العملاء 102."
       get_widgets: "OER حصول على القطعة المزكي"
       oers: "التعليم <b>المفتوح</b>"
       people: "مجلس الشعب"
@@ -30,45 +31,49 @@ ar:
       signup: "اشترك اليوم!"
       signup_reasons: "توقع لقاء الناس الذين يمكنك العثور على ومناقشة ، ريمكس ، وتطوير الموارد التعليمية"
       why: "FOLKSEMANTIC لماذا؟"
-      widgets_pitch: "نريد ان نصل OER التوصيات لصفحات الويب الخاصة بك؟"
+      widgets_pitch: "ترغب في الحصول على توصيات OER لصفحات الويب الخاصة بك؟"
     just_ocws: الدورات
-    metadata: الفوقية
+    metadata: التعريف
     next: التالي
-    no_hits: "لا يضرب. الرجاء تجربة بحث أخر ، أو اختر لغة مختلفة."
+    no_hits: "لم يضرب. الرجاء تجربة بحث أخر ، أو اختر لغة مختلفة."
     of: من
-    powered_by: بواسطة
-    previous: السابق
+    powered_by: "مدعوم من"
+    previous: السابقة
     rdf: "قوات الدفاع الرواندية"
-    register_description: "وقع لتلقي <span class=\"highlight\">توصيات</span> شخصية ، والمشاركة في <span class=\"highlight\">مجموعات</span> ، <span class=\"highlight\">ونشرها</span> بسهولة <span class=\"highlight\">على بلوق</span>"
-    register_link: "مستخدم جديد!"
-    related_resources: "الموارد ذات الصلة"
+    register_description: "الإنتساب لتلقي <span class=\"highlight\">توصيات ذات طابع</span> شخصي ، والمشاركة في <span class=\"highlight\">مجموعات</span> ، وسهولة <span class=\"highlight\">نشر لبلوق</span>"
+    register_link: "إشترك الآن!"
+    related_resources: "مصادر ذات علاقة"
     related_resources_title: "موارد ذات الصلة"
-    relevance: صلة
+    relevance: أهمية
     results: النتائج
-    rss: RSS
+    rss: "آر إس إس"
     search: بحث
     search_button: يذهب
     search_description: "العثور على موارد التعلم عن طريق <span class=\"highlight\">البحث وتصفح</span> أكثر من <span class=\"highlight\">110،000</span> الموارد التعليمية المفتوحة"
-    search_link: "العثور على الموارد!"
+    search_link: "العثور على موارد!"
     tag_line: "تمكين التعليم المفتوح"
     title: folksemantic
-    tour: "قم بجولة!"
-    tour_description: "مشاهدة شريط <span class=\"highlight\">فيديو عرض</span> Folksemantic"
-    view_account: "وبالنظر إلى حسابك"
+    tour: "أخذ جولة!"
+    tour_description: "مشاهدة شريط <span class=\"highlight\">فيديو لإدخال</span> Folksemantic"
+    view_account: "الاطلاع على حسابك"
     welcome: "مرحبا بكم في Folksemantic."
-    welcome_message: "نحن تعمل بنشاط على إدماج OCWFinder وOERRecommender في موقع واحد لمساعدتك في الحصول على أهم ذات الصلة والموارد التعليمية."
+    welcome_message: "نحن تعمل بنشاط من أجل إدماج OCWFinder وOERRecommender في موقع واحد لمساعدتك في العثور على الموارد الأكثر إثارة للاهتمام والتعليمية ذات الصلة."
     welcome_user: "نرحب {{user}}"
-    widgets_description: "الحصول على الحاجيات لمساعدة المستخدمين على <span class=\"highlight\">إيجاد</span> الموارد <span class=\"highlight\">واكتشاف الموارد المتصلة</span> منها على موقع الويب الخاص بك"
+    widgets_description: "الحصول على الحاجيات لمساعدة المستخدمين على <span class=\"highlight\">العثور على</span> موارد جديدة <span class=\"highlight\">واكتشاف الموارد المتصلة</span> منها على موقع الويب الخاص بك"
     widgets_link: "الحصول على القطع!"
-    widgets_title: "folksemantic الحاجيات"
+    widgets_title: "الحاجيات folksemantic"
     xml: XML
   muck: 
+    friends: 
+      block: كتلة
+      start_following: يتبع
+      unblock: افراج
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "المساهمة في OCW / OER مستودع"
+      add_extended_feed_title: "تسهم OCW / OER مستودع"
     users: 
-      dev_plans: "وإننا نعمل بنشاط لتوسيع نطاق تطوير <a href=\"http://ocwfinder.org\">ocwfinder.org</a> <a href=\"http://oerrecommender.org\">وoerrecommender.org</a>"
-      signup: اشترك!
+      dev_plans: "نحن نعمل بنشاط لتطوير وتوسيع <a href=\"http://ocwfinder.org\">ocwfinder.org</a> <a href=\"http://oerrecommender.org\">وoerrecommender.org</a>"
+      signup: التوقيع!
       signup_header: "تعتقد أنك ذكي؟"
-      signup_pitch: "Folksemantic يجعل من السهل العثور على ، وتبادل واستخدام الموارد التعليمية المفتوحة بحيث يمكنك الحصول الذكية."
-    welcome_activity: "مرحبا بكم في {{application_name}}! هنا يمكنك <a href='/resources'>اكتشاف موارد تعليمية خالية من جميع أنحاء العالم.</a> للاهتمام في <a href='/resources/search?q=lady+bugs'>سيدة البق؟</a> <a href='/resources/3909'>ماذا عن الموارد التعليمية من وكالة ناسا؟.</a>"
+      signup_pitch: "Folksemantic يجعل من السهل العثور عليها ، ونصيب ، واستخدام الموارد التعليمية المفتوحة حتى تتمكن من الحصول الذكية."
+    welcome_activity: "مرحبا بكم في {{application_name}}! هنا يمكنك <a href='/resources'>اكتشاف موارد تعليمية خالية من جميع أنحاء العالم.</a> مثيرة للاهتمام في <a href='/resources/search?q=lady+bugs'>البق سيدة؟</a> <a href='/resources/3909'>ماذا عن الموارد التعليمية من وكالة ناسا؟.</a>"

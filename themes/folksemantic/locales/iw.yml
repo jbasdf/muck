@@ -1,74 +1,79 @@
 --- 
 iw: 
   folksemantic: 
+    add_edit_feeds: "הוספה / עריכה של הזנות"
     all_resources: הכל
-    atom: האטום
-    browse_resources: "עיון משאבים"
+    atom: Atom
+    browse_resources: "משאבים עיון"
     calculated: מחושב
     collections: אוספים
-    collections_long: "באינדקס אוספים"
-    contribute_repository: "תרום OCW / OER Repository"
-    credits: "פותחה ע&quot;י <a href=\"http://cosl.usu.edu\">מרכז הלמידה פתיחה Sustainable</a> במימון של <a href=\"http://nsf.gov/\">הקרן הלאומית למדע</a> של <a href=\"http://www.mellon.org/\">Andrew W Mellon קרן</a>"
+    collections_long: "אוספים אינדקס"
+    contribute_repository: "לתרום OCW / מאגר OER"
+    credits: "שפותח על ידי <a href=\"http://cosl.usu.edu\">המרכז פתוח בר קיימא הלמידה</a> במימון <a href=\"http://nsf.gov/\">קרן המדע הלאומית</a> ואת <a href=\"http://www.mellon.org/\">קרן אנדרו מלון W</a>"
     demo: הדגמה
     details: פרטים
     developers: מפתחים
     developers_long: "מידע עבור מפתחים"
     direct_link: "[קישור ישיר]"
     for: עבור
-    gm_more_prompt: "עוד נושאים קשורים"
-    gm_title: "נושאים קשורים"
+    gm_more_prompt: "יותר משאבים קשורים"
+    gm_title: "משאבים קשורים"
     home: 
-      browse_and_search: "עיון וחיפוש OVER"
-      collaborate: "פעולה עם"
+      browse_and_search: "עיין וחפש בתוך"
+      collaborate: "לשתף פעולה עם"
       comments_heading: "הערות אחרונות"
-      example_comment: "מדריך זה legos הבנייה is Awesome! אני תוהה אם אפשר להשתמש בה עם תלמידי CS 102."
-      get_widgets: "GET OER RECOMMENDER יישומון"
-      oers: "<b>OPEN</b> השכלה"
-      people: PEOPLE
+      example_comment: "זה מדריך בניית הלגו הוא מדהים! אני תוהה אם נוכל להשתמש בו עם תלמידים CS 102."
+      get_widgets: "GET OER המלצה Widget"
+      oers: "חינוך <b>פתוח</b>"
+      people: אנשים
       resources: "Resources (OERS)"
       search: חיפוש
       signup: "הירשם היום!"
-      signup_reasons: "הרשם לפגוש אנשים שאיתם אתה יכול למצוא, לדון, remix, ופיתוח משאבי למידה"
-      why: "למה FOLKSEMANTIC?"
-      widgets_pitch: "רוצה לקבל המלצות OER עבור דפי האינטרנט שלך?"
+      signup_reasons: "הרשם לפגוש אנשים שאיתם אתה יכול למצוא, לדון, Remix, ולפתח משאבי למידה"
+      why: "מדוע FOLKSEMANTIC?"
+      widgets_pitch: "רוצים לקבל המלצות OER עבור דפי האינטרנט שלך?"
     just_ocws: קורסים
     metadata: Metadata
     next: הבא
-    no_hits: "לא יגיע. אנא נסה חיפוש אחר, או לבחור שפה אחרת."
+    no_hits: "לא hits. אנא נסה חיפוש שונה או בחר בשפה שונה."
     of: של
-    powered_by: "Powered by"
+    powered_by: "מופעל על ידי"
     previous: קודם
     rdf: RDF
-    register_description: "הרשם כדי לקבל <span class=\"highlight\">המלצות</span> מותאמות אישית, להשתתף <span class=\"highlight\">בקבוצות,</span> ובקלות <span class=\"highlight\">כדי לפרסם בלוגים</span>"
+    register_description: "הרשם כדי לקבל <span class=\"highlight\">המלצות</span> מותאמות אישית, להשתתף <span class=\"highlight\">בקבוצות,</span> ובקלות <span class=\"highlight\">לפרסם בלוגים</span>"
     register_link: "הירשם עכשיו!"
-    related_resources: "נושאים קשורים"
-    related_resources_title: "נושאים קשורים"
+    related_resources: "משאבים קשורים"
+    related_resources_title: "משאבים קשורים"
     relevance: הרלוונטיות
     results: תוצאות
     rss: RSS
     search: חיפוש
     search_button: "לעבור אל"
-    search_description: "מצא משאבי למידה באמצעות <span class=\"highlight\">חיפוש והגלישה</span> מעל <span class=\"highlight\">110,000</span> לפתוח משאבים חינוכיים"
+    search_description: "מצא משאבי למידה ידי <span class=\"highlight\">חיפוש וגלישה</span> מעל <span class=\"highlight\">110,000</span> לפתוח משאבים חינוכיים"
     search_link: "מצא משאבים!"
-    tag_line: "העצמת חינוך פתוח"
+    tag_line: "העצמת החינוך לפתוח"
     title: folksemantic
-    tour: "בוא לביקור!"
-    tour_description: "צפה <span class=\"highlight\">בסרטון המבוא</span> של Folksemantic"
-    view_account: "הצג את חשבון"
+    tour: "צא לסיור!"
+    tour_description: "צפה בסרט <span class=\"highlight\">הווידאו</span> של <span class=\"highlight\">מבוא</span> Folksemantic"
+    view_account: "הצג החשבון שלך"
     welcome: "ברוכים הבאים Folksemantic."
-    welcome_message: "אנו פועלים באופן פעיל לשלב OCWFinder ו OERRecommender לתוך אתר אחד על מנת לעזור לך למצוא את הכי מעניין ורלוונטי משאבים חינוכיים."
+    welcome_message: "אנחנו עובדים באופן אקטיבי לשלב OCWFinder ו OERRecommender לתוך אתר אחד כדי לעזור לך למצוא את המשאבים החינוך הכי מעניין ורלוונטי."
     welcome_user: "ברוכים הבאים {{user}}"
-    widgets_description: "קבל יישומונים לעזור למשתמשים <span class=\"highlight\">למצוא</span> משאבים <span class=\"highlight\">משאבים קשורים</span> כדי <span class=\"highlight\">לגלות</span> אלו באתר האינטרנט שלך"
-    widgets_link: "קבל יישומונים!"
-    widgets_title: "folksemantic יישומונים"
+    widgets_description: "Get Widgets לסייע למשתמשים <span class=\"highlight\">למצוא</span> משאבים <span class=\"highlight\">ולגלות משאבים</span> אלה <span class=\"highlight\">הקשורים</span> באתר האינטרנט שלך"
+    widgets_link: "Get Widgets!"
+    widgets_title: "יישומונים folksemantic"
     xml: XML
   muck: 
+    friends: 
+      block: חסום
+      start_following: לעקוב
+      unblock: Unblock
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "תרום OCW / OER Repository"
+      add_extended_feed_title: "לתרום OCW / מאגר OER"
     users: 
-      dev_plans: "אנו באופן פעיל בפיתוח זה כדי להאריך <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ו <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "אנחנו באופן פעיל בפיתוח זה להאריך <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ו <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: הרשם!
       signup_header: "חושב שאתה חכם?"
-      signup_pitch: "Folksemantic עושה את זה קל למצוא, לשתף, ולהשתמש לפתוח משאבים חינוכיים כך שאתה יכול להשיג חכם."
-    welcome_activity: "ברוכים הבאים {{application_name}}! כאן אתה יכול <a href='/resources'>לגלות חופשי משאבים חינוכיים מכל רחבי העולם.</a> מעניין על <a href='/resources/search?q=lady+bugs'>באגים גברת?</a> <a href='/resources/3909'>מה לגבי משאבי למידה מ NASA?.</a>"
+      signup_pitch: "Folksemantic מקל למצוא, לשתף, ולהשתמש במשאבים חינוך פתוח כדי שתוכל חכם."
+    welcome_activity: "ברוכים הבאים {{application_name}}! כאן אתה יכול <a href='/resources'>לגלות משאבים חינוכיים חינם מרחבי העולם.</a> מעניין <a href='/resources/search?q=lady+bugs'>באגים גברת?</a> <a href='/resources/3909'>מה דעתך על משאבי למידה מנאס&quot;א?.</a>"

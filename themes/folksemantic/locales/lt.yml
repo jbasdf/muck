@@ -1,74 +1,79 @@
 --- 
 lt: 
   folksemantic: 
+    add_edit_feeds: "pridėti / Pakeisti kanalus"
     all_resources: Visi
     atom: Atom
     browse_resources: Ištekliai
     calculated: apskaičiuotas
-    collections: Kolekcijos
-    collections_long: "Indeksas Kolekcijos"
-    contribute_repository: "Prisidėti OCW / OER saugykla"
-    credits: "Parengė <a href=\"http://cosl.usu.edu\">centro atidarymas ir subalansuotos mokymosi</a> finansavimą iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a> ir <a href=\"http://www.mellon.org/\">Andrew V Melono fondas</a>"
+    collections: Rinkiniai
+    collections_long: "Indeksuotos Kolekcijos"
+    contribute_repository: "Prisidėti OCW / AMŠ saugyklos"
+    credits: "Developed by <a href=\"http://cosl.usu.edu\">atviros ir tvarios mokymo centras</a> su finansavimu iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a> bei <a href=\"http://www.mellon.org/\">V Andrew Mellon fondas</a>"
     demo: Demo
-    details: Duomenys
+    details: Detaliau
     developers: Programavimas
     developers_long: "Informacija kūrėjams"
     direct_link: "[Direct link]"
     for: dėl
-    gm_more_prompt: "Daugiau informacijos Susiję šaltiniai ir ištekliai:"
-    gm_title: "Susiję šaltiniai ir ištekliai:"
+    gm_more_prompt: "Daugiau informacijos Susiję šaltiniai ir ištekliai"
+    gm_title: "Susiję šaltiniai ir ištekliai"
     home: 
-      browse_and_search: "Naršyti ir ieškoti"
+      browse_and_search: "Paieškos rezultatus"
       collaborate: "Bendradarbiauti su"
       comments_heading: "Naujausi komentarai"
-      example_comment: "Kad legos statybos vadovas is awesome! Įdomu, jei mes galime jį naudoti su studentais CS 102."
-      get_widgets: "Gaukite OER Rekomenduokite Widget"
-      oers: "<b>ATVIRAS</b> ŠVIETIMO"
+      example_comment: "Tai legos statybos vadovas yra awesome! Įdomu, jei galėtume jį naudoti su CS 102 studentų."
+      get_widgets: "Gaukite AMŠ Rekomenduokite Widget"
+      oers: "<b>Atviras mokymasis</b>"
       people: ŽMONĖS
       resources: "IŠTEKLIAI (OERS)"
       search: PAIEŠKA
-      signup: "Registruotis dabar!"
-      signup_reasons: "Registruotis susipažinti su žmonėmis, su kuriais jūs galite surasti, aptarti, remix, ir sukurti mokymosi išteklių"
+      signup: Užsiregistruokite!
+      signup_reasons: "Registruotis susitikti žmonių, su kuriais jūs galite surasti, aptarti, remix, ir sukurti mokymosi išteklių"
       why: "KODĖL FOLKSEMANTIC?"
-      widgets_pitch: "Norite gauti OER rekomendacijas savo puslapius?"
+      widgets_pitch: "Norite gauti AMŠ rekomendacijas dėl savo puslapius?"
     just_ocws: Kursai
-    metadata: Metaduomenys
+    metadata: Duomenys
     next: Kitas
-    no_hits: "Nr hitai. Prašome bandyti kitą paiešką arba pasirinkti kitą kalbą."
+    no_hits: "Nr hitai. Prašome pabandyti kitokią užklausą, arba pasirinkti kitą kalbą."
     of: iš
-    powered_by: "powered by"
+    powered_by: varomas
     previous: Ankstesnis
-    rdf: KRB
+    rdf: RDF
     register_description: "Registruotis gauti asmeninį <span class=\"highlight\">rekomendacijas,</span> dalyvauti <span class=\"highlight\">grupės</span> ir lengvai <span class=\"highlight\">publikuoti dienoraščiai</span>"
-    register_link: Registruotis!
+    register_link: "Sign Up!"
     related_resources: "Related resources"
-    related_resources_title: "Susiję šaltiniai ir ištekliai:"
+    related_resources_title: "Susiję šaltiniai ir ištekliai"
     relevance: tinkamumas
     results: Rezultatai
     rss: RSS
     search: ieškoti
     search_button: Eiti
-    search_description: "Rasti mokymosi išteklių <span class=\"highlight\">paieškos</span> ir <span class=\"highlight\">naršymo</span> virš <span class=\"highlight\">110.000</span> atviri švietimo išteklius"
+    search_description: "Rasti mokymosi išteklių <span class=\"highlight\">paieškos ir</span> virš <span class=\"highlight\">110.000</span> Atviri mokymo šaltiniai"
     search_link: "Rasti ištekliai!"
-    tag_line: "suteikiančio atvirą švietimo"
+    tag_line: "suteikiančio atvira švietimo"
     title: folksemantic
-    tour: "Take a Tour!"
+    tour: "Take a tour!"
     tour_description: "Žiūrėti <span class=\"highlight\">vaizdo įvedimas</span> Folksemantic"
-    view_account: "Peržiūrėti Jūsų sąskaita"
+    view_account: "Peržiūrėti Jūsų"
     welcome: "Sveiki atvykę į Folksemantic."
-    welcome_message: "Mes aktyviai dirbame, kad integruoti OCWFinder ir OERRecommender į vieną svetainę, kad padėtų jums rasti labiausiai įdomios ir aktualios švietimo išteklius."
+    welcome_message: "Mes aktyviai dirbame, kad integruoti OCWFinder ir OERRecommender į vieną svetainę, kad padėtų jums rasti įdomių ir atitinkamomis švietimo išteklius."
     welcome_user: "Sveiki {{user}}"
-    widgets_description: "Gauti raštai padėti vartotojams <span class=\"highlight\">rasti</span> išteklių ir <span class=\"highlight\">atrasti ištekliai, susiję</span> su jų į savo svetainę"
-    widgets_link: "Get Widgets!"
+    widgets_description: "Gauti raštai padėti vartotojams <span class=\"highlight\">rasti</span> išteklių ir <span class=\"highlight\">atrasti ištekliai, susiję</span> su tuos savo svetainėje"
+    widgets_link: "Gauti widgets!"
     widgets_title: "folksemantic raštai"
     xml: XML
   muck: 
+    friends: 
+      block: Blokas
+      start_following: Laikytis
+      unblock: Unblock
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Prisidėti OCW / OER saugykla"
+      add_extended_feed_title: "Prisidėti OCW / AMŠ saugyklos"
     users: 
       dev_plans: "Mes aktyviai vystome jį pratęsti <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ir <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Registruokis!
-      signup_header: "Think you&#39;re smart?"
-      signup_pitch: "Folksemantic leidžia lengvai surasti, dalytis ir naudoti atvirą švietimo išteklius, kad būtų galima gauti Smart."
-    welcome_activity: "Sveiki atvykę į {{application_name}}! Čia galite <a href='/resources'>surasti laisvą švietimo išteklius iš viso pasaulio.</a> Įdomus <a href='/resources/search?q=lady+bugs'>panele klaidas?</a> <a href='/resources/3909'>Kaip apie mokymosi išteklių NASA?.</a>"
+      signup: "Sign up!"
+      signup_header: "Manau, kad jūs esate protingas?"
+      signup_pitch: "Folksemantic leidžia lengvai surasti, dalytis ir naudoti atvirus švietimo išteklius, kad būtų galima gauti protingas."
+    welcome_activity: "Sveiki atvykę į {{application_name}}! Čia galite <a href='/resources'>atrasti laisvą švietimo išteklius iš viso pasaulio.</a> Įdomus <a href='/resources/search?q=lady+bugs'>Lady klaidas?</a> <a href='/resources/3909'>Kaip apie mokymosi išteklių NASA?.</a>"

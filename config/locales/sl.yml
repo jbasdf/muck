@@ -16,7 +16,7 @@ sl:
   general: 
     delete_file: "Brisanje datotek"
     send: Poslati
-    thank_you_contact: "Hvala za vaše sporočilo. Za člana naše ekipe se bodo odzvali na vas v kratkem."
+    thank_you_contact: "Hvala za vaše sporočilo. Član naše ekipe se bodo odzvali na vas v kratkem."
   muck: 
     activity_templates: 
       welcome: Dobrodošli

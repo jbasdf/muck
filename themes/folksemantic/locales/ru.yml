@@ -1,74 +1,79 @@
 --- 
 ru: 
   folksemantic: 
+    add_edit_feeds: "Добавить / Изменить каналы"
     all_resources: Все
-    atom: Atom
-    browse_resources: "Используй ресурсы"
-    calculated: рассчитываться
-    collections: Коллекции
-    collections_long: "Проиндексированные Коллекции"
-    contribute_repository: "Способствуй OCW / OER Репозиторий"
-    credits: "Разработано в <a href=\"http://cosl.usu.edu\">Центре открыто и устойчивому обучения</a> при финансовой поддержке <a href=\"http://nsf.gov/\">Национального научного фонда</a> и <a href=\"http://www.mellon.org/\">Эндрю Меллона фонд W</a>"
+    atom: Атом
+    browse_resources: Ресурсы
+    calculated: рассчитанные
+    collections: Коллекция
+    collections_long: "Индексированных коллекций"
+    contribute_repository: "Способствует ОКУ / УВС кодов"
+    credits: "Разработанная <a href=\"http://cosl.usu.edu\">Центром открытого и устойчивого обучения</a> при финансовой поддержке <a href=\"http://nsf.gov/\">Национального научного фонда</a> и <a href=\"http://www.mellon.org/\">Эндрю Меллона W</a>"
     demo: Демо
     details: Подробности
     developers: Разработчикам
     developers_long: "Информация для разработчиков"
     direct_link: "[Прямая ссылка]"
     for: для
-    gm_more_prompt: "Подробнее Связанные ресурсы"
+    gm_more_prompt: "Дополнительные ресурсы, относящиеся"
     gm_title: "Связанные ресурсы"
     home: 
-      browse_and_search: "Просмотра и поиска"
-      collaborate: "Сотрудничать с"
-      comments_heading: "Последние комментарии"
-      example_comment: "Это строительство legos руководство Awesome! Интересно, если бы мы могли использовать его с учащимися в CS 102."
-      get_widgets: "GET OER RECOMMENDER виджет"
-      oers: "<b>Открытого</b> образования"
+      browse_and_search: "Просмотр и поиск в"
+      collaborate: СОТРУДНИЧЕСТВО
+      comments_heading: "ПОСЛЕДНИЕ КОММЕНТАРИИ"
+      example_comment: "Это руководство Legos строительстве Awesome! Интересно, если бы мы могли использовать ее с учащимися в CS 102."
+      get_widgets: "GET OER Рекомендующий Widget"
+      oers: "<b>Открытое</b> образование"
       people: ЛЮДИ
-      resources: "РЕСУРСЫ (OERS)"
-      search: ПОИСК
-      signup: "Зарегистрируйтесь прямо сейчас!"
-      signup_reasons: "Зарегистрироваться для удовлетворения людей, с которыми вы можете искать, обсуждать, ремиксов, а также разработка учебных ресурсов"
+      resources: "РЕСУРСЫ (ООР)"
+      search: Поиск
+      signup: "Зарегистрируйтесь сегодня!"
+      signup_reasons: "Зарегистрируйтесь, чтобы встретиться с людьми, с которыми можно найти, обсуждать, ремиксов, а также разработать учебные ресурсы"
       why: "ПОЧЕМУ FOLKSEMANTIC?"
-      widgets_pitch: "Хотите получить OER рекомендации для веб-страниц?"
+      widgets_pitch: "Хотите получить OER рекомендациям для веб-страниц?"
     just_ocws: Курсы
     metadata: Метаданные
     next: Следующий
-    no_hits: "Нет хитов. Попробуйте другой поиск или выберите другой язык."
+    no_hits: "Нет хиты. Попробуйте другой запрос или выберите другой язык."
     of: из
-    powered_by: компанией
-    previous: Предыдущая
+    powered_by: "Powered By"
+    previous: Предыдущее
     rdf: RDF
-    register_description: "Подпишитесь на получение персональной <span class=\"highlight\">рекомендаций,</span> участие в <span class=\"highlight\">группах,</span> и легко <span class=\"highlight\">публиковать в блогах</span>"
-    register_link: Зарегистрируйся!
-    related_resources: "Связанные ресурсы"
+    register_description: "Зарегистрироваться для получения персональных <span class=\"highlight\">рекомендациях,</span> участие в <span class=\"highlight\">группах,</span> и легко <span class=\"highlight\">публиковать в блогах</span>"
+    register_link: Зарегистрироваться!
+    related_resources: "Похожие ресурсы"
     related_resources_title: "Связанные ресурсы"
-    relevance: актуальность
+    relevance: Соответствие
     results: Результаты
     rss: RSS
     search: поиск
     search_button: Идти
-    search_description: "Поиск учебных материалов с помощью функции <span class=\"highlight\">поиска</span> и <span class=\"highlight\">просмотра</span> более <span class=\"highlight\">110,000</span> открытых образовательных ресурсов"
-    search_link: "Найти источники!"
+    search_description: "Найти учебные ресурсы, с помощью функции <span class=\"highlight\">поиска</span> и <span class=\"highlight\">просмотра</span> более <span class=\"highlight\">110000</span> открытые образовательные ресурсы"
+    search_link: "Поиск ресурсов!"
     tag_line: "расширение возможностей открытого образования"
     title: folksemantic
-    tour: "Совершите тур!"
-    tour_description: "Смотреть <span class=\"highlight\">видео введение</span> Folksemantic"
-    view_account: "Посмотреть Ваш аккаунт"
+    tour: Ознакомьтесь!
+    tour_description: "Смотреть <span class=\"highlight\">видео внедрения</span> Folksemantic"
+    view_account: "Посмотреть Ваш Счет"
     welcome: "Добро пожаловать на Folksemantic."
-    welcome_message: "Мы активно работаем по интеграции OCWFinder и OERRecommender в одном месте, чтобы помочь вам найти наиболее интересные и актуальные образовательные ресурсы."
+    welcome_message: "Мы ведем активную работу по интеграции OCWFinder и OERRecommender в одном месте, чтобы помочь вам найти наиболее интересные и актуальные образовательные ресурсы."
     welcome_user: "Добро пожаловать {{user}}"
-    widgets_description: "Получить виджеты, чтобы помочь пользователям <span class=\"highlight\">найти</span> ресурсы и <span class=\"highlight\">открывать ресурсы, связанные</span> с них на ваш сайт"
-    widgets_link: "Получить Widgets!"
+    widgets_description: "Получить виджеты, чтобы помочь пользователям <span class=\"highlight\">найти</span> ресурсы и <span class=\"highlight\">обнаружить ресурсы, связанные</span> с них на вашем сайте"
+    widgets_link: "Get Widgets!"
     widgets_title: "folksemantic виджеты"
     xml: XML
   muck: 
+    friends: 
+      block: Блок
+      start_following: Следовать
+      unblock: Разблокировать
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Способствуй OCW / OER Репозиторий"
+      add_extended_feed_title: "Способствует ОКУ / УВС кодов"
     users: 
       dev_plans: "Мы активно развиваем его продлить <a href=\"http://ocwfinder.org\">ocwfinder.org</a> и <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Зарегистрироваться!
-      signup_header: "Подумайте вы умный?"
-      signup_pitch: "Folksemantic позволяет легко находить, разделяют и использование открытых образовательных ресурсов, так что вы можете получить смарт."
-    welcome_activity: "Добро пожаловать на {{application_name}}! Здесь вы можете <a href='/resources'>бесплатно открыть образовательных ресурсов со всего мира.</a> Интересное в <a href='/resources/search?q=lady+bugs'>леди ошибки?</a> <a href='/resources/3909'>Как насчет обучения ресурсов из НАСА?.</a>"
+      signup: Зарегистрируйтесь!
+      signup_header: "Думаю, что вы умны?"
+      signup_pitch: "Folksemantic позволяет легко найти, разделять и использовать открытые образовательные ресурсы, так что вы можете получить Smart."
+    welcome_activity: "Добро пожаловать на {{application_name}}! Здесь вы можете <a href='/resources'>обнаружить бесплатных образовательных ресурсов со всего мира.</a> Интересное в <a href='/resources/search?q=lady+bugs'>даму ошибки?</a> <a href='/resources/3909'>Как насчет учебных ресурсов из НАСА?.</a>"

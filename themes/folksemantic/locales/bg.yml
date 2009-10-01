@@ -1,74 +1,79 @@
 --- 
 bg: 
   folksemantic: 
+    add_edit_feeds: "добавяне / редактиране на емисии"
     all_resources: Всички
-    atom: Atom
-    browse_resources: "Търсете ресурси"
+    atom: Атом
+    browse_resources: "Преглед ресурси"
     calculated: изчислени
     collections: Колекции
-    collections_long: "Индексирани Сборници"
-    contribute_repository: "Принос OCW / OER хранилището"
-    credits: "Разработена от <a href=\"http://cosl.usu.edu\">Центъра за Отворете и устойчиво обучение</a> с финансиране от <a href=\"http://nsf.gov/\">Националната научна фондация</a> и <a href=\"http://www.mellon.org/\">Андрю Мелън W фондация</a>"
-    demo: Демонстрация
-    details: Подробности
-    developers: Разработчици
-    developers_long: "Информация за разработчици"
-    direct_link: "[директен линк]"
+    collections_long: "Индексирани Колекции"
+    contribute_repository: "Принос OCW / OER Repository"
+    credits: "Разработена от <a href=\"http://cosl.usu.edu\">Центъра за открити и устойчивото обучение</a> с финансиране от <a href=\"http://nsf.gov/\">Националната научна фондация</a> и <a href=\"http://www.mellon.org/\">Фондация Андрю Мелън W</a>"
+    demo: Демо
+    details: Детайли
+    developers: Фирми
+    developers_long: "Информация за програмисти"
+    direct_link: "[линк]"
     for: за
     gm_more_prompt: "Още Сродни ресурси"
     gm_title: "Сродни ресурси"
     home: 
-      browse_and_search: "Преглед и търсене НАД"
-      collaborate: "Сътрудничи с"
-      comments_heading: "ПОСЛЕДНИ КОМЕНТАРИ"
-      example_comment: "Това legos строителство водач е страхотно! Чудя се, ако бихме могли да го използвате с учениците в CS 102."
-      get_widgets: "GET OER RECOMMENDER Widget"
-      oers: "<b>ОТВОРЕНО</b> ОБРАЗОВАНИЕ"
+      browse_and_search: "Разглеждайте и търсене в над"
+      collaborate: "Сътрудничество С"
+      comments_heading: "Скорошни коментари"
+      example_comment: "Това Legos ръководство строителство е страхотно! Чудя се, ако бихме могли да го използвате с учениците в CS 102."
+      get_widgets: "GET OER RECOMMENDER WIDGET"
+      oers: "<b>Отворено</b> образование"
       people: ХОРА
       resources: "РЕСУРСИ (OERS)"
       search: ТЪРСЕНЕ
       signup: "Регистрирайте се днес!"
-      signup_reasons: "Регистрация за да отговарят хората, с които можете да намерите, да дискутират, да ремиксирам, обучение и развитие на ресурсите"
+      signup_reasons: "Запишете се за да се срещам с хора, с които можете да намерите, да дискутират, ремикс, и разработване на учебни ресурси"
       why: "ЗАЩО FOLKSEMANTIC?"
-      widgets_pitch: "Искате ли да получите OER препоръки за вашите уеб страници?"
+      widgets_pitch: "Искате ли да получите безплатни образователни източници, препоръки за вашия уеб страници?"
     just_ocws: Курсове
     metadata: Метаданните
     next: Следващ
-    no_hits: "Не хитове. Моля опитайте по-различно търсене или изберете друг език."
+    no_hits: "Няма попадения. Моля опитайте с различни търсене или изберете друг език."
     of: на
     powered_by: "захранва от"
     previous: Назад
     rdf: RDF
-    register_description: "Регистрация за получаване персонални <span class=\"highlight\">препоръки,</span> да участват в <span class=\"highlight\">групи,</span> както и лесно <span class=\"highlight\">публикуване на блогове</span>"
+    register_description: "Запишете се за да получавате персонализирани <span class=\"highlight\">препоръки,</span> да участват в <span class=\"highlight\">групи,</span> както и лесно да <span class=\"highlight\">публикуват в блогове</span>"
     register_link: "Sign Up!"
-    related_resources: "Сродни ресурси"
+    related_resources: БГ
     related_resources_title: "Сродни ресурси"
-    relevance: Значението
+    relevance: значение
     results: Резултати
     rss: RSS
     search: търся
     search_button: Отивам
-    search_description: "Търсене на учебни ресурси чрез <span class=\"highlight\">търсене и</span> разглеждане над 110000 отворени образователни ресурси"
+    search_description: "Търсене на учебни ресурси чрез <span class=\"highlight\">търсене</span> и <span class=\"highlight\">търсят</span> над <span class=\"highlight\">110000</span> отворени образователни ресурси"
     search_link: "Намери ресурси!"
     tag_line: "овластяване отворено образование"
     title: folksemantic
-    tour: "Вземи си обиколка!"
+    tour: "Направете обиколка!"
     tour_description: "Гледайте <span class=\"highlight\">видео въвеждането</span> на Folksemantic"
     view_account: "Преглед на профил"
     welcome: "Добре дошли в Folksemantic."
-    welcome_message: "Ние активно работят за интегриране на OCWFinder и OERRecommender в един сайт, за да ви помогне да намерите най-интересните и съответните образователни ресурси."
+    welcome_message: "Ние активно работи за интегриране на OCWFinder и OERRecommender в един сайт, за да ви помогне да намерите най-интересните и съответните образователни ресурси."
     welcome_user: "Добре дошли {{user}}"
-    widgets_description: "Махни джунджурии да помогне на потребителите <span class=\"highlight\">да намират</span> средства <span class=\"highlight\">и</span> открийте <span class=\"highlight\">ресурси, свързани</span> с тези на вашия сайт"
-    widgets_link: "Махни Widgets!"
+    widgets_description: "Get Widgets да помогне на потребителите да <span class=\"highlight\">намерят</span> ресурси <span class=\"highlight\">и</span> откриване на <span class=\"highlight\">ресурси, свързани</span> с тези на вашия уебсайт"
+    widgets_link: "Get Widgets!"
     widgets_title: "folksemantic джунджурии"
     xml: XML
   muck: 
+    friends: 
+      block: Блок
+      start_following: Следвам
+      unblock: Unblock
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Принос OCW / OER хранилището"
+      add_extended_feed_title: "Принос OCW / OER Repository"
     users: 
       dev_plans: "Ние активно развиващите се тя да се разшири <a href=\"http://ocwfinder.org\">ocwfinder.org</a> и <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: Регистрация!
       signup_header: "Мислите, че сте умни?"
-      signup_pitch: "Folksemantic го прави лесен за намиране, споделяне и използване отворени образователни ресурси, така че можете да получите умен."
-    welcome_activity: "Добре дошли в {{application_name}}! Тук може да се <a href='/resources'>открият свободни образователни ресурси от цял свят.</a> Интересно в <a href='/resources/search?q=lady+bugs'>дама буболечки?</a> <a href='/resources/3909'>Какво ще кажеш за учебни ресурси от НАСА?.</a>"
+      signup_pitch: "Folksemantic го прави лесен за намиране, споделяне и използване на отворени образователни ресурси, така че можете да получите добър човек."
+    welcome_activity: "Добре дошли в {{application_name}}! Тук можете да <a href='/resources'>откриете безплатните образователни ресурси от цял свят.</a> Интересни в <a href='/resources/search?q=lady+bugs'>дама грешки?</a> <a href='/resources/3909'>Какво ще кажете за учебни ресурси от НАСА?.</a>"

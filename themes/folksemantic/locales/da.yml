@@ -1,13 +1,14 @@
 --- 
 da: 
   folksemantic: 
+    add_edit_feeds: "tilføj / rediger feeds"
     all_resources: Alle
     atom: Atom
     browse_resources: "Browse Ressourcer"
-    calculated: beregnes
+    calculated: beregnet
     collections: Samlinger
     collections_long: "Indekseret Samlinger"
-    contribute_repository: "Bidrage OCW / OER repository&#39;et"
+    contribute_repository: "Bidrage OCW / OER Repository"
     credits: "Udviklet af <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med støtte fra <a href=\"http://nsf.gov/\">National Science Foundation</a> og <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detaljer
@@ -19,28 +20,28 @@ da:
     gm_title: "Relaterede ressourcer"
     home: 
       browse_and_search: "Gennemse og søg i"
-      collaborate: "Samarbejd med"
+      collaborate: "SAMARBEJDE MED"
       comments_heading: "SENESTE KOMMENTARER"
-      example_comment: "At legos opførelse vejledning er awesome! Jeg spekulerer på, om vi kunne bruge det med eleverne i CS 102."
-      get_widgets: "GET OER RECOMMENDER widget"
-      oers: "<b>Åben</b> uddannelse"
-      people: MENNESKER
-      resources: "RESSOURCER (OERS)"
+      example_comment: "At Legos byggeri guide is awesome! Jeg spekulerer på, om vi kunne bruge det med de studerende i CS 102."
+      get_widgets: "GET OER Er du i WIDGET"
+      oers: "<b>ÅBEN</b> UDDANNELSE"
+      people: PEOPLE
+      resources: "RESSOURCER (Oers)"
       search: SØG
       signup: "Tilmeld dig i dag!"
-      signup_reasons: "Tilmeld dig til at møde folk, som du kan finde, diskutere, remix, og udvikle læringsressourcer"
+      signup_reasons: "Tilmeld dig til at møde mennesker, som du kan finde, diskutere, remix, og udvikle læring ressourcer"
       why: "HVORFOR FOLKSEMANTIC?"
       widgets_pitch: "Ønsker at få OER anbefalinger til dine websider?"
     just_ocws: Kurser
     metadata: Metadata
     next: Næste
-    no_hits: "Ingen hits. Prøv en anden søgning eller vælge et andet sprog."
+    no_hits: "Ingen hits. Prøv en anden søgning eller vælg et andet sprog."
     of: af
     powered_by: "powered by"
     previous: Forrige
     rdf: RDF
-    register_description: "Tilmeld dig til at modtage personlige <span class=\"highlight\">anbefalinger,</span> deltage i <span class=\"highlight\">grupper,</span> og nemt at <span class=\"highlight\">publicere til blogs</span>"
-    register_link: "Tilmeld dig!"
+    register_description: "Tilmeld dig til at modtage personlige <span class=\"highlight\">anbefalinger,</span> deltage i <span class=\"highlight\">grupper,</span> og nemt at <span class=\"highlight\">udgive til blogs</span>"
+    register_link: "Sign Up!"
     related_resources: "Relaterede ressourcer"
     related_resources_title: "Relaterede ressourcer"
     relevance: relevant
@@ -48,27 +49,31 @@ da:
     rss: RSS
     search: søgning
     search_button: Start
-    search_description: "Find læring ressourcer ved <span class=\"highlight\">at søge og</span> surfe over <span class=\"highlight\">110.000</span> åben uddannelsesmæssige ressourcer"
+    search_description: "Find læring ressourcer ved at <span class=\"highlight\">søge og</span> surfe over <span class=\"highlight\">110.000</span> åben uddannelsesmæssige ressourcer"
     search_link: "Find ressourcer!"
     tag_line: "bemyndigelse åben uddannelse"
     title: folksemantic
-    tour: "Tag en tur!"
-    tour_description: "Se en <span class=\"highlight\">video indførelsen</span> af Folksemantic"
-    view_account: "Vis din konto"
+    tour: "Tag en rundtur!"
+    tour_description: "Se en <span class=\"highlight\">video introduktion</span> af Folksemantic"
+    view_account: "Se min konto"
     welcome: "Velkommen til Folksemantic."
-    welcome_message: "Vi arbejder aktivt for at integrere OCWFinder og OERRecommender til et websted for at hjælpe dig med at finde de mest interessante og relevante uddannelsesmæssige ressourcer."
+    welcome_message: "Vi arbejder aktivt for at integrere OCWFinder og OERRecommender til en hjemmeside for at hjælpe dig med at finde de mest interessante og relevante uddannelsesmæssige ressourcer."
     welcome_user: "Velkommen {{user}}"
-    widgets_description: "Få widgets at hjælpe brugerne med at <span class=\"highlight\">finde</span> ressourcer og <span class=\"highlight\">opdage ressourcer i forbindelse</span> med dem på din hjemmeside"
-    widgets_link: "Få Widgets!"
+    widgets_description: "Få widgets til at hjælpe brugerne med at <span class=\"highlight\">finde</span> ressourcer og <span class=\"highlight\">opdage ressourcer</span> i <span class=\"highlight\">forbindelse</span> med dem på din hjemmeside"
+    widgets_link: "Get Widgets!"
     widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    friends: 
+      block: Block
+      start_following: Følge
+      unblock: Unblock
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Bidrage OCW / OER repository&#39;et"
+      add_extended_feed_title: "Bidrage OCW / OER Repository"
     users: 
-      dev_plans: "Vi er aktivt på at udvikle den til at udvide <a href=\"http://ocwfinder.org\">ocwfinder.org</a> og <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: "Tilmeld dig!"
+      dev_plans: "Vi er aktivt at udvikle det til at udvide <a href=\"http://ocwfinder.org\">ocwfinder.org</a> og <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Sign up!"
       signup_header: "Tror du er smart?"
       signup_pitch: "Folksemantic gør det nemt at finde, dele og bruge åbne uddannelsesmæssige ressourcer, så du kan få smart."
-    welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>opdage fri uddannelsesmæssige ressourcer fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>How about learning ressourcer fra NASA?.</a>"
+    welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>finde gratis uddannelsesmæssige ressourcer fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>Hvad med at lære midler fra NASA?.</a>"

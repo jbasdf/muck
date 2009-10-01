@@ -3,16 +3,16 @@ mt:
   contact: 
     contact_response_subject: "Grazzi għall-inkjesta tiegħek minn {{application_name}}!"
     contact_us: "Contact Us"
-    email: "Email tiegħek:"
+    email: "Your email:"
     email_help: "Jekk jogħġbok tagħtina email tiegħek biex inkunu nistgħu kuntatt jekk ikun meħtieġ."
     name: "Your name:"
     name_help: "Jekk jogħġbok tagħtina l-isem tiegħek."
     phone: "Numru tat-telefon tiegħek:"
     phone_help: "Numru tat-telefon tiegħek mhijiex obbligatorja iżda se tgħinna kuntatt jekk ikun meħtieġ."
     question: "Il-messaġġ tiegħek / mistoqsija:"
-    question_help: "Jekk jogħġbok jinkludu kwalunkwe kummenti li inti tixtieq li nisimg."
+    question_help: "Jekk jogħġbok jinkludu kwalunkwe kummenti li inti tixtieq magħna biex tisma."
     subject: "Suġġett:"
-    subject_help: "Sempliċi dikjarazzjoni li tindika n-natura ta &#39;l-feedback tiegħek."
+    subject_help: "A sempliċi dikjarazzjoni li tindika n-natura ta &#39;l-feedback tiegħek."
   general: 
     delete_file: "Ħassar File"
     send: Ibgħat
@@ -22,7 +22,7 @@ mt:
       welcome: Merħba
     admin: 
       home: Dar
-      my_dashboard: "Daxxbord My"
+      my_dashboard: "Daxxbord tiegħi"
       permissions: Permessi
       themes: Temi
       users: Users

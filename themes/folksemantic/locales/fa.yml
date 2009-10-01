@@ -1,16 +1,17 @@
 --- 
 fa: 
   folksemantic: 
+    add_edit_feeds: "ایجاد / ویرایش کنید خوردها"
     all_resources: همه
     atom: اتم
-    browse_resources: "مرور منابع"
+    browse_resources: "منابع فهرست اسامی"
     calculated: محاسبه
     collections: "مجموعه ها"
     collections_long: "مجموعه نمایهشده"
-    contribute_repository: "کمک OCW / OER تماما"
-    credits: "طراحی شده توسط <a href=\"http://cosl.usu.edu\">مرکز برای یادگیری باز و پایدار</a> با کمک مالی از <a href=\"http://nsf.gov/\">بنیاد ملی علوم</a> و <a href=\"http://www.mellon.org/\">اندرو ملون عرض دوره مقدماتی</a>"
+    contribute_repository: "همکاری OCW / OER مخزن"
+    credits: "طراحی و توسعه توسط <a href=\"http://cosl.usu.edu\">مرکز برای یادگیری باز و پایدار</a> با کمک مالی <a href=\"http://nsf.gov/\">بنیاد ملی علوم آمریکا</a> و <a href=\"http://www.mellon.org/\">بنیاد اندرو ملون عرض</a>"
     demo: "نسخه ی نمایشی"
-    details: جزئیات
+    details: "اطلاعات بیشتر"
     developers: "توسعه دهندگان"
     developers_long: "اطلاعات برای توسعه دهندگان"
     direct_link: "[لینک مستقیم]"
@@ -18,57 +19,61 @@ fa:
     gm_more_prompt: "بیشتر منابع مرتبط"
     gm_title: "منابع مرتبط"
     home: 
-      browse_and_search: "مرور و جستجو بیش از"
-      collaborate: "همکاری با"
+      browse_and_search: "فهرست و جستجوی بیش از"
+      collaborate: "با همکاری"
       comments_heading: "نظرات اخیر"
-      example_comment: "که راهنمای ساخت و ساز legos است awesome! من تعجب می تواند در صورتی که ما آن را با دانش آموزان در CS 102 استفاده کنید."
-      get_widgets: "کمک بگیرید OER توصیهگر گذاری"
-      oers: "<b>گشاده</b> آموزش و پرورش"
+      example_comment: "که راهنمای ساخت و ساز legos است awesome! می خواستم بدانم اگر ما می تواند آن را با دانش آموزان در حسابهای 102 استفاده کنید."
+      get_widgets: "دریافت OER توصیهگر ویدجت"
+      oers: "<b>گشاده</b> آموزش"
       people: مردم
       resources: "منابع (OERS)"
       search: جستجو
-      signup: "ثبت نام در امروز!"
-      signup_reasons: "ثبت نام برای دیدار مردم که با آنها می توانید پیدا کنید ، بحث ، ریمیکس ، آموزش و توسعه منابع"
+      signup: "ثبت نام سریع!"
+      signup_reasons: "ثبت نام برای دیدار با مردم که با آنها می توانید پیدا کنید ، ریمیکس ، آموزش و توسعه منابع"
       why: "چرا FOLKSEMANTIC؟"
-      widgets_pitch: "می خواهم برای دریافت پیشنهادات OER برای صفحات وب شما؟"
-    just_ocws: دوره
+      widgets_pitch: "می خواهم برنامه ، جزوه OER برای صفحات وب شما؟"
+    just_ocws: دروس
     metadata: فراداده
     next: بعدی
-    no_hits: "هیچ بازدید. لطفا یک جستجو های مختلف و یا سعی کنید به زبان های مختلف را انتخاب کنید."
+    no_hits: "بدون بازدید. لطفا یک جستجو های مختلف را امتحان کنید یا زبان دیگری را انتخاب کنید."
     of: از
     powered_by: "طراحی توسط"
     previous: قبلی
     rdf: RDF
-    register_description: "ثبت نام برای دریافت توصیه های <span class=\"highlight\">شخصی</span> ، مشارکت در <span class=\"highlight\">گروه</span> ، و به راحتی <span class=\"highlight\">به انتشار وبلاگ</span>"
-    register_link: "ثبت نام!"
+    register_description: "ثبت نام برای دریافت <span class=\"highlight\">توصیه های</span> شخصی ، شرکت در <span class=\"highlight\">گروه</span> ، و آسانی <span class=\"highlight\">سال انتشار به وبلاگ</span>"
+    register_link: "ثبت نام کاربران جدید"
     related_resources: "منابع مرتبط"
     related_resources_title: "منابع مرتبط"
-    relevance: ربط
+    relevance: ارتباط
     results: نتایج
     rss: "آر اس اس"
     search: جستجو
     search_button: برو
-    search_description: "یافتن منابع آموزشی با <span class=\"highlight\">جستجو در حال دیدن سایت</span> و باز کردن بیش از <span class=\"highlight\">110،000</span> منابع آموزشی"
+    search_description: "پیدا کردن منابع در یادگیری با <span class=\"highlight\">جستجو</span> و <span class=\"highlight\">مرور</span> و باز کردن بیش از <span class=\"highlight\">110،000</span> منابع آموزشی"
     search_link: "پیدا کردن منابع!"
     tag_line: "تقویت آموزش و پرورش باز"
     title: folksemantic
     tour: "نگاهی به تور!"
-    tour_description: "دیده بان یک <span class=\"highlight\">مقدمه</span> ویدیو از Folksemantic"
-    view_account: "مشاهده حساب شما"
+    tour_description: "سازمان دیده بان <span class=\"highlight\">مقدمه ویدیو</span> Folksemantic"
+    view_account: "نمایش حساب کاربری خود شوید"
     welcome: "خوش آمدید به Folksemantic."
-    welcome_message: "ما به طور فعال در تلاش برای ادغام OCWFinder و OERRecommender را به یک سایت برای کمک به منابع جالب ترین و مناسب آموزشی را پیدا کنید."
+    welcome_message: "ما فعالانه تلاش در جهت ادغام OCWFinder و OERRecommender را به یک سایت برای کمک به منابع جالب ترین و مرتبط آموزشی را پیدا کنید."
     welcome_user: "خوش آمدید {{user}}"
-    widgets_description: "دریافت widgets برای کمک به کاربران <span class=\"highlight\">پیدا کردن</span> منابع و <span class=\"highlight\">کشف منابع مربوط</span> به آنهایی را در سایت خود"
-    widgets_link: "Widgets کنید!"
-    widgets_title: "widgets folksemantic"
+    widgets_description: "دریافت ویدجت برای کمک به کاربران <span class=\"highlight\">پیدا کردن</span> منابع و <span class=\"highlight\">کشف منابع در رابطه</span> با آنهایی در وب سایت شما"
+    widgets_link: "دریافت ویدجت!"
+    widgets_title: "ویدجت folksemantic"
     xml: XML
   muck: 
+    friends: 
+      block: بلوک
+      start_following: پیگیری
+      unblock: "خار چیدن"
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "کمک OCW / OER تماما"
+      add_extended_feed_title: "همکاری OCW / OER مخزن"
     users: 
-      dev_plans: "ما به طور فعال در حال توسعه آن را به گسترش <a href=\"http://ocwfinder.org\">ocwfinder.org</a> و <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "ما به طور جدی در حال توسعه آن را به گسترش <a href=\"http://ocwfinder.org\">ocwfinder.org</a> و <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: "ثبت نام!"
-      signup_header: "فکر می کنم شما هوشمند؟"
-      signup_pitch: "Folksemantic آسان برای پیدا کردن ، به اشتراک و استفاده از منابع آموزشی را باز پس شما می توانید دریافت هوشمند."
-    welcome_activity: "خوش آمدید به {{application_name}}! در اینجا شما می توانید <a href='/resources'>از منابع آموزشی رایگان از سراسر جهان</a> کشف. جالب در <a href='/resources/search?q=lady+bugs'>اشکالات بانوی؟</a> <a href='/resources/3909'>چگونه در مورد منابع یادگیری از ناسا؟</a>"
+      signup_header: "فکر می کنم شما هوشیار است؟"
+      signup_pitch: "Folksemantic را آسان میکند پیدا کردن ، به اشتراک و استفاده از منابع آموزشی باز ، بنابراین شما میتوانید دریافت هوشمند."
+    welcome_activity: "خوش آمدید به {{application_name}}! در اینجا شما میتوانید <a href='/resources'>از منابع رایگان آموزشی از سراسر جهان کشف.</a> جالب در <a href='/resources/search?q=lady+bugs'>اشکالات بانوی؟</a> <a href='/resources/3909'>چگونه در مورد منابع یادگیری از ناسا؟.</a>"

@@ -1,46 +1,47 @@
 --- 
 tr: 
   folksemantic: 
+    add_edit_feeds: "Ekle / Düzenle beslemeleri"
     all_resources: Hepsi
     atom: Atom
     browse_resources: Kaynaklar
-    calculated: hesaplanır
-    collections: Kolleksiyonlar
-    collections_long: "Indexed Kolleksiyonlar"
-    contribute_repository: "Katkıda OCW / OER Havuzu"
-    credits: "Olan <a href=\"http://cosl.usu.edu\">Merkezi Açık ve Sürdürülebilir Öğrenim</a> için <a href=\"http://nsf.gov/\">Ulusal Bilim Vakfı</a> ve <a href=\"http://www.mellon.org/\">Andrew W Mellon Vakfı</a> fon ile Developed by"
+    calculated: Hesaplanan
+    collections: Koleksiyon
+    collections_long: "Indexed Koleksiyonlar"
+    contribute_repository: "Sözlüğe OCW / OER Repository"
+    credits: "<a href=\"http://cosl.usu.edu\">Merkezi Açık ve Sürdürülebilir Öğrenim için</a> <a href=\"http://nsf.gov/\">Ulusal Bilim Vakfı</a> ve <a href=\"http://www.mellon.org/\">W, Andrew Mellon Vakfı</a> fonlarıyla ile Developed by"
     demo: Demo
-    details: Ayrıntılar
+    details: Detaylar
     developers: Geliştiriciler
     developers_long: "Geliştiriciler için"
     direct_link: "[Direct link]"
     for: için
-    gm_more_prompt: "Diğer İlgili Kaynaklar"
+    gm_more_prompt: "Daha İlgili Kaynaklar"
     gm_title: "İlgili Kaynaklar"
     home: 
-      browse_and_search: "İnsanlar ve arama"
-      collaborate: Işbirliği
+      browse_and_search: "BROWSE VE ARAMA OVER"
+      collaborate: İşbirliği
       comments_heading: "SON YORUMLAR"
-      example_comment: "Bu legos inşaat rehberi is awesome! Eğer CS 102 yılında öğrenciler ile kullanabilirsiniz ben merak ediyorum."
-      get_widgets: "OER RECOMMENDER widget&#39;ı almasını"
-      oers: "<b>AÇIK</b> ÖĞRETİM"
-      people: EKİBİMİZ
+      example_comment: "Bu legos inşaat rehberi awesome! Eğer CS 102 öğrenci ile kullanabilir merak ediyorum."
+      get_widgets: "OER Danışmanı Widget GET"
+      oers: <b>AÇIKÖĞRETİM</b>
+      people: İNSANLARI
       resources: "KAYNAKLARI (OERS)"
       search: ARAMA
       signup: "Bugün kaydolun!"
-      signup_reasons: "Kaydol kişiler size bulabilirsiniz tartışmak, remix ve kaynakları öğrenme geliştirilmesi ile bir araya gelecek"
+      signup_reasons: "Kaydolun kişiler sizi bulabilir, tartışmak, remix ve kaynakları öğrenme geliştirilmesi ile bir araya gelecek"
       why: "NEDEN FOLKSEMANTIC?"
       widgets_pitch: "Web sayfaları için OER öneriler almak ister misiniz?"
     just_ocws: Dersler
-    metadata: Meta
+    metadata: Metadata
     next: Sonraki
-    no_hits: "Hayır vurur. Lütfen başka bir arama yapmayı deneyin veya farklı bir dil seçin."
+    no_hits: "Hitler. Lütfen başka bir arama yapmayı deneyin veya farklı bir dil seçin."
     of: onun
-    powered_by: "tarafından desteklenmektedir"
+    powered_by: "powered by"
     previous: Önceki
     rdf: RDF
-    register_description: "Kayıt olun, gruplar katılmak ve kişiselleştirilmiş <span class=\"highlight\">öneriler</span> almak için kolayca <span class=\"highlight\">bloglarda yayınlamak</span>"
-    register_link: "Sign Up!"
+    register_description: "Kaydolun, <span class=\"highlight\">gruplar</span> katılmaya, ve kişiye özel <span class=\"highlight\">öneriler</span> almak kolay <span class=\"highlight\">bloglara yayımlamak</span>"
+    register_link: "Sign up!"
     related_resources: "İlgili kaynaklar"
     related_resources_title: "İlgili Kaynaklar"
     relevance: alaka
@@ -48,27 +49,31 @@ tr:
     rss: RSS
     search: aramak
     search_button: Gitmek
-    search_description: "Arayarak öğrenme kaynakları <span class=\"highlight\">bulun</span> ve <span class=\"highlight\">110.000</span> açık öğretim kaynaklar üzerinde tarama"
-    search_link: "Bul Kaynakları!"
-    tag_line: "açık öğretim Yetki"
+    search_description: "<span class=\"highlight\">Arama yaparak</span> öğrenme kaynakları bulun ve <span class=\"highlight\">110.000</span> açık öğretim kaynaklar üzerinde <span class=\"highlight\">tarama</span>"
+    search_link: "Find Kaynaklar!"
+    tag_line: "açık öğretim güçlendirici"
     title: folksemantic
-    tour: "Tura Katılın!"
-    tour_description: "Ve İzle <span class=\"highlight\">Video giriş</span> Folksemantic"
-    view_account: "Kullanıcı Hesabı"
-    welcome: "Hoşgeldiniz Folksemantic için."
-    welcome_message: "Biz aktif bir site, en ilginç ve ilgili eğitim kaynakları bulmalarına yardımcı olmak için OCWFinder ve OERRecommender bütünleştirmek için çalışıyoruz."
-    welcome_user: "Hoşgeldiniz {{user}}"
-    widgets_description: "Aletler alın kullanıcılar kaynakları bulmak <span class=\"highlight\">ve web sitenizde kaynakları olanlarla</span> ilgili bulmalarına yardımcı olmak için"
-    widgets_link: "Widgets alın!"
-    widgets_title: "folksemantic aletler"
+    tour: "Take a Tour!"
+    tour_description: "İzle bir <span class=\"highlight\">video giriş</span> Folksemantic"
+    view_account: Hesabınız
+    welcome: "Welcome Folksemantic için."
+    welcome_message: "Biz aktif bir sitede sizi en ilginç ve ilgili eğitim kaynakları bulmak için OCWFinder ve OERRecommender entegre etmek için çalışıyoruz."
+    welcome_user: "Welcome {{user}}"
+    widgets_description: "Get Widgets kullanıcıların kaynakları <span class=\"highlight\">bulmak</span> ve web sitenizde <span class=\"highlight\">kaynakları</span> olanlar ile <span class=\"highlight\">ilgili bulmalarına</span> yardımcı olmak için"
+    widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    friends: 
+      block: Blok
+      start_following: "Takip etmek"
+      unblock: Unblock
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Katkıda OCW / OER Havuzu"
+      add_extended_feed_title: "Sözlüğe OCW / OER Repository"
     users: 
-      dev_plans: "Şu anda bu ocwfinder.org genişletmek <a href=\"http://ocwfinder.org\">için</a> ve <a href=\"http://oerrecommender.org\">oerrecommender.org</a> geliştirirken"
-      signup: Kaydol!
-      signup_header: "Sen akıllı olduğunuzu düşünüyorsunuz?"
-      signup_pitch: "Folksemantic kolay, payı bulmak ve böylece akıllı alabilirsiniz açık eğitim kaynakları kullanır."
-    welcome_activity: "Hoşgeldiniz {{application_name}}! için Burada <a href='/resources'>dünyanın her yerinden ücretsiz eğitim kaynakları keşfetmek olabilir.</a> NASA gelen bayan <a href='/resources/search?q=lady+bugs'>hata içinde <a href='/resources/3909'>İlginç?</a></a> <a href='/resources/3909'>Nasıl öğrenme kaynakları?.</a>"
+      dev_plans: "Biz etkin olarak <a href=\"http://ocwfinder.org\">ocwfinder.org</a> uzatmak ve <a href=\"http://oerrecommender.org\">oerrecommender.org</a> geliştiriyoruz"
+      signup: Kaydolun!
+      signup_header: "Akıllı konum düşünüyorsunuz?"
+      signup_pitch: "Folksemantic kolay, paylaşmak bulmak ve böylece akıllı alabilirsiniz açık eğitim kaynaklarının kullanır."
+    welcome_activity: "Welcome {{application_name}}! için Burada <a href='/resources'>dünyanın her yerinden ücretsiz eğitim kaynakları keşfetmek</a> olabilir. <a href='/resources/3909'>NASA</a> <a href='/resources/search?q=lady+bugs'>bayan hata</a> ilginç? <a href='/resources/3909'>Ne öğrenme kaynakları?.</a>"

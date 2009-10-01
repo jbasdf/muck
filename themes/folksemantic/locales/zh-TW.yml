@@ -1,18 +1,19 @@
 --- 
 zh-TW: 
   folksemantic: 
+    add_edit_feeds: 添加/編輯供稿
     all_resources: 全部
     atom: 原子
-    browse_resources: 社區資源
+    browse_resources: 搜索資源
     calculated: 計算
     collections: 集合
-    collections_long: 收錄館藏
-    contribute_repository: "貢獻的OCW /開放教育資源庫"
-    credits: "所開發<a href=\"http://cosl.usu.edu\">中心的開放和可持續學習</a>資金由<a href=\"http://nsf.gov/\">國家科學基金會</a>和<a href=\"http://www.mellon.org/\">安德魯W梅隆基金會</a>"
+    collections_long: 索引的集合
+    contribute_repository: 推動開放式課程/開放教育資源庫
+    credits: "開發的<a href=\"http://cosl.usu.edu\">中心開放和可持續學習</a>撥款的<a href=\"http://nsf.gov/\">國家科學基金會</a>和<a href=\"http://www.mellon.org/\">安德魯糯梅隆基金會</a>"
     demo: 演示
-    details: 詳情
-    developers: 開發商
-    developers_long: 信息開發
+    details: 詳細信息
+    developers: 開發人員
+    developers_long: 開發者信息
     direct_link: "[直接鏈接]"
     for: 為了
     gm_more_prompt: 更多相關資源
@@ -21,25 +22,25 @@ zh-TW:
       browse_and_search: 瀏覽並搜尋
       collaborate: 協作
       comments_heading: 最近的評論
-      example_comment: "這legos建設指南可怕！我想如果我們可以使用它的學生在CS 102 。"
-      get_widgets: 開放教育資源的GET推薦小工具
+      example_comment: 這萊戈斯建設中的指導太棒了！我不知道我們是否可以利用它與政務司司長學生102。
+      get_widgets: 推薦人獲得款額部件
       oers: <b>開放</b>教育
       people: 人民食堂
-      resources: "資源（ OERS ）"
-      search: 搜尋
-      signup: 今天就申請吧！
-      signup_reasons: 註冊，以滿足人民的人，您可以找到，討論，混音，並制定學習資源
-      why: "為什麼FOLKSEMANTIC ？"
-      widgets_pitch: 想開放教育資源的建議您的網頁上？
+      resources: 資源（Oers繼續）
+      search: 搜索
+      signup: 立即註冊！
+      signup_reasons: 註冊，以滿足人們與你可以找到，討論，混音和發展學習資源
+      why: 為什麼FOLKSEMANTIC？
+      widgets_pitch: 想要得到款額建議您的網頁？
     just_ocws: 課程
     metadata: 元數據
     next: 下一個
-    no_hits: 無安打。請嘗試不同的搜索或選擇不同的語言。
+    no_hits: 沒有命中。請嘗試不同的搜索或選擇不同的語言。
     of: 的
-    powered_by: 本站由
-    previous: 前
-    rdf: 盧旺達國防軍
-    register_description: "註冊並獲得個性化的<span class=\"highlight\">建議</span> ，參與<span class=\"highlight\">群體</span> ，並輕鬆地<span class=\"highlight\">發布到博客</span>"
+    powered_by: 採用
+    previous: 上一頁
+    rdf: RDF的
+    register_description: "註冊接收個性化的<span class=\"highlight\">建議</span> ，並參與<span class=\"highlight\">組織</span> ，並方便地<span class=\"highlight\">發布到博客</span>"
     register_link: 註冊！
     related_resources: 相關資源
     related_resources_title: 相關資源
@@ -48,27 +49,31 @@ zh-TW:
     rss: 的RSS
     search: 搜索
     search_button: 離去
-    search_description: "尋找學習資源的<span class=\"highlight\">搜索</span>與<span class=\"highlight\">瀏覽</span>超過<span class=\"highlight\">110,000</span>開放教育資源"
-    search_link: 尋找資源！
-    tag_line: 增強開放教育
+    search_description: "尋找學習資源的<span class=\"highlight\">搜索</span>和<span class=\"highlight\">瀏覽</span>超過<span class=\"highlight\">110,000</span>開放教育資源"
+    search_link: 資源！
+    tag_line: 授權開放教育
     title: folksemantic
     tour: 瀏覽一下！
-    tour_description: "看<span class=\"highlight\">錄像採用</span> Folksemantic"
+    tour_description: "看<span class=\"highlight\">錄像引入</span> Folksemantic"
     view_account: 查看您的帳戶
-    welcome: "歡迎Folksemantic 。"
-    welcome_message: 我們正在積極努力將OCWFinder和OERRecommender到一個網站，以協助您找出最有趣的和相關的教育資源。
+    welcome: 歡迎Folksemantic。
+    welcome_message: 我們正在努力整合OCWFinder和OERRecommender到一個網站，幫助您找到最有趣和相關的教育資源。
     welcome_user: "歡迎{{user}}"
-    widgets_description: "獲取工具，以幫助用戶<span class=\"highlight\">找到</span>的資源和<span class=\"highlight\">發現有關</span>的<span class=\"highlight\">資源</span>的在您的網站"
-    widgets_link: 獲取組件！
-    widgets_title: folksemantic工具
+    widgets_description: "獲取部件，以幫助用戶<span class=\"highlight\">查找</span>資源， <span class=\"highlight\">發掘資源</span>的<span class=\"highlight\">相關</span>網站上"
+    widgets_link: 獲取插件窗口！
+    widgets_title: folksemantic部件
     xml: XML的
   muck: 
+    friends: 
+      block: 塊
+      start_following: 跟隨
+      unblock: 解除封鎖
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "貢獻的OCW /開放教育資源庫"
+      add_extended_feed_title: 推動開放式課程/開放教育資源庫
     users: 
-      dev_plans: "我們正在積極開發延長<a href=\"http://ocwfinder.org\">ocwfinder.org</a>和<a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: 立即註冊！
+      dev_plans: "我們正在積極開發它擴大<a href=\"http://ocwfinder.org\">ocwfinder.org</a>和<a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: 註冊！
       signup_header: 認為你是聰明？
-      signup_pitch: Folksemantic讓使用者更容易找到，共享和使用開放教育資源，讓您能夠更聰明。
-    welcome_activity: "歡迎{{application_name}}!在這裡您可以<a href='/resources'>找到免費的教育資源來自世界各地</a> 。有趣的<a href='/resources/search?q=lady+bugs'>夫人錯誤</a> ？ <a href='/resources/3909'>如何從美國宇航局的學習資源</a> ？ 。"
+      signup_pitch: Folksemantic可以輕鬆地查找，共享和使用開放式教育資源，讓您能夠聰明。
+    welcome_activity: "歡迎{{application_name}}!在這裡你可以<a href='/resources'>找到免費的教育資源</a> ， <a href='/resources'>來自世界各地</a> 。有趣的<a href='/resources/search?q=lady+bugs'>瓢蟲</a> ？ <a href='/resources/3909'>怎麼樣的學習資源美國宇航局</a> ？。"

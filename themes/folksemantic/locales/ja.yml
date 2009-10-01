@@ -1,74 +1,79 @@
 --- 
 ja: 
   folksemantic: 
+    add_edit_feeds: 追加/編集RSSフィード
     all_resources: すべての
-    atom: 原子
-    browse_resources: 閲覧リソース
+    atom: アトム
+    browse_resources: 閲覧資源
     calculated: 計算
     collections: コレクション
-    collections_long: インデックスのコレクション
-    contribute_repository: "貢献OCW / OERリポジトリ"
-    credits: "は、 <a href=\"http://cosl.usu.edu\">センターを開き</a> 、 <a href=\"http://cosl.usu.edu\">持続可能な学習</a>のための<a href=\"http://nsf.gov/\">全米科学財団</a>と<a href=\"http://www.mellon.org/\">水アンドリューメロン財団</a>から資金を得て開発"
+    collections_long: インデックス付きのコレクション
+    contribute_repository: "貢献OCW / OERをリポジトリ"
+    credits: "<a href=\"http://cosl.usu.edu\">センターのオープンと持続的な学習のための</a> <a href=\"http://nsf.gov/\">国立科学財団</a>と<a href=\"http://www.mellon.org/\">アンドリュー幅Mellon財団</a>からの資金によって開発された"
     demo: デモ
     details: 詳細
     developers: 開発者
-    developers_long: 開発者向けの情報
+    developers_long: 情報開発者のため
     direct_link: "[直リンク]"
     for: 〜のために
-    gm_more_prompt: 他の関連リソース
+    gm_more_prompt: 関連リソース
     gm_title: 関連リソース
     home: 
-      browse_and_search: をブラウズし、検索以上
-      collaborate: との連携
+      browse_and_search: ブラウズし、検索以上
+      collaborate: とのコラボレーション
       comments_heading: 最近のコメント
-      example_comment: "レゴは、建設ガイド素晴らしいです！ CS 102の場合、我々の学生とそれを使用できるかな。"
-      get_widgets: OER推薦のウィジェットを入手
+      example_comment: これはレゴの建設ガイド素晴らしいです！もしセシウム102で学生と一緒に使用できるのだろうか。
+      get_widgets: OERを推薦ウィジェットを入手
       oers: <b>オープン</b>教育
       people: 人々
-      resources: "リソース（ OERS ）"
+      resources: リソース（OERS）
       search: 検索
-      signup: 今すぐお申込み！
-      signup_reasons: サインアップの人々は誰を、見つけることができる議論、リミックス、学習資源の開発と会談し、
-      why: FOLKSEMANTICなぜですか？
-      widgets_pitch: あなたのWebページを得るための提言OERしてみませんか？
+      signup: 今すぐお申込み
+      signup_reasons: サインアップの人は誰を、見つけることができるについて、リミックスし、学習資源の開発と会う
+      why: なぜFOLKSEMANTIC？
+      widgets_pitch: お客様のウェブページのOERを勧告を取得したいですか？
     just_ocws: コース
     metadata: メタデータ
     next: 次の
-    no_hits: 無安打。別のキーワードで検索してくださいか、別の言語を選択してください。
+    no_hits: 無安打。してください別の検索を試行するか、別の言語を選択します。
     of: の
-    powered_by: を搭載
-    previous: 前
-    rdf: のRDF
-    register_description: "署名して、グループに参加し、個別の<span class=\"highlight\">提言</span>を簡単に<span class=\"highlight\">ブログに公開</span>"
+    powered_by: によって供給さ
+    previous: 前へ
+    rdf: RDFの
+    register_description: "サインアップ、 <span class=\"highlight\">グループ</span>に参加し、パーソナライズされた<span class=\"highlight\">勧告</span>を受けるに簡単に<span class=\"highlight\">ブログに公開する</span>"
     register_link: サインアップ！
     related_resources: 関連リソース
     related_resources_title: 関連リソース
-    relevance: 関連性
-    results: 結果
+    relevance: 妥当性
+    results: 検索結果
     rss: RSSフィード
     search: 探す
     search_button: 行く
-    search_description: "検索することで、学習のリソース<span class=\"highlight\">を検索する</span>と<span class=\"highlight\">110,000</span>オープン教育リソースを参照"
-    search_link: リソースを検索！
-    tag_line: オープン教育の権限委譲
+    search_description: "<span class=\"highlight\">検索</span>して、学習リソースを検索し<span class=\"highlight\">、110,000</span>オープン教育リソースを<span class=\"highlight\">参照して</span>"
+    search_link: を見つけるの資源！
+    tag_line: オープン教育の力を与える
     title: folksemantic
     tour: ツアー！
-    tour_description: "腕時計の<span class=\"highlight\">ビデオ</span>を<span class=\"highlight\">紹介</span> Folksemantic"
+    tour_description: "のウォッチは、 <span class=\"highlight\">ビデオの導入</span> Folksemantic"
     view_account: ビューは、アカウント
     welcome: ようこそFolksemanticする。
-    welcome_message: 積極的に1つのサイトには、最も興味深く、関連性の高い教育資源を見つける手助けをOCWFinderとOERRecommender統合に取り組んでいる。
+    welcome_message: 我々は積極的に一つのサイトには、最も興味深く、最も適切な教育リソースを見つける手助けをOCWFinderとOERRecommender統合するために取り組んでいます。
     welcome_user: "ようこそ{{user}}"
-    widgets_description: "ウィジェットを入手し、ユーザーのリソース<span class=\"highlight\">を</span>見つけ、 <span class=\"highlight\">お客様のウェブサイト</span>上の<span class=\"highlight\">リソース</span>に関連する<span class=\"highlight\">もの</span>を発見するために"
+    widgets_description: "ウィジェットを入手ユーザがリソースを<span class=\"highlight\">見つけ</span> 、あなたのウェブサイト上の<span class=\"highlight\">リソース</span>をものに<span class=\"highlight\">関連した発見</span>を支援する"
     widgets_link: ウィジェットを入手！
     widgets_title: folksemanticウィジェット
     xml: XMLの
   muck: 
+    friends: 
+      block: ブロック
+      start_following: 〜に従う
+      unblock: ブロックを解除する
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "貢献OCW / OERリポジトリ"
+      add_extended_feed_title: "貢献OCW / OERをリポジトリ"
     users: 
-      dev_plans: "私たちは積極的にocwfinder.orgを延長<a href=\"http://ocwfinder.org\">する</a>と<a href=\"http://oerrecommender.org\">oerrecommender.org</a>を開発している"
-      signup: サインアップ！
-      signup_header: あなたのスマートだと思いますか？
-      signup_pitch: "簡単Folksemantic 、共有を検索し、スマートで入手できますので、オープンな教育資源を使用しています。"
-    welcome_activity: "{{application_name}}!へようこそここでは、 <a href='/resources'>世界中から無料の教育資源を発見することができます</a> 。 NASAからレディ<a href='/resources/search?q=lady+bugs'>バグの<a href='/resources/3909'>面白い</a></a> <a href='/resources/3909'>方法について学習資源</a> ？ 。"
+      dev_plans: "我々は積極的に<a href=\"http://ocwfinder.org\">ocwfinder.org</a>を拡張すると<a href=\"http://oerrecommender.org\">oerrecommender.org</a>開発している"
+      signup: 今すぐ登録！
+      signup_header: スマートだと思う？
+      signup_pitch: Folksemantic簡単、検索、共有するなど、スマート得ることができるオープンな教育リソースを使用することができます。
+    welcome_activity: "ようこそ{{application_name}}!するここで<a href='/resources'>は</a> 、 <a href='/resources'>世界各国からの無料の教育資源を発見</a>することができます。 <a href='/resources/3909'>NASAから</a> <a href='/resources/search?q=lady+bugs'>レディバグ</a>の面白い？ <a href='/resources/3909'>方法について学習リソース</a> ？。"

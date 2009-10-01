@@ -1,74 +1,79 @@
 --- 
 sq: 
   folksemantic: 
+    add_edit_feeds: "add / edit feeds"
     all_resources: "Të gjithë"
     atom: Atom
     browse_resources: "Browse Resources"
     calculated: llogaritur
-    collections: Koleksioneve
-    collections_long: "Koleksioneve të indeksuara"
-    contribute_repository: "Jepni kontributin tuaj OCW / OER depo"
-    credits: "Developed by të <a href=\"http://cosl.usu.edu\">Hapur dhe Qendra për të Qëndrueshëm Mësoni</a> me financim nga <a href=\"http://nsf.gov/\">Fondacioni Kombëtar i Shkencës</a> dhe të <a href=\"http://www.mellon.org/\">Fondacionit Andrew</a> W. <a href=\"http://www.mellon.org/\">Mellon</a>"
+    collections: Collections
+    collections_long: "Collections Indexed"
+    contribute_repository: "Jepni kontributin tuaj OCW / OER Repository"
+    credits: "Zhvilluar nga <a href=\"http://cosl.usu.edu\">Qendra për të hapur dhe të qëndrueshëm të mësuar</a> me financim nga <a href=\"http://nsf.gov/\">Fondacioni Kombëtar i Shkencës</a> dhe të <a href=\"http://www.mellon.org/\">Fondacionit Andrew W. Mellon</a>"
     demo: Demo
-    details: Detaje
+    details: Details
     developers: Developers
-    developers_long: "Informacion për zhvilluesit"
-    direct_link: "[direkt link]"
+    developers_long: "Informacion për Developers"
+    direct_link: "[Direct link]"
     for: për
-    gm_more_prompt: "More Related Resources"
-    gm_title: "Related Resources"
+    gm_more_prompt: "Resources More Related"
+    gm_title: "Burime të ngjashme"
     home: 
-      browse_and_search: "Shfleto dhe KËRKO LART"
+      browse_and_search: "KERKO SHFLETO DHE MBI"
       collaborate: "Bashkëpunojnë me"
-      comments_heading: "Komentet e fundit"
-      example_comment: "Ky udhëzues është ndërtimi legos awesome! Pyes veten nëse ne mund ta përdorin atë me nxënësit në CS 102."
-      get_widgets: "MERRNI OER RECOMMENDER widget"
-      oers: "ARSIMI <b>E HAPUR</b>"
+      comments_heading: "KOMENTET E FUNDIT"
+      example_comment: "Kjo guide legos ndërtimit is awesome! Pyes veten në qoftë se ne mund të përdorim atë me studentët në CS 102."
+      get_widgets: "GET OER RECOMMENDER widget"
+      oers: "<b>HAPUR</b> EDUKIMI"
       people: NJERËZIT
       resources: "BURIMET (OERS)"
       search: KËRKO
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Regjistrohu për të takuar njerëz me të cilët ju mund të gjeni, diskutuar, remix, dhe zhvillimin e burimeve të të mësuarit"
+      signup_reasons: "Regjistrohu për të takuar njerëz me të cilët ju mund të gjeni, diskutuar, remix, dhe të zhvillojnë të mësuarit e burimeve"
       why: "FOLKSEMANTIC PSE?"
-      widgets_pitch: "Dëshironi të merrni OER rekomandime për web faqet tuaja?"
+      widgets_pitch: "Dëshironi të merrni rekomandimet OER për web faqet tuaja?"
     just_ocws: Kurset
     metadata: Metadata
     next: Tjetër
-    no_hits: "Jo hits. Ju lutem provoni një kërkim të ndryshme ose të zgjidhni një gjuhë të ndryshme."
+    no_hits: "Nuk hits. Ju lutemi provoni të kërkoni të ndryshme ose të zgjedhin një gjuhë të ndryshme."
     of: i
     powered_by: "powered by"
-    previous: "I mëparshëm"
+    previous: Previous
     rdf: RDF
-    register_description: "Regjistrohu për të marrë <span class=\"highlight\">rekomandime</span> të personalizuar, të marrin pjesë në <span class=\"highlight\">grupe,</span> dhe me lehtësi <span class=\"highlight\">të publikojë blogs</span>"
+    register_description: "Regjistrohu për të marrë <span class=\"highlight\">rekomandime të</span> personalizuar, të marrin pjesë në <span class=\"highlight\">grupe,</span> dhe me lehtësi <span class=\"highlight\">të publikojë në blogjet</span>"
     register_link: "Sign Up!"
-    related_resources: "Related burimeve"
-    related_resources_title: "Related Resources"
-    relevance: saktësisë
+    related_resources: "Related resources"
+    related_resources_title: "Burime të ngjashme"
+    relevance: rëndësi
     results: Rezultatet
     rss: RSS
     search: kërkimi
     search_button: Shkoj
-    search_description: "Gjej të mësuarit e burimeve duke <span class=\"highlight\">kerkuar</span> dhe <span class=\"highlight\">shfletimit</span> rreth <span class=\"highlight\">110.000</span> hapur burimeve arsimore"
-    search_link: "Gjeni Resources!"
+    search_description: "Gjej burimet e të mësuarit <span class=\"highlight\">duke</span> kerkuar dhe <span class=\"highlight\">duke shfletuar</span> mbi <span class=\"highlight\">110.000</span> burimeve të hapur arsimor"
+    search_link: "Gjej Resources!"
     tag_line: "fuqizimin e arsimit të hapur"
     title: folksemantic
-    tour: "Merrni një Tour!"
-    tour_description: "Watch <span class=\"highlight\">video futjen</span> e një Folksemantic"
-    view_account: "View Llogaria juaj"
+    tour: "Take a Tour!"
+    tour_description: "Watch <span class=\"highlight\">video futjen</span> e Folksemantic"
+    view_account: "Shiko Llogaria Juaj"
     welcome: "Mirë se vini në Folksemantic."
-    welcome_message: "Ne po punojnë aktivisht për t&#39;i integruar OCWFinder dhe OERRecommender në një site për t&#39;ju ndihmuar të gjeni më interesante dhe të burimeve relevante arsimore."
-    welcome_user: "Welcome {{user}}"
-    widgets_description: "Get Widgets për të ndihmuar përdoruesit e burimeve dhe <span class=\"highlight\">të gjejnë burime të zbuloni</span> në <span class=\"highlight\">lidhje</span> me ato në faqen tuaj te internetit"
+    welcome_message: "Ne jemi duke punuar aktivisht për të integruar OCWFinder dhe OERRecommender në një vend për t&#39;ju ndihmuar të gjeni burime më interesante dhe të rëndësishme arsimore."
+    welcome_user: "Mirë se vini {{user}}"
+    widgets_description: "Get Widgets për të ndihmuar përdoruesit e burimeve dhe të <span class=\"highlight\">gjejnë burime të zbuloni</span> në <span class=\"highlight\">lidhje</span> me ato në web faqen tuaj"
     widgets_link: "Get Widgets!"
-    widgets_title: "folksemantic Widgets"
+    widgets_title: "widgets folksemantic"
     xml: XML
   muck: 
+    friends: 
+      block: Blloku
+      start_following: Ndjek
+      unblock: Zhbllokuar
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Jepni kontributin tuaj OCW / OER depo"
+      add_extended_feed_title: "Jepni kontributin tuaj OCW / OER Repository"
     users: 
-      dev_plans: "Ne jemi aktivisht zhvillimin e ajo për të zgjatur <a href=\"http://ocwfinder.org\">ocwfinder.org</a> dhe <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Regjistrohu!
-      signup_header: "Mendoni ju jeni i zgjuar?"
-      signup_pitch: "Folksemantic e bën të lehtë të gjeni, share, dhe përdorimin e burimeve arsimore hapur kështu që ju mund të merrni smart."
-    welcome_activity: "Mirë se vini në {{application_name}}! Këtu ju mund të <a href='/resources'>zbuloni falas arsimore burimeve nga e gjithë bota.</a> Interesting në <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Si rreth burimeve të të mësuarit nga NASA?.</a>"
+      dev_plans: "Ne jemi aktivisht zhvillimin e asaj të zgjasë <a href=\"http://ocwfinder.org\">ocwfinder.org</a> dhe <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Sign up!"
+      signup_header: "Mendoni se jeni i zgjuar?"
+      signup_pitch: "Folksemantic e bën të lehtë për të gjetur, ndajnë, dhe të përdorësh burime të hapur arsimor kështu që ju mund të merrni zgjuar."
+    welcome_activity: "Mirë se vini në {{application_name}}! Këtu ju mund të <a href='/resources'>zbulojnë burimet e lirë edukative nga e gjithë bota.</a> Interesante në <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Si rreth burimeve të të mësuarit nga NASA?.</a>"

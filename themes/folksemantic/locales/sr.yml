@@ -1,74 +1,79 @@
 --- 
 sr: 
   folksemantic: 
+    add_edit_feeds: "Додај / измени фидове"
     all_resources: Све
     atom: Атом
-    browse_resources: "Броусе Ресоурцес"
+    browse_resources: "Броусе ресурси"
     calculated: израчунати
     collections: Збирке
-    collections_long: "Индексиране Збирке"
-    contribute_repository: "Придонети ОЦУ / ОЕР склади"
-    credits: "Развијен од стране <a href=\"http://cosl.usu.edu\">Центра за учење и одрживи Опен</a> финансирањем из <a href=\"http://nsf.gov/\">Натионал Сциенце Фоундатион</a> и <a href=\"http://www.mellon.org/\">Андреу У Мелон Фоундатион</a>"
+    collections_long: "Индексед Збирке"
+    contribute_repository: "Допринесе ОЦУ / ОЕР Склади"
+    credits: "Девелопед бы <a href=\"http://cosl.usu.edu\">Центар за отворено учење и одрживи</a> финансирана од стране <a href=\"http://nsf.gov/\">Националне фондације за науку</a> и <a href=\"http://www.mellon.org/\">Ендрју Мелон фондација У</a>"
     demo: Демо
     details: Детаљи
-    developers: Девелоперс
-    developers_long: "Информације за градитељу"
-    direct_link: "[директни линк]"
+    developers: Програмери
+    developers_long: "Информације за програмере"
+    direct_link: "[Дирецт линк]"
     for: за
     gm_more_prompt: "Више Сродни ресурси"
-    gm_title: "Повезани ресурси"
+    gm_title: "Слични извори"
     home: 
-      browse_and_search: "Прегледање и претраживање"
-      collaborate: "Сарађујте са"
+      browse_and_search: "Прегледајте и претражујте"
+      collaborate: "Сарадњу са"
       comments_heading: "Рецент Цомментс"
-      example_comment: "То је водич легос грађевина Ауесоме! Питам се, ако смо могли да користите га са 102 ученика у ЦС."
-      get_widgets: "ГЕТ ОЕР РЕЦОММЕНДЕР уидгет"
-      oers: "<b>ОПЕН</b> ЕДУЦАТИОН"
+      example_comment: "То легос изградње упутство је одлично! Питам се да ли бисмо могли да га користите са студентима у ЦС 102."
+      get_widgets: "ДОБИТИ ОЕР РЕЦОММЕНДЕР уидгет"
+      oers: "<b>ОТВОРЕНА</b> ОБРАЗОВАЊЕ"
       people: ЉУДИ
-      resources: "Ресурса (ОЕРС)"
-      search: Претраживање
-      signup: "Пријавите се још данас!"
-      signup_reasons: "Пријавите се у сусрет људи са којима можете пронаћи, расправљати, Ремикс, учити и развијати ресурси"
+      resources: "СРЕДСТВА (ОЕРС)"
+      search: ПРЕТРАЖИВАЊЕ
+      signup: "Сигн уп тодаы!"
+      signup_reasons: "Пријавите се да упознају људе са којима можете пронаћи, расправљати, Ремикс, учење и развијање ресурса"
       why: "ЗАШТО ФОЛКСЕМАНТИЦ?"
-      widgets_pitch: "Уант то гет ОЕР препоруке за Ваше уеб странице?"
+      widgets_pitch: "Желите да добијете препоруке ОЕР за Ваше уеб странице?"
     just_ocws: Курсеви
-    metadata: Метаподатке
-    next: Даље
+    metadata: Метадата
+    next: Следећи
     no_hits: "Нема погодака. Покушајте другу претрагу или изаберите други језик."
     of: од
-    powered_by: "поуеред бы"
-    previous: Назад
+    powered_by: "Поуеред бы"
+    previous: Претходни
     rdf: РДФ
-    register_description: "Пријавите се за примање персонализоване <span class=\"highlight\">препоруке,</span> учешће у <span class=\"highlight\">групама,</span> и једноставно <span class=\"highlight\">објављивање на блоговима</span>"
-    register_link: "Сигн Уп!"
-    related_resources: "Повезани ресурси"
-    related_resources_title: "Повезани ресурси"
-    relevance: релевантност
+    register_description: "Пријавите се да примате персонализоване <span class=\"highlight\">препоруке,</span> да учествује у <span class=\"highlight\">групама,</span> а лако <span class=\"highlight\">објавити на блогове</span>"
+    register_link: "Пријавите се!"
+    related_resources: "Сродни ресурси"
+    related_resources_title: "Слични извори"
+    relevance: релевантности
     results: Резултати
-    rss: РСС
-    search: претрага
+    rss: "РСС Феед"
+    search: претраживати
     search_button: Ићи
-    search_description: "Пронађи леарнинг ресурсе <span class=\"highlight\">претрагом</span> и <span class=\"highlight\">претраживања</span> преко <span class=\"highlight\">110.000</span> отворених образовни ресурси"
-    search_link: "Финд Ресоурцес!"
-    tag_line: "Оснаживање отворен образовање"
+    search_description: "Пронађи сестринском пројекту <span class=\"highlight\">претраживањем</span> и <span class=\"highlight\">претражује</span> преко <span class=\"highlight\">110.000</span> отворен образовни ресурси"
+    search_link: "Пронађи ресурси!"
+    tag_line: "моћ отвореног образовања"
     title: фолксемантиц
-    tour: "Идите у обилазак!"
-    tour_description: "Уатцх <span class=\"highlight\">видео увођење</span> Фолксемантиц"
-    view_account: "Прикажи Ваш кориснички рачун"
+    tour: "Пођите у обилазак!"
+    tour_description: "Погледајте <span class=\"highlight\">видео увођење</span> Фолксемантиц"
+    view_account: "Погледај Ваш налог"
     welcome: "Добродошли на Фолксемантиц."
-    welcome_message: "Ми активно радимо на ОЦУФиндер и интегришу у ОЕРРецоммендер једном месту како би вам помогао у проналажењу најинтересантнијих и релевантних образовних ресурса."
+    welcome_message: "Ми активно радимо на томе да се интегришу ОЦУФиндер и ОЕРРецоммендер на једном месту ће вам помоћи да пронађете најзанимљивије и релевантним образовним ресурсима."
     welcome_user: "Добродошли {{user}}"
-    widgets_description: "Гет уидгетс помоћи корисницима <span class=\"highlight\">пронаћи</span> ресурсе и <span class=\"highlight\">откријте ресурса везаних</span> за оне на вашој веб локацији"
-    widgets_link: "Гет Гаџети!"
-    widgets_title: "фолксемантиц уидгетс"
-    xml: КСМЛ
+    widgets_description: "Гет Уидгетс да помогне корисницима да <span class=\"highlight\">пронађу</span> средства и <span class=\"highlight\">открити ресурсе везане</span> за оне на Вашем сајту"
+    widgets_link: "Гет Справе!"
+    widgets_title: "фолксемантиц вињете"
+    xml: "КСМЛ -"
   muck: 
+    friends: 
+      block: Блок
+      start_following: Следити
+      unblock: Одблокирај
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Придонети ОЦУ / ОЕР склади"
+      add_extended_feed_title: "Допринесе ОЦУ / ОЕР Склади"
     users: 
-      dev_plans: "Ми смо активно развија га проширити <a href=\"http://ocwfinder.org\">оцуфиндер.орг</a> и <a href=\"http://oerrecommender.org\">оеррецоммендер.орг</a>"
-      signup: "Пријави се!"
-      signup_header: "Мислити да сте паметни?"
-      signup_pitch: "Фолксемантиц олакшава проналажење, делити и користити отворене образовне ресурсе, па тако можете добити паметни."
-    welcome_activity: "Добродошли на {{application_name}}! Овде можете <a href='/resources'>бесплатно открију образовне ресурсе из целог света.</a> Занимљиве у <a href='/resources/search?q=lady+bugs'>даму бугова?</a> <a href='/resources/3909'>Како о учењу ресурсе из НАСА-е?.</a>"
+      dev_plans: "Ми смо активно развија да прошири <a href=\"http://ocwfinder.org\">оцуфиндер.орг</a> и <a href=\"http://oerrecommender.org\">оеррецоммендер.орг</a>"
+      signup: "Пријавите се!"
+      signup_header: "Мислите да сте паметни?"
+      signup_pitch: "Фолксемантиц олакшава да пронађу, деле и користе отворене образовних ресурса, тако да можете добити паметан."
+    welcome_activity: "Добродошли на {{application_name}}! Овде можете <a href='/resources'>открити бесплатне образовне ресурсе из целог света.</a> Занимљиво је <a href='/resources/search?q=lady+bugs'>дама грешке?</a> <a href='/resources/3909'>Како о учењу средства из НАСА.</a>"

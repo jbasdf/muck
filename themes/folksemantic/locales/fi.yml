@@ -1,74 +1,79 @@
 --- 
 fi: 
   folksemantic: 
+    add_edit_feeds: "Lisää / muokkaa syötteitä"
     all_resources: Kaikki
     atom: Atom
     browse_resources: "Selaa Resurssit"
-    calculated: laskettu
-    collections: Kokoelmat
-    collections_long: "Indeksinä Kokoelmat"
-    contribute_repository: "Contribute OCW / OER Repository"
-    credits: "Jota on kehitetty <a href=\"http://cosl.usu.edu\">Center for Open ja kestävän oppimisen</a> rahoituksen ja <a href=\"http://nsf.gov/\">National Science Foundationin</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
-    demo: Demo
-    details: Tiedot
-    developers: Kehittäjät
+    calculated: laskettiin
+    collections: Kokoelmiin
+    collections_long: "Indeksoitava Kokoelmat"
+    contribute_repository: "Edistää OCW / OER Repository"
+    credits: "Kehittämä <a href=\"http://cosl.usu.edu\">Center for Open ja kestävä oppiminen</a> rahoituksella <a href=\"http://nsf.gov/\">National Science Foundationin</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    demo: Esittelyauto
+    details: Yksityiskohtia
+    developers: Kehittäjiä
     developers_long: "Tietoja kehittäjille"
     direct_link: "[suora yhteys]"
-    for: varten
+    for: koskevat
     gm_more_prompt: "Lisää Muita resursseja"
     gm_title: "Muita resursseja"
     home: 
-      browse_and_search: "Selaa ja etsi OVER"
+      browse_and_search: "Selaa ja etsi"
       collaborate: Yhteistyötä
-      comments_heading: "Uusimmat kommentit"
-      example_comment: "Tämä legos rakentamisen opas on mahtavaa! Ihmettelen, jos voisimme käyttää sitä opiskelijoiden CS 102."
-      get_widgets: "GET OER Recommenderilta Widget"
-      oers: "<b>AVOIN</b> KOULUTUS"
-      people: IHMISET
-      resources: "VARAT (OERS)"
+      comments_heading: "VIIMEAIKAISET HUOMAUTUKSET"
+      example_comment: "Että Legos rakentaminen opas on mahtava! Ihmettelen, jos voisimme käyttää sitä opiskelijoiden CS 102."
+      get_widgets: "GET OER Recommender WIDGET"
+      oers: "<b>Avoimen opetuksen</b>"
+      people: HENKILÖIDEN
+      resources: "VARAT (Oers)"
       search: HAKU
       signup: "Rekisteröidy tänään!"
-      signup_reasons: "Rekisteröidy tavata ihmisiä, joiden kanssa voit löytää, keskustelemaan, remix, ja kehittää oppimisresursseja"
+      signup_reasons: "Rekisteröidy tavata ihmisiä, joiden kanssa voit löytää, keskustella, remix, ja kehittää oppimisen resurssit"
       why: "MIKSI FOLKSEMANTIC?"
-      widgets_pitch: "Haluatko OER suositusten web-sivuilla?"
-    just_ocws: Kurssit
-    metadata: Metatieto
+      widgets_pitch: "Haluatko saada OER suosituksia sivuillesi?"
+    just_ocws: Kursseille
+    metadata: Metatietoja
     next: Seuraava
-    no_hits: "Ei löytynyt. Kokeile eri hakusanalla, tai valitse toinen kieli."
+    no_hits: "Ei osumia. Kokeile eri hakusanalla, tai valitse toinen kieli."
     of: ja
-    powered_by: "powered by"
+    powered_by: voimanlähteenä
     previous: Edellinen
-    rdf: RDF
-    register_description: "Rekisteröidy saada henkilökohtaisia <span class=\"highlight\">suosituksia,</span> osallistua <span class=\"highlight\">ryhmien</span> ja helposti <span class=\"highlight\">julkaista blogeja</span>"
+    rdf: DTO
+    register_description: "Rekisteröidy saada henkilökohtaisia <span class=\"highlight\">suosituksia,</span> osallistua <span class=\"highlight\">ryhmiin,</span> ja helposti <span class=\"highlight\">julkaista blogeihin</span>"
     register_link: "Sign Up!"
-    related_resources: "Liittyvien resurssien"
+    related_resources: Resurssien
     related_resources_title: "Muita resursseja"
-    relevance: merkityksellisyys
+    relevance: merkityksellinen
     results: Tulokset
     rss: RSS
     search: haku
     search_button: Mennä
-    search_description: "Etsi oppimisresursseja <span class=\"highlight\">etsimällä</span> ja <span class=\"highlight\">selailemassa</span> yli 110000 avoin koulutusresurssit"
-    search_link: "Etsi Resurssit!"
-    tag_line: "valtuuttamisesta avoin koulutus"
+    search_description: "Etsi oppimisen resursseja <span class=\"highlight\">etsimällä</span> ja <span class=\"highlight\">selailu</span> yli <span class=\"highlight\">110000</span> avointen opetusresurssien"
+    search_link: "Löydä resurssit!"
+    tag_line: "valtuuttamisesta avoimen opetuksen"
     title: folksemantic
     tour: "Take a Tour!"
-    tour_description: "Katso <span class=\"highlight\">video käyttöönotto</span> Folksemantic"
-    view_account: "Näytä Tili"
+    tour_description: "Katso <span class=\"highlight\">video käyttöön</span> Folksemantic"
+    view_account: Tilin
     welcome: "Tervetuloa Folksemantic."
-    welcome_message: "Työskentelemme aktiivisesti integroimaan OCWFinder ja OERRecommender yhdeksi sivusto auttaa sinua löytämään mielenkiintoista ja asiaan koulutusresurssit."
+    welcome_message: "Työskentelemme aktiivisesti integroimaan OCWFinder ja OERRecommender yhdeksi sivusto auttaa sinua löytämään mielenkiintoista ja asiaan opetusresursseja."
     welcome_user: "Tervetuloa {{user}}"
-    widgets_description: "Hanki widgets auttaa käyttäjiä <span class=\"highlight\">löytämään</span> voimavaroja ja <span class=\"highlight\">löytää resursseja liittyvät</span> niistä sivustossasi"
+    widgets_description: "Get widgets auttaa käyttäjiä <span class=\"highlight\">löytämään</span> voimavaroja ja <span class=\"highlight\">löytää resursseja liittyviä</span> niistä sivustoon"
     widgets_link: "Get Widgets!"
-    widgets_title: "folksemantic widgets"
+    widgets_title: "folksemantic vekottimet"
     xml: XML
   muck: 
+    friends: 
+      block: Block
+      start_following: Noudattaa
+      unblock: Vapauttamaan
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Contribute OCW / OER Repository"
+      add_extended_feed_title: "Edistää OCW / OER Repository"
     users: 
-      dev_plans: "Olemme aktiivisesti kehitysmaiden se laajentaa <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ja <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Rekisteröidy!
-      signup_header: "Ajattele olet älykäs?"
-      signup_pitch: "Folksemantic avulla on helppo löytää, jakaa ja käyttää avoimia pedagogisia resursseja, jotta voit smart."
-    welcome_activity: "Tervetuloa {{application_name}}! Täällä voit <a href='/resources'>tutustua ilmaiseksi koulutusresurssit ympäri maailmaa.</a> Kiinnostavia <a href='/resources/search?q=lady+bugs'>draughts vikoja?</a> <a href='/resources/3909'>Entä oppimisresursseja NASA?.</a>"
+      dev_plans: "Kehitämme aktiivisesti se laajentaa <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ja <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Sign up!"
+      signup_header: "Think you&#39;re smart?"
+      signup_pitch: "Folksemantic on helppo löytää, jakaa ja käyttää avointen opetusresurssien niin saat fiksu."
+    welcome_activity: "Tervetuloa {{application_name}}! Täällä voit <a href='/resources'>löytää vapaa opetusresurssien ympäri maailmaa.</a> Mielenkiintoista <a href='/resources/search?q=lady+bugs'>Lady vikoja?</a> <a href='/resources/3909'>Miten oppimisen resursseja NASA?.</a>"

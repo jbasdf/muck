@@ -1,36 +1,37 @@
 --- 
 et: 
   folksemantic: 
+    add_edit_feeds: "Lisa / muuda infovooge"
     all_resources: Kõik
-    atom: Atom
+    atom: Aatom
     browse_resources: "Browse Resources"
     calculated: arvutatud
     collections: Kogud
     collections_long: "Indekseeritud Kogud"
-    contribute_repository: "Aidata OCW / OER Repository"
-    credits: "Poolt välja töötatud <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> finantseerimisega on <a href=\"http://nsf.gov/\">National Science Foundation</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    contribute_repository: "Panustada OCW / avatud õppevahendite varamu"
+    credits: "Developed by <a href=\"http://cosl.usu.edu\">Keskus avatud ning jätkusuutliku õppe</a> rahastatud <a href=\"http://nsf.gov/\">National Science Foundation</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detailid
-    developers: Arendajad
-    developers_long: "Teave arendajatele"
-    direct_link: "[Otsene link]"
+    developers: Developers
+    developers_long: "Info arendajatele"
+    direct_link: "[link]"
     for: jaoks
-    gm_more_prompt: "Vaata Seostuvad ressursid"
+    gm_more_prompt: "Veel Seostuvad ressursid"
     gm_title: "Seostuvad ressursid"
     home: 
-      browse_and_search: "Sirvi ja leidke OVER"
+      browse_and_search: "Sirvida ja otsida"
       collaborate: Koostööd
-      comments_heading: "Viimased kommentaarid"
-      example_comment: "See Mangos ehitamise juhend on fantastiline! Ma ei tea, kui me võiksime seda kasutada koos õpilastega CS 102."
-      get_widgets: "GET OER Soovitaja vekotin"
+      comments_heading: "Viimased Kommentaarid"
+      example_comment: "See mango ehitamise juhend on fantastiline! Ma ei tea, kas me võiksime seda kasutada õpilaste CS 102."
+      get_widgets: "GET OER RECOMMENDER Widget"
       oers: "<b>Avatud Hariduse</b>"
       people: INIMESED
       resources: "VAHENDID (OERS)"
-      search: OTSI
-      signup: "SIGN UP TODAY!"
-      signup_reasons: "Logi sisse oma inimesi, kellega saab leida, arutada, remix ja arendada õppematerjale"
+      search: OTSING
+      signup: "Sign up today!"
+      signup_reasons: "Registreeru kohtuda inimestega, kellega te leiate, arutada, remix, ja arendada õppematerjale"
       why: "MIKS FOLKSEMANTIC?"
-      widgets_pitch: "Soovid saada OER soovitusi oma veebilehekülgi?"
+      widgets_pitch: "Tahad saada OER soovitusi oma veebilehekülgi?"
     just_ocws: Kursused
     metadata: Metaandmed
     next: Järgmine
@@ -39,36 +40,40 @@ et:
     powered_by: "powered by"
     previous: Eelmine
     rdf: RDF
-    register_description: "Registreeru saada isikupärastatud <span class=\"highlight\">soovitusi</span> osalevad <span class=\"highlight\">rühmad</span> ja kergesti <span class=\"highlight\">avaldada blogid</span>"
+    register_description: "Registreeru saada isiklikke <span class=\"highlight\">soovitusi,</span> osaleda <span class=\"highlight\">rühma</span> ja lihtsalt <span class=\"highlight\">avaldada blogid</span>"
     register_link: "Sign Up!"
     related_resources: "Seostuvad ressursid"
     related_resources_title: "Seostuvad ressursid"
-    relevance: tähtsus
+    relevance: tekst
     results: Tulemused
     rss: RSS
     search: otsima
     search_button: Minema
-    search_description: "Leia õppematerjalid <span class=\"highlight\">otsides</span> ja <span class=\"highlight\">sirvimise</span> üle <span class=\"highlight\">110.000</span> avatud hariduses"
+    search_description: "Otsi õppematerjale <span class=\"highlight\">otsides</span> ja <span class=\"highlight\">sirvimise</span> üle <span class=\"highlight\">110.000</span> avatud õppevahendeid"
     search_link: "Leida vahendeid!"
-    tag_line: "volitades Avatud Hariduse"
+    tag_line: "volitatakse avatud haridus"
     title: folksemantic
     tour: "Take a Tour!"
-    tour_description: "Vaata <span class=\"highlight\">video kasutuselevõttu</span> Folksemantic"
+    tour_description: "Vaata <span class=\"highlight\">videot kehtestamine</span> Folksemantic"
     view_account: "Vaadata oma konto"
     welcome: "Tere tulemast Folksemantic."
-    welcome_message: "Me oleme aktiivselt integreerima OCWFinder ja OERRecommender ühte veebilehte, mis aitab leida kõige huvitava ja asjakohaseid harivaid vahendeid."
+    welcome_message: "Töötame aktiivselt integreerima OCWFinder ja OERRecommender ühte veebilehte, mis aitab leida kõige huvitavamaid ja asjakohase õppevahendeid."
     welcome_user: "Tere {{user}}"
-    widgets_description: "Get vekottimet aidata kasutajatel <span class=\"highlight\">leida</span> vahendeid ja <span class=\"highlight\">leida ressursid,</span> mis on <span class=\"highlight\">seotud</span> ka oma veebilehel"
-    widgets_link: "Get Vidinad!"
-    widgets_title: "folksemantic vekottimet"
+    widgets_description: "Get vidinad aidata <span class=\"highlight\">leida</span> vahendeid ja <span class=\"highlight\">avastavad vahendid,</span> mis on <span class=\"highlight\">seotud</span> need oma veebilehel"
+    widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic vidinad"
     xml: XML
   muck: 
+    friends: 
+      block: Blokeeri
+      start_following: Järgnema
+      unblock: Tühista
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Aidata OCW / OER Repository"
+      add_extended_feed_title: "Panustada OCW / avatud õppevahendite varamu"
     users: 
-      dev_plans: "Me oleme aktiivselt arendada laiendada <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ja <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "Oleme aktiivselt arendada seda laiendada <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ja <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: "Sign up!"
       signup_header: "Arvan, et sa oled tark?"
-      signup_pitch: "Folksemantic on lihtne leida, jagada ja kasutada avatud haridusvõimalused nii saad tark."
-    welcome_activity: "Tere tulemast {{application_name}}! Siin saab <a href='/resources'>leida vaba haridusvõimalused üle maailma.</a> Huvitav <a href='/resources/search?q=lady+bugs'>daam Bugs?</a> <a href='/resources/3909'>Kuidas õppe vahendeid NASA?.</a>"
+      signup_pitch: "Folksemantic on lihtne leida, jagada ja kasutada avatud õppevahendeid, et saaksite tark."
+    welcome_activity: "Tere tulemast {{application_name}}! Siin saab <a href='/resources'>tutvuda tasuta õppevahendeid üle kogu maailma.</a> Huvitav <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Kuidas õppematerjalid NASA?.</a>"

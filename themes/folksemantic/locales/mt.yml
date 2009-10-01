@@ -1,74 +1,79 @@
 --- 
 mt: 
   folksemantic: 
+    add_edit_feeds: "żid / editja feeds"
     all_resources: Kollha
     atom: Atom
-    browse_resources: "Browse Riżorsi"
+    browse_resources: "Riżorsi Browse"
     calculated: ikkalkulat
     collections: Kollezzjonijiet
-    collections_long: "Indiċjati Kollezzjonijiet"
-    contribute_repository: "Jikkontribwixxu OCW / OER Repository"
-    credits: "Żviluppati <a href=\"http://cosl.usu.edu\">mill-Center for Open Learning Sostenibbli u</a> mal-finanzjament <a href=\"http://nsf.gov/\">mill-National Science Foundation</a> u <a href=\"http://www.mellon.org/\">l-Andrew W Mellon Fondazzjoni</a>"
+    collections_long: "Kollezzjonijiet Indexed"
+    contribute_repository: "Tikkontribwixxi OCW / OER Repository"
+    credits: "Żviluppati <a href=\"http://cosl.usu.edu\">mill-Center for Open u Sostenibbli Tagħlim</a> bil-finanzjament <a href=\"http://nsf.gov/\">mill-Fondazzjoni tax-Xjenza Nazzjonali</a> u <a href=\"http://www.mellon.org/\">l-Fondazzjoni Andrew W Mellon</a>"
     demo: Demo
-    details: Details
+    details: Dettalji
     developers: Developers
-    developers_long: "Informazzjoni għal Developers"
-    direct_link: "[rabta diretta]"
+    developers_long: "Informazzjoni għall Developers"
+    direct_link: "[link dirett]"
     for: għal
-    gm_more_prompt: "More Related Riżorsi"
-    gm_title: "Riżorsi Relatati"
+    gm_more_prompt: "Riżorsi More Related"
+    gm_title: "Related resources"
     home: 
-      browse_and_search: "QALLEB U OVER FITTEX"
-      collaborate: "Tikkollabora ma"
-      comments_heading: "RIĊENTI KUMMENTI"
-      example_comment: "Li legos kostruzzjoni gwida hija tal-biża &#39;! Niddubita jekk nistgħu użu ma &#39;l-istudenti fl CS 102."
-      get_widgets: "IKOLLOK OER rakkomandant widget"
+      browse_and_search: "BROWSE U FITTEX OVER"
+      collaborate: "Tikkollabora ma &#39;"
+      comments_heading: "KUMMENTI RIĊENTI"
+      example_comment: "Din il-gwida kostruzzjoni legos huwa tal-biża! I wonder jekk nistgħu-użu ma &#39;l-istudenti f&#39; CS 102."
+      get_widgets: "IKOLLOK OER RECOMMENDER Widget"
       oers: "<b>OPEN</b> EDUKAZZJONI"
       people: PEOPLE
       resources: "RIŻORSI (OERS)"
       search: FITTEX
       signup: "SIGN UP ILLUM!"
-      signup_reasons: "Inkiteb biex tiltaqa &#39;man-nies li magħhom inti tista&#39; ssib, jiddiskutu, Remix, u tiżviluppa riżorsi għat-tagħlim"
-      why: "GħALIEX FOLKSEMANTIC?"
-      widgets_pitch: "Rridu nġibu OER rakkomandazzjonijiet għall tiegħek web pages?"
+      signup_reasons: "Inkiteb biex tiltaqa &#39;ma nies li magħhom inti tista&#39; ssib, jiddiskutu, remix, u tiżviluppa riżorsi ta &#39;tagħlim"
+      why: "GĦALIEX FOLKSEMANTIC?"
+      widgets_pitch: "Want to get rakkomandazzjonijiet OER għall-paġni web tiegħek?"
     just_ocws: Korsijiet
     metadata: Metadata
     next: "Li jmiss"
-    no_hits: "Nru hits. Jekk joghgbok differenti tfittxija jew tagħżel lingwa differenti."
+    no_hits: "Nru hits. Erġa pprova tfittxija differenti jew tagħżel lingwa differenti."
     of: "ta &#39;"
     powered_by: "powered by"
     previous: Preċedenti
-    rdf: "&quot;RDF"
-    register_description: "Inkiteb biex tirċievi <span class=\"highlight\">rakkomandazzjonijiet</span> personalizzata, u tipparteċipa fi <span class=\"highlight\">gruppi,</span> u <span class=\"highlight\">li</span> faċilment <span class=\"highlight\">tippubblika blogs</span>"
+    rdf: RDF
+    register_description: "Inkiteb biex tirċievi <span class=\"highlight\">rakkomandazzjonijiet</span> personalizzata, jipparteċipaw fi <span class=\"highlight\">gruppi,</span> u faċli <span class=\"highlight\">biex tippubblika blogs</span>"
     register_link: "Sign Up!"
-    related_resources: "Related riżorsi"
-    related_resources_title: "Riżorsi Relatati"
+    related_resources: "Related resources"
+    related_resources_title: "Related resources"
     relevance: rilevanza
     results: Riżultati
     rss: RSS
     search: fittex
     search_button: Mur
-    search_description: "Sib riżorsi ta &#39;tagħlim <span class=\"highlight\">mill-tiftix</span> u <span class=\"highlight\">browsing</span> over 110000 miftuħa riżorsi edukattivi"
-    search_link: "Sib Riżorsi!"
-    tag_line: "tirresponsabbilizza miftuħa edukazzjoni"
+    search_description: "Sib ir-riżorsi ta &#39;tagħlim <span class=\"highlight\">mill-tiftix</span> u <span class=\"highlight\">l-ibbrawżjar</span> fuq <span class=\"highlight\">110.000</span> riżorsi edukattivi miftuħa"
+    search_link: "Find Riżorsi!"
+    tag_line: "li tinkariga lill-edukazzjoni miftuħin"
     title: folksemantic
     tour: "Ħu Tour!"
-    tour_description: "Watch <span class=\"highlight\">video introduzzjoni</span> ta Folksemantic"
+    tour_description: "Watch <span class=\"highlight\">introduzzjoni</span> ta <span class=\"highlight\">&#39;video</span> Folksemantic"
     view_account: "View Your Account"
-    welcome: "Merħba għall Folksemantic."
-    welcome_message: "We&#39;re taħdem b&#39;mod attiv biex jintegraw OCWFinder u OERRecommender fis-sit wieħed li jgħinek issib l-aktar interessanti u rilevanti riżorsi edukattivi."
+    welcome: "Welcome to Folksemantic."
+    welcome_message: "Aħna qed taħdem b&#39;mod attiv biex jintegraw OCWFinder u OERRecommender fis-sit wieħed li jgħinek issib ir-riżorsi edukattivi aktar interessanti u rilevanti."
     welcome_user: "Merħba {{user}}"
-    widgets_description: "Get widgets biex jgħinu lill-utenti <span class=\"highlight\">jsibu</span> riżorsi u <span class=\"highlight\">jiskopru riżorsi relatati ma</span> &#39;dawk fuq il-website tiegħek"
+    widgets_description: "Get widgets biex jgħinu lill-utenti <span class=\"highlight\">jsibu</span> riżorsi u <span class=\"highlight\">jiskopru r-riżorsi relatati ma</span> &#39;dawk fuq il-websajt tiegħek"
     widgets_link: "Get Widgets!"
-    widgets_title: "folksemantic widgets"
+    widgets_title: "widgets folksemantic"
     xml: XML
   muck: 
+    friends: 
+      block: Blokk
+      start_following: Segwi
+      unblock: Jiżblokka
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Jikkontribwixxu OCW / OER Repository"
+      add_extended_feed_title: "Tikkontribwixxi OCW / OER Repository"
     users: 
-      dev_plans: "Aħna attiv jiżviluppawh li testendi <a href=\"http://ocwfinder.org\">ocwfinder.org</a> u <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "Aħna qed jiżviluppaw b&#39;mod attiv biex jestendi <a href=\"http://ocwfinder.org\">ocwfinder.org</a> u <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: "Sign up!"
-      signup_header: "Think int smart?"
-      signup_pitch: "Folksemantic jagħmilha faċli li ssib, jaqsmu bejniethom, u l-użu miftuħa riżorsi edukattivi sabiex inti tista &#39;tikseb smart."
-    welcome_activity: "Merħba għall {{application_name}}! Hawnhekk tista <a href='/resources'>&#39;tiskopri ħielsa riżorsi edukattivi minn madwar id-dinja.</a> Interessanti <a href='/resources/search?q=lady+bugs'>mara bugs?</a> <a href='/resources/3909'>Kif dwar riżorsi ta &#39;tagħlim minn NASA?.</a>"
+      signup_header: "Think int intelliġenti?"
+      signup_pitch: "Folksemantic jagħmilha faċli li ssib, jaqsmu, u l-użu tar-riżorsi edukattivi miftuħa sabiex inti tista &#39;tikseb intelliġenti."
+    welcome_activity: "Welcome to {{application_name}}! Hawnhekk inti tista <a href='/resources'>&#39;tiskopri riżorsi edukattivi ħielsa minn madwar id-dinja.</a> Interessanti <a href='/resources/search?q=lady+bugs'>bugs mara?</a> <a href='/resources/3909'>Kif dwar ir-riżorsi ta &#39;tagħlim minn NASA?.</a>"

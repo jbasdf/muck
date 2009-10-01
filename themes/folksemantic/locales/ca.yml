@@ -1,14 +1,15 @@
 --- 
 ca: 
   folksemantic: 
+    add_edit_feeds: "Afegir / Editar canals"
     all_resources: Tot
     atom: Atom
     browse_resources: "Troba Recursos"
     calculated: calculat
-    collections: "Col leccions"
-    collections_long: "Col leccions indexades"
+    collections: Col.leccions
+    collections_long: "Col.leccions indexades"
     contribute_repository: "Contribuir OCW / REA Repositori"
-    credits: "Desenvolupat pel <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> amb finançament de la <a href=\"http://nsf.gov/\">National Science Foundation</a> i la <a href=\"http://www.mellon.org/\">Fundació Andrew W Mellon</a>"
+    credits: "Desenvolupat pel <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> amb fons de la <a href=\"http://nsf.gov/\">National Science Foundation</a> i la <a href=\"http://www.mellon.org/\">Fundació Andrew W Mellon</a>"
     demo: Demo
     details: Detalls
     developers: Desenvolupadors
@@ -18,57 +19,61 @@ ca:
     gm_more_prompt: "Més Recursos relacionats"
     gm_title: "Recursos relacionats"
     home: 
-      browse_and_search: "CERCAR I CERCAR MÉS"
-      collaborate: "COL LABORA AMB"
+      browse_and_search: "Navega i cerca en"
+      collaborate: "LABORA AMB"
       comments_heading: "COMENTARIS RECENTS"
-      example_comment: "Llecs que guia la construcció és impressionant! Em pregunto si podem utilitzar amb els estudiants en CS 102."
-      get_widgets: "OBTENIR REA recomanació giny"
-      oers: "EDUCACIÓ <b>OBERTA</b>"
+      example_comment: "Que guien la construcció llecs is awesome! Em pregunto si podria utilitzar amb els estudiants en CS 102."
+      get_widgets: "GET REA de recomanació WIDGET"
+      oers: "<b>FORMACIÓ OBERTA</b>"
       people: PERSONES
-      resources: "RECURSOS (OERs)"
+      resources: "RECURSOS (OER)"
       search: CERCAR
-      signup: "SIGN UP TODAY!"
-      signup_reasons: "Fes-ho per conèixer gent amb qui vostè pot trobar, analitzar, barrejar, i desenvolupar recursos d&#39;aprenentatge"
-      why: "FOLKSEMANTIC PER QUÈ?"
-      widgets_pitch: "Vols REA recomanacions per les seves pàgines web?"
+      signup: "¡INSCRIURE AVUI!"
+      signup_reasons: "Registra&#39;t per conèixer gent amb la que vostè pot trobar, discutir, remix, i desenvolupar els recursos d&#39;aprenentatge"
+      why: "PER QUÈ FOLKSEMANTIC?"
+      widgets_pitch: "Vols obtenir recomanacions REA per a les seves pàgines web?"
     just_ocws: Cursos
     metadata: Metadades
     next: Següent
-    no_hits: "N º de visites. Si us plau, proveu una altra recerca o seleccioneu un idioma diferent."
-    of: "d&#39;"
-    powered_by: "Powered by"
+    no_hits: "No hi ha èxits. Si us plau, intenta una cerca diferent o seleccioneu un idioma diferent."
+    of: de
+    powered_by: "powered by"
     previous: Anterior
     rdf: RDF
-    register_description: "Subscriviu-vos per rebre <span class=\"highlight\">recomanacions</span> personalitzades, participar en <span class=\"highlight\">grups,</span> i <span class=\"highlight\">publicar</span> fàcilment <span class=\"highlight\">als blogs</span>"
-    register_link: "Registra&#39;t!"
+    register_description: "Fes-ho per rebre <span class=\"highlight\">recomanacions</span> personalitzades, participar en <span class=\"highlight\">grups,</span> i <span class=\"highlight\">publicar</span> fàcilment <span class=\"highlight\">als blocs</span>"
+    register_link: Inscriu-te!
     related_resources: "Recursos relacionats"
     related_resources_title: "Recursos relacionats"
-    relevance: pertinència
+    relevance: rellevància
     results: Resultats
     rss: RSS
     search: cerca
     search_button: Anar
-    search_description: "Trobar recursos d&#39;aprenentatge mitjançant la <span class=\"highlight\">recerca</span> i <span class=\"highlight\">exploració</span> més de <span class=\"highlight\">110.000</span> recursos educatius oberts"
-    search_link: "Troba Recursos!"
-    tag_line: "la potenciació de l&#39;educació oberta"
+    search_description: "Trobar recursos d&#39;aprenentatge mitjançant la <span class=\"highlight\">recerca</span> i <span class=\"highlight\">navegació</span> de més de <span class=\"highlight\">110.000</span> recursos educatius oberts"
+    search_link: "Trobar recursos!"
+    tag_line: "potenciar l&#39;educació oberta"
     title: folksemantic
-    tour: "Date una volta!"
-    tour_description: "Mira un <span class=\"highlight\">vídeo d&#39;introducció</span> Folksemantic"
-    view_account: "La seva opinió compta"
+    tour: "Take a Tour!"
+    tour_description: "Vegeu un <span class=\"highlight\">vídeo d&#39;introducció de</span> Folksemantic"
+    view_account: "Veure El seu Compte"
     welcome: "Benvingut a Folksemantic."
-    welcome_message: "Estem treballant activament per integrar OCWFinder i OERRecommender en un lloc que li ajudarà a trobar els més interessants i pertinents dels recursos educatius."
+    welcome_message: "Estem treballant activament per integrar OCWFinder i OERRecommender en un lloc per ajudar a trobar els recursos educatius més interessants i rellevants."
     welcome_user: "Benvingut {{user}}"
-    widgets_description: "Obtenir artefactes per ajudar els usuaris <span class=\"highlight\">descobrir</span> i <span class=\"highlight\">trobar</span> recursos <span class=\"highlight\">relacionats</span> amb els <span class=\"highlight\">recursos</span> al seu lloc web"
-    widgets_link: "Obtenir Widgets!"
-    widgets_title: "folksemantic ginys"
+    widgets_description: "Obtenir ginys per ajudar els usuaris a <span class=\"highlight\">trobar</span> els recursos i <span class=\"highlight\">descobrir els recursos relacionats</span> amb els del seu lloc web"
+    widgets_link: "Get Ginys!"
+    widgets_title: "reproductors folksemantic"
     xml: XML
   muck: 
+    friends: 
+      block: Bloc
+      start_following: Seguir
+      unblock: Desbloca
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribuir OCW / REA Repositori"
     users: 
-      dev_plans: "Estem desenvolupant activament a ampliar <a href=\"http://ocwfinder.org\">ocwfinder.org</a> i <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "Estem desenvolupant activament a estendre <a href=\"http://ocwfinder.org\">ocwfinder.org</a> i <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: Inscriu-te!
-      signup_header: "Creus que estàs preparat?"
-      signup_pitch: "Folksemantic fa que sigui fàcil de trobar, compartir i utilitzar recursos educatius oberts perquè pugueu intel ligent."
-    welcome_activity: "Benvingut a {{application_name}}! Aquí podreu <a href='/resources'>descobrir els recursos educatius lliures de tot el món.</a> Interessant en <a href='/resources/search?q=lady+bugs'>dama errors?</a> <a href='/resources/3909'>Què hi ha dels recursos d&#39;aprenentatge de la NASA?.</a>"
+      signup_header: "Creus que ets intel ligent?"
+      signup_pitch: "Folksemantic fa que sigui fàcil de trobar, compartir i utilitzar els recursos educatius oberts perquè pugui ser més llestos."
+    welcome_activity: "Benvingut a {{application_name}}! Aquí pot <a href='/resources'>descobrir un alliberament de recursos educatius de tot el món.</a> Interessants en <a href='/resources/search?q=lady+bugs'>marietes?</a> <a href='/resources/3909'>Què hi ha de recursos d&#39;aprenentatge de la NASA?.</a>"

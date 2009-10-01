@@ -1,46 +1,47 @@
 --- 
 sk: 
   folksemantic: 
+    add_edit_feeds: "pridať / upraviť kanály"
     all_resources: Všetko
     atom: Atom
     browse_resources: "Ľudia Zdroje"
     calculated: vypočítané
     collections: Zbierky
-    collections_long: "Indexovaná Zbierky"
+    collections_long: "Indexované Collections"
     contribute_repository: "Prispieť OCW / OER Repository"
-    credits: "Developed by sa <a href=\"http://cosl.usu.edu\">Centrum otvoreného a trvalého vzdelávania</a> s financovaním z <a href=\"http://nsf.gov/\">National Science Foundation</a> a <a href=\"http://www.mellon.org/\">Andrew Mellon Z nadácie</a>"
+    credits: "Vyvinutý <a href=\"http://cosl.usu.edu\">Centrum otvoreného a trvalého vzdelávania</a> s financovaním z <a href=\"http://nsf.gov/\">National Science Foundation</a> a <a href=\"http://www.mellon.org/\">Andrew Mellon Foundation W</a>"
     demo: Demo
     details: Detaily
     developers: Vývojári
     developers_long: "Informácie pre vývojárov"
     direct_link: "[priamy odkaz]"
     for: pre
-    gm_more_prompt: "Viac Súvisiace zdroje"
+    gm_more_prompt: "Viac Súvisiace zdroje informácií"
     gm_title: "Súvisiace zdroje informácií"
     home: 
       browse_and_search: "Prejdite a hľadajte"
       collaborate: "Spolupracujeme s"
-      comments_heading: "POSLEDNÍ KOMENTÁŘE"
-      example_comment: "To legos stavební návod je úžasné! Zaujímalo by ma, či by sme mohli používať spoločne so študentmi v SK 102."
-      get_widgets: "GET OER RECOMMENDER widget"
+      comments_heading: "POSLEDNÉ KOMENTÁRE"
+      example_comment: "Legos, že stavebné návod je úžasné! Zaujímalo by ma, či by sme mohli použiť spoločne so študentmi v SK 102."
+      get_widgets: "GET OER stránky odporučil widget"
       oers: "<b>OPEN</b> VZDELÁVANIE"
       people: ĽUDIA
-      resources: "ZDROJOV (OERS)"
+      resources: "ZDROJE (OERS)"
       search: VYHĽADÁVANIE
       signup: "Prihláste sa ešte dnes!"
-      signup_reasons: "Zaregistrujte sa stretávať ľudí, s ktorými si môžete nájsť, diskutovať, remix, a rozvíjať výučbové zdroje"
-      why: "PREČO FOLKSEMANTIC?"
+      signup_reasons: "Zaregistrujte sa tu stretnúť s ľuďmi, s ktorými sa môžete nájsť, diskutovať, remix, a rozvíjať vzdelávacie zdroje"
+      why: "FOLKSEMANTIC PREČO?"
       widgets_pitch: "Chcete sa dostať OER odporúčania pre vaše webové stránky?"
-    just_ocws: Kurzy
-    metadata: Metaúdaje
-    next: Příští
-    no_hits: "Nie hitov. Skúste prosím iné vyhľadávanie, alebo zvoliť iný jazyk."
+    just_ocws: Predmety
+    metadata: Metadata
+    next: Budúci
+    no_hits: "No hity. Prosím, skúste hľadať iné alebo vyberte iný jazyk."
     of: z
     powered_by: "powered by"
     previous: Predchádzajúci
     rdf: RDF
-    register_description: "Zaregistrujte sa k odberu personalizované <span class=\"highlight\">odporúčanie,</span> účasť v <span class=\"highlight\">skupinách,</span> a jednoducho <span class=\"highlight\">publikovať na blogy</span>"
-    register_link: "Zaregistruj sa!"
+    register_description: "Zaregistrujte sa k odberu osobné <span class=\"highlight\">odporúčania,</span> podieľať sa v <span class=\"highlight\">skupinách,</span> a jednoducho <span class=\"highlight\">publikovať na blogy</span>"
+    register_link: "Sign Up!"
     related_resources: "Súvisiace zdroje"
     related_resources_title: "Súvisiace zdroje informácií"
     relevance: relevance
@@ -48,27 +49,31 @@ sk:
     rss: RSS
     search: hľadať
     search_button: Choď
-    search_description: "Nájsť učenia zdrojov <span class=\"highlight\">vyhľadávanie</span> a <span class=\"highlight\">prezeranie</span> cez <span class=\"highlight\">110.000</span> otvorených vzdelávacích zdrojov"
+    search_description: "Nájsť učenia zdrojov <span class=\"highlight\">vyhľadávanie</span> a <span class=\"highlight\">prezeranie</span> viac ako <span class=\"highlight\">110.000</span> otvorených vzdelávacích zdrojov"
     search_link: "Nájsť zdroje!"
-    tag_line: "splnomocnení otvorené vzdelávanie"
+    tag_line: "splnomocňuje otvoreného vzdelávania"
     title: folksemantic
-    tour: "Urobte si výlet!"
+    tour: "Take a Tour!"
     tour_description: "Pozrite sa na <span class=\"highlight\">video zavedenie</span> Folksemantic"
     view_account: "Zobraziť Váš účet"
     welcome: "Vitajte na Folksemantic."
-    welcome_message: "Sme aktívne pracuje na integrácii OCWFinder a OERRecommender do jedného miesta, ktorá vám pomôže k najzaujímavejším a príslušných vzdelávacích zdrojov."
+    welcome_message: "Sme aktívne pracuje na integrácii OCWFinder a OERRecommender do jedného miesta, ktoré vám pomôžu nájsť to najzaujímavejšie a príslušných vzdelávacích zdrojov."
     welcome_user: "Vitajte {{user}}"
-    widgets_description: "Získajte widgety pomáhať používateľom <span class=\"highlight\">nájsť</span> zdroje a <span class=\"highlight\">objavte zdroje súvisiace</span> s tými na vašich webových stránkach"
-    widgets_link: "Získajte Widget!"
+    widgets_description: "Získajte widgety, ktoré pomôžu užívateľom <span class=\"highlight\">nájsť</span> zdroje a <span class=\"highlight\">odhaliť</span> tie <span class=\"highlight\">zdroje, týkajúce</span> sa na vašich webových stránkach"
+    widgets_link: "Get Widgets!"
     widgets_title: "folksemantic widgety"
     xml: XML
   muck: 
+    friends: 
+      block: Blok
+      start_following: Nasledovať
+      unblock: Odblokovať
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Prispieť OCW / OER Repository"
     users: 
       dev_plans: "Sme aktívne rozvíjať ju rozšíriť <a href=\"http://ocwfinder.org\">ocwfinder.org</a> a <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: "Zaregistrujte sa!"
-      signup_header: "Myslíš, že jsi chytrý?"
-      signup_pitch: "Folksemantic uľahčuje vyhľadávanie, zdieľanie a využívanie otvorených vzdelávacích zdrojov, takže môžete získať šikovný."
-    welcome_activity: "Vitajte na {{application_name}}! Tu si môžete <a href='/resources'>zadarmo discover vzdelávacích zdrojov z celého sveta.</a> Zaujímavé v <a href='/resources/search?q=lady+bugs'>dámě chyby?</a> <a href='/resources/3909'>Ako o učenie zdrojov z NASA?.</a>"
+      signup_header: "Myslíte, že ste chytrí?"
+      signup_pitch: "Folksemantic uľahčuje vyhľadanie, zdieľanie a využívanie otvorených vzdelávacích zdrojov, takže môžete získať inteligentné."
+    welcome_activity: "Vitajte na {{application_name}}! Tu môžete <a href='/resources'>zistiť, zadarmo vzdelávacích zdrojov z celého sveta.</a> Zaujímavé <a href='/resources/search?q=lady+bugs'>pani chyby?</a> <a href='/resources/3909'>Ako naučiť zdrojov z NASA?.</a>"

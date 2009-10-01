@@ -1,14 +1,15 @@
 --- 
 nl: 
   folksemantic: 
+    add_edit_feeds: "toevoegen / bewerken feeds"
     all_resources: Alle
     atom: Atom
-    browse_resources: "Blader Middelen"
+    browse_resources: "Blader door Hulpbronnen"
     calculated: berekend
     collections: Collecties
-    collections_long: "Geïndexeerd Collecties"
-    contribute_repository: "Meewerken OCW / OER Repository"
-    credits: "Ontwikkeld door het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering uit de <a href=\"http://nsf.gov/\">National Science Foundation</a> en de <a href=\"http://www.mellon.org/\">W Andrew Mellon Foundation</a>"
+    collections_long: "Geïndexeerde Collecties"
+    contribute_repository: "Bijdragen OCW / OER Repository"
+    credits: "Ontwikkeld door het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering van de <a href=\"http://nsf.gov/\">National Science Foundation</a> en de <a href=\"http://www.mellon.org/\">W Andrew Mellon Foundation</a>"
     demo: Demo
     details: Details
     developers: Ontwikkelaars
@@ -19,56 +20,60 @@ nl:
     gm_title: "Verwante bronnen"
     home: 
       browse_and_search: "Bladeren en zoeken in"
-      collaborate: "Samenwerken met"
-      comments_heading: "RECENTE REACTIES"
-      example_comment: "Dat Legos bouw handleiding is awesome! Ik vraag me af of we kunnen gebruiken om met de studenten in CS 102."
-      get_widgets: "GET OER recommender Widget"
-      oers: "<b>OPEN</b> ONDERWIJS"
-      people: MENSEN
-      resources: "MIDDELEN (Oers)"
+      collaborate: Samenwerken
+      comments_heading: "RECENT COMMENTS"
+      example_comment: "Dat Legos bouw gids is awesome! Ik vraag me af of we het zouden kunnen gebruiken met de leerlingen in CS 102."
+      get_widgets: "GET OER Recommender WIDGET"
+      oers: "<b>OPEN</b> SCHOOL"
+      people: PEOPLE
+      resources: "MIDDELEN (OERS)"
       search: ZOEKEN
-      signup: "Schrijf je nu in!"
-      signup_reasons: "Aanmelden om mensen te ontmoeten met wie je kunt vinden, te bespreken, remix, en de ontwikkeling van leermiddelen"
+      signup: "Sign up today!"
+      signup_reasons: "Meld je aan om mensen te ontmoeten met wie je kan vinden, discussiëren, remix, en de ontwikkeling van leermiddelen"
       why: "WAAROM FOLKSEMANTIC?"
-      widgets_pitch: "Wilt u OER aanbevelingen voor uw webpagina&#39;s?"
+      widgets_pitch: "Wil OER aanbevelingen krijgen voor uw webpagina&#39;s?"
     just_ocws: Cursussen
     metadata: Metadata
     next: Volgende
-    no_hits: "Geen treffers. Probeer een andere zoekopdracht of kies een andere taal."
+    no_hits: "Geen hits. Probeer een andere zoekopdracht of kies een andere taal."
     of: van
     powered_by: "powered by"
     previous: Vorige
-    rdf: DTO
-    register_description: "Meld u nu aan voor gepersonaliseerde <span class=\"highlight\">aanbevelingen,</span> deelnemen in <span class=\"highlight\">groepen,</span> en gemakkelijk te <span class=\"highlight\">publiceren op blogs</span>"
+    rdf: RDF
+    register_description: "Meld u nu aan gepersonaliseerde <span class=\"highlight\">aanbevelingen,</span> deelnemen in <span class=\"highlight\">groepen,</span> en gemakkelijk <span class=\"highlight\">te publiceren op blogs</span>"
     register_link: "Sign Up!"
-    related_resources: "Related resources"
+    related_resources: "Gerelateerde bronnen"
     related_resources_title: "Verwante bronnen"
     relevance: relevantie
     results: Resultaten
     rss: RSS
     search: zoeken
     search_button: Gaan
-    search_description: "Zoek leermiddelen door te <span class=\"highlight\">zoeken</span> en <span class=\"highlight\">surfen</span> meer dan <span class=\"highlight\">110.000</span> open leermiddelen"
+    search_description: "Vind het leren van de middelen door te <span class=\"highlight\">zoeken</span> en <span class=\"highlight\">surfen</span> meer dan <span class=\"highlight\">110.000</span> open leermiddelen"
     search_link: "Vind Resources!"
-    tag_line: "Empowering open onderwijs"
+    tag_line: "empowerment open onderwijs"
     title: folksemantic
     tour: "Take a Tour!"
-    tour_description: "Bekijk een <span class=\"highlight\">video-introductie</span> van Folksemantic"
-    view_account: "Bekijk Uw account"
+    tour_description: "Bekijk een <span class=\"highlight\">video introductie</span> van Folksemantic"
+    view_account: "View Your Account"
     welcome: "Welkom bij Folksemantic."
-    welcome_message: "We zijn druk bezig om OCWFinder en OERRecommender in een site om u te helpen bij de meest interessante en relevante educatieve middelen."
+    welcome_message: "We zijn druk bezig om OCWFinder en OERRecommender integreren in een site om u te helpen de meest interessante en relevante educatieve middelen."
     welcome_user: "Welkom {{user}}"
-    widgets_description: "Get widgets te helpen gebruikers bij het <span class=\"highlight\">vinden van</span> middelen en <span class=\"highlight\">ontdek</span> welke <span class=\"highlight\">middelen</span> in <span class=\"highlight\">verband</span> met de op uw website"
-    widgets_link: "Get Widgets!"
+    widgets_description: "Krijg widgets gebruikers te helpen middelen te <span class=\"highlight\">vinden</span> en te <span class=\"highlight\">ontdekken middelen met betrekking</span> tot degenen op uw website"
+    widgets_link: "Widgets Get!"
     widgets_title: "folksemantic widgets"
     xml: XML
   muck: 
+    friends: 
+      block: Blok
+      start_following: Volgen
+      unblock: Deblokkeren
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Meewerken OCW / OER Repository"
+      add_extended_feed_title: "Bijdragen OCW / OER Repository"
     users: 
-      dev_plans: "Wij zijn actief de ontwikkeling van het uit te breiden <a href=\"http://ocwfinder.org\">ocwfinder.org</a> en <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "We zijn actief op de ontwikkeling ervan uit te breiden <a href=\"http://ocwfinder.org\">ocwfinder.org</a> en <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: Aanmelden!
       signup_header: "Denk je slim?"
-      signup_pitch: "Folksemantic maakt het gemakkelijk te vinden, delen en gebruiken open educatieve middelen, zodat u kunt slim."
-    welcome_activity: "Welkom bij {{application_name}}! Hier kunt u <a href='/resources'>ontdekken vrije educatieve middelen uit de hele wereld.</a> Interessant <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>Hoe leren over de middelen van de NASA?.</a>"
+      signup_pitch: "Folksemantic maakt het gemakkelijk te vinden, delen en gebruik van Open Educational Resources, zodat u kunt krijgen slim."
+    welcome_activity: "Welkom op {{application_name}}! Hier kunt u <a href='/resources'>ontdekken gratis educatieve middelen uit de hele wereld.</a> Interessant <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>Hoe zit het met het leren van de middelen van de NASA?.</a>"
