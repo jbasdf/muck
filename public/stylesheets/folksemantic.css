@@ -143,7 +143,7 @@ ul.service-summary a.service-link{display:inline-block;margin:2px 0;padding:2px 
 .slide_show_content {width:250px;height:200px;margin-bottom:40px;padding:5px;}
 /* feed formating */
 .feed{padding:0px 4px;}
-.feed-header{background-color:#eee;padding:3px;margin-top:20px;}
+.feed-header{background-color:#f4f8fb;padding:3px;margin-top:20px;}
 .feed-header h3{margin:0;padding:2px 0 10px 25px;}
 .feed-header h3 a{text-decoration:none;color:#333;}
 .feed-header h3 a:hover{color:#000;}
@@ -156,3 +156,4 @@ ul.service-summary a.service-link{display:inline-block;margin:2px 0;padding:2px 
 .odd{background-color:#fff;}
 .feed-photos img{width:100px;height:100px;}
 .entry-close{float:right;font-size:.8em;}
+.hentry{padding:5px 10px;}
