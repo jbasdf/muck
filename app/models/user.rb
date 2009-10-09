@@ -52,6 +52,7 @@ class User < ActiveRecord::Base
   acts_as_muck_sharer
   acts_as_tagger
   has_muck_blog
+  acts_as_muck_inviter
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   
