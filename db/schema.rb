@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090924200750) do
+ActiveRecord::Schema.define(:version => 20090928213532) do
 
   create_table "action_types", :force => true do |t|
     t.string  "action_type"
@@ -262,9 +262,9 @@ ActiveRecord::Schema.define(:version => 20090924200750) do
     t.string   "tag_filter",                 :limit => 1000
     t.text     "top_tags"
     t.integer  "priority",                                   :default => 10
-    t.integer  "status",                                     :default => 1
-    t.datetime "last_requested_at"
-    t.datetime "last_harvested_at"
+    t.integer  "status",                                     :default => 0
+    t.datetime "last_requested_at",                          :default => '1969-01-01 00:00:00'
+    t.datetime "last_harvested_at",                          :default => '1969-01-01 00:00:00'
     t.integer  "harvest_interval",                           :default => 86400
     t.integer  "failed_requests",                            :default => 0
     t.text     "error_message"
@@ -278,7 +278,7 @@ ActiveRecord::Schema.define(:version => 20090924200750) do
     t.string   "harvested_from_title",       :limit => 1000
     t.string   "harvested_from_short_title", :limit => 100
     t.integer  "entries_count"
-    t.integer  "default_language_id",                        :default => 0
+    t.integer  "default_language_id",                        :default => 38
     t.string   "default_grain_size",                         :default => "unknown"
     t.integer  "contributor_id"
     t.string   "etag"
@@ -305,6 +305,12 @@ ActiveRecord::Schema.define(:version => 20090924200750) do
   end
 
   add_index "identity_feeds", ["ownable_id", "ownable_type"], :name => "index_identity_feeds_on_ownable_id_and_ownable_type"
+
+  create_table "invites", :force => true do |t|
+    t.string "email", :null => false
+  end
+
+  add_index "invites", ["email"], :name => "index_invites_on_email"
 
   create_table "languages", :force => true do |t|
     t.string  "name"
@@ -384,9 +390,9 @@ ActiveRecord::Schema.define(:version => 20090924200750) do
     t.string   "title",               :limit => 1000
     t.string   "short_title",         :limit => 100
     t.integer  "contributor_id"
-    t.integer  "status"
-    t.integer  "default_language_id"
-    t.datetime "created_at"
+    t.integer  "status",                              :default => 0
+    t.integer  "default_language_id",                 :default => 38
+    t.datetime "created_at",                          :default => '2007-01-01 00:00:00'
     t.datetime "updated_at"
   end
 
@@ -570,6 +576,13 @@ ActiveRecord::Schema.define(:version => 20090924200750) do
   add_index "uploads", ["local_content_type"], :name => "index_uploads_on_local_content_type"
   add_index "uploads", ["uploadable_id"], :name => "index_uploads_on_uploadable_id"
   add_index "uploads", ["uploadable_type"], :name => "index_uploads_on_uploadable_type"
+
+  create_table "user_invites", :force => true do |t|
+    t.integer "user_id",   :null => false
+    t.integer "invite_id", :null => false
+  end
+
+  add_index "user_invites", ["user_id"], :name => "index_user_invites_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "login"
