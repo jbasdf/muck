@@ -376,11 +376,13 @@ if (bodyTags && bodyTags.length > 0)
         identifySquatParent();
     }
     if (squatParent != null) {
-        embedFunction(showRecs);
-        if (demoDomain(sUrlToGetRecsFor) || bUserRequest) {
-            getRecs(sServiceUrl + (bUserRequest ? "rtr=true&" : "") + "u=" + sUrlToGetRecsFor);
-        } else if (!blacklistedDomain(sUrlToGetRecsFor)) {
-            displayGetRecsButton();
-        }
+        if (!blacklistedDomain(sUrlToGetRecsFor))
+            getRecs(sServiceUrl + "u=" + sUrlToGetRecsFor);
+//        embedFunction(showRecs);
+//        if (demoDomain(sUrlToGetRecsFor) || bUserRequest) {
+//            getRecs(sServiceUrl + (bUserRequest ? "rtr=true&" : "") + "u=" + sUrlToGetRecsFor);
+//        } else if (!blacklistedDomain(sUrlToGetRecsFor)) {
+//            displayGetRecsButton();
+//        }
     }
 }
