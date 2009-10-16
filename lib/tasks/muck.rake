@@ -11,7 +11,7 @@ namespace :muck do
   def muck_gems
     ['cms-lite', 'disguise', 'uploader', 'muck-solr', 'muck-raker', 'muck-engine',
     'muck-users', 'muck-activities', 'muck-comments', 'muck-profiles', 'muck-friends',
-    'muck-contents', 'muck-blogs', 'muck-shares'] #'muck-invites'
+    'muck-contents', 'muck-blogs', 'muck-shares', 'muck-invites']
   end
   
   desc 'Translate muck and all themes from English into all languages supported by Google'
