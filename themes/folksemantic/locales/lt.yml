@@ -1,7 +1,7 @@
 --- 
 lt: 
   folksemantic: 
-    add_edit_feeds: "pridėti / Pakeisti kanalus"
+    add_edit_feeds: "Add / Edit feeds"
     all_resources: Visi
     atom: Atom
     browse_resources: Ištekliai

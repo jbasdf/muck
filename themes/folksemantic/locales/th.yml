@@ -11,7 +11,7 @@ th:
     contribute_repository: "ร่วม OCW / OER Repository"
     credits: "พัฒนาโดย <a href=\"http://cosl.usu.edu\">ศูนย์เปิดและการเรียนรู้อย่างยั่งยืน</a> กับเงินจาก <a href=\"http://nsf.gov/\">National Science Foundation</a> และ <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: การสาธิต
-    details: รายละเอียด
+    details: Details
     developers: นักพัฒนา
     developers_long: ข้อมูลสำหรับนักพัฒนา
     direct_link: "[ลิงค์โดยตรง]"

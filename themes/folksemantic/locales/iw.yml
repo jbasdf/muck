@@ -17,7 +17,7 @@ iw:
     direct_link: "[קישור ישיר]"
     for: עבור
     gm_more_prompt: "יותר משאבים קשורים"
-    gm_title: "משאבים קשורים"
+    gm_title: "מורידים משתמשים"
     home: 
       browse_and_search: "עיין וחפש בתוך"
       collaborate: "לשתף פעולה עם"
@@ -43,7 +43,7 @@ iw:
     register_description: "הרשם כדי לקבל <span class=\"highlight\">המלצות</span> מותאמות אישית, להשתתף <span class=\"highlight\">בקבוצות,</span> ובקלות <span class=\"highlight\">לפרסם בלוגים</span>"
     register_link: "הירשם עכשיו!"
     related_resources: "משאבים קשורים"
-    related_resources_title: "משאבים קשורים"
+    related_resources_title: "מורידים משתמשים"
     relevance: הרלוונטיות
     results: תוצאות
     rss: RSS

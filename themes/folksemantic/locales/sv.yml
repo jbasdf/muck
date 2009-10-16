@@ -49,7 +49,7 @@ sv:
     rss: RSS
     search: söka
     search_button: Gå
-    search_description: "Hitta learning resurser genom att <span class=\"highlight\">söka</span> och <span class=\"highlight\">bläddra</span> över <span class=\"highlight\">110.000</span> öppna utbildningsresurser"
+    search_description: "Hitta learning resurser genom <span class=\"highlight\">att söka</span> och <span class=\"highlight\">bläddra</span> över <span class=\"highlight\">110.000</span> öppna utbildningsresurser"
     search_link: "Hitta resurser!"
     tag_line: "ge öppen utbildning"
     title: folksemantic

@@ -29,7 +29,7 @@ gl:
       resources: "RECURSOS (OERS)"
       search: BUSCA
       signup: "Sign Up Today!"
-      signup_reasons: "Regístrate para atender as persoas con quen podes atopar, discutir, remix, e desenvolver recursos de aprendizaxe"
+      signup_reasons: "Cadastre-se para atender as persoas con quen podes atopar, discutir, remix, e desenvolver recursos de aprendizaxe"
       why: "Por FOLKSEMANTIC?"
       widgets_pitch: "Want to get recomendacións REA para as súas páxinas web?"
     just_ocws: Cursos
@@ -54,7 +54,7 @@ gl:
     tag_line: "capacitación de Educación Aberta"
     title: folksemantic
     tour: "Fai un tour!"
-    tour_description: "Assista a un <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">catalogación</span> Folksemantic"
+    tour_description: "Assist a un <span class=\"highlight\">vídeo</span> de <span class=\"highlight\">catalogación</span> Folksemantic"
     view_account: "Ver Conta"
     welcome: "Benvido ao Folksemantic."
     welcome_message: "Estamos a traballar activamente para integrarse OCWFinder e OERRecommender en un sitio web para axudar a atopar os recursos máis interesantes e relevantes para o ensino."
