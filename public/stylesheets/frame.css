@@ -1,11 +1,12 @@
 /* iFrame */
 .framed_content{height:100%;margin-bottom:-1px;width:100%;}
 #content_iframe{display:block;display:block;}
-#toolbar{height:30px;border-bottom:1px solid #999;background-image:url('/images/folksemantic/bg-toolbar.jpg');}
-#toolbar .section{padding:4px 20px;}
-#toolbar-logo {float:left;margin-left:30px;}
+#toolbar{height:30px;background:#EFF1E5;border-bottom:1px solid #999;}
+#toolbar .section{padding:5px 20px;}
+#toolbar #profile{float:left;}
 #toolbar #search{float:right;padding:5px 0px;}
 #toolbar #search input{font-size:1em;}
+#toolbar-logo {float:left;margin-left:30px;}
 #toolbar #tools{float:right;}
 #toolbar #tools img{vertical-align:bottom;padding-right:4px;}
 #toolbar #tools a{margin-right:5px;padding-left:18px;font-weight:bolder;font-size:1em;color:#54493F;}
@@ -16,6 +17,8 @@
 a#close_frame{-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background:transparent url('/images/icons/close.png') no-repeat scroll left top;display:block;height:19px;width:19px;}
 a#close_frame:hover{background-position:left bottom;}
 a#close_frame_text{display:none;}
+a#comment{background:transparent url('/images/icons/comment.png') no-repeat scroll left top;}
+a#share{background:transparent url('/images/icons/add.png') no-repeat scroll left top;}
 #toolbar #search #search_go{display:none;}
 #toolbar #search #search_box{width:150px;height:21px;background:transparent url('/images/icons/search_box.png') no-repeat scroll left bottom;}
 #toolbar #search #search_box:hover{background:transparent url('/images/icons/search_box.png') no-repeat scroll left top;}
@@ -30,10 +33,10 @@ a.close_link:hover{background:transparent url('/images/icons/hide.png') no-repea
 .tool input{font-size:1em;}
 .tool label{font-size:1em;}
 /* shares tool in frame */
-#share_tool .share-form-wrapper{border:1px solid #ccc;margin:2px auto;padding:.5em;background-color:#eee;width:90%;}
+#share_tool .share-form-wrapper, #share_tool #shares_control{border:1px solid #ccc;margin:2px auto;padding:.5em;background-color:#eee;width:90%;}
 /* comments tool in frame */
 #comments_tool #activity-icon, .actor-icon {margin:0 10px 0 0;}
-#comments_tool .comment_holder{border:1px solid #ccc;margin:30px 10px 0 5px;padding:.5em;background-color:#eee;width:90%;}
+#comments_tool .comment-form-wrapper, #comments_tool .comment_holder{border:1px solid #ccc;margin:2px auto;padding:.5em;background-color:#eee;width:90%;}
 #comments_tool .comment_holder p{margin:0;}
 #comments_tool .comment_holder .commentor-icon{width:40px;float:left;margin:0 5px 0 0;}
 #comments_tool .comment_holder .commentor-icon img{width:40px;height:40px;}
@@ -41,6 +44,7 @@ a.close_link:hover{background:transparent url('/images/icons/hide.png') no-repea
 #comments_tool .comment_holder .comment-time{color:#777777;font-size:.9em;}
 #comments_tool #comments_control{border:1px solid #ccc;margin:2px auto;padding:.5em;background-color:#eee;width:90%;}
 #comments_tool .comment-form-wrapper{height:116px;display:inline;}
+#comments_tool .comment-form input{float:right;}
 #comments_tool .activity-comment .comment-form textarea.max {height:50px;width:200px;margin:0px;}
 #comments_tool .activity-comment .comment-form textarea.min {height:15px;width:90%;}
 #comments_tool form.comment-delete {position:relative;display:inline;float:right;}

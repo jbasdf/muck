@@ -84,7 +84,7 @@ digg:
 yelp:
   id: 8
   name: Yelp
-  uri: "http://yelp.com/"
+  uri: "http://www.yelp.com/"
   api_uri: 
   uri_data_template: "http://{username}.yelp.com/rss"
   uri_template: "http://{username}.yelp.com"
@@ -660,6 +660,8 @@ amazon:
   sort: 58
   name: Amazon
   uri: "http://www.amazon.com"
+  uri_data_template: "http://www.amazon.com"
+  uri_template:
   icon: amazon.png
   use_for: "identity"
   service_category_id: 12
@@ -876,3 +878,17 @@ bibsonomy_search:
   use_for: "tags"
   service_category_id: 8
   active: true
+metacafe:
+  id: 77
+  name: MetaCafe
+  uri: "http://www.metacafe.com"
+  api_uri: 
+  uri_data_template: "http://www.metacafe.com/tags/{tag}/rss.xml"
+  uri_template: "http://www.metacafe.com/tags/{tag}"
+  icon: metacafe.png
+  sort: 77
+  use_for: "tags"
+  service_category_id: 7
+  active: true
+  
+  
