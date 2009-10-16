@@ -1,0 +1,13 @@
+/* invite form */
+.error{color:red;margin-top:6px;margin-bottom:6px;}
+#contact-chooser{font-size:12px;font-family:Verdana,Arial,san-serif;}
+#contact-chooser fieldset{border:1px solid #CCC;}
+#contact-chooser input{margin-right:5px;}
+#contact-chooser td{border-bottom:1px solid #EEE;}
+#contact-chooser td.cb{padding:5px 3px 5px 5px;}
+#contact-chooser td.name{width:30%;}
+#contact-chooser td.email{width:70%;}
+#contact-chooser table{border-collapse:collapse;margin:0;padding:0;}
+#contact-chooser-list{width:500px;}
+#select-all-contacts {background-color:#EEEEEE;border-bottom:1px solid #CCCCCC;color:#666666;line-height:200%;margin:0;padding:0 5px;}
+.table-wrapper{height:250px;overflow-y:scroll;padding:4px 0 0;}
