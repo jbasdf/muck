@@ -1,0 +1,39 @@
+/* activity feed */
+#activity-status-control{border:solid 1px #ccc;padding:10px 7px;background-color:#eee;}
+#status-update-field{}
+ul#status-menu{list-style:none;}
+ul#status-menu li{float:left;display:inline;margin:0 5px;}
+#status-update-button input{padding:0;}
+.status-update-dim{}
+.status-update-lit{}
+ul#activity-filter{list-style:none;}
+ul#activity-filter li{border-bottom:solid 1px #ccc;}
+ul#activity-filter li a{text-decoration:none;}
+ul#activity-filter li a:hover;{text-decoration:underline;}
+ul#activity-filter li.current a{color:#5EAC18;}
+.activity{clear:both;display:block;}
+#activity-feed{margin:15px 0 0 0;}
+#activity-feed-content .activity{margin:8px 0 4px 0;}
+#activity-feed-content .activity-time{font-size:1em;font-color:#eee;clear:left;}
+#activity-icon, .actor-icon{width:50px;float:left;margin:0 10px 10px 0;}
+#activity-feed-content .actor, #current-status-name{font-weight:bolder;font-size:1.3em;}
+.activity-time, .status-time{color:#777777;font-size:.9em;}
+p#current-status-text, .activity-content p{margin:0;}
+form.activity-delete {position:relative;display:inline;float:right;display:none;}
+form.activity-delete input{padding:0;margin:0;width:15px;height:15px;position:absolute;right:0px;bottom:0px;}
+.activity .activity-hover form.activity-delete{display:block;}
+.welcome_activity{font-size:14px;}
+a.upload-button{background:transparent url('/images/icons/button_background.png') no-repeat scroll left top;text-decoration:none;padding:0px 23px 1px 6px;color:#fff;font-weight:bold;}
+a.upload-button:hover{background:transparent url('/images/icons/button_background.png') no-repeat scroll left bottom;}
+/* comments under activity feed */
+.activity-comment{border:1px solid #ccc;margin:2px 50px 2px 60px;padding:.5em;background-color:#eee;}
+.activity-comment .actor-icon{width:40px;}
+.activity-comment .actor-icon img{width:40px;height:40px;}
+.activity-comment textarea.max{width:80%;height:30px;}
+.activity-comment textarea.min{height:15px;width:50%;}
+.activity-comment p{margin:0;}
+.activity-comment .actor a{font-size:.8em;}
+.activity form.comment-delete {position:relative;display:inline;float:right;}
+.activity form.comment-delete input{padding:0;margin:0;width:15px;height:15px;position:absolute;right:0px;top:0px;}
+.activity form.comment-delete{display:none;}
+.activity .comment-hover form.comment-delete{display:block;}

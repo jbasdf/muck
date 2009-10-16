@@ -7,8 +7,7 @@ function apply_activity_ajax_methods(){
 	hide_comment_boxes();
 	apply_comment_hover();
 	apply_activity_hover();
-	jQuery('.activity-no-comments').hide();
-	
+	jQuery('.activity-no-comments').hide();	
 	jQuery('.activity-has-comments').find('textarea').click(function(){
 		show_comment_box(this);
 	});
