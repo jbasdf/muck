@@ -73,5 +73,8 @@ fieldset{border:solid 1px #CCC;margin:0px;padding:10px;}
 .datafeeds .feed-videos {margin:0;}
 .remove-feed{float:right;}
 .entry-close{float:right;font-size:.8em;}
+#search-header{margin:20px;}
+.google-header{background: transparent url(/images/service_icons/24/google.png) no-repeat scroll left top;}
+.search-container .gsc-control{width:100%;}
 /* edit aggregation */
 #edit-aggregation-controls .box{margin:10px 0;}
