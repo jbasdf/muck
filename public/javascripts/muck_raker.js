@@ -1,3 +1,22 @@
+function apply_show_entry_content(){
+  jQuery('.combined-feed-list .feed-item .feed-title').hover(
+    function () {
+      jQuery(this).next('.combined-feed-list .feed-item .feed-content').show();
+    }, 
+    function () {
+      jQuery(this).next('.combined-feed-list .feed-item .feed-content').hide();
+    }
+  );
+  jQuery('.combined-feed-list .feed-item .feed-content').hover(
+    function () {
+      jQuery(this).show();
+    }, 
+    function () {
+      jQuery(this).hide();
+    }
+  );
+}
+
 function show_tool(tool) {
   jQuery('.tool').hide();
   jQuery("#content_iframe").width('75%');
