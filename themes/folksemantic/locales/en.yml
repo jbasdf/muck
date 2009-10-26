@@ -41,7 +41,7 @@ en:
     welcome_user: "Welcome {{user}}"
     all_resources: All
     just_ocws: Courses
-    credits: Developed by the <a href="http://cosl.usu.edu">Center for Open and Sustainable Learning</a> with funding from the <a href="http://nsf.gov/">National Science Foundation</a> and the <a href="http://www.mellon.org/">Andrew W Mellon Foundation</a>
+    credits: Developed by <a href="http://www.tatemae.com">Tatemae</a> for the <a href="http://cosl.usu.edu">Center for Open and Sustainable Learning</a> with funding from the <a href="http://nsf.gov/">National Science Foundation</a> and the <a href="http://www.mellon.org/">Andrew W Mellon Foundation</a>
     welcome: Welcome to Folksemantic.
     welcome_message: "We're actively working to integrate OCWFinder and OERRecommender into one site to help you find the most interesting and relevant educational resources."
     view_account: "View Your Account"
