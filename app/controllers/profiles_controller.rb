@@ -3,6 +3,29 @@ class ProfilesController < Muck::ProfilesController
   #before_filter :search_results, :only => [:index, :search]
   before_filter :store_location, :only => [:index, :show, :edit]
   
+  def show
+    @user = User.find(params[:id])
+    @profile = @user.profile
+    @page_title = @user.display_name
+    
+    @number_of_items = 5
+    @number_of_images = 10
+    @number_of_videos = 5
+    @load_feeds_on_server = true
+    @show_combined = false
+    
+    @user_feeds = @user.own_feeds
+    if @load_feeds_on_server
+      @server_loaded_user_feeds = GoogleFeedRequest.load_feeds(@user_feeds, @number_of_items)
+      if @show_combined
+        @server_combined_user_feeds = Feed.combine_sort(@server_loaded_user_feeds)
+      end
+    end
+    respond_to do |format|
+      format.html { render :template => 'profiles/show' }
+    end
+  end
+  
   # def search
   #   respond_to do |format|
   #     format.html { render :template => 'profiles/index' }

@@ -1,7 +1,7 @@
 <div class="span-24">
   <%= output_flash(:class => 'help-box') %>
 </div> 
-<div class="span-5 colborder column">
+<div class="span-4 colborder column">
   <%= icon @user, :thumb %>
   <p><%= @user.full_name %></p>
   
@@ -26,8 +26,29 @@
   
 </div>
 
-<div class="span-16 column">
+<div class="span-10 colborder column">
   <%= limited_activity_feed_for(@user) %>
-  <%= google_feeds_display(@user.own_feeds, 5, 10, 'google_load_complete') %>
 </div>
+
+<div class="span-8 column">
+  <% if @load_feeds_on_server -%>
+    <% if @show_combined -%>
+      <ul class="combined-feed-list">
+        <%= render :partial => 'topics/simple_entry', :collection => @server_combined_user_feeds %>
+      </ul>
+      <script type="text/javascript">
+        jQuery(document).ready(function() {
+          apply_show_entry_content();
+        });
+      </script>
+    <% else -%>
+      <%= render :partial => 'topics/feed', :collection => @server_loaded_user_feeds %>
+    <% end -%>
+  <% elsif @show_combined -%>
+    <%= google_combined_feeds(@user_feeds) %>
+  <% else -%>
+    <%= google_feeds(@user_feeds, false, @number_of_items, @number_of_images, @number_of_videos) %>
+  <% end -%>
+</div>
+
 <%= render :partial => 'google/feeds_scripts' %>
