@@ -9,7 +9,7 @@ iw:
     collections: אוספים
     collections_long: "אוספים אינדקס"
     contribute_repository: "לתרום OCW / מאגר OER"
-    credits: "שפותח על ידי <a href=\"http://cosl.usu.edu\">המרכז פתוח בר קיימא הלמידה</a> במימון <a href=\"http://nsf.gov/\">קרן המדע הלאומית</a> ואת <a href=\"http://www.mellon.org/\">קרן אנדרו מלון W</a>"
+    credits: "פותח ע&quot;י <a href=\"http://www.tatemae.com\">Tatemae</a> עבור <a href=\"http://cosl.usu.edu\">מרכז הלמידה פתוח בר קיימא</a> במימון <a href=\"http://nsf.gov/\">קרן המדע הלאומית</a> ואת <a href=\"http://www.mellon.org/\">קרן אנדרו מלון W</a>"
     demo: הדגמה
     details: פרטים
     developers: מפתחים
@@ -17,7 +17,7 @@ iw:
     direct_link: "[קישור ישיר]"
     for: עבור
     gm_more_prompt: "יותר משאבים קשורים"
-    gm_title: "מורידים משתמשים"
+    gm_title: "משאבים קשורים"
     home: 
       browse_and_search: "עיין וחפש בתוך"
       collaborate: "לשתף פעולה עם"
@@ -43,7 +43,7 @@ iw:
     register_description: "הרשם כדי לקבל <span class=\"highlight\">המלצות</span> מותאמות אישית, להשתתף <span class=\"highlight\">בקבוצות,</span> ובקלות <span class=\"highlight\">לפרסם בלוגים</span>"
     register_link: "הירשם עכשיו!"
     related_resources: "משאבים קשורים"
-    related_resources_title: "מורידים משתמשים"
+    related_resources_title: "משאבים קשורים"
     relevance: הרלוונטיות
     results: תוצאות
     rss: RSS

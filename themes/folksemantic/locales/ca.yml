@@ -9,7 +9,7 @@ ca:
     collections: Col.leccions
     collections_long: "Col.leccions indexades"
     contribute_repository: "Contribuir OCW / REA Repositori"
-    credits: "Desenvolupat pel <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> amb fons de la <a href=\"http://nsf.gov/\">National Science Foundation</a> i la <a href=\"http://www.mellon.org/\">Fundació Andrew W Mellon</a>"
+    credits: "Desenvolupat per <a href=\"http://www.tatemae.com\">tatemae</a> per al <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> amb fons de la <a href=\"http://nsf.gov/\">National Science Foundation</a> i la <a href=\"http://www.mellon.org/\">Fundació Andrew W Mellon</a>"
     demo: Demo
     details: Detalls
     developers: Desenvolupadors

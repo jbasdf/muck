@@ -14,7 +14,7 @@ th:
     subject: "Subject:"
     subject_help: คำง่ายๆที่ระบุลักษณะการตอบรับของคุณ.
   general: 
-    delete_file: ลบไฟล์
+    delete_file: ไฟล์ลบ
     send: ส่ง
     thank_you_contact: "ขอขอบคุณสำหรับข้อความของคุณ. สมาชิกของทีมงานเราจะตอบกับคุณในไม่ช้า."
   muck: 

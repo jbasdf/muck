@@ -9,7 +9,7 @@ tr:
     collections: Koleksiyon
     collections_long: "Indexed Koleksiyonlar"
     contribute_repository: "Sözlüğe OCW / OER Repository"
-    credits: "<a href=\"http://cosl.usu.edu\">Merkezi Açık ve Sürdürülebilir Öğrenim için</a> <a href=\"http://nsf.gov/\">Ulusal Bilim Vakfı</a> ve <a href=\"http://www.mellon.org/\">W, Andrew Mellon Vakfı</a> fonlarıyla ile Developed by"
+    credits: "<a href=\"http://www.tatemae.com\">Tatemae</a> tarafından <a href=\"http://cosl.usu.edu\">Merkezi Açık ve Sürdürülebilir Öğrenim için</a> <a href=\"http://nsf.gov/\">Ulusal Bilim Vakfı</a> ve <a href=\"http://www.mellon.org/\">W, Andrew Mellon Vakfı</a> den fonlarıyla için geliştirildi"
     demo: Demo
     details: Detaylar
     developers: Geliştiriciler

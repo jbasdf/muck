@@ -9,7 +9,7 @@ el:
     collections: Συλλογές
     collections_long: "Indexed Συλλογές"
     contribute_repository: "Συμβάλλουν OCW / ΑΕΜ Repository"
-    credits: "Αναπτύχθηκε από το <a href=\"http://cosl.usu.edu\">Κέντρο για την Ανοικτή και βιώσιμη Μάθηση</a> με χρηματοδότηση από το <a href=\"http://nsf.gov/\">Εθνικό Ίδρυμα Επιστημών</a> και το <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    credits: "Αναπτύχθηκε από <a href=\"http://www.tatemae.com\">Tatemae</a> για το <a href=\"http://cosl.usu.edu\">Κέντρο για την Ανοικτή και βιώσιμη Μάθηση</a> με χρηματοδότηση από το <a href=\"http://nsf.gov/\">Εθνικό Ίδρυμα Επιστημών</a> και το <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Λεπτομέρειες
     developers: Developers

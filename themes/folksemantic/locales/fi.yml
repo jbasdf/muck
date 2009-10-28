@@ -9,7 +9,7 @@ fi:
     collections: Kokoelmiin
     collections_long: "Indeksoitava Kokoelmat"
     contribute_repository: "Edistää OCW / OER Repository"
-    credits: "Kehittämä <a href=\"http://cosl.usu.edu\">Center for Open ja kestävä oppiminen</a> rahoituksella <a href=\"http://nsf.gov/\">National Science Foundationin</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    credits: "Kehittämä <a href=\"http://www.tatemae.com\">Tatemae</a> on <a href=\"http://cosl.usu.edu\">Center for Open ja kestävä oppiminen</a> rahoituksella <a href=\"http://nsf.gov/\">National Science Foundationin</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Esittelyauto
     details: Yksityiskohtia
     developers: Kehittäjiä

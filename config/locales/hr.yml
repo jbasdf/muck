@@ -25,7 +25,7 @@ hr:
       my_dashboard: "Moj Nadzorna ploča"
       permissions: Dozvole
       themes: Teme
-      users: Users
+      users: Korisnici
     contact_request: "Kontakt Upit"
     contact_thanks: "Hvala za jedan dan nas kontaktirate. Primili smo Vašu e-mail i bit će u kontaktu uskoro."
     user_greeting: "Hi {{user}},"

@@ -9,7 +9,7 @@ it:
     collections: Collezioni
     collections_long: "Indicizzati Collezioni"
     contribute_repository: "Contribuire OCW / Repository OER"
-    credits: "Sviluppato dal <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning,</a> con finanziamenti della <a href=\"http://nsf.gov/\">National Science Foundation</a> e la <a href=\"http://www.mellon.org/\">Fondazione Andrew W Mellon</a>"
+    credits: "Sviluppato da <a href=\"http://www.tatemae.com\">Tatemae</a> per il <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning,</a> con finanziamenti della <a href=\"http://nsf.gov/\">National Science Foundation</a> e la <a href=\"http://www.mellon.org/\">Fondazione Andrew W Mellon</a>"
     demo: Demo
     details: Dettagli
     developers: Developers

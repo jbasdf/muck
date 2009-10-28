@@ -9,7 +9,7 @@ sv:
     collections: Samlingar
     collections_long: "Indexed Collections"
     contribute_repository: "Medverka OCW / OER Repository"
-    credits: "Utvecklats av <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med finansiering från <a href=\"http://nsf.gov/\">National Science Foundation</a> och <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    credits: "Utvecklad av <a href=\"http://www.tatemae.com\">Tatemae</a> för <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med finansiering från <a href=\"http://nsf.gov/\">National Science Foundation</a> och <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detaljer
     developers: Utvecklare
@@ -49,7 +49,7 @@ sv:
     rss: RSS
     search: söka
     search_button: Gå
-    search_description: "Hitta learning resurser genom <span class=\"highlight\">att söka</span> och <span class=\"highlight\">bläddra</span> över <span class=\"highlight\">110.000</span> öppna utbildningsresurser"
+    search_description: "Hitta learning resurser genom att <span class=\"highlight\">söka</span> och <span class=\"highlight\">bläddra</span> över <span class=\"highlight\">110.000</span> öppna utbildningsresurser"
     search_link: "Hitta resurser!"
     tag_line: "ge öppen utbildning"
     title: folksemantic
@@ -59,7 +59,7 @@ sv:
     welcome: "Välkommen till Folksemantic."
     welcome_message: "Vi arbetar aktivt för att integrera OCWFinder och OERRecommender till en webbplats för att hjälpa dig hitta de mest intressanta och relevanta pedagogiska resurser."
     welcome_user: "Välkommen {{user}}"
-    widgets_description: "Få widgets för att hjälpa användarna att <span class=\"highlight\">hitta</span> resurser och <span class=\"highlight\">hitta resurser</span> som <span class=\"highlight\">rör</span> dem på din webbplats"
+    widgets_description: "Få widgets för att hjälpa användarna <span class=\"highlight\">att hitta</span> resurser och <span class=\"highlight\">hitta resurser</span> som <span class=\"highlight\">rör</span> dem på din webbplats"
     widgets_link: "Get Widgets!"
     widgets_title: "folksemantic widgets"
     xml: XML

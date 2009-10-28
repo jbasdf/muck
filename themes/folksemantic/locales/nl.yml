@@ -9,7 +9,7 @@ nl:
     collections: Collecties
     collections_long: "Geïndexeerde Collecties"
     contribute_repository: "Bijdragen OCW / OER Repository"
-    credits: "Ontwikkeld door het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering van de <a href=\"http://nsf.gov/\">National Science Foundation</a> en de <a href=\"http://www.mellon.org/\">W Andrew Mellon Foundation</a>"
+    credits: "Ontwikkeld door <a href=\"http://www.tatemae.com\">Tatemae</a> voor het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering van de <a href=\"http://nsf.gov/\">National Science Foundation</a> en de <a href=\"http://www.mellon.org/\">W Andrew Mellon Foundation</a>"
     demo: Demo
     details: Details
     developers: Ontwikkelaars
@@ -59,7 +59,7 @@ nl:
     welcome: "Welkom bij Folksemantic."
     welcome_message: "We zijn druk bezig om OCWFinder en OERRecommender integreren in een site om u te helpen de meest interessante en relevante educatieve middelen."
     welcome_user: "Welkom {{user}}"
-    widgets_description: "Krijg widgets gebruikers te helpen middelen te <span class=\"highlight\">vinden</span> en te <span class=\"highlight\">ontdekken middelen met betrekking</span> tot degenen op uw website"
+    widgets_description: "Krijg widgets gebruikers te helpen middelen <span class=\"highlight\">te vinden</span> en <span class=\"highlight\">te ontdekken middelen met betrekking</span> tot degenen op uw website"
     widgets_link: "Widgets Get!"
     widgets_title: "folksemantic widgets"
     xml: XML

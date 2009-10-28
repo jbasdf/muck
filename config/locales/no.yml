@@ -5,7 +5,7 @@
     contact_response_subject: "Takk for forespørselen fra {{application_name}}!"
     contact_us: "Kontakt oss"
     email: "Din e-post:"
-    email_help: "Vennligst oppgi din e-post slik at vi kan kontakte deg om nødvendig."
+    email_help: "Gi oss din e-post slik at vi kan kontakte deg om nødvendig."
     name: "Ditt navn:"
     name_help: "Vennligst oppgi ditt navn."
     phone: "Ditt telefonnummer:"

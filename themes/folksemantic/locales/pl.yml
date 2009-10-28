@@ -9,7 +9,7 @@ pl:
     collections: Kolekcje
     collections_long: "Indexed Kolekcje"
     contribute_repository: "Skomentuj OCW / OER Repository"
-    credits: "Opracowane przez <a href=\"http://cosl.usu.edu\">Centrum Otwartej i trwałego uczenia się</a> dzięki funduszom <a href=\"http://nsf.gov/\">National Science Foundation</a> i <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    credits: "Opracowane przez <a href=\"http://www.tatemae.com\">Tatemae</a> do <a href=\"http://cosl.usu.edu\">Centrum Otwartej i trwałego uczenia się</a> dzięki funduszom <a href=\"http://nsf.gov/\">National Science Foundation</a> i <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Szczegóły
     developers: Developers
