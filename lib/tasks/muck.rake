@@ -43,7 +43,9 @@ namespace :muck do
     Rake::Task[ "muck:release_gems" ].execute
     Rake::Task[ "muck:commit_gems" ].execute
     Rake::Task[ "muck:push_gems" ].execute
+    Rake::Task[ "muck:sync" ].execute
     Rake::Task[ "muck:versions" ].execute
+    Rake::Task[ "muck:install_gems" ].execute
     # Commit and push muck
     git_commit("#{projects_path}/muck", "Updated gem versions")
     git_pull("#{projects_path}/muck")
