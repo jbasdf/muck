@@ -20,18 +20,19 @@ Rails::Initializer.run do |config|
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com'
-  config.gem "binarylogic-authlogic", :lib => 'authlogic', :source  => 'http://gems.github.com', :version => ">=2.1.1"
-  config.gem "binarylogic-searchlogic", :lib => 'searchlogic', :source  => 'http://gems.github.com', :version => '>= 2.3.1'
+  config.gem "authlogic", :version => ">=2.1.2"
+  config.gem "searchlogic", :version => '>= 2.3.5'
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.1.1"
   config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
   config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set', :source => "http://gems.github.com"
   config.gem "openrain-action_mailer_tls", :lib => 'smtp_tls', :source => "http://gems.github.com" # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
-  config.gem "friendly_id", :version => '>=2.1.3'
+  config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "rgrove-sanitize", :lib => 'sanitize'
   config.gem "newrelic_rpm"
   config.gem "muck-feedbag", :lib => "feedbag", :source => "http://gems.github.com"
   config.gem "pauldix-feedzirra", :lib => 'feedzirra', :source => "http://gems.github.com"
+  
   config.gem 'babelphish', :version => '>=0.2.6'
   config.gem 'disguise', :version => '>=0.3.10'
   config.gem 'uploader', :version => '>=0.2.2'
