@@ -23,15 +23,15 @@ Rails::Initializer.run do |config|
   config.gem "authlogic", :version => ">=2.1.2"
   config.gem "searchlogic", :version => '>= 2.3.5'
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.1.1"
-  config.gem 'mbleigh-acts-as-taggable-on', :lib => "acts-as-taggable-on", :source => "http://gems.github.com"
+  config.gem 'acts-as-taggable-on'
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
-  config.gem "collectiveidea-awesome_nested_set", :lib => 'awesome_nested_set', :source => "http://gems.github.com"
-  config.gem "openrain-action_mailer_tls", :lib => 'smtp_tls', :source => "http://gems.github.com" # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
+  config.gem "awesome_nested_set"
+  config.gem "action_mailer_tls", :lib => 'smtp_tls' # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
   config.gem "friendly_id", :version => '>=2.2.0'
-  config.gem "rgrove-sanitize", :lib => 'sanitize'
+  config.gem "sanitize"
   config.gem "newrelic_rpm"
   config.gem "muck-feedbag", :lib => "feedbag", :source => "http://gems.github.com"
-  config.gem "pauldix-feedzirra", :lib => 'feedzirra', :source => "http://gems.github.com"
+  config.gem "feedzirra"
   
   config.gem 'babelphish', :version => '>=0.2.5'
   config.gem 'disguise', :version => '>=0.3.11'

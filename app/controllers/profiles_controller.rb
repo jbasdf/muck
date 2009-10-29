@@ -3,10 +3,6 @@ class ProfilesController < Muck::ProfilesController
   #before_filter :search_results, :only => [:index, :search]
   before_filter :store_location, :only => [:index, :show, :edit]
   
-  def index
-    @users = User.by_newest.paginate(:page => @page, :per_page => @per_page, :include => 'profile')
-  end
-  
   def show
     @user = User.find(params[:id])
     @profile = @user.profile
