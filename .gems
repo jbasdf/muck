@@ -1,0 +1,23 @@
+bcrypt-ruby --version '>=2.1.1'
+mislav-will_paginate --source http://gems.github.com
+searchlogic
+authlogic
+acts-as-taggable-on
+awesome_nested_set
+httparty
+nokogiri
+feedzirra
+action_mailer_tls
+friendly_id
+thoughtbot-paperclip --source http://gems.github.com
+muck-feedbag --source http://gems.github.com
+babelphish
+uploader
+muck-users
+muck-engine
+muck-activities
+muck-profiles
+muck-shares
+muck-contents
+muck-raker
+muck-solr

@@ -19,7 +19,6 @@
             jquery/jquery.fancybox.js
             muck.js
             muck_raker.js
-            muck_activities.js
             application.js }, :cache => 'all_js_cached' %>
 <%= javascript_tag %[var AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? %>
 <%= yield :head -%>
