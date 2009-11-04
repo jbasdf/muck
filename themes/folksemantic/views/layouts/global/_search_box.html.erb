@@ -4,7 +4,7 @@
       <%= text_field_tag(:q, (@term_list.nil? || !@tag_filter.nil?) ? t('folksemantic.search') : URI.unescape(@term_list), :id => 'search-box', :onclick => 'insearch(this)', :onblur => 'outsearch(this)') %>
       <input class="input-button" type="submit" value="<%= t('folksemantic.search_button') %>"/>
       <div id="user-login">
-        <%= select_tag('grain_size', options_for_select([[t('muck.raker.all_resources'),'all'], [t('muck.raker.only_courses'),'course']], [@grain_size])) %>
+        <%= select_tag('grain_size', options_for_select([[t('muck.services.all_resources'),'all'], [t('muck.services.only_courses'),'course']], [@grain_size])) %>
 		&nbsp;
         <% if logged_in? -%>
           <%= link_to t('muck.users.sign_out_title'), logout_path %>

@@ -4,22 +4,22 @@
   </div>
   <div id="close" class="section">
     <a id="close_frame" title="Remove frame and go to this web address." class="url_fragment" href="<%= @resource_uri %>"> </a>
-    <a id="close_frame_text" title="Remove frame and go to this web address." class="url_fragment" href="<%= @resource_uri %>"><%= t('muck.raker.close') %></a>
+    <a id="close_frame_text" title="Remove frame and go to this web address." class="url_fragment" href="<%= @resource_uri %>"><%= t('muck.services.close') %></a>
   </div>
   <div id="search" class="section">
     <% form_tag(search_entries_path, {:method => :get}) do -%>
       <div id="search_box"><%= text_field_tag(:q, '', :id => 'search-box') %></div>
-      <input id="search_go" class="input-button" type="submit" value="<%= t('muck.raker.search_button') %>"/>
+      <input id="search_go" class="input-button" type="submit" value="<%= t('muck.services.search_button') %>"/>
     <% end -%>
   </div>
   <div id="tools" class="section">
-    <%#= link_to t('muck.raker.remix'), new_content_path(@entry), :id => 'share'  - copy the page into the content system %>
-    <%#= link_to t('muck.raker.save'), new_content_path(@entry), :id => 'share'  - save the content for use later on  %>
+    <%#= link_to t('muck.services.remix'), new_content_path(@entry), :id => 'share'  - copy the page into the content system %>
+    <%#= link_to t('muck.services.save'), new_content_path(@entry), :id => 'share'  - save the content for use later on  %>
     <% if logged_in? -%>
-      <%= link_to "<img src='/images/folksemantic/icon-share.gif'/>" + t('muck.raker.share'), new_user_share_path(current_user, :title => @entry.title, :uri => @resource_uri), :id => 'share' if GlobalConfig.enable_raker_shares -%>      
+      <%= link_to "<img src='/images/folksemantic/icon-share.gif'/>" + t('muck.services.share'), new_user_share_path(current_user, :title => @entry.title, :uri => @resource_uri), :id => 'share' if GlobalConfig.enable_services_shares -%>      
     <% else -%>
-      <span id="share_login"><%= t('muck.raker.login_or_signup_prompt', :signup => link_to(t('muck.raker.signup'), signup_path, :id => 'signup'), :login => link_to(t('muck.raker.login'), login_path, :id => 'login') ) %></span>
+      <span id="share_login"><%= t('muck.services.login_or_signup_prompt', :signup => link_to(t('muck.services.signup'), signup_path, :id => 'signup'), :login => link_to(t('muck.services.login'), login_path, :id => 'login') ) %></span>
     <% end -%>
-    <%= link_to "<img src='/images/folksemantic/icon-comment.gif'/>" + t('muck.raker.comment_entries_count', :count => @comment_count), entry_comments_path(@entry), :id => 'comment' if GlobalConfig.enable_raker_comments -%>
+    <%= link_to "<img src='/images/folksemantic/icon-comment.gif'/>" + t('muck.services.comment_entries_count', :count => @comment_count), entry_comments_path(@entry), :id => 'comment' if GlobalConfig.enable_services_comments -%>
   </div>
 </div>

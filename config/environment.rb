@@ -19,7 +19,7 @@ Rails::Initializer.run do |config|
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
   # Specify gems that this application depends on and have them installed with rake gems:install
-  config.gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com'
+  config.gem 'will_paginate'
   config.gem "authlogic", :version => ">=2.1.2"
   config.gem "searchlogic", :version => '>= 2.3.5'
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.1.1"
@@ -30,7 +30,7 @@ Rails::Initializer.run do |config|
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
   config.gem "newrelic_rpm"
-  config.gem "muck-feedbag", :lib => "feedbag", :source => "http://gems.github.com"
+  config.gem "feedbag"
   config.gem "feedzirra"
   
   config.gem 'babelphish', :version => '>=0.2.5'
@@ -40,6 +40,7 @@ Rails::Initializer.run do |config|
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.6'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.2.2'
+  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.0'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.16'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.23'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.13'
