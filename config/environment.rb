@@ -32,7 +32,7 @@ Rails::Initializer.run do |config|
   config.gem "newrelic_rpm"
   config.gem "feedbag"
   config.gem "feedzirra"
-  
+  config.gem "recaptcha", :lib => "recaptcha/rails"
   config.gem 'babelphish', :version => '>=0.2.5'
   config.gem 'disguise', :version => '>=0.3.11'
   config.gem 'uploader', :version => '>=0.2.3'
