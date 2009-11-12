@@ -30,7 +30,6 @@ Rails::Initializer.run do |config|
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
   config.gem "newrelic_rpm"
-  config.gem "feedbag"
   config.gem "feedzirra"
   config.gem "recaptcha", :lib => "recaptcha/rails"
   config.gem 'babelphish', :version => '>=0.2.5'
@@ -40,6 +39,7 @@ Rails::Initializer.run do |config|
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.9'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.2.2'
+  config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
   config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.0'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.16'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.23'
