@@ -31,25 +31,26 @@ Rails::Initializer.run do |config|
   config.gem "sanitize"
   config.gem "newrelic_rpm"
   config.gem "feedzirra"
+  config.gem 'tiny_mce'
   config.gem "recaptcha", :lib => "recaptcha/rails"
-  config.gem 'babelphish', :version => '>=0.2.5'
+  config.gem 'babelphish', :version => '>=0.2.6'
   config.gem 'disguise', :version => '>=0.3.11'
-  config.gem 'uploader', :version => '>=0.2.3'
+  config.gem 'uploader', :version => '>=0.2.4'
   #config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.5.7'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.9'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.15'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
-  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.2.2'
+  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.4'
   config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
-  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.0'
-  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.16'
-  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.23'
-  config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.13'
-  config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.14'
-  config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.14'
-  config.gem 'muck-shares', :lib => 'muck_shares', :version => '>=0.1.7'
-  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.1.11'
-  config.gem 'muck-blogs', :lib => 'muck_blogs', :version => '>=0.1.7'
-  config.gem 'muck-invites', :lib => 'muck_invites', :version => '>=0.1.2'
+  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.11'
+  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.17'
+  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.24'
+  config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.15'
+  config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.16'
+  config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.16'
+  config.gem 'muck-shares', :lib => 'muck_shares', :version => '>=0.1.8'
+  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.1.12'
+  config.gem 'muck-blogs', :lib => 'muck_blogs', :version => '>=0.1.8'
+  config.gem 'muck-invites', :lib => 'muck_invites', :version => '>=0.1.3'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named

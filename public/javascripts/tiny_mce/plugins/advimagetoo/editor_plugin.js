@@ -1,10 +1,8 @@
 /**
  * $Id: editor_plugin_src.js 520 2008-01-07 16:30:32Z spocke $
- *
  * @author Moxiecode
  * @copyright Copyright © 2004-2008, Moxiecode Systems AB, All rights reserved.
  */
-
 (function() {
 	tinymce.create('tinymce.plugins.AdvancedImageTooPlugin', {
 		init : function(ed, url) {
@@ -17,9 +15,7 @@
 					return;
 
 				ed.windowManager.open({
-					file : url + '/image.htm?path=' + jQuery('#image-path').val() + 
-								'&id=' + jQuery('#parent-id').val() + 
-								'&type=' + jQuery('#parent-type').val() +
+					file : url + '/image.htm?path=' + jQuery('#upload-path').val() +
 								'&sessionkey=' + jQuery('#session-key').val() + 
 								'&sessionid=' + jQuery('#session-id').val(),
 					width : 675 + parseInt(ed.getLang('advimagetoo.delta_width', 0)),

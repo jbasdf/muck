@@ -1,5 +1,5 @@
 /**
- * $Id: editor_plugin_src.js 916 2008-09-03 08:57:45Z spocke $
+ * $Id: editor_plugin_src.js 1206 2009-08-19 12:30:52Z spocke $
  *
  * @author Moxiecode
  * @copyright Copyright © 2004-2008, Moxiecode Systems AB, All rights reserved.
@@ -33,7 +33,52 @@
 				ed.addButton(c[0], {title : c[1], cmd : c[2], ui : c[3]});
 			});
 
+			if (ed.getParam('inline_styles')) {
+				// Force move of attribs to styles in strict mode
+				ed.onPreProcess.add(function(ed, o) {
+					var dom = ed.dom;
+
+					each(dom.select('table', o.node), function(n) {
+						var v;
+
+						if (v = dom.getAttrib(n, 'width')) {
+							dom.setStyle(n, 'width', v);
+							dom.setAttrib(n, 'width');
+						}
+
+						if (v = dom.getAttrib(n, 'height')) {
+							dom.setStyle(n, 'height', v);
+							dom.setAttrib(n, 'height');
+						}
+					});
+				});
+			}
+
 			ed.onInit.add(function() {
+				// Fixes an issue on Gecko where it's impossible to place the caret behind a table
+				// This fix will force a paragraph element after the table but only when the forced_root_block setting is enabled
+				if (!tinymce.isIE && ed.getParam('forced_root_block')) {
+					function fixTableCaretPos() {
+						var last = ed.getBody().lastChild;
+
+						if (last && last.nodeName == 'TABLE')
+							ed.dom.add(ed.getBody(), 'p', null, '<br mce_bogus="1" />');
+					};
+
+					ed.onKeyUp.add(fixTableCaretPos);
+					ed.onSetContent.add(fixTableCaretPos);
+					ed.onVisualAid.add(fixTableCaretPos);
+
+					ed.onPreProcess.add(function(ed, o) {
+						var last = o.node.lastChild;
+
+						if (last && last.childNodes.length == 1 && last.firstChild.nodeName == 'BR')
+							ed.dom.remove(last);
+					});
+
+					fixTableCaretPos();
+				}
+
 				if (ed && ed.plugins.contextmenu) {
 					ed.plugins.contextmenu.onContextMenu.add(function(th, m, e) {
 						var sm, se = ed.selection, el = se.getNode() || ed.getBody();

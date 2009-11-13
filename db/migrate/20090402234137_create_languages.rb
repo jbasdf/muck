@@ -5,7 +5,7 @@ class CreateLanguages < ActiveRecord::Migration
       t.string :english_name
       t.string :locale
       t.boolean :supported, :default => true
-      t.integer :is_default, :default => false
+      t.boolean :is_default, :default => false
     end
     add_index :languages, :name
     add_index :languages, :locale

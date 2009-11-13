@@ -17,9 +17,7 @@
 					return;
 
 				ed.windowManager.open({
-					file : url + '/image.htm?path=' + jQuery('#image-path').val() + 
-								'&id=' + jQuery('#parent-id').val() + 
-								'&type=' + jQuery('#parent-type').val() +
+					file : url + '/image.htm?path=' + jQuery('#upload-path').val() +
 								'&sessionkey=' + jQuery('#session-key').val() + 
 								'&sessionid=' + jQuery('#session-id').val(),
 					width : 675 + parseInt(ed.getLang('advimagetoo.delta_width', 0)),

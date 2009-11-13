@@ -35,7 +35,7 @@ namespace :muck do
   end
   
   desc "Gets everything ready for a release. Translates muck + gems, release gems, commits gems translates muck, writes versions into muck and then commits muck.  This takes a while"
-  task :prepare_release do
+  task :full_gem_release do
     # Be sure to pull down all the latest code for each gem before a release
     Rake::Task[ "muck:commit_gems" ].execute
     Rake::Task[ "muck:pull_gems" ].execute
