@@ -31,6 +31,8 @@ Rails::Initializer.run do |config|
   config.gem "sanitize"
   config.gem "newrelic_rpm"
   config.gem "feedzirra"
+  config.gem 'jrails'
+  config.gem 'geokit'
   config.gem 'tiny_mce'
   config.gem "recaptcha", :lib => "recaptcha/rails"
   config.gem 'babelphish', :version => '>=0.2.6'

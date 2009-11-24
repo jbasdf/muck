@@ -54,7 +54,7 @@ class User < ActiveRecord::Base
   has_muck_blog
   acts_as_muck_inviter
   
-  has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
+  has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy
   
   def after_create
     add_activity(self, self, self, 'welcome', '', '')

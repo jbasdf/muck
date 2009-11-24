@@ -39,7 +39,7 @@ namespace :muck do
     # Be sure to pull down all the latest code for each gem before a release
     Rake::Task[ "muck:commit_gems" ].execute
     Rake::Task[ "muck:pull_gems" ].execute
-    Rake::Task[ "muck:translate_all" ].execute
+    #Rake::Task[ "muck:translate_all" ].execute
     Rake::Task[ "muck:release_gems" ].execute
     Rake::Task[ "muck:commit_gems" ].execute
     Rake::Task[ "muck:push_gems" ].execute
