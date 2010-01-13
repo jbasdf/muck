@@ -9,12 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090928213532) do
-
-  create_table "action_types", :force => true do |t|
-    t.string  "action_type"
-    t.integer "weight"
-  end
+ActiveRecord::Schema.define(:version => 20091128170318) do
 
   create_table "activities", :force => true do |t|
     t.integer  "item_id"
@@ -49,6 +44,7 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
   create_table "aggregation_feeds", :force => true do |t|
     t.integer "aggregation_id"
     t.integer "feed_id"
+    t.string  "feed_type",      :default => "Feed"
   end
 
   add_index "aggregation_feeds", ["aggregation_id"], :name => "index_aggregation_feeds_on_aggregation_id"
@@ -63,17 +59,27 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
     t.datetime "updated_at"
     t.integer  "ownable_id"
     t.string   "ownable_type"
+    t.integer  "feed_count",   :default => 0
   end
 
   add_index "aggregations", ["ownable_id", "ownable_type"], :name => "index_aggregations_on_ownable_id_and_ownable_type"
 
-  create_table "attentions", :force => true do |t|
-    t.integer "attentionable_id"
-    t.string  "attentionable_type"
-    t.integer "entry_id"
-    t.string  "action_type"
-    t.float   "weight"
+  create_table "attention_types", :force => true do |t|
+    t.string  "name"
+    t.integer "default_weight"
   end
+
+  create_table "attentions", :force => true do |t|
+    t.integer  "attentionable_id"
+    t.string   "attentionable_type", :default => "User"
+    t.integer  "entry_id"
+    t.integer  "attention_type_id"
+    t.integer  "weight",             :default => 5
+    t.datetime "created_at"
+  end
+
+  add_index "attentions", ["attention_type_id"], :name => "index_attentions_on_attention_type_id"
+  add_index "attentions", ["entry_id"], :name => "index_attentions_on_entry_id"
 
   create_table "blogs", :force => true do |t|
     t.integer  "blogable_id",   :default => 0
@@ -262,9 +268,9 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
     t.string   "tag_filter",                 :limit => 1000
     t.text     "top_tags"
     t.integer  "priority",                                   :default => 10
-    t.integer  "status",                                     :default => 0
-    t.datetime "last_requested_at",                          :default => '1969-01-01 00:00:00'
-    t.datetime "last_harvested_at",                          :default => '1969-01-01 00:00:00'
+    t.integer  "status",                                     :default => 1
+    t.datetime "last_requested_at"
+    t.datetime "last_harvested_at"
     t.integer  "harvest_interval",                           :default => 86400
     t.integer  "failed_requests",                            :default => 0
     t.text     "error_message"
@@ -278,7 +284,7 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
     t.string   "harvested_from_title",       :limit => 1000
     t.string   "harvested_from_short_title", :limit => 100
     t.integer  "entries_count"
-    t.integer  "default_language_id",                        :default => 38
+    t.integer  "default_language_id",                        :default => 0
     t.string   "default_grain_size",                         :default => "unknown"
     t.integer  "contributor_id"
     t.string   "etag"
@@ -306,11 +312,22 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
 
   add_index "identity_feeds", ["ownable_id", "ownable_type"], :name => "index_identity_feeds_on_ownable_id_and_ownable_type"
 
-  create_table "invites", :force => true do |t|
+  create_table "invitees", :force => true do |t|
     t.string "email", :null => false
   end
 
-  add_index "invites", ["email"], :name => "index_invites_on_email"
+  add_index "invitees", ["email"], :name => "index_invites_on_email"
+
+  create_table "invites", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "invitee_id",   :null => false
+    t.integer  "inviter_id",   :null => false
+    t.string   "inviter_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "invites", ["inviter_id", "inviter_type"], :name => "index_invites_on_inviter_id_and_inviter_type"
 
   create_table "languages", :force => true do |t|
     t.string  "name"
@@ -390,9 +407,9 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
     t.string   "title",               :limit => 1000
     t.string   "short_title",         :limit => 100
     t.integer  "contributor_id"
-    t.integer  "status",                              :default => 0
-    t.integer  "default_language_id",                 :default => 38
-    t.datetime "created_at",                          :default => '2007-01-01 00:00:00'
+    t.integer  "status"
+    t.integer  "default_language_id"
+    t.datetime "created_at"
     t.datetime "updated_at"
   end
 
@@ -404,13 +421,16 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
   end
 
   create_table "personal_recommendations", :force => true do |t|
-    t.integer "personal_recommendable_id"
-    t.string  "personal_recommendable_type"
-    t.integer "destination_id"
-    t.string  "destination_type"
-    t.integer "rank"
-    t.float   "relevance"
+    t.integer  "personal_recommendable_id"
+    t.string   "personal_recommendable_type"
+    t.integer  "destination_id"
+    t.string   "destination_type"
+    t.float    "relevance"
+    t.datetime "created_at"
+    t.datetime "visited_at"
   end
+
+  add_index "personal_recommendations", ["personal_recommendable_id"], :name => "index_personal_recommendations_on_personal_recommendable_id"
 
   create_table "profiles", :force => true do |t|
     t.integer  "user_id"
@@ -419,8 +439,19 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
     t.integer  "photo_file_size"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "location"
+    t.decimal  "lat",                :precision => 15, :scale => 10
+    t.decimal  "lng",                :precision => 15, :scale => 10
+    t.text     "about"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "city"
+    t.integer  "state_id"
+    t.integer  "country_id"
+    t.integer  "language_id"
   end
 
+  add_index "profiles", ["lat", "lng"], :name => "index_profiles_on_lat_and_lng"
   add_index "profiles", ["user_id"], :name => "index_profiles_on_user_id"
 
   create_table "queries", :force => true do |t|
@@ -465,6 +496,7 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
     t.string  "prompt"
     t.string  "template"
     t.string  "uri_data_template",   :limit => 2083, :default => ""
+    t.string  "uri_key"
   end
 
   create_table "sessions", :force => true do |t|
@@ -576,13 +608,6 @@ ActiveRecord::Schema.define(:version => 20090928213532) do
   add_index "uploads", ["local_content_type"], :name => "index_uploads_on_local_content_type"
   add_index "uploads", ["uploadable_id"], :name => "index_uploads_on_uploadable_id"
   add_index "uploads", ["uploadable_type"], :name => "index_uploads_on_uploadable_type"
-
-  create_table "user_invites", :force => true do |t|
-    t.integer "user_id",   :null => false
-    t.integer "invite_id", :null => false
-  end
-
-  add_index "user_invites", ["user_id"], :name => "index_user_invites_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "login"

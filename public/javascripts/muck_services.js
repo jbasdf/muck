@@ -2,7 +2,7 @@ function apply_show_entry_content(){
   jQuery('.combined-feed-list .feed-item .feed-title').hover(
     function () {
       jQuery(this).next('.combined-feed-list .feed-item .feed-content').show();
-    }, 
+    },
     function () {
       jQuery(this).next('.combined-feed-list .feed-item .feed-content').hide();
     }
@@ -10,7 +10,7 @@ function apply_show_entry_content(){
   jQuery('.combined-feed-list .feed-item .feed-content').hover(
     function () {
       jQuery(this).show();
-    }, 
+    },
     function () {
       jQuery(this).hide();
     }
@@ -19,8 +19,9 @@ function apply_show_entry_content(){
 
 function show_tool(tool) {
   jQuery('.tool').hide();
-  jQuery("#content_iframe").width('75%');
+  jQuery('#content_iframe').width('75%');
   jQuery('#' + tool + '_tool').show();
+  jQuery('#recs_panel').css("left", jQuery("#content_iframe").width() - 252);
   maximize_space();
   return false;
 }
@@ -58,7 +59,7 @@ function setup_entry_comment_submit(){
 }
 function apply_frame_comment_hover(){
 	jQuery('.comment_holder').hover(
-     function () { jQuery(this).addClass('comment-hover'); }, 
+     function () { jQuery(this).addClass('comment-hover'); },
      function () { jQuery(this).removeClass('comment-hover'); } );
 }
 function setup_share_submit(){
@@ -91,4 +92,13 @@ jQuery(document).ready(function() {
 function maximize_iframe_height() {
   var frame = jQuery("#content_iframe");
   frame.height(jQuery(window).height() - jQuery('#toolbar').height());
+  jQuery('#recs_panel').css("left", jQuery("#content_iframe").width() - 252);
+}
+
+function initRecsPanel() {
+    var panel = jQuery("#recs_panel");
+    panel.append("<div id='rec_close_box' title='Close'>x</div>");
+    jQuery("#rec_close_box").click(function() {jQuery("#recs_panel").hide();jQuery("#show_recommendations_link").show();return false;});
+    panel.css("left", jQuery("#toolbar").width() - 250);
+    panel.draggable();
 }

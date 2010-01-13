@@ -20,39 +20,41 @@ Rails::Initializer.run do |config|
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem 'will_paginate'
+  config.gem 'jrails'
   config.gem "authlogic", :version => ">=2.1.2"
   config.gem "searchlogic", :version => '>= 2.3.5'
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.1.1"
   config.gem 'acts-as-taggable-on'
   config.gem 'paperclip'
-  config.gem "awesome_nested_set"
-  config.gem "action_mailer_tls", :lib => 'smtp_tls' # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
+  config.gem "awesome_nested_set", :lib => 'awesome_nested_set'
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
+  config.gem "recaptcha", :lib => "recaptcha/rails"
   config.gem "newrelic_rpm"
   config.gem "feedzirra"
-  config.gem 'jrails'
-  config.gem 'geokit'
   config.gem 'tiny_mce'
-  config.gem "recaptcha", :lib => "recaptcha/rails"
+  config.gem 'geokit'
+  config.gem 'httparty'
+  config.gem "oauth"
+  config.gem "oauth-plugin"
+  config.gem "disguise"
   config.gem 'babelphish', :version => '>=0.2.6'
-  config.gem 'disguise', :version => '>=0.3.11'
-  config.gem 'uploader', :version => '>=0.2.4'
-  #config.gem 'cms-lite', :lib => 'cms_lite', :version => '>=0.5.7'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.15'
+  config.gem 'uploader', :version => '>=0.2.7'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.21'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
-  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.4'
   config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
-  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.11'
-  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.17'
-  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.24'
-  config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.15'
-  config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.16'
-  config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.16'
+  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.6'
+  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.23'
+  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.18'
+  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.25'
+  config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.17'
+  config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.18'
+  config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.17'
   config.gem 'muck-shares', :lib => 'muck_shares', :version => '>=0.1.8'
-  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.1.12'
+  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.2.11'
   config.gem 'muck-blogs', :lib => 'muck_blogs', :version => '>=0.1.8'
-  config.gem 'muck-invites', :lib => 'muck_invites', :version => '>=0.1.3'
+  config.gem 'muck-invites', :lib => 'muck_invites', :version => '>=0.1.5'
+  config.gem 'muck-oauth', :lib => 'muck_oauth', :version => '>=0.1.1'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named

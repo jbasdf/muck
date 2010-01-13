@@ -1,0 +1,32 @@
+= Muck
+Muck is a Rails application that makes use of all the muck related gems.  It is currently only an example app.
+
+== Installation
+A full muck install requires a standard Ruby on Rails stack as well as a Java installation to function correctly.  If you don't plan on running the recommender or aggregator then java is not required.
+
+=== Install the required gems
+rake gems:install won't work because the gems are included in the project's Rakefile.  Instead copy and paste the code below into your command line.  It will take a while to install all the gems.
+  sudo gem install acts-as-taggable-on
+  sudo gem install awesome_nested_set
+  sudo gem install action_mailer_tls
+  sudo gem install friendly_id
+  sudo gem install paperclip
+  sudo gem install bcrypt-ruby
+  sudo gem install will_paginate
+  sudo gem install authlogic
+  sudo gem install searchlogic
+  sudo gem install sanitize
+  sudo gem install newrelic_rpm
+  sudo gem install babelphish
+  sudo gem install uploader
+  sudo gem install muck-profiles
+  sudo gem install muck-solr
+  sudo gem install muck-users
+  sudo gem install muck-engine
+  sudo gem install muck-contents
+  sudo gem install muck-comments
+  
+  
+=== Setup the database
+  rake db:create
+  rake db:migrate

@@ -84,3 +84,6 @@ div.jGrowl div.jGrowl-notification h2{text-align:left;font-weight:bold;padding:5
 #errorExplanation h2{text-align:left;font-weight:bold;padding:5px 5px 5px 15px;font-size:16px;background-color:#B61E12;color:#fff;}
 #errorExplanation p{color:#333;margin-bottom:0;padding:5px;}
 #errorExplanation ul li{list-style:square;}
+
+/* support */
+.support-information{font-size:9px;color:#333;}

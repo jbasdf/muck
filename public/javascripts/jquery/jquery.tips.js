@@ -1,16 +1,17 @@
 jQuery(document).ready(function() {
 	jQuery(".tip-field").focus(function() {
 		jQuery(".active").removeClass("active");
-		var tip_key = jQuery('#' + this.id).siblings('#tip-key');
+		var tip_key = jQuery('#' + this.id).siblings('.tip-key');
 		var control_id = this.id;
 		var help_id = this.id;
+		var field = jQuery('#' + this.id);
 		if (tip_key.length > 0){
 			control_id = tip_key.html();
-			help_id = jQuery('#' + this.id).siblings('#tip-id').html();
-		}		
-		var tip_text = jQuery('#' + help_id + "-help").html();
-		var tip_title = jQuery('#' + help_id + "-help-title").html();
-		var tip_position = jQuery('#' + help_id + "-help-position").html();
+			help_id = field.siblings('.tip-id').html();
+		}
+		var tip_text = field.siblings('.tip-text').html();
+		var tip_title = field.siblings('.tip-title').html();
+		var tip_position = field.siblings('.tip-position').html();
 		if (!tip_position) { tip_position = 'right'; }
 		show_tip(control_id, tip_title, tip_text, tip_position);
 		jQuery("#" + help_id + "-container").addClass("active");

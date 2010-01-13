@@ -15,7 +15,7 @@ ul#activity-filter li.current a{color:#5EAC18;}
 #activity-feed{margin:15px 0 0 0;}
 #activity-feed-content .activity{margin:8px 0 4px 0;}
 #activity-feed-content .activity-time{font-size:1em;font-color:#eee;clear:left;}
-#activity-icon, .actor-icon{width:50px;float:left;margin:0 10px 10px 0;}
+#activity-icon, .actor-icon{width:50px;float:left;margin:0 10px 10px 0;overflow:hidden;}
 #activity-feed-content .actor, #current-status-name{font-weight:bolder;font-size:1.3em;}
 .activity-time, .status-time{color:#777777;font-size:.9em;}
 p#current-status-text, .activity-content p{margin:0;}

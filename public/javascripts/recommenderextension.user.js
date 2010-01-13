@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           RecommenderExtension
-// @namespace      folksemantic.com
+// @namespace      folksemanticsemanticFrames.com
 // @description    Folksemantic Recommender GM Script - Recommends resources to a user based upon their current url.
 // @include        *
 // ==/UserScript==
@@ -211,12 +211,9 @@ function demoDomain(sUrl) {
 }
 function blacklistedDomain(sUrl) {
     for (nDomain = 0; nDomain < blacklistedDomains.length; nDomain++) {
-        if (sUrl.startsWith(blacklistedDomains[nDomain])) return true;
+        if (sUrl.indexOf(blacklistedDomains[nDomain]) != -1) return true;
     }
     return false;
-}
-function userRequest(sUrl) {
-    return (sUrl.indexOf("rtr=true") != -1);
 }
 function folksemanticFrames(sUrl) {
     return (sUrl.indexOf("show_recs=true") != -1);
@@ -267,7 +264,33 @@ function morePrompt(root) {
     return sDocID == '' ? '' : '<div class="recommender_more_link" style="margin: 3px; padding: 0px;" align="center"><a href="' + sShowDocUrl + sDocID + '" style="color:#3987DC !important; text-decoration:none !important; ">' + sMorePrompt + '</a></div>';
 }
 
-function positionSquatter(recommendersquat, bDraggable) {
+function createCloseBox(recommendersquat) {
+        var close = window.document.createElement("div");
+        dom_setStyle(close,
+                "margin:3px; position:absolute; top:3px; right:3px; font-family:arial,sans-serif;padding:1px; width:10px; border:1px solid #BBBBBB; text-align:center; cursor:pointer; color:#BBB; font-size:11px; background-color:#fff; font-weight:bold; z-index:999;");
+        close.setAttribute("title", "Click to close panel");
+        close.addEventListener('click', function() {
+            this.parentNode.style.display = "none";
+        }, true);
+        close.appendChild(window.document.createTextNode("x"));
+        recommendersquat.appendChild(close);
+}
+
+function verticalScrollBars() {
+	var vHeight = 0;
+	if (document.all) {
+	  if (document.documentElement) {
+	    vHeight = document.documentElement.clientHeight;
+	  } else {
+	    vHeight = document.body.clientHeight
+	  }
+	} else {
+ 	 vHeight = window.innerHeight;
+	}
+	return (document.body.offsetHeight > vHeight);
+}
+
+function positionSquatter(recommendersquat, bRealTime) {
     // we treat educommons and mit sites differently
     if (bSpecialSite == true)
     {
@@ -278,51 +301,42 @@ function positionSquatter(recommendersquat, bDraggable) {
     else {
         // calculate the position for the recommender div
         var squatterWidth = 250;
-        var scrollWidth = 5;
-        if (document.documentElement.scrollHeight > document.documentElement.clientHeight)
-            scrollWidth = 20;
+        var scrollWidth = verticalScrollBars() ? 20 : 5;
         var rightAligned = window.innerWidth - squatterWidth - scrollWidth;
 
-        // get a hold of the title div
-        var recommendertop = document.getElementById('recommendertop');
-
         // position the squatter
-        recommendersquat.setAttribute("style", 'margin:0px; font-size: 12px; font-family:Arial, Helvetica, sans-serif !important; border:1px solid #000; width:' + squatterWidth + 'px; position:absolute; left:' + rightAligned + 'px; top:2px; background-color:#FFF; z-index:999;');
+	if (bRealTime){
+		style = 'margin:0px; border:none; width:' + squatterWidth + 'px; position:absolute; left:' + rightAligned + 'px; top:2px; background-color:transparent; z-index:999;';
+	}else{
+		style = 'margin:0px; font-size: 12px; font-family:Arial, Helvetica, sans-serif !important; border:1px solid #000; width:' + squatterWidth + 'px; position:absolute; left:' + rightAligned + 'px; top:2px; background-color:#FFF; z-index:999;';
+	}
+        recommendersquat.setAttribute("style", style);
 
-        // make the div draggable
-        if (bDraggable) recommendersquat.drag = new Drag(recommendertop, recommendersquat);
-
-        // insert a close box into the div title
-        var close = window.document.createElement("div");
-        dom_setStyle(close,
-                "margin:0; position:absolute; top:3px; right:3px; font-family:arial,sans-serif;padding:1px; width:10px; border:1px solid #BBBBBB; text-align:center; cursor:pointer; color:#BBB; font-size:11px; background-color:#fff; font-weight:bold; z-index:999;");
-        close.setAttribute("title", "Click to close panel");
-        close.addEventListener('click', function() {
-            this.parentNode.style.display = "none";
-        }, true);
-        close.appendChild(window.document.createTextNode("x"));
-        recommendersquat.appendChild(close);
+	recommendersquat.drag = new Drag(document.getElementById('recommendertop'), recommendersquat);
+	createCloseBox(recommendersquat);
     }
 }
 
-function embedFunction(s) {
-    document.body.appendChild(document.createElement('script')).innerHTML = s.toString().replace(/([\s\S]*?return;){2}([\s\S]*)}/, '$2');
+function squatterHeader(sTitle, bFrame) {
+ border = bFrame ? "border-top:1px solid black;border-right:1px solid black;border-left:1px solid black;width:240px;" : "border:none;";
+ return '<div id="recommendertop" style="color:#777;background-color:white;font-weight:bold;font-size:16px;font-family:Arial,Helvetica,sans-serif;margin: 2px 3px 0 3px; padding: 2px;' + border + '"><img src="' + sBaseUrl + '/images/folksemantic/logo-folksemantic-gm.gif" style="vertical-align:middle;"/>&nbsp;&nbsp;' + sTitle + '</div>';
 }
 
-function showRecs() {
-    window.location = window.location + (new String(window.location).indexOf('?') == -1 ? "?" : "&") + "rtr=true";
+function squatterContent(root, recommendations) {
+    return squatterHeader(root.getAttribute("title"),false) + recList(recommendations, root.getAttribute("direct_link_text")) + morePrompt(root);
 }
 
-function displaySquatter(sContent, bDraggable) {
-    var sRecHeader = '<div id="recommendertop" style="margin: 2px 3px 2px 3px; padding: 0px;"><img src="' + sBaseUrl + '/images/folksemantic/logo-folksemantic-gm.gif" style="vertical-align:middle;"/><span style="padding-left:5px;font-size:14px;color: #777; font-weight: bold;">';
+function displayGetRecsButton(root,sUrl) {
+    src = sBaseUrl + 'recommendations/get_button?u=' + escape(sUrl);
+    header = squatterHeader(root.getAttribute("title"),true);
+    displaySquatter(header + '<iframe allowtransparency="true" scrolling="false" width="250px" height="280px" frameborder="0" src="' + src + '"></iframe>', true);
+}
+
+function displaySquatter(sContent, bRealTime) {
     var recommendersquat = document.createElement('div');
-    recommendersquat.innerHTML = sRecHeader + sContent;
+    recommendersquat.innerHTML = sContent;
     squatParent.insertBefore(recommendersquat, squatSibling);
-    positionSquatter(recommendersquat, bDraggable);
-}
-
-function displayGetRecsButton() {
-    displaySquatter('<input type="button" onclick="showRecs();" value="Get Recommendations"/></span></div>', false);
+    positionSquatter(recommendersquat, bRealTime);
 }
 
 function getRecs(sUrl) {
@@ -338,12 +352,9 @@ function getRecs(sUrl) {
             var root = dom.getElementsByTagName('recommendations')[0];
             var recommendations = dom.getElementsByTagName('recommendation');
             if (recommendations.length > 0) {
-                displaySquatter(root.getAttribute("title") + '</span></div>' + recList(recommendations, root.getAttribute("direct_link_text")) + morePrompt(root), true);
+                displaySquatter(squatterContent(root, recommendations), false);
             } else {
-                if (bUserRequest)
-                    displaySquatter('Nothing found</span></div>', false);
-                else
-                    displayGetRecsButton();
+                displayGetRecsButton(root,sUrlToGetRecsFor);
             }
         }
     });
@@ -364,11 +375,10 @@ var bNeeds = false;
 var bMIT = false;
 var bNeedsRecord = false;
 var body = null;
-var bUserRequest = userRequest(sUrlToGetRecsFor);
 var bodyTags = document.getElementsByTagName('body');
 var demoDomains = ['http://ocw.mit.edu','http://www.engineeringpathway.com'];
-var blacklistedDomains = ['http://localhost','http://folksemantic.com','http://www.folksemantic.com','http://www.ocwfinder.org','http://www.oerrecommender.org'];
-if (bodyTags && bodyTags.length > 0)
+var blacklistedDomains = ['google.com','localhost','folksemantic.com','ocwfinder.org','ocwfinder.com','oerrecommender.org'];
+if (sUrlToGetRecsFor.indexOf('http') == 0 && bodyTags && bodyTags.length > 0)
 {
     sUrlToGetRecsFor = special_website_url(sUrlToGetRecsFor);
     body = bodyTags[0];
@@ -378,11 +388,5 @@ if (bodyTags && bodyTags.length > 0)
     if (squatParent != null) {
         if (!blacklistedDomain(sUrlToGetRecsFor))
             getRecs(sServiceUrl + "u=" + sUrlToGetRecsFor);
-//        embedFunction(showRecs);
-//        if (demoDomain(sUrlToGetRecsFor) || bUserRequest) {
-//            getRecs(sServiceUrl + (bUserRequest ? "rtr=true&" : "") + "u=" + sUrlToGetRecsFor);
-//        } else if (!blacklistedDomain(sUrlToGetRecsFor)) {
-//            displayGetRecsButton();
-//        }
     }
 }

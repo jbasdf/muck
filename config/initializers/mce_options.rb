@@ -1,10 +1,6 @@
-content_css = ['/stylesheets/reset.css', '/stylesheets/ie.css', '/stylesheets/application.css', '/stylesheets/common.css', '/stylesheets/standard.css']
-if Rails.env.production?
-  content_css = ['/stylesheets/all.css']
-end
 GlobalConfig.advanced_mce_options = {
   :theme => 'advanced',
-  :content_css => content_css,
+  :content_css => GlobalConfig.content_css,
   :body_id => 'content',
   :mode => "textareas",
   :height => 650,
@@ -24,17 +20,24 @@ GlobalConfig.advanced_mce_options = {
   :theme_advanced_buttons1 => %w{save cancel print preview separator
                                 search replace separator
                                 cut copy paste pastetext pasteword selectall undo redo separator
-                                bold italic underline strikethrough styleprops separator 
+                                bold italic underline strikethrough separator 
                                 justifyleft justifycenter justifyright indent outdent separator 
                                 bullist numlist separator 
-                                link unlink image file media anchor separator                                 
-                                help},
-  :theme_advanced_buttons2 => %w{formatselect fontselect fontsizeselect forecolor backcolor separator
+                                link unlink image file media anchor separator  
+                                template visualaid separator
+                                fullscreen code},
+  :theme_advanced_buttons2 => %w{styleprops styleselect separator
+                                 formatselect fontselect fontsizeselect separator 
+                                 forecolor backcolor separator
                                  tablecontrols separator
-                                 sub sup charmap separator
-                                 template visualaid fullscreen code},
-  :theme_advanced_buttons3 => [],
-  :plugins => %w{ paste media preview inlinepopups safari save searchreplace table style template fullscreen print autosave advimagetoo advlinktoo advfiletoo},
+                                 sub sup charmap },
+  :theme_advanced_buttons3 => %w{}, #bramus_cssextras_classes bramus_cssextras_ids
+  #:theme_advanced_buttons3 => %w{cleanup code insertdate inserttime removeformat insertlayer},
+  :plugins => %w{ paste media preview inlinepopups safari save searchreplace table style template fullscreen print autosave muckimage mucklink},
+  # codehighlighting
+  # spellchecker,pagebreak,layer,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,
+  # contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template
+  # bramus_cssextras
   :editor_deselector => "mceNoEditor",
   :editor_selector => 'mceEditor',
   :remove_script_host => true,
@@ -43,12 +46,14 @@ GlobalConfig.advanced_mce_options = {
   :template_mdate_classes => "mdate modifieddate",
   :template_selected_content_classes => "selcontent",
   :template_cdate_format => "%m/%d/%Y : %H:%M:%S",
-  :template_mdate_format => "%m/%d/%Y : %H:%M:%S"
+  :template_mdate_format => "%m/%d/%Y : %H:%M:%S",
+  :save_onsavecallback => 'save_page',
+  :accessibility_warnings => false
   }
    
 GlobalConfig.simple_mce_options = {
   :theme => 'advanced',
-  :content_css => content_css,
+  :content_css => GlobalConfig.content_css,
   :body_id => 'content',
   :browsers => %w{msie gecko safari},
   :cleanup_on_startup => true,
